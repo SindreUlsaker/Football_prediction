@@ -2,10 +2,10 @@ import pandas as pd
 from data_processing import preprocess_data, calculate_rolling_averages, calculate_result_rolling_averages, calculate_match_results
 from model_training import train_model
 from prediction import predict_future_matches
-from data_fetching import save_data_to_csv
+from fetch_data_selenium import save_data_to_csv
 
 def main():
-    round_number = 38.0
+    round_number = 37.0
     save_data_to_csv()
     
     # Les data fra CSV-filer
