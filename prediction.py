@@ -1,44 +1,81 @@
+import numpy as np
 import pandas as pd
+from scipy.stats import poisson
 
 
-def predict_future_matches(
-    model, scaler, future_matches: pd.DataFrame, features: list[str]
+def compute_match_outcome_probabilities(lambda_home, lambda_away, max_goals=10):
+    """
+    Given expected goals for home and away, compute probabilities of
+    home win, draw, and away win using Poisson distributions.
+    """
+    probs_home = poisson.pmf(np.arange(max_goals + 1), lambda_home)
+    probs_away = poisson.pmf(np.arange(max_goals + 1), lambda_away)
+    match_matrix = np.outer(probs_home, probs_away)
+
+    p_home_win = np.tril(match_matrix, k=-1).sum()
+    p_draw = np.trace(match_matrix)
+    p_away_win = np.triu(match_matrix, k=1).sum()
+
+    return round(p_home_win, 3), round(p_draw, 3), round(p_away_win, 3)
+
+
+def predict_poisson_from_models(
+    model_home,
+    model_away,
+    scaler_home,
+    scaler_away,
+    df_future: pd.DataFrame,
+    features_home: list[str],
+    features_away: list[str],
+    max_goals: int = 10,
 ) -> pd.DataFrame:
     """
-    Gjør prediksjoner for kommende kamper og beregner fair odds.
+    Predict match outcome probabilities using two Poisson models.
 
-    Parametre:
-    - model: trent modell med .predict og .predict_proba
-    - scaler: objekt med .transform (samme som dere brukte i trening)
-    - future_matches: DataFrame med kolonner 'date', 'home_team', 'away_team' + alle feature-kolonner
-    - features: liste av feature-kolonnenavn som skal brukes til X
+    Parameters:
+      - model_home: trained PoissonRegressor for home goals
+      - model_away: trained PoissonRegressor for away goals
+      - scaler_home: StandardScaler fitted on home features
+      - scaler_away: StandardScaler fitted on away features
+      - df_future: DataFrame of upcoming matches
+      - features_home: list of column names for home model
+      - features_away: list of column names for away model
+      - max_goals: maximum goals to consider (default 10)
 
-    Returnerer:
-    - DataFrame med kolonner:
-        ['date','home_team','away_team',
-         'prediction','prob_home','prob_draw','prob_away',
-         'fair_odds_home','fair_odds_draw','fair_odds_away']
+    Returns:
+      DataFrame with columns:
+        date, home_team, away_team,
+        lambda_home, lambda_away,
+        prob_home, prob_draw, prob_away
     """
-    # 1) Lag X-matrise
-    X = scaler.transform(future_matches[features])
+    # Prepare home-team feature matrix
+    Xh = df_future[features_home].copy()
+    Xh["is_home"] = 1
+    Xh_scaled = scaler_home.transform(Xh)
+    lambda_home = model_home.predict(Xh_scaled)
 
-    # 2) Prediksjoner og sannsynligheter
-    preds = model.predict(X)
-    probas = model.predict_proba(X)
-    classes = list(model.classes_)
+    # Prepare away-team feature matrix
+    Xa = df_future[features_away].copy()
+    Xa["is_home"] = 0
+    Xa_scaled = scaler_away.transform(Xa)
+    lambda_away = model_away.predict(Xa_scaled)
 
-    # 3) Bygg resultat-DF
-    result = future_matches[["date", "home_team", "away_team"]].copy()
-    result["prediction"] = preds
-    # utknekking av sannsynligheter
-    result["prob_home"] = [round(p[classes.index(1)], 2) for p in probas]
-    result["prob_draw"] = [round(p[classes.index(0)], 2) for p in probas]
-    result["prob_away"] = [round(p[classes.index(-1)], 2) for p in probas]
+    # Compute outcome probabilities
+    records = []
+    for i in range(len(df_future)):
+        lam_h = lambda_home[i]
+        lam_a = lambda_away[i]
+        p_h, p_d, p_a = compute_match_outcome_probabilities(lam_h, lam_a, max_goals)
 
-    # 4) Fair odds = 1 / sannsynlighet
-    for side in ["home", "draw", "away"]:
-        result[f"fair_odds_{side}"] = result[f"prob_{side}"].apply(
-            lambda p: round(1 / p, 2) if p and p > 0 else None
+        records.append(
+            {
+                "date": df_future.iloc[i]["date"],
+                "home_team": df_future.iloc[i]["home_team"],
+                "away_team": df_future.iloc[i]["away_team"],
+                "prob_home": p_h,
+                "prob_draw": p_d,
+                "prob_away": p_a,
+            }
         )
 
-    return result
+    return pd.DataFrame(records)

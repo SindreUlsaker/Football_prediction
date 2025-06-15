@@ -1,31 +1,35 @@
-from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import train_test_split
+from sklearn.linear_model import PoissonRegressor
 from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import accuracy_score, log_loss
-
-# Globale variabler for skalering (brukes også i prediction senere)
-scaler = StandardScaler()
+import pandas as pd
 
 
-def train_model(data, features, target):
-    train_data = data.dropna(
-        subset=features + [target]
-    )  # fjern kamper uten target (fremtidige)
-    X = train_data[features]
-    # Cast target til int for diskré klasser
-    y = train_data[target].astype(int)
+def train_poisson_models(
+    data: pd.DataFrame, features_home: list[str], features_away: list[str]
+):
+    """
+    Trener Poisson-modeller for gf_home og gf_away med egne scalers.
+    """
 
-    X_scaled = scaler.fit_transform(X)
+    df = data.dropna(subset=features_home + features_away + ["gf_home", "gf_away"])
 
-    model = LogisticRegression(solver="lbfgs", max_iter=5000, random_state=42)
-    model.fit(X_scaled, y)
-    return model
+    # Hjemmelag
+    Xh = df[features_home].copy()
+    Xh["is_home"] = 1
+    yh = df["gf_home"]
 
+    # Bortelag
+    Xa = df[features_away].copy()
+    Xa["is_home"] = 0
+    ya = df["gf_away"]
 
-def evaluate_model(model, X_test, y_test):
-    X_test_scaled = scaler.transform(X_test)
-    predictions = model.predict(X_test_scaled)
-    proba = model.predict_proba(X_test_scaled)
-    acc = accuracy_score(y_test, predictions)
-    loss = log_loss(y_test, proba)
-    return {"accuracy": acc, "log_loss": loss}
+    # Én scaler for hver
+    scaler_home = StandardScaler().fit(Xh)
+    scaler_away = StandardScaler().fit(Xa)
+
+    Xh_s = scaler_home.transform(Xh)
+    Xa_s = scaler_away.transform(Xa)
+
+    model_home = PoissonRegressor(alpha=1.0, max_iter=300).fit(Xh_s, yh)
+    model_away = PoissonRegressor(alpha=1.0, max_iter=300).fit(Xa_s, ya)
+
+    return model_home, model_away, scaler_home, scaler_away

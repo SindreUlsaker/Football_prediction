@@ -1,77 +1,122 @@
 import pandas as pd
+from features import add_all_features
 
-def preprocess_data(matches, shooting_data):
-    # Gi lagnavn-kolonnen i shooting_stats et mer beskrivende navn
-    shooting_data.rename(columns={"unnamed: 0_level_0_squad": "team"}, inplace=True)
-    
-    # Kombiner hjemme- og bortelagsstatistikk med kampdata
-    matches = matches.merge(
-        shooting_data, left_on="home", right_on="team", suffixes=("", "_home")
+def preprocess_data(df_all):
+    """
+    Preprocess dataset to one row per match (home perspective):
+      - Filter to Premier League
+      - Drop duplicates and missing
+      - Parse date and sort
+      - Keep only home matches
+      - Rename columns to home_/away_
+      - Convert round to numeric
+      - Compute result_home (1: home win, 0: draw, -1: away win)
+    """
+    # 1) Filter Premier League
+    df = df_all[df_all["comp"] == "Premier League"].copy()
+    # 2) Drop duplicates and missing values
+    df = df.drop_duplicates(subset=["date", "team", "opponent"])
+    df = df.dropna(subset=["date", "team", "opponent"])
+
+    # 3) Parse date and sort chronologically
+    df["date"] = pd.to_datetime(df["date"], format="%Y-%m-%d", errors="coerce")
+    df = df.sort_values("date")
+
+    # 4) Keep only home matches (venue == 'H' or 'Home')
+    df_home = df[df["venue"].isin(["H", "Home"])].copy()
+
+    # 5) Rename metadata and stats columns
+    df_home = df_home.rename(
+        columns={
+            "team": "home_team",
+            "opponent": "away_team",
+            "gf_for": "gf_home",
+            "ga_for": "ga_home",
+            "xg_for": "xg_home",
+            "gf_against": "gf_away",
+            "ga_against": "ga_away",
+            "xg_against": "xg_away",
+        }
     )
-    matches = matches.merge(
-        shooting_data, left_on="away", right_on="team", suffixes=("", "_away")
-    )
 
-    # Konverter datoen til datetime-format for å kunne sortere etter kampdato
-    matches['date'] = pd.to_datetime(matches['date'])
-    matches = matches.sort_values(by="date")  # Sorter kampene etter dato
+    # --- Normaliser lagnavn før videre prosessering ---
+    # 1) Stripp bort whitespace
+    df_home["home_team"] = df_home["home_team"].str.strip()
+    df_home["away_team"] = df_home["away_team"].str.strip()
 
-    matches.dropna(inplace=True)  # Fjern rader med manglende verdier
-    return matches, shooting_data
+    # 2) Erstatt vanlige alias med offisielle navn
+    name_map = {
+        "Manchester Utd": "Manchester United",
+        "Wolves": "Wolverhampton Wanderers",
+        "Tottenham": "Tottenham Hotspur",
+        "West Ham": "West Ham United",
+        "Nott'ham Forest": "Nottingham Forest",
+        "Newcastle Utd": "Newcastle United",
+        "Brighton": "Brighton and Hove Albion",
+    }
+    df_home["home_team"] = df_home["home_team"].replace(name_map)
+    df_home["away_team"] = df_home["away_team"].replace(name_map)
 
-def calculate_rolling_averages(data, stats, window=5):
-    for stat in stats:
-        # Beregn rolling averages for hjemme- og bortelag
-        data[f'{stat}_home_rolling_avg'] = (
-            data.groupby('home')[stat]
-            .rolling(window, min_periods=1)
-            .mean()
-            .reset_index(level=0, drop=True)
-        )
-        data[f'{stat}_away_rolling_avg'] = (
-            data.groupby('away')[stat]
-            .rolling(window, min_periods=1)
-            .mean()
-            .reset_index(level=0, drop=True)
-        )
-    return data
+    # 6) Convert round text (e.g., 'Matchweek 38') to numeric
+    df_home["round"] = df_home["round"].astype(str).str.extract(r"(\d+)").astype(int)
 
-# Funksjon for å beregne resultatet for hver kamp
-def calculate_result(score):
-    try:
-        home_score, away_score = map(int, score.split('–'))
-        if home_score > away_score:
-            return 1  # Hjemme-seier
-        elif home_score == away_score:
-            return 0  # Uavgjort
-        else:
-            return -1  # Borte-seier    
-    except Exception as e:
-        print(f"Feil med score formatet: {score} - {e}")
-        return None
+    # 7) Compute match outcome from home perspective
+    df_home["result_home"] = df_home.apply(
+    lambda r: (
+        1 if pd.notna(r.gf_home) and pd.notna(r.gf_away) and r.gf_home > r.gf_away else
+        0 if pd.notna(r.gf_home) and pd.notna(r.gf_away) and r.gf_home == r.gf_away else
+        -1 if pd.notna(r.gf_home) and pd.notna(r.gf_away) and r.gf_home < r.gf_away else
+        pd.NA
+    ),
+    axis=1,
+)
 
-# Beregn rolling averages for resultater
-def calculate_result_rolling_averages(data, window=5):
-    result_home = data['score'].apply(lambda x: calculate_result(x) if pd.notnull(x) else None)
-    data['result_home'] = result_home
-    data['result_away'] = -result_home
+    # 8) Select final columns
+    cols = [
+        "date",
+        "season",
+        "comp",
+        "round",
+        "home_team",
+        "away_team",
+        "gf_home",
+        "ga_home",
+        "xg_home",
+        "gf_away",
+        "ga_away",
+        "xg_away",
+        "result_home",
+    ]
+    df_final = df_home[cols]
 
-    data['result_home_rolling_avg'] = (
-        data.groupby('home')['result_home']
-        .rolling(window, min_periods=1)
-        .mean()
-        .reset_index(level=0, drop=True)
-    )
-    data['result_away_rolling_avg'] = (
-        data.groupby('away')['result_away']
-        .rolling(window, min_periods=1)
-        .mean()
-        .reset_index(level=0, drop=True)
-    )
-    return data
+    return df_final
 
-def calculate_match_results(matches):
-    matches['result_home'] = matches['score'].apply(lambda x: calculate_result(x) if pd.notnull(x) else None)
-    matches['result_away'] = matches['score'].apply(lambda x: calculate_result(x) if pd.notnull(x) else None)
-    return matches
 
+def ensure_numeric(df: pd.DataFrame, cols: list[str]) -> pd.DataFrame:
+    """
+    Konverterer oppgitte kolonner til numerisk, tvinger str→NaN om nødvendig.
+    """
+    df[cols] = df[cols].apply(lambda s: pd.to_numeric(s, errors="coerce"))
+    return df
+
+
+def process_matches(
+    df: pd.DataFrame, stat_windows: dict[str, list[int]]
+) -> pd.DataFrame:
+    """
+    Full data pipeline:
+      1) Preprocess raw DataFrame (one row per match)
+      2) Ensure numeric types for goals & result
+      3) Add all features via add_all_features
+    """
+    # 1) Cleaning & basic transforms
+    df = preprocess_data(df)
+
+    # 2) Dtype safety for aggregation
+    numeric_cols = ["gf_home", "ga_home", "gf_away", "ga_away", "result_home"]
+    df = ensure_numeric(df, numeric_cols)
+
+    # 3) Feature-engineering (venue-agnostic)
+    df = add_all_features(df, stat_windows)
+
+    return df
