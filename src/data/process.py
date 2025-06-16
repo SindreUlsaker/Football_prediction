@@ -1,5 +1,5 @@
 import pandas as pd
-from features import add_all_features
+from src.features.features import add_all_features
 
 def preprocess_data(df_all):
     """
