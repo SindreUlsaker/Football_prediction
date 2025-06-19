@@ -1,31 +1,47 @@
+import os
 import pandas as pd
 from src.features.features import add_all_features
+from config.leagues import LEAGUES
 
-def preprocess_data(df_all):
+
+def preprocess_data(df_all: pd.DataFrame, league_name: str) -> pd.DataFrame:
     """
-    Preprocess dataset to one row per match (home perspective):
-      - Filter to Premier League
-      - Drop duplicates and missing
+    Preprocess dataset to one row per match (home perspective) for a given league:
+      - Map team names according to league-specific mapping
+      - Filter to specified league
+      - Drop duplicates and missing values
       - Parse date and sort
-      - Keep only home matches
+      - Keep only home matches (venue == 'Home')
       - Rename columns to home_/away_
       - Convert round to numeric
       - Compute result_home (1: home win, 0: draw, -1: away win)
     """
-    # 1) Filter Premier League
-    df = df_all[df_all["comp"] == "Premier League"].copy()
-    # 2) Drop duplicates and missing values
+    # Copy raw data
+    df = df_all.copy()
+
+    # 1) Map team/opponent names using league-specific mapping
+    cfg = LEAGUES.get(league_name, {})
+    team_map = cfg.get("team_name_map") or {}
+    df["team"] = df["team"].astype(str).str.strip().apply(lambda x: team_map.get(x, x))
+    df["opponent"] = (
+        df["opponent"].astype(str).str.strip().apply(lambda x: team_map.get(x, x))
+    )
+
+    # 2) Filter to the given league
+    df = df[df["comp"] == league_name].copy()
+
+    # 3) Drop duplicates and missing values
     df = df.drop_duplicates(subset=["date", "team", "opponent"])
     df = df.dropna(subset=["date", "team", "opponent"])
 
-    # 3) Parse date and sort chronologically
+    # 4) Parse date and sort
     df["date"] = pd.to_datetime(df["date"], format="%Y-%m-%d", errors="coerce")
     df = df.sort_values("date")
 
-    # 4) Keep only home matches (venue == 'H' or 'Home')
-    df_home = df[df["venue"].isin(["H", "Home"])].copy()
+    # 5) Keep only home matches
+    df_home = df[df["venue"] == "Home"].copy()
 
-    # 5) Rename metadata and stats columns
+    # 6) Rename metadata and stats columns for home perspective
     df_home = df_home.rename(
         columns={
             "team": "home_team",
@@ -39,39 +55,23 @@ def preprocess_data(df_all):
         }
     )
 
-    # --- Normaliser lagnavn før videre prosessering ---
-    # 1) Stripp bort whitespace
-    df_home["home_team"] = df_home["home_team"].str.strip()
-    df_home["away_team"] = df_home["away_team"].str.strip()
+    # 7) Convert round text (e.g., 'Matchweek 38') to numeric, coercing errors
+    round_series = df_home["round"].astype(str).str.extract(r"(\d+)")[0]
+    df_home["round"] = pd.to_numeric(round_series, errors="coerce").astype("Int64")
 
-    # 2) Erstatt vanlige alias med offisielle navn
-    name_map = {
-        "Manchester Utd": "Manchester United",
-        "Wolves": "Wolverhampton Wanderers",
-        "Tottenham": "Tottenham Hotspur",
-        "West Ham": "West Ham United",
-        "Nott'ham Forest": "Nottingham Forest",
-        "Newcastle Utd": "Newcastle United",
-        "Brighton": "Brighton and Hove Albion",
-    }
-    df_home["home_team"] = df_home["home_team"].replace(name_map)
-    df_home["away_team"] = df_home["away_team"].replace(name_map)
+    # 8) Compute match outcome from home perspective
+    def compute_result(row):
+        if pd.notna(row.gf_home) and pd.notna(row.gf_away):
+            if row.gf_home > row.gf_away:
+                return 1
+            if row.gf_home == row.gf_away:
+                return 0
+            return -1
+        return pd.NA
 
-    # 6) Convert round text (e.g., 'Matchweek 38') to numeric
-    df_home["round"] = df_home["round"].astype(str).str.extract(r"(\d+)").astype(int)
+    df_home["result_home"] = df_home.apply(compute_result, axis=1)
 
-    # 7) Compute match outcome from home perspective
-    df_home["result_home"] = df_home.apply(
-    lambda r: (
-        1 if pd.notna(r.gf_home) and pd.notna(r.gf_away) and r.gf_home > r.gf_away else
-        0 if pd.notna(r.gf_home) and pd.notna(r.gf_away) and r.gf_home == r.gf_away else
-        -1 if pd.notna(r.gf_home) and pd.notna(r.gf_away) and r.gf_home < r.gf_away else
-        pd.NA
-    ),
-    axis=1,
-)
-
-    # 8) Select final columns
+    # 9) Select final columns
     cols = [
         "date",
         "season",
@@ -88,35 +88,40 @@ def preprocess_data(df_all):
         "result_home",
     ]
     df_final = df_home[cols]
-
     return df_final
 
 
 def ensure_numeric(df: pd.DataFrame, cols: list[str]) -> pd.DataFrame:
     """
-    Konverterer oppgitte kolonner til numerisk, tvinger str→NaN om nødvendig.
+    Convert specified columns to numeric, coercing errors to NaN.
     """
     df[cols] = df[cols].apply(lambda s: pd.to_numeric(s, errors="coerce"))
     return df
 
 
 def process_matches(
-    df: pd.DataFrame, stat_windows: dict[str, list[int]]
+    df_all: pd.DataFrame, stat_windows: dict[str, list[int]], league_name: str
 ) -> pd.DataFrame:
     """
-    Full data pipeline:
-      1) Preprocess raw DataFrame (one row per match)
-      2) Ensure numeric types for goals & result
+    Full data pipeline for a given league:
+      1) Preprocess raw DataFrame (one row per match, home perspective)
+      2) Ensure numeric types for aggregated columns
       3) Add all features via add_all_features
     """
     # 1) Cleaning & basic transforms
-    df = preprocess_data(df)
+    df = preprocess_data(df_all, league_name)
 
     # 2) Dtype safety for aggregation
     numeric_cols = ["gf_home", "ga_home", "gf_away", "ga_away", "result_home"]
     df = ensure_numeric(df, numeric_cols)
 
-    # 3) Feature-engineering (venue-agnostic)
+    # 3) Feature-engineering
     df = add_all_features(df, stat_windows)
 
+    # 4) Lagre ferdig prosessert DataFrame til CSV
+    filename = os.path.join("data", "processed", league_name.lower().replace(" ", "_") + "_processed.csv")
+    os.makedirs(os.path.dirname(filename), exist_ok=True)
+    df.to_csv(filename, index=False)
+    print(f"Lagret prosessert data til {filename}")
+    
     return df
