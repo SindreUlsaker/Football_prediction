@@ -7,7 +7,7 @@ from src.pipeline import run_pipeline
 
 
 def main():
-    st.title("Poisson-prediksjoner per liga")
+    st.title("Prediksjoner per liga")
 
     # 1) Velg liga
     league = st.selectbox("Velg liga", list(LEAGUES.keys()))

@@ -46,7 +46,7 @@ def train_league(
     Leser processed data for gitt liga, trener modeller og lagrer dem.
     """
     key = league_name.lower().replace(" ", "_")
-    processed_file = os.path.join(data_dir, "raw", f"{key}_processed.csv")
+    processed_file = os.path.join(data_dir, "processed", f"{key}_processed.csv")
     if not os.path.exists(processed_file):
         raise FileNotFoundError(f"Processed data not found for league: {league_name}")
 

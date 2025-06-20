@@ -102,6 +102,7 @@ def predict_poisson_from_models(
         records.append(
             {
                 "date": row["date"],
+                "time": row["time"],
                 "home_team": row["home_team"],
                 "away_team": row["away_team"],
                 "prob_home": p_h,

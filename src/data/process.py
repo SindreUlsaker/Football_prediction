@@ -74,6 +74,7 @@ def preprocess_data(df_all: pd.DataFrame, league_name: str) -> pd.DataFrame:
     # 9) Select final columns
     cols = [
         "date",
+        "time",
         "season",
         "comp",
         "round",

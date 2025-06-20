@@ -158,6 +158,7 @@ def fetch_league_data(league_name, standings_url, season="2024-2025"):  # fmt: s
     # Velg relevante kolonner
     want = [
         "date",
+        "time",
         "comp",
         "season",
         "team",

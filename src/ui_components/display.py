@@ -5,16 +5,28 @@ import pandas as pd
 
 def show_predictions(df: pd.DataFrame):
     df = df.copy()
-    # Parse and extract day and time
+    # Ensure date is datetime
     df["date"] = pd.to_datetime(df["date"])
+    # Extract day for grouping
     df["day"] = df["date"].dt.strftime("%A %Y-%m-%d")
-    df["time"] = df["date"].dt.strftime("%H:%M")
+    # Use existing 'time' column if present
+    if "time" in df.columns:
+        try:
+            df["time"] = pd.to_datetime(df["time"]).dt.strftime("%H:%M")
+        except Exception:
+            pass
+    else:
+        # Fallback: derive time from date if no time column
+        df["time"] = df["date"].dt.strftime("H:%M")
+
+    # Sort by date then time
+    df = df.sort_values(by=["date", "time"])
 
     # Number matches starting at 1
     df = df.reset_index(drop=True)
     df.index = df.index + 1
 
-    # Drop original date column
+    # Drop original 'date' and 'day' columns
     display_df = df.drop(columns=["date", "day"])
 
     # Format float columns
@@ -24,5 +36,6 @@ def show_predictions(df: pd.DataFrame):
     # Group by day and display styled table
     for day, group in df.groupby("day"):
         st.markdown(f"**{day}**")
-        table = group[["time"] + [col for col in display_df.columns if col != "time"]]
+        cols = ["time"] + [col for col in display_df.columns if col != "time"]
+        table = group[cols]
         st.dataframe(table.style.format(format_dict))

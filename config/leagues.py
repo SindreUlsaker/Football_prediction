@@ -18,7 +18,29 @@ LEAGUES = {
             "Betis": "Real Betis",
             "Alavés": "Alaves",
             "Leganés": "Leganes",
-            }
+        },
+    },
+    "Serie A": {
+        "standings_url": "https://fbref.com/en/comps/11/Serie-A-Stats",
+        "team_name_map": {
+            "Inter": "Internazionale",
+        },
+    },
+    "Bundesliga": {
+        "standings_url": "https://fbref.com/en/comps/20/Bundesliga-Stats",
+        "team_name_map": {
+            "Leverkusen": "Bayer Leverkusen",
+            "Eint Frankfurt": "Eintracht Frankfurt",
+            "Gladbach": "Monchengladbach",
+            "St. Pauli": "St Pauli",
+        },
+    },
+    "Ligue 1": {
+        "standings_url": "https://fbref.com/en/comps/13/Ligue-1-Stats",
+        "team_name_map": {
+            "Paris S-G": "Paris Saint Germain",
+            "Saint-Étienne": "Saint Etienne", 
+        },
     },
     # legg til flere ligaer her
 }
