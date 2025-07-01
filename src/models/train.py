@@ -5,34 +5,51 @@ import os
 import joblib
 
 
-def train_poisson_models(
+def train_poisson_model(
     data: pd.DataFrame, features_home: list[str], features_away: list[str]
-):
+) -> tuple[PoissonRegressor, StandardScaler]:
     """
-    Trener Poisson-modeller for gf_home og gf_away med egne scalers.
-    """
-    df = data.dropna(subset=features_home + features_away + ["gf_home", "gf_away"])
+    Train a single PoissonRegressor on both home and away goals,
+    using an `is_home` feature to distinguish home/away.
 
-    # Hjemmelag
-    Xh = df[features_home].copy()
+    Parameters:
+      - data: processed DataFrame with columns for home/away stats and targets
+      - features_home: list of column names for home features (e.g. 'xg_home', 'gf_home')
+      - features_away: list of column names for away features (e.g. 'xg_away', 'gf_away')
+
+    Returns:
+      - Trained PoissonRegressor
+      - Fitted StandardScaler
+    """
+    # Only drop rows where we know the goal outcome
+    df_home = data[data["gf_home"].notna()].copy()
+    df_away = data[data["gf_away"].notna()].copy()
+
+    # Home-team features
+    Xh = df_home[features_home].copy()
+    Xh.columns = [c.replace("_home", "").replace("_away", "") for c in Xh.columns]
     Xh["is_home"] = 1
-    yh = df["gf_home"]
+    Xh = Xh.fillna(0)
+    yh = df_home["gf_home"]
 
-    # Bortelag
-    Xa = df[features_away].copy()
+    # Away-team features
+    Xa = df_away[features_away].copy()
+    Xa.columns = [c.replace("_home", "").replace("_away", "") for c in Xa.columns]
     Xa["is_home"] = 0
-    ya = df["gf_away"]
+    Xa = Xa.fillna(0)
+    ya = df_away["gf_away"]
 
-    scaler_home = StandardScaler().fit(Xh)
-    scaler_away = StandardScaler().fit(Xa)
+    # Combine both perspectives
+    X_all = pd.concat([Xh, Xa], ignore_index=True).fillna(0)
+    y_all = pd.concat([yh, ya], ignore_index=True)
 
-    Xh_s = scaler_home.transform(Xh)
-    Xa_s = scaler_away.transform(Xa)
+    # Scale features
+    scaler = StandardScaler().fit(X_all)
+    X_scaled = scaler.transform(X_all)
 
-    model_home = PoissonRegressor(alpha=1.0, max_iter=300).fit(Xh_s, yh)
-    model_away = PoissonRegressor(alpha=1.0, max_iter=300).fit(Xa_s, ya)
-
-    return model_home, model_away, scaler_home, scaler_away
+    # Train Poisson regressor
+    model = PoissonRegressor(alpha=1.0, max_iter=300).fit(X_scaled, y_all)
+    return model, scaler
 
 
 def train_league(
@@ -41,9 +58,10 @@ def train_league(
     models_dir: str,
     features_home: list[str],
     features_away: list[str],
-):
+) -> None:
     """
-    Leser processed data for gitt liga, trener modeller og lagrer dem.
+    Read processed data for the given league, train a single Poisson model,
+    and save both model and scaler to disk.
     """
     key = league_name.lower().replace(" ", "_")
     processed_file = os.path.join(data_dir, "processed", f"{key}_processed.csv")
@@ -52,14 +70,14 @@ def train_league(
 
     df = pd.read_csv(processed_file, parse_dates=["date"])
 
-    model_home, model_away, scaler_home, scaler_away = train_poisson_models(
-        df, features_home, features_away
-    )
+    # Train model and scaler
+    model, scaler = train_poisson_model(df, features_home, features_away)
 
+    # Ensure models directory exists
     os.makedirs(models_dir, exist_ok=True)
-    joblib.dump(model_home, os.path.join(models_dir, f"{key}_model_home.joblib"))
-    joblib.dump(model_away, os.path.join(models_dir, f"{key}_model_away.joblib"))
-    joblib.dump(scaler_home, os.path.join(models_dir, f"{key}_scaler_home.joblib"))
-    joblib.dump(scaler_away, os.path.join(models_dir, f"{key}_scaler_away.joblib"))
 
-    print(f"[INFO] Trente og lagret modeller for {league_name}")
+    # Save model and scaler
+    joblib.dump(model, os.path.join(models_dir, f"{key}_model.joblib"))
+    joblib.dump(scaler, os.path.join(models_dir, f"{key}_scaler.joblib"))
+
+    print(f"[INFO] Trained and saved model for {league_name}")

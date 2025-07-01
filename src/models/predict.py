@@ -1,4 +1,5 @@
 import os
+from turtle import st
 import joblib
 import numpy as np
 import pandas as pd
@@ -7,97 +8,86 @@ from scipy.stats import poisson
 
 def load_models_for_league(league_name: str, models_dir: str = "models") -> tuple:
     """
-    Load Poisson models and scalers for given league from disk.
-
-    Expects files in models_dir:
-      {league_key}_model_home.joblib
-      {league_key}_model_away.joblib
-      {league_key}_scaler_home.joblib
-      {league_key}_scaler_away.joblib
-    Returns:
-      (model_home, model_away, scaler_home, scaler_away)
+    Load a single Poisson model and scaler for a league.
     """
     key = league_name.lower().replace(" ", "_")
-    paths = {
-        "model_home": os.path.join(models_dir, f"{key}_model_home.joblib"),
-        "model_away": os.path.join(models_dir, f"{key}_model_away.joblib"),
-        "scaler_home": os.path.join(models_dir, f"{key}_scaler_home.joblib"),
-        "scaler_away": os.path.join(models_dir, f"{key}_scaler_away.joblib"),
-    }
-    for name, path in paths.items():
-        if not os.path.exists(path):
-            raise FileNotFoundError(f"Missing {name} at {path}")
-    model_home = joblib.load(paths["model_home"])
-    model_away = joblib.load(paths["model_away"])
-    scaler_home = joblib.load(paths["scaler_home"])
-    scaler_away = joblib.load(paths["scaler_away"])
-    return model_home, model_away, scaler_home, scaler_away
+    model_path = os.path.join(models_dir, f"{key}_model.joblib")
+    scaler_path = os.path.join(models_dir, f"{key}_scaler.joblib")
+    if not os.path.exists(model_path) or not os.path.exists(scaler_path):
+        raise FileNotFoundError(f"Model or scaler not found for league: {league_name}")
+    model = joblib.load(model_path)
+    scaler = joblib.load(scaler_path)
+    return model, scaler
 
 
-def compute_match_outcome_probabilities(lambda_home, lambda_away, max_goals: int = 10):
+def compute_match_outcome_probabilities(
+    lam_h: float, lam_a: float, max_goals: int = 10
+) -> tuple[float, float, float]:
     """
-    Given expected goals for home and away, compute probabilities of
-    home win, draw, and away win using Poisson distributions.
+    Compute probabilities of home win, draw, and away win from Poisson lambdas.
     """
-    probs_home = poisson.pmf(np.arange(max_goals + 1), lambda_home)
-    probs_away = poisson.pmf(np.arange(max_goals + 1), lambda_away)
-    match_matrix = np.outer(probs_home, probs_away)
-
-    p_home_win = np.tril(match_matrix, k=-1).sum()
-    p_draw = np.trace(match_matrix)
-    p_away_win = np.triu(match_matrix, k=1).sum()
-
-    return round(p_home_win, 3), round(p_draw, 3), round(p_away_win, 3)
+    prob_matrix = np.zeros((max_goals + 1, max_goals + 1))
+    for i in range(max_goals + 1):
+        for j in range(max_goals + 1):
+            prob_matrix[i, j] = poisson.pmf(i, lam_h) * poisson.pmf(j, lam_a)
+    prob_home = np.tril(prob_matrix, -1).sum()
+    prob_draw = np.trace(prob_matrix)
+    prob_away = np.triu(prob_matrix, 1).sum()
+    return prob_home, prob_draw, prob_away
 
 
 def predict_poisson_from_models(
-    model_home,
-    model_away,
-    scaler_home,
-    scaler_away,
-    df_future: pd.DataFrame,
+    df: pd.DataFrame,
     features_home: list[str],
     features_away: list[str],
+    league_name: str,
+    models_dir: str = "models",
     max_goals: int = 10,
 ) -> pd.DataFrame:
     """
-    Predict match outcome probabilities using two Poisson models.
+    Predict match outcome probabilities using a single Poisson model.
 
     Parameters:
-      - model_home: trained PoissonRegressor for home goals
-      - model_away: trained PoissonRegressor for away goals
-      - scaler_home: StandardScaler fitted on home features
-      - scaler_away: StandardScaler fitted on away features
-      - df_future: DataFrame of upcoming matches
-      - features_home: list of column names for home model
-      - features_away: list of column names for away model
-      - max_goals: maximum goals to consider (default 10)
+      - df: DataFrame with upcoming matches and home/away features
+      - features_home: list of column names ending with '_home'
+      - features_away: list of column names ending with '_away'
+      - league_name: league identifier for loading the model
+      - models_dir: directory with saved models
+      - max_goals: max goals to consider for Poisson
 
     Returns:
-      DataFrame with columns date, home_team, away_team,
-      lambda_home, lambda_away, prob_home, prob_draw, prob_away
+      - DataFrame with date, teams, lambdas, and win/draw probabilities
     """
-    # Ensure df_future has zero-based consecutive indices so that
-    # lambda_home[i] and lambda_away[i] align with df_future.iloc[i]
-    df_future = df_future.reset_index(drop=True)
+    model, scaler = load_models_for_league(league_name, models_dir)
 
-    # Home features
-    Xh = df_future[features_home].copy()
+    df = df.reset_index(drop=True)
+
+    # Prepare home-team inputs
+    Xh = df[features_home].copy()
+    Xh.columns = [c.replace("_home", "").replace("_away", "") for c in Xh.columns]
     Xh["is_home"] = 1
-    Xh_scaled = scaler_home.transform(Xh)
-    lambda_home = model_home.predict(Xh_scaled)
+    Xh = Xh.fillna(0)
 
-    # Away features
-    Xa = df_future[features_away].copy()
+    # Prepare away-team inputs
+    Xa = df[features_away].copy()
+    Xa.columns = [c.replace("_home", "").replace("_away", "") for c in Xa.columns]
     Xa["is_home"] = 0
-    Xa_scaled = scaler_away.transform(Xa)
-    lambda_away = model_away.predict(Xa_scaled)
+    Xa = Xa.fillna(0)
 
-    # Build output
+    # Combine and scale
+    X_all = pd.concat([Xh, Xa], ignore_index=True)
+    X_scaled = scaler.transform(X_all)
+
+    # Predict lambdas
+    lambdas = model.predict(X_scaled)
+    lambda_home = lambdas[: len(df)]
+    lambda_away = lambdas[len(df) :]
+
+    # Build results
     records = []
-    for i, row in df_future.iterrows():
-        lam_h = lambda_home[i]
-        lam_a = lambda_away[i]
+    for idx, row in df.iterrows():
+        lam_h = lambda_home[idx]
+        lam_a = lambda_away[idx]
         p_h, p_d, p_a = compute_match_outcome_probabilities(lam_h, lam_a, max_goals)
         records.append(
             {
