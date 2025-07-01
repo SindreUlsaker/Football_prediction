@@ -4,7 +4,11 @@ import pandas as pd
 from datetime import timedelta
 from config.leagues import LEAGUES
 from config.settings import DATA_PATH
-from src.models.predict import load_models_for_league, predict_poisson_from_models
+from src.models.odds import (
+    calculate_hub_odds,
+    calculate_btts_odds,
+    calculate_over_under_odds,
+)
 
 import pandas as pd
 
@@ -92,16 +96,12 @@ def load_upcoming_matches(league_name: str) -> pd.DataFrame:
 def show_odds_checker():
     st.title("Odds Checker 🔍")
 
-    # 1) Velg liga
     league = st.selectbox("Velg liga", list(LEAGUES.keys()), key="odds_match")
-
-    # 2) Last inn kommende kamper
     matches = load_upcoming_matches(league)
     if matches.empty:
         st.warning("Ingen kommende kamper funnet.")
         return
 
-    # 3) Velg kamp
     matches["label"] = (
         matches["home_team"]
         + " - "
@@ -113,14 +113,12 @@ def show_odds_checker():
     sel = st.selectbox("Velg kamp", matches["label"], key="odds_match_select")
     selected = matches[matches["label"] == sel].iloc[[0]].reset_index(drop=True)
 
-    # 4) Velg spilltype (her kun HUB = 1X2)
-    spill = st.selectbox("Velg spilltype", ["HUB"], key="odds_type")
-    if spill != "HUB":
-        return
+    spill = st.selectbox(
+        "Velg spilltype", ["HUB", "Begge lag scorer", "Over/Under"], key="odds_type"
+    )
 
-    # 5) Samme stat-vinduer som i train_all_models.py
+    # Bygg feature-lister akkurat som før
     stat_windows = {"xg": [5, 10], "gf": [5, 10], "ga": [5, 10]}
-
     features_home = (
         [f"xg_home_roll{w}" for w in stat_windows["xg"]]
         + [f"gf_home_roll{w}" for w in stat_windows["gf"]]
@@ -129,7 +127,6 @@ def show_odds_checker():
         + ["avg_goals_for_home", "avg_goals_against_away"]
     )
 
-    # Bortelag
     features_away = (
         [f"xg_away_roll{w}" for w in stat_windows["xg"]]
         + [f"gf_away_roll{w}" for w in stat_windows["gf"]]
@@ -138,41 +135,36 @@ def show_odds_checker():
         + ["avg_goals_for_away", "avg_goals_against_home"]
     )
 
-    # 6) Last modeller og scalers
-    model, scaler = load_models_for_league(league, models_dir=f"{DATA_PATH}/models")
+    # Kall relevant odds-funksjon
+    if spill == "HUB":
+        df_odds = calculate_hub_odds(
+            selected,
+            features_home,
+            features_away,
+            league,
+            models_dir=f"{DATA_PATH}/models",
+        )
+        st.subheader("Fair odds for 1X2")
+    elif spill == "Begge lag scorer":
+        df_odds = calculate_btts_odds(
+            selected,
+            features_home,
+            features_away,
+            league,
+            models_dir=f"{DATA_PATH}/models",
+        )
+        st.subheader("Fair odds for Begge lag scorer")
+    else:  # Over/Under
+        # Du kan la brukeren velge threshold, f.eks.:
+        threshold = st.number_input("Sett mål-grense", value=2.5, step=0.5)
+        df_odds = calculate_over_under_odds(
+            selected,
+            features_home,
+            features_away,
+            league,
+            models_dir=f"{DATA_PATH}/models",
+            threshold=threshold,
+        )
+        st.subheader(f"Fair odds for Over/Under {threshold}")
 
-    # 7) Predict
-
-    preds = predict_poisson_from_models(
-        df=selected,
-        features_home=features_home,
-        features_away=features_away,
-        league_name=league,
-        models_dir=f"{DATA_PATH}/models",
-        max_goals=10
-    )
-
-    generic_features = [f.replace("_home", "") for f in features_home] + ["is_home"]
-
-    if st.checkbox("Vis hvilke features modellen vektlegger mest"):
-        show_feature_weights(model, generic_features)
-
-    # 8) Vis fair odds
-    row = preds.iloc[0]
-    odds = {
-        "Hjemmeseier": (row["prob_home"], 1 / row["prob_home"]),
-        "Uavgjort": (row["prob_draw"], 1 / row["prob_draw"]),
-        "Borteseier": (row["prob_away"], 1 / row["prob_away"]),
-    }
-    df_odds = pd.DataFrame(
-        [
-            {
-                "Utfall": k,
-                "Sannsynlighet": f"{v[0]*100:.1f}%",
-                "Fair odds": f"{v[1]:.2f}",
-            }
-            for k, v in odds.items()
-        ]
-    )
-    st.subheader("Fair odds for 1X2")
     st.dataframe(df_odds, use_container_width=True, hide_index=True)
