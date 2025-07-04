@@ -13,11 +13,11 @@ from src.models.train import train_league
 def main():
     # 1) Fetch raw data for all leagues
     print("=== Fetching raw data for all leagues ===")
-    fetch_main()
+    #fetch_main()
 
     # 2) Define directories and stat windows
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    data_dir = os.path.join(base_dir, "data")
+    data_dir = "data"
     models_dir = os.path.join(data_dir, "models")
     stat_windows = {"xg": [5, 10], "gf": [5, 10], "ga": [5, 10]}
 

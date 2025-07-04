@@ -1,5 +1,6 @@
 import os
 import time
+import re
 from io import StringIO
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -14,6 +15,35 @@ from config.leagues import LEAGUES
 class SeleniumResponse:
     def __init__(self, text):
         self.text = text
+
+
+def get_current_season(base_url):
+    """
+    Henter gjeldende sesong ved å lese <div id="meta"><h1>2024-2025 Premier League Stats</h1></div>.
+    Returnerer sesong som '2024-2025', eller None hvis ikke funnet.
+    """
+    resp = fetch_data(base_url)
+    if not resp:
+        return None
+
+    soup = BeautifulSoup(resp.text, "lxml")
+    # Finn <div id="meta"> og deretter <h1>
+    h1 = soup.select_one("div#meta h1")
+    if not h1:
+        return None
+
+    text = h1.get_text(strip=True)
+    # Finn mønster 'YYYY-YYYY' i starten av teksten
+    m = re.match(r"^(\d{4}-\d{4})", text)
+    return m.group(1) if m else None
+
+
+def get_prev_season(season):
+    """
+    Gitt "2023-2024", returnerer "2022-2023".
+    """
+    start, end = season.split("-")
+    return f"{int(start)-1}-{int(end)-1}"
 
 
 def fetch_data(url):
@@ -185,25 +215,45 @@ def fetch_league_data(league_name, standings_url, season="2024-2025"):  # fmt: s
     existing = [c for c in want if c in df_all.columns]
     df_final = df_all[existing]
 
-    # Lagre per liga i egen CSV
-    filename = os.path.join(
-        "data",
-        "raw",
-        league_name.lower().replace(" ", "_") + "_matches_full.csv",
-    )
-    os.makedirs(os.path.dirname(filename), exist_ok=True)
-    df_final.to_csv(filename, index=False)
-    print(f"Lagret {filename}")
+    return df_final
 
 
 def main():
-    # Iterer gjennom alle ligaer definert i config/leagues.py
     for league_name, cfg in LEAGUES.items():
-        fetch_league_data(
-            league_name,
-            cfg["standings_url"],
-            season=cfg.get("season", "2024-2025"),
+        comp_id = cfg["comp_id"]
+        slug = cfg["slug"]
+        # 1) Finn nåværende og forrige sesong
+        base_url = f"https://fbref.com/en/comps/{comp_id}/{slug}"
+        current = get_current_season(base_url)
+        prev = get_prev_season(current) if current else None
+
+        all_data = []
+        for season in filter(None, (prev, current)):
+            standings_url = (
+                f"https://fbref.com/en/comps/{comp_id}/{season}/{season}-{slug}"
+            )
+            print(f"\n--- Henter {league_name}, sesong {season} ---")
+            team_urls = fetch_team_urls(standings_url)
+            for url in team_urls:
+                df_team = fetch_team_data(url, season=season)
+                time.sleep(1)
+                if df_team is not None:
+                    all_data.append(df_team)
+
+        if not all_data:
+            print(f"Ingen kamper samlet for liga {league_name}.")
+            continue
+
+        # Slå sammen og lagre én fil for begge sesonger
+        df_all = pd.concat(all_data, ignore_index=True)
+        filename = os.path.join(
+            "data",
+            "raw",
+            f"{league_name.lower().replace(' ', '_')}_matches_full.csv",
         )
+        os.makedirs(os.path.dirname(filename), exist_ok=True)
+        df_all.to_csv(filename, index=False)
+        print(f"Lagret {filename}")
 
 
 if __name__ == "__main__":

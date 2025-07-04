@@ -28,7 +28,7 @@ def preprocess_data(df_all: pd.DataFrame, league_name: str) -> pd.DataFrame:
     )
 
     # 2) Filter to the given league
-    df = df[df["comp"] == league_name].copy()
+    df = df[df["comp"].astype(str).str.contains(league_name, case=False, na=False)].copy()
 
     # 3) Drop duplicates and missing values
     df = df.drop_duplicates(subset=["date", "team", "opponent"])
@@ -117,7 +117,8 @@ def process_matches(
     df = ensure_numeric(df, numeric_cols)
 
     # 3) Feature-engineering
-    df = add_all_features(df, stat_windows)
+    AGG_WINDOW = 10 # Number of matches to aggregate for static features
+    df = add_all_features(df, stat_windows, agg_window=AGG_WINDOW)
 
     # 4) Lagre ferdig prosessert DataFrame til CSV
     filename = os.path.join("data", "processed", league_name.lower().replace(" ", "_") + "_processed.csv")

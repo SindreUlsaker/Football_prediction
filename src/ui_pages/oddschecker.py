@@ -11,7 +11,7 @@ from src.models.odds import (
 )
 
 import pandas as pd
-
+from src.models.predict import load_models_for_league
 
 def show_feature_weights(model, feature_names):
     """Viser kun relativ betydning av hver feature i prosent."""
@@ -165,6 +165,14 @@ def show_odds_checker():
             models_dir=f"{DATA_PATH}/models",
             threshold=threshold,
         )
-        st.subheader(f"Fair odds for Over/Under {threshold}")
+
+    model, _ = load_models_for_league(
+        league,
+        models_dir=f"{DATA_PATH}/models",
+    )
+
+    generic_features = [f.replace("_home", "") for f in features_home] + ["is_home"]
+    if st.checkbox("Vis hvilke features modellen vektlegger mest"):
+        show_feature_weights(model, generic_features)
 
     st.dataframe(df_odds, use_container_width=True, hide_index=True)
