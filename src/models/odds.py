@@ -38,7 +38,7 @@ def _get_lambdas(
     X_all = pd.concat([Xh, Xa], ignore_index=True).fillna(0)
 
     # 5) Ta bare de kolonnene scaler faktisk forventer, i riktig rekkefølge
-    X_all = X_all[scaler.feature_names_in_]
+    X_all = X_all.reindex(columns=scaler.feature_names_in_, fill_value=0)
 
     # 6) Skaler og prediker
     X_scaled = scaler.transform(X_all)

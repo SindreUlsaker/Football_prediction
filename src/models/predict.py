@@ -5,6 +5,14 @@ import numpy as np
 import pandas as pd
 from scipy.stats import poisson
 
+def _add_team_dummies(df_home, df_away):
+    att_home = pd.get_dummies(df_home["home_team"], prefix="att")
+    att_away = pd.get_dummies(df_away["away_team"], prefix="att")
+    def_home = pd.get_dummies(df_home["away_team"], prefix="def")
+    def_away = pd.get_dummies(df_away["home_team"], prefix="def")
+    Xh = pd.concat([att_home, def_home], axis=1)
+    Xa = pd.concat([att_away, def_away], axis=1)
+    return Xh.align(Xa, join="outer", axis=1, fill_value=0)
 
 def load_models_for_league(league_name: str, models_dir: str = "models") -> tuple:
     """
@@ -73,9 +81,14 @@ def predict_poisson_from_models(
     Xa.columns = [c.replace("_home", "").replace("_away", "") for c in Xa.columns]
     Xa["is_home"] = 0
     Xa = Xa.fillna(0)
+    
+    dum_h, dum_a = _add_team_dummies(df, df)
+    Xh = pd.concat([Xh, dum_h], axis=1)
+    Xa = pd.concat([Xa, dum_a], axis=1)
 
     # Combine and scale
     X_all = pd.concat([Xh, Xa], ignore_index=True)
+    X_all = X_all.reindex(columns=scaler.feature_names_in_, fill_value=0)
     X_scaled = scaler.transform(X_all)
 
     # Predict lambdas

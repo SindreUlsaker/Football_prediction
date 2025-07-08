@@ -39,6 +39,11 @@ def train_poisson_model(
     Xa = Xa.fillna(0)
     ya = df_away["gf_away"]
 
+    # Legg på team-fixed-effects
+    dum_h, dum_a = _add_team_dummies(df_home, df_away)
+    Xh = pd.concat([Xh, dum_h], axis=1)
+    Xa = pd.concat([Xa, dum_a], axis=1)
+
     # Combine both perspectives
     X_all = pd.concat([Xh, Xa], ignore_index=True).fillna(0)
     y_all = pd.concat([yh, ya], ignore_index=True)
@@ -50,6 +55,24 @@ def train_poisson_model(
     # Train Poisson regressor
     model = PoissonRegressor(alpha=1.0, max_iter=300).fit(X_scaled, y_all)
     return model, scaler
+
+
+def _add_team_dummies(df_home, df_away):
+    """
+    Lager attack- og defence-dummies for hvert lag.
+    Returnerer to DataFrames (Xh, Xa) med like kolonner.
+    """
+    # Angreps-dummies: hvem som skyter
+    att_home = pd.get_dummies(df_home["home_team"], prefix="att")
+    att_away = pd.get_dummies(df_away["away_team"], prefix="att")
+    # Forsvars-dummies: hvem som forsvarer
+    def_home = pd.get_dummies(df_home["away_team"], prefix="def")
+    def_away = pd.get_dummies(df_away["home_team"], prefix="def")
+    # Sett sammen
+    Xh = pd.concat([att_home, def_home], axis=1)
+    Xa = pd.concat([att_away, def_away], axis=1)
+    # Sørg for at de har samme kolonner (utfyll med 0 der det mangler)
+    return Xh.align(Xa, join="outer", axis=1, fill_value=0)
 
 
 def train_league(
