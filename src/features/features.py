@@ -1,6 +1,42 @@
 import pandas as pd
 
 
+def _compute_relegated_averages(
+    df: pd.DataFrame, agg_prev: pd.DataFrame, spots: int = 4
+) -> dict[str, dict[str, float]]:
+    """
+    Returnerer for hver sesong strengen 'YYYY-YYYY' et dict med
+    gj.snitt mål-for og mål-imot for de nederste `spots` lagene.
+    """
+    # a) Poeng per kamp
+    home = df[["season", "home_team", "result_home"]].rename(
+        columns={"home_team": "team", "result_home": "res"}
+    )
+    home["points"] = home["res"].map({1: 3, 0: 1, -1: 0})
+
+    away = df[["season", "away_team", "result_home"]].rename(
+        columns={"away_team": "team", "result_home": "res"}
+    )
+    # For bortelag, invert resultat
+    away["points"] = away["res"].map({1: 0, 0: 1, -1: 3})
+
+    pts = pd.concat(
+        [home[["season", "team", "points"]], away[["season", "team", "points"]]]
+    )
+    standings = pts.groupby(["season", "team"]).sum().reset_index()
+
+    # b) Beregn gj.snitt GOALS fra agg_prev
+    relegated_stats = {}
+    for season, grp in standings.groupby("season"):
+        bottom = grp.nsmallest(spots, "points")["team"].tolist()
+        sub = agg_prev[(agg_prev["season"] == season) & (agg_prev["team"].isin(bottom))]
+        relegated_stats[season] = {
+            "for": sub["avg_goals_for_prev"].mean().round(2),
+            "against": sub["avg_goals_against_prev"].mean().round(2),
+        }
+    return relegated_stats
+
+
 def calculate_team_form_features(
     df: pd.DataFrame, stats: list[str], windows: list[int]
 ) -> pd.DataFrame:
@@ -97,19 +133,67 @@ def calculate_conceded_form_features(
     return df
 
 
+from typing import Dict
+import pandas as pd
+
+# For beregning av nedrykksstats
+
+
+def _compute_relegated_averages(
+    df: pd.DataFrame, agg_prev: pd.DataFrame, spots: int = 3
+) -> Dict[str, Dict[str, float]]:
+    """
+    Returnerer for hver sesong strengen 'YYYY-YYYY' et dict med
+    gj.snitt mål-for og mål-imot for de nederste `spots` lagene.
+    """
+    # a) Poeng per kamp, hjemmelag
+    home = df[["season", "home_team", "result_home"]].rename(
+        columns={"home_team": "team", "result_home": "res"}
+    )
+    home["points"] = home["res"].map({1: 3, 0: 1, -1: 0})
+
+    # b) Bortelag
+    away = df[["season", "away_team", "result_home"]].rename(
+        columns={"away_team": "team", "result_home": "res"}
+    )
+    away["points"] = away["res"].map({1: 0, 0: 1, -1: 3})
+
+    # c) Sammenslå og summer poeng per sesong/team
+    pts = pd.concat(
+        [home[["season", "team", "points"]], away[["season", "team", "points"]]]
+    )
+    standings = pts.groupby(["season", "team"]).sum().reset_index()
+
+    # d) Beregn gjennomsnittsmål for nedrykk
+    relegated_stats: Dict[str, Dict[str, float]] = {}
+    for season, grp in standings.groupby("season"):
+        bottom_teams = grp.nsmallest(spots, "points")["team"].tolist()
+        subset = agg_prev[
+            (agg_prev["season"] == season) & (agg_prev["team"].isin(bottom_teams))
+        ]
+        relegated_stats[season] = {
+            "for": round(subset["avg_goals_for_prev"].mean(), 2),
+            "against": round(subset["avg_goals_against_prev"].mean(), 2),
+        }
+    return relegated_stats
+
+
 def calculate_static_features(df: pd.DataFrame, agg_window: int) -> pd.DataFrame:
     """
-    Calculate static season-aggregated features per team, independent of venue.
-    Adds columns for home and away teams:
-      avg_goals_for_home, avg_goals_against_home,
-      avg_goals_for_away, avg_goals_against_away,
-    and home_advantage (based on goals).
+    Beregner statiske features per kamp:
+      - Fjorårsmål (hjemme/borte), med fyll for promoberte lag
+      - Inneværende sesongs snittmål
+      - Matches_played per lag
+      - Vektet miks av fjorår og inneværende sesong
+      - Home_advantage
+
+    For nyopprykkede lag fylles fjorårsmål med snittverdier fra lagene
+    som rykket ned i forrige sesong, _dersom_ statistikk for den sesongen finnes.
     """
     df = df.copy()
 
-    # 1) Fjorårsgjennomsnitt per lag ved å justere sesong-strengen
+    # 1) Standard fjorårsgjennomsnitt per lag
     prev = df.copy()
-
     home_prev = prev.rename(
         columns={
             "home_team": "team",
@@ -139,14 +223,17 @@ def calculate_static_features(df: pd.DataFrame, agg_window: int) -> pd.DataFrame
         )
     )
 
-    # Hjelpe-kolonne: hvilken sesong henter vi prev‐stats fra?
+    # 2) Beregn gj.snitt for nedrykkslag per sesong
+    relegated_stats = _compute_relegated_averages(df, agg_prev, spots=4)
+
+    # 3) Hjelpekolonne: prev_season (forrige sesong-streng)
     df["prev_season"] = (
         df["season"]
         .astype(str)
         .apply(lambda s: f"{int(s.split('-')[0]) - 1}-{int(s.split('-')[1]) - 1}")
     )
 
-    # Merge
+    # 4) Merge fjorårsmål for hjemmelag og bortelag
     df = df.merge(
         agg_prev.rename(
             columns={
@@ -172,14 +259,36 @@ def calculate_static_features(df: pd.DataFrame, agg_window: int) -> pd.DataFrame
         how="left",
     )
 
-    # Rydd opp i season-kolonnene: behold bare season_x (venstre nøkkel), og kalle den season
-    df = df.drop(columns=["season"])  # fjerner den opprinnelige season
-    df = df.rename(columns={"season_x": "season"})  # gir season_x tilbake navnet season
-    df = df.drop(columns=["season_y", "prev_season"])  # fjerner den høyre nøkkelen og hjelpe-kolonnen
+    # Fjern dupliserte season-kolonner, behold kun venstre
+    df = (
+        df.drop(columns=["season"])
+        .rename(columns={"season_x": "season"})
+        .drop(columns=["season_y"])
+    )
 
-    # 3) Statistikk for nåværende sesong – samme gjennomsnitt på alle kamper
+    # 5) Fyll på for nyopprykkede _kun_ om prev_season finnes i relegated_stats
+    valid_prev = df["prev_season"].isin(relegated_stats)
 
-    # a) Bygg long‐format
+    mask_home = df["avg_goals_for_prev_home"].isna() & valid_prev
+    df.loc[mask_home, "avg_goals_for_prev_home"] = df.loc[mask_home, "prev_season"].map(
+        lambda s: relegated_stats[s]["for"]
+    )
+    df.loc[mask_home, "avg_goals_against_prev_home"] = df.loc[
+        mask_home, "prev_season"
+    ].map(lambda s: relegated_stats[s]["against"])
+
+    mask_away = df["avg_goals_for_prev_away"].isna() & valid_prev
+    df.loc[mask_away, "avg_goals_for_prev_away"] = df.loc[mask_away, "prev_season"].map(
+        lambda s: relegated_stats[s]["for"]
+    )
+    df.loc[mask_away, "avg_goals_against_prev_away"] = df.loc[
+        mask_away, "prev_season"
+    ].map(lambda s: relegated_stats[s]["against"])
+
+    # 6) Fjern hjelpekolonnen
+    df = df.drop(columns=["prev_season"])
+
+    # 7) Nåværende sesong stats (uendret)
     home_curr = df[["season", "home_team", "gf_home", "ga_home"]].rename(
         columns={
             "home_team": "team",
@@ -196,21 +305,18 @@ def calculate_static_features(df: pd.DataFrame, agg_window: int) -> pd.DataFrame
     )
     long_curr = pd.concat([home_curr, away_curr], ignore_index=True)
 
-    # b) Aggreger per-lag per-sesong
-    stats = (
+    stats_curr = (
         long_curr.groupby(["season", "team"])
         .agg(
             avg_goals_for_curr=("goals_for", "mean"),
             avg_goals_against_curr=("goals_against", "mean"),
         )
+        .round(2)
         .reset_index()
     )
-    stats["avg_goals_for_curr"] = stats["avg_goals_for_curr"].round(2)
-    stats["avg_goals_against_curr"] = stats["avg_goals_against_curr"].round(2)
 
-    # c) Merge snapshot stats for home and away teams
     df = df.merge(
-        stats.rename(
+        stats_curr.rename(
             columns={
                 "team": "home_team",
                 "avg_goals_for_curr": "avg_goals_for_curr_home",
@@ -221,7 +327,7 @@ def calculate_static_features(df: pd.DataFrame, agg_window: int) -> pd.DataFrame
         how="left",
     )
     df = df.merge(
-        stats.rename(
+        stats_curr.rename(
             columns={
                 "team": "away_team",
                 "avg_goals_for_curr": "avg_goals_for_curr_away",
@@ -232,7 +338,7 @@ def calculate_static_features(df: pd.DataFrame, agg_window: int) -> pd.DataFrame
         how="left",
     )
 
-    # --- Dynamisk matches_played per kamp (teller kun kamper spilt før denne kampen) ---
+    # 8) matches_played
     home_hist = df[["date", "season", "home_team"]].rename(
         columns={"home_team": "team"}
     )
@@ -244,74 +350,49 @@ def calculate_static_features(df: pd.DataFrame, agg_window: int) -> pd.DataFrame
     )
     hist["matches_played"] = hist.groupby(["team", "season"]).cumcount()
 
-    # Merge dynamisk antall kamper spilt før denne kampen
     df = df.merge(
         hist.rename(
-            columns={
-                "team": "home_team",
-                "matches_played": "matches_played_home",
-            }
+            columns={"team": "home_team", "matches_played": "matches_played_home"}
         ),
         on=["season", "home_team", "date"],
         how="left",
     )
     df = df.merge(
         hist.rename(
-            columns={
-                "team": "away_team",
-                "matches_played": "matches_played_away",
-            }
+            columns={"team": "away_team", "matches_played": "matches_played_away"}
         ),
         on=["season", "away_team", "date"],
         how="left",
     )
 
-    # 4) Vekta kombinasjon av fjorår og inneværende sesong
+    # 9) Vekting av fjorår vs curr
     def weighted(prev, curr, played):
-        # 1) Hvis ingen kamper spilt, og vi har fjorårstall: bruk fjorårstall (rundet)
         if played == 0 and pd.notna(prev):
             return round(prev, 2)
-        # 2) Hvis ingen fjorårstall (nyopprykket): bruk bare inneværende sesong
         if pd.isna(prev):
             return round(curr, 2)
-        # 3) Ellers gjør vanlig lineær vektet miks
         w = min(played / agg_window, 1)
         return round(w * curr + (1 - w) * prev, 2)
 
-    df["avg_goals_for_home"] = df.apply(
-        lambda r: weighted(
-            r["avg_goals_for_prev_home"],
-            r["avg_goals_for_curr_home"],
-            r["matches_played_home"],
-        ),
-        axis=1,
-    )
-    df["avg_goals_against_home"] = df.apply(
-        lambda r: weighted(
-            r["avg_goals_against_prev_home"],
-            r["avg_goals_against_curr_home"],
-            r["matches_played_home"],
-        ),
-        axis=1,
-    )
-    df["avg_goals_for_away"] = df.apply(
-        lambda r: weighted(
-            r["avg_goals_for_prev_away"],
-            r["avg_goals_for_curr_away"],
-            r["matches_played_away"],
-        ),
-        axis=1,
-    )
-    df["avg_goals_against_away"] = df.apply(
-        lambda r: weighted(
-            r["avg_goals_against_prev_away"],
-            r["avg_goals_against_curr_away"],
-            r["matches_played_away"],
-        ),
-        axis=1,
-    )
+    for prefix in ["home", "away"]:
+        df[f"avg_goals_for_{prefix}"] = df.apply(
+            lambda r: weighted(
+                r[f"avg_goals_for_prev_{prefix}"],
+                r[f"avg_goals_for_curr_{prefix}"],
+                r[f"matches_played_{prefix}"],
+            ),
+            axis=1,
+        )
+        df[f"avg_goals_against_{prefix}"] = df.apply(
+            lambda r: weighted(
+                r[f"avg_goals_against_prev_{prefix}"],
+                r[f"avg_goals_against_curr_{prefix}"],
+                r[f"matches_played_{prefix}"],
+            ),
+            axis=1,
+        )
 
-    # 5) Home advantage basert på mål
+    # 10) Home-advantage
     df["home_advantage"] = (df["avg_goals_for_home"] - df["avg_goals_for_away"]).round(
         2
     )
