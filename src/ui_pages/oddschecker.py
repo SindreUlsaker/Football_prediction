@@ -13,9 +13,11 @@ from src.models.odds import (
 import pandas as pd
 from src.models.predict import load_models_for_league
 
+
 def show_feature_weights(model, feature_names):
-    """Viser kun relativ betydning av hver feature i prosent."""
-    # Map originale features til brukervennlige navn
+    """Viser kun relativ betydning av hver generisk feature i prosent."""
+
+    # Brukervennlige navn for de generiske feature-keys
     name_map = {
         "xg_roll5": "xG siste 5 kamper (lag)",
         "xg_roll10": "xG siste 10 kamper (lag)",
@@ -30,7 +32,7 @@ def show_feature_weights(model, feature_names):
         "is_home": "Spiller på hjemmebane?",
     }
 
-    # Hvilke features som tilhører lag vs motstander
+    # Hvilke generiske features vi ønsker å vise
     team_features = [
         "xg_roll5",
         "xg_roll10",
@@ -47,24 +49,29 @@ def show_feature_weights(model, feature_names):
         "avg_goals_against_away",
     ]
 
-    # Hent ut koeffisientene fra modellen
+    # 1) Hent alle koeffisienter fra modellen
     coefs = model.coef_.flatten()
 
-    # Hvis modellen har én ekstra koeff (is_home) som ikke er i feature_names, legg den til
-    if len(coefs) == len(feature_names) + 1 and "is_home" not in feature_names:
+    # 2) Sørg for at 'is_home' er med i feature_names
+    if "is_home" not in feature_names:
         feature_names = feature_names + ["is_home"]
 
-    # Fjern dubletter, behold rekkefølge
-    feature_names = list(dict.fromkeys(feature_names))
+    # 3) Ta akkurat like mange coefs som det er generiske features
+    generic_coefs = coefs[: len(feature_names)]
 
-    # Bygg DataFrame med rå og absolutte vekter
-    df = pd.DataFrame({"Feature": feature_names, "Weight": coefs})
+    # 4) Bygg DataFrame kun over de generiske features
+    df = pd.DataFrame(
+        {
+            "Feature": feature_names,
+            "Weight": generic_coefs,
+        }
+    )
     df["AbsWeight"] = df["Weight"].abs()
-    df["Navn"] = df["Feature"].map(name_map)
+    df["Navn"] = df["Feature"].map(name_map).fillna(df["Feature"])
     total = df["AbsWeight"].sum()
     df["Betydning (%)"] = (df["AbsWeight"] / total * 100).round(1)
 
-    # Vis i Streamlit uten indeks
+    # 5) Vis resultatene i to tabeller
     st.subheader("📊 Relativ feature‐betydning")
 
     st.markdown("**Lagets egne features**")
@@ -102,13 +109,17 @@ def show_odds_checker():
         st.warning("Ingen kommende kamper funnet.")
         return
 
+    matches["time_clean"] = matches["time"].str.extract(r"(\d{1,2}:\d{2})")[0]
+    matches["match_datetime"] = pd.to_datetime(
+        matches["date"].dt.strftime("%Y-%m-%d") + " " + matches["time_clean"]
+    )
+
     matches["label"] = (
         matches["home_team"]
         + " - "
         + matches["away_team"]
         + " ("
-        + matches["date"].dt.strftime("%Y-%m-%d %H:%M")
-        + ")"
+        + matches["match_datetime"].dt.strftime("%d.%m %H:%M") + ")"
     )
     sel = st.selectbox("Velg kamp", matches["label"], key="odds_match_select")
     selected = matches[matches["label"] == sel].iloc[[0]].reset_index(drop=True)
