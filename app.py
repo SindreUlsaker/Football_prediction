@@ -1,6 +1,11 @@
 # File: app.py
 
 import streamlit as st
+import os
+import sys
+
+sys.path.append(os.path.abspath("."))
+sys.path.append(os.path.abspath("src"))
 
 # ─── Må være det første Streamlit-kallet i hele appen ─────────────────────
 st.set_page_config(
