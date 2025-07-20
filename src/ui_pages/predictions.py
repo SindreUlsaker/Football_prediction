@@ -27,21 +27,16 @@ def load_upcoming_matches(league_name: str) -> pd.DataFrame:
     return df_upcoming.sort_values("date")
 
 
-def show_predictions_page():
-    st.title("Prediksjoner og Fair Odds for kommende kamper")
-
-    # 1) Velg liga
-    league = st.selectbox("Velg liga", list(LEAGUES.keys()), key="preds_league")
-
-    # 2) Les kommende kamper
+def show_predictions_page(
+    league: str, vis_type: str = "Sannsynlighet"
+):
+    # --- LAST INN OG SJEKK DATA ---
     matches = load_upcoming_matches(league)
     if matches.empty:
         st.warning("Ingen kommende kamper funnet for den neste uken.")
         return
 
-    # 4) Velg visningstype
-    vis_type = st.radio("Visingsmodus", ["Sannsynlighet", "Fair Odds"])
-
+    # --- BYGG FEATURES (uendret logikk) ---
     features_home = (
         [f"xg_home_roll{w}" for w in STAT_WINDOWS["xg"]]
         + [f"gf_home_roll{w}" for w in STAT_WINDOWS["gf"]]
@@ -49,8 +44,6 @@ def show_predictions_page():
         + [f"ga_away_roll{w}" for w in STAT_WINDOWS["ga"]]
         + ["avg_goals_for_home", "avg_goals_against_away"]
     )
-
-    # Bortelag
     features_away = (
         [f"xg_away_roll{w}" for w in STAT_WINDOWS["xg"]]
         + [f"gf_away_roll{w}" for w in STAT_WINDOWS["gf"]]
@@ -59,6 +52,7 @@ def show_predictions_page():
         + ["avg_goals_for_away", "avg_goals_against_home"]
     )
 
+    # --- PREDIKSJON (uendret) ---
     preds = predict_poisson_from_models(
         df=matches,
         features_home=features_home,
@@ -68,9 +62,14 @@ def show_predictions_page():
         max_goals=10,
     )
 
-    # 6) Vis resultater
-    if vis_type == "Sannsynlighet":
-        # Bruk felles display-funksjon
-        show_predictions(preds, 0)
-    else:
-        show_predictions(preds, 1)
+    # --- HURTIGMETRIKKER ---
+    m1, m2 = st.columns(2)
+    m1.metric("🗓 Antall kamper", len(preds))
+    avg_goals = (preds["lambda_home"] + preds["lambda_away"]).mean().round(2)
+    m2.metric("⚽ Snittmål", avg_goals)
+
+    st.markdown("---")
+
+    # --- VISNING ---
+    mode = 0 if vis_type == "Sannsynlighet" else 1
+    show_predictions(preds, mode)

@@ -111,6 +111,8 @@ def predict_poisson_from_models(
                 "prob_home": p_h,
                 "prob_draw": p_d,
                 "prob_away": p_a,
+                "lambda_home": lam_h,
+                "lambda_away": lam_a,
             }
         )
     return pd.DataFrame(records)

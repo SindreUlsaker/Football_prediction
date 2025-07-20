@@ -13,80 +13,6 @@ from src.models.odds import (
 import pandas as pd
 from src.models.predict import load_models_for_league
 
-
-def show_feature_weights(model, feature_names):
-    """Viser kun relativ betydning av hver generisk feature i prosent."""
-
-    # Brukervennlige navn for de generiske feature-keys
-    name_map = {
-        "xg_roll5": "xG siste 5 kamper (lag)",
-        "xg_roll10": "xG siste 10 kamper (lag)",
-        "gf_roll5": "Mål scoret siste 5 kamper (lag)",
-        "gf_roll10": "Mål scoret siste 10 kamper (lag)",
-        "avg_goals_for": "Gj.snittsmål scoret (lag)",
-        "xg_conceded_away_roll5": "xG motstander siste 5 kamper",
-        "xg_conceded_away_roll10": "xG motstander siste 10 kamper",
-        "ga_away_roll5": "Inslupne mål motstander siste 5 kamper",
-        "ga_away_roll10": "Inslupne mål motstander siste 10 kamper",
-        "avg_goals_against_away": "Gj.snitts mål sluppet inn av motstander",
-        "is_home": "Spiller på hjemmebane?",
-    }
-
-    # Hvilke generiske features vi ønsker å vise
-    team_features = [
-        "xg_roll5",
-        "xg_roll10",
-        "gf_roll5",
-        "gf_roll10",
-        "avg_goals_for",
-        "is_home",
-    ]
-    opponent_features = [
-        "xg_conceded_away_roll5",
-        "xg_conceded_away_roll10",
-        "ga_away_roll5",
-        "ga_away_roll10",
-        "avg_goals_against_away",
-    ]
-
-    # 1) Hent alle koeffisienter fra modellen
-    coefs = model.coef_.flatten()
-
-    # 2) Sørg for at 'is_home' er med i feature_names
-    if "is_home" not in feature_names:
-        feature_names = feature_names + ["is_home"]
-
-    # 3) Ta akkurat like mange coefs som det er generiske features
-    generic_coefs = coefs[: len(feature_names)]
-
-    # 4) Bygg DataFrame kun over de generiske features
-    df = pd.DataFrame(
-        {
-            "Feature": feature_names,
-            "Weight": generic_coefs,
-        }
-    )
-    df["AbsWeight"] = df["Weight"].abs()
-    df["Navn"] = df["Feature"].map(name_map).fillna(df["Feature"])
-    total = df["AbsWeight"].sum()
-    df["Betydning (%)"] = (df["AbsWeight"] / total * 100).round(1)
-
-    # 5) Vis resultatene i to tabeller
-    st.subheader("📊 Relativ feature‐betydning")
-
-    st.markdown("**Lagets egne features**")
-    df_team = df[df["Feature"].isin(team_features)][
-        ["Navn", "Betydning (%)"]
-    ].reset_index(drop=True)
-    st.dataframe(df_team, hide_index=True, use_container_width=True)
-
-    st.markdown("**Motstander‐features**")
-    df_opp = df[df["Feature"].isin(opponent_features)][
-        ["Navn", "Betydning (%)"]
-    ].reset_index(drop=True)
-    st.dataframe(df_opp, hide_index=True, use_container_width=True)
-
-
 def load_upcoming_matches(league_name: str) -> pd.DataFrame:
     key = league_name.lower().replace(" ", "_")
     processed_path = f"{DATA_PATH}/processed/{key}_processed.csv"
@@ -100,35 +26,26 @@ def load_upcoming_matches(league_name: str) -> pd.DataFrame:
     ].sort_values("date")
 
 
-def show_odds_checker():
-    st.title("Odds Checker 🔍")
+def show_odds_checker(
+    matches: pd.DataFrame,
+    odds_type: str,
+    threshold: float | None,
+    show_weights: bool,
+    league: str,
+    sel_label: str,
+):
+    """Odds Checker-side: sidebar for alle valg og hovedvisning under."""
 
-    league = st.selectbox("Velg liga", list(LEAGUES.keys()), key="odds_match")
-    matches = load_upcoming_matches(league)
-    if matches.empty:
-        st.warning("Ingen kommende kamper funnet.")
-        return
+    # --- HURTIGMETRIKKER ---
+    m1, m2 = st.columns([3, 1])
+    m1.metric("🏷️ Valgt kamp", sel_label)
+    m2.metric("🎲 Spilltype", odds_type)
+    st.markdown("---")
 
-    matches["time_clean"] = matches["time"].str.extract(r"(\d{1,2}:\d{2})")[0]
-    matches["match_datetime"] = pd.to_datetime(
-        matches["date"].dt.strftime("%Y-%m-%d") + " " + matches["time_clean"]
-    )
+    # Finn den valgte kampen
+    sel_match = matches[matches["label"] == sel_label].iloc[[0]].reset_index(drop=True)
 
-    matches["label"] = (
-        matches["home_team"]
-        + " - "
-        + matches["away_team"]
-        + " ("
-        + matches["match_datetime"].dt.strftime("%d.%m %H:%M") + ")"
-    )
-    sel = st.selectbox("Velg kamp", matches["label"], key="odds_match_select")
-    selected = matches[matches["label"] == sel].iloc[[0]].reset_index(drop=True)
-
-    spill = st.selectbox(
-        "Velg spilltype", ["HUB", "Begge lag scorer", "Over/Under"], key="odds_type"
-    )
-
-    # Bygg feature-lister akkurat som før
+    # Bygg feature-lister (uendret logikk)
     stat_windows = {"xg": [5, 10], "gf": [5, 10], "ga": [5, 10]}
     features_home = (
         [f"xg_home_roll{w}" for w in stat_windows["xg"]]
@@ -137,7 +54,6 @@ def show_odds_checker():
         + [f"ga_away_roll{w}" for w in stat_windows["ga"]]
         + ["avg_goals_for_home", "avg_goals_against_away"]
     )
-
     features_away = (
         [f"xg_away_roll{w}" for w in stat_windows["xg"]]
         + [f"gf_away_roll{w}" for w in stat_windows["gf"]]
@@ -146,44 +62,35 @@ def show_odds_checker():
         + ["avg_goals_for_away", "avg_goals_against_home"]
     )
 
-    # Kall relevant odds-funksjon
-    if spill == "HUB":
+    # Beregn og vis de ulike odds-tabellene, uten å endre logikken
+    if odds_type == "HUB":
         df_odds = calculate_hub_odds(
-            selected,
+            sel_match,
             features_home,
             features_away,
             league,
             models_dir=f"{DATA_PATH}/models",
         )
-        st.subheader("Fair odds for 1X2")
-    elif spill == "Begge lag scorer":
+        st.markdown("### Fair odds 1X2")
+    elif odds_type == "Begge lag scorer":
         df_odds = calculate_btts_odds(
-            selected,
+            sel_match,
             features_home,
             features_away,
             league,
             models_dir=f"{DATA_PATH}/models",
         )
-        st.subheader("Fair odds for Begge lag scorer")
-    else:  # Over/Under
-        # Du kan la brukeren velge threshold, f.eks.:
-        threshold = st.number_input("Sett mål-grense", value=2.5, step=0.5)
+        st.markdown("### Fair odds - Begge lag scorer")
+    else:
         df_odds = calculate_over_under_odds(
-            selected,
+            sel_match,
             features_home,
             features_away,
             league,
             models_dir=f"{DATA_PATH}/models",
             threshold=threshold,
         )
+        st.markdown(f"### Fair odds - Over/Under {threshold}")
 
-    model, _ = load_models_for_league(
-        league,
-        models_dir=f"{DATA_PATH}/models",
-    )
-
-    generic_features = [f.replace("_home", "") for f in features_home] + ["is_home"]
-    if st.checkbox("Vis hvilke features modellen vektlegger mest"):
-        show_feature_weights(model, generic_features)
-
+    # Vis resultat
     st.dataframe(df_odds, use_container_width=True, hide_index=True)
