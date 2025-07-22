@@ -24,7 +24,7 @@ jobs:
 
       - name: Run update_all.py
         run: |
-          python src/scripts/update_all.py
+          python .m src.scripts.update_all
 
       - name: Commit and push changes
         run: |
