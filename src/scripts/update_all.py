@@ -13,7 +13,7 @@ from src.models.train import train_league
 def main():
     # 1) Fetch raw data for all leagues
     print("=== Fetching raw data for all leagues ===")
-    #fetch_main()
+    fetch_main()
 
     # 2) Define directories and stat windows
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
