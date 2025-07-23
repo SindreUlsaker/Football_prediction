@@ -1,5 +1,8 @@
 name: Run update_all.py daily
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '0 3 * * *'  # Runs at 03:00 UTC every day
