@@ -241,19 +241,35 @@ def main():
                     all_data.append(df_team)
 
         if not all_data:
-            print(f"Ingen kamper samlet for liga {league_name}.")
+            print(
+                f"Ingen kamper samlet for liga {league_name}, hopper over oppdatering."
+            )
             continue
 
-        # Slå sammen og lagre én fil for begge sesonger
+        # Slå sammen nye data
         df_all = pd.concat(all_data, ignore_index=True)
-        filename = os.path.join(
+
+        # Filnavn for rådata
+        raw_file = os.path.join(
             "data",
             "raw",
             f"{league_name.lower().replace(' ', '_')}_matches_full.csv",
         )
-        os.makedirs(os.path.dirname(filename), exist_ok=True)
-        df_all.to_csv(filename, index=False)
-        print(f"Lagret {filename}")
+        os.makedirs(os.path.dirname(raw_file), exist_ok=True)
+
+        # Fallback: hent inn eksisterende råfil hvis forrige sesong ikke ble lastet ned
+        if prev:
+            seasons_fetched = df_all["season"].unique().tolist()
+            if prev not in seasons_fetched and os.path.exists(raw_file):
+                print(f"Sesong {prev} feilet, legger til gammel data fra {raw_file}")
+                old = pd.read_csv(raw_file)
+                prev_old = old[old["season"] == prev]
+                if not prev_old.empty:
+                    df_all = pd.concat([df_all, prev_old], ignore_index=True)
+
+        # Lagre endelig råfil
+        df_all.to_csv(raw_file, index=False)
+        print(f"Lagret {raw_file}")
 
 
 if __name__ == "__main__":
