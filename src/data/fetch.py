@@ -11,6 +11,37 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from config.leagues import LEAGUES
 
+# Single global driver instance reused per league
+_driver = None
+
+
+def get_driver():
+    global _driver
+    if _driver is None:
+        options = Options()
+        options.add_argument("--headless")
+        options.add_argument("--disable-gpu")
+        options.add_argument("--no-sandbox")
+        options.add_argument("window-size=1920,1080")
+        options.add_argument(
+            "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+        )
+        service = Service(ChromeDriverManager().install())
+        _driver = webdriver.Chrome(service=service, options=options)
+        _driver.set_page_load_timeout(60)
+    return _driver
+
+
+def close_driver():
+    global _driver
+    if _driver:
+        try:
+            _driver.quit()
+        except Exception:
+            pass
+        _driver = None
+
 
 class SeleniumResponse:
     def __init__(self, text):
@@ -27,13 +58,11 @@ def get_current_season(base_url):
         return None
 
     soup = BeautifulSoup(resp.text, "lxml")
-    # Finn <div id="meta"> og deretter <h1>
     h1 = soup.select_one("div#meta h1")
     if not h1:
         return None
 
     text = h1.get_text(strip=True)
-    # Finn mønster 'YYYY-YYYY' i starten av teksten
     m = re.match(r"^(\d{4}-\d{4})", text)
     return m.group(1) if m else None
 
@@ -48,27 +77,13 @@ def get_prev_season(season):
 
 def fetch_data(url):
     """
-    Fetch page HTML using Selenium and Chrome WebDriver.
-    Retries on failure with a delay.
+    Fetch page HTML using a shared Selenium WebDriver. Retries on failure with a delay.
     """
     try:
-        options = Options()
-        options.add_argument("--headless")
-        options.add_argument("--disable-gpu")
-        options.add_argument("--no-sandbox")
-        options.add_argument("window-size=1920,1080")
-        options.add_argument(
-            "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-        )
-
-        service = Service(ChromeDriverManager().install())
-        driver = webdriver.Chrome(service=service, options=options)
+        driver = get_driver()
         driver.get(url)
-        # Wait for JavaScript-driven content to load
         time.sleep(2)
         html = driver.page_source
-        driver.quit()
         return SeleniumResponse(html)
     except WebDriverException as e:
         print(f"WebDriver error: {e}. Retrying in 60 seconds...")
@@ -161,63 +176,6 @@ def fetch_team_data(team_url, season="2024-2025"):  # fmt: skip
     return df
 
 
-def fetch_league_data(league_name, standings_url, season="2024-2025"):  # fmt: skip
-    """
-    Hent og lagre data for en enkelt liga.
-    """
-    print(f"\n--- Henter data for liga: {league_name} ---")
-    team_urls = fetch_team_urls(standings_url)
-    if not team_urls:
-        print(f"Ingen lag funnet for liga {league_name}.")
-        return
-
-    all_data = []
-    for url in team_urls:
-        print(f"Henter data for {url}")
-        df_team = fetch_team_data(url, season)
-        time.sleep(1)
-        if df_team is not None:
-            all_data.append(df_team)
-
-    if not all_data:
-        print(f"Ingen kamper samlet for liga {league_name}.")
-        return
-
-    df_all = pd.concat(all_data, ignore_index=True)
-
-    # Velg relevante kolonner
-    want = [
-        "date",
-        "time",
-        "comp",
-        "season",
-        "team",
-        "opponent",
-        "venue",
-        "round",
-        "xg_for",
-        "gf_for",
-        "ga_for",
-        "sh_for",
-        "sot_for",
-        "dist_for",
-        "fk_for",
-        "pk_for",
-        "xg_against",
-        "gf_against",
-        "ga_against",
-        "sh_against",
-        "sot_against",
-        "dist_against",
-        "fk_against",
-        "pk_against",
-    ]
-    existing = [c for c in want if c in df_all.columns]
-    df_final = df_all[existing]
-
-    return df_final
-
-
 def main():
     for league_name, cfg in LEAGUES.items():
         comp_id = cfg["comp_id"]
@@ -244,10 +202,40 @@ def main():
             print(
                 f"Ingen kamper samlet for liga {league_name}, hopper over oppdatering."
             )
+            close_driver()
             continue
 
-        # Slå sammen nye data
         df_all = pd.concat(all_data, ignore_index=True)
+
+        # Velg relevante kolonner
+        want = [
+            "date",
+            "time",
+            "comp",
+            "season",
+            "team",
+            "opponent",
+            "venue",
+            "round",
+            "xg_for",
+            "gf_for",
+            "ga_for",
+            "sh_for",
+            "sot_for",
+            "dist_for",
+            "fk_for",
+            "pk_for",
+            "xg_against",
+            "gf_against",
+            "ga_against",
+            "sh_against",
+            "sot_against",
+            "dist_against",
+            "fk_against",
+            "pk_against",
+        ]
+        existing = [c for c in want if c in df_all.columns]
+        df_all = df_all[existing]
 
         # Filnavn for rådata
         raw_file = os.path.join(
@@ -257,7 +245,7 @@ def main():
         )
         os.makedirs(os.path.dirname(raw_file), exist_ok=True)
 
-        # Fallback: hent inn eksisterende råfil hvis forrige sesong ikke ble lastet ned
+        # Fallback hvis prev-season mangler
         if prev:
             seasons_fetched = df_all["season"].unique().tolist()
             if prev not in seasons_fetched and os.path.exists(raw_file):
@@ -270,6 +258,7 @@ def main():
         # Lagre endelig råfil
         df_all.to_csv(raw_file, index=False)
         print(f"Lagret {raw_file}")
+        close_driver()
 
 
 if __name__ == "__main__":
