@@ -51,6 +51,7 @@ football_prediction/
 │       ├── predictions.py      # Predictions view
 │       ├── oddschecker.py      # Odds comparison tool
 │       └── model_info.py       # Info and disclaimers about the model
+```
 
 ---
 
@@ -72,11 +73,13 @@ football_prediction/
    ```bash
    git clone https://github.com/SindreUlsaker/Football_prediction.git
    cd Football_prediction
-   
+   ```
+
 2. Install dependencies:
 
    ```bash
    pip install -r requirements.txt
+   ```
 
 3. Run the Streamlit app:
 

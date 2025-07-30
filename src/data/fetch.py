@@ -29,7 +29,7 @@ def get_driver():
         )
         service = Service(ChromeDriverManager().install())
         _driver = webdriver.Chrome(service=service, options=options)
-        _driver.set_page_load_timeout(60)
+        _driver.set_page_load_timeout(120)
     return _driver
 
 
@@ -86,7 +86,8 @@ def fetch_data(url):
         html = driver.page_source
         return SeleniumResponse(html)
     except WebDriverException as e:
-        print(f"WebDriver error: {e}. Retrying in 60 seconds...")
+        print(f"WebDriver error: {e}. Restarting driver and retrying after delay...")
+        close_driver()
         time.sleep(60)
         return fetch_data(url)
     except Exception as e:
@@ -111,15 +112,14 @@ def fetch_team_urls(standings_url):
 
 def fetch_team_data(team_url, season="2024-2025"):  # fmt: skip
     """
-    Hent alle kamper (inkl. kommende) fra div_matchlogs_for på lagets Stats-side,
-    og legg til shooting-stats for spilte kamper.
+    Hent alle kamper (inkl. kommende) fra div_matchlogs_for, og shooting-stats.
     """
     data = fetch_data(team_url)
     if not data:
         return None
     soup = BeautifulSoup(data.text, "lxml")
 
-    # 1) Metadata: date, time, comp, opponent, venue, round
+    # 1) Metadata
     div_meta = soup.find("div", id="div_matchlogs_for")
     if not div_meta:
         print(f"Fant ingen matchlogs_for for {team_url}")
@@ -169,96 +169,108 @@ def fetch_team_data(team_url, season="2024-2025"):  # fmt: skip
         columns={c: f"{c}_against" for c in shoot_cols}
     )
 
-    # Merge meta with shooting stats
     df = df_meta.merge(df_for_shoot, on="date", how="left").merge(
         df_against_shoot, on="date", how="left"
     )
     return df
 
 
+def fetch_league_data(league_name, cfg):
+    comp_id = cfg["comp_id"]
+    slug = cfg["slug"]
+    base_url = f"https://fbref.com/en/comps/{comp_id}/{slug}"
+    current = get_current_season(base_url)
+    prev = get_prev_season(current) if current else None
+
+    print(f"\n--- Henter data for liga: {league_name} ---")
+    all_data = []
+    standings_urls = [
+        (season, f"https://fbref.com/en/comps/{comp_id}/{season}/{season}-{slug}")
+        for season in filter(None, (prev, current))
+    ]
+
+    for season, standings_url in standings_urls:
+        print(f"\n--- Henter {league_name}, sesong {season} ---")
+        team_urls = fetch_team_urls(standings_url)
+        for team_url in team_urls:
+            attempts = 0
+            df_team = None
+            while attempts < 3 and df_team is None:
+                try:
+                    df_team = fetch_team_data(team_url, season=season)
+                except Exception as e:
+                    attempts += 1
+                    print(f"Error fetching {team_url} (attempt {attempts}): {e}")
+                    close_driver()
+                    time.sleep(5 * attempts)
+                if df_team is None and attempts < 3:
+                    time.sleep(5)
+            if df_team is None:
+                print(f"Skipping {team_url} after 3 failed attempts")
+            else:
+                all_data.append(df_team)
+
+    close_driver()
+
+    if not all_data:
+        print(f"Ingen kamper samlet for liga {league_name}, hopper over oppdatering.")
+        return
+
+    df_all = pd.concat(all_data, ignore_index=True)
+
+    # Velg relevante kolonner
+    want = [
+        "date",
+        "time",
+        "comp",
+        "season",
+        "team",
+        "opponent",
+        "venue",
+        "round",
+        "xg_for",
+        "gf_for",
+        "ga_for",
+        "sh_for",
+        "sot_for",
+        "dist_for",
+        "fk_for",
+        "pk_for",
+        "xg_against",
+        "gf_against",
+        "ga_against",
+        "sh_against",
+        "sot_against",
+        "dist_against",
+        "fk_against",
+        "pk_against",
+    ]
+    existing = [c for c in want if c in df_all.columns]
+    df_final = df_all[existing]
+
+    raw_file = os.path.join(
+        "data",
+        "raw",
+        f"{league_name.lower().replace(' ', '_')}_matches_full.csv",
+    )
+    os.makedirs(os.path.dirname(raw_file), exist_ok=True)
+
+    if prev:
+        seasons_fetched = df_final["season"].unique().tolist()
+        if prev not in seasons_fetched and os.path.exists(raw_file):
+            print(f"Sesong {prev} feilet, legger til gammel data fra {raw_file}")
+            old = pd.read_csv(raw_file)
+            prev_old = old[old["season"] == prev]
+            if not prev_old.empty:
+                df_final = pd.concat([df_final, prev_old], ignore_index=True)
+
+    df_final.to_csv(raw_file, index=False)
+    print(f"Lagret {raw_file}")
+
+
 def main():
     for league_name, cfg in LEAGUES.items():
-        comp_id = cfg["comp_id"]
-        slug = cfg["slug"]
-        # 1) Finn nåværende og forrige sesong
-        base_url = f"https://fbref.com/en/comps/{comp_id}/{slug}"
-        current = get_current_season(base_url)
-        prev = get_prev_season(current) if current else None
-
-        all_data = []
-        for season in filter(None, (prev, current)):
-            standings_url = (
-                f"https://fbref.com/en/comps/{comp_id}/{season}/{season}-{slug}"
-            )
-            print(f"\n--- Henter {league_name}, sesong {season} ---")
-            team_urls = fetch_team_urls(standings_url)
-            for url in team_urls:
-                df_team = fetch_team_data(url, season=season)
-                time.sleep(1)
-                if df_team is not None:
-                    all_data.append(df_team)
-
-        if not all_data:
-            print(
-                f"Ingen kamper samlet for liga {league_name}, hopper over oppdatering."
-            )
-            close_driver()
-            continue
-
-        df_all = pd.concat(all_data, ignore_index=True)
-
-        # Velg relevante kolonner
-        want = [
-            "date",
-            "time",
-            "comp",
-            "season",
-            "team",
-            "opponent",
-            "venue",
-            "round",
-            "xg_for",
-            "gf_for",
-            "ga_for",
-            "sh_for",
-            "sot_for",
-            "dist_for",
-            "fk_for",
-            "pk_for",
-            "xg_against",
-            "gf_against",
-            "ga_against",
-            "sh_against",
-            "sot_against",
-            "dist_against",
-            "fk_against",
-            "pk_against",
-        ]
-        existing = [c for c in want if c in df_all.columns]
-        df_all = df_all[existing]
-
-        # Filnavn for rådata
-        raw_file = os.path.join(
-            "data",
-            "raw",
-            f"{league_name.lower().replace(' ', '_')}_matches_full.csv",
-        )
-        os.makedirs(os.path.dirname(raw_file), exist_ok=True)
-
-        # Fallback hvis prev-season mangler
-        if prev:
-            seasons_fetched = df_all["season"].unique().tolist()
-            if prev not in seasons_fetched and os.path.exists(raw_file):
-                print(f"Sesong {prev} feilet, legger til gammel data fra {raw_file}")
-                old = pd.read_csv(raw_file)
-                prev_old = old[old["season"] == prev]
-                if not prev_old.empty:
-                    df_all = pd.concat([df_all, prev_old], ignore_index=True)
-
-        # Lagre endelig råfil
-        df_all.to_csv(raw_file, index=False)
-        print(f"Lagret {raw_file}")
-        close_driver()
+        fetch_league_data(league_name, cfg)
 
 
 if __name__ == "__main__":
