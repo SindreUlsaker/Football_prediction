@@ -86,13 +86,16 @@ def fetch_data(url):
         html = driver.page_source
         return SeleniumResponse(html)
     except WebDriverException as e:
-        print(f"WebDriver error: {e}. Restarting driver and retrying after delay...")
+        print(f"WebDriver error: {e}. Retrying in 60 seconds...")
         close_driver()
         time.sleep(60)
         return fetch_data(url)
     except Exception as e:
-        print(f"Unexpected error fetching data: {e}")
-        return None
+        # Fanger opp f.eks. HTTPConnectionPool–feil mot ChromeDriver og andre uventede feil
+        print(f"Fetch data error: {e}. Retrying in 60 seconds...")
+        close_driver()
+        time.sleep(60)
+        return fetch_data(url)
 
 
 def fetch_team_urls(standings_url):

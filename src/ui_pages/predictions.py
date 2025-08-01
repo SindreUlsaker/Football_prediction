@@ -19,8 +19,8 @@ def load_upcoming_matches(league_name: str) -> pd.DataFrame:
     processed_path = f"{DATA_PATH}/processed/{key}_processed.csv"
     df = pd.read_csv(processed_path, parse_dates=["date"])
 
-    now = pd.Timestamp("2025-05-16")
-    next_week = now + timedelta(days=10)
+    now = pd.Timestamp.now()
+    next_week = now + timedelta(days=18)
     df_upcoming = df[
         (df["date"] >= now) & (df["date"] < next_week) & (df["result_home"].isna())
     ].copy()

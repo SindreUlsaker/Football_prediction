@@ -2,7 +2,7 @@ import pandas as pd
 
 
 def _compute_relegated_averages(
-    df: pd.DataFrame, agg_prev: pd.DataFrame, spots: int = 4
+    df: pd.DataFrame, agg_prev: pd.DataFrame, spots: int = 3
 ) -> dict[str, dict[str, float]]:
     """
     Returnerer for hver sesong strengen 'YYYY-YYYY' et dict med
@@ -224,7 +224,7 @@ def calculate_static_features(df: pd.DataFrame, agg_window: int) -> pd.DataFrame
     )
 
     # 2) Beregn gj.snitt for nedrykkslag per sesong
-    relegated_stats = _compute_relegated_averages(df, agg_prev, spots=4)
+    relegated_stats = _compute_relegated_averages(df, agg_prev, spots=3)
 
     # 3) Hjelpekolonne: prev_season (forrige sesong-streng)
     df["prev_season"] = (
