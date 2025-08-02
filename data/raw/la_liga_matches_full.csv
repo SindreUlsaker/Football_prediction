@@ -1,933 +1,4 @@
 date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_for,dist_for,fk_for,pk_for,xg_against,gf_against,ga_against,sh_against,sot_against,dist_against,fk_against,pk_against
-2023-08-12,21:30 (19:30),La Liga,2023-2024,Real Madrid,Athletic Club,Away,Matchweek 1,0.9,2,0,14,8,16.0,2,0,0.4,0,2,7.0,1.0,15.3,0.0,0.0
-2023-08-19,19:30 (17:30),La Liga,2023-2024,Real Madrid,Almería,Away,Matchweek 2,2.0,3,1,25,9,17.0,1,0,1.3,1,3,20.0,8.0,17.5,0.0,0.0
-2023-08-25,21:30 (19:30),La Liga,2023-2024,Real Madrid,Celta Vigo,Away,Matchweek 3,1.4,1,0,9,2,19.4,0,0,1.2,0,1,13.0,4.0,14.6,0.0,0.0
-2023-09-02,16:15 (14:15),La Liga,2023-2024,Real Madrid,Getafe,Home,Matchweek 4,2.8,2,1,26,12,17.7,0,0,0.4,1,2,6.0,2.0,19.9,0.0,0.0
-2023-09-17,21:00 (19:00),La Liga,2023-2024,Real Madrid,Real Sociedad,Home,Matchweek 5,2.0,2,1,17,8,15.9,1,0,1.6,1,2,15.0,5.0,17.6,0.0,0.0
-2023-09-20,18:45 (16:45),Champions Lg,2023-2024,Real Madrid,de Union Berlin,Home,Group stage,3.7,1,0,32,7,16.2,1,0,0.2,0,1,4.0,0.0,12.9,0.0,0.0
-2023-09-24,21:00 (19:00),La Liga,2023-2024,Real Madrid,Atlético Madrid,Away,Matchweek 6,1.0,1,3,20,5,21.5,1,0,1.4,3,1,10.0,4.0,14.6,0.0,0.0
-2023-09-27,19:00 (17:00),La Liga,2023-2024,Real Madrid,Las Palmas,Home,Matchweek 7,1.7,2,0,21,9,16.4,0,0,0.7,0,2,16.0,2.0,21.5,1.0,0.0
-2023-09-30,18:30 (16:30),La Liga,2023-2024,Real Madrid,Girona,Away,Matchweek 8,2.3,3,0,14,7,16.2,0,0,1.6,0,3,13.0,3.0,19.7,0.0,0.0
-2023-10-03,21:00 (19:00),Champions Lg,2023-2024,Real Madrid,it Napoli,Away,Group stage,1.4,3,2,18,5,16.4,0,0,1.9,2,3,17.0,6.0,18.3,0.0,1.0
-2023-10-07,16:15 (14:15),La Liga,2023-2024,Real Madrid,Osasuna,Home,Matchweek 9,3.2,4,0,18,8,16.0,0,0,0.5,0,4,7.0,1.0,24.4,0.0,0.0
-2023-10-21,18:30 (16:30),La Liga,2023-2024,Real Madrid,Sevilla,Away,Matchweek 10,1.6,1,1,14,4,15.7,1,0,1.5,1,1,17.0,6.0,18.3,0.0,0.0
-2023-10-24,20:00 (19:00),Champions Lg,2023-2024,Real Madrid,pt Braga,Away,Group stage,0.9,2,1,13,6,21.2,0,0,1.5,1,2,16.0,3.0,15.1,0.0,0.0
-2023-10-28,16:15 (14:15),La Liga,2023-2024,Real Madrid,Barcelona,Away,Matchweek 11,1.1,2,1,13,4,21.9,0,0,1.5,1,2,15.0,3.0,15.9,0.0,0.0
-2023-11-05,21:00 (20:00),La Liga,2023-2024,Real Madrid,Rayo Vallecano,Home,Matchweek 12,2.2,0,0,22,5,18.4,1,0,0.1,0,0,4.0,0.0,23.3,0.0,0.0
-2023-11-08,21:00 (20:00),Champions Lg,2023-2024,Real Madrid,pt Braga,Home,Group stage,3.2,3,0,18,7,14.7,0,0,1.4,0,3,8.0,3.0,23.5,0.0,0.0
-2023-11-11,21:00 (20:00),La Liga,2023-2024,Real Madrid,Valencia,Home,Matchweek 13,1.7,5,1,16,7,18.3,3,0,1.7,1,5,10.0,4.0,16.3,0.0,0.0
-2023-11-26,18:30 (17:30),La Liga,2023-2024,Real Madrid,Cádiz,Away,Matchweek 14,1.6,3,0,14,5,18.8,1,0,1.2,0,3,13.0,4.0,20.0,3.0,0.0
-2023-11-29,21:00 (20:00),Champions Lg,2023-2024,Real Madrid,it Napoli,Home,Group stage,2.8,4,2,20,9,13.6,0,0,1.4,2,4,11.0,3.0,14.9,0.0,0.0
-2023-12-02,18:30 (17:30),La Liga,2023-2024,Real Madrid,Granada,Home,Matchweek 15,1.8,2,0,11,4,17.2,0,0,0.1,0,2,2.0,0.0,40.5,0.0,0.0
-2023-12-09,16:15 (15:15),La Liga,2023-2024,Real Madrid,Betis,Away,Matchweek 16,1.0,1,1,12,2,18.8,1,0,1.3,1,1,14.0,6.0,14.5,0.0,0.0
-2023-12-12,21:00 (20:00),Champions Lg,2023-2024,Real Madrid,de Union Berlin,Away,Group stage,2.9,3,2,22,8,17.2,0,0,1.1,2,3,8.0,5.0,14.5,0.0,0.0
-2023-12-17,21:00 (20:00),La Liga,2023-2024,Real Madrid,Villarreal,Home,Matchweek 17,2.3,4,1,22,9,16.9,1,0,0.8,1,4,3.0,1.0,18.0,0.0,0.0
-2023-12-21,21:30 (20:30),La Liga,2023-2024,Real Madrid,Alavés,Away,Matchweek 18,0.6,1,0,9,4,18.4,0,0,0.6,0,1,8.0,2.0,15.3,0.0,0.0
-2024-01-03,19:15 (18:15),La Liga,2023-2024,Real Madrid,Mallorca,Home,Matchweek 19,1.7,1,0,17,5,18.8,3,0,0.6,0,1,7.0,0.0,14.0,0.0,0.0
-2024-01-06,21:30 (20:30),Copa del Rey,2023-2024,Real Madrid,Arandina,Away,Round of 32,,3,1,15,5,,,1,,1,3,2.0,1.0,,,0.0
-2024-01-10,22:00 (19:00),Supercopa de España,2023-2024,Real Madrid,Atlético Madrid,Home,Semi-finals,,5,3,22,11,,,0,,3,5,11.0,6.0,,,0.0
-2024-01-14,22:00 (19:00),Supercopa de España,2023-2024,Real Madrid,Barcelona,Home,Final,,4,1,18,9,,,1,,1,4,12.0,7.0,,,0.0
-2024-01-18,21:30 (20:30),Copa del Rey,2023-2024,Real Madrid,Atlético Madrid,Away,Round of 16,,2,4,19,7,,,0,,4,2,18.0,12.0,,,0.0
-2024-01-21,16:15 (15:15),La Liga,2023-2024,Real Madrid,Almería,Home,Matchweek 21,2.2,3,2,17,5,16.0,0,1,0.9,2,3,10.0,2.0,22.5,0.0,0.0
-2024-01-27,15:15,La Liga,2023-2024,Real Madrid,Las Palmas,Away,Matchweek 22,2.3,2,1,13,5,13.2,1,0,0.7,1,2,7.0,2.0,16.6,0.0,0.0
-2024-02-01,21:00 (20:00),La Liga,2023-2024,Real Madrid,Getafe,Away,Matchweek 20,2.0,2,0,16,9,16.7,0,0,0.8,0,2,10.0,2.0,21.1,0.0,0.0
-2024-02-04,21:00 (20:00),La Liga,2023-2024,Real Madrid,Atlético Madrid,Home,Matchweek 23,1.9,1,1,17,4,16.0,0,0,1.1,1,1,10.0,5.0,11.7,0.0,0.0
-2024-02-10,18:30 (17:30),La Liga,2023-2024,Real Madrid,Girona,Home,Matchweek 24,3.2,4,0,15,6,15.7,0,0,0.3,0,4,5.0,0.0,25.4,0.0,0.0
-2024-02-13,21:00 (20:00),Champions Lg,2023-2024,Real Madrid,de RB Leipzig,Away,Round of 16,1.4,1,0,15,3,16.0,0,0,1.4,0,1,14.0,9.0,17.2,0.0,0.0
-Date,Time,Comp,2023-2024,Real Madrid,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
-2024-02-18,14:00 (13:00),La Liga,2023-2024,Real Madrid,Rayo Vallecano,Away,Matchweek 25,1.1,1,1,11,4,17.9,1,0,1.1,1,1,7.0,2.0,19.7,0.0,1.0
-2024-02-25,21:00 (20:00),La Liga,2023-2024,Real Madrid,Sevilla,Home,Matchweek 26,1.0,1,0,16,6,20.0,1,0,0.8,0,1,4.0,1.0,8.5,0.0,0.0
-2024-03-02,21:00 (20:00),La Liga,2023-2024,Real Madrid,Valencia,Away,Matchweek 27,2.2,2,2,10,5,15.6,1,0,1.1,2,2,12.0,5.0,20.4,1.0,0.0
-2024-03-06,21:00 (20:00),Champions Lg,2023-2024,Real Madrid,de RB Leipzig,Home,Round of 16,0.8,1,1,11,3,18.3,0,0,1.0,1,1,20.0,4.0,17.8,1.0,0.0
-2024-03-10,18:30 (17:30),La Liga,2023-2024,Real Madrid,Celta Vigo,Home,Matchweek 28,3.4,4,0,25,13,13.8,0,0,0.8,0,4,11.0,1.0,17.1,0.0,0.0
-2024-03-16,16:15 (15:15),La Liga,2023-2024,Real Madrid,Osasuna,Away,Matchweek 29,2.9,4,2,17,9,18.6,0,0,0.7,2,4,10.0,4.0,18.7,0.0,0.0
-2024-03-31,21:00 (19:00),La Liga,2023-2024,Real Madrid,Athletic Club,Home,Matchweek 30,1.1,2,0,9,4,18.8,0,0,0.3,0,2,7.0,3.0,16.8,0.0,0.0
-2024-04-09,21:00 (19:00),Champions Lg,2023-2024,Real Madrid,eng Manchester City,Home,Quarter-finals,0.7,3,3,14,5,20.4,0,0,0.8,3,3,12.0,6.0,19.7,2.0,0.0
-2024-04-13,18:30 (16:30),La Liga,2023-2024,Real Madrid,Mallorca,Away,Matchweek 31,1.5,1,0,16,8,20.3,1,0,0.6,0,1,6.0,2.0,15.1,0.0,0.0
-2024-04-17,20:00 (19:00),Champions Lg,2023-2024,Real Madrid,eng Manchester City,Away,Quarter-finals,1.4,1 (4),1 (3),8,3,19.2,0,0,2.7,1 (3),1 (4),33.0,9.0,15.1,0.0,0.0
-2024-04-21,21:00 (19:00),La Liga,2023-2024,Real Madrid,Barcelona,Home,Matchweek 32,2.3,3,2,13,7,19.1,0,1,1.4,2,3,15.0,6.0,16.7,2.0,0.0
-2024-04-26,21:00 (19:00),La Liga,2023-2024,Real Madrid,Real Sociedad,Away,Matchweek 33,0.4,1,0,5,3,23.1,0,0,0.6,0,1,9.0,3.0,23.3,0.0,0.0
-2024-04-30,21:00 (19:00),Champions Lg,2023-2024,Real Madrid,de Bayern Munich,Away,Semi-finals,1.9,2,2,9,3,18.2,1,1,1.6,2,2,13.0,4.0,20.2,1.0,1.0
-2024-05-04,16:15 (14:15),La Liga,2023-2024,Real Madrid,Cádiz,Home,Matchweek 34,2.3,3,0,19,9,19.1,1,0,0.9,0,3,7.0,2.0,14.5,0.0,0.0
-2024-05-08,21:00 (19:00),Champions Lg,2023-2024,Real Madrid,de Bayern Munich,Home,Semi-finals,2.8,2,1,19,7,17.6,1,0,0.4,1,2,8.0,5.0,17.4,0.0,0.0
-2024-05-11,18:30 (16:30),La Liga,2023-2024,Real Madrid,Granada,Away,Matchweek 35,1.5,4,0,13,7,15.4,0,0,1.0,0,4,12.0,1.0,13.6,0.0,0.0
-2024-05-14,21:30 (19:30),La Liga,2023-2024,Real Madrid,Alavés,Home,Matchweek 36,2.5,5,0,22,11,16.0,1,0,1.3,0,5,18.0,10.0,21.4,0.0,0.0
-2024-05-19,19:00 (17:00),La Liga,2023-2024,Real Madrid,Villarreal,Away,Matchweek 37,1.0,4,4,12,6,17.9,0,0,1.7,4,4,21.0,7.0,15.6,0.0,0.0
-2024-05-25,21:00 (19:00),La Liga,2023-2024,Real Madrid,Betis,Home,Matchweek 38,1.0,0,0,13,4,18.8,1,0,0.7,0,0,11.0,3.0,18.8,0.0,0.0
-2024-06-01,20:00 (19:00),Champions Lg,2023-2024,Real Madrid,de Dortmund,Away,Final,1.1,2,0,13,6,17.1,2,0,2.1,0,2,13.0,3.0,16.2,0.0,0.0
-2023-08-13,21:30 (19:30),La Liga,2023-2024,Barcelona,Getafe,Away,Matchweek 1,1.4,0,0,14,3,19.9,1,0,0.6,0.0,0.0,5.0,2.0,15.6,0.0,0.0
-2023-08-20,19:30 (17:30),La Liga,2023-2024,Barcelona,Cádiz,Home,Matchweek 2,3.4,2,0,24,10,15.5,2,0,1.1,0.0,2.0,10.0,1.0,12.0,0.0,0.0
-2023-08-27,17:30 (15:30),La Liga,2023-2024,Barcelona,Villarreal,Away,Matchweek 3,3.1,4,3,21,11,16.8,0,0,1.9,3.0,4.0,13.0,6.0,16.2,1.0,0.0
-2023-09-03,21:00 (19:00),La Liga,2023-2024,Barcelona,Osasuna,Away,Matchweek 4,2.0,2,1,8,3,15.6,0,1,0.8,1.0,2.0,11.0,3.0,18.3,0.0,0.0
-2023-09-16,21:00 (19:00),La Liga,2023-2024,Barcelona,Betis,Home,Matchweek 5,2.4,5,0,17,9,18.7,2,0,0.8,0.0,5.0,11.0,2.0,18.9,0.0,0.0
-2023-09-19,21:00 (19:00),Champions Lg,2023-2024,Barcelona,be Antwerp,Home,Group stage,2.8,5,0,22,9,13.8,0,0,0.3,0.0,5.0,3.0,1.0,13.7,0.0,0.0
-2023-09-23,18:30 (16:30),La Liga,2023-2024,Barcelona,Celta Vigo,Home,Matchweek 6,1.6,3,2,15,6,20.8,0,0,1.5,2.0,3.0,13.0,7.0,15.2,0.0,0.0
-2023-09-26,21:30 (19:30),La Liga,2023-2024,Barcelona,Mallorca,Away,Matchweek 7,1.9,2,2,10,4,15.5,0,0,0.8,2.0,2.0,10.0,5.0,16.4,0.0,0.0
-2023-09-29,21:00 (19:00),La Liga,2023-2024,Barcelona,Sevilla,Home,Matchweek 8,2.4,1,0,18,4,13.5,0,0,1.1,0.0,1.0,12.0,3.0,13.2,0.0,0.0
-2023-10-04,20:00 (19:00),Champions Lg,2023-2024,Barcelona,pt Porto,Away,Group stage,1.3,1,0,14,4,20.3,0,0,0.7,0.0,1.0,13.0,5.0,21.2,0.0,0.0
-2023-10-08,21:00 (19:00),La Liga,2023-2024,Barcelona,Granada,Away,Matchweek 9,3.0,2,2,22,10,16.9,1,0,0.8,2.0,2.0,7.0,2.0,21.8,0.0,0.0
-2023-10-22,21:00 (19:00),La Liga,2023-2024,Barcelona,Athletic Club,Home,Matchweek 10,1.3,1,0,12,7,15.4,0,0,0.4,0.0,1.0,10.0,3.0,17.1,0.0,0.0
-2023-10-25,18:45 (16:45),Champions Lg,2023-2024,Barcelona,ua Shakhtar,Home,Group stage,2.6,2,1,19,6,17.3,3,0,0.9,1.0,2.0,11.0,1.0,22.1,0.0,0.0
-2023-10-28,16:15 (14:15),La Liga,2023-2024,Barcelona,Real Madrid,Home,Matchweek 11,1.5,1,2,15,3,15.9,0,0,1.1,2.0,1.0,13.0,4.0,21.9,0.0,0.0
-2023-11-04,21:00 (20:00),La Liga,2023-2024,Barcelona,Real Sociedad,Away,Matchweek 12,1.2,1,0,12,4,19.4,1,0,0.9,0.0,1.0,13.0,6.0,16.7,0.0,0.0
-2023-11-07,19:45 (17:45),Champions Lg,2023-2024,Barcelona,ua Shakhtar,Away,Group stage,0.9,0,1,13,1,18.2,0,0,0.9,1.0,0.0,9.0,4.0,16.6,0.0,0.0
-2023-11-12,16:15 (15:15),La Liga,2023-2024,Barcelona,Alavés,Home,Matchweek 13,1.6,2,1,10,5,19.4,0,1,1.7,1.0,2.0,8.0,1.0,14.0,0.0,0.0
-2023-11-25,14:00 (13:00),La Liga,2023-2024,Barcelona,Rayo Vallecano,Away,Matchweek 14,1.0,1,1,15,4,15.8,1,0,0.7,1.0,1.0,10.0,4.0,23.6,0.0,0.0
-2023-11-28,21:00 (20:00),Champions Lg,2023-2024,Barcelona,pt Porto,Home,Group stage,1.8,2,1,21,7,16.3,0,0,1.1,1.0,2.0,13.0,5.0,15.1,0.0,0.0
-2023-12-03,21:00 (20:00),La Liga,2023-2024,Barcelona,Atlético Madrid,Home,Matchweek 15,2.6,1,0,13,2,14.1,0,0,0.6,0.0,1.0,8.0,3.0,16.2,2.0,0.0
-2023-12-10,21:00 (20:00),La Liga,2023-2024,Barcelona,Girona,Home,Matchweek 16,3.7,2,4,31,11,15.1,2,0,2.5,4.0,2.0,15.0,7.0,13.4,0.0,0.0
-2023-12-13,21:00 (20:00),Champions Lg,2023-2024,Barcelona,be Antwerp,Away,Group stage,1.1,2,3,11,3,18.9,0,0,1.7,3.0,2.0,11.0,5.0,15.6,0.0,0.0
-2023-12-16,21:00 (20:00),La Liga,2023-2024,Barcelona,Valencia,Away,Matchweek 17,3.2,1,1,16,7,14.0,0,0,0.5,1.0,1.0,11.0,4.0,20.1,1.0,0.0
-2023-12-20,19:00 (18:00),La Liga,2023-2024,Barcelona,Almería,Home,Matchweek 18,3.4,3,2,30,11,13.4,1,0,1.6,2.0,3.0,10.0,5.0,13.7,0.0,0.0
-2024-01-04,20:30,La Liga,2023-2024,Barcelona,Las Palmas,Away,Matchweek 19,2.4,2,1,14,4,17.2,0,1,0.7,1.0,2.0,12.0,3.0,19.6,0.0,0.0
-2024-01-07,21:00 (20:00),Copa del Rey,2023-2024,Barcelona,Barbastro,Away,Round of 32,,3,2,24,11,,,1,,2.0,3.0,14.0,3.0,,,1.0
-2024-01-11,22:00 (19:00),Supercopa de España,2023-2024,Barcelona,Osasuna,Home,Semi-finals,,2,0,20,7,,,0,,0.0,2.0,11.0,3.0,,,0.0
-2024-01-14,22:00 (19:00),Supercopa de España,2023-2024,Barcelona,Real Madrid,Away,Final,,1,4,12,7,,,0,,4.0,1.0,18.0,9.0,,,1.0
-2024-01-18,19:30 (18:30),Copa del Rey,2023-2024,Barcelona,Unionistas Sal,Away,Round of 16,,3,1,14,7,,,0,,1.0,3.0,10.0,4.0,,,0.0
-2024-01-21,18:30 (17:30),La Liga,2023-2024,Barcelona,Betis,Away,Matchweek 21,3.0,4,2,11,4,15.1,0,0,1.1,2.0,4.0,14.0,4.0,17.7,0.0,0.0
-2024-01-24,21:30 (20:30),Copa del Rey,2023-2024,Barcelona,Athletic Club,Away,Quarter-finals,,2,4,7,4,,,0,,4.0,2.0,29.0,7.0,,,0.0
-2024-01-27,18:30 (17:30),La Liga,2023-2024,Barcelona,Villarreal,Home,Matchweek 22,2.2,3,5,22,9,16.7,0,0,2.1,5.0,3.0,9.0,6.0,13.5,0.0,0.0
-2024-01-31,19:00 (18:00),La Liga,2023-2024,Barcelona,Osasuna,Home,Matchweek 20,1.9,1,0,16,4,15.1,1,0,1.0,0.0,1.0,9.0,1.0,13.0,0.0,0.0
-2024-02-03,18:30 (17:30),La Liga,2023-2024,Barcelona,Alavés,Away,Matchweek 23,1.2,3,1,8,5,12.5,0,0,1.0,1.0,3.0,13.0,2.0,15.1,0.0,0.0
-2024-02-11,21:00 (20:00),La Liga,2023-2024,Barcelona,Granada,Home,Matchweek 24,2.3,3,3,11,5,12.2,0,0,1.4,3.0,3.0,11.0,5.0,14.6,0.0,0.0
-Date,Time,Comp,2023-2024,Barcelona,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
-2024-02-17,18:30 (17:30),La Liga,2023-2024,Barcelona,Celta Vigo,Away,Matchweek 25,1.5,2,1,13,3,19.1,1,1,0.8,1.0,2.0,13.0,4.0,19.8,0.0,0.0
-2024-02-21,21:00 (20:00),Champions Lg,2023-2024,Barcelona,it Napoli,Away,Round of 16,0.7,1,1,12,6,18.6,0,0,0.9,1.0,1.0,6.0,1.0,16.1,1.0,0.0
-2024-02-24,16:15 (15:15),La Liga,2023-2024,Barcelona,Getafe,Home,Matchweek 26,3.1,4,0,17,9,13.6,0,0,0.5,0.0,4.0,10.0,4.0,23.3,0.0,0.0
-2024-03-03,21:00 (20:00),La Liga,2023-2024,Barcelona,Athletic Club,Away,Matchweek 27,0.7,0,0,8,1,22.5,0,0,0.4,0.0,0.0,8.0,2.0,18.1,0.0,0.0
-2024-03-08,21:00 (20:00),La Liga,2023-2024,Barcelona,Mallorca,Home,Matchweek 28,2.0,1,0,19,5,21.4,0,0,0.6,0.0,1.0,9.0,3.0,14.2,0.0,0.0
-2024-03-12,21:00 (20:00),Champions Lg,2023-2024,Barcelona,it Napoli,Home,Round of 16,2.7,3,1,24,10,16.7,1,0,1.3,1.0,3.0,14.0,4.0,16.8,0.0,0.0
-2024-03-17,21:00 (20:00),La Liga,2023-2024,Barcelona,Atlético Madrid,Away,Matchweek 29,1.5,3,0,9,5,13.5,1,0,0.8,0.0,3.0,13.0,3.0,19.6,0.0,0.0
-2024-03-30,21:00 (20:00),La Liga,2023-2024,Barcelona,Las Palmas,Home,Matchweek 30,1.7,1,0,14,2,19.8,1,0,0.3,0.0,1.0,8.0,0.0,20.4,1.0,0.0
-2024-04-10,21:00 (19:00),Champions Lg,2023-2024,Barcelona,fr Paris S-G,Away,Quarter-finals,1.9,3,2,15,6,16.9,1,0,1.2,2.0,3.0,18.0,6.0,17.9,0.0,0.0
-2024-04-13,21:00 (19:00),La Liga,2023-2024,Barcelona,Cádiz,Away,Matchweek 31,0.9,1,0,12,1,18.9,0,0,1.0,0.0,1.0,14.0,3.0,17.5,0.0,0.0
-2024-04-16,21:00 (19:00),Champions Lg,2023-2024,Barcelona,fr Paris S-G,Home,Quarter-finals,1.1,1,4,7,3,14.2,0,0,2.3,4.0,1.0,20.0,8.0,17.7,1.0,1.0
-2024-04-21,21:00 (19:00),La Liga,2023-2024,Barcelona,Real Madrid,Away,Matchweek 32,1.4,2,3,15,6,16.7,2,0,2.3,3.0,2.0,13.0,7.0,19.1,0.0,1.0
-2024-04-29,21:00 (19:00),La Liga,2023-2024,Barcelona,Valencia,Home,Matchweek 33,2.2,4,2,27,13,15.5,2,0,2.1,2.0,4.0,4.0,2.0,19.2,0.0,1.0
-2024-05-04,18:30 (16:30),La Liga,2023-2024,Barcelona,Girona,Away,Matchweek 34,2.6,2,4,15,6,15.4,0,1,1.8,4.0,2.0,9.0,6.0,13.9,0.0,0.0
-2024-05-13,21:00 (19:00),La Liga,2023-2024,Barcelona,Real Sociedad,Home,Matchweek 35,2.1,2,0,13,4,23.7,1,1,0.7,0.0,2.0,10.0,3.0,20.6,1.0,0.0
-2024-05-16,21:30 (19:30),La Liga,2023-2024,Barcelona,Almería,Away,Matchweek 36,1.6,2,0,16,7,15.6,0,0,0.9,0.0,2.0,12.0,3.0,21.3,0.0,0.0
-2024-05-19,19:00 (17:00),La Liga,2023-2024,Barcelona,Rayo Vallecano,Home,Matchweek 37,1.3,3,0,14,6,16.9,1,0,1.3,0.0,3.0,15.0,4.0,21.0,1.0,0.0
-2024-05-26,21:00 (19:00),La Liga,2023-2024,Barcelona,Sevilla,Away,Matchweek 38,1.3,2,1,11,6,13.7,0,0,1.5,1.0,2.0,15.0,6.0,13.6,1.0,0.0
-2023-08-12,17:00 (15:00),La Liga,2023-2024,Girona,Real Sociedad,Away,Matchweek 1,0.8,1,1,6,1,12.2,0,0,1.0,1.0,1.0,15.0,2.0,20.0,1.0,0.0
-2023-08-20,19:00 (17:00),La Liga,2023-2024,Girona,Getafe,Home,Matchweek 2,1.4,3,0,7,6,16.1,1,0,0.7,0.0,3.0,9.0,2.0,17.9,1.0,0.0
-2023-08-26,21:30 (19:30),La Liga,2023-2024,Girona,Sevilla,Away,Matchweek 3,1.7,2,1,8,3,17.6,0,0,1.7,1.0,2.0,21.0,4.0,17.8,3.0,0.0
-2023-09-03,14:00 (12:00),La Liga,2023-2024,Girona,Las Palmas,Home,Matchweek 4,1.0,1,0,11,6,16.2,0,0,1.1,0.0,1.0,10.0,5.0,20.6,1.0,0.0
-2023-09-18,21:00 (19:00),La Liga,2023-2024,Girona,Granada,Away,Matchweek 5,2.8,4,2,13,6,17.7,1,0,1.6,2.0,4.0,12.0,5.0,17.5,2.0,0.0
-2023-09-23,14:00 (12:00),La Liga,2023-2024,Girona,Mallorca,Home,Matchweek 6,3.2,5,3,22,8,16.6,0,1,1.8,3.0,5.0,14.0,4.0,17.8,0.0,1.0
-2023-09-27,19:00 (17:00),La Liga,2023-2024,Girona,Villarreal,Away,Matchweek 7,2.1,2,1,17,5,16.6,0,0,1.8,1.0,2.0,13.0,2.0,17.3,0.0,1.0
-2023-09-30,18:30 (16:30),La Liga,2023-2024,Girona,Real Madrid,Home,Matchweek 8,1.6,0,3,13,3,19.7,0,0,2.3,3.0,0.0,14.0,7.0,16.2,0.0,0.0
-2023-10-07,14:00 (12:00),La Liga,2023-2024,Girona,Cádiz,Away,Matchweek 9,1.2,1,0,20,5,22.2,0,0,0.4,0.0,1.0,8.0,2.0,17.6,0.0,0.0
-2023-10-22,16:15 (14:15),La Liga,2023-2024,Girona,Almería,Home,Matchweek 10,1.9,5,2,19,8,18.1,1,0,1.0,2.0,5.0,9.0,5.0,22.4,1.0,0.0
-2023-10-27,21:00 (19:00),La Liga,2023-2024,Girona,Celta Vigo,Home,Matchweek 11,0.6,1,0,12,2,17.1,0,0,0.2,0.0,1.0,4.0,2.0,18.9,0.0,0.0
-2023-11-01,12:00 (11:00),Copa del Rey,2023-2024,Girona,CD San Roque de Lepe,Away,First round,,2,1,15,2,,,0,,1.0,2.0,13.0,4.0,,,0.0
-2023-11-04,14:00 (13:00),La Liga,2023-2024,Girona,Osasuna,Away,Matchweek 12,2.2,4,2,11,4,14.9,1,0,1.4,2.0,4.0,15.0,3.0,15.5,0.0,0.0
-2023-11-11,14:00 (13:00),La Liga,2023-2024,Girona,Rayo Vallecano,Away,Matchweek 13,4.5,2,1,19,6,11.5,0,0,1.7,1.0,2.0,22.0,9.0,18.7,0.0,0.0
-2023-11-27,21:00 (20:00),La Liga,2023-2024,Girona,Athletic Club,Home,Matchweek 14,1.3,1,1,13,2,15.6,0,0,1.5,1.0,1.0,13.0,6.0,15.8,0.0,0.0
-2023-12-02,14:00 (13:00),La Liga,2023-2024,Girona,Valencia,Home,Matchweek 15,1.6,2,1,9,5,13.5,0,0,1.0,1.0,2.0,9.0,3.0,16.7,0.0,0.0
-2023-12-07,21:00 (20:00),Copa del Rey,2023-2024,Girona,Orihuela,Away,Second round,,5,2,20,9,,,0,,2.0,5.0,7.0,5.0,,,0.0
-2023-12-10,21:00 (20:00),La Liga,2023-2024,Girona,Barcelona,Away,Matchweek 16,2.5,4,2,15,7,13.4,0,0,3.7,2.0,4.0,31.0,11.0,15.1,2.0,0.0
-2023-12-18,21:00 (20:00),La Liga,2023-2024,Girona,Alavés,Home,Matchweek 17,1.7,3,0,8,3,16.2,0,1,0.7,0.0,3.0,12.0,2.0,21.5,0.0,0.0
-2023-12-21,19:00 (18:00),La Liga,2023-2024,Girona,Betis,Away,Matchweek 18,1.7,1,1,11,3,18.3,0,1,1.5,1.0,1.0,21.0,4.0,18.8,0.0,0.0
-2024-01-03,21:30 (20:30),La Liga,2023-2024,Girona,Atlético Madrid,Home,Matchweek 19,2.3,4,3,17,9,15.8,0,0,2.3,3.0,4.0,18.0,12.0,12.0,0.0,0.0
-2024-01-06,18:00 (17:00),Copa del Rey,2023-2024,Girona,Elche,Away,Round of 32,,2,0,10,6,,,0,,0.0,2.0,22.0,5.0,,,0.0
-2024-01-14,14:00 (13:00),La Liga,2023-2024,Girona,Almería,Away,Matchweek 20,0.3,0,0,5,1,20.1,1,0,1.7,0.0,0.0,20.0,3.0,18.0,1.0,0.0
-2024-01-17,21:30 (20:30),Copa del Rey,2023-2024,Girona,Rayo Vallecano,Home,Round of 16,,3,1,18,8,,,1,,1.0,3.0,21.0,3.0,,,0.0
-2024-01-21,21:00 (20:00),La Liga,2023-2024,Girona,Sevilla,Home,Matchweek 21,2.3,5,1,12,8,12.7,0,0,0.7,1.0,5.0,9.0,3.0,18.0,0.0,0.0
-2024-01-24,19:30 (18:30),Copa del Rey,2023-2024,Girona,Mallorca,Away,Quarter-finals,,2,3,19,5,,,1,,3.0,2.0,14.0,6.0,,,1.0
-2024-01-28,14:00 (13:00),La Liga,2023-2024,Girona,Celta Vigo,Away,Matchweek 22,0.9,1,0,15,6,19.2,1,0,0.6,0.0,1.0,10.0,5.0,15.5,0.0,0.0
-2024-02-03,21:00 (20:00),La Liga,2023-2024,Girona,Real Sociedad,Home,Matchweek 23,0.7,0,0,11,3,18.2,3,0,0.6,0.0,0.0,11.0,2.0,20.7,0.0,0.0
-2024-02-10,18:30 (17:30),La Liga,2023-2024,Girona,Real Madrid,Away,Matchweek 24,0.3,0,4,5,0,25.4,0,0,3.2,4.0,0.0,15.0,6.0,15.7,0.0,0.0
-2024-02-19,21:00 (20:00),La Liga,2023-2024,Girona,Athletic Club,Away,Matchweek 25,2.1,2,3,12,5,14.2,0,0,1.8,3.0,2.0,14.0,7.0,12.8,0.0,0.0
-2024-02-26,21:00 (20:00),La Liga,2023-2024,Girona,Rayo Vallecano,Home,Matchweek 26,2.2,3,0,14,8,12.2,1,0,0.5,0.0,3.0,7.0,1.0,25.6,0.0,0.0
-2024-03-03,18:30 (17:30),La Liga,2023-2024,Girona,Mallorca,Away,Matchweek 27,1.0,0,1,15,4,16.0,1,0,1.2,1.0,0.0,16.0,1.0,17.7,0.0,0.0
-2024-03-09,21:00 (20:00),La Liga,2023-2024,Girona,Osasuna,Home,Matchweek 28,1.9,2,0,11,6,14.1,0,0,0.2,0.0,2.0,7.0,1.0,20.1,0.0,0.0
-2024-03-16,18:30 (17:30),La Liga,2023-2024,Girona,Getafe,Away,Matchweek 29,1.8,0,1,13,3,13.1,0,0,1.2,1.0,0.0,11.0,3.0,19.9,1.0,0.0
-2024-03-31,16:15 (14:15),La Liga,2023-2024,Girona,Betis,Home,Matchweek 30,2.6,3,2,8,4,14.6,0,1,0.5,2.0,3.0,7.0,4.0,20.5,0.0,0.0
-Date,Time,Comp,2023-2024,Girona,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
-2024-04-13,14:00 (12:00),La Liga,2023-2024,Girona,Atlético Madrid,Away,Matchweek 31,2.4,1,3,12,5,18.6,0,0,2.3,3.0,1.0,16.0,3.0,17.1,0.0,1.0
-2024-04-20,21:00 (19:00),La Liga,2023-2024,Girona,Cádiz,Home,Matchweek 32,2.1,4,1,10,5,14.4,0,0,1.6,1.0,4.0,12.0,5.0,15.9,0.0,0.0
-2024-04-27,13:00 (12:00),La Liga,2023-2024,Girona,Las Palmas,Away,Matchweek 33,1.9,2,0,4,1,19.4,0,1,1.6,0.0,2.0,9.0,4.0,17.7,0.0,0.0
-2024-05-04,18:30 (16:30),La Liga,2023-2024,Girona,Barcelona,Home,Matchweek 34,1.8,4,2,9,6,13.9,0,0,2.6,2.0,4.0,15.0,6.0,15.4,0.0,1.0
-2024-05-10,21:00 (19:00),La Liga,2023-2024,Girona,Alavés,Away,Matchweek 35,1.7,2,2,15,5,17.0,0,0,1.7,2.0,2.0,14.0,8.0,12.6,0.0,0.0
-2024-05-14,22:00 (20:00),La Liga,2023-2024,Girona,Villarreal,Home,Matchweek 36,1.6,0,1,22,4,17.2,0,0,0.6,1.0,0.0,11.0,3.0,19.2,0.0,0.0
-2024-05-19,19:00 (17:00),La Liga,2023-2024,Girona,Valencia,Away,Matchweek 37,2.6,3,1,18,5,19.6,1,0,3.2,1.0,3.0,19.0,5.0,19.5,0.0,1.0
-2024-05-24,21:00 (19:00),La Liga,2023-2024,Girona,Granada,Home,Matchweek 38,4.6,7,0,14,7,17.6,1,2,1.0,0.0,7.0,10.0,2.0,18.0,0.0,0.0
-2023-08-14,21:30 (19:30),La Liga,2023-2024,Atletico Madrid,Granada,Home,Matchweek 1,2.4,3,1,14,6,14.4,0,0,0.9,1,3,7.0,4.0,14.1,0.0,0.0
-2023-08-20,21:30 (19:30),La Liga,2023-2024,Atletico Madrid,Betis,Away,Matchweek 2,0.5,0,0,5,1,13.7,0,0,0.7,0,0,14.0,0.0,17.1,0.0,0.0
-2023-08-28,21:30 (19:30),La Liga,2023-2024,Atletico Madrid,Rayo Vallecano,Away,Matchweek 3,3.4,7,0,17,10,16.0,0,0,0.6,0,7,12.0,3.0,19.2,0.0,0.0
-2023-09-16,16:15 (14:15),La Liga,2023-2024,Atletico Madrid,Valencia,Away,Matchweek 5,0.6,0,3,11,3,17.8,1,0,1.3,3,0,12.0,8.0,16.2,1.0,0.0
-2023-09-19,21:00 (19:00),Champions Lg,2023-2024,Atletico Madrid,it Lazio,Away,Group stage,0.9,1,1,9,4,19.1,0,0,1.2,1,1,19.0,7.0,23.5,1.0,0.0
-2023-09-24,21:00 (19:00),La Liga,2023-2024,Atletico Madrid,Real Madrid,Home,Matchweek 6,1.4,3,1,10,4,14.6,0,0,1.0,1,3,20.0,5.0,21.5,1.0,0.0
-2023-09-28,21:30 (19:30),La Liga,2023-2024,Atletico Madrid,Osasuna,Away,Matchweek 7,1.5,2,0,5,3,12.9,0,0,1.0,0,2,13.0,2.0,15.6,1.0,0.0
-2023-10-01,21:00 (19:00),La Liga,2023-2024,Atletico Madrid,Cádiz,Home,Matchweek 8,2.7,3,2,18,9,15.5,1,0,0.8,2,3,8.0,4.0,21.8,0.0,0.0
-2023-10-04,18:45 (16:45),Champions Lg,2023-2024,Atletico Madrid,nl Feyenoord,Home,Group stage,0.8,3,2,7,3,23.8,0,0,2.4,2,3,17.0,7.0,16.8,0.0,0.0
-2023-10-08,16:15 (14:15),La Liga,2023-2024,Atletico Madrid,Real Sociedad,Home,Matchweek 9,2.2,2,1,13,4,15.0,0,1,1.2,1,2,13.0,4.0,23.1,1.0,0.0
-2023-10-21,21:00 (19:00),La Liga,2023-2024,Atletico Madrid,Celta Vigo,Away,Matchweek 10,1.8,3,0,11,6,17.4,0,1,0.9,0,3,16.0,3.0,17.7,0.0,0.0
-2023-10-25,20:00 (19:00),Champions Lg,2023-2024,Atletico Madrid,sct Celtic,Away,Group stage,2.1,2,2,14,5,18.5,0,0,0.9,2,2,6.0,3.0,13.1,0.0,0.0
-2023-10-29,21:00 (20:00),La Liga,2023-2024,Atletico Madrid,Alavés,Home,Matchweek 11,1.3,2,1,11,7,11.8,0,0,0.5,1,2,8.0,1.0,17.4,0.0,0.0
-2023-11-03,20:00,La Liga,2023-2024,Atletico Madrid,Las Palmas,Away,Matchweek 12,1.2,1,2,13,5,16.2,0,0,0.4,2,1,9.0,3.0,19.5,0.0,0.0
-2023-11-07,21:00 (20:00),Champions Lg,2023-2024,Atletico Madrid,sct Celtic,Home,Group stage,2.9,6,0,27,12,14.9,0,0,0.0,0,6,1.0,1.0,28.2,0.0,0.0
-2023-11-12,21:00 (20:00),La Liga,2023-2024,Atletico Madrid,Villarreal,Home,Matchweek 13,3.9,3,1,25,10,14.6,0,0,0.8,1,3,11.0,7.0,15.8,0.0,0.0
-2023-11-25,21:00 (20:00),La Liga,2023-2024,Atletico Madrid,Mallorca,Home,Matchweek 14,1.7,1,0,20,3,17.6,0,0,1.1,0,1,8.0,1.0,16.0,0.0,0.0
-2023-11-28,21:00 (20:00),Champions Lg,2023-2024,Atletico Madrid,nl Feyenoord,Away,Group stage,1.3,3,1,9,3,14.7,0,0,1.1,1,3,12.0,4.0,13.3,0.0,0.0
-2023-12-03,21:00 (20:00),La Liga,2023-2024,Atletico Madrid,Barcelona,Away,Matchweek 15,0.6,0,1,8,3,16.2,2,0,2.6,1,0,13.0,2.0,14.1,0.0,0.0
-2023-12-10,14:00 (13:00),La Liga,2023-2024,Atletico Madrid,Almería,Home,Matchweek 16,2.2,2,1,13,4,17.5,1,0,1.3,1,2,19.0,6.0,17.3,0.0,0.0
-2023-12-13,21:00 (20:00),Champions Lg,2023-2024,Atletico Madrid,it Lazio,Home,Group stage,1.3,2,0,16,4,16.5,1,0,0.9,0,2,10.0,4.0,17.5,1.0,0.0
-2023-12-16,16:15 (15:15),La Liga,2023-2024,Atletico Madrid,Athletic Club,Away,Matchweek 17,0.4,0,2,7,3,18.6,0,0,2.4,2,0,15.0,7.0,17.1,0.0,0.0
-2023-12-19,21:30 (20:30),La Liga,2023-2024,Atletico Madrid,Getafe,Home,Matchweek 18,2.0,3,3,7,3,15.5,0,1,2.0,3,3,28.0,8.0,18.4,0.0,1.0
-2023-12-23,16:15 (15:15),La Liga,2023-2024,Atletico Madrid,Sevilla,Home,Matchweek 4,0.9,1,0,12,4,16.9,0,0,0.3,0,1,8.0,2.0,22.8,1.0,0.0
-2024-01-03,21:30 (20:30),La Liga,2023-2024,Atletico Madrid,Girona,Away,Matchweek 19,2.3,3,4,18,12,12.0,0,0,2.3,4,3,17.0,9.0,15.8,0.0,0.0
-2024-01-06,16:00 (15:00),Copa del Rey,2023-2024,Atletico Madrid,Lugo,Away,Round of 32,,3,1,12,3,,,0,,1,3,11.0,2.0,,,0.0
-2024-01-10,22:00 (19:00),Supercopa de España,2023-2024,Atletico Madrid,Real Madrid,Away,Semi-finals,,3,5,11,6,,,0,,5,3,22.0,11.0,,,0.0
-2024-01-18,21:30 (20:30),Copa del Rey,2023-2024,Atletico Madrid,Real Madrid,Home,Round of 16,,4,2,18,12,,,0,,2,4,19.0,7.0,,,0.0
-2024-01-22,21:00 (20:00),La Liga,2023-2024,Atletico Madrid,Granada,Away,Matchweek 21,1.2,1,0,10,5,15.3,0,0,0.6,0,1,17.0,1.0,18.0,0.0,0.0
-2024-01-25,21:00 (20:00),Copa del Rey,2023-2024,Atletico Madrid,Sevilla,Home,Quarter-finals,,1,0,11,5,,,0,,0,1,6.0,1.0,,,0.0
-2024-01-28,21:00 (20:00),La Liga,2023-2024,Atletico Madrid,Valencia,Home,Matchweek 22,2.4,2,0,12,8,13.7,1,0,0.5,0,2,10.0,3.0,18.7,1.0,0.0
-2024-01-31,21:00 (20:00),La Liga,2023-2024,Atletico Madrid,Rayo Vallecano,Home,Matchweek 20,1.0,2,1,8,3,13.4,0,0,0.4,1,2,10.0,2.0,19.2,0.0,0.0
-2024-02-04,21:00 (20:00),La Liga,2023-2024,Atletico Madrid,Real Madrid,Away,Matchweek 23,1.1,1,1,10,5,11.7,0,0,1.9,1,1,17.0,4.0,16.0,0.0,0.0
-2024-02-07,21:30 (20:30),Copa del Rey,2023-2024,Atletico Madrid,Athletic Club,Home,Semi-finals,,0,1,20,5,,,0,,1,0,9.0,3.0,,,1.0
-2024-02-11,18:30 (17:30),La Liga,2023-2024,Atletico Madrid,Sevilla,Away,Matchweek 24,1.5,0,1,16,4,18.6,0,0,1.0,1,0,10.0,6.0,16.0,0.0,0.0
-Date,Time,Comp,2023-2024,Atletico Madrid,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
-2024-02-17,14:00 (13:00),La Liga,2023-2024,Atletico Madrid,Las Palmas,Home,Matchweek 25,3.5,5,0,12,6,18.8,1,1,0.7,0,5,11.0,2.0,22.5,0.0,0.0
-2024-02-20,21:00 (20:00),Champions Lg,2023-2024,Atletico Madrid,it Inter,Away,Round of 16,0.6,0,1,7,0,19.1,0,0,2.3,1,0,19.0,5.0,16.3,0.0,0.0
-2024-02-24,21:00 (20:00),La Liga,2023-2024,Atletico Madrid,Almería,Away,Matchweek 26,1.5,2,2,18,9,18.7,2,0,0.5,2,2,9.0,4.0,21.7,0.0,0.0
-2024-02-29,21:30 (20:30),Copa del Rey,2023-2024,Atletico Madrid,Athletic Club,Away,Semi-finals,,0,3,17,6,,,0,,3,0,10.0,7.0,,,0.0
-2024-03-03,16:15 (15:15),La Liga,2023-2024,Atletico Madrid,Betis,Home,Matchweek 27,3.0,2,1,16,11,16.3,0,0,0.6,1,2,12.0,6.0,17.9,0.0,0.0
-2024-03-09,16:15 (15:15),La Liga,2023-2024,Atletico Madrid,Cádiz,Away,Matchweek 28,0.9,0,2,8,4,21.5,0,0,1.1,2,0,7.0,3.0,16.0,0.0,0.0
-2024-03-13,21:00 (20:00),Champions Lg,2023-2024,Atletico Madrid,it Inter,Home,Round of 16,2.7,2 (3),1 (2),23,9,15.5,1,0,1.6,1 (2),2 (3),15.0,5.0,19.1,1.0,0.0
-2024-03-17,21:00 (20:00),La Liga,2023-2024,Atletico Madrid,Barcelona,Home,Matchweek 29,0.8,0,3,13,3,19.6,0,0,1.5,3,0,9.0,5.0,13.5,1.0,0.0
-2024-04-01,21:00 (19:00),La Liga,2023-2024,Atletico Madrid,Villarreal,Away,Matchweek 30,1.3,2,1,14,8,17.6,0,0,0.8,1,2,11.0,2.0,16.6,0.0,0.0
-2024-04-10,21:00 (19:00),Champions Lg,2023-2024,Atletico Madrid,de Dortmund,Home,Quarter-finals,2.2,2,1,14,9,14.5,0,0,0.9,1,2,12.0,4.0,18.8,1.0,0.0
-2024-04-13,14:00 (12:00),La Liga,2023-2024,Atletico Madrid,Girona,Home,Matchweek 31,2.3,3,1,16,3,17.1,0,1,2.4,1,3,12.0,5.0,18.6,0.0,0.0
-2024-04-16,21:00 (19:00),Champions Lg,2023-2024,Atletico Madrid,de Dortmund,Away,Quarter-finals,1.9,2,4,10,3,13.7,0,0,1.5,4,2,19.0,9.0,16.9,0.0,0.0
-2024-04-21,18:30 (16:30),La Liga,2023-2024,Atletico Madrid,Alavés,Away,Matchweek 32,0.9,0,2,15,4,16.9,0,0,0.4,2,0,8.0,3.0,21.0,0.0,0.0
-2024-04-27,21:00 (19:00),La Liga,2023-2024,Atletico Madrid,Athletic Club,Home,Matchweek 33,0.8,3,1,8,3,18.4,0,0,1.0,1,3,7.0,1.0,12.9,0.0,0.0
-2024-05-04,21:00 (19:00),La Liga,2023-2024,Atletico Madrid,Mallorca,Away,Matchweek 34,0.7,1,0,9,4,20.5,0,0,0.2,0,1,7.0,4.0,17.8,0.0,0.0
-2024-05-12,16:15 (14:15),La Liga,2023-2024,Atletico Madrid,Celta Vigo,Home,Matchweek 35,1.4,1,0,21,8,18.5,0,0,0.4,0,1,6.0,2.0,20.6,0.0,0.0
-2024-05-15,22:00 (20:00),La Liga,2023-2024,Atletico Madrid,Getafe,Away,Matchweek 36,1.3,3,0,7,3,12.4,0,0,0.6,0,3,8.0,3.0,20.8,1.0,0.0
-2024-05-19,19:00 (17:00),La Liga,2023-2024,Atletico Madrid,Osasuna,Home,Matchweek 37,1.6,1,4,14,2,15.7,0,0,1.8,4,1,15.0,6.0,13.5,0.0,0.0
-2024-05-25,16:15 (14:15),La Liga,2023-2024,Atletico Madrid,Real Sociedad,Away,Matchweek 38,2.2,2,0,10,4,14.2,0,0,0.6,0,2,14.0,2.0,20.0,1.0,0.0
-2023-08-12,21:30 (19:30),La Liga,2023-2024,Athletic Club,Real Madrid,Home,Matchweek 1,0.4,0,2,7,1,15.3,0,0,0.9,2,0,14.0,8.0,16.0,2.0,0.0
-2023-08-19,21:30 (19:30),La Liga,2023-2024,Athletic Club,Osasuna,Away,Matchweek 2,1.5,2,0,8,2,16.0,1,0,1.3,0,2,18.0,7.0,17.8,2.0,0.0
-2023-08-27,21:30 (19:30),La Liga,2023-2024,Athletic Club,Betis,Home,Matchweek 3,2.9,4,2,12,4,19.7,0,2,0.4,2,4,9.0,4.0,17.5,1.0,0.0
-2023-09-03,16:15 (14:15),La Liga,2023-2024,Athletic Club,Mallorca,Away,Matchweek 4,0.6,0,0,11,3,16.6,0,0,0.4,0,0,8.0,1.0,17.9,0.0,0.0
-2023-09-16,14:00 (12:00),La Liga,2023-2024,Athletic Club,Cádiz,Home,Matchweek 5,2.9,3,0,20,8,13.4,0,0,0.3,0,3,5.0,4.0,21.8,1.0,0.0
-2023-09-22,21:00 (19:00),La Liga,2023-2024,Athletic Club,Alavés,Away,Matchweek 6,1.7,2,0,11,3,15.6,1,0,1.1,0,2,15.0,5.0,15.4,0.0,0.0
-2023-09-27,19:00 (17:00),La Liga,2023-2024,Athletic Club,Getafe,Home,Matchweek 7,0.7,2,2,8,4,18.2,0,0,1.4,2,2,13.0,5.0,16.9,0.0,0.0
-2023-09-30,21:00 (19:00),La Liga,2023-2024,Athletic Club,Real Sociedad,Away,Matchweek 8,1.8,0,3,18,3,14.9,0,0,1.4,3,0,8.0,5.0,18.0,1.0,0.0
-2023-10-06,21:00 (19:00),La Liga,2023-2024,Athletic Club,Almería,Home,Matchweek 9,1.9,3,0,23,9,13.4,0,0,0.1,0,3,4.0,1.0,23.6,0.0,0.0
-2023-10-22,21:00 (19:00),La Liga,2023-2024,Athletic Club,Barcelona,Away,Matchweek 10,0.4,0,1,10,3,17.1,0,0,1.3,1,0,12.0,7.0,15.4,0.0,0.0
-2023-10-29,18:30 (17:30),La Liga,2023-2024,Athletic Club,Valencia,Home,Matchweek 11,1.9,2,2,12,7,15.5,0,0,1.9,2,2,11.0,4.0,14.7,0.0,0.0
-2023-11-01,21:30 (20:30),Copa del Rey,2023-2024,Athletic Club,Rubí,Away,First round,,2,1,28,8,,,0,,1,2,12.0,4.0,,,0.0
-2023-11-05,18:30 (17:30),La Liga,2023-2024,Athletic Club,Villarreal,Away,Matchweek 12,2.3,3,2,17,7,18.2,0,0,2.1,2,3,17.0,6.0,16.3,0.0,0.0
-2023-11-10,21:00 (20:00),La Liga,2023-2024,Athletic Club,Celta Vigo,Home,Matchweek 13,4.6,4,3,20,11,13.2,0,1,2.1,3,4,12.0,4.0,21.2,0.0,0.0
-2023-11-27,21:00 (20:00),La Liga,2023-2024,Athletic Club,Girona,Away,Matchweek 14,1.5,1,1,13,6,15.8,0,0,1.3,1,1,13.0,2.0,15.6,0.0,0.0
-2023-12-02,16:15 (15:15),La Liga,2023-2024,Athletic Club,Rayo Vallecano,Home,Matchweek 15,1.3,4,0,9,4,14.0,0,0,0.5,0,4,11.0,3.0,22.0,1.0,0.0
-2023-12-07,21:00 (20:00),Copa del Rey,2023-2024,Athletic Club,Cayón,Away,Second round,,3,0,28,15,,,1,,0,3,4.0,1.0,,,0.0
-2023-12-11,21:00 (20:00),La Liga,2023-2024,Athletic Club,Granada,Away,Matchweek 16,1.1,1,1,19,4,16.7,0,0,0.7,1,1,7.0,2.0,14.9,0.0,0.0
-2023-12-16,16:15 (15:15),La Liga,2023-2024,Athletic Club,Atlético Madrid,Home,Matchweek 17,2.4,2,0,15,7,17.1,0,0,0.4,0,2,7.0,3.0,18.6,0.0,0.0
-2023-12-20,21:30 (20:30),La Liga,2023-2024,Athletic Club,Las Palmas,Home,Matchweek 18,3.4,1,0,18,8,13.4,0,0,0.3,0,1,5.0,1.0,17.5,0.0,0.0
-2024-01-04,19:15 (18:15),La Liga,2023-2024,Athletic Club,Sevilla,Away,Matchweek 19,1.3,2,0,15,5,14.2,0,0,0.7,0,2,11.0,2.0,15.0,1.0,0.0
-2024-01-07,19:00 (18:00),Copa del Rey,2023-2024,Athletic Club,Eibar,Away,Round of 32,,3,0,11,4,,,0,,0,3,9.0,2.0,,,0.0
-2024-01-13,18:30 (17:30),La Liga,2023-2024,Athletic Club,Real Sociedad,Home,Matchweek 20,1.6,2,1,10,3,12.7,1,0,1.1,1,2,9.0,1.0,18.1,1.0,0.0
-2024-01-16,21:00 (20:00),Copa del Rey,2023-2024,Athletic Club,Alavés,Home,Round of 16,,2,0,13,6,,,0,,0,2,8.0,3.0,,,0.0
-2024-01-20,18:30 (17:30),La Liga,2023-2024,Athletic Club,Valencia,Away,Matchweek 21,0.5,0,1,6,3,15.6,0,0,0.9,1,0,6.0,1.0,12.6,0.0,0.0
-2024-01-24,21:30 (20:30),Copa del Rey,2023-2024,Athletic Club,Barcelona,Home,Quarter-finals,,4,2,29,7,,,0,,2,4,7.0,4.0,,,0.0
-2024-01-28,16:15 (15:15),La Liga,2023-2024,Athletic Club,Cádiz,Away,Matchweek 22,0.2,0,0,8,0,22.8,1,0,0.4,0,0,9.0,2.0,23.6,2.0,0.0
-2024-02-02,21:00 (20:00),La Liga,2023-2024,Athletic Club,Mallorca,Home,Matchweek 23,1.7,4,0,13,6,15.7,0,0,0.4,0,4,6.0,2.0,19.0,0.0,0.0
-2024-02-07,21:30 (20:30),Copa del Rey,2023-2024,Athletic Club,Atlético Madrid,Away,Semi-finals,,1,0,9,3,,,1,,0,1,20.0,5.0,,,0.0
-2024-02-12,21:00 (20:00),La Liga,2023-2024,Athletic Club,Almería,Away,Matchweek 24,0.7,0,0,12,4,18.9,0,0,0.9,0,0,10.0,4.0,19.4,0.0,0.0
-2024-02-19,21:00 (20:00),La Liga,2023-2024,Athletic Club,Girona,Home,Matchweek 25,1.8,3,2,14,7,12.8,0,0,2.1,2,3,12.0,5.0,14.2,0.0,0.0
-2024-02-25,16:15 (15:15),La Liga,2023-2024,Athletic Club,Betis,Away,Matchweek 26,0.2,1,3,3,1,13.1,0,0,1.2,3,1,13.0,5.0,23.4,2.0,0.0
-2024-02-29,21:30 (20:30),Copa del Rey,2023-2024,Athletic Club,Atlético Madrid,Home,Semi-finals,,3,0,10,7,,,0,,0,3,17.0,6.0,,,0.0
-2024-03-03,21:00 (20:00),La Liga,2023-2024,Athletic Club,Barcelona,Home,Matchweek 27,0.4,0,0,8,2,18.1,0,0,0.7,0,0,8.0,1.0,22.5,0.0,0.0
-2024-03-10,15:15,La Liga,2023-2024,Athletic Club,Las Palmas,Away,Matchweek 28,1.1,2,0,7,2,15.2,0,0,1.2,0,2,14.0,2.0,19.8,1.0,0.0
-Date,Time,Comp,2023-2024,Athletic Club,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
-2024-03-16,21:00 (20:00),La Liga,2023-2024,Athletic Club,Alavés,Home,Matchweek 29,1.7,2,0,16,4,16.9,0,0,1.3,0,2,6.0,2.0,21.7,0.0,0.0
-2024-03-31,21:00 (19:00),La Liga,2023-2024,Athletic Club,Real Madrid,Away,Matchweek 30,0.3,0,2,7,3,16.8,0,0,1.1,2,0,9.0,4.0,18.8,0.0,0.0
-2024-04-06,22:00 (20:00),Copa del Rey,2023-2024,Athletic Club,Mallorca,Home,Final,,1 (4),1 (2),30,7,,,0,,1 (2),1 (4),13.0,5.0,,,0.0
-2024-04-14,18:30 (16:30),La Liga,2023-2024,Athletic Club,Villarreal,Home,Matchweek 31,0.7,1,1,13,6,20.9,2,0,2.1,1,1,8.0,1.0,19.3,0.0,1.0
-2024-04-19,21:00 (19:00),La Liga,2023-2024,Athletic Club,Granada,Home,Matchweek 32,1.5,1,1,17,5,16.8,0,0,0.2,1,1,5.0,0.0,23.4,0.0,0.0
-2024-04-27,21:00 (19:00),La Liga,2023-2024,Athletic Club,Atlético Madrid,Away,Matchweek 33,1.0,1,3,7,1,12.9,0,0,0.8,3,1,8.0,3.0,18.4,0.0,0.0
-2024-05-03,21:00 (19:00),La Liga,2023-2024,Athletic Club,Getafe,Away,Matchweek 34,0.6,2,0,7,2,17.2,0,0,4.5,0,2,33.0,8.0,17.7,1.0,0.0
-2024-05-11,21:00 (19:00),La Liga,2023-2024,Athletic Club,Osasuna,Home,Matchweek 35,1.4,2,2,15,6,14.9,0,0,1.0,2,2,13.0,3.0,23.1,0.0,0.0
-2024-05-15,22:00 (20:00),La Liga,2023-2024,Athletic Club,Celta Vigo,Away,Matchweek 36,0.2,1,2,7,2,20.8,1,0,0.7,2,1,10.0,4.0,16.3,0.0,0.0
-2024-05-19,19:00 (17:00),La Liga,2023-2024,Athletic Club,Sevilla,Home,Matchweek 37,1.6,2,0,15,6,15.7,0,0,0.9,0,2,9.0,4.0,16.3,0.0,0.0
-2024-05-25,18:30 (16:30),La Liga,2023-2024,Athletic Club,Rayo Vallecano,Away,Matchweek 38,0.9,1,0,7,1,18.0,0,0,1.1,0,1,17.0,4.0,21.6,2.0,0.0
-2023-08-12,17:00 (15:00),La Liga,2023-2024,Real Sociedad,Girona,Home,Matchweek 1,1.0,1,1,15,2,20.0,1,0,0.8,1,1,6.0,1.0,12.2,0.0,0.0
-2023-08-19,17:00 (15:00),La Liga,2023-2024,Real Sociedad,Celta Vigo,Home,Matchweek 2,0.7,1,1,11,2,17.3,1,0,1.0,1,1,17.0,6.0,18.1,1.0,0.0
-2023-08-25,18:30 (17:30),La Liga,2023-2024,Real Sociedad,Las Palmas,Away,Matchweek 3,1.0,0,0,8,1,13.0,0,0,0.9,0,0,11.0,5.0,18.6,0.0,0.0
-2023-09-02,14:00 (12:00),La Liga,2023-2024,Real Sociedad,Granada,Home,Matchweek 4,2.3,5,3,15,6,20.3,0,0,0.8,3,5,8.0,5.0,18.5,0.0,0.0
-2023-09-17,21:00 (19:00),La Liga,2023-2024,Real Sociedad,Real Madrid,Away,Matchweek 5,1.6,1,2,15,5,17.6,0,0,2.0,2,1,17.0,8.0,15.9,1.0,0.0
-2023-09-20,21:00 (19:00),Champions Lg,2023-2024,Real Sociedad,it Inter,Home,Group stage,1.3,1,1,14,5,15.9,1,0,0.5,1,1,6.0,1.0,14.7,0.0,0.0
-2023-09-24,14:00 (12:00),La Liga,2023-2024,Real Sociedad,Getafe,Home,Matchweek 6,2.0,4,3,9,5,19.2,1,1,1.4,3,4,9.0,6.0,18.2,0.0,1.0
-2023-09-27,21:30 (19:30),La Liga,2023-2024,Real Sociedad,Valencia,Away,Matchweek 7,0.2,1,0,2,1,18.5,0,0,0.4,0,1,9.0,2.0,27.2,2.0,0.0
-2023-09-30,21:00 (19:00),La Liga,2023-2024,Real Sociedad,Athletic Club,Home,Matchweek 8,1.4,3,0,8,5,18.0,1,0,1.8,0,3,18.0,3.0,14.9,0.0,0.0
-2023-10-03,18:45 (16:45),Champions Lg,2023-2024,Real Sociedad,at RB Salzburg,Away,Group stage,1.2,2,0,15,5,20.7,0,0,0.6,0,2,11.0,1.0,18.2,0.0,0.0
-2023-10-08,16:15 (14:15),La Liga,2023-2024,Real Sociedad,Atlético Madrid,Away,Matchweek 9,1.2,1,2,13,4,23.1,1,0,2.2,2,1,13.0,4.0,15.0,0.0,1.0
-2023-10-21,14:00 (12:00),La Liga,2023-2024,Real Sociedad,Mallorca,Home,Matchweek 10,1.3,1,0,14,6,16.5,1,0,1.9,0,1,18.0,6.0,13.9,1.0,0.0
-2023-10-24,20:00 (19:00),Champions Lg,2023-2024,Real Sociedad,pt Benfica,Away,Group stage,0.9,1,0,12,2,16.6,0,0,0.5,0,1,10.0,3.0,20.5,0.0,0.0
-2023-10-29,16:15 (15:15),La Liga,2023-2024,Real Sociedad,Rayo Vallecano,Away,Matchweek 11,2.0,2,2,14,2,19.7,1,1,1.0,2,2,16.0,7.0,22.5,3.0,0.0
-2023-11-01,18:30 (17:30),Copa del Rey,2023-2024,Real Sociedad,Buñol,Away,First round,,1,0,21,6,,,0,,0,1,2.0,0.0,,,0.0
-2023-11-04,21:00 (20:00),La Liga,2023-2024,Real Sociedad,Barcelona,Home,Matchweek 12,0.9,0,1,13,6,16.7,0,0,1.2,1,0,12.0,4.0,19.4,1.0,0.0
-2023-11-08,18:45 (17:45),Champions Lg,2023-2024,Real Sociedad,pt Benfica,Home,Group stage,3.3,3,1,16,6,14.2,0,0,0.8,1,3,11.0,4.0,18.1,0.0,0.0
-2023-11-11,16:15 (15:15),La Liga,2023-2024,Real Sociedad,Almería,Away,Matchweek 13,2.4,3,1,17,5,16.6,2,1,0.4,1,3,7.0,2.0,18.7,1.0,0.0
-2023-11-26,16:15 (15:15),La Liga,2023-2024,Real Sociedad,Sevilla,Home,Matchweek 14,0.7,2,1,11,8,19.9,2,0,0.6,1,2,8.0,2.0,13.4,0.0,0.0
-2023-11-29,21:00 (20:00),Champions Lg,2023-2024,Real Sociedad,at RB Salzburg,Home,Group stage,1.3,0,0,21,7,18.6,1,0,0.6,0,0,4.0,1.0,15.8,0.0,0.0
-2023-12-02,21:00 (20:00),La Liga,2023-2024,Real Sociedad,Osasuna,Away,Matchweek 15,1.7,1,1,17,5,17.0,0,0,0.7,1,1,9.0,3.0,16.0,0.0,0.0
-2023-12-06,16:00 (15:00),Copa del Rey,2023-2024,Real Sociedad,Andratx,Away,Second round,,1,0,10,4,,,0,,0,1,13.0,2.0,,,0.0
-2023-12-09,18:30 (17:30),La Liga,2023-2024,Real Sociedad,Villarreal,Away,Matchweek 16,1.5,3,0,16,5,14.8,0,0,2.2,0,3,20.0,4.0,16.9,0.0,0.0
-2023-12-12,21:00 (20:00),Champions Lg,2023-2024,Real Sociedad,it Inter,Away,Group stage,0.7,0,0,5,2,17.6,0,0,0.7,0,0,10.0,2.0,15.7,0.0,0.0
-2023-12-17,16:15 (15:15),La Liga,2023-2024,Real Sociedad,Betis,Home,Matchweek 17,1.1,0,0,12,4,18.1,1,0,1.1,0,0,12.0,3.0,15.7,0.0,0.0
-2023-12-21,19:00 (18:00),La Liga,2023-2024,Real Sociedad,Cádiz,Away,Matchweek 18,0.5,0,0,8,1,15.9,1,0,1.0,0,0,10.0,2.0,16.8,0.0,0.0
-2024-01-02,19:15 (18:15),La Liga,2023-2024,Real Sociedad,Alavés,Home,Matchweek 19,1.2,1,1,16,5,14.8,0,0,1.0,1,1,6.0,1.0,23.6,1.0,1.0
-2024-01-07,21:00 (20:00),Copa del Rey,2023-2024,Real Sociedad,Málaga,Away,Round of 32,,1,0,16,5,,,0,,0,1,9.0,1.0,,,0.0
-2024-01-13,18:30 (17:30),La Liga,2023-2024,Real Sociedad,Athletic Club,Away,Matchweek 20,1.1,1,2,9,1,18.1,1,0,1.6,2,1,10.0,3.0,12.7,1.0,0.0
-2024-01-17,21:00 (20:00),Copa del Rey,2023-2024,Real Sociedad,Osasuna,Away,Round of 16,,2,0,15,6,,,1,,0,2,6.0,1.0,,,0.0
-2024-01-20,21:00 (20:00),La Liga,2023-2024,Real Sociedad,Celta Vigo,Away,Matchweek 21,0.8,1,0,6,2,21.0,1,0,0.3,0,1,6.0,2.0,21.8,1.0,0.0
-2024-01-23,21:30 (20:30),Copa del Rey,2023-2024,Real Sociedad,Celta Vigo,Away,Quarter-finals,,2,1,10,3,,,0,,1,2,9.0,2.0,,,0.0
-2024-01-27,14:00 (13:00),La Liga,2023-2024,Real Sociedad,Rayo Vallecano,Home,Matchweek 22,0.2,0,0,6,3,21.0,0,0,0.1,0,0,5.0,0.0,28.3,1.0,0.0
-2024-02-03,21:00 (20:00),La Liga,2023-2024,Real Sociedad,Girona,Away,Matchweek 23,0.6,0,0,11,2,20.7,0,0,0.7,0,0,11.0,3.0,18.2,3.0,0.0
-2024-02-06,21:00 (20:00),Copa del Rey,2023-2024,Real Sociedad,Mallorca,Away,Semi-finals,,0,0,12,3,,,0,,0,0,5.0,0.0,,,0.0
-Date,Time,Comp,2023-2024,Real Sociedad,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
-2024-02-10,16:15 (15:15),La Liga,2023-2024,Real Sociedad,Osasuna,Home,Matchweek 24,1.5,0,1,21,3,15.2,1,0,0.5,1,0,9.0,2.0,25.9,2.0,0.0
-2024-02-14,21:00 (20:00),Champions Lg,2023-2024,Real Sociedad,fr Paris S-G,Away,Round of 16,0.7,0,2,9,0,15.7,0,0,1.2,2,0,14.0,6.0,17.4,0.0,0.0
-2024-02-18,18:30 (17:30),La Liga,2023-2024,Real Sociedad,Mallorca,Away,Matchweek 25,1.1,2,1,19,5,17.7,0,0,0.1,1,2,4.0,1.0,19.9,0.0,0.0
-2024-02-23,21:00 (20:00),La Liga,2023-2024,Real Sociedad,Villarreal,Home,Matchweek 26,1.5,1,3,21,7,18.2,2,0,1.0,3,1,6.0,4.0,11.8,0.0,0.0
-2024-02-27,21:30 (20:30),Copa del Rey,2023-2024,Real Sociedad,Mallorca,Home,Semi-finals,,1 (4),1 (5),26,9,,,0,,1 (5),1 (4),6.0,1.0,,,0.0
-2024-03-02,14:00 (13:00),La Liga,2023-2024,Real Sociedad,Sevilla,Away,Matchweek 27,1.5,2,3,12,3,21.9,2,1,2.0,3,2,12.0,5.0,14.3,1.0,0.0
-2024-03-05,21:00 (20:00),Champions Lg,2023-2024,Real Sociedad,fr Paris S-G,Home,Round of 16,0.9,1,2,14,7,16.9,0,0,1.4,2,1,10.0,7.0,16.5,0.0,0.0
-2024-03-09,18:30 (17:30),La Liga,2023-2024,Real Sociedad,Granada,Away,Matchweek 28,2.1,3,2,11,8,14.4,1,0,1.7,2,3,12.0,5.0,17.9,0.0,1.0
-2024-03-15,21:00 (20:00),La Liga,2023-2024,Real Sociedad,Cádiz,Home,Matchweek 29,1.9,2,0,14,6,14.3,0,0,0.8,0,2,13.0,2.0,20.0,1.0,0.0
-2024-03-31,18:30 (16:30),La Liga,2023-2024,Real Sociedad,Alavés,Away,Matchweek 30,0.9,1,0,12,3,15.7,0,0,0.3,0,1,3.0,0.0,18.6,0.0,0.0
-2024-04-14,21:00 (19:00),La Liga,2023-2024,Real Sociedad,Almería,Home,Matchweek 31,1.5,2,2,17,4,16.4,0,0,1.6,2,2,6.0,2.0,19.8,0.0,1.0
-2024-04-21,14:00 (12:00),La Liga,2023-2024,Real Sociedad,Getafe,Away,Matchweek 32,1.2,1,1,7,3,14.7,0,0,0.5,1,1,6.0,2.0,18.5,1.0,0.0
-2024-04-26,21:00 (19:00),La Liga,2023-2024,Real Sociedad,Real Madrid,Home,Matchweek 33,0.6,0,1,9,3,23.3,0,0,0.4,1,0,5.0,3.0,23.1,0.0,0.0
-2024-05-04,14:00 (12:00),La Liga,2023-2024,Real Sociedad,Las Palmas,Home,Matchweek 34,0.6,2,0,9,4,17.8,0,0,0.5,0,2,7.0,1.0,19.9,1.0,0.0
-2024-05-13,21:00 (19:00),La Liga,2023-2024,Real Sociedad,Barcelona,Away,Matchweek 35,0.7,0,2,10,3,20.6,1,0,2.1,2,0,13.0,4.0,23.7,1.0,1.0
-2024-05-16,22:00 (20:00),La Liga,2023-2024,Real Sociedad,Valencia,Home,Matchweek 36,1.3,1,0,10,5,19.8,0,0,0.8,0,1,7.0,3.0,17.8,0.0,0.0
-2024-05-19,19:00 (17:00),La Liga,2023-2024,Real Sociedad,Betis,Away,Matchweek 37,0.4,2,0,5,2,14.0,1,0,1.7,0,2,17.0,8.0,18.5,0.0,0.0
-2024-05-25,16:15 (14:15),La Liga,2023-2024,Real Sociedad,Atlético Madrid,Home,Matchweek 38,0.6,0,2,14,2,20.0,1,0,2.2,2,0,10.0,4.0,14.2,0.0,0.0
-2023-08-13,19:30 (17:30),La Liga,2023-2024,Real Betis,Villarreal,Away,Matchweek 1,1.1,2,1,12,5,18.6,1,0,0.9,1.0,2.0,18.0,5.0,16.6,0.0,0.0
-2023-08-20,21:30 (19:30),La Liga,2023-2024,Real Betis,Atlético Madrid,Home,Matchweek 2,0.7,0,0,14,0,17.1,0,0,0.5,0.0,0.0,5.0,1.0,13.7,0.0,0.0
-2023-08-27,21:30 (19:30),La Liga,2023-2024,Real Betis,Athletic Club,Away,Matchweek 3,0.4,2,4,9,4,17.5,1,0,2.9,4.0,2.0,12.0,4.0,19.7,0.0,2.0
-2023-09-02,21:00 (19:00),La Liga,2023-2024,Real Betis,Rayo Vallecano,Home,Matchweek 4,1.0,1,0,14,5,16.3,1,0,1.5,0.0,1.0,15.0,6.0,20.2,1.0,0.0
-2023-09-16,21:00 (19:00),La Liga,2023-2024,Real Betis,Barcelona,Away,Matchweek 5,0.8,0,5,11,2,18.9,0,0,2.4,5.0,0.0,17.0,9.0,18.7,2.0,0.0
-2023-09-21,20:00 (19:00),Europa Lg,2023-2024,Real Betis,sct Rangers,Away,Group stage,0.8,0,1,12,4,20.0,0,0,2.0,1.0,0.0,18.0,5.0,17.0,1.0,0.0
-2023-09-24,18:30 (16:30),La Liga,2023-2024,Real Betis,Cádiz,Home,Matchweek 6,1.8,1,1,21,7,16.4,2,0,0.2,1.0,1.0,5.0,1.0,16.2,0.0,0.0
-2023-09-28,19:00 (17:00),La Liga,2023-2024,Real Betis,Granada,Away,Matchweek 7,0.9,1,1,13,3,17.1,0,0,1.8,1.0,1.0,18.0,7.0,15.8,1.0,0.0
-2023-10-01,21:00 (19:00),La Liga,2023-2024,Real Betis,Valencia,Home,Matchweek 8,1.6,3,0,15,7,13.4,0,0,0.7,0.0,3.0,9.0,2.0,19.2,0.0,0.0
-2023-10-05,18:45 (16:45),Europa Lg,2023-2024,Real Betis,cz Sparta Prague,Home,Group stage,1.5,2,1,17,4,18.2,2,0,1.3,1.0,2.0,10.0,2.0,21.5,1.0,0.0
-2023-10-08,18:30 (16:30),La Liga,2023-2024,Real Betis,Alavés,Away,Matchweek 9,0.9,1,1,6,2,14.5,0,0,1.3,1.0,1.0,15.0,5.0,16.7,2.0,0.0
-2023-10-21,16:15 (14:15),La Liga,2023-2024,Real Betis,Getafe,Away,Matchweek 10,1.1,1,1,13,3,16.1,0,0,1.5,1.0,1.0,13.0,3.0,15.9,0.0,0.0
-2023-10-26,19:45 (16:45),Europa Lg,2023-2024,Real Betis,cy Aris Limassol FC,Away,Group stage,2.1,1,0,17,5,15.0,0,0,0.5,0.0,1.0,9.0,0.0,18.0,0.0,0.0
-2023-10-29,14:00 (13:00),La Liga,2023-2024,Real Betis,Osasuna,Home,Matchweek 11,1.2,2,1,9,2,17.8,0,0,0.4,1.0,2.0,7.0,1.0,20.7,0.0,0.0
-2023-11-01,20:30 (19:30),Copa del Rey,2023-2024,Real Betis,Hernán Cortés,Away,First round,,12,1,40,24,,,1,,1.0,12.0,0.0,0.0,,,0.0
-2023-11-04,16:15 (15:15),La Liga,2023-2024,Real Betis,Mallorca,Home,Matchweek 12,2.2,2,0,22,3,18.8,1,0,0.6,0.0,2.0,8.0,1.0,22.6,0.0,0.0
-2023-11-09,21:00 (20:00),Europa Lg,2023-2024,Real Betis,cy Aris Limassol FC,Home,Group stage,2.2,4,1,14,8,18.8,0,0,0.9,1.0,4.0,8.0,4.0,20.7,0.0,0.0
-2023-11-12,18:30 (17:30),La Liga,2023-2024,Real Betis,Sevilla,Away,Matchweek 13,1.8,1,1,14,6,12.1,0,0,0.7,1.0,1.0,13.0,4.0,23.0,0.0,0.0
-2023-11-26,21:00 (20:00),La Liga,2023-2024,Real Betis,Las Palmas,Home,Matchweek 14,1.4,1,0,12,6,17.1,0,0,0.6,0.0,1.0,15.0,4.0,23.4,0.0,0.0
-2023-11-30,18:45 (17:45),Europa Lg,2023-2024,Real Betis,cz Sparta Prague,Away,Group stage,0.8,0,1,11,5,20.9,0,0,0.6,1.0,0.0,7.0,3.0,16.7,0.0,0.0
-2023-12-03,16:15 (15:15),La Liga,2023-2024,Real Betis,Almería,Away,Matchweek 15,0.5,0,0,6,2,15.4,0,0,2.4,0.0,0.0,20.0,8.0,18.7,0.0,0.0
-2023-12-06,19:00 (18:00),Copa del Rey,2023-2024,Real Betis,Villanovense,Away,Second round,,2,1,16,5,,,0,,1.0,2.0,7.0,2.0,,,0.0
-2023-12-09,16:15 (15:15),La Liga,2023-2024,Real Betis,Real Madrid,Home,Matchweek 16,1.3,1,1,14,6,14.5,0,0,1.0,1.0,1.0,12.0,2.0,18.8,1.0,0.0
-2023-12-14,21:00 (20:00),Europa Lg,2023-2024,Real Betis,sct Rangers,Home,Group stage,1.6,2,3,18,8,18.7,0,0,1.4,3.0,2.0,13.0,5.0,18.6,1.0,0.0
-2023-12-17,16:15 (15:15),La Liga,2023-2024,Real Betis,Real Sociedad,Away,Matchweek 17,1.1,0,0,12,3,15.7,0,0,1.1,0.0,0.0,12.0,4.0,18.1,1.0,0.0
-2023-12-21,19:00 (18:00),La Liga,2023-2024,Real Betis,Girona,Home,Matchweek 18,1.5,1,1,21,4,18.8,0,0,1.7,1.0,1.0,11.0,3.0,18.3,0.0,1.0
-2024-01-03,19:15 (18:15),La Liga,2023-2024,Real Betis,Celta Vigo,Away,Matchweek 19,1.4,1,2,14,3,13.0,0,0,2.7,2.0,1.0,18.0,5.0,23.4,2.0,1.0
-2024-01-06,20:00 (19:00),Copa del Rey,2023-2024,Real Betis,Alavés,Away,Round of 32,,0,1,12,2,,,0,,1.0,0.0,17.0,2.0,,,0.0
-2024-01-13,21:00 (20:00),La Liga,2023-2024,Real Betis,Granada,Home,Matchweek 20,1.8,1,0,25,6,19.2,0,0,0.5,0.0,1.0,6.0,2.0,17.2,0.0,0.0
-2024-01-21,18:30 (17:30),La Liga,2023-2024,Real Betis,Barcelona,Home,Matchweek 21,1.1,2,4,14,4,17.7,0,0,3.0,4.0,2.0,11.0,4.0,15.1,0.0,0.0
-2024-01-27,21:00 (20:00),La Liga,2023-2024,Real Betis,Mallorca,Away,Matchweek 22,0.4,1,0,8,2,19.3,0,0,1.5,0.0,1.0,14.0,1.0,16.4,0.0,0.0
-2024-02-04,18:30 (17:30),La Liga,2023-2024,Real Betis,Getafe,Home,Matchweek 23,1.6,1,1,8,1,19.6,1,1,1.5,1.0,1.0,10.0,1.0,17.0,0.0,1.0
-2024-02-09,21:00 (20:00),La Liga,2023-2024,Real Betis,Cádiz,Away,Matchweek 24,1.0,2,0,14,5,17.2,1,0,0.8,0.0,2.0,14.0,5.0,17.8,0.0,0.0
-2024-02-15,21:00 (20:00),Conf Lg,2023-2024,Real Betis,hr Dinamo Zagreb,Home,Knockout round play-offs,0.9,0,1,16,3,17.3,1,0,0.9,1.0,0.0,5.0,0.0,25.2,1.0,1.0
-2024-02-18,21:00 (20:00),La Liga,2023-2024,Real Betis,Alavés,Home,Matchweek 25,0.8,0,0,13,1,18.3,0,0,0.5,0.0,0.0,13.0,4.0,22.9,2.0,0.0
-Date,Time,Comp,2023-2024,Real Betis,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
-2024-02-22,18:45 (17:45),Conf Lg,2023-2024,Real Betis,hr Dinamo Zagreb,Away,Knockout round play-offs,0.8,1,1,9,2,18.6,2,0,1.5,1.0,1.0,10.0,2.0,18.8,1.0,0.0
-2024-02-25,16:15 (15:15),La Liga,2023-2024,Real Betis,Athletic Club,Home,Matchweek 26,1.2,3,1,13,5,23.4,2,0,0.2,1.0,3.0,3.0,1.0,13.1,0.0,0.0
-2024-03-03,16:15 (15:15),La Liga,2023-2024,Real Betis,Atlético Madrid,Away,Matchweek 27,0.6,1,2,12,6,17.9,0,0,3.0,2.0,1.0,16.0,11.0,16.3,0.0,0.0
-2024-03-10,21:00 (20:00),La Liga,2023-2024,Real Betis,Villarreal,Home,Matchweek 28,1.0,2,3,13,4,18.2,1,0,1.4,3.0,2.0,6.0,4.0,11.0,0.0,0.0
-2024-03-17,18:30 (17:30),La Liga,2023-2024,Real Betis,Rayo Vallecano,Away,Matchweek 29,0.8,0,2,11,1,14.8,0,0,0.7,2.0,0.0,8.0,4.0,19.9,2.0,0.0
-2024-03-31,16:15 (14:15),La Liga,2023-2024,Real Betis,Girona,Away,Matchweek 30,0.5,2,3,7,4,20.5,0,0,2.6,3.0,2.0,8.0,4.0,14.6,0.0,1.0
-2024-04-12,21:00 (19:00),La Liga,2023-2024,Real Betis,Celta Vigo,Home,Matchweek 31,1.2,2,1,15,3,16.4,1,0,1.6,1.0,2.0,12.0,5.0,12.3,0.0,0.0
-2024-04-20,18:30 (16:30),La Liga,2023-2024,Real Betis,Valencia,Away,Matchweek 32,1.3,2,1,12,6,15.9,2,0,1.1,1.0,2.0,7.0,4.0,19.2,0.0,1.0
-2024-04-28,21:00 (19:00),La Liga,2023-2024,Real Betis,Sevilla,Home,Matchweek 33,1.8,1,1,14,3,17.1,0,1,1.4,1.0,1.0,10.0,1.0,17.5,0.0,0.0
-2024-05-05,14:00 (12:00),La Liga,2023-2024,Real Betis,Osasuna,Away,Matchweek 34,1.1,2,0,10,4,16.5,0,0,0.8,0.0,2.0,12.0,2.0,16.3,0.0,0.0
-2024-05-12,21:00 (19:00),La Liga,2023-2024,Real Betis,Almería,Home,Matchweek 35,0.8,3,2,14,7,18.5,0,0,1.2,2.0,3.0,14.0,7.0,20.5,0.0,0.0
-2024-05-16,18:30 (17:30),La Liga,2023-2024,Real Betis,Las Palmas,Away,Matchweek 36,1.3,2,2,6,4,16.2,1,0,2.3,2.0,2.0,16.0,9.0,16.4,2.0,0.0
-2024-05-19,19:00 (17:00),La Liga,2023-2024,Real Betis,Real Sociedad,Home,Matchweek 37,1.7,0,2,17,8,18.5,0,0,0.4,2.0,0.0,5.0,2.0,14.0,1.0,0.0
-2024-05-25,21:00 (19:00),La Liga,2023-2024,Real Betis,Real Madrid,Away,Matchweek 38,0.7,0,0,11,3,18.8,0,0,1.0,0.0,0.0,13.0,4.0,18.8,1.0,0.0
-2023-08-13,19:30 (17:30),La Liga,2023-2024,Villarreal,Betis,Home,Matchweek 1,0.9,1,2,18,5,16.6,0,0,1.1,2,1,12.0,5.0,18.6,1.0,0.0
-2023-08-18,19:30 (17:30),La Liga,2023-2024,Villarreal,Mallorca,Away,Matchweek 2,1.8,1,0,15,3,15.3,0,0,0.4,0,1,8.0,1.0,17.4,0.0,0.0
-2023-08-27,17:30 (15:30),La Liga,2023-2024,Villarreal,Barcelona,Home,Matchweek 3,1.9,3,4,13,6,16.2,1,0,3.1,4,3,21.0,11.0,16.8,0.0,0.0
-2023-09-01,19:30 (17:30),La Liga,2023-2024,Villarreal,Cádiz,Away,Matchweek 4,0.3,1,3,7,3,19.8,0,0,2.1,3,1,17.0,3.0,22.1,0.0,1.0
-2023-09-17,16:15 (14:15),La Liga,2023-2024,Villarreal,Almería,Home,Matchweek 5,0.9,2,1,10,4,11.8,0,0,1.5,1,2,17.0,7.0,19.8,2.0,0.0
-2023-09-21,19:45 (16:45),Europa Lg,2023-2024,Villarreal,gr Panathinaikos,Away,Group stage,0.3,0,2,4,1,17.2,0,0,0.9,2,0,13.0,3.0,15.3,0.0,0.0
-2023-09-24,16:15 (14:15),La Liga,2023-2024,Villarreal,Rayo Vallecano,Away,Matchweek 6,1.6,1,1,13,6,15.2,0,0,1.2,1,1,11.0,6.0,19.3,1.0,0.0
-2023-09-27,19:00 (17:00),La Liga,2023-2024,Villarreal,Girona,Home,Matchweek 7,1.8,1,2,13,2,17.3,0,1,2.1,2,1,17.0,5.0,16.6,0.0,0.0
-2023-09-30,14:00 (12:00),La Liga,2023-2024,Villarreal,Getafe,Away,Matchweek 8,0.1,0,0,3,0,13.9,0,0,0.9,0,0,22.0,9.0,19.5,0.0,0.0
-2023-10-05,21:00 (19:00),Europa Lg,2023-2024,Villarreal,fr Rennes,Home,Group stage,0.3,1,0,7,2,20.9,1,0,1.9,0,1,16.0,3.0,15.2,0.0,0.0
-2023-10-08,14:00 (12:00),La Liga,2023-2024,Villarreal,Las Palmas,Home,Matchweek 9,1.0,1,2,9,4,13.2,0,0,1.1,2,1,7.0,4.0,22.3,1.0,1.0
-2023-10-22,18:30 (16:30),La Liga,2023-2024,Villarreal,Alavés,Home,Matchweek 10,1.5,1,1,11,2,16.6,0,1,1.7,1,1,16.0,7.0,21.1,1.0,0.0
-2023-10-30,21:00 (20:00),La Liga,2023-2024,Villarreal,Granada,Away,Matchweek 11,1.6,3,2,5,4,16.3,0,1,2.1,2,3,18.0,8.0,12.8,0.0,0.0
-2023-11-02,19:00 (18:00),Copa del Rey,2023-2024,Villarreal,Chiclana,Away,First round,,5,0,19,13,,,1,,0,5,3.0,1.0,,,0.0
-2023-11-05,18:30 (17:30),La Liga,2023-2024,Villarreal,Athletic Club,Home,Matchweek 12,2.1,2,3,17,6,16.3,0,0,2.3,3,2,17.0,7.0,18.2,0.0,0.0
-2023-11-09,19:45 (17:45),Europa Lg,2023-2024,Villarreal,il Maccabi Haifa,Away,Group stage,3.4,2,1,23,8,17.3,0,0,1.7,1,2,14.0,4.0,16.1,1.0,0.0
-2023-11-12,21:00 (20:00),La Liga,2023-2024,Villarreal,Atlético Madrid,Away,Matchweek 13,0.8,1,3,11,7,15.8,0,0,3.9,3,1,25.0,10.0,14.6,0.0,0.0
-2023-11-22,21:00 (20:00),Copa del Rey,2023-2024,Villarreal,Zamora,Away,Second round,,2,1,32,8,,,0,,1,2,9.0,3.0,,,0.0
-2023-11-26,14:00 (13:00),La Liga,2023-2024,Villarreal,Osasuna,Home,Matchweek 14,2.4,3,1,10,3,10.6,0,0,1.0,1,3,15.0,7.0,15.8,0.0,0.0
-2023-11-30,21:00 (20:00),Europa Lg,2023-2024,Villarreal,gr Panathinaikos,Home,Group stage,1.7,3,2,11,9,15.8,0,0,2.1,2,3,9.0,3.0,19.5,0.0,0.0
-2023-12-03,18:30 (17:30),La Liga,2023-2024,Villarreal,Sevilla,Away,Matchweek 15,1.2,1,1,5,4,14.9,0,0,1.8,1,1,18.0,4.0,14.7,1.0,0.0
-2023-12-06,21:00 (20:00),Europa Lg,2023-2024,Villarreal,il Maccabi Haifa,Home,Group stage,0.6,0,0,16,5,19.0,0,0,0.2,0,0,4.0,0.0,19.8,0.0,0.0
-2023-12-09,18:30 (17:30),La Liga,2023-2024,Villarreal,Real Sociedad,Home,Matchweek 16,2.2,0,3,20,4,16.9,0,0,1.5,3,0,16.0,5.0,14.8,0.0,0.0
-2023-12-14,18:45 (17:45),Europa Lg,2023-2024,Villarreal,fr Rennes,Away,Group stage,2.3,3,2,12,4,16.3,1,1,0.6,2,3,10.0,5.0,19.4,1.0,0.0
-2023-12-17,21:00 (20:00),La Liga,2023-2024,Villarreal,Real Madrid,Away,Matchweek 17,0.8,1,4,3,1,18.0,0,0,2.3,4,1,22.0,9.0,16.9,1.0,0.0
-2023-12-20,21:30 (20:30),La Liga,2023-2024,Villarreal,Celta Vigo,Home,Matchweek 18,2.4,3,2,11,7,12.8,0,1,1.3,2,3,15.0,4.0,16.4,0.0,0.0
-2024-01-02,21:30 (20:30),La Liga,2023-2024,Villarreal,Valencia,Away,Matchweek 19,0.5,1,3,8,4,15.8,0,0,2.8,3,1,9.0,6.0,19.8,1.0,2.0
-2024-01-08,16:30 (15:30),Copa del Rey,2023-2024,Villarreal,Unionistas Sal,Away,Round of 32,,1 (6),1 (7),13,4,,,0,,1 (7),1 (6),17.0,3.0,,,1.0
-2024-01-13,13:00,La Liga,2023-2024,Villarreal,Las Palmas,Away,Matchweek 20,2.0,0,3,17,3,15.7,2,0,0.8,3,0,8.0,3.0,18.8,0.0,0.0
-2024-01-20,16:15 (15:15),La Liga,2023-2024,Villarreal,Mallorca,Home,Matchweek 21,1.9,1,1,18,5,19.2,2,0,0.4,1,1,8.0,2.0,16.6,1.0,0.0
-2024-01-27,18:30 (17:30),La Liga,2023-2024,Villarreal,Barcelona,Away,Matchweek 22,2.1,5,3,9,6,13.5,0,0,2.2,3,5,22.0,9.0,16.7,0.0,0.0
-2024-02-04,14:00 (13:00),La Liga,2023-2024,Villarreal,Cádiz,Home,Matchweek 23,1.2,0,0,19,4,18.9,1,0,0.7,0,0,8.0,2.0,14.3,1.0,0.0
-2024-02-10,14:00 (13:00),La Liga,2023-2024,Villarreal,Alavés,Away,Matchweek 24,1.2,1,1,13,3,16.1,0,0,1.8,1,1,17.0,4.0,15.4,0.0,0.0
-2024-02-16,21:00 (20:00),La Liga,2023-2024,Villarreal,Getafe,Home,Matchweek 25,1.2,1,1,20,7,18.2,1,0,0.8,1,1,11.0,1.0,19.9,1.0,0.0
-2024-02-23,21:00 (20:00),La Liga,2023-2024,Villarreal,Real Sociedad,Away,Matchweek 26,1.0,3,1,6,4,11.8,0,0,1.5,1,3,21.0,7.0,18.2,2.0,0.0
-Date,Time,Comp,2023-2024,Villarreal,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
-2024-03-03,14:00 (13:00),La Liga,2023-2024,Villarreal,Granada,Home,Matchweek 27,2.0,5,1,16,10,17.6,1,0,0.5,1,5,9.0,3.0,23.2,1.0,0.0
-2024-03-07,21:00 (20:00),Europa Lg,2023-2024,Villarreal,fr Marseille,Away,Round of 16,0.3,0,4,5,0,13.8,1,0,3.0,4,0,11.0,6.0,15.2,0.0,1.0
-2024-03-10,21:00 (20:00),La Liga,2023-2024,Villarreal,Betis,Away,Matchweek 28,1.4,3,2,6,4,11.0,0,0,1.0,2,3,13.0,4.0,18.2,1.0,0.0
-2024-03-14,18:45 (17:45),Europa Lg,2023-2024,Villarreal,fr Marseille,Home,Round of 16,1.9,3,1,25,8,15.6,0,0,1.6,1,3,7.0,2.0,17.0,0.0,0.0
-2024-03-17,16:15 (15:15),La Liga,2023-2024,Villarreal,Valencia,Home,Matchweek 29,2.0,1,0,12,6,12.3,0,0,1.1,0,1,14.0,7.0,17.7,0.0,0.0
-2024-04-01,21:00 (19:00),La Liga,2023-2024,Villarreal,Atlético Madrid,Home,Matchweek 30,0.8,1,2,11,2,16.6,0,0,1.3,2,1,14.0,8.0,17.6,0.0,0.0
-2024-04-14,18:30 (16:30),La Liga,2023-2024,Villarreal,Athletic Club,Away,Matchweek 31,2.1,1,1,8,1,19.3,0,1,0.7,1,1,13.0,6.0,20.9,2.0,0.0
-2024-04-21,16:15 (14:15),La Liga,2023-2024,Villarreal,Almería,Away,Matchweek 32,1.6,2,1,11,3,17.4,0,0,1.8,1,2,24.0,5.0,16.1,0.0,0.0
-2024-04-28,18:30 (16:30),La Liga,2023-2024,Villarreal,Rayo Vallecano,Home,Matchweek 33,1.4,3,0,15,7,16.9,0,0,1.0,0,3,20.0,4.0,22.3,3.0,0.0
-2024-05-05,16:15 (14:15),La Liga,2023-2024,Villarreal,Celta Vigo,Away,Matchweek 34,0.6,2,3,11,3,19.6,0,0,3.9,3,2,22.0,6.0,16.8,0.0,1.0
-2024-05-11,16:15 (14:15),La Liga,2023-2024,Villarreal,Sevilla,Home,Matchweek 35,3.1,3,2,25,7,15.7,0,0,1.7,2,3,7.0,3.0,13.6,0.0,1.0
-2024-05-14,22:00 (20:00),La Liga,2023-2024,Villarreal,Girona,Away,Matchweek 36,0.6,1,0,11,3,19.2,0,0,1.6,0,1,22.0,4.0,17.2,0.0,0.0
-2024-05-19,19:00 (17:00),La Liga,2023-2024,Villarreal,Real Madrid,Home,Matchweek 37,1.7,4,4,21,7,15.6,0,0,1.0,4,4,12.0,6.0,17.9,0.0,0.0
-2024-05-25,14:00 (12:00),La Liga,2023-2024,Villarreal,Osasuna,Away,Matchweek 38,1.6,1,1,11,3,17.3,0,0,0.9,1,1,12.0,6.0,14.9,0.0,0.0
-2023-08-11,22:00 (20:00),La Liga,2023-2024,Valencia,Sevilla,Away,Matchweek 1,1.1,2,1,10,3,16.0,1,0,0.7,1.0,2.0,9.0,3.0,19.5,0.0,0.0
-2023-08-18,21:30 (19:30),La Liga,2023-2024,Valencia,Las Palmas,Home,Matchweek 2,1.5,1,0,8,3,17.3,0,1,0.5,0.0,1.0,7.0,1.0,23.6,1.0,0.0
-2023-08-27,19:30 (17:30),La Liga,2023-2024,Valencia,Osasuna,Home,Matchweek 3,1.7,1,2,16,4,15.6,0,0,1.2,2.0,1.0,6.0,1.0,13.8,0.0,1.0
-2023-09-02,18:30 (16:30),La Liga,2023-2024,Valencia,Alavés,Away,Matchweek 4,0.8,0,1,9,4,18.0,0,0,1.3,1.0,0.0,6.0,0.0,15.9,0.0,0.0
-2023-09-16,16:15 (14:15),La Liga,2023-2024,Valencia,Atlético Madrid,Home,Matchweek 5,1.3,3,0,12,8,16.2,1,0,0.6,0.0,3.0,11.0,3.0,17.8,1.0,0.0
-2023-09-23,21:00 (19:00),La Liga,2023-2024,Valencia,Almería,Away,Matchweek 6,0.8,2,2,7,5,19.0,0,0,2.6,2.0,2.0,17.0,10.0,15.2,2.0,0.0
-2023-09-27,21:30 (19:30),La Liga,2023-2024,Valencia,Real Sociedad,Home,Matchweek 7,0.4,0,1,9,2,27.2,2,0,0.2,1.0,0.0,2.0,1.0,18.5,0.0,0.0
-2023-10-01,21:00 (19:00),La Liga,2023-2024,Valencia,Betis,Away,Matchweek 8,0.7,0,3,9,2,19.2,0,0,1.6,3.0,0.0,15.0,7.0,13.4,0.0,0.0
-2023-10-07,18:30 (16:30),La Liga,2023-2024,Valencia,Mallorca,Away,Matchweek 9,0.5,1,1,11,3,24.6,2,0,0.6,1.0,1.0,9.0,5.0,15.7,0.0,0.0
-2023-10-23,21:00 (19:00),La Liga,2023-2024,Valencia,Cádiz,Home,Matchweek 10,1.5,2,0,12,4,16.8,1,0,0.6,0.0,2.0,5.0,4.0,9.9,0.0,0.0
-2023-10-29,18:30 (17:30),La Liga,2023-2024,Valencia,Athletic Club,Away,Matchweek 11,1.9,2,2,11,4,14.7,0,0,1.9,2.0,2.0,12.0,7.0,15.5,0.0,0.0
-2023-11-02,20:00 (19:00),Copa del Rey,2023-2024,Valencia,UD Logroñés,Away,First round,,2,0,14,4,,,0,,0.0,2.0,12.0,2.0,,,0.0
-2023-11-05,16:15 (15:15),La Liga,2023-2024,Valencia,Granada,Home,Matchweek 12,1.2,1,0,10,1,25.1,1,1,0.5,0.0,1.0,6.0,1.0,19.7,2.0,0.0
-2023-11-11,21:00 (20:00),La Liga,2023-2024,Valencia,Real Madrid,Away,Matchweek 13,1.7,1,5,10,4,16.3,0,0,1.7,5.0,1.0,16.0,7.0,18.3,3.0,0.0
-2023-11-25,16:15 (15:15),La Liga,2023-2024,Valencia,Celta Vigo,Home,Matchweek 14,0.5,0,0,8,0,15.7,1,0,0.8,0.0,0.0,13.0,1.0,21.9,1.0,0.0
-2023-12-02,14:00 (13:00),La Liga,2023-2024,Valencia,Girona,Away,Matchweek 15,1.0,1,2,9,3,16.7,0,0,1.6,2.0,1.0,9.0,5.0,13.5,0.0,0.0
-2023-12-05,21:00 (20:00),Copa del Rey,2023-2024,Valencia,Arosa,Away,Second round,,1,0,9,4,,,0,,0.0,1.0,10.0,4.0,,,0.0
-2023-12-08,21:00 (20:00),La Liga,2023-2024,Valencia,Getafe,Away,Matchweek 16,0.1,0,1,3,0,22.4,1,0,0.7,1.0,0.0,8.0,6.0,17.7,0.0,0.0
-2023-12-16,21:00 (20:00),La Liga,2023-2024,Valencia,Barcelona,Home,Matchweek 17,0.5,1,1,11,4,20.1,1,0,3.2,1.0,1.0,16.0,7.0,14.0,0.0,0.0
-2023-12-19,19:00 (18:00),La Liga,2023-2024,Valencia,Rayo Vallecano,Away,Matchweek 18,0.3,1,0,8,3,22.8,0,0,0.3,0.0,1.0,7.0,1.0,20.9,2.0,0.0
-2024-01-02,21:30 (20:30),La Liga,2023-2024,Valencia,Villarreal,Home,Matchweek 19,2.8,3,1,9,6,19.8,1,2,0.5,1.0,3.0,8.0,4.0,15.8,0.0,0.0
-2024-01-07,19:00 (18:00),Copa del Rey,2023-2024,Valencia,Cartagena,Away,Round of 32,,2,1,17,4,,,0,,1.0,2.0,8.0,3.0,,,0.0
-2024-01-14,16:15 (15:15),La Liga,2023-2024,Valencia,Cádiz,Away,Matchweek 20,1.9,4,1,9,5,20.5,0,0,1.1,1.0,4.0,9.0,1.0,21.9,2.0,1.0
-2024-01-17,11:00 (19:00),Copa del Rey,2023-2024,Valencia,Celta Vigo,Home,Round of 16,,1,3,20,5,,,1,,3.0,1.0,15.0,6.0,,,1.0
-2024-01-20,18:30 (17:30),La Liga,2023-2024,Valencia,Athletic Club,Home,Matchweek 21,0.9,1,0,6,1,12.6,0,0,0.5,0.0,1.0,6.0,3.0,15.6,0.0,0.0
-2024-01-28,21:00 (20:00),La Liga,2023-2024,Valencia,Atlético Madrid,Away,Matchweek 22,0.5,0,2,10,3,18.7,1,0,2.4,2.0,0.0,12.0,8.0,13.7,1.0,0.0
-2024-02-03,14:00 (13:00),La Liga,2023-2024,Valencia,Almería,Home,Matchweek 23,1.4,2,1,6,2,19.1,0,0,1.9,1.0,2.0,15.0,4.0,20.7,0.0,0.0
-2024-02-10,20:00,La Liga,2023-2024,Valencia,Las Palmas,Away,Matchweek 24,0.5,0,2,7,1,34.4,0,0,1.3,2.0,0.0,8.0,3.0,14.5,0.0,0.0
-2024-02-17,21:00 (20:00),La Liga,2023-2024,Valencia,Sevilla,Home,Matchweek 25,1.0,0,0,14,4,18.7,0,0,0.0,0.0,0.0,1.0,1.0,9.8,0.0,0.0
-2024-03-02,21:00 (20:00),La Liga,2023-2024,Valencia,Real Madrid,Home,Matchweek 27,1.1,2,2,12,5,20.4,1,0,2.2,2.0,2.0,10.0,5.0,15.6,1.0,0.0
-2024-03-09,14:00 (13:00),La Liga,2023-2024,Valencia,Getafe,Home,Matchweek 28,0.8,1,0,10,3,17.5,0,0,1.3,0.0,1.0,15.0,5.0,17.6,0.0,0.0
-2024-03-17,16:15 (15:15),La Liga,2023-2024,Valencia,Villarreal,Away,Matchweek 29,1.1,0,1,14,7,17.7,0,0,2.0,1.0,0.0,12.0,6.0,12.3,0.0,0.0
-2024-03-30,18:30 (17:30),La Liga,2023-2024,Valencia,Mallorca,Home,Matchweek 30,1.5,0,0,14,4,16.6,1,0,0.9,0.0,0.0,11.0,3.0,15.7,0.0,0.0
-2024-04-04,20:00 (18:00),La Liga,2023-2024,Valencia,Granada,Away,Matchweek 26,0.4,1,0,6,2,13.8,0,0,0.6,0.0,1.0,13.0,3.0,23.2,1.0,0.0
-2024-04-15,21:00 (19:00),La Liga,2023-2024,Valencia,Osasuna,Away,Matchweek 31,0.2,1,0,4,3,17.9,0,0,1.9,0.0,1.0,12.0,1.0,18.0,0.0,0.0
-Date,Time,Comp,2023-2024,Valencia,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
-2024-04-20,18:30 (16:30),La Liga,2023-2024,Valencia,Betis,Home,Matchweek 32,1.1,1,2,7,4,19.2,0,1,1.3,2.0,1.0,12.0,6.0,15.9,2.0,0.0
-2024-04-29,21:00 (19:00),La Liga,2023-2024,Valencia,Barcelona,Away,Matchweek 33,2.1,2,4,4,2,19.2,0,1,2.2,4.0,2.0,27.0,13.0,15.5,2.0,0.0
-2024-05-05,18:30 (16:30),La Liga,2023-2024,Valencia,Alavés,Home,Matchweek 34,0.9,0,1,13,1,17.0,1,0,0.8,1.0,0.0,14.0,4.0,19.9,0.0,0.0
-2024-05-12,18:30 (16:30),La Liga,2023-2024,Valencia,Rayo Vallecano,Home,Matchweek 35,1.3,0,0,13,5,16.0,0,0,0.6,0.0,0.0,12.0,1.0,18.0,0.0,0.0
-2024-05-16,22:00 (20:00),La Liga,2023-2024,Valencia,Real Sociedad,Away,Matchweek 36,0.8,0,1,7,3,17.8,0,0,1.3,1.0,0.0,10.0,5.0,19.8,0.0,0.0
-2024-05-19,19:00 (17:00),La Liga,2023-2024,Valencia,Girona,Home,Matchweek 37,3.2,1,3,19,5,19.5,0,1,2.6,3.0,1.0,18.0,5.0,19.6,1.0,0.0
-2024-05-26,16:15 (14:15),La Liga,2023-2024,Valencia,Celta Vigo,Away,Matchweek 38,2.0,2,2,11,0,16.6,0,1,1.5,2.0,2.0,8.0,3.0,19.6,0.0,1.0
-2023-08-14,19:30 (17:30),La Liga,2023-2024,Alaves,Cádiz,Away,Matchweek 1,0.3,0,1,10,2,22.1,0,0,0.7,1.0,0.0,12.0,3.0,17.6,1.0,0.0
-2023-08-21,19:00 (17:00),La Liga,2023-2024,Alaves,Sevilla,Home,Matchweek 2,1.8,4,3,14,7,16.1,1,0,0.6,3.0,4.0,12.0,2.0,24.3,2.0,0.0
-2023-08-28,19:30 (17:30),La Liga,2023-2024,Alaves,Getafe,Away,Matchweek 3,0.7,0,1,16,1,18.9,0,0,2.2,1.0,0.0,14.0,3.0,13.4,0.0,1.0
-2023-09-02,18:30 (16:30),La Liga,2023-2024,Alaves,Valencia,Home,Matchweek 4,1.3,1,0,6,0,15.9,0,0,0.8,0.0,1.0,9.0,4.0,18.0,0.0,0.0
-2023-09-15,21:00 (19:00),La Liga,2023-2024,Alaves,Rayo Vallecano,Away,Matchweek 5,0.7,0,2,9,1,16.1,1,0,2.6,2.0,0.0,19.0,10.0,20.6,1.0,1.0
-2023-09-22,21:00 (19:00),La Liga,2023-2024,Alaves,Athletic Club,Home,Matchweek 6,1.1,0,2,15,5,15.4,0,0,1.7,2.0,0.0,11.0,3.0,15.6,1.0,0.0
-2023-09-28,19:00 (17:00),La Liga,2023-2024,Alaves,Celta Vigo,Away,Matchweek 7,2.6,1,1,21,9,14.9,1,0,0.6,1.0,1.0,8.0,0.0,24.8,2.0,0.0
-2023-10-01,16:15 (14:15),La Liga,2023-2024,Alaves,Osasuna,Home,Matchweek 8,1.5,0,2,17,3,18.7,1,0,1.1,2.0,0.0,10.0,3.0,20.7,1.0,0.0
-2023-10-08,18:30 (16:30),La Liga,2023-2024,Alaves,Betis,Home,Matchweek 9,1.3,1,1,15,5,16.7,2,0,0.9,1.0,1.0,6.0,2.0,14.5,0.0,0.0
-2023-10-22,18:30 (16:30),La Liga,2023-2024,Alaves,Villarreal,Away,Matchweek 10,1.7,1,1,16,7,21.1,1,0,1.5,1.0,1.0,11.0,2.0,16.6,0.0,1.0
-2023-10-29,21:00 (20:00),La Liga,2023-2024,Alaves,Atlético Madrid,Away,Matchweek 11,0.5,1,2,8,1,17.4,0,0,1.3,2.0,1.0,11.0,7.0,11.8,0.0,0.0
-2023-11-02,21:00 (20:00),Copa del Rey,2023-2024,Alaves,Deportivo Murcia,Away,First round,,10,0,29,16,,,0,,0.0,10.0,9.0,3.0,,,0.0
-2023-11-05,14:00 (13:00),La Liga,2023-2024,Alaves,Almería,Home,Matchweek 12,2.4,1,0,22,3,16.4,0,0,0.5,0.0,1.0,9.0,3.0,23.2,1.0,0.0
-2023-11-12,16:15 (15:15),La Liga,2023-2024,Alaves,Barcelona,Away,Matchweek 13,1.7,1,2,8,1,14.0,0,0,1.6,2.0,1.0,10.0,5.0,19.4,0.0,1.0
-2023-11-24,21:00 (20:00),La Liga,2023-2024,Alaves,Granada,Home,Matchweek 14,0.8,3,1,8,5,18.6,0,0,1.1,1.0,3.0,10.0,3.0,23.1,0.0,1.0
-2023-12-03,14:00 (13:00),La Liga,2023-2024,Alaves,Mallorca,Away,Matchweek 15,0.3,0,0,7,4,23.6,1,0,0.8,0.0,0.0,7.0,3.0,18.6,0.0,0.0
-2023-12-06,16:00 (15:00),Copa del Rey,2023-2024,Alaves,Terrassa,Away,Second round,,1,0,20,6,,,0,,0.0,1.0,11.0,4.0,,,0.0
-2023-12-09,14:00 (13:00),La Liga,2023-2024,Alaves,Las Palmas,Home,Matchweek 16,1.9,0,1,19,3,16.9,1,0,0.4,1.0,0.0,9.0,2.0,20.1,1.0,0.0
-2023-12-18,21:00 (20:00),La Liga,2023-2024,Alaves,Girona,Away,Matchweek 17,0.7,0,3,12,2,21.5,0,0,1.7,3.0,0.0,8.0,3.0,16.2,0.0,1.0
-2023-12-21,21:30 (20:30),La Liga,2023-2024,Alaves,Real Madrid,Home,Matchweek 18,0.6,0,1,8,2,15.3,0,0,0.6,1.0,0.0,9.0,4.0,18.4,0.0,0.0
-2024-01-02,19:15 (18:15),La Liga,2023-2024,Alaves,Real Sociedad,Away,Matchweek 19,1.0,1,1,6,1,23.6,1,1,1.2,1.0,1.0,16.0,5.0,14.8,0.0,0.0
-2024-01-06,20:00 (19:00),Copa del Rey,2023-2024,Alaves,Betis,Home,Round of 32,,1,0,17,2,,,0,,0.0,1.0,12.0,2.0,,,0.0
-2024-01-12,21:00 (20:00),La Liga,2023-2024,Alaves,Sevilla,Away,Matchweek 20,2.0,3,2,16,8,14.8,0,0,2.2,2.0,3.0,18.0,3.0,15.5,0.0,1.0
-2024-01-16,21:00 (20:00),Copa del Rey,2023-2024,Alaves,Athletic Club,Away,Round of 16,,0,2,8,3,,,0,,2.0,0.0,13.0,6.0,,,0.0
-2024-01-19,21:00 (20:00),La Liga,2023-2024,Alaves,Cádiz,Home,Matchweek 21,2.0,1,0,12,2,18.1,1,1,0.3,0.0,1.0,9.0,1.0,17.8,0.0,0.0
-2024-01-26,21:00 (20:00),La Liga,2023-2024,Alaves,Almería,Away,Matchweek 22,1.8,3,0,10,2,17.8,0,1,1.4,0.0,3.0,19.0,7.0,20.0,2.0,0.0
-2024-02-03,18:30 (17:30),La Liga,2023-2024,Alaves,Barcelona,Home,Matchweek 23,1.0,1,3,13,2,15.1,0,0,1.2,3.0,1.0,8.0,5.0,12.5,0.0,0.0
-2024-02-10,14:00 (13:00),La Liga,2023-2024,Alaves,Villarreal,Home,Matchweek 24,1.8,1,1,17,4,15.4,0,0,1.2,1.0,1.0,13.0,3.0,16.1,0.0,0.0
-2024-02-18,21:00 (20:00),La Liga,2023-2024,Alaves,Betis,Away,Matchweek 25,0.5,0,0,13,4,22.9,2,0,0.8,0.0,0.0,13.0,1.0,18.3,0.0,0.0
-2024-02-24,18:30 (17:30),La Liga,2023-2024,Alaves,Mallorca,Home,Matchweek 26,0.5,1,1,9,1,17.1,1,0,2.2,1.0,1.0,15.0,7.0,14.9,0.0,0.0
-2024-03-04,21:00 (20:00),La Liga,2023-2024,Alaves,Osasuna,Away,Matchweek 27,1.0,0,1,10,4,14.5,0,0,1.0,1.0,0.0,15.0,4.0,16.9,0.0,0.0
-2024-03-10,14:00 (13:00),La Liga,2023-2024,Alaves,Rayo Vallecano,Home,Matchweek 28,0.6,1,0,12,4,20.9,0,0,0.6,0.0,1.0,9.0,3.0,23.5,0.0,0.0
-2024-03-16,21:00 (20:00),La Liga,2023-2024,Alaves,Athletic Club,Away,Matchweek 29,1.3,0,2,6,2,21.7,0,0,1.7,2.0,0.0,16.0,4.0,16.9,0.0,0.0
-2024-03-31,18:30 (16:30),La Liga,2023-2024,Alaves,Real Sociedad,Home,Matchweek 30,0.3,0,1,3,0,18.6,0,0,0.9,1.0,0.0,12.0,3.0,15.7,0.0,0.0
-2024-04-14,16:15 (14:15),La Liga,2023-2024,Alaves,Granada,Away,Matchweek 31,0.3,0,2,8,3,21.0,0,0,1.3,2.0,0.0,8.0,2.0,20.4,1.0,1.0
-Date,Time,Comp,2023-2024,Alaves,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
-2024-04-21,18:30 (16:30),La Liga,2023-2024,Alaves,Atlético Madrid,Home,Matchweek 32,0.4,2,0,8,3,21.0,0,0,0.9,0.0,2.0,15.0,4.0,16.9,0.0,0.0
-2024-04-27,18:30 (16:30),La Liga,2023-2024,Alaves,Celta Vigo,Home,Matchweek 33,2.3,3,0,16,8,12.1,0,0,0.2,0.0,3.0,4.0,0.0,22.9,0.0,0.0
-2024-05-05,18:30 (16:30),La Liga,2023-2024,Alaves,Valencia,Away,Matchweek 34,0.8,1,0,14,4,19.9,0,0,0.9,0.0,1.0,13.0,1.0,17.0,1.0,0.0
-2024-05-10,21:00 (19:00),La Liga,2023-2024,Alaves,Girona,Home,Matchweek 35,1.7,2,2,14,8,12.6,0,0,1.7,2.0,2.0,15.0,5.0,17.0,0.0,0.0
-2024-05-14,21:30 (19:30),La Liga,2023-2024,Alaves,Real Madrid,Away,Matchweek 36,1.3,0,5,18,10,21.4,0,0,2.5,5.0,0.0,22.0,11.0,16.0,1.0,0.0
-2024-05-18,21:00 (19:00),La Liga,2023-2024,Alaves,Getafe,Home,Matchweek 37,1.2,1,0,9,2,10.4,0,0,0.3,0.0,1.0,10.0,4.0,22.1,0.0,0.0
-2024-05-26,15:15 (14:15),La Liga,2023-2024,Alaves,Las Palmas,Away,Matchweek 38,2.5,1,1,13,3,22.1,1,0,1.0,1.0,1.0,9.0,4.0,20.0,0.0,0.0
-2023-08-13,17:00 (15:00),La Liga,2023-2024,Osasuna,Celta Vigo,Away,Matchweek 1,1.0,2,0,11,5,15.7,1,0,1.0,0.0,2.0,11.0,0.0,15.5,0.0,0.0
-2023-08-19,21:30 (19:30),La Liga,2023-2024,Osasuna,Athletic Club,Home,Matchweek 2,1.3,0,2,18,7,17.8,2,0,1.5,2.0,0.0,8.0,2.0,16.0,1.0,0.0
-2023-08-24,20:30 (18:30),Conf Lg,2023-2024,Osasuna,be Club Brugge,Home,Play-off round,,1,2,,,,,0,,2.0,1.0,,,,,0.0
-2023-08-27,19:30 (17:30),La Liga,2023-2024,Osasuna,Valencia,Away,Matchweek 3,1.2,2,1,6,1,13.8,0,1,1.7,1.0,2.0,16.0,4.0,15.6,0.0,0.0
-2023-08-31,20:30 (18:30),Conf Lg,2023-2024,Osasuna,be Club Brugge,Away,Play-off round,,2,2,,,,,0,,2.0,2.0,,,,,0.0
-2023-09-03,21:00 (19:00),La Liga,2023-2024,Osasuna,Barcelona,Home,Matchweek 4,0.8,1,2,11,3,18.3,0,0,2.0,2.0,1.0,8.0,3.0,15.6,0.0,1.0
-2023-09-17,14:00 (12:00),La Liga,2023-2024,Osasuna,Getafe,Away,Matchweek 5,1.1,2,3,7,2,23.3,1,1,0.5,3.0,2.0,11.0,6.0,13.5,0.0,0.0
-2023-09-23,16:15 (14:15),La Liga,2023-2024,Osasuna,Sevilla,Home,Matchweek 6,1.4,0,0,16,2,16.8,0,0,0.8,0.0,0.0,15.0,3.0,21.4,2.0,0.0
-2023-09-28,21:30 (19:30),La Liga,2023-2024,Osasuna,Atlético Madrid,Home,Matchweek 7,1.0,0,2,13,2,15.6,1,0,1.5,2.0,0.0,5.0,3.0,12.9,0.0,0.0
-2023-10-01,16:15 (14:15),La Liga,2023-2024,Osasuna,Alavés,Away,Matchweek 8,1.1,2,0,10,3,20.7,1,0,1.5,0.0,2.0,17.0,3.0,18.7,1.0,0.0
-2023-10-07,16:15 (14:15),La Liga,2023-2024,Osasuna,Real Madrid,Away,Matchweek 9,0.5,0,4,7,1,24.4,0,0,3.2,4.0,0.0,18.0,8.0,16.0,0.0,0.0
-2023-10-20,21:00 (19:00),La Liga,2023-2024,Osasuna,Granada,Home,Matchweek 10,2.1,2,0,11,5,20.3,0,1,0.6,0.0,2.0,13.0,3.0,14.2,0.0,0.0
-2023-10-29,14:00 (13:00),La Liga,2023-2024,Osasuna,Betis,Away,Matchweek 11,0.4,1,2,7,1,20.7,0,0,1.2,2.0,1.0,9.0,2.0,17.8,0.0,0.0
-2023-11-04,14:00 (13:00),La Liga,2023-2024,Osasuna,Girona,Home,Matchweek 12,1.4,2,4,15,3,15.5,0,0,2.2,4.0,2.0,11.0,4.0,14.9,1.0,0.0
-2023-11-11,18:30 (17:30),La Liga,2023-2024,Osasuna,Las Palmas,Home,Matchweek 13,1.0,1,1,11,3,12.3,0,0,0.4,1.0,1.0,6.0,1.0,18.7,1.0,0.0
-2023-11-26,14:00 (13:00),La Liga,2023-2024,Osasuna,Villarreal,Away,Matchweek 14,1.0,1,3,15,7,15.8,0,0,2.4,3.0,1.0,10.0,3.0,10.6,0.0,0.0
-2023-12-02,21:00 (20:00),La Liga,2023-2024,Osasuna,Real Sociedad,Home,Matchweek 15,0.7,1,1,9,3,16.0,0,0,1.7,1.0,1.0,17.0,5.0,17.0,0.0,0.0
-2023-12-10,18:30 (17:30),La Liga,2023-2024,Osasuna,Cádiz,Away,Matchweek 16,1.6,1,1,12,3,23.0,0,1,0.9,1.0,1.0,12.0,5.0,17.2,0.0,0.0
-2023-12-15,21:00 (20:00),La Liga,2023-2024,Osasuna,Rayo Vallecano,Home,Matchweek 17,1.2,1,0,10,4,14.1,0,0,0.7,0.0,1.0,10.0,3.0,23.1,3.0,0.0
-2023-12-21,21:30 (20:30),La Liga,2023-2024,Osasuna,Mallorca,Away,Matchweek 18,1.6,2,3,12,7,19.9,1,0,1.1,3.0,2.0,15.0,8.0,16.4,0.0,0.0
-2024-01-04,17:00 (16:00),La Liga,2023-2024,Osasuna,Almería,Home,Matchweek 19,1.3,1,0,14,2,14.3,0,0,0.2,0.0,1.0,4.0,0.0,19.0,0.0,0.0
-2024-01-07,16:00 (15:00),Copa del Rey,2023-2024,Osasuna,Castellón,Away,Round of 32,,1,0,33,11,,,0,,0.0,1.0,10.0,2.0,,,0.0
-2024-01-11,22:00 (19:00),Supercopa de España,2023-2024,Osasuna,Barcelona,Away,Semi-finals,,0,2,11,3,,,0,,2.0,0.0,20.0,7.0,,,0.0
-2024-01-17,21:00 (20:00),Copa del Rey,2023-2024,Osasuna,Real Sociedad,Home,Round of 16,,0,2,6,1,,,0,,2.0,0.0,15.0,6.0,,,1.0
-2024-01-21,14:00 (13:00),La Liga,2023-2024,Osasuna,Getafe,Home,Matchweek 21,1.2,3,2,13,7,21.4,0,0,1.4,2.0,3.0,10.0,7.0,16.0,0.0,0.0
-2024-01-28,18:30 (17:30),La Liga,2023-2024,Osasuna,Sevilla,Away,Matchweek 22,1.2,1,1,11,4,22.1,0,0,0.8,1.0,1.0,10.0,5.0,22.0,0.0,0.0
-2024-01-31,19:00 (18:00),La Liga,2023-2024,Osasuna,Barcelona,Away,Matchweek 20,1.0,0,1,9,1,13.0,0,0,1.9,1.0,0.0,16.0,4.0,15.1,1.0,0.0
-2024-02-04,16:15 (15:15),La Liga,2023-2024,Osasuna,Celta Vigo,Home,Matchweek 23,1.1,0,3,18,1,17.1,1,0,1.1,3.0,0.0,6.0,5.0,15.1,0.0,0.0
-2024-02-10,16:15 (15:15),La Liga,2023-2024,Osasuna,Real Sociedad,Away,Matchweek 24,0.5,1,0,9,2,25.9,2,0,1.5,0.0,1.0,21.0,3.0,15.2,1.0,0.0
-2024-02-17,16:15 (15:15),La Liga,2023-2024,Osasuna,Cádiz,Home,Matchweek 25,2.0,2,0,11,4,16.1,1,0,0.5,0.0,2.0,5.0,1.0,15.9,0.0,0.0
-2024-02-25,17:30,La Liga,2023-2024,Osasuna,Las Palmas,Away,Matchweek 26,0.7,1,1,6,2,11.7,0,0,0.7,1.0,1.0,9.0,3.0,16.6,1.0,0.0
-2024-03-04,21:00 (20:00),La Liga,2023-2024,Osasuna,Alavés,Home,Matchweek 27,1.0,1,0,15,4,16.9,0,0,1.0,0.0,1.0,10.0,4.0,14.5,0.0,0.0
-2024-03-09,21:00 (20:00),La Liga,2023-2024,Osasuna,Girona,Away,Matchweek 28,0.2,0,2,7,1,20.1,0,0,1.9,2.0,0.0,11.0,6.0,14.1,0.0,0.0
-2024-03-16,16:15 (15:15),La Liga,2023-2024,Osasuna,Real Madrid,Home,Matchweek 29,0.7,2,4,10,4,18.7,0,0,2.9,4.0,2.0,17.0,9.0,18.6,0.0,0.0
-2024-03-30,16:15 (15:15),La Liga,2023-2024,Osasuna,Almería,Away,Matchweek 30,1.0,3,0,6,4,16.4,0,0,0.8,0.0,3.0,12.0,5.0,19.8,1.0,0.0
-Date,Time,Comp,2023-2024,Osasuna,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
-2024-04-15,21:00 (19:00),La Liga,2023-2024,Osasuna,Valencia,Home,Matchweek 31,1.9,0,1,12,1,18.0,0,0,0.2,1.0,0.0,4.0,3.0,17.9,0.0,0.0
-2024-04-20,16:15 (14:15),La Liga,2023-2024,Osasuna,Rayo Vallecano,Away,Matchweek 32,0.5,1,2,6,2,20.8,0,0,0.5,2.0,1.0,17.0,6.0,22.9,2.0,0.0
-2024-04-28,16:15 (14:15),La Liga,2023-2024,Osasuna,Granada,Away,Matchweek 33,0.8,0,3,11,2,21.1,3,0,2.6,3.0,0.0,12.0,4.0,14.8,0.0,0.0
-2024-05-05,14:00 (12:00),La Liga,2023-2024,Osasuna,Betis,Home,Matchweek 34,0.8,0,2,12,2,16.3,0,0,1.1,2.0,0.0,10.0,4.0,16.5,0.0,0.0
-2024-05-11,21:00 (19:00),La Liga,2023-2024,Osasuna,Athletic Club,Away,Matchweek 35,1.0,2,2,13,3,23.1,0,0,1.4,2.0,2.0,15.0,6.0,14.9,0.0,0.0
-2024-05-14,19:30 (17:30),La Liga,2023-2024,Osasuna,Mallorca,Home,Matchweek 36,0.4,1,1,10,4,22.1,0,0,1.0,1.0,1.0,10.0,4.0,14.6,0.0,0.0
-2024-05-19,19:00 (17:00),La Liga,2023-2024,Osasuna,Atlético Madrid,Away,Matchweek 37,1.8,4,1,15,6,13.5,0,0,1.6,1.0,4.0,14.0,2.0,15.7,0.0,0.0
-2024-05-25,14:00 (12:00),La Liga,2023-2024,Osasuna,Villarreal,Home,Matchweek 38,0.9,1,1,12,6,14.9,0,0,1.6,1.0,1.0,11.0,3.0,17.3,0.0,0.0
-2023-08-13,21:30 (19:30),La Liga,2023-2024,Getafe,Barcelona,Home,Matchweek 1,0.6,0,0,5,2,15.6,0,0,1.4,0.0,0.0,14.0,3.0,19.9,1.0,0.0
-2023-08-20,19:00 (17:00),La Liga,2023-2024,Getafe,Girona,Away,Matchweek 2,0.7,0,3,9,2,17.9,1,0,1.4,3.0,0.0,7.0,6.0,16.1,1.0,0.0
-2023-08-28,19:30 (17:30),La Liga,2023-2024,Getafe,Alavés,Home,Matchweek 3,2.2,1,0,14,3,13.4,0,1,0.7,0.0,1.0,16.0,1.0,18.9,0.0,0.0
-2023-09-02,16:15 (14:15),La Liga,2023-2024,Getafe,Real Madrid,Away,Matchweek 4,0.4,1,2,6,2,19.9,0,0,2.8,2.0,1.0,26.0,12.0,17.7,0.0,0.0
-2023-09-17,14:00 (12:00),La Liga,2023-2024,Getafe,Osasuna,Home,Matchweek 5,0.5,3,2,11,6,13.5,0,0,1.1,2.0,3.0,7.0,2.0,23.3,1.0,1.0
-2023-09-24,14:00 (12:00),La Liga,2023-2024,Getafe,Real Sociedad,Away,Matchweek 6,1.4,3,4,9,6,18.2,0,1,2.0,4.0,3.0,9.0,5.0,19.2,1.0,1.0
-2023-09-27,19:00 (17:00),La Liga,2023-2024,Getafe,Athletic Club,Away,Matchweek 7,1.4,2,2,13,5,16.9,0,0,0.7,2.0,2.0,8.0,4.0,18.2,0.0,0.0
-2023-09-30,14:00 (12:00),La Liga,2023-2024,Getafe,Villarreal,Home,Matchweek 8,0.9,0,0,22,9,19.5,0,0,0.1,0.0,0.0,3.0,0.0,13.9,0.0,0.0
-2023-10-08,18:30 (16:30),La Liga,2023-2024,Getafe,Celta Vigo,Away,Matchweek 9,0.7,2,2,3,2,9.1,0,0,3.1,2.0,2.0,25.0,10.0,19.0,0.0,0.0
-2023-10-21,16:15 (14:15),La Liga,2023-2024,Getafe,Betis,Home,Matchweek 10,1.5,1,1,13,3,15.9,0,0,1.1,1.0,1.0,13.0,3.0,16.1,0.0,0.0
-2023-10-28,18:30 (16:30),La Liga,2023-2024,Getafe,Mallorca,Away,Matchweek 11,0.2,0,0,8,0,23.1,0,0,0.9,0.0,0.0,15.0,4.0,17.4,0.0,0.0
-2023-11-01,18:30 (17:30),Copa del Rey,2023-2024,Getafe,Tardienta,Away,First round,,12,0,35,25,,,0,,0.0,12.0,3.0,2.0,,,0.0
-2023-11-06,21:00 (20:00),La Liga,2023-2024,Getafe,Cádiz,Home,Matchweek 12,1.2,1,0,13,3,21.2,0,0,0.5,0.0,1.0,6.0,2.0,17.4,0.0,0.0
-2023-11-11,18:30 (17:30),La Liga,2023-2024,Getafe,Granada,Away,Matchweek 13,2.3,1,1,10,6,15.0,0,0,1.7,1.0,1.0,12.0,6.0,17.8,0.0,0.0
-2023-11-25,18:30 (17:30),La Liga,2023-2024,Getafe,Almería,Home,Matchweek 14,1.2,2,1,18,5,17.1,0,0,1.8,1.0,2.0,13.0,4.0,15.6,0.0,0.0
-2023-12-01,20:00,La Liga,2023-2024,Getafe,Las Palmas,Away,Matchweek 15,0.9,0,2,12,4,22.0,0,0,1.5,2.0,0.0,11.0,6.0,17.5,1.0,0.0
-2023-12-05,19:00 (18:00),Copa del Rey,2023-2024,Getafe,Atzeneta,Away,Second round,,2,1,9,4,,,0,,1.0,2.0,11.0,3.0,,,0.0
-2023-12-08,21:00 (20:00),La Liga,2023-2024,Getafe,Valencia,Home,Matchweek 16,0.7,1,0,8,6,17.7,0,0,0.1,0.0,1.0,3.0,0.0,22.4,1.0,0.0
-2023-12-16,18:30 (17:30),La Liga,2023-2024,Getafe,Sevilla,Away,Matchweek 17,2.4,3,0,12,5,21.7,1,2,1.0,0.0,3.0,12.0,4.0,17.5,0.0,0.0
-2023-12-19,21:30 (20:30),La Liga,2023-2024,Getafe,Atlético Madrid,Away,Matchweek 18,2.0,3,3,28,8,18.4,0,1,2.0,3.0,3.0,7.0,3.0,15.5,0.0,1.0
-2024-01-02,17:00 (16:00),La Liga,2023-2024,Getafe,Rayo Vallecano,Home,Matchweek 19,0.4,0,2,5,0,18.0,0,0,1.9,2.0,0.0,12.0,7.0,20.0,1.0,0.0
-2024-01-06,17:00 (16:00),Copa del Rey,2023-2024,Getafe,Espanyol,Away,Round of 32,,1,0,13,2,,,0,,0.0,1.0,9.0,4.0,,,0.0
-2024-01-16,20:00 (19:00),Copa del Rey,2023-2024,Getafe,Sevilla,Home,Round of 16,,1,3,16,3,,,0,,3.0,1.0,7.0,5.0,,,0.0
-2024-01-21,14:00 (13:00),La Liga,2023-2024,Getafe,Osasuna,Away,Matchweek 21,1.4,2,3,10,7,16.0,0,0,1.2,3.0,2.0,13.0,7.0,21.4,0.0,0.0
-2024-01-29,21:00 (20:00),La Liga,2023-2024,Getafe,Granada,Home,Matchweek 22,1.3,2,0,7,4,15.9,0,0,1.9,0.0,2.0,15.0,3.0,18.5,0.0,0.0
-2024-02-01,21:00 (20:00),La Liga,2023-2024,Getafe,Real Madrid,Home,Matchweek 20,0.8,0,2,10,2,21.1,0,0,2.0,2.0,0.0,16.0,9.0,16.7,0.0,0.0
-2024-02-04,18:30 (17:30),La Liga,2023-2024,Getafe,Betis,Away,Matchweek 23,1.5,1,1,10,1,17.0,0,1,1.6,1.0,1.0,8.0,1.0,19.6,1.0,1.0
-2024-02-11,14:00 (13:00),La Liga,2023-2024,Getafe,Celta Vigo,Home,Matchweek 24,2.1,3,2,11,4,15.8,1,0,1.2,2.0,3.0,9.0,4.0,14.9,1.0,0.0
-2024-02-16,21:00 (20:00),La Liga,2023-2024,Getafe,Villarreal,Away,Matchweek 25,0.8,1,1,11,1,19.9,1,0,1.2,1.0,1.0,20.0,7.0,18.2,1.0,0.0
-2024-02-24,16:15 (15:15),La Liga,2023-2024,Getafe,Barcelona,Away,Matchweek 26,0.5,0,4,10,4,23.3,0,0,3.1,4.0,0.0,17.0,9.0,13.6,0.0,0.0
-2024-03-02,18:30 (17:30),La Liga,2023-2024,Getafe,Las Palmas,Home,Matchweek 27,2.3,3,3,16,5,17.8,1,0,1.6,3.0,3.0,14.0,5.0,22.5,0.0,0.0
-2024-03-09,14:00 (13:00),La Liga,2023-2024,Getafe,Valencia,Away,Matchweek 28,1.3,0,1,15,5,17.6,0,0,0.8,1.0,0.0,10.0,3.0,17.5,0.0,0.0
-2024-03-16,18:30 (17:30),La Liga,2023-2024,Getafe,Girona,Home,Matchweek 29,1.2,1,0,11,3,19.9,1,0,1.8,0.0,1.0,13.0,3.0,13.1,0.0,0.0
-2024-03-30,14:00 (13:00),La Liga,2023-2024,Getafe,Sevilla,Home,Matchweek 30,1.6,0,1,18,5,19.5,1,0,0.8,1.0,0.0,10.0,3.0,22.9,0.0,0.0
-2024-04-13,16:15 (14:15),La Liga,2023-2024,Getafe,Rayo Vallecano,Away,Matchweek 31,0.3,0,0,7,0,24.2,1,0,1.0,0.0,0.0,12.0,2.0,22.0,2.0,0.0
-Date,Time,Comp,2023-2024,Getafe,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
-2024-04-21,14:00 (12:00),La Liga,2023-2024,Getafe,Real Sociedad,Home,Matchweek 32,0.5,1,1,6,2,18.5,1,0,1.2,1.0,1.0,7.0,3.0,14.7,0.0,0.0
-2024-04-27,16:15 (14:15),La Liga,2023-2024,Getafe,Almería,Away,Matchweek 33,1.7,3,1,8,5,17.9,1,0,2.4,1.0,3.0,21.0,10.0,16.6,2.0,0.0
-2024-05-03,21:00 (19:00),La Liga,2023-2024,Getafe,Athletic Club,Home,Matchweek 34,4.5,0,2,33,8,17.7,1,0,0.6,2.0,0.0,7.0,2.0,17.2,0.0,0.0
-2024-05-12,14:00 (12:00),La Liga,2023-2024,Getafe,Cádiz,Away,Matchweek 35,0.5,0,1,10,4,22.9,0,0,1.5,1.0,0.0,12.0,5.0,20.2,1.0,1.0
-2024-05-15,22:00 (20:00),La Liga,2023-2024,Getafe,Atlético Madrid,Home,Matchweek 36,0.6,0,3,8,3,20.8,1,0,1.3,3.0,0.0,7.0,3.0,12.4,0.0,0.0
-2024-05-18,21:00 (19:00),La Liga,2023-2024,Getafe,Alavés,Away,Matchweek 37,0.3,0,1,10,4,22.1,0,0,1.2,1.0,0.0,9.0,2.0,10.4,0.0,0.0
-2024-05-26,14:00 (12:00),La Liga,2023-2024,Getafe,Mallorca,Home,Matchweek 38,0.9,1,2,16,6,20.7,2,0,1.4,2.0,1.0,9.0,4.0,14.1,0.0,0.0
-2023-08-13,17:00 (15:00),La Liga,2023-2024,Celta Vigo,Osasuna,Home,Matchweek 1,1.0,0,2,11,0,15.5,0,0,1.0,2.0,0.0,11.0,5.0,15.7,1.0,0.0
-2023-08-19,17:00 (15:00),La Liga,2023-2024,Celta Vigo,Real Sociedad,Away,Matchweek 2,1.0,1,1,17,6,18.1,1,0,0.7,1.0,1.0,11.0,2.0,17.3,1.0,0.0
-2023-08-25,21:30 (19:30),La Liga,2023-2024,Celta Vigo,Real Madrid,Home,Matchweek 3,1.2,0,1,13,4,14.6,0,0,1.4,1.0,0.0,9.0,2.0,19.4,0.0,0.0
-2023-09-01,22:00 (20:00),La Liga,2023-2024,Celta Vigo,Almería,Away,Matchweek 4,1.5,3,2,14,7,14.4,0,0,3.0,2.0,3.0,16.0,5.0,15.9,0.0,0.0
-2023-09-16,18:30 (16:30),La Liga,2023-2024,Celta Vigo,Mallorca,Home,Matchweek 5,1.3,0,1,16,4,16.4,0,0,0.8,1.0,0.0,7.0,3.0,17.1,0.0,0.0
-2023-09-23,18:30 (16:30),La Liga,2023-2024,Celta Vigo,Barcelona,Away,Matchweek 6,1.5,2,3,13,7,15.2,0,0,1.6,3.0,2.0,15.0,6.0,20.8,0.0,0.0
-2023-09-28,19:00 (17:00),La Liga,2023-2024,Celta Vigo,Alavés,Home,Matchweek 7,0.6,1,1,8,0,24.8,2,0,2.6,1.0,1.0,21.0,9.0,14.9,1.0,0.0
-2023-10-02,20:00 (19:00),La Liga,2023-2024,Celta Vigo,Las Palmas,Away,Matchweek 8,1.5,1,2,11,3,19.0,1,0,1.7,2.0,1.0,15.0,4.0,22.2,0.0,1.0
-2023-10-08,18:30 (16:30),La Liga,2023-2024,Celta Vigo,Getafe,Home,Matchweek 9,3.1,2,2,25,10,19.0,0,0,0.7,2.0,2.0,3.0,2.0,9.1,0.0,0.0
-2023-10-21,21:00 (19:00),La Liga,2023-2024,Celta Vigo,Atlético Madrid,Home,Matchweek 10,0.9,0,3,16,3,17.7,0,0,1.8,3.0,0.0,11.0,6.0,17.4,0.0,1.0
-2023-10-27,21:00 (19:00),La Liga,2023-2024,Celta Vigo,Girona,Away,Matchweek 11,0.2,0,1,4,2,18.9,0,0,0.6,1.0,0.0,12.0,2.0,17.1,0.0,0.0
-2023-11-01,15:30 (14:30),Copa del Rey,2023-2024,Celta Vigo,Turégano,Away,First round,,4,0,19,7,,,0,,0.0,4.0,2.0,1.0,,,0.0
-2023-11-04,18:30 (17:30),La Liga,2023-2024,Celta Vigo,Sevilla,Home,Matchweek 12,2.1,1,1,15,3,12.6,1,0,0.9,1.0,1.0,13.0,5.0,15.8,0.0,0.0
-2023-11-10,21:00 (20:00),La Liga,2023-2024,Celta Vigo,Athletic Club,Away,Matchweek 13,2.1,3,4,12,4,21.2,0,0,4.6,4.0,3.0,20.0,11.0,13.2,0.0,1.0
-2023-11-25,16:15 (15:15),La Liga,2023-2024,Celta Vigo,Valencia,Away,Matchweek 14,0.8,0,0,13,1,21.9,1,0,0.5,0.0,0.0,8.0,0.0,15.7,1.0,0.0
-2023-12-04,21:00 (20:00),La Liga,2023-2024,Celta Vigo,Cádiz,Home,Matchweek 15,2.4,1,1,26,7,17.9,2,0,0.3,1.0,1.0,2.0,1.0,17.7,0.0,0.0
-2023-12-07,21:00 (20:00),Copa del Rey,2023-2024,Celta Vigo,Sestao,Away,Second round,,2,1,6,3,,,1,,1.0,2.0,8.0,2.0,,,0.0
-2023-12-11,21:00 (20:00),La Liga,2023-2024,Celta Vigo,Rayo Vallecano,Away,Matchweek 16,0.1,0,0,4,2,22.3,0,0,1.2,0.0,0.0,18.0,4.0,15.6,0.0,0.0
-2023-12-16,14:00 (13:00),La Liga,2023-2024,Celta Vigo,Granada,Home,Matchweek 17,1.4,1,0,11,4,17.2,0,0,0.5,0.0,1.0,7.0,2.0,14.2,0.0,0.0
-2023-12-20,21:30 (20:30),La Liga,2023-2024,Celta Vigo,Villarreal,Away,Matchweek 18,1.3,2,3,15,4,16.4,0,0,2.4,3.0,2.0,11.0,7.0,12.8,0.0,1.0
-2024-01-03,19:15 (18:15),La Liga,2023-2024,Celta Vigo,Betis,Home,Matchweek 19,2.7,2,1,18,5,23.4,2,1,1.4,1.0,2.0,14.0,3.0,13.0,0.0,0.0
-2024-01-07,12:00 (11:00),Copa del Rey,2023-2024,Celta Vigo,Amorebieta,Away,Round of 32,,4,2,15,4,,,0,,2.0,4.0,10.0,6.0,,,0.0
-2024-01-13,16:15 (15:15),La Liga,2023-2024,Celta Vigo,Mallorca,Away,Matchweek 20,0.6,1,1,6,2,17.4,1,0,1.8,1.0,1.0,17.0,6.0,15.3,0.0,0.0
-2024-01-17,11:00 (19:00),Copa del Rey,2023-2024,Celta Vigo,Valencia,Away,Round of 16,,3,1,15,6,,,1,,1.0,3.0,20.0,5.0,,,1.0
-2024-01-20,21:00 (20:00),La Liga,2023-2024,Celta Vigo,Real Sociedad,Home,Matchweek 21,0.3,0,1,6,2,21.8,1,0,0.8,1.0,0.0,6.0,2.0,21.0,1.0,0.0
-2024-01-23,21:30 (20:30),Copa del Rey,2023-2024,Celta Vigo,Real Sociedad,Home,Quarter-finals,,1,2,9,2,,,0,,2.0,1.0,10.0,3.0,,,0.0
-2024-01-28,14:00 (13:00),La Liga,2023-2024,Celta Vigo,Girona,Home,Matchweek 22,0.6,0,1,10,5,15.5,0,0,0.9,1.0,0.0,15.0,6.0,19.2,1.0,0.0
-2024-02-04,16:15 (15:15),La Liga,2023-2024,Celta Vigo,Osasuna,Away,Matchweek 23,1.1,3,0,6,5,15.1,0,0,1.1,0.0,3.0,18.0,1.0,17.1,1.0,0.0
-2024-02-11,14:00 (13:00),La Liga,2023-2024,Celta Vigo,Getafe,Away,Matchweek 24,1.2,2,3,9,4,14.9,1,0,2.1,3.0,2.0,11.0,4.0,15.8,1.0,0.0
-2024-02-17,18:30 (17:30),La Liga,2023-2024,Celta Vigo,Barcelona,Home,Matchweek 25,0.8,1,2,13,4,19.8,0,0,1.5,2.0,1.0,13.0,3.0,19.1,1.0,1.0
-2024-02-25,14:00 (13:00),La Liga,2023-2024,Celta Vigo,Cádiz,Away,Matchweek 26,0.7,2,2,7,3,14.8,0,0,2.2,2.0,2.0,19.0,6.0,18.2,2.0,0.0
-2024-03-01,21:00 (20:00),La Liga,2023-2024,Celta Vigo,Almería,Home,Matchweek 27,1.5,1,0,15,6,15.0,0,0,0.1,0.0,1.0,3.0,0.0,19.6,0.0,0.0
-2024-03-10,18:30 (17:30),La Liga,2023-2024,Celta Vigo,Real Madrid,Away,Matchweek 28,0.8,0,4,11,1,17.1,0,0,3.4,4.0,0.0,25.0,13.0,13.8,0.0,0.0
-2024-03-17,14:00 (13:00),La Liga,2023-2024,Celta Vigo,Sevilla,Away,Matchweek 29,1.6,2,1,18,5,19.3,0,0,1.7,1.0,2.0,11.0,4.0,15.6,0.0,0.0
-2024-03-31,14:00 (12:00),La Liga,2023-2024,Celta Vigo,Rayo Vallecano,Home,Matchweek 30,0.8,0,0,13,0,18.7,1,0,0.6,0.0,0.0,8.0,2.0,18.7,0.0,0.0
-Date,Time,Comp,2023-2024,Celta Vigo,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
-2024-04-12,21:00 (19:00),La Liga,2023-2024,Celta Vigo,Betis,Away,Matchweek 31,1.6,1,2,12,5,12.3,0,0,1.2,2.0,1.0,15.0,3.0,16.4,1.0,0.0
-2024-04-20,14:00 (12:00),La Liga,2023-2024,Celta Vigo,Las Palmas,Home,Matchweek 32,4.0,4,1,21,13,15.3,0,0,1.0,1.0,4.0,9.0,4.0,15.2,0.0,0.0
-2024-04-27,18:30 (16:30),La Liga,2023-2024,Celta Vigo,Alavés,Away,Matchweek 33,0.2,0,3,4,0,22.9,0,0,2.3,3.0,0.0,16.0,8.0,12.1,0.0,0.0
-2024-05-05,16:15 (14:15),La Liga,2023-2024,Celta Vigo,Villarreal,Home,Matchweek 34,3.9,3,2,22,6,16.8,0,1,0.6,2.0,3.0,11.0,3.0,19.6,0.0,0.0
-2024-05-12,16:15 (14:15),La Liga,2023-2024,Celta Vigo,Atlético Madrid,Away,Matchweek 35,0.4,0,1,6,2,20.6,0,0,1.4,1.0,0.0,21.0,8.0,18.5,0.0,0.0
-2024-05-15,22:00 (20:00),La Liga,2023-2024,Celta Vigo,Athletic Club,Home,Matchweek 36,0.7,2,1,10,4,16.3,0,0,0.2,1.0,2.0,7.0,2.0,20.8,1.0,0.0
-2024-05-19,19:00 (17:00),La Liga,2023-2024,Celta Vigo,Granada,Away,Matchweek 37,1.7,2,1,8,5,12.7,0,0,1.9,1.0,2.0,10.0,3.0,19.8,0.0,0.0
-2024-05-26,16:15 (14:15),La Liga,2023-2024,Celta Vigo,Valencia,Home,Matchweek 38,1.5,2,2,8,3,19.6,0,1,2.0,2.0,2.0,11.0,0.0,16.6,0.0,1.0
-2023-08-11,22:00 (20:00),La Liga,2023-2024,Sevilla,Valencia,Home,Matchweek 1,0.7,1,2,9,3,19.5,0,0,1.1,2,1,10.0,3.0,16.0,1.0,0.0
-2023-08-16,22:00 (19:00),Super Cup,2023-2024,Sevilla,eng Manchester City,Away,UEFA Super Cup,,1 (4),1 (5),8,4,,,0,,1 (5),1 (4),23.0,7.0,,,0.0
-2023-08-21,19:00 (17:00),La Liga,2023-2024,Sevilla,Alavés,Away,Matchweek 2,0.6,3,4,12,2,24.3,2,0,1.8,4,3,14.0,7.0,16.1,1.0,0.0
-2023-08-26,21:30 (19:30),La Liga,2023-2024,Sevilla,Girona,Home,Matchweek 3,1.7,1,2,21,4,17.8,3,0,1.7,2,1,8.0,3.0,17.6,0.0,0.0
-2023-09-17,18:30 (16:30),La Liga,2023-2024,Sevilla,Las Palmas,Home,Matchweek 5,1.7,1,0,26,9,18.0,1,0,1.0,0,1,14.0,2.0,22.0,0.0,0.0
-2023-09-20,21:00 (19:00),Champions Lg,2023-2024,Sevilla,fr Lens,Home,Group stage,0.8,1,1,10,5,13.1,0,0,1.3,1,1,12.0,3.0,14.4,1.0,0.0
-2023-09-23,16:15 (14:15),La Liga,2023-2024,Sevilla,Osasuna,Away,Matchweek 6,0.8,0,0,15,3,21.4,2,0,1.4,0,0,16.0,2.0,16.8,0.0,0.0
-2023-09-26,19:00 (17:00),La Liga,2023-2024,Sevilla,Almería,Home,Matchweek 7,2.2,5,1,18,9,13.2,0,0,1.8,1,5,9.0,0.0,15.2,0.0,1.0
-2023-09-29,21:00 (19:00),La Liga,2023-2024,Sevilla,Barcelona,Away,Matchweek 8,1.1,0,1,12,3,13.2,0,0,2.4,1,0,18.0,4.0,13.5,0.0,0.0
-2023-10-03,21:00 (19:00),Champions Lg,2023-2024,Sevilla,nl PSV Eindhoven,Away,Group stage,1.3,2,2,10,2,15.8,0,0,2.6,2,2,25.0,7.0,16.6,0.0,1.0
-2023-10-07,21:00 (19:00),La Liga,2023-2024,Sevilla,Rayo Vallecano,Home,Matchweek 9,1.0,2,2,22,6,19.5,1,0,1.0,2,2,7.0,4.0,20.7,1.0,0.0
-2023-10-21,18:30 (16:30),La Liga,2023-2024,Sevilla,Real Madrid,Home,Matchweek 10,1.5,1,1,17,6,18.3,0,0,1.6,1,1,14.0,4.0,15.7,1.0,0.0
-2023-10-24,21:00 (19:00),Champions Lg,2023-2024,Sevilla,eng Arsenal,Home,Group stage,0.8,1,2,11,2,17.7,0,0,1.9,2,1,14.0,4.0,16.4,0.0,0.0
-2023-10-28,21:00 (19:00),La Liga,2023-2024,Sevilla,Cádiz,Away,Matchweek 11,1.2,2,2,20,10,16.8,0,0,1.1,2,2,10.0,5.0,18.3,2.0,0.0
-2023-11-01,15:30 (14:30),Copa del Rey,2023-2024,Sevilla,Quintanar,Away,First round,,3,0,20,5,,,0,,0,3,10.0,3.0,,,0.0
-2023-11-04,18:30 (17:30),La Liga,2023-2024,Sevilla,Celta Vigo,Away,Matchweek 12,0.9,1,1,13,5,15.8,0,0,2.1,1,1,15.0,3.0,12.6,1.0,0.0
-2023-11-08,20:00,Champions Lg,2023-2024,Sevilla,eng Arsenal,Away,Group stage,0.0,0,2,1,1,22.0,0,0,1.5,2,0,11.0,3.0,16.3,1.0,0.0
-2023-11-12,18:30 (17:30),La Liga,2023-2024,Sevilla,Betis,Home,Matchweek 13,0.7,1,1,13,4,23.0,0,0,1.8,1,1,14.0,6.0,12.1,0.0,0.0
-2023-11-26,16:15 (15:15),La Liga,2023-2024,Sevilla,Real Sociedad,Away,Matchweek 14,0.6,1,2,8,2,13.4,0,0,0.7,2,1,11.0,8.0,19.9,2.0,0.0
-2023-11-29,18:45 (17:45),Champions Lg,2023-2024,Sevilla,nl PSV Eindhoven,Home,Group stage,1.8,2,3,11,4,15.6,0,0,2.2,3,2,16.0,7.0,17.6,1.0,0.0
-2023-12-03,18:30 (17:30),La Liga,2023-2024,Sevilla,Villarreal,Home,Matchweek 15,1.8,1,1,18,4,14.7,1,0,1.2,1,1,5.0,4.0,14.9,0.0,0.0
-2023-12-06,21:00 (20:00),Copa del Rey,2023-2024,Sevilla,Atlético Astorga,Away,Second round,,2,0,16,11,,,1,,0,2,7.0,2.0,,,0.0
-2023-12-09,21:00 (20:00),La Liga,2023-2024,Sevilla,Mallorca,Away,Matchweek 16,0.6,0,1,19,5,23.3,0,0,0.5,1,0,6.0,3.0,25.9,0.0,0.0
-2023-12-12,18:45 (17:45),Champions Lg,2023-2024,Sevilla,fr Lens,Away,Group stage,1.3,1,2,9,3,18.4,0,1,1.4,2,1,2.0,1.0,40.5,0.0,1.0
-2023-12-16,18:30 (17:30),La Liga,2023-2024,Sevilla,Getafe,Home,Matchweek 17,1.0,0,3,12,4,17.5,0,0,2.4,3,0,12.0,5.0,21.7,1.0,2.0
-2023-12-19,21:30 (20:30),La Liga,2023-2024,Sevilla,Granada,Away,Matchweek 18,0.5,3,0,12,5,22.3,0,0,0.9,0,3,12.0,3.0,13.9,0.0,0.0
-2023-12-23,16:15 (15:15),La Liga,2023-2024,Sevilla,Atlético Madrid,Away,Matchweek 4,0.3,0,1,8,2,22.8,1,0,0.9,1,0,12.0,4.0,16.9,0.0,0.0
-2024-01-04,19:15 (18:15),La Liga,2023-2024,Sevilla,Athletic Club,Home,Matchweek 19,0.7,0,2,11,2,15.0,1,0,1.3,2,0,15.0,5.0,14.2,0.0,0.0
-2024-01-07,16:00 (15:00),Copa del Rey,2023-2024,Sevilla,Racing Ferrol,Away,Round of 32,,2,1,16,5,,,0,,1,2,3.0,2.0,,,0.0
-2024-01-12,21:00 (20:00),La Liga,2023-2024,Sevilla,Alavés,Home,Matchweek 20,2.2,2,3,18,3,15.5,0,1,2.0,3,2,16.0,8.0,14.8,0.0,0.0
-2024-01-16,20:00 (19:00),Copa del Rey,2023-2024,Sevilla,Getafe,Away,Round of 16,,3,1,7,5,,,0,,1,3,16.0,3.0,,,0.0
-2024-01-21,21:00 (20:00),La Liga,2023-2024,Sevilla,Girona,Away,Matchweek 21,0.7,1,5,9,3,18.0,0,0,2.3,5,1,12.0,8.0,12.7,0.0,0.0
-2024-01-25,21:00 (20:00),Copa del Rey,2023-2024,Sevilla,Atlético Madrid,Away,Quarter-finals,,0,1,6,1,,,0,,1,0,11.0,5.0,,,0.0
-2024-01-28,18:30 (17:30),La Liga,2023-2024,Sevilla,Osasuna,Home,Matchweek 22,0.8,1,1,10,5,22.0,0,0,1.2,1,1,11.0,4.0,22.1,0.0,0.0
-2024-02-05,21:00 (20:00),La Liga,2023-2024,Sevilla,Rayo Vallecano,Away,Matchweek 23,1.3,2,1,10,6,24.4,0,0,1.8,1,2,22.0,5.0,20.2,1.0,0.0
-Date,Time,Comp,2023-2024,Sevilla,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
-2024-02-11,18:30 (17:30),La Liga,2023-2024,Sevilla,Atlético Madrid,Home,Matchweek 24,1.0,1,0,10,6,16.0,0,0,1.5,0,1,16.0,4.0,18.6,0.0,0.0
-2024-02-17,21:00 (20:00),La Liga,2023-2024,Sevilla,Valencia,Away,Matchweek 25,0.0,0,0,1,1,9.8,0,0,1.0,0,0,14.0,4.0,18.7,0.0,0.0
-2024-02-25,21:00 (20:00),La Liga,2023-2024,Sevilla,Real Madrid,Away,Matchweek 26,0.8,0,1,4,1,8.5,0,0,1.0,1,0,16.0,6.0,20.0,1.0,0.0
-2024-03-02,14:00 (13:00),La Liga,2023-2024,Sevilla,Real Sociedad,Home,Matchweek 27,2.0,3,2,12,5,14.3,1,0,1.5,2,3,12.0,3.0,21.9,2.0,1.0
-2024-03-11,21:00 (20:00),La Liga,2023-2024,Sevilla,Almería,Away,Matchweek 28,2.4,2,2,19,6,13.1,0,0,2.0,2,2,14.0,4.0,20.0,0.0,0.0
-2024-03-17,14:00 (13:00),La Liga,2023-2024,Sevilla,Celta Vigo,Home,Matchweek 29,1.7,1,2,11,4,15.6,0,0,1.6,2,1,18.0,5.0,19.3,0.0,0.0
-2024-03-30,14:00 (13:00),La Liga,2023-2024,Sevilla,Getafe,Away,Matchweek 30,0.8,1,0,10,3,22.9,0,0,1.6,0,1,18.0,5.0,19.5,1.0,0.0
-2024-04-14,13:00 (12:00),La Liga,2023-2024,Sevilla,Las Palmas,Away,Matchweek 31,2.1,2,0,10,3,13.2,0,0,0.1,0,2,5.0,2.0,30.6,1.0,0.0
-2024-04-22,21:00 (19:00),La Liga,2023-2024,Sevilla,Mallorca,Home,Matchweek 32,1.1,2,1,11,4,19.0,1,0,0.7,1,2,8.0,5.0,12.5,0.0,0.0
-2024-04-28,21:00 (19:00),La Liga,2023-2024,Sevilla,Betis,Away,Matchweek 33,1.4,1,1,10,1,17.5,0,0,1.8,1,1,14.0,3.0,17.1,0.0,1.0
-2024-05-05,21:00 (19:00),La Liga,2023-2024,Sevilla,Granada,Home,Matchweek 34,1.7,3,0,11,5,11.6,0,0,0.4,0,3,8.0,3.0,26.3,0.0,0.0
-2024-05-11,16:15 (14:15),La Liga,2023-2024,Sevilla,Villarreal,Away,Matchweek 35,1.7,2,3,7,3,13.6,0,1,3.1,3,2,25.0,7.0,15.7,0.0,0.0
-2024-05-15,19:30 (17:30),La Liga,2023-2024,Sevilla,Cádiz,Home,Matchweek 36,1.3,0,1,14,3,19.3,0,0,2.5,1,0,19.0,7.0,19.9,0.0,0.0
-2024-05-19,19:00 (17:00),La Liga,2023-2024,Sevilla,Athletic Club,Away,Matchweek 37,0.9,0,2,9,4,16.3,0,0,1.6,2,0,15.0,6.0,15.7,0.0,0.0
-2024-05-26,21:00 (19:00),La Liga,2023-2024,Sevilla,Barcelona,Home,Matchweek 38,1.5,1,2,15,6,13.6,1,0,1.3,2,1,11.0,6.0,13.7,0.0,0.0
-2023-08-12,18:30 (17:30),La Liga,2023-2024,Mallorca,Las Palmas,Away,Matchweek 1,1.6,1,1,10,2,19.6,0,0,0.9,1,1,4.0,1.0,29.7,0.0,1.0
-2023-08-18,19:30 (17:30),La Liga,2023-2024,Mallorca,Villarreal,Home,Matchweek 2,0.4,0,1,8,1,17.4,0,0,1.8,1,0,15.0,3.0,15.3,0.0,0.0
-2023-08-26,19:30 (17:30),La Liga,2023-2024,Mallorca,Granada,Away,Matchweek 3,2.6,2,3,9,5,12.4,0,0,1.4,3,2,9.0,3.0,21.3,1.0,1.0
-2023-09-03,16:15 (14:15),La Liga,2023-2024,Mallorca,Athletic Club,Home,Matchweek 4,0.4,0,0,8,1,17.9,0,0,0.6,0,0,11.0,3.0,16.6,0.0,0.0
-2023-09-16,18:30 (16:30),La Liga,2023-2024,Mallorca,Celta Vigo,Away,Matchweek 5,0.8,1,0,7,3,17.1,0,0,1.3,0,1,16.0,4.0,16.4,0.0,0.0
-2023-09-23,14:00 (12:00),La Liga,2023-2024,Mallorca,Girona,Away,Matchweek 6,1.8,3,5,14,4,17.8,0,1,3.2,5,3,22.0,8.0,16.6,0.0,1.0
-2023-09-26,21:30 (19:30),La Liga,2023-2024,Mallorca,Barcelona,Home,Matchweek 7,0.8,2,2,10,5,16.4,0,0,1.9,2,2,10.0,4.0,15.5,0.0,0.0
-2023-09-30,16:15 (14:15),La Liga,2023-2024,Mallorca,Rayo Vallecano,Away,Matchweek 8,1.5,2,2,9,4,16.3,0,0,2.3,2,2,18.0,4.0,22.0,3.0,1.0
-2023-10-07,18:30 (16:30),La Liga,2023-2024,Mallorca,Valencia,Home,Matchweek 9,0.6,1,1,9,5,15.7,0,0,0.5,1,1,11.0,3.0,24.6,2.0,0.0
-2023-10-21,14:00 (12:00),La Liga,2023-2024,Mallorca,Real Sociedad,Away,Matchweek 10,1.9,0,1,18,6,13.9,1,0,1.3,1,0,14.0,6.0,16.5,1.0,0.0
-2023-10-28,18:30 (16:30),La Liga,2023-2024,Mallorca,Getafe,Home,Matchweek 11,0.9,0,0,15,4,17.4,0,0,0.2,0,0,8.0,0.0,23.1,0.0,0.0
-2023-11-01,18:30 (17:30),Copa del Rey,2023-2024,Mallorca,Boiro,Away,First round,,4,0,23,12,,,2,,0,4,7.0,2.0,,,0.0
-2023-11-04,16:15 (15:15),La Liga,2023-2024,Mallorca,Betis,Away,Matchweek 12,0.6,0,2,8,1,22.6,0,0,2.2,2,0,22.0,3.0,18.8,1.0,0.0
-2023-11-25,21:00 (20:00),La Liga,2023-2024,Mallorca,Atlético Madrid,Away,Matchweek 14,1.1,0,1,8,1,16.0,0,0,1.7,1,0,20.0,3.0,17.6,0.0,0.0
-2023-11-29,21:00 (20:00),La Liga,2023-2024,Mallorca,Cádiz,Home,Matchweek 13,1.1,1,1,16,3,21.0,1,0,0.3,1,1,6.0,3.0,31.9,2.0,0.0
-2023-12-03,14:00 (13:00),La Liga,2023-2024,Mallorca,Alavés,Home,Matchweek 15,0.8,0,0,7,3,18.6,0,0,0.3,0,0,7.0,4.0,23.6,1.0,0.0
-2023-12-06,19:00 (18:00),Copa del Rey,2023-2024,Mallorca,Valle Egüés,Away,Second round,,3,0,20,9,,,0,,0,3,7.0,3.0,,,0.0
-2023-12-09,21:00 (20:00),La Liga,2023-2024,Mallorca,Sevilla,Home,Matchweek 16,0.5,1,0,6,3,25.9,0,0,0.6,0,1,19.0,5.0,23.3,0.0,0.0
-2023-12-17,14:00 (13:00),La Liga,2023-2024,Mallorca,Almería,Away,Matchweek 17,1.9,0,0,20,2,15.5,0,0,0.3,0,0,7.0,1.0,24.4,2.0,0.0
-2023-12-21,21:30 (20:30),La Liga,2023-2024,Mallorca,Osasuna,Home,Matchweek 18,1.1,3,2,15,8,16.4,0,0,1.6,2,3,12.0,7.0,19.9,1.0,0.0
-2024-01-03,19:15 (18:15),La Liga,2023-2024,Mallorca,Real Madrid,Away,Matchweek 19,0.6,0,1,7,0,14.0,0,0,1.7,1,0,17.0,5.0,18.8,3.0,0.0
-2024-01-07,12:00 (11:00),Copa del Rey,2023-2024,Mallorca,Burgos,Away,Round of 32,,3,0,10,5,,,0,,0,3,12.0,5.0,,,0.0
-2024-01-13,16:15 (15:15),La Liga,2023-2024,Mallorca,Celta Vigo,Home,Matchweek 20,1.8,1,1,17,6,15.3,0,0,0.6,1,1,6.0,2.0,17.4,1.0,0.0
-2024-01-16,21:00,Copa del Rey,2023-2024,Mallorca,Tenerife,Away,Round of 16,,1,0,11,5,,,0,,0,1,13.0,2.0,,,0.0
-2024-01-20,16:15 (15:15),La Liga,2023-2024,Mallorca,Villarreal,Away,Matchweek 21,0.4,1,1,8,2,16.6,1,0,1.9,1,1,18.0,5.0,19.2,2.0,0.0
-2024-01-24,19:30 (18:30),Copa del Rey,2023-2024,Mallorca,Girona,Home,Quarter-finals,,3,2,14,6,,,1,,2,3,19.0,5.0,,,1.0
-2024-01-27,21:00 (20:00),La Liga,2023-2024,Mallorca,Betis,Home,Matchweek 22,1.5,0,1,14,1,16.4,0,0,0.4,1,0,8.0,2.0,19.3,0.0,0.0
-2024-02-02,21:00 (20:00),La Liga,2023-2024,Mallorca,Athletic Club,Away,Matchweek 23,0.4,0,4,6,2,19.0,0,0,1.7,4,0,13.0,6.0,15.7,0.0,0.0
-2024-02-06,21:00 (20:00),Copa del Rey,2023-2024,Mallorca,Real Sociedad,Home,Semi-finals,,0,0,5,0,,,0,,0,0,12.0,3.0,,,0.0
-2024-02-11,16:15 (15:15),La Liga,2023-2024,Mallorca,Rayo Vallecano,Home,Matchweek 24,0.9,2,1,8,5,14.5,0,0,1.6,1,2,11.0,4.0,22.7,2.0,0.0
-2024-02-18,18:30 (17:30),La Liga,2023-2024,Mallorca,Real Sociedad,Home,Matchweek 25,0.1,1,2,4,1,19.9,0,0,1.1,2,1,19.0,5.0,17.7,0.0,0.0
-2024-02-24,18:30 (17:30),La Liga,2023-2024,Mallorca,Alavés,Away,Matchweek 26,2.2,1,1,15,7,14.9,0,0,0.5,1,1,9.0,1.0,17.1,1.0,0.0
-2024-02-27,21:30 (20:30),Copa del Rey,2023-2024,Mallorca,Real Sociedad,Away,Semi-finals,,1 (5),1 (4),6,1,,,0,,1 (4),1 (5),26.0,9.0,,,0.0
-2024-03-03,18:30 (17:30),La Liga,2023-2024,Mallorca,Girona,Home,Matchweek 27,1.2,1,0,16,1,17.7,0,0,1.0,0,1,15.0,4.0,16.0,1.0,0.0
-2024-03-08,21:00 (20:00),La Liga,2023-2024,Mallorca,Barcelona,Away,Matchweek 28,0.6,0,1,9,3,14.2,0,0,2.0,1,0,19.0,5.0,21.4,0.0,0.0
-Date,Time,Comp,2023-2024,Mallorca,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
-2024-03-16,14:00 (13:00),La Liga,2023-2024,Mallorca,Granada,Home,Matchweek 29,1.6,1,0,18,8,16.0,0,0,0.4,0,1,8.0,3.0,20.9,0.0,0.0
-2024-03-30,18:30 (17:30),La Liga,2023-2024,Mallorca,Valencia,Away,Matchweek 30,0.9,0,0,11,3,15.7,0,0,1.5,0,0,14.0,4.0,16.6,1.0,0.0
-2024-04-06,22:00 (20:00),Copa del Rey,2023-2024,Mallorca,Athletic Club,Away,Final,,1 (2),1 (4),13,5,,,0,,1 (4),1 (2),30.0,7.0,,,0.0
-2024-04-13,18:30 (16:30),La Liga,2023-2024,Mallorca,Real Madrid,Home,Matchweek 31,0.6,0,1,6,2,15.1,0,0,1.5,1,0,16.0,8.0,20.3,1.0,0.0
-2024-04-22,21:00 (19:00),La Liga,2023-2024,Mallorca,Sevilla,Away,Matchweek 32,0.7,1,2,8,5,12.5,0,0,1.1,2,1,11.0,4.0,19.0,1.0,0.0
-2024-04-28,14:00 (12:00),La Liga,2023-2024,Mallorca,Cádiz,Away,Matchweek 33,0.9,1,1,9,2,23.4,1,0,0.4,1,1,10.0,2.0,22.2,0.0,0.0
-2024-05-04,21:00 (19:00),La Liga,2023-2024,Mallorca,Atlético Madrid,Home,Matchweek 34,0.2,0,1,7,4,17.8,0,0,0.7,1,0,9.0,4.0,20.5,0.0,0.0
-2024-05-11,14:00 (12:00),La Liga,2023-2024,Mallorca,Las Palmas,Home,Matchweek 35,0.3,1,0,7,2,17.3,0,0,0.4,0,1,7.0,1.0,23.5,1.0,0.0
-2024-05-14,19:30 (17:30),La Liga,2023-2024,Mallorca,Osasuna,Away,Matchweek 36,1.0,1,1,10,4,14.6,0,0,0.4,1,1,10.0,4.0,22.1,0.0,0.0
-2024-05-19,19:00 (17:00),La Liga,2023-2024,Mallorca,Almería,Home,Matchweek 37,3.0,2,2,29,8,17.7,0,0,0.4,2,2,7.0,3.0,23.7,0.0,0.0
-2024-05-26,14:00 (12:00),La Liga,2023-2024,Mallorca,Getafe,Away,Matchweek 38,1.4,2,1,9,4,14.1,0,0,0.9,1,2,16.0,6.0,20.7,2.0,0.0
-2023-08-12,18:30 (17:30),La Liga,2023-2024,Las Palmas,Mallorca,Home,Matchweek 1,0.9,1,1,4,1,29.7,0,1,1.6,1.0,1.0,10.0,2.0,19.6,0.0,0.0
-2023-08-18,21:30 (19:30),La Liga,2023-2024,Las Palmas,Valencia,Away,Matchweek 2,0.5,0,1,7,1,23.6,1,0,1.5,1.0,0.0,8.0,3.0,17.3,0.0,1.0
-2023-08-25,18:30 (17:30),La Liga,2023-2024,Las Palmas,Real Sociedad,Home,Matchweek 3,0.9,0,0,11,5,18.6,0,0,1.0,0.0,0.0,8.0,1.0,13.0,0.0,0.0
-2023-09-03,14:00 (12:00),La Liga,2023-2024,Las Palmas,Girona,Away,Matchweek 4,1.1,0,1,10,5,20.6,1,0,1.0,1.0,0.0,11.0,6.0,16.2,0.0,0.0
-2023-09-17,18:30 (16:30),La Liga,2023-2024,Las Palmas,Sevilla,Away,Matchweek 5,1.0,0,1,14,2,22.0,0,0,1.7,1.0,0.0,26.0,9.0,18.0,1.0,0.0
-2023-09-24,17:30 (16:30),La Liga,2023-2024,Las Palmas,Granada,Home,Matchweek 6,0.6,1,0,10,3,20.7,1,0,0.0,0.0,1.0,2.0,1.0,33.7,1.0,0.0
-2023-09-27,19:00 (17:00),La Liga,2023-2024,Las Palmas,Real Madrid,Away,Matchweek 7,0.7,0,2,16,2,21.5,1,0,1.7,2.0,0.0,21.0,9.0,16.4,0.0,0.0
-2023-10-02,20:00 (19:00),La Liga,2023-2024,Las Palmas,Celta Vigo,Home,Matchweek 8,1.7,2,1,15,4,22.2,0,1,1.5,1.0,2.0,11.0,3.0,19.0,1.0,0.0
-2023-10-08,14:00 (12:00),La Liga,2023-2024,Las Palmas,Villarreal,Away,Matchweek 9,1.1,2,1,7,4,22.3,1,1,1.0,1.0,2.0,9.0,4.0,13.2,0.0,0.0
-2023-10-22,13:00 (12:00),La Liga,2023-2024,Las Palmas,Rayo Vallecano,Home,Matchweek 10,1.3,0,1,11,5,19.9,0,0,1.4,1.0,0.0,11.0,3.0,25.5,2.0,1.0
-2023-10-28,14:00 (12:00),La Liga,2023-2024,Las Palmas,Almería,Away,Matchweek 11,0.9,2,1,10,3,20.1,0,0,0.3,1.0,2.0,10.0,4.0,23.3,0.0,0.0
-2023-10-31,21:00 (20:00),Copa del Rey,2023-2024,Las Palmas,Manacor,Away,First round,,3,0,12,5,,,0,,0.0,3.0,8.0,3.0,,,0.0
-2023-11-03,20:00,La Liga,2023-2024,Las Palmas,Atlético Madrid,Home,Matchweek 12,0.4,2,1,9,3,19.5,0,0,1.2,1.0,2.0,13.0,5.0,16.2,0.0,0.0
-2023-11-11,18:30 (17:30),La Liga,2023-2024,Las Palmas,Osasuna,Away,Matchweek 13,0.4,1,1,6,1,18.7,1,0,1.0,1.0,1.0,11.0,3.0,12.3,0.0,0.0
-2023-11-26,21:00 (20:00),La Liga,2023-2024,Las Palmas,Betis,Away,Matchweek 14,0.6,0,1,15,4,23.4,0,0,1.4,1.0,0.0,12.0,6.0,17.1,0.0,0.0
-2023-12-01,20:00,La Liga,2023-2024,Las Palmas,Getafe,Home,Matchweek 15,1.5,2,0,11,6,17.5,1,0,0.9,0.0,2.0,12.0,4.0,22.0,0.0,0.0
-2023-12-06,21:00 (20:00),Copa del Rey,2023-2024,Las Palmas,Tudelano,Away,Second round,,2,1,28,7,,,0,,1.0,2.0,13.0,5.0,,,1.0
-2023-12-09,14:00 (13:00),La Liga,2023-2024,Las Palmas,Alavés,Away,Matchweek 16,0.4,1,0,9,2,20.1,1,0,1.9,0.0,1.0,19.0,3.0,16.9,1.0,0.0
-2023-12-17,17:30,La Liga,2023-2024,Las Palmas,Cádiz,Home,Matchweek 17,0.7,1,1,7,2,23.1,3,0,1.6,1.0,1.0,13.0,5.0,16.0,0.0,0.0
-2023-12-20,21:30 (20:30),La Liga,2023-2024,Las Palmas,Athletic Club,Away,Matchweek 18,0.3,0,1,5,1,17.5,0,0,3.4,1.0,0.0,18.0,8.0,13.4,0.0,0.0
-2024-01-04,20:30,La Liga,2023-2024,Las Palmas,Barcelona,Home,Matchweek 19,0.7,1,2,12,3,19.6,0,0,2.4,2.0,1.0,14.0,4.0,17.2,0.0,1.0
-2024-01-07,21:00,Copa del Rey,2023-2024,Las Palmas,Tenerife,Away,Round of 32,,0,2,10,1,,,0,,2.0,0.0,12.0,5.0,,,0.0
-2024-01-13,13:00,La Liga,2023-2024,Las Palmas,Villarreal,Home,Matchweek 20,0.8,3,0,8,3,18.8,0,0,2.0,0.0,3.0,17.0,3.0,15.7,2.0,0.0
-2024-01-20,14:00 (13:00),La Liga,2023-2024,Las Palmas,Rayo Vallecano,Away,Matchweek 21,0.7,2,0,10,5,21.0,0,0,1.6,0.0,2.0,16.0,3.0,17.2,1.0,0.0
-2024-01-27,15:15,La Liga,2023-2024,Las Palmas,Real Madrid,Home,Matchweek 22,0.7,1,2,7,2,16.6,0,0,2.3,2.0,1.0,13.0,5.0,13.2,1.0,0.0
-2024-02-03,16:15 (15:15),La Liga,2023-2024,Las Palmas,Granada,Away,Matchweek 23,1.0,1,1,16,6,18.7,2,0,0.1,1.0,1.0,3.0,1.0,14.5,0.0,0.0
-2024-02-10,20:00,La Liga,2023-2024,Las Palmas,Valencia,Home,Matchweek 24,1.3,2,0,8,3,14.5,0,0,0.5,0.0,2.0,7.0,1.0,34.4,0.0,0.0
-2024-02-17,14:00 (13:00),La Liga,2023-2024,Las Palmas,Atlético Madrid,Away,Matchweek 25,0.7,0,5,11,2,22.5,0,0,3.5,5.0,0.0,12.0,6.0,18.8,1.0,1.0
-2024-02-25,17:30,La Liga,2023-2024,Las Palmas,Osasuna,Home,Matchweek 26,0.7,1,1,9,3,16.6,1,0,0.7,1.0,1.0,6.0,2.0,11.7,0.0,0.0
-2024-03-02,18:30 (17:30),La Liga,2023-2024,Las Palmas,Getafe,Away,Matchweek 27,1.6,3,3,14,5,22.5,0,0,2.3,3.0,3.0,16.0,5.0,17.8,1.0,0.0
-2024-03-10,15:15,La Liga,2023-2024,Las Palmas,Athletic Club,Home,Matchweek 28,1.2,0,2,14,2,19.8,1,0,1.1,2.0,0.0,7.0,2.0,15.2,0.0,0.0
-2024-03-17,15:15,La Liga,2023-2024,Las Palmas,Almería,Home,Matchweek 29,0.9,0,1,21,6,21.2,0,0,0.8,1.0,0.0,3.0,2.0,13.6,0.0,0.0
-2024-03-30,21:00 (20:00),La Liga,2023-2024,Las Palmas,Barcelona,Away,Matchweek 30,0.3,0,1,8,0,20.4,1,0,1.7,1.0,0.0,14.0,2.0,19.8,1.0,0.0
-2024-04-14,13:00 (12:00),La Liga,2023-2024,Las Palmas,Sevilla,Home,Matchweek 31,0.1,0,2,5,2,30.6,1,0,2.1,2.0,0.0,10.0,3.0,13.2,0.0,0.0
-2024-04-20,14:00 (12:00),La Liga,2023-2024,Las Palmas,Celta Vigo,Away,Matchweek 32,1.0,1,4,9,4,15.2,0,0,4.0,4.0,1.0,21.0,13.0,15.3,0.0,0.0
-Date,Time,Comp,2023-2024,Las Palmas,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
-2024-04-27,13:00 (12:00),La Liga,2023-2024,Las Palmas,Girona,Home,Matchweek 33,1.6,0,2,9,4,17.7,0,0,1.9,2.0,0.0,4.0,1.0,19.4,0.0,1.0
-2024-05-04,14:00 (12:00),La Liga,2023-2024,Las Palmas,Real Sociedad,Away,Matchweek 34,0.5,0,2,7,1,19.9,1,0,0.6,2.0,0.0,9.0,4.0,17.8,0.0,0.0
-2024-05-11,14:00 (12:00),La Liga,2023-2024,Las Palmas,Mallorca,Away,Matchweek 35,0.4,0,1,7,1,23.5,1,0,0.3,1.0,0.0,7.0,2.0,17.3,0.0,0.0
-2024-05-16,18:30 (17:30),La Liga,2023-2024,Las Palmas,Betis,Home,Matchweek 36,2.3,2,2,16,9,16.4,2,0,1.3,2.0,2.0,6.0,4.0,16.2,1.0,0.0
-2024-05-19,19:00 (17:00),La Liga,2023-2024,Las Palmas,Cádiz,Away,Matchweek 37,0.6,0,0,9,1,14.5,0,0,0.9,0.0,0.0,10.0,3.0,16.3,0.0,0.0
-2024-05-26,15:15 (14:15),La Liga,2023-2024,Las Palmas,Alavés,Home,Matchweek 38,1.0,1,1,9,4,20.0,0,0,2.5,1.0,1.0,13.0,3.0,22.1,1.0,0.0
-2023-08-11,19:30 (17:30),La Liga,2023-2024,Rayo Vallecano,Almería,Away,Matchweek 1,2.1,2,0,8,2,21.8,1,2,1.4,0.0,2.0,19.0,5.0,19.7,0.0,0.0
-2023-08-21,21:30 (19:30),La Liga,2023-2024,Rayo Vallecano,Granada,Away,Matchweek 2,2.1,2,0,17,9,17.6,2,0,1.2,0.0,2.0,14.0,7.0,16.1,0.0,0.0
-2023-08-28,21:30 (19:30),La Liga,2023-2024,Rayo Vallecano,Atlético Madrid,Home,Matchweek 3,0.6,0,7,12,3,19.2,0,0,3.4,7.0,0.0,17.0,10.0,16.0,0.0,0.0
-2023-09-02,21:00 (19:00),La Liga,2023-2024,Rayo Vallecano,Betis,Away,Matchweek 4,1.5,0,1,15,6,20.2,1,0,1.0,1.0,0.0,14.0,5.0,16.3,1.0,0.0
-2023-09-15,21:00 (19:00),La Liga,2023-2024,Rayo Vallecano,Alavés,Home,Matchweek 5,2.6,2,0,19,10,20.6,1,1,0.7,0.0,2.0,9.0,1.0,16.1,1.0,0.0
-2023-09-24,16:15 (14:15),La Liga,2023-2024,Rayo Vallecano,Villarreal,Home,Matchweek 6,1.2,1,1,11,6,19.3,1,0,1.6,1.0,1.0,13.0,6.0,15.2,0.0,0.0
-2023-09-27,21:30 (19:30),La Liga,2023-2024,Rayo Vallecano,Cádiz,Away,Matchweek 7,0.3,0,0,9,4,28.2,1,0,0.6,0.0,0.0,9.0,2.0,18.0,0.0,0.0
-2023-09-30,16:15 (14:15),La Liga,2023-2024,Rayo Vallecano,Mallorca,Home,Matchweek 8,2.3,2,2,18,4,22.0,3,1,1.5,2.0,2.0,9.0,4.0,16.3,0.0,0.0
-2023-10-07,21:00 (19:00),La Liga,2023-2024,Rayo Vallecano,Sevilla,Away,Matchweek 9,1.0,2,2,7,4,20.7,1,0,1.0,2.0,2.0,22.0,6.0,19.5,1.0,0.0
-2023-10-22,13:00 (12:00),La Liga,2023-2024,Rayo Vallecano,Las Palmas,Away,Matchweek 10,1.4,1,0,11,3,25.5,2,1,1.3,0.0,1.0,11.0,5.0,19.9,0.0,0.0
-2023-10-29,16:15 (15:15),La Liga,2023-2024,Rayo Vallecano,Real Sociedad,Home,Matchweek 11,1.0,2,2,16,7,22.5,3,0,2.0,2.0,2.0,14.0,2.0,19.7,1.0,1.0
-2023-11-01,12:00 (11:00),Copa del Rey,2023-2024,Rayo Vallecano,Atl Lugones,Away,First round,,6,0,27,13,,,1,,0.0,6.0,7.0,0.0,,,0.0
-2023-11-05,21:00 (20:00),La Liga,2023-2024,Rayo Vallecano,Real Madrid,Away,Matchweek 12,0.1,0,0,4,0,23.3,0,0,2.2,0.0,0.0,22.0,5.0,18.4,1.0,0.0
-2023-11-11,14:00 (13:00),La Liga,2023-2024,Rayo Vallecano,Girona,Home,Matchweek 13,1.7,1,2,22,9,18.7,0,0,4.5,2.0,1.0,19.0,6.0,11.5,0.0,0.0
-2023-11-25,14:00 (13:00),La Liga,2023-2024,Rayo Vallecano,Barcelona,Home,Matchweek 14,0.7,1,1,10,4,23.6,0,0,1.0,1.0,1.0,15.0,4.0,15.8,1.0,0.0
-2023-12-02,16:15 (15:15),La Liga,2023-2024,Rayo Vallecano,Athletic Club,Away,Matchweek 15,0.5,0,4,11,3,22.0,1,0,1.3,4.0,0.0,9.0,4.0,14.0,0.0,0.0
-2023-12-06,12:00 (11:00),Copa del Rey,2023-2024,Rayo Vallecano,Yeclano,Away,Second round,,2,0,13,5,,,0,,0.0,2.0,9.0,2.0,,,0.0
-2023-12-11,21:00 (20:00),La Liga,2023-2024,Rayo Vallecano,Celta Vigo,Home,Matchweek 16,1.2,0,0,18,4,15.6,0,0,0.1,0.0,0.0,4.0,2.0,22.3,0.0,0.0
-2023-12-15,21:00 (20:00),La Liga,2023-2024,Rayo Vallecano,Osasuna,Away,Matchweek 17,0.7,0,1,10,3,23.1,3,0,1.2,1.0,0.0,10.0,4.0,14.1,0.0,0.0
-2023-12-19,19:00 (18:00),La Liga,2023-2024,Rayo Vallecano,Valencia,Home,Matchweek 18,0.3,0,1,7,1,20.9,2,0,0.3,1.0,0.0,8.0,3.0,22.8,0.0,0.0
-2024-01-02,17:00 (16:00),La Liga,2023-2024,Rayo Vallecano,Getafe,Away,Matchweek 19,1.9,2,0,12,7,20.0,1,0,0.4,0.0,2.0,5.0,0.0,18.0,0.0,0.0
-2024-01-06,19:00 (18:00),Copa del Rey,2023-2024,Rayo Vallecano,Huesca,Away,Round of 32,,2,0,23,8,,,0,,0.0,2.0,13.0,5.0,,,0.0
-2024-01-17,21:30 (20:30),Copa del Rey,2023-2024,Rayo Vallecano,Girona,Away,Round of 16,,1,3,21,3,,,0,,3.0,1.0,18.0,8.0,,,1.0
-2024-01-20,14:00 (13:00),La Liga,2023-2024,Rayo Vallecano,Las Palmas,Home,Matchweek 21,1.6,0,2,16,3,17.2,1,0,0.7,2.0,0.0,10.0,5.0,21.0,0.0,0.0
-2024-01-27,14:00 (13:00),La Liga,2023-2024,Rayo Vallecano,Real Sociedad,Away,Matchweek 22,0.1,0,0,5,0,28.3,1,0,0.2,0.0,0.0,6.0,3.0,21.0,0.0,0.0
-2024-01-31,21:00 (20:00),La Liga,2023-2024,Rayo Vallecano,Atlético Madrid,Away,Matchweek 20,0.4,1,2,10,2,19.2,0,0,1.0,2.0,1.0,8.0,3.0,13.4,0.0,0.0
-2024-02-05,21:00 (20:00),La Liga,2023-2024,Rayo Vallecano,Sevilla,Home,Matchweek 23,1.8,1,2,22,5,20.2,1,0,1.3,2.0,1.0,10.0,6.0,24.4,0.0,0.0
-2024-02-11,16:15 (15:15),La Liga,2023-2024,Rayo Vallecano,Mallorca,Away,Matchweek 24,1.6,1,2,11,4,22.7,2,0,0.9,2.0,1.0,8.0,5.0,14.5,0.0,0.0
-2024-02-18,14:00 (13:00),La Liga,2023-2024,Rayo Vallecano,Real Madrid,Home,Matchweek 25,1.1,1,1,7,2,19.7,0,1,1.1,1.0,1.0,11.0,4.0,17.9,1.0,0.0
-2024-02-26,21:00 (20:00),La Liga,2023-2024,Rayo Vallecano,Girona,Away,Matchweek 26,0.5,0,3,7,1,25.6,0,0,2.2,3.0,0.0,14.0,8.0,12.2,1.0,0.0
-2024-03-02,16:15 (15:15),La Liga,2023-2024,Rayo Vallecano,Cádiz,Home,Matchweek 27,0.7,1,1,9,5,16.3,0,0,1.0,1.0,1.0,16.0,5.0,16.7,0.0,0.0
-2024-03-10,14:00 (13:00),La Liga,2023-2024,Rayo Vallecano,Alavés,Away,Matchweek 28,0.6,0,1,9,3,23.5,0,0,0.6,1.0,0.0,12.0,4.0,20.9,0.0,0.0
-2024-03-17,18:30 (17:30),La Liga,2023-2024,Rayo Vallecano,Betis,Home,Matchweek 29,0.7,2,0,8,4,19.9,2,0,0.8,0.0,2.0,11.0,1.0,14.8,0.0,0.0
-2024-03-31,14:00 (12:00),La Liga,2023-2024,Rayo Vallecano,Celta Vigo,Away,Matchweek 30,0.6,0,0,8,2,18.7,0,0,0.8,0.0,0.0,13.0,0.0,18.7,1.0,0.0
-2024-04-13,16:15 (14:15),La Liga,2023-2024,Rayo Vallecano,Getafe,Home,Matchweek 31,1.0,0,0,12,2,22.0,2,0,0.3,0.0,0.0,7.0,0.0,24.2,1.0,0.0
-Date,Time,Comp,2023-2024,Rayo Vallecano,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
-2024-04-20,16:15 (14:15),La Liga,2023-2024,Rayo Vallecano,Osasuna,Home,Matchweek 32,0.5,2,1,17,6,22.9,2,0,0.5,1.0,2.0,6.0,2.0,20.8,0.0,0.0
-2024-04-28,18:30 (16:30),La Liga,2023-2024,Rayo Vallecano,Villarreal,Away,Matchweek 33,1.0,0,3,20,4,22.3,3,0,1.4,3.0,0.0,15.0,7.0,16.9,0.0,0.0
-2024-05-05,21:00 (19:00),La Liga,2023-2024,Rayo Vallecano,Almería,Home,Matchweek 34,1.4,0,1,27,10,22.9,4,0,0.4,1.0,0.0,7.0,2.0,19.6,0.0,0.0
-2024-05-12,18:30 (16:30),La Liga,2023-2024,Rayo Vallecano,Valencia,Away,Matchweek 35,0.6,0,0,12,1,18.0,0,0,1.3,0.0,0.0,13.0,5.0,16.0,0.0,0.0
-2024-05-15,19:30 (17:30),La Liga,2023-2024,Rayo Vallecano,Granada,Home,Matchweek 36,2.5,2,1,18,9,17.9,3,0,1.2,1.0,2.0,10.0,1.0,18.2,1.0,0.0
-2024-05-19,19:00 (17:00),La Liga,2023-2024,Rayo Vallecano,Barcelona,Away,Matchweek 37,1.3,0,3,15,4,21.0,1,0,1.3,3.0,0.0,14.0,6.0,16.9,1.0,0.0
-2024-05-25,18:30 (16:30),La Liga,2023-2024,Rayo Vallecano,Athletic Club,Home,Matchweek 38,1.1,0,1,17,4,21.6,2,0,0.9,1.0,0.0,7.0,1.0,18.0,0.0,0.0
-2023-08-14,19:30 (17:30),La Liga,2023-2024,Cadiz,Alavés,Home,Matchweek 1,0.7,1.0,0.0,12.0,3.0,17.6,1.0,0.0,0.3,0.0,1.0,10.0,2.0,22.1,0.0,0.0
-2023-08-20,19:30 (17:30),La Liga,2023-2024,Cadiz,Barcelona,Away,Matchweek 2,1.1,0.0,2.0,10.0,1.0,12.0,0.0,0.0,3.4,2.0,0.0,24.0,10.0,15.5,2.0,0.0
-2023-08-26,19:00 (17:00),La Liga,2023-2024,Cadiz,Almería,Home,Matchweek 3,1.6,1.0,1.0,11.0,3.0,15.9,1.0,0.0,0.3,1.0,1.0,5.0,2.0,17.6,1.0,0.0
-2023-09-01,19:30 (17:30),La Liga,2023-2024,Cadiz,Villarreal,Home,Matchweek 4,2.1,3.0,1.0,17.0,3.0,22.1,0.0,1.0,0.3,1.0,3.0,7.0,3.0,19.8,0.0,0.0
-2023-09-16,14:00 (12:00),La Liga,2023-2024,Cadiz,Athletic Club,Away,Matchweek 5,0.3,0.0,3.0,5.0,4.0,21.8,1.0,0.0,2.9,3.0,0.0,20.0,8.0,13.4,0.0,0.0
-2023-09-24,18:30 (16:30),La Liga,2023-2024,Cadiz,Betis,Away,Matchweek 6,0.2,1.0,1.0,5.0,1.0,16.2,0.0,0.0,1.8,1.0,1.0,21.0,7.0,16.4,2.0,0.0
-2023-09-27,21:30 (19:30),La Liga,2023-2024,Cadiz,Rayo Vallecano,Home,Matchweek 7,0.6,0.0,0.0,9.0,2.0,18.0,0.0,0.0,0.3,0.0,0.0,9.0,4.0,28.2,1.0,0.0
-2023-10-01,21:00 (19:00),La Liga,2023-2024,Cadiz,Atlético Madrid,Away,Matchweek 8,0.8,2.0,3.0,8.0,4.0,21.8,0.0,0.0,2.7,3.0,2.0,18.0,9.0,15.5,1.0,0.0
-2023-10-07,14:00 (12:00),La Liga,2023-2024,Cadiz,Girona,Home,Matchweek 9,0.4,0.0,1.0,8.0,2.0,17.6,0.0,0.0,1.2,1.0,0.0,20.0,5.0,22.2,0.0,0.0
-2023-10-23,21:00 (19:00),La Liga,2023-2024,Cadiz,Valencia,Away,Matchweek 10,0.6,0.0,2.0,5.0,4.0,9.9,0.0,0.0,1.5,2.0,0.0,12.0,4.0,16.8,1.0,0.0
-2023-10-28,21:00 (19:00),La Liga,2023-2024,Cadiz,Sevilla,Home,Matchweek 11,1.1,2.0,2.0,10.0,5.0,18.3,2.0,0.0,1.2,2.0,2.0,20.0,10.0,16.8,0.0,0.0
-2023-11-01,12:00 (11:00),Copa del Rey,2023-2024,Cadiz,Llagostera,Away,First round,,,,,,,,,,,,,,,,
-2023-11-06,21:00 (20:00),La Liga,2023-2024,Cadiz,Getafe,Away,Matchweek 12,0.5,0.0,1.0,6.0,2.0,17.4,0.0,0.0,1.2,1.0,0.0,13.0,3.0,21.2,0.0,0.0
-2023-11-26,18:30 (17:30),La Liga,2023-2024,Cadiz,Real Madrid,Home,Matchweek 14,1.2,0.0,3.0,13.0,4.0,20.0,3.0,0.0,1.6,3.0,0.0,14.0,5.0,18.8,1.0,0.0
-2023-11-29,21:00 (20:00),La Liga,2023-2024,Cadiz,Mallorca,Away,Matchweek 13,0.3,1.0,1.0,6.0,3.0,31.9,2.0,0.0,1.1,1.0,1.0,16.0,3.0,21.0,1.0,0.0
-2023-12-04,21:00 (20:00),La Liga,2023-2024,Cadiz,Celta Vigo,Away,Matchweek 15,0.3,1.0,1.0,2.0,1.0,17.7,0.0,0.0,2.4,1.0,1.0,26.0,7.0,17.9,2.0,0.0
-2023-12-07,19:00 (18:00),Copa del Rey,2023-2024,Cadiz,Arandina,Away,Second round,,1.0,2.0,11.0,5.0,,,0.0,,2.0,1.0,14.0,5.0,,,0.0
-2023-12-10,18:30 (17:30),La Liga,2023-2024,Cadiz,Osasuna,Home,Matchweek 16,0.9,1.0,1.0,12.0,5.0,17.2,0.0,0.0,1.6,1.0,1.0,12.0,3.0,23.0,0.0,1.0
-2023-12-17,17:30,La Liga,2023-2024,Cadiz,Las Palmas,Away,Matchweek 17,1.6,1.0,1.0,13.0,5.0,16.0,0.0,0.0,0.7,1.0,1.0,7.0,2.0,23.1,3.0,0.0
-2023-12-21,19:00 (18:00),La Liga,2023-2024,Cadiz,Real Sociedad,Home,Matchweek 18,1.0,0.0,0.0,10.0,2.0,16.8,0.0,0.0,0.5,0.0,0.0,8.0,1.0,15.9,1.0,0.0
-2024-01-03,17:00 (16:00),La Liga,2023-2024,Cadiz,Granada,Away,Matchweek 19,0.8,0.0,2.0,15.0,2.0,18.6,2.0,0.0,3.0,2.0,0.0,15.0,8.0,14.4,1.0,0.0
-2024-01-14,16:15 (15:15),La Liga,2023-2024,Cadiz,Valencia,Home,Matchweek 20,1.1,1.0,4.0,9.0,1.0,21.9,2.0,1.0,1.9,4.0,1.0,9.0,5.0,20.5,0.0,0.0
-2024-01-19,21:00 (20:00),La Liga,2023-2024,Cadiz,Alavés,Away,Matchweek 21,0.3,0.0,1.0,9.0,1.0,17.8,0.0,0.0,2.0,1.0,0.0,12.0,2.0,18.1,1.0,1.0
-2024-01-28,16:15 (15:15),La Liga,2023-2024,Cadiz,Athletic Club,Home,Matchweek 22,0.4,0.0,0.0,9.0,2.0,23.6,2.0,0.0,0.2,0.0,0.0,8.0,0.0,22.8,1.0,0.0
-2024-02-04,14:00 (13:00),La Liga,2023-2024,Cadiz,Villarreal,Away,Matchweek 23,0.7,0.0,0.0,8.0,2.0,14.3,1.0,0.0,1.2,0.0,0.0,19.0,4.0,18.9,1.0,0.0
-2024-02-09,21:00 (20:00),La Liga,2023-2024,Cadiz,Betis,Home,Matchweek 24,0.8,0.0,2.0,14.0,5.0,17.8,0.0,0.0,1.0,2.0,0.0,14.0,5.0,17.2,1.0,0.0
-2024-02-17,16:15 (15:15),La Liga,2023-2024,Cadiz,Osasuna,Away,Matchweek 25,0.5,0.0,2.0,5.0,1.0,15.9,0.0,0.0,2.0,2.0,0.0,11.0,4.0,16.1,1.0,0.0
-2024-02-25,14:00 (13:00),La Liga,2023-2024,Cadiz,Celta Vigo,Home,Matchweek 26,2.2,2.0,2.0,19.0,6.0,18.2,2.0,0.0,0.7,2.0,2.0,7.0,3.0,14.8,0.0,0.0
-2024-03-02,16:15 (15:15),La Liga,2023-2024,Cadiz,Rayo Vallecano,Away,Matchweek 27,1.0,1.0,1.0,16.0,5.0,16.7,0.0,0.0,0.7,1.0,1.0,9.0,5.0,16.3,0.0,0.0
-2024-03-09,16:15 (15:15),La Liga,2023-2024,Cadiz,Atlético Madrid,Home,Matchweek 28,1.1,2.0,0.0,7.0,3.0,16.0,0.0,0.0,0.9,0.0,2.0,8.0,4.0,21.5,0.0,0.0
-2024-03-15,21:00 (20:00),La Liga,2023-2024,Cadiz,Real Sociedad,Away,Matchweek 29,0.8,0.0,2.0,13.0,2.0,20.0,1.0,0.0,1.9,2.0,0.0,14.0,6.0,14.3,0.0,0.0
-2024-03-29,21:00 (20:00),La Liga,2023-2024,Cadiz,Granada,Home,Matchweek 30,1.6,1.0,0.0,13.0,5.0,16.0,0.0,0.0,0.5,0.0,1.0,10.0,2.0,21.4,1.0,0.0
-2024-04-13,21:00 (19:00),La Liga,2023-2024,Cadiz,Barcelona,Home,Matchweek 31,1.0,0.0,1.0,14.0,3.0,17.5,0.0,0.0,0.9,1.0,0.0,12.0,1.0,18.9,0.0,0.0
-2024-04-20,21:00 (19:00),La Liga,2023-2024,Cadiz,Girona,Away,Matchweek 32,1.6,1.0,4.0,12.0,5.0,15.9,0.0,0.0,2.1,4.0,1.0,10.0,5.0,14.4,0.0,0.0
-2024-04-28,14:00 (12:00),La Liga,2023-2024,Cadiz,Mallorca,Home,Matchweek 33,0.4,1.0,1.0,10.0,2.0,22.2,0.0,0.0,0.9,1.0,1.0,9.0,2.0,23.4,1.0,0.0
-2024-05-04,16:15 (14:15),La Liga,2023-2024,Cadiz,Real Madrid,Away,Matchweek 34,0.9,0.0,3.0,7.0,2.0,14.5,0.0,0.0,2.3,3.0,0.0,19.0,9.0,19.1,1.0,0.0
-2024-05-12,14:00 (12:00),La Liga,2023-2024,Cadiz,Getafe,Home,Matchweek 35,1.5,1.0,0.0,12.0,5.0,20.2,1.0,1.0,0.5,0.0,1.0,10.0,4.0,22.9,0.0,0.0
-2024-05-15,19:30 (17:30),La Liga,2023-2024,Cadiz,Sevilla,Away,Matchweek 36,2.5,1.0,0.0,19.0,7.0,19.9,0.0,0.0,1.3,0.0,1.0,14.0,3.0,19.3,0.0,0.0
-2024-05-19,19:00 (17:00),La Liga,2023-2024,Cadiz,Las Palmas,Home,Matchweek 37,0.9,0.0,0.0,10.0,3.0,16.3,0.0,0.0,0.6,0.0,0.0,9.0,1.0,14.5,0.0,0.0
-2024-05-25,18:30 (16:30),La Liga,2023-2024,Cadiz,Almería,Away,Matchweek 38,0.5,1.0,6.0,12.0,4.0,23.0,0.0,0.0,2.9,6.0,1.0,27.0,12.0,17.3,1.0,0.0
-2023-08-11,19:30 (17:30),La Liga,2023-2024,Almeria,Rayo Vallecano,Home,Matchweek 1,1.4,0.0,2.0,19,5,19.7,0.0,0,2.1,2.0,0.0,8.0,2.0,21.8,1.0,2.0
-2023-08-19,19:30 (17:30),La Liga,2023-2024,Almeria,Real Madrid,Home,Matchweek 2,1.3,1.0,3.0,20,8,17.5,0.0,0,2.0,3.0,1.0,25.0,9.0,17.0,1.0,0.0
-2023-08-26,19:00 (17:00),La Liga,2023-2024,Almeria,Cádiz,Away,Matchweek 3,0.3,1.0,1.0,5,2,17.6,1.0,0,1.6,1.0,1.0,11.0,3.0,15.9,1.0,0.0
-2023-09-01,22:00 (20:00),La Liga,2023-2024,Almeria,Celta Vigo,Home,Matchweek 4,3.0,2.0,3.0,16,5,15.9,0.0,0,1.5,3.0,2.0,14.0,7.0,14.4,0.0,0.0
-2023-09-17,16:15 (14:15),La Liga,2023-2024,Almeria,Villarreal,Away,Matchweek 5,1.5,1.0,2.0,17,7,19.8,2.0,0,0.9,2.0,1.0,10.0,4.0,11.8,0.0,0.0
-2023-09-23,21:00 (19:00),La Liga,2023-2024,Almeria,Valencia,Home,Matchweek 6,2.6,2.0,2.0,17,10,15.2,2.0,0,0.8,2.0,2.0,7.0,5.0,19.0,0.0,0.0
-2023-09-26,19:00 (17:00),La Liga,2023-2024,Almeria,Sevilla,Away,Matchweek 7,1.8,1.0,5.0,9,0,15.2,0.0,1,2.2,5.0,1.0,18.0,9.0,13.2,0.0,0.0
-2023-10-01,14:00 (12:00),La Liga,2023-2024,Almeria,Granada,Home,Matchweek 8,2.9,3.0,3.0,17,5,16.6,0.0,0,2.9,3.0,3.0,17.0,2.0,14.6,0.0,1.0
-2023-10-06,21:00 (19:00),La Liga,2023-2024,Almeria,Athletic Club,Away,Matchweek 9,0.1,0.0,3.0,4,1,23.6,0.0,0,1.9,3.0,0.0,23.0,9.0,13.4,0.0,0.0
-2023-10-22,16:15 (14:15),La Liga,2023-2024,Almeria,Girona,Away,Matchweek 10,1.0,2.0,5.0,9,5,22.4,1.0,0,1.9,5.0,2.0,19.0,8.0,18.1,1.0,0.0
-2023-10-28,14:00 (12:00),La Liga,2023-2024,Almeria,Las Palmas,Home,Matchweek 11,0.3,1.0,2.0,10,4,23.3,0.0,0,0.9,2.0,1.0,10.0,3.0,20.1,0.0,0.0
-2023-10-31,21:00 (20:00),Copa del Rey,2023-2024,Almeria,CF Talavera de la Reina,Away,First round,,2.0,0.0,12,5,,,0,,0.0,2.0,12.0,3.0,,,0.0
-2023-11-05,14:00 (13:00),La Liga,2023-2024,Almeria,Alavés,Away,Matchweek 12,0.5,0.0,1.0,9,3,23.2,1.0,0,2.4,1.0,0.0,22.0,3.0,16.4,0.0,0.0
-2023-11-11,16:15 (15:15),La Liga,2023-2024,Almeria,Real Sociedad,Home,Matchweek 13,0.4,1.0,3.0,7,2,18.7,1.0,0,2.4,3.0,1.0,17.0,5.0,16.6,2.0,1.0
-2023-11-25,18:30 (17:30),La Liga,2023-2024,Almeria,Getafe,Away,Matchweek 14,1.8,1.0,2.0,13,4,15.6,0.0,0,1.2,2.0,1.0,18.0,5.0,17.1,0.0,0.0
-2023-12-03,16:15 (15:15),La Liga,2023-2024,Almeria,Betis,Home,Matchweek 15,2.4,0.0,0.0,20,8,18.7,0.0,0,0.5,0.0,0.0,6.0,2.0,15.4,0.0,0.0
-2023-12-06,12:00 (11:00),Copa del Rey,2023-2024,Almeria,Barbastro,Away,Second round,,0.0,1.0,11,4,,,0,,1.0,0.0,4.0,2.0,,,0.0
-2023-12-10,14:00 (13:00),La Liga,2023-2024,Almeria,Atlético Madrid,Away,Matchweek 16,1.3,1.0,2.0,19,6,17.3,0.0,0,2.2,2.0,1.0,13.0,4.0,17.5,1.0,0.0
-2023-12-17,14:00 (13:00),La Liga,2023-2024,Almeria,Mallorca,Home,Matchweek 17,0.3,0.0,0.0,7,1,24.4,2.0,0,1.9,0.0,0.0,20.0,2.0,15.5,0.0,0.0
-2023-12-20,19:00 (18:00),La Liga,2023-2024,Almeria,Barcelona,Away,Matchweek 18,1.6,2.0,3.0,10,5,13.7,0.0,0,3.4,3.0,2.0,30.0,11.0,13.4,1.0,0.0
-2024-01-04,17:00 (16:00),La Liga,2023-2024,Almeria,Osasuna,Away,Matchweek 19,0.2,0.0,1.0,4,0,19.0,0.0,0,1.3,1.0,0.0,14.0,2.0,14.3,0.0,0.0
-2024-01-14,14:00 (13:00),La Liga,2023-2024,Almeria,Girona,Home,Matchweek 20,1.7,0.0,0.0,20,3,18.0,1.0,0,0.3,0.0,0.0,5.0,1.0,20.1,1.0,0.0
-2024-01-21,16:15 (15:15),La Liga,2023-2024,Almeria,Real Madrid,Away,Matchweek 21,0.9,2.0,3.0,10,2,22.5,0.0,0,2.2,3.0,2.0,17.0,5.0,16.0,0.0,1.0
-2024-01-26,21:00 (20:00),La Liga,2023-2024,Almeria,Alavés,Home,Matchweek 22,1.4,0.0,3.0,19,7,20.0,2.0,0,1.8,3.0,0.0,10.0,2.0,17.8,0.0,1.0
-2024-02-03,14:00 (13:00),La Liga,2023-2024,Almeria,Valencia,Away,Matchweek 23,1.9,1.0,2.0,15,4,20.7,0.0,0,1.4,2.0,1.0,6.0,2.0,19.1,0.0,0.0
-2024-02-12,21:00 (20:00),La Liga,2023-2024,Almeria,Athletic Club,Home,Matchweek 24,0.9,0.0,0.0,10,4,19.4,0.0,0,0.7,0.0,0.0,12.0,4.0,18.9,0.0,0.0
-2024-02-18,16:15 (15:15),La Liga,2023-2024,Almeria,Granada,Away,Matchweek 25,1.4,1.0,1.0,13,3,24.7,1.0,0,2.0,1.0,1.0,19.0,7.0,19.2,2.0,0.0
-2024-02-24,21:00 (20:00),La Liga,2023-2024,Almeria,Atlético Madrid,Home,Matchweek 26,0.5,2.0,2.0,9,4,21.7,0.0,0,1.5,2.0,2.0,18.0,9.0,18.7,2.0,0.0
-2024-03-01,21:00 (20:00),La Liga,2023-2024,Almeria,Celta Vigo,Away,Matchweek 27,0.1,0.0,1.0,3,0,19.6,0.0,0,1.5,1.0,0.0,15.0,6.0,15.0,0.0,0.0
-2024-03-11,21:00 (20:00),La Liga,2023-2024,Almeria,Sevilla,Home,Matchweek 28,2.0,2.0,2.0,14,4,20.0,0.0,0,2.4,2.0,2.0,19.0,6.0,13.1,0.0,0.0
-2024-03-17,15:15,La Liga,2023-2024,Almeria,Las Palmas,Away,Matchweek 29,0.8,1.0,0.0,3,2,13.6,0.0,0,0.9,0.0,1.0,21.0,6.0,21.2,0.0,0.0
-2024-03-30,16:15 (15:15),La Liga,2023-2024,Almeria,Osasuna,Home,Matchweek 30,0.8,0.0,3.0,12,5,19.8,1.0,0,1.0,3.0,0.0,6.0,4.0,16.4,0.0,0.0
-2024-04-14,21:00 (19:00),La Liga,2023-2024,Almeria,Real Sociedad,Away,Matchweek 31,1.6,2.0,2.0,6,2,19.8,0.0,1,1.5,2.0,2.0,17.0,4.0,16.4,0.0,0.0
-2024-04-21,16:15 (14:15),La Liga,2023-2024,Almeria,Villarreal,Home,Matchweek 32,1.8,1.0,2.0,24,5,16.1,0.0,0,1.6,2.0,1.0,11.0,3.0,17.4,0.0,0.0
-2024-04-27,16:15 (14:15),La Liga,2023-2024,Almeria,Getafe,Home,Matchweek 33,2.4,1.0,3.0,21,10,16.6,2.0,0,1.7,3.0,1.0,8.0,5.0,17.9,1.0,0.0
-2024-05-05,21:00 (19:00),La Liga,2023-2024,Almeria,Rayo Vallecano,Away,Matchweek 34,0.4,1.0,0.0,7,2,19.6,0.0,0,1.4,0.0,1.0,27.0,10.0,22.9,4.0,0.0
-2024-05-12,21:00 (19:00),La Liga,2023-2024,Almeria,Betis,Away,Matchweek 35,1.2,2.0,3.0,14,7,20.5,0.0,0,0.8,3.0,2.0,14.0,7.0,18.5,0.0,0.0
-2024-05-16,21:30 (19:30),La Liga,2023-2024,Almeria,Barcelona,Home,Matchweek 36,0.9,0.0,2.0,12,3,21.3,0.0,0,1.6,2.0,0.0,16.0,7.0,15.6,0.0,0.0
-2024-05-19,19:00 (17:00),La Liga,2023-2024,Almeria,Mallorca,Away,Matchweek 37,0.4,2.0,2.0,7,3,23.7,0.0,0,3.0,2.0,2.0,29.0,8.0,17.7,0.0,0.0
-2024-05-25,18:30 (16:30),La Liga,2023-2024,Almeria,Cádiz,Home,Matchweek 38,2.9,6.0,1.0,27,12,17.3,1.0,0,0.5,1.0,6.0,12.0,4.0,23.0,0.0,0.0
-2023-08-14,21:30 (19:30),La Liga,2023-2024,Granada,Atlético Madrid,Away,Matchweek 1,0.9,1,3,7,4,14.1,0,0,2.4,3.0,1.0,14.0,6.0,14.4,0.0,0.0
-2023-08-21,21:30 (19:30),La Liga,2023-2024,Granada,Rayo Vallecano,Home,Matchweek 2,1.2,0,2,14,7,16.1,0,0,2.1,2.0,0.0,17.0,9.0,17.6,2.0,0.0
-2023-08-26,19:30 (17:30),La Liga,2023-2024,Granada,Mallorca,Home,Matchweek 3,1.4,3,2,9,3,21.3,1,1,2.6,2.0,3.0,9.0,5.0,12.4,0.0,0.0
-2023-09-02,14:00 (12:00),La Liga,2023-2024,Granada,Real Sociedad,Away,Matchweek 4,0.8,3,5,8,5,18.5,0,0,2.3,5.0,3.0,15.0,6.0,20.3,0.0,0.0
-2023-09-18,21:00 (19:00),La Liga,2023-2024,Granada,Girona,Home,Matchweek 5,1.6,2,4,12,5,17.5,2,0,2.8,4.0,2.0,13.0,6.0,17.7,1.0,0.0
-2023-09-24,17:30 (16:30),La Liga,2023-2024,Granada,Las Palmas,Away,Matchweek 6,0.0,0,1,2,1,33.7,1,0,0.6,1.0,0.0,10.0,3.0,20.7,1.0,0.0
-2023-09-28,19:00 (17:00),La Liga,2023-2024,Granada,Betis,Home,Matchweek 7,1.8,1,1,18,7,15.8,1,0,0.9,1.0,1.0,13.0,3.0,17.1,0.0,0.0
-2023-10-01,14:00 (12:00),La Liga,2023-2024,Granada,Almería,Away,Matchweek 8,2.9,3,3,17,2,14.6,0,1,2.9,3.0,3.0,17.0,5.0,16.6,0.0,0.0
-2023-10-08,21:00 (19:00),La Liga,2023-2024,Granada,Barcelona,Home,Matchweek 9,0.8,2,2,7,2,21.8,0,0,3.0,2.0,2.0,22.0,10.0,16.9,1.0,0.0
-2023-10-20,21:00 (19:00),La Liga,2023-2024,Granada,Osasuna,Away,Matchweek 10,0.6,0,2,13,3,14.2,0,0,2.1,2.0,0.0,11.0,5.0,20.3,0.0,1.0
-2023-10-30,21:00 (20:00),La Liga,2023-2024,Granada,Villarreal,Home,Matchweek 11,2.1,2,3,18,8,12.8,0,0,1.6,3.0,2.0,5.0,4.0,16.3,0.0,1.0
-2023-11-02,19:00 (18:00),Copa del Rey,2023-2024,Granada,Arosa,Away,First round,,0,3,22,6,,,0,,3.0,0.0,8.0,4.0,,,0.0
-2023-11-05,16:15 (15:15),La Liga,2023-2024,Granada,Valencia,Away,Matchweek 12,0.5,0,1,6,1,19.7,2,0,1.2,1.0,0.0,10.0,1.0,25.1,1.0,1.0
-2023-11-11,18:30 (17:30),La Liga,2023-2024,Granada,Getafe,Home,Matchweek 13,1.7,1,1,12,6,17.8,0,0,2.3,1.0,1.0,10.0,6.0,15.0,0.0,0.0
-2023-11-24,21:00 (20:00),La Liga,2023-2024,Granada,Alavés,Away,Matchweek 14,1.1,1,3,10,3,23.1,0,1,0.8,3.0,1.0,8.0,5.0,18.6,0.0,0.0
-2023-12-02,18:30 (17:30),La Liga,2023-2024,Granada,Real Madrid,Away,Matchweek 15,0.1,0,2,2,0,40.5,0,0,1.8,2.0,0.0,11.0,4.0,17.2,0.0,0.0
-2023-12-11,21:00 (20:00),La Liga,2023-2024,Granada,Athletic Club,Home,Matchweek 16,0.7,1,1,7,2,14.9,0,0,1.1,1.0,1.0,19.0,4.0,16.7,0.0,0.0
-2023-12-16,14:00 (13:00),La Liga,2023-2024,Granada,Celta Vigo,Away,Matchweek 17,0.5,0,1,7,2,14.2,0,0,1.4,1.0,0.0,11.0,4.0,17.2,0.0,0.0
-2023-12-19,21:30 (20:30),La Liga,2023-2024,Granada,Sevilla,Home,Matchweek 18,0.9,0,3,12,3,13.9,0,0,0.5,3.0,0.0,12.0,5.0,22.3,0.0,0.0
-2024-01-03,17:00 (16:00),La Liga,2023-2024,Granada,Cádiz,Home,Matchweek 19,3.0,2,0,15,8,14.4,1,0,0.8,0.0,2.0,15.0,2.0,18.6,2.0,0.0
-2024-01-13,21:00 (20:00),La Liga,2023-2024,Granada,Betis,Away,Matchweek 20,0.5,0,1,6,2,17.2,0,0,1.8,1.0,0.0,25.0,6.0,19.2,0.0,0.0
-2024-01-22,21:00 (20:00),La Liga,2023-2024,Granada,Atlético Madrid,Home,Matchweek 21,0.6,0,1,17,1,18.0,0,0,1.2,1.0,0.0,10.0,5.0,15.3,0.0,0.0
-2024-01-29,21:00 (20:00),La Liga,2023-2024,Granada,Getafe,Away,Matchweek 22,1.9,0,2,15,3,18.5,0,0,1.3,2.0,0.0,7.0,4.0,15.9,0.0,0.0
-2024-02-03,16:15 (15:15),La Liga,2023-2024,Granada,Las Palmas,Home,Matchweek 23,0.1,1,1,3,1,14.5,0,0,1.0,1.0,1.0,16.0,6.0,18.7,2.0,0.0
-2024-02-11,21:00 (20:00),La Liga,2023-2024,Granada,Barcelona,Away,Matchweek 24,1.4,3,3,11,5,14.6,0,0,2.3,3.0,3.0,11.0,5.0,12.2,0.0,0.0
-2024-02-18,16:15 (15:15),La Liga,2023-2024,Granada,Almería,Home,Matchweek 25,2.0,1,1,19,7,19.2,2,0,1.4,1.0,1.0,13.0,3.0,24.7,1.0,0.0
-2024-03-03,14:00 (13:00),La Liga,2023-2024,Granada,Villarreal,Away,Matchweek 27,0.5,1,5,9,3,23.2,1,0,2.0,5.0,1.0,16.0,10.0,17.6,1.0,0.0
-2024-03-09,18:30 (17:30),La Liga,2023-2024,Granada,Real Sociedad,Home,Matchweek 28,1.7,2,3,12,5,17.9,0,1,2.1,3.0,2.0,11.0,8.0,14.4,1.0,0.0
-2024-03-16,14:00 (13:00),La Liga,2023-2024,Granada,Mallorca,Away,Matchweek 29,0.4,0,1,8,3,20.9,0,0,1.6,1.0,0.0,18.0,8.0,16.0,0.0,0.0
-2024-03-29,21:00 (20:00),La Liga,2023-2024,Granada,Cádiz,Away,Matchweek 30,0.5,0,1,10,2,21.4,1,0,1.6,1.0,0.0,13.0,5.0,16.0,0.0,0.0
-2024-04-04,20:00 (18:00),La Liga,2023-2024,Granada,Valencia,Home,Matchweek 26,0.6,0,1,13,3,23.2,1,0,0.4,1.0,0.0,6.0,2.0,13.8,0.0,0.0
-2024-04-14,16:15 (14:15),La Liga,2023-2024,Granada,Alavés,Home,Matchweek 31,1.3,2,0,8,2,20.4,1,1,0.3,0.0,2.0,8.0,3.0,21.0,0.0,0.0
-2024-04-19,21:00 (19:00),La Liga,2023-2024,Granada,Athletic Club,Away,Matchweek 32,0.2,1,1,5,0,23.4,0,0,1.5,1.0,1.0,17.0,5.0,16.8,0.0,0.0
-2024-04-28,16:15 (14:15),La Liga,2023-2024,Granada,Osasuna,Home,Matchweek 33,2.6,3,0,12,4,14.8,0,0,0.8,0.0,3.0,11.0,2.0,21.1,3.0,0.0
-2024-05-05,21:00 (19:00),La Liga,2023-2024,Granada,Sevilla,Away,Matchweek 34,0.4,0,3,8,3,26.3,0,0,1.7,3.0,0.0,11.0,5.0,11.6,0.0,0.0
-2024-05-11,18:30 (16:30),La Liga,2023-2024,Granada,Real Madrid,Home,Matchweek 35,1.0,0,4,12,1,13.6,0,0,1.5,4.0,0.0,13.0,7.0,15.4,0.0,0.0
-2024-05-15,19:30 (17:30),La Liga,2023-2024,Granada,Rayo Vallecano,Away,Matchweek 36,1.2,1,2,10,1,18.2,1,0,2.5,2.0,1.0,18.0,9.0,17.9,3.0,0.0
-2024-05-19,19:00 (17:00),La Liga,2023-2024,Granada,Celta Vigo,Home,Matchweek 37,1.9,1,2,10,3,19.8,0,0,1.7,2.0,1.0,8.0,5.0,12.7,0.0,0.0
-2024-05-24,21:00 (19:00),La Liga,2023-2024,Granada,Girona,Away,Matchweek 38,1.0,0,7,10,2,18.0,0,0,4.6,7.0,0.0,14.0,7.0,17.6,1.0,2.0
 2024-08-17,21:30 (19:30),La Liga,2024-2025,Barcelona,Valencia,Away,Matchweek 1,3.2,2,1,17,5,18.6,1,1,1.0,1.0,2.0,6.0,1.0,14.8,0.0,0.0
 2024-08-24,19:00 (17:00),La Liga,2024-2025,Barcelona,Athletic Club,Home,Matchweek 2,1.8,2,1,13,5,16.6,0,0,1.0,1.0,2.0,7.0,1.0,20.3,0.0,1.0
 2024-08-27,21:30 (19:30),La Liga,2024-2025,Barcelona,Rayo Vallecano,Away,Matchweek 3,1.4,2,1,22,5,19.3,1,0,0.4,1.0,2.0,8.0,4.0,20.9,0.0,0.0
@@ -1878,3 +949,763 @@ Date,Time,Comp,2024-2025,Valladolid,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK
 2025-05-13,19:00 (17:00),La Liga,2024-2025,Valladolid,Girona,Home,Matchweek 36,0.9,0,1,11,4,17.6,1,0,1.4,1.0,0.0,13.0,5.0,17.2,1.0,0.0
 2025-05-18,19:00 (17:00),La Liga,2024-2025,Valladolid,Alavés,Home,Matchweek 37,1.6,0,1,7,1,10.1,0,0,1.4,1.0,0.0,13.0,3.0,20.0,0.0,1.0
 2025-05-24,18:30 (16:30),La Liga,2024-2025,Valladolid,Leganés,Away,Matchweek 38,0.4,0,3,6,2,20.6,0,0,2.1,3.0,0.0,16.0,6.0,20.6,2.0,0.0
+2025-08-19,21:00 (19:00),La Liga,2025-2026,Real Madrid,Osasuna,Home,Matchweek 1,,,,,,,,,,,,,,,,
+2025-08-24,21:30 (19:30),La Liga,2025-2026,Real Madrid,Oviedo,Away,Matchweek 2,,,,,,,,,,,,,,,,
+2025-08-30,21:30 (19:30),La Liga,2025-2026,Real Madrid,Mallorca,Home,Matchweek 3,,,,,,,,,,,,,,,,
+2025-09-14,,La Liga,2025-2026,Real Madrid,Real Sociedad,Away,Matchweek 4,,,,,,,,,,,,,,,,
+2025-09-21,,La Liga,2025-2026,Real Madrid,Espanyol,Home,Matchweek 5,,,,,,,,,,,,,,,,
+2025-09-24,,La Liga,2025-2026,Real Madrid,Levante,Away,Matchweek 6,,,,,,,,,,,,,,,,
+2025-09-28,,La Liga,2025-2026,Real Madrid,Atlético Madrid,Away,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-05,,La Liga,2025-2026,Real Madrid,Villarreal,Home,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-19,,La Liga,2025-2026,Real Madrid,Getafe,Away,Matchweek 9,,,,,,,,,,,,,,,,
+2025-10-26,,La Liga,2025-2026,Real Madrid,Barcelona,Home,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-02,,La Liga,2025-2026,Real Madrid,Valencia,Home,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-09,,La Liga,2025-2026,Real Madrid,Rayo Vallecano,Away,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-23,,La Liga,2025-2026,Real Madrid,Elche,Away,Matchweek 13,,,,,,,,,,,,,,,,
+2025-11-30,,La Liga,2025-2026,Real Madrid,Girona,Away,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-07,,La Liga,2025-2026,Real Madrid,Celta Vigo,Home,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-14,,La Liga,2025-2026,Real Madrid,Alavés,Away,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-21,,La Liga,2025-2026,Real Madrid,Sevilla,Home,Matchweek 17,,,,,,,,,,,,,,,,
+2026-01-04,,La Liga,2025-2026,Real Madrid,Betis,Home,Matchweek 18,,,,,,,,,,,,,,,,
+2026-01-11,,La Liga,2025-2026,Real Madrid,Athletic Club,Away,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-18,,La Liga,2025-2026,Real Madrid,Levante,Home,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-25,,La Liga,2025-2026,Real Madrid,Villarreal,Away,Matchweek 21,,,,,,,,,,,,,,,,
+2026-02-01,,La Liga,2025-2026,Real Madrid,Rayo Vallecano,Home,Matchweek 22,,,,,,,,,,,,,,,,
+2026-02-08,,La Liga,2025-2026,Real Madrid,Valencia,Away,Matchweek 23,,,,,,,,,,,,,,,,
+2026-02-15,,La Liga,2025-2026,Real Madrid,Real Sociedad,Home,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-22,,La Liga,2025-2026,Real Madrid,Osasuna,Away,Matchweek 25,,,,,,,,,,,,,,,,
+2026-03-01,,La Liga,2025-2026,Real Madrid,Getafe,Home,Matchweek 26,,,,,,,,,,,,,,,,
+2026-03-08,,La Liga,2025-2026,Real Madrid,Celta Vigo,Away,Matchweek 27,,,,,,,,,,,,,,,,
+2026-03-15,,La Liga,2025-2026,Real Madrid,Elche,Home,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-22,,La Liga,2025-2026,Real Madrid,Atlético Madrid,Home,Matchweek 29,,,,,,,,,,,,,,,,
+2026-04-05,,La Liga,2025-2026,Real Madrid,Mallorca,Away,Matchweek 30,,,,,,,,,,,,,,,,
+2026-04-12,,La Liga,2025-2026,Real Madrid,Girona,Home,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-19,,La Liga,2025-2026,Real Madrid,Betis,Away,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-22,,La Liga,2025-2026,Real Madrid,Alavés,Home,Matchweek 33,,,,,,,,,,,,,,,,
+2026-05-03,,La Liga,2025-2026,Real Madrid,Espanyol,Away,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-10,,La Liga,2025-2026,Real Madrid,Barcelona,Away,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-13,,La Liga,2025-2026,Real Madrid,Oviedo,Home,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,,La Liga,2025-2026,Real Madrid,Sevilla,Away,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,,La Liga,2025-2026,Real Madrid,Athletic Club,Home,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-16,19:30 (17:30),La Liga,2025-2026,Barcelona,Mallorca,Away,Matchweek 1,,,,,,,,,,,,,,,,
+2025-08-23,21:30 (19:30),La Liga,2025-2026,Barcelona,Levante,Away,Matchweek 2,,,,,,,,,,,,,,,,
+2025-08-31,21:30 (19:30),La Liga,2025-2026,Barcelona,Rayo Vallecano,Away,Matchweek 3,,,,,,,,,,,,,,,,
+2025-09-14,,La Liga,2025-2026,Barcelona,Valencia,Home,Matchweek 4,,,,,,,,,,,,,,,,
+2025-09-21,,La Liga,2025-2026,Barcelona,Getafe,Home,Matchweek 5,,,,,,,,,,,,,,,,
+2025-09-24,,La Liga,2025-2026,Barcelona,Oviedo,Away,Matchweek 6,,,,,,,,,,,,,,,,
+2025-09-28,,La Liga,2025-2026,Barcelona,Real Sociedad,Home,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-05,,La Liga,2025-2026,Barcelona,Sevilla,Away,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-19,,La Liga,2025-2026,Barcelona,Girona,Home,Matchweek 9,,,,,,,,,,,,,,,,
+2025-10-26,,La Liga,2025-2026,Barcelona,Real Madrid,Away,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-02,,La Liga,2025-2026,Barcelona,Elche,Home,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-09,,La Liga,2025-2026,Barcelona,Celta Vigo,Away,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-23,,La Liga,2025-2026,Barcelona,Athletic Club,Home,Matchweek 13,,,,,,,,,,,,,,,,
+2025-11-30,,La Liga,2025-2026,Barcelona,Alavés,Home,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-07,,La Liga,2025-2026,Barcelona,Betis,Away,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-14,,La Liga,2025-2026,Barcelona,Osasuna,Home,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-21,,La Liga,2025-2026,Barcelona,Villarreal,Away,Matchweek 17,,,,,,,,,,,,,,,,
+2026-01-04,,La Liga,2025-2026,Barcelona,Espanyol,Away,Matchweek 18,,,,,,,,,,,,,,,,
+2026-01-11,,La Liga,2025-2026,Barcelona,Atlético Madrid,Home,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-18,,La Liga,2025-2026,Barcelona,Real Sociedad,Away,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-25,,La Liga,2025-2026,Barcelona,Oviedo,Home,Matchweek 21,,,,,,,,,,,,,,,,
+2026-02-01,,La Liga,2025-2026,Barcelona,Elche,Away,Matchweek 22,,,,,,,,,,,,,,,,
+2026-02-08,,La Liga,2025-2026,Barcelona,Mallorca,Home,Matchweek 23,,,,,,,,,,,,,,,,
+2026-02-15,,La Liga,2025-2026,Barcelona,Girona,Away,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-22,,La Liga,2025-2026,Barcelona,Levante,Home,Matchweek 25,,,,,,,,,,,,,,,,
+2026-03-01,,La Liga,2025-2026,Barcelona,Villarreal,Home,Matchweek 26,,,,,,,,,,,,,,,,
+2026-03-08,,La Liga,2025-2026,Barcelona,Athletic Club,Away,Matchweek 27,,,,,,,,,,,,,,,,
+2026-03-15,,La Liga,2025-2026,Barcelona,Sevilla,Home,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-22,,La Liga,2025-2026,Barcelona,Rayo Vallecano,Home,Matchweek 29,,,,,,,,,,,,,,,,
+2026-04-05,,La Liga,2025-2026,Barcelona,Atlético Madrid,Away,Matchweek 30,,,,,,,,,,,,,,,,
+2026-04-12,,La Liga,2025-2026,Barcelona,Espanyol,Home,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-19,,La Liga,2025-2026,Barcelona,Getafe,Away,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-22,,La Liga,2025-2026,Barcelona,Celta Vigo,Home,Matchweek 33,,,,,,,,,,,,,,,,
+2026-05-03,,La Liga,2025-2026,Barcelona,Osasuna,Away,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-10,,La Liga,2025-2026,Barcelona,Real Madrid,Home,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-13,,La Liga,2025-2026,Barcelona,Alavés,Away,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,,La Liga,2025-2026,Barcelona,Betis,Home,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,,La Liga,2025-2026,Barcelona,Valencia,Away,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-16,21:30 (19:30),La Liga,2025-2026,Valencia,Real Sociedad,Home,Matchweek 1,,,,,,,,,,,,,,,,
+2025-08-24,17:00 (15:00),La Liga,2025-2026,Valencia,Osasuna,Away,Matchweek 2,,,,,,,,,,,,,,,,
+2025-08-29,21:30 (19:30),La Liga,2025-2026,Valencia,Getafe,Home,Matchweek 3,,,,,,,,,,,,,,,,
+2025-09-14,,La Liga,2025-2026,Valencia,Barcelona,Away,Matchweek 4,,,,,,,,,,,,,,,,
+2025-09-21,,La Liga,2025-2026,Valencia,Athletic Club,Home,Matchweek 5,,,,,,,,,,,,,,,,
+2025-09-24,,La Liga,2025-2026,Valencia,Espanyol,Away,Matchweek 6,,,,,,,,,,,,,,,,
+2025-09-28,,La Liga,2025-2026,Valencia,Oviedo,Home,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-05,,La Liga,2025-2026,Valencia,Girona,Away,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-19,,La Liga,2025-2026,Valencia,Alavés,Away,Matchweek 9,,,,,,,,,,,,,,,,
+2025-10-26,,La Liga,2025-2026,Valencia,Villarreal,Home,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-02,,La Liga,2025-2026,Valencia,Real Madrid,Away,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-09,,La Liga,2025-2026,Valencia,Betis,Home,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-23,,La Liga,2025-2026,Valencia,Levante,Home,Matchweek 13,,,,,,,,,,,,,,,,
+2025-11-30,,La Liga,2025-2026,Valencia,Rayo Vallecano,Away,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-07,,La Liga,2025-2026,Valencia,Sevilla,Home,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-14,,La Liga,2025-2026,Valencia,Atlético Madrid,Away,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-21,,La Liga,2025-2026,Valencia,Mallorca,Home,Matchweek 17,,,,,,,,,,,,,,,,
+2026-01-04,,La Liga,2025-2026,Valencia,Celta Vigo,Away,Matchweek 18,,,,,,,,,,,,,,,,
+2026-01-11,,La Liga,2025-2026,Valencia,Elche,Home,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-18,,La Liga,2025-2026,Valencia,Getafe,Away,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-25,,La Liga,2025-2026,Valencia,Espanyol,Home,Matchweek 21,,,,,,,,,,,,,,,,
+2026-02-01,,La Liga,2025-2026,Valencia,Betis,Away,Matchweek 22,,,,,,,,,,,,,,,,
+2026-02-08,,La Liga,2025-2026,Valencia,Real Madrid,Home,Matchweek 23,,,,,,,,,,,,,,,,
+2026-02-15,,La Liga,2025-2026,Valencia,Levante,Away,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-22,,La Liga,2025-2026,Valencia,Villarreal,Away,Matchweek 25,,,,,,,,,,,,,,,,
+2026-03-01,,La Liga,2025-2026,Valencia,Osasuna,Home,Matchweek 26,,,,,,,,,,,,,,,,
+2026-03-08,,La Liga,2025-2026,Valencia,Alavés,Home,Matchweek 27,,,,,,,,,,,,,,,,
+2026-03-15,,La Liga,2025-2026,Valencia,Oviedo,Away,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-22,,La Liga,2025-2026,Valencia,Sevilla,Away,Matchweek 29,,,,,,,,,,,,,,,,
+2026-04-05,,La Liga,2025-2026,Valencia,Celta Vigo,Home,Matchweek 30,,,,,,,,,,,,,,,,
+2026-04-12,,La Liga,2025-2026,Valencia,Elche,Away,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-19,,La Liga,2025-2026,Valencia,Girona,Home,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-22,,La Liga,2025-2026,Valencia,Mallorca,Away,Matchweek 33,,,,,,,,,,,,,,,,
+2026-05-03,,La Liga,2025-2026,Valencia,Atlético Madrid,Home,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-10,,La Liga,2025-2026,Valencia,Athletic Club,Away,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-13,,La Liga,2025-2026,Valencia,Rayo Vallecano,Home,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,,La Liga,2025-2026,Valencia,Real Sociedad,Away,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,,La Liga,2025-2026,Valencia,Barcelona,Home,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-15,21:30 (19:30),La Liga,2025-2026,Oviedo,Villarreal,Away,Matchweek 1,,,,,,,,,,,,,,,,
+2025-08-24,21:30 (19:30),La Liga,2025-2026,Oviedo,Real Madrid,Home,Matchweek 2,,,,,,,,,,,,,,,,
+2025-08-30,19:00 (17:00),La Liga,2025-2026,Oviedo,Real Sociedad,Home,Matchweek 3,,,,,,,,,,,,,,,,
+2025-09-14,,La Liga,2025-2026,Oviedo,Getafe,Away,Matchweek 4,,,,,,,,,,,,,,,,
+2025-09-21,,La Liga,2025-2026,Oviedo,Elche,Away,Matchweek 5,,,,,,,,,,,,,,,,
+2025-09-24,,La Liga,2025-2026,Oviedo,Barcelona,Home,Matchweek 6,,,,,,,,,,,,,,,,
+2025-09-28,,La Liga,2025-2026,Oviedo,Valencia,Away,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-05,,La Liga,2025-2026,Oviedo,Levante,Home,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-19,,La Liga,2025-2026,Oviedo,Espanyol,Home,Matchweek 9,,,,,,,,,,,,,,,,
+2025-10-26,,La Liga,2025-2026,Oviedo,Girona,Away,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-02,,La Liga,2025-2026,Oviedo,Osasuna,Home,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-09,,La Liga,2025-2026,Oviedo,Athletic Club,Away,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-23,,La Liga,2025-2026,Oviedo,Rayo Vallecano,Home,Matchweek 13,,,,,,,,,,,,,,,,
+2025-11-30,,La Liga,2025-2026,Oviedo,Atlético Madrid,Away,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-07,,La Liga,2025-2026,Oviedo,Mallorca,Home,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-14,,La Liga,2025-2026,Oviedo,Sevilla,Away,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-21,,La Liga,2025-2026,Oviedo,Celta Vigo,Home,Matchweek 17,,,,,,,,,,,,,,,,
+2026-01-04,,La Liga,2025-2026,Oviedo,Alavés,Away,Matchweek 18,,,,,,,,,,,,,,,,
+2026-01-11,,La Liga,2025-2026,Oviedo,Betis,Home,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-18,,La Liga,2025-2026,Oviedo,Osasuna,Away,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-25,,La Liga,2025-2026,Oviedo,Barcelona,Away,Matchweek 21,,,,,,,,,,,,,,,,
+2026-02-01,,La Liga,2025-2026,Oviedo,Girona,Home,Matchweek 22,,,,,,,,,,,,,,,,
+2026-02-08,,La Liga,2025-2026,Oviedo,Rayo Vallecano,Away,Matchweek 23,,,,,,,,,,,,,,,,
+2026-02-15,,La Liga,2025-2026,Oviedo,Athletic Club,Home,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-22,,La Liga,2025-2026,Oviedo,Real Sociedad,Away,Matchweek 25,,,,,,,,,,,,,,,,
+2026-03-01,,La Liga,2025-2026,Oviedo,Atlético Madrid,Home,Matchweek 26,,,,,,,,,,,,,,,,
+2026-03-08,,La Liga,2025-2026,Oviedo,Espanyol,Away,Matchweek 27,,,,,,,,,,,,,,,,
+2026-03-15,,La Liga,2025-2026,Oviedo,Valencia,Home,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-22,,La Liga,2025-2026,Oviedo,Levante,Away,Matchweek 29,,,,,,,,,,,,,,,,
+2026-04-05,,La Liga,2025-2026,Oviedo,Sevilla,Home,Matchweek 30,,,,,,,,,,,,,,,,
+2026-04-12,,La Liga,2025-2026,Oviedo,Celta Vigo,Away,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-19,,La Liga,2025-2026,Oviedo,Elche,Home,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-22,,La Liga,2025-2026,Oviedo,Villarreal,Home,Matchweek 33,,,,,,,,,,,,,,,,
+2026-05-03,,La Liga,2025-2026,Oviedo,Betis,Away,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-10,,La Liga,2025-2026,Oviedo,Getafe,Home,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-13,,La Liga,2025-2026,Oviedo,Real Madrid,Away,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,,La Liga,2025-2026,Oviedo,Alavés,Home,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,,La Liga,2025-2026,Oviedo,Mallorca,Away,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-17,21:30 (19:30),La Liga,2025-2026,Atletico Madrid,Espanyol,Away,Matchweek 1,,,,,,,,,,,,,,,,
+2025-08-23,19:30 (17:30),La Liga,2025-2026,Atletico Madrid,Elche,Home,Matchweek 2,,,,,,,,,,,,,,,,
+2025-08-30,17:00 (15:00),La Liga,2025-2026,Atletico Madrid,Alavés,Away,Matchweek 3,,,,,,,,,,,,,,,,
+2025-09-14,,La Liga,2025-2026,Atletico Madrid,Villarreal,Home,Matchweek 4,,,,,,,,,,,,,,,,
+2025-09-21,,La Liga,2025-2026,Atletico Madrid,Mallorca,Away,Matchweek 5,,,,,,,,,,,,,,,,
+2025-09-24,,La Liga,2025-2026,Atletico Madrid,Rayo Vallecano,Home,Matchweek 6,,,,,,,,,,,,,,,,
+2025-09-28,,La Liga,2025-2026,Atletico Madrid,Real Madrid,Home,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-05,,La Liga,2025-2026,Atletico Madrid,Celta Vigo,Away,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-19,,La Liga,2025-2026,Atletico Madrid,Osasuna,Home,Matchweek 9,,,,,,,,,,,,,,,,
+2025-10-26,,La Liga,2025-2026,Atletico Madrid,Betis,Away,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-02,,La Liga,2025-2026,Atletico Madrid,Sevilla,Home,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-09,,La Liga,2025-2026,Atletico Madrid,Levante,Home,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-23,,La Liga,2025-2026,Atletico Madrid,Getafe,Away,Matchweek 13,,,,,,,,,,,,,,,,
+2025-11-30,,La Liga,2025-2026,Atletico Madrid,Oviedo,Home,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-07,,La Liga,2025-2026,Atletico Madrid,Athletic Club,Away,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-14,,La Liga,2025-2026,Atletico Madrid,Valencia,Home,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-21,,La Liga,2025-2026,Atletico Madrid,Girona,Away,Matchweek 17,,,,,,,,,,,,,,,,
+2026-01-04,,La Liga,2025-2026,Atletico Madrid,Real Sociedad,Away,Matchweek 18,,,,,,,,,,,,,,,,
+2026-01-11,,La Liga,2025-2026,Atletico Madrid,Barcelona,Away,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-18,,La Liga,2025-2026,Atletico Madrid,Alavés,Home,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-25,,La Liga,2025-2026,Atletico Madrid,Mallorca,Home,Matchweek 21,,,,,,,,,,,,,,,,
+2026-02-01,,La Liga,2025-2026,Atletico Madrid,Levante,Away,Matchweek 22,,,,,,,,,,,,,,,,
+2026-02-08,,La Liga,2025-2026,Atletico Madrid,Betis,Home,Matchweek 23,,,,,,,,,,,,,,,,
+2026-02-15,,La Liga,2025-2026,Atletico Madrid,Rayo Vallecano,Away,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-22,,La Liga,2025-2026,Atletico Madrid,Espanyol,Home,Matchweek 25,,,,,,,,,,,,,,,,
+2026-03-01,,La Liga,2025-2026,Atletico Madrid,Oviedo,Away,Matchweek 26,,,,,,,,,,,,,,,,
+2026-03-08,,La Liga,2025-2026,Atletico Madrid,Real Sociedad,Home,Matchweek 27,,,,,,,,,,,,,,,,
+2026-03-15,,La Liga,2025-2026,Atletico Madrid,Getafe,Home,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-22,,La Liga,2025-2026,Atletico Madrid,Real Madrid,Away,Matchweek 29,,,,,,,,,,,,,,,,
+2026-04-05,,La Liga,2025-2026,Atletico Madrid,Barcelona,Home,Matchweek 30,,,,,,,,,,,,,,,,
+2026-04-12,,La Liga,2025-2026,Atletico Madrid,Sevilla,Away,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-19,,La Liga,2025-2026,Atletico Madrid,Athletic Club,Home,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-22,,La Liga,2025-2026,Atletico Madrid,Elche,Away,Matchweek 33,,,,,,,,,,,,,,,,
+2026-05-03,,La Liga,2025-2026,Atletico Madrid,Valencia,Away,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-10,,La Liga,2025-2026,Atletico Madrid,Celta Vigo,Home,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-13,,La Liga,2025-2026,Atletico Madrid,Osasuna,Away,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,,La Liga,2025-2026,Atletico Madrid,Girona,Home,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,,La Liga,2025-2026,Atletico Madrid,Villarreal,Away,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-16,17:00 (15:00),La Liga,2025-2026,Levante,Alavés,Away,Matchweek 1,,,,,,,,,,,,,,,,
+2025-08-23,21:30 (19:30),La Liga,2025-2026,Levante,Barcelona,Home,Matchweek 2,,,,,,,,,,,,,,,,
+2025-08-29,19:30 (17:30),La Liga,2025-2026,Levante,Elche,Away,Matchweek 3,,,,,,,,,,,,,,,,
+2025-09-14,,La Liga,2025-2026,Levante,Betis,Home,Matchweek 4,,,,,,,,,,,,,,,,
+2025-09-21,,La Liga,2025-2026,Levante,Girona,Away,Matchweek 5,,,,,,,,,,,,,,,,
+2025-09-24,,La Liga,2025-2026,Levante,Real Madrid,Home,Matchweek 6,,,,,,,,,,,,,,,,
+2025-09-28,,La Liga,2025-2026,Levante,Getafe,Away,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-05,,La Liga,2025-2026,Levante,Oviedo,Away,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-19,,La Liga,2025-2026,Levante,Rayo Vallecano,Home,Matchweek 9,,,,,,,,,,,,,,,,
+2025-10-26,,La Liga,2025-2026,Levante,Mallorca,Away,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-02,,La Liga,2025-2026,Levante,Celta Vigo,Home,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-09,,La Liga,2025-2026,Levante,Atlético Madrid,Away,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-23,,La Liga,2025-2026,Levante,Valencia,Away,Matchweek 13,,,,,,,,,,,,,,,,
+2025-11-30,,La Liga,2025-2026,Levante,Athletic Club,Home,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-07,,La Liga,2025-2026,Levante,Osasuna,Away,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-14,,La Liga,2025-2026,Levante,Villarreal,Home,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-21,,La Liga,2025-2026,Levante,Real Sociedad,Home,Matchweek 17,,,,,,,,,,,,,,,,
+2026-01-04,,La Liga,2025-2026,Levante,Sevilla,Away,Matchweek 18,,,,,,,,,,,,,,,,
+2026-01-11,,La Liga,2025-2026,Levante,Espanyol,Home,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-18,,La Liga,2025-2026,Levante,Real Madrid,Away,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-25,,La Liga,2025-2026,Levante,Elche,Home,Matchweek 21,,,,,,,,,,,,,,,,
+2026-02-01,,La Liga,2025-2026,Levante,Atlético Madrid,Home,Matchweek 22,,,,,,,,,,,,,,,,
+2026-02-08,,La Liga,2025-2026,Levante,Athletic Club,Away,Matchweek 23,,,,,,,,,,,,,,,,
+2026-02-15,,La Liga,2025-2026,Levante,Valencia,Home,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-22,,La Liga,2025-2026,Levante,Barcelona,Away,Matchweek 25,,,,,,,,,,,,,,,,
+2026-03-01,,La Liga,2025-2026,Levante,Alavés,Home,Matchweek 26,,,,,,,,,,,,,,,,
+2026-03-08,,La Liga,2025-2026,Levante,Girona,Home,Matchweek 27,,,,,,,,,,,,,,,,
+2026-03-15,,La Liga,2025-2026,Levante,Rayo Vallecano,Away,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-22,,La Liga,2025-2026,Levante,Oviedo,Home,Matchweek 29,,,,,,,,,,,,,,,,
+2026-04-05,,La Liga,2025-2026,Levante,Real Sociedad,Away,Matchweek 30,,,,,,,,,,,,,,,,
+2026-04-12,,La Liga,2025-2026,Levante,Getafe,Home,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-19,,La Liga,2025-2026,Levante,Espanyol,Away,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-22,,La Liga,2025-2026,Levante,Sevilla,Home,Matchweek 33,,,,,,,,,,,,,,,,
+2026-05-03,,La Liga,2025-2026,Levante,Villarreal,Away,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-10,,La Liga,2025-2026,Levante,Osasuna,Home,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-13,,La Liga,2025-2026,Levante,Celta Vigo,Away,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,,La Liga,2025-2026,Levante,Mallorca,Home,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,,La Liga,2025-2026,Levante,Betis,Away,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-19,21:00 (19:00),La Liga,2025-2026,Osasuna,Real Madrid,Away,Matchweek 1,,,,,,,,,,,,,,,,
+2025-08-24,17:00 (15:00),La Liga,2025-2026,Osasuna,Valencia,Home,Matchweek 2,,,,,,,,,,,,,,,,
+2025-08-31,19:30 (17:30),La Liga,2025-2026,Osasuna,Espanyol,Away,Matchweek 3,,,,,,,,,,,,,,,,
+2025-09-14,,La Liga,2025-2026,Osasuna,Rayo Vallecano,Home,Matchweek 4,,,,,,,,,,,,,,,,
+2025-09-21,,La Liga,2025-2026,Osasuna,Villarreal,Away,Matchweek 5,,,,,,,,,,,,,,,,
+2025-09-24,,La Liga,2025-2026,Osasuna,Elche,Home,Matchweek 6,,,,,,,,,,,,,,,,
+2025-09-28,,La Liga,2025-2026,Osasuna,Betis,Away,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-05,,La Liga,2025-2026,Osasuna,Getafe,Home,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-19,,La Liga,2025-2026,Osasuna,Atlético Madrid,Away,Matchweek 9,,,,,,,,,,,,,,,,
+2025-10-26,,La Liga,2025-2026,Osasuna,Celta Vigo,Home,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-02,,La Liga,2025-2026,Osasuna,Oviedo,Away,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-09,,La Liga,2025-2026,Osasuna,Sevilla,Away,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-23,,La Liga,2025-2026,Osasuna,Real Sociedad,Home,Matchweek 13,,,,,,,,,,,,,,,,
+2025-11-30,,La Liga,2025-2026,Osasuna,Mallorca,Away,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-07,,La Liga,2025-2026,Osasuna,Levante,Home,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-14,,La Liga,2025-2026,Osasuna,Barcelona,Away,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-21,,La Liga,2025-2026,Osasuna,Alavés,Home,Matchweek 17,,,,,,,,,,,,,,,,
+2026-01-04,,La Liga,2025-2026,Osasuna,Athletic Club,Home,Matchweek 18,,,,,,,,,,,,,,,,
+2026-01-11,,La Liga,2025-2026,Osasuna,Girona,Away,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-18,,La Liga,2025-2026,Osasuna,Oviedo,Home,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-25,,La Liga,2025-2026,Osasuna,Rayo Vallecano,Away,Matchweek 21,,,,,,,,,,,,,,,,
+2026-02-01,,La Liga,2025-2026,Osasuna,Villarreal,Home,Matchweek 22,,,,,,,,,,,,,,,,
+2026-02-08,,La Liga,2025-2026,Osasuna,Celta Vigo,Away,Matchweek 23,,,,,,,,,,,,,,,,
+2026-02-15,,La Liga,2025-2026,Osasuna,Elche,Away,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-22,,La Liga,2025-2026,Osasuna,Real Madrid,Home,Matchweek 25,,,,,,,,,,,,,,,,
+2026-03-01,,La Liga,2025-2026,Osasuna,Valencia,Away,Matchweek 26,,,,,,,,,,,,,,,,
+2026-03-08,,La Liga,2025-2026,Osasuna,Mallorca,Home,Matchweek 27,,,,,,,,,,,,,,,,
+2026-03-15,,La Liga,2025-2026,Osasuna,Real Sociedad,Away,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-22,,La Liga,2025-2026,Osasuna,Girona,Home,Matchweek 29,,,,,,,,,,,,,,,,
+2026-04-05,,La Liga,2025-2026,Osasuna,Alavés,Away,Matchweek 30,,,,,,,,,,,,,,,,
+2026-04-12,,La Liga,2025-2026,Osasuna,Betis,Home,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-19,,La Liga,2025-2026,Osasuna,Sevilla,Home,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-22,,La Liga,2025-2026,Osasuna,Athletic Club,Away,Matchweek 33,,,,,,,,,,,,,,,,
+2026-05-03,,La Liga,2025-2026,Osasuna,Barcelona,Home,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-10,,La Liga,2025-2026,Osasuna,Levante,Away,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-13,,La Liga,2025-2026,Osasuna,Atlético Madrid,Home,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,,La Liga,2025-2026,Osasuna,Espanyol,Home,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,,La Liga,2025-2026,Osasuna,Getafe,Away,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-16,19:30 (17:30),La Liga,2025-2026,Mallorca,Barcelona,Home,Matchweek 1,,,,,,,,,,,,,,,,
+2025-08-23,17:00 (15:00),La Liga,2025-2026,Mallorca,Celta Vigo,Home,Matchweek 2,,,,,,,,,,,,,,,,
+2025-08-30,21:30 (19:30),La Liga,2025-2026,Mallorca,Real Madrid,Away,Matchweek 3,,,,,,,,,,,,,,,,
+2025-09-14,,La Liga,2025-2026,Mallorca,Espanyol,Away,Matchweek 4,,,,,,,,,,,,,,,,
+2025-09-21,,La Liga,2025-2026,Mallorca,Atlético Madrid,Home,Matchweek 5,,,,,,,,,,,,,,,,
+2025-09-24,,La Liga,2025-2026,Mallorca,Real Sociedad,Away,Matchweek 6,,,,,,,,,,,,,,,,
+2025-09-28,,La Liga,2025-2026,Mallorca,Alavés,Home,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-05,,La Liga,2025-2026,Mallorca,Athletic Club,Away,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-19,,La Liga,2025-2026,Mallorca,Sevilla,Away,Matchweek 9,,,,,,,,,,,,,,,,
+2025-10-26,,La Liga,2025-2026,Mallorca,Levante,Home,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-02,,La Liga,2025-2026,Mallorca,Betis,Away,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-09,,La Liga,2025-2026,Mallorca,Getafe,Home,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-23,,La Liga,2025-2026,Mallorca,Villarreal,Away,Matchweek 13,,,,,,,,,,,,,,,,
+2025-11-30,,La Liga,2025-2026,Mallorca,Osasuna,Home,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-07,,La Liga,2025-2026,Mallorca,Oviedo,Away,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-14,,La Liga,2025-2026,Mallorca,Elche,Home,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-21,,La Liga,2025-2026,Mallorca,Valencia,Away,Matchweek 17,,,,,,,,,,,,,,,,
+2026-01-04,,La Liga,2025-2026,Mallorca,Girona,Home,Matchweek 18,,,,,,,,,,,,,,,,
+2026-01-11,,La Liga,2025-2026,Mallorca,Rayo Vallecano,Away,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-18,,La Liga,2025-2026,Mallorca,Athletic Club,Home,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-25,,La Liga,2025-2026,Mallorca,Atlético Madrid,Away,Matchweek 21,,,,,,,,,,,,,,,,
+2026-02-01,,La Liga,2025-2026,Mallorca,Sevilla,Home,Matchweek 22,,,,,,,,,,,,,,,,
+2026-02-08,,La Liga,2025-2026,Mallorca,Barcelona,Away,Matchweek 23,,,,,,,,,,,,,,,,
+2026-02-15,,La Liga,2025-2026,Mallorca,Betis,Home,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-22,,La Liga,2025-2026,Mallorca,Celta Vigo,Away,Matchweek 25,,,,,,,,,,,,,,,,
+2026-03-01,,La Liga,2025-2026,Mallorca,Real Sociedad,Home,Matchweek 26,,,,,,,,,,,,,,,,
+2026-03-08,,La Liga,2025-2026,Mallorca,Osasuna,Away,Matchweek 27,,,,,,,,,,,,,,,,
+2026-03-15,,La Liga,2025-2026,Mallorca,Espanyol,Home,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-22,,La Liga,2025-2026,Mallorca,Elche,Away,Matchweek 29,,,,,,,,,,,,,,,,
+2026-04-05,,La Liga,2025-2026,Mallorca,Real Madrid,Home,Matchweek 30,,,,,,,,,,,,,,,,
+2026-04-12,,La Liga,2025-2026,Mallorca,Rayo Vallecano,Home,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-19,,La Liga,2025-2026,Mallorca,Alavés,Away,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-22,,La Liga,2025-2026,Mallorca,Valencia,Home,Matchweek 33,,,,,,,,,,,,,,,,
+2026-05-03,,La Liga,2025-2026,Mallorca,Girona,Away,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-10,,La Liga,2025-2026,Mallorca,Villarreal,Home,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-13,,La Liga,2025-2026,Mallorca,Getafe,Away,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,,La Liga,2025-2026,Mallorca,Levante,Away,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,,La Liga,2025-2026,Mallorca,Oviedo,Home,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-17,19:30 (17:30),La Liga,2025-2026,Sevilla,Athletic Club,Away,Matchweek 1,,,,,,,,,,,,,,,,
+2025-08-25,21:30 (19:30),La Liga,2025-2026,Sevilla,Getafe,Home,Matchweek 2,,,,,,,,,,,,,,,,
+2025-08-30,19:30 (17:30),La Liga,2025-2026,Sevilla,Girona,Away,Matchweek 3,,,,,,,,,,,,,,,,
+2025-09-14,,La Liga,2025-2026,Sevilla,Elche,Home,Matchweek 4,,,,,,,,,,,,,,,,
+2025-09-21,,La Liga,2025-2026,Sevilla,Alavés,Away,Matchweek 5,,,,,,,,,,,,,,,,
+2025-09-24,,La Liga,2025-2026,Sevilla,Villarreal,Home,Matchweek 6,,,,,,,,,,,,,,,,
+2025-09-28,,La Liga,2025-2026,Sevilla,Rayo Vallecano,Away,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-05,,La Liga,2025-2026,Sevilla,Barcelona,Home,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-19,,La Liga,2025-2026,Sevilla,Mallorca,Home,Matchweek 9,,,,,,,,,,,,,,,,
+2025-10-26,,La Liga,2025-2026,Sevilla,Real Sociedad,Away,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-02,,La Liga,2025-2026,Sevilla,Atlético Madrid,Away,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-09,,La Liga,2025-2026,Sevilla,Osasuna,Home,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-23,,La Liga,2025-2026,Sevilla,Espanyol,Away,Matchweek 13,,,,,,,,,,,,,,,,
+2025-11-30,,La Liga,2025-2026,Sevilla,Betis,Home,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-07,,La Liga,2025-2026,Sevilla,Valencia,Away,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-14,,La Liga,2025-2026,Sevilla,Oviedo,Home,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-21,,La Liga,2025-2026,Sevilla,Real Madrid,Away,Matchweek 17,,,,,,,,,,,,,,,,
+2026-01-04,,La Liga,2025-2026,Sevilla,Levante,Home,Matchweek 18,,,,,,,,,,,,,,,,
+2026-01-11,,La Liga,2025-2026,Sevilla,Celta Vigo,Home,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-18,,La Liga,2025-2026,Sevilla,Elche,Away,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-25,,La Liga,2025-2026,Sevilla,Athletic Club,Home,Matchweek 21,,,,,,,,,,,,,,,,
+2026-02-01,,La Liga,2025-2026,Sevilla,Mallorca,Away,Matchweek 22,,,,,,,,,,,,,,,,
+2026-02-08,,La Liga,2025-2026,Sevilla,Girona,Home,Matchweek 23,,,,,,,,,,,,,,,,
+2026-02-15,,La Liga,2025-2026,Sevilla,Alavés,Home,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-22,,La Liga,2025-2026,Sevilla,Getafe,Away,Matchweek 25,,,,,,,,,,,,,,,,
+2026-03-01,,La Liga,2025-2026,Sevilla,Betis,Away,Matchweek 26,,,,,,,,,,,,,,,,
+2026-03-08,,La Liga,2025-2026,Sevilla,Rayo Vallecano,Home,Matchweek 27,,,,,,,,,,,,,,,,
+2026-03-15,,La Liga,2025-2026,Sevilla,Barcelona,Away,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-22,,La Liga,2025-2026,Sevilla,Valencia,Home,Matchweek 29,,,,,,,,,,,,,,,,
+2026-04-05,,La Liga,2025-2026,Sevilla,Oviedo,Away,Matchweek 30,,,,,,,,,,,,,,,,
+2026-04-12,,La Liga,2025-2026,Sevilla,Atlético Madrid,Home,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-19,,La Liga,2025-2026,Sevilla,Osasuna,Away,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-22,,La Liga,2025-2026,Sevilla,Levante,Away,Matchweek 33,,,,,,,,,,,,,,,,
+2026-05-03,,La Liga,2025-2026,Sevilla,Real Sociedad,Home,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-10,,La Liga,2025-2026,Sevilla,Espanyol,Home,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-13,,La Liga,2025-2026,Sevilla,Villarreal,Away,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,,La Liga,2025-2026,Sevilla,Real Madrid,Home,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,,La Liga,2025-2026,Sevilla,Celta Vigo,Away,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-17,19:30 (17:30),La Liga,2025-2026,Athletic Club,Sevilla,Home,Matchweek 1,,,,,,,,,,,,,,,,
+2025-08-25,19:30 (17:30),La Liga,2025-2026,Athletic Club,Rayo Vallecano,Home,Matchweek 2,,,,,,,,,,,,,,,,
+2025-08-31,19:00 (17:00),La Liga,2025-2026,Athletic Club,Betis,Away,Matchweek 3,,,,,,,,,,,,,,,,
+2025-09-14,,La Liga,2025-2026,Athletic Club,Alavés,Home,Matchweek 4,,,,,,,,,,,,,,,,
+2025-09-21,,La Liga,2025-2026,Athletic Club,Valencia,Away,Matchweek 5,,,,,,,,,,,,,,,,
+2025-09-24,,La Liga,2025-2026,Athletic Club,Girona,Home,Matchweek 6,,,,,,,,,,,,,,,,
+2025-09-28,,La Liga,2025-2026,Athletic Club,Villarreal,Away,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-05,,La Liga,2025-2026,Athletic Club,Mallorca,Home,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-19,,La Liga,2025-2026,Athletic Club,Elche,Away,Matchweek 9,,,,,,,,,,,,,,,,
+2025-10-26,,La Liga,2025-2026,Athletic Club,Getafe,Home,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-02,,La Liga,2025-2026,Athletic Club,Real Sociedad,Away,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-09,,La Liga,2025-2026,Athletic Club,Oviedo,Home,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-23,,La Liga,2025-2026,Athletic Club,Barcelona,Away,Matchweek 13,,,,,,,,,,,,,,,,
+2025-11-30,,La Liga,2025-2026,Athletic Club,Levante,Away,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-07,,La Liga,2025-2026,Athletic Club,Atlético Madrid,Home,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-14,,La Liga,2025-2026,Athletic Club,Celta Vigo,Away,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-21,,La Liga,2025-2026,Athletic Club,Espanyol,Home,Matchweek 17,,,,,,,,,,,,,,,,
+2026-01-04,,La Liga,2025-2026,Athletic Club,Osasuna,Away,Matchweek 18,,,,,,,,,,,,,,,,
+2026-01-11,,La Liga,2025-2026,Athletic Club,Real Madrid,Home,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-18,,La Liga,2025-2026,Athletic Club,Mallorca,Away,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-25,,La Liga,2025-2026,Athletic Club,Sevilla,Away,Matchweek 21,,,,,,,,,,,,,,,,
+2026-02-01,,La Liga,2025-2026,Athletic Club,Real Sociedad,Home,Matchweek 22,,,,,,,,,,,,,,,,
+2026-02-08,,La Liga,2025-2026,Athletic Club,Levante,Home,Matchweek 23,,,,,,,,,,,,,,,,
+2026-02-15,,La Liga,2025-2026,Athletic Club,Oviedo,Away,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-22,,La Liga,2025-2026,Athletic Club,Elche,Home,Matchweek 25,,,,,,,,,,,,,,,,
+2026-03-01,,La Liga,2025-2026,Athletic Club,Rayo Vallecano,Away,Matchweek 26,,,,,,,,,,,,,,,,
+2026-03-08,,La Liga,2025-2026,Athletic Club,Barcelona,Home,Matchweek 27,,,,,,,,,,,,,,,,
+2026-03-15,,La Liga,2025-2026,Athletic Club,Girona,Away,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-22,,La Liga,2025-2026,Athletic Club,Betis,Home,Matchweek 29,,,,,,,,,,,,,,,,
+2026-04-05,,La Liga,2025-2026,Athletic Club,Getafe,Away,Matchweek 30,,,,,,,,,,,,,,,,
+2026-04-12,,La Liga,2025-2026,Athletic Club,Villarreal,Home,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-19,,La Liga,2025-2026,Athletic Club,Atlético Madrid,Away,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-22,,La Liga,2025-2026,Athletic Club,Osasuna,Home,Matchweek 33,,,,,,,,,,,,,,,,
+2026-05-03,,La Liga,2025-2026,Athletic Club,Alavés,Away,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-10,,La Liga,2025-2026,Athletic Club,Valencia,Home,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-13,,La Liga,2025-2026,Athletic Club,Espanyol,Away,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,,La Liga,2025-2026,Athletic Club,Celta Vigo,Home,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,,La Liga,2025-2026,Athletic Club,Real Madrid,Away,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-17,17:00 (15:00),La Liga,2025-2026,Getafe,Celta Vigo,Away,Matchweek 1,,,,,,,,,,,,,,,,
+2025-08-25,21:30 (19:30),La Liga,2025-2026,Getafe,Sevilla,Away,Matchweek 2,,,,,,,,,,,,,,,,
+2025-08-29,21:30 (19:30),La Liga,2025-2026,Getafe,Valencia,Away,Matchweek 3,,,,,,,,,,,,,,,,
+2025-09-14,,La Liga,2025-2026,Getafe,Oviedo,Home,Matchweek 4,,,,,,,,,,,,,,,,
+2025-09-21,,La Liga,2025-2026,Getafe,Barcelona,Away,Matchweek 5,,,,,,,,,,,,,,,,
+2025-09-24,,La Liga,2025-2026,Getafe,Alavés,Home,Matchweek 6,,,,,,,,,,,,,,,,
+2025-09-28,,La Liga,2025-2026,Getafe,Levante,Home,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-05,,La Liga,2025-2026,Getafe,Osasuna,Away,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-19,,La Liga,2025-2026,Getafe,Real Madrid,Home,Matchweek 9,,,,,,,,,,,,,,,,
+2025-10-26,,La Liga,2025-2026,Getafe,Athletic Club,Away,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-02,,La Liga,2025-2026,Getafe,Girona,Home,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-09,,La Liga,2025-2026,Getafe,Mallorca,Away,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-23,,La Liga,2025-2026,Getafe,Atlético Madrid,Home,Matchweek 13,,,,,,,,,,,,,,,,
+2025-11-30,,La Liga,2025-2026,Getafe,Elche,Home,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-07,,La Liga,2025-2026,Getafe,Villarreal,Away,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-14,,La Liga,2025-2026,Getafe,Espanyol,Home,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-21,,La Liga,2025-2026,Getafe,Betis,Away,Matchweek 17,,,,,,,,,,,,,,,,
+2026-01-04,,La Liga,2025-2026,Getafe,Rayo Vallecano,Away,Matchweek 18,,,,,,,,,,,,,,,,
+2026-01-11,,La Liga,2025-2026,Getafe,Real Sociedad,Home,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-18,,La Liga,2025-2026,Getafe,Valencia,Home,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-25,,La Liga,2025-2026,Getafe,Girona,Away,Matchweek 21,,,,,,,,,,,,,,,,
+2026-02-01,,La Liga,2025-2026,Getafe,Celta Vigo,Home,Matchweek 22,,,,,,,,,,,,,,,,
+2026-02-08,,La Liga,2025-2026,Getafe,Alavés,Away,Matchweek 23,,,,,,,,,,,,,,,,
+2026-02-15,,La Liga,2025-2026,Getafe,Villarreal,Home,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-22,,La Liga,2025-2026,Getafe,Sevilla,Home,Matchweek 25,,,,,,,,,,,,,,,,
+2026-03-01,,La Liga,2025-2026,Getafe,Real Madrid,Away,Matchweek 26,,,,,,,,,,,,,,,,
+2026-03-08,,La Liga,2025-2026,Getafe,Betis,Home,Matchweek 27,,,,,,,,,,,,,,,,
+2026-03-15,,La Liga,2025-2026,Getafe,Atlético Madrid,Away,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-22,,La Liga,2025-2026,Getafe,Espanyol,Away,Matchweek 29,,,,,,,,,,,,,,,,
+2026-04-05,,La Liga,2025-2026,Getafe,Athletic Club,Home,Matchweek 30,,,,,,,,,,,,,,,,
+2026-04-12,,La Liga,2025-2026,Getafe,Levante,Away,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-19,,La Liga,2025-2026,Getafe,Barcelona,Home,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-22,,La Liga,2025-2026,Getafe,Real Sociedad,Away,Matchweek 33,,,,,,,,,,,,,,,,
+2026-05-03,,La Liga,2025-2026,Getafe,Rayo Vallecano,Home,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-10,,La Liga,2025-2026,Getafe,Oviedo,Away,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-13,,La Liga,2025-2026,Getafe,Mallorca,Home,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,,La Liga,2025-2026,Getafe,Elche,Away,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,,La Liga,2025-2026,Getafe,Osasuna,Home,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-16,21:30 (19:30),La Liga,2025-2026,Real Sociedad,Valencia,Away,Matchweek 1,,,,,,,,,,,,,,,,
+2025-08-24,19:30 (17:30),La Liga,2025-2026,Real Sociedad,Espanyol,Home,Matchweek 2,,,,,,,,,,,,,,,,
+2025-08-30,19:00 (17:00),La Liga,2025-2026,Real Sociedad,Oviedo,Away,Matchweek 3,,,,,,,,,,,,,,,,
+2025-09-14,,La Liga,2025-2026,Real Sociedad,Real Madrid,Home,Matchweek 4,,,,,,,,,,,,,,,,
+2025-09-21,,La Liga,2025-2026,Real Sociedad,Betis,Away,Matchweek 5,,,,,,,,,,,,,,,,
+2025-09-24,,La Liga,2025-2026,Real Sociedad,Mallorca,Home,Matchweek 6,,,,,,,,,,,,,,,,
+2025-09-28,,La Liga,2025-2026,Real Sociedad,Barcelona,Away,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-05,,La Liga,2025-2026,Real Sociedad,Rayo Vallecano,Home,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-19,,La Liga,2025-2026,Real Sociedad,Celta Vigo,Away,Matchweek 9,,,,,,,,,,,,,,,,
+2025-10-26,,La Liga,2025-2026,Real Sociedad,Sevilla,Home,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-02,,La Liga,2025-2026,Real Sociedad,Athletic Club,Home,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-09,,La Liga,2025-2026,Real Sociedad,Elche,Away,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-23,,La Liga,2025-2026,Real Sociedad,Osasuna,Away,Matchweek 13,,,,,,,,,,,,,,,,
+2025-11-30,,La Liga,2025-2026,Real Sociedad,Villarreal,Home,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-07,,La Liga,2025-2026,Real Sociedad,Alavés,Away,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-14,,La Liga,2025-2026,Real Sociedad,Girona,Home,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-21,,La Liga,2025-2026,Real Sociedad,Levante,Away,Matchweek 17,,,,,,,,,,,,,,,,
+2026-01-04,,La Liga,2025-2026,Real Sociedad,Atlético Madrid,Home,Matchweek 18,,,,,,,,,,,,,,,,
+2026-01-11,,La Liga,2025-2026,Real Sociedad,Getafe,Away,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-18,,La Liga,2025-2026,Real Sociedad,Barcelona,Home,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-25,,La Liga,2025-2026,Real Sociedad,Celta Vigo,Home,Matchweek 21,,,,,,,,,,,,,,,,
+2026-02-01,,La Liga,2025-2026,Real Sociedad,Athletic Club,Away,Matchweek 22,,,,,,,,,,,,,,,,
+2026-02-08,,La Liga,2025-2026,Real Sociedad,Elche,Home,Matchweek 23,,,,,,,,,,,,,,,,
+2026-02-15,,La Liga,2025-2026,Real Sociedad,Real Madrid,Away,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-22,,La Liga,2025-2026,Real Sociedad,Oviedo,Home,Matchweek 25,,,,,,,,,,,,,,,,
+2026-03-01,,La Liga,2025-2026,Real Sociedad,Mallorca,Away,Matchweek 26,,,,,,,,,,,,,,,,
+2026-03-08,,La Liga,2025-2026,Real Sociedad,Atlético Madrid,Away,Matchweek 27,,,,,,,,,,,,,,,,
+2026-03-15,,La Liga,2025-2026,Real Sociedad,Osasuna,Home,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-22,,La Liga,2025-2026,Real Sociedad,Villarreal,Away,Matchweek 29,,,,,,,,,,,,,,,,
+2026-04-05,,La Liga,2025-2026,Real Sociedad,Levante,Home,Matchweek 30,,,,,,,,,,,,,,,,
+2026-04-12,,La Liga,2025-2026,Real Sociedad,Alavés,Home,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-19,,La Liga,2025-2026,Real Sociedad,Rayo Vallecano,Away,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-22,,La Liga,2025-2026,Real Sociedad,Getafe,Home,Matchweek 33,,,,,,,,,,,,,,,,
+2026-05-03,,La Liga,2025-2026,Real Sociedad,Sevilla,Away,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-10,,La Liga,2025-2026,Real Sociedad,Betis,Home,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-13,,La Liga,2025-2026,Real Sociedad,Girona,Away,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,,La Liga,2025-2026,Real Sociedad,Valencia,Home,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,,La Liga,2025-2026,Real Sociedad,Espanyol,Away,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-18,21:00 (19:00),La Liga,2025-2026,Real Betis,Elche,Away,Matchweek 1,,,,,,,,,,,,,,,,
+2025-08-22,21:30 (19:30),La Liga,2025-2026,Real Betis,Alavés,Home,Matchweek 2,,,,,,,,,,,,,,,,
+2025-08-27,21:00 (19:00),La Liga,2025-2026,Real Betis,Celta Vigo,Away,Matchweek 6,,,,,,,,,,,,,,,,
+2025-08-31,19:00 (17:00),La Liga,2025-2026,Real Betis,Athletic Club,Home,Matchweek 3,,,,,,,,,,,,,,,,
+2025-09-14,,La Liga,2025-2026,Real Betis,Levante,Away,Matchweek 4,,,,,,,,,,,,,,,,
+2025-09-21,,La Liga,2025-2026,Real Betis,Real Sociedad,Home,Matchweek 5,,,,,,,,,,,,,,,,
+2025-09-28,,La Liga,2025-2026,Real Betis,Osasuna,Home,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-05,,La Liga,2025-2026,Real Betis,Espanyol,Away,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-19,,La Liga,2025-2026,Real Betis,Villarreal,Away,Matchweek 9,,,,,,,,,,,,,,,,
+2025-10-26,,La Liga,2025-2026,Real Betis,Atlético Madrid,Home,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-02,,La Liga,2025-2026,Real Betis,Mallorca,Home,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-09,,La Liga,2025-2026,Real Betis,Valencia,Away,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-23,,La Liga,2025-2026,Real Betis,Girona,Home,Matchweek 13,,,,,,,,,,,,,,,,
+2025-11-30,,La Liga,2025-2026,Real Betis,Sevilla,Away,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-07,,La Liga,2025-2026,Real Betis,Barcelona,Home,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-14,,La Liga,2025-2026,Real Betis,Rayo Vallecano,Away,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-21,,La Liga,2025-2026,Real Betis,Getafe,Home,Matchweek 17,,,,,,,,,,,,,,,,
+2026-01-04,,La Liga,2025-2026,Real Betis,Real Madrid,Away,Matchweek 18,,,,,,,,,,,,,,,,
+2026-01-11,,La Liga,2025-2026,Real Betis,Oviedo,Away,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-18,,La Liga,2025-2026,Real Betis,Villarreal,Home,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-25,,La Liga,2025-2026,Real Betis,Alavés,Away,Matchweek 21,,,,,,,,,,,,,,,,
+2026-02-01,,La Liga,2025-2026,Real Betis,Valencia,Home,Matchweek 22,,,,,,,,,,,,,,,,
+2026-02-08,,La Liga,2025-2026,Real Betis,Atlético Madrid,Away,Matchweek 23,,,,,,,,,,,,,,,,
+2026-02-15,,La Liga,2025-2026,Real Betis,Mallorca,Away,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-22,,La Liga,2025-2026,Real Betis,Rayo Vallecano,Home,Matchweek 25,,,,,,,,,,,,,,,,
+2026-03-01,,La Liga,2025-2026,Real Betis,Sevilla,Home,Matchweek 26,,,,,,,,,,,,,,,,
+2026-03-08,,La Liga,2025-2026,Real Betis,Getafe,Away,Matchweek 27,,,,,,,,,,,,,,,,
+2026-03-15,,La Liga,2025-2026,Real Betis,Celta Vigo,Home,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-22,,La Liga,2025-2026,Real Betis,Athletic Club,Away,Matchweek 29,,,,,,,,,,,,,,,,
+2026-04-05,,La Liga,2025-2026,Real Betis,Espanyol,Home,Matchweek 30,,,,,,,,,,,,,,,,
+2026-04-12,,La Liga,2025-2026,Real Betis,Osasuna,Away,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-19,,La Liga,2025-2026,Real Betis,Real Madrid,Home,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-22,,La Liga,2025-2026,Real Betis,Girona,Away,Matchweek 33,,,,,,,,,,,,,,,,
+2026-05-03,,La Liga,2025-2026,Real Betis,Oviedo,Home,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-10,,La Liga,2025-2026,Real Betis,Real Sociedad,Away,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-13,,La Liga,2025-2026,Real Betis,Elche,Home,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,,La Liga,2025-2026,Real Betis,Barcelona,Away,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,,La Liga,2025-2026,Real Betis,Levante,Home,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-17,21:30 (19:30),La Liga,2025-2026,Espanyol,Atlético Madrid,Home,Matchweek 1,,,,,,,,,,,,,,,,
+2025-08-24,19:30 (17:30),La Liga,2025-2026,Espanyol,Real Sociedad,Away,Matchweek 2,,,,,,,,,,,,,,,,
+2025-08-31,19:30 (17:30),La Liga,2025-2026,Espanyol,Osasuna,Home,Matchweek 3,,,,,,,,,,,,,,,,
+2025-09-14,,La Liga,2025-2026,Espanyol,Mallorca,Home,Matchweek 4,,,,,,,,,,,,,,,,
+2025-09-21,,La Liga,2025-2026,Espanyol,Real Madrid,Away,Matchweek 5,,,,,,,,,,,,,,,,
+2025-09-24,,La Liga,2025-2026,Espanyol,Valencia,Home,Matchweek 6,,,,,,,,,,,,,,,,
+2025-09-28,,La Liga,2025-2026,Espanyol,Girona,Away,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-05,,La Liga,2025-2026,Espanyol,Betis,Home,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-19,,La Liga,2025-2026,Espanyol,Oviedo,Away,Matchweek 9,,,,,,,,,,,,,,,,
+2025-10-26,,La Liga,2025-2026,Espanyol,Elche,Home,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-02,,La Liga,2025-2026,Espanyol,Alavés,Away,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-09,,La Liga,2025-2026,Espanyol,Villarreal,Home,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-23,,La Liga,2025-2026,Espanyol,Sevilla,Home,Matchweek 13,,,,,,,,,,,,,,,,
+2025-11-30,,La Liga,2025-2026,Espanyol,Celta Vigo,Away,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-07,,La Liga,2025-2026,Espanyol,Rayo Vallecano,Home,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-14,,La Liga,2025-2026,Espanyol,Getafe,Away,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-21,,La Liga,2025-2026,Espanyol,Athletic Club,Away,Matchweek 17,,,,,,,,,,,,,,,,
+2026-01-04,,La Liga,2025-2026,Espanyol,Barcelona,Home,Matchweek 18,,,,,,,,,,,,,,,,
+2026-01-11,,La Liga,2025-2026,Espanyol,Levante,Away,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-18,,La Liga,2025-2026,Espanyol,Girona,Home,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-25,,La Liga,2025-2026,Espanyol,Valencia,Away,Matchweek 21,,,,,,,,,,,,,,,,
+2026-02-01,,La Liga,2025-2026,Espanyol,Alavés,Home,Matchweek 22,,,,,,,,,,,,,,,,
+2026-02-08,,La Liga,2025-2026,Espanyol,Villarreal,Away,Matchweek 23,,,,,,,,,,,,,,,,
+2026-02-15,,La Liga,2025-2026,Espanyol,Celta Vigo,Home,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-22,,La Liga,2025-2026,Espanyol,Atlético Madrid,Away,Matchweek 25,,,,,,,,,,,,,,,,
+2026-03-01,,La Liga,2025-2026,Espanyol,Elche,Away,Matchweek 26,,,,,,,,,,,,,,,,
+2026-03-08,,La Liga,2025-2026,Espanyol,Oviedo,Home,Matchweek 27,,,,,,,,,,,,,,,,
+2026-03-15,,La Liga,2025-2026,Espanyol,Mallorca,Away,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-22,,La Liga,2025-2026,Espanyol,Getafe,Home,Matchweek 29,,,,,,,,,,,,,,,,
+2026-04-05,,La Liga,2025-2026,Espanyol,Betis,Away,Matchweek 30,,,,,,,,,,,,,,,,
+2026-04-12,,La Liga,2025-2026,Espanyol,Barcelona,Away,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-19,,La Liga,2025-2026,Espanyol,Levante,Home,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-22,,La Liga,2025-2026,Espanyol,Rayo Vallecano,Away,Matchweek 33,,,,,,,,,,,,,,,,
+2026-05-03,,La Liga,2025-2026,Espanyol,Real Madrid,Home,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-10,,La Liga,2025-2026,Espanyol,Sevilla,Away,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-13,,La Liga,2025-2026,Espanyol,Athletic Club,Home,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,,La Liga,2025-2026,Espanyol,Osasuna,Away,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,,La Liga,2025-2026,Espanyol,Real Sociedad,Home,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-15,19:00 (17:00),La Liga,2025-2026,Rayo Vallecano,Girona,Away,Matchweek 1,,,,,,,,,,,,,,,,
+2025-08-25,19:30 (17:30),La Liga,2025-2026,Rayo Vallecano,Athletic Club,Away,Matchweek 2,,,,,,,,,,,,,,,,
+2025-08-31,21:30 (19:30),La Liga,2025-2026,Rayo Vallecano,Barcelona,Home,Matchweek 3,,,,,,,,,,,,,,,,
+2025-09-14,,La Liga,2025-2026,Rayo Vallecano,Osasuna,Away,Matchweek 4,,,,,,,,,,,,,,,,
+2025-09-21,,La Liga,2025-2026,Rayo Vallecano,Celta Vigo,Home,Matchweek 5,,,,,,,,,,,,,,,,
+2025-09-24,,La Liga,2025-2026,Rayo Vallecano,Atlético Madrid,Away,Matchweek 6,,,,,,,,,,,,,,,,
+2025-09-28,,La Liga,2025-2026,Rayo Vallecano,Sevilla,Home,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-05,,La Liga,2025-2026,Rayo Vallecano,Real Sociedad,Away,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-19,,La Liga,2025-2026,Rayo Vallecano,Levante,Away,Matchweek 9,,,,,,,,,,,,,,,,
+2025-10-26,,La Liga,2025-2026,Rayo Vallecano,Alavés,Home,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-02,,La Liga,2025-2026,Rayo Vallecano,Villarreal,Away,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-09,,La Liga,2025-2026,Rayo Vallecano,Real Madrid,Home,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-23,,La Liga,2025-2026,Rayo Vallecano,Oviedo,Away,Matchweek 13,,,,,,,,,,,,,,,,
+2025-11-30,,La Liga,2025-2026,Rayo Vallecano,Valencia,Home,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-07,,La Liga,2025-2026,Rayo Vallecano,Espanyol,Away,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-14,,La Liga,2025-2026,Rayo Vallecano,Betis,Home,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-21,,La Liga,2025-2026,Rayo Vallecano,Elche,Away,Matchweek 17,,,,,,,,,,,,,,,,
+2026-01-04,,La Liga,2025-2026,Rayo Vallecano,Getafe,Home,Matchweek 18,,,,,,,,,,,,,,,,
+2026-01-11,,La Liga,2025-2026,Rayo Vallecano,Mallorca,Home,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-18,,La Liga,2025-2026,Rayo Vallecano,Celta Vigo,Away,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-25,,La Liga,2025-2026,Rayo Vallecano,Osasuna,Home,Matchweek 21,,,,,,,,,,,,,,,,
+2026-02-01,,La Liga,2025-2026,Rayo Vallecano,Real Madrid,Away,Matchweek 22,,,,,,,,,,,,,,,,
+2026-02-08,,La Liga,2025-2026,Rayo Vallecano,Oviedo,Home,Matchweek 23,,,,,,,,,,,,,,,,
+2026-02-15,,La Liga,2025-2026,Rayo Vallecano,Atlético Madrid,Home,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-22,,La Liga,2025-2026,Rayo Vallecano,Betis,Away,Matchweek 25,,,,,,,,,,,,,,,,
+2026-03-01,,La Liga,2025-2026,Rayo Vallecano,Athletic Club,Home,Matchweek 26,,,,,,,,,,,,,,,,
+2026-03-08,,La Liga,2025-2026,Rayo Vallecano,Sevilla,Away,Matchweek 27,,,,,,,,,,,,,,,,
+2026-03-15,,La Liga,2025-2026,Rayo Vallecano,Levante,Home,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-22,,La Liga,2025-2026,Rayo Vallecano,Barcelona,Away,Matchweek 29,,,,,,,,,,,,,,,,
+2026-04-05,,La Liga,2025-2026,Rayo Vallecano,Elche,Home,Matchweek 30,,,,,,,,,,,,,,,,
+2026-04-12,,La Liga,2025-2026,Rayo Vallecano,Mallorca,Away,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-19,,La Liga,2025-2026,Rayo Vallecano,Real Sociedad,Home,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-22,,La Liga,2025-2026,Rayo Vallecano,Espanyol,Home,Matchweek 33,,,,,,,,,,,,,,,,
+2026-05-03,,La Liga,2025-2026,Rayo Vallecano,Getafe,Away,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-10,,La Liga,2025-2026,Rayo Vallecano,Girona,Home,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-13,,La Liga,2025-2026,Rayo Vallecano,Valencia,Away,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,,La Liga,2025-2026,Rayo Vallecano,Villarreal,Home,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,,La Liga,2025-2026,Rayo Vallecano,Alavés,Away,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-17,17:00 (15:00),La Liga,2025-2026,Celta Vigo,Getafe,Home,Matchweek 1,,,,,,,,,,,,,,,,
+2025-08-23,17:00 (15:00),La Liga,2025-2026,Celta Vigo,Mallorca,Away,Matchweek 2,,,,,,,,,,,,,,,,
+2025-08-27,21:00 (19:00),La Liga,2025-2026,Celta Vigo,Betis,Home,Matchweek 6,,,,,,,,,,,,,,,,
+2025-08-31,17:00 (15:00),La Liga,2025-2026,Celta Vigo,Villarreal,Home,Matchweek 3,,,,,,,,,,,,,,,,
+2025-09-14,,La Liga,2025-2026,Celta Vigo,Girona,Home,Matchweek 4,,,,,,,,,,,,,,,,
+2025-09-21,,La Liga,2025-2026,Celta Vigo,Rayo Vallecano,Away,Matchweek 5,,,,,,,,,,,,,,,,
+2025-09-28,,La Liga,2025-2026,Celta Vigo,Elche,Away,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-05,,La Liga,2025-2026,Celta Vigo,Atlético Madrid,Home,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-19,,La Liga,2025-2026,Celta Vigo,Real Sociedad,Home,Matchweek 9,,,,,,,,,,,,,,,,
+2025-10-26,,La Liga,2025-2026,Celta Vigo,Osasuna,Away,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-02,,La Liga,2025-2026,Celta Vigo,Levante,Away,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-09,,La Liga,2025-2026,Celta Vigo,Barcelona,Home,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-23,,La Liga,2025-2026,Celta Vigo,Alavés,Away,Matchweek 13,,,,,,,,,,,,,,,,
+2025-11-30,,La Liga,2025-2026,Celta Vigo,Espanyol,Home,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-07,,La Liga,2025-2026,Celta Vigo,Real Madrid,Away,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-14,,La Liga,2025-2026,Celta Vigo,Athletic Club,Home,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-21,,La Liga,2025-2026,Celta Vigo,Oviedo,Away,Matchweek 17,,,,,,,,,,,,,,,,
+2026-01-04,,La Liga,2025-2026,Celta Vigo,Valencia,Home,Matchweek 18,,,,,,,,,,,,,,,,
+2026-01-11,,La Liga,2025-2026,Celta Vigo,Sevilla,Away,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-18,,La Liga,2025-2026,Celta Vigo,Rayo Vallecano,Home,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-25,,La Liga,2025-2026,Celta Vigo,Real Sociedad,Away,Matchweek 21,,,,,,,,,,,,,,,,
+2026-02-01,,La Liga,2025-2026,Celta Vigo,Getafe,Away,Matchweek 22,,,,,,,,,,,,,,,,
+2026-02-08,,La Liga,2025-2026,Celta Vigo,Osasuna,Home,Matchweek 23,,,,,,,,,,,,,,,,
+2026-02-15,,La Liga,2025-2026,Celta Vigo,Espanyol,Away,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-22,,La Liga,2025-2026,Celta Vigo,Mallorca,Home,Matchweek 25,,,,,,,,,,,,,,,,
+2026-03-01,,La Liga,2025-2026,Celta Vigo,Girona,Away,Matchweek 26,,,,,,,,,,,,,,,,
+2026-03-08,,La Liga,2025-2026,Celta Vigo,Real Madrid,Home,Matchweek 27,,,,,,,,,,,,,,,,
+2026-03-15,,La Liga,2025-2026,Celta Vigo,Betis,Away,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-22,,La Liga,2025-2026,Celta Vigo,Alavés,Home,Matchweek 29,,,,,,,,,,,,,,,,
+2026-04-05,,La Liga,2025-2026,Celta Vigo,Valencia,Away,Matchweek 30,,,,,,,,,,,,,,,,
+2026-04-12,,La Liga,2025-2026,Celta Vigo,Oviedo,Home,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-19,,La Liga,2025-2026,Celta Vigo,Villarreal,Away,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-22,,La Liga,2025-2026,Celta Vigo,Barcelona,Away,Matchweek 33,,,,,,,,,,,,,,,,
+2026-05-03,,La Liga,2025-2026,Celta Vigo,Elche,Home,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-10,,La Liga,2025-2026,Celta Vigo,Atlético Madrid,Away,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-13,,La Liga,2025-2026,Celta Vigo,Levante,Home,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,,La Liga,2025-2026,Celta Vigo,Athletic Club,Away,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,,La Liga,2025-2026,Celta Vigo,Sevilla,Home,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-18,21:00 (19:00),La Liga,2025-2026,Elche,Betis,Home,Matchweek 1,,,,,,,,,,,,,,,,
+2025-08-23,19:30 (17:30),La Liga,2025-2026,Elche,Atlético Madrid,Away,Matchweek 2,,,,,,,,,,,,,,,,
+2025-08-29,19:30 (17:30),La Liga,2025-2026,Elche,Levante,Home,Matchweek 3,,,,,,,,,,,,,,,,
+2025-09-14,,La Liga,2025-2026,Elche,Sevilla,Away,Matchweek 4,,,,,,,,,,,,,,,,
+2025-09-21,,La Liga,2025-2026,Elche,Oviedo,Home,Matchweek 5,,,,,,,,,,,,,,,,
+2025-09-24,,La Liga,2025-2026,Elche,Osasuna,Away,Matchweek 6,,,,,,,,,,,,,,,,
+2025-09-28,,La Liga,2025-2026,Elche,Celta Vigo,Home,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-05,,La Liga,2025-2026,Elche,Alavés,Away,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-19,,La Liga,2025-2026,Elche,Athletic Club,Home,Matchweek 9,,,,,,,,,,,,,,,,
+2025-10-26,,La Liga,2025-2026,Elche,Espanyol,Away,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-02,,La Liga,2025-2026,Elche,Barcelona,Away,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-09,,La Liga,2025-2026,Elche,Real Sociedad,Home,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-23,,La Liga,2025-2026,Elche,Real Madrid,Home,Matchweek 13,,,,,,,,,,,,,,,,
+2025-11-30,,La Liga,2025-2026,Elche,Getafe,Away,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-07,,La Liga,2025-2026,Elche,Girona,Home,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-14,,La Liga,2025-2026,Elche,Mallorca,Away,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-21,,La Liga,2025-2026,Elche,Rayo Vallecano,Home,Matchweek 17,,,,,,,,,,,,,,,,
+2026-01-04,,La Liga,2025-2026,Elche,Villarreal,Home,Matchweek 18,,,,,,,,,,,,,,,,
+2026-01-11,,La Liga,2025-2026,Elche,Valencia,Away,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-18,,La Liga,2025-2026,Elche,Sevilla,Home,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-25,,La Liga,2025-2026,Elche,Levante,Away,Matchweek 21,,,,,,,,,,,,,,,,
+2026-02-01,,La Liga,2025-2026,Elche,Barcelona,Home,Matchweek 22,,,,,,,,,,,,,,,,
+2026-02-08,,La Liga,2025-2026,Elche,Real Sociedad,Away,Matchweek 23,,,,,,,,,,,,,,,,
+2026-02-15,,La Liga,2025-2026,Elche,Osasuna,Home,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-22,,La Liga,2025-2026,Elche,Athletic Club,Away,Matchweek 25,,,,,,,,,,,,,,,,
+2026-03-01,,La Liga,2025-2026,Elche,Espanyol,Home,Matchweek 26,,,,,,,,,,,,,,,,
+2026-03-08,,La Liga,2025-2026,Elche,Villarreal,Away,Matchweek 27,,,,,,,,,,,,,,,,
+2026-03-15,,La Liga,2025-2026,Elche,Real Madrid,Away,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-22,,La Liga,2025-2026,Elche,Mallorca,Home,Matchweek 29,,,,,,,,,,,,,,,,
+2026-04-05,,La Liga,2025-2026,Elche,Rayo Vallecano,Away,Matchweek 30,,,,,,,,,,,,,,,,
+2026-04-12,,La Liga,2025-2026,Elche,Valencia,Home,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-19,,La Liga,2025-2026,Elche,Oviedo,Away,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-22,,La Liga,2025-2026,Elche,Atlético Madrid,Home,Matchweek 33,,,,,,,,,,,,,,,,
+2026-05-03,,La Liga,2025-2026,Elche,Celta Vigo,Away,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-10,,La Liga,2025-2026,Elche,Alavés,Home,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-13,,La Liga,2025-2026,Elche,Betis,Away,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,,La Liga,2025-2026,Elche,Getafe,Home,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,,La Liga,2025-2026,Elche,Girona,Away,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-15,19:00 (17:00),La Liga,2025-2026,Girona,Rayo Vallecano,Home,Matchweek 1,,,,,,,,,,,,,,,,
+2025-08-24,19:30 (17:30),La Liga,2025-2026,Girona,Villarreal,Away,Matchweek 2,,,,,,,,,,,,,,,,
+2025-08-30,19:30 (17:30),La Liga,2025-2026,Girona,Sevilla,Home,Matchweek 3,,,,,,,,,,,,,,,,
+2025-09-14,,La Liga,2025-2026,Girona,Celta Vigo,Away,Matchweek 4,,,,,,,,,,,,,,,,
+2025-09-21,,La Liga,2025-2026,Girona,Levante,Home,Matchweek 5,,,,,,,,,,,,,,,,
+2025-09-24,,La Liga,2025-2026,Girona,Athletic Club,Away,Matchweek 6,,,,,,,,,,,,,,,,
+2025-09-28,,La Liga,2025-2026,Girona,Espanyol,Home,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-05,,La Liga,2025-2026,Girona,Valencia,Home,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-19,,La Liga,2025-2026,Girona,Barcelona,Away,Matchweek 9,,,,,,,,,,,,,,,,
+2025-10-26,,La Liga,2025-2026,Girona,Oviedo,Home,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-02,,La Liga,2025-2026,Girona,Getafe,Away,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-09,,La Liga,2025-2026,Girona,Alavés,Home,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-23,,La Liga,2025-2026,Girona,Betis,Away,Matchweek 13,,,,,,,,,,,,,,,,
+2025-11-30,,La Liga,2025-2026,Girona,Real Madrid,Home,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-07,,La Liga,2025-2026,Girona,Elche,Away,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-14,,La Liga,2025-2026,Girona,Real Sociedad,Away,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-21,,La Liga,2025-2026,Girona,Atlético Madrid,Home,Matchweek 17,,,,,,,,,,,,,,,,
+2026-01-04,,La Liga,2025-2026,Girona,Mallorca,Away,Matchweek 18,,,,,,,,,,,,,,,,
+2026-01-11,,La Liga,2025-2026,Girona,Osasuna,Home,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-18,,La Liga,2025-2026,Girona,Espanyol,Away,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-25,,La Liga,2025-2026,Girona,Getafe,Home,Matchweek 21,,,,,,,,,,,,,,,,
+2026-02-01,,La Liga,2025-2026,Girona,Oviedo,Away,Matchweek 22,,,,,,,,,,,,,,,,
+2026-02-08,,La Liga,2025-2026,Girona,Sevilla,Away,Matchweek 23,,,,,,,,,,,,,,,,
+2026-02-15,,La Liga,2025-2026,Girona,Barcelona,Home,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-22,,La Liga,2025-2026,Girona,Alavés,Away,Matchweek 25,,,,,,,,,,,,,,,,
+2026-03-01,,La Liga,2025-2026,Girona,Celta Vigo,Home,Matchweek 26,,,,,,,,,,,,,,,,
+2026-03-08,,La Liga,2025-2026,Girona,Levante,Away,Matchweek 27,,,,,,,,,,,,,,,,
+2026-03-15,,La Liga,2025-2026,Girona,Athletic Club,Home,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-22,,La Liga,2025-2026,Girona,Osasuna,Away,Matchweek 29,,,,,,,,,,,,,,,,
+2026-04-05,,La Liga,2025-2026,Girona,Villarreal,Home,Matchweek 30,,,,,,,,,,,,,,,,
+2026-04-12,,La Liga,2025-2026,Girona,Real Madrid,Away,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-19,,La Liga,2025-2026,Girona,Valencia,Away,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-22,,La Liga,2025-2026,Girona,Betis,Home,Matchweek 33,,,,,,,,,,,,,,,,
+2026-05-03,,La Liga,2025-2026,Girona,Mallorca,Home,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-10,,La Liga,2025-2026,Girona,Rayo Vallecano,Away,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-13,,La Liga,2025-2026,Girona,Real Sociedad,Home,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,,La Liga,2025-2026,Girona,Atlético Madrid,Away,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,,La Liga,2025-2026,Girona,Elche,Home,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-15,21:30 (19:30),La Liga,2025-2026,Villarreal,Oviedo,Home,Matchweek 1,,,,,,,,,,,,,,,,
+2025-08-24,19:30 (17:30),La Liga,2025-2026,Villarreal,Girona,Home,Matchweek 2,,,,,,,,,,,,,,,,
+2025-08-31,17:00 (15:00),La Liga,2025-2026,Villarreal,Celta Vigo,Away,Matchweek 3,,,,,,,,,,,,,,,,
+2025-09-14,,La Liga,2025-2026,Villarreal,Atlético Madrid,Away,Matchweek 4,,,,,,,,,,,,,,,,
+2025-09-21,,La Liga,2025-2026,Villarreal,Osasuna,Home,Matchweek 5,,,,,,,,,,,,,,,,
+2025-09-24,,La Liga,2025-2026,Villarreal,Sevilla,Away,Matchweek 6,,,,,,,,,,,,,,,,
+2025-09-28,,La Liga,2025-2026,Villarreal,Athletic Club,Home,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-05,,La Liga,2025-2026,Villarreal,Real Madrid,Away,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-19,,La Liga,2025-2026,Villarreal,Betis,Home,Matchweek 9,,,,,,,,,,,,,,,,
+2025-10-26,,La Liga,2025-2026,Villarreal,Valencia,Away,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-02,,La Liga,2025-2026,Villarreal,Rayo Vallecano,Home,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-09,,La Liga,2025-2026,Villarreal,Espanyol,Away,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-23,,La Liga,2025-2026,Villarreal,Mallorca,Home,Matchweek 13,,,,,,,,,,,,,,,,
+2025-11-30,,La Liga,2025-2026,Villarreal,Real Sociedad,Away,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-07,,La Liga,2025-2026,Villarreal,Getafe,Home,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-14,,La Liga,2025-2026,Villarreal,Levante,Away,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-21,,La Liga,2025-2026,Villarreal,Barcelona,Home,Matchweek 17,,,,,,,,,,,,,,,,
+2026-01-04,,La Liga,2025-2026,Villarreal,Elche,Away,Matchweek 18,,,,,,,,,,,,,,,,
+2026-01-11,,La Liga,2025-2026,Villarreal,Alavés,Home,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-18,,La Liga,2025-2026,Villarreal,Betis,Away,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-25,,La Liga,2025-2026,Villarreal,Real Madrid,Home,Matchweek 21,,,,,,,,,,,,,,,,
+2026-02-01,,La Liga,2025-2026,Villarreal,Osasuna,Away,Matchweek 22,,,,,,,,,,,,,,,,
+2026-02-08,,La Liga,2025-2026,Villarreal,Espanyol,Home,Matchweek 23,,,,,,,,,,,,,,,,
+2026-02-15,,La Liga,2025-2026,Villarreal,Getafe,Away,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-22,,La Liga,2025-2026,Villarreal,Valencia,Home,Matchweek 25,,,,,,,,,,,,,,,,
+2026-03-01,,La Liga,2025-2026,Villarreal,Barcelona,Away,Matchweek 26,,,,,,,,,,,,,,,,
+2026-03-08,,La Liga,2025-2026,Villarreal,Elche,Home,Matchweek 27,,,,,,,,,,,,,,,,
+2026-03-15,,La Liga,2025-2026,Villarreal,Alavés,Away,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-22,,La Liga,2025-2026,Villarreal,Real Sociedad,Home,Matchweek 29,,,,,,,,,,,,,,,,
+2026-04-05,,La Liga,2025-2026,Villarreal,Girona,Away,Matchweek 30,,,,,,,,,,,,,,,,
+2026-04-12,,La Liga,2025-2026,Villarreal,Athletic Club,Away,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-19,,La Liga,2025-2026,Villarreal,Celta Vigo,Home,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-22,,La Liga,2025-2026,Villarreal,Oviedo,Away,Matchweek 33,,,,,,,,,,,,,,,,
+2026-05-03,,La Liga,2025-2026,Villarreal,Levante,Home,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-10,,La Liga,2025-2026,Villarreal,Mallorca,Away,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-13,,La Liga,2025-2026,Villarreal,Sevilla,Home,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,,La Liga,2025-2026,Villarreal,Rayo Vallecano,Away,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,,La Liga,2025-2026,Villarreal,Atlético Madrid,Home,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-16,17:00 (15:00),La Liga,2025-2026,Alaves,Levante,Home,Matchweek 1,,,,,,,,,,,,,,,,
+2025-08-22,21:30 (19:30),La Liga,2025-2026,Alaves,Betis,Away,Matchweek 2,,,,,,,,,,,,,,,,
+2025-08-30,17:00 (15:00),La Liga,2025-2026,Alaves,Atlético Madrid,Home,Matchweek 3,,,,,,,,,,,,,,,,
+2025-09-14,,La Liga,2025-2026,Alaves,Athletic Club,Away,Matchweek 4,,,,,,,,,,,,,,,,
+2025-09-21,,La Liga,2025-2026,Alaves,Sevilla,Home,Matchweek 5,,,,,,,,,,,,,,,,
+2025-09-24,,La Liga,2025-2026,Alaves,Getafe,Away,Matchweek 6,,,,,,,,,,,,,,,,
+2025-09-28,,La Liga,2025-2026,Alaves,Mallorca,Away,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-05,,La Liga,2025-2026,Alaves,Elche,Home,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-19,,La Liga,2025-2026,Alaves,Valencia,Home,Matchweek 9,,,,,,,,,,,,,,,,
+2025-10-26,,La Liga,2025-2026,Alaves,Rayo Vallecano,Away,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-02,,La Liga,2025-2026,Alaves,Espanyol,Home,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-09,,La Liga,2025-2026,Alaves,Girona,Away,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-23,,La Liga,2025-2026,Alaves,Celta Vigo,Home,Matchweek 13,,,,,,,,,,,,,,,,
+2025-11-30,,La Liga,2025-2026,Alaves,Barcelona,Away,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-07,,La Liga,2025-2026,Alaves,Real Sociedad,Home,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-14,,La Liga,2025-2026,Alaves,Real Madrid,Home,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-21,,La Liga,2025-2026,Alaves,Osasuna,Away,Matchweek 17,,,,,,,,,,,,,,,,
+2026-01-04,,La Liga,2025-2026,Alaves,Oviedo,Home,Matchweek 18,,,,,,,,,,,,,,,,
+2026-01-11,,La Liga,2025-2026,Alaves,Villarreal,Away,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-18,,La Liga,2025-2026,Alaves,Atlético Madrid,Away,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-25,,La Liga,2025-2026,Alaves,Betis,Home,Matchweek 21,,,,,,,,,,,,,,,,
+2026-02-01,,La Liga,2025-2026,Alaves,Espanyol,Away,Matchweek 22,,,,,,,,,,,,,,,,
+2026-02-08,,La Liga,2025-2026,Alaves,Getafe,Home,Matchweek 23,,,,,,,,,,,,,,,,
+2026-02-15,,La Liga,2025-2026,Alaves,Sevilla,Away,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-22,,La Liga,2025-2026,Alaves,Girona,Home,Matchweek 25,,,,,,,,,,,,,,,,
+2026-03-01,,La Liga,2025-2026,Alaves,Levante,Away,Matchweek 26,,,,,,,,,,,,,,,,
+2026-03-08,,La Liga,2025-2026,Alaves,Valencia,Away,Matchweek 27,,,,,,,,,,,,,,,,
+2026-03-15,,La Liga,2025-2026,Alaves,Villarreal,Home,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-22,,La Liga,2025-2026,Alaves,Celta Vigo,Away,Matchweek 29,,,,,,,,,,,,,,,,
+2026-04-05,,La Liga,2025-2026,Alaves,Osasuna,Home,Matchweek 30,,,,,,,,,,,,,,,,
+2026-04-12,,La Liga,2025-2026,Alaves,Real Sociedad,Away,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-19,,La Liga,2025-2026,Alaves,Mallorca,Home,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-22,,La Liga,2025-2026,Alaves,Real Madrid,Away,Matchweek 33,,,,,,,,,,,,,,,,
+2026-05-03,,La Liga,2025-2026,Alaves,Athletic Club,Home,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-10,,La Liga,2025-2026,Alaves,Elche,Away,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-13,,La Liga,2025-2026,Alaves,Barcelona,Home,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,,La Liga,2025-2026,Alaves,Oviedo,Away,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,,La Liga,2025-2026,Alaves,Rayo Vallecano,Home,Matchweek 38,,,,,,,,,,,,,,,,
