@@ -50,8 +50,12 @@ def main():
             st.header("Filter")
             league = st.selectbox("Velg liga", list(LEAGUES.keys()), key="preds_league")
             vis_type = st.radio("Visingsmodus", ["Sannsynlighet", "Fair Odds"], index=0)
+            use_date_filter = st.checkbox("Filtrer på én dato", key="preds_date_filter")
+            selected_date = None
+            if use_date_filter:
+                selected_date = st.date_input("Velg dato", value=pd.to_datetime("today").date(), key="preds_date")
         with right:
-            show_predictions_page(league, vis_type)
+            show_predictions_page(league, vis_type, selected_date)
 
     # --- ODDS CHECKER TAB ---
     with tab_odds:
@@ -59,7 +63,11 @@ def main():
         with left:
             st.header("Filter")
             league = st.selectbox("Velg liga", list(LEAGUES.keys()), key="odds_league")
-            matches = load_odds(league)
+            use_date_filter = st.checkbox("Filtrer på én dato", key="odds_date_filter")
+            selected_date = None
+            if use_date_filter:
+                selected_date = st.date_input("Velg dato", value=pd.to_datetime("today").date(), key="odds_date")
+            matches = load_odds(league, selected_date)
             if matches.empty:
                 st.warning("Ingen kommende kamper funnet for valgt liga.")
                 sel_match = odds_type = threshold = show_weights = None

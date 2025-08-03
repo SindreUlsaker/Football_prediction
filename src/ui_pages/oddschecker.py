@@ -1,7 +1,7 @@
 # File: src/ui_pages/oddschecker.py
 import streamlit as st
 import pandas as pd
-from datetime import timedelta
+from datetime import timedelta, date
 from config.leagues import LEAGUES
 from config.settings import DATA_PATH
 from src.models.odds import (
@@ -13,16 +13,21 @@ from src.models.odds import (
 import pandas as pd
 from src.models.predict import load_models_for_league
 
-def load_upcoming_matches(league_name: str) -> pd.DataFrame:
+def load_upcoming_matches(league_name: str, filter_date: date | None = None) -> pd.DataFrame:
     key = league_name.lower().replace(" ", "_")
     processed_path = f"{DATA_PATH}/processed/{key}_processed.csv"
     df = pd.read_csv(processed_path, parse_dates=["date"])
 
-    now = pd.Timestamp.now()
-    next_week = now + timedelta(days=18)
-    return df[
-        (df["date"] >= now) & (df["date"] < next_week) & (df["result_home"].isna())
-    ].sort_values("date")
+    # Filtrer på én dag om dato er valgt
+    if filter_date is not None:
+        mask = (df["date"].dt.date == filter_date) & (df["result_home"].isna())
+        return df.loc[mask].sort_values("date")
+    else:
+        now = pd.Timestamp.now()
+        next_week = now + timedelta(days=17)
+        return df[
+            (df["date"] >= now) & (df["date"] < next_week) & (df["result_home"].isna())
+        ].sort_values("date")
 
 
 def show_odds_checker(

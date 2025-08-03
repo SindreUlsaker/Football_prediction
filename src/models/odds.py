@@ -5,6 +5,7 @@ from scipy.stats import poisson
 from src.models.predict import (
     load_models_for_league,
     compute_match_outcome_probabilities,
+    _add_team_dummies
 )  # :contentReference[oaicite:0]{index=0}
 
 
@@ -17,30 +18,34 @@ def _get_lambdas(
 ) -> tuple[float, float]:
     """
     Laster modell + scaler og returnerer (lam_h, lam_a) for én kamp,
-    ved å align’e X_all etter scaler.feature_names_in_.
+    ved å align’e X_all etter scaler.feature_names_in_, med team-dummies.
     """
-
     # 1) Last inn modell og scaler
     model, scaler = load_models_for_league(league, models_dir)
 
-    # 2) Hent hjemmelags-features og bytt navn
+    # --- Bygg feature-matriser ---
+    # 2) Hjemme-features
     Xh = df[features_home].copy()
-    # Fjern _home og _away på alle kolonner – slik vi gjorde i train_poisson_model :contentReference[oaicite:1]{index=1}
     Xh.columns = [c.replace("_home", "").replace("_away", "") for c in Xh.columns]
     Xh["is_home"] = 1
+    Xh = Xh.fillna(0)
 
-    # 3) Hent bortelags-features og bytt navn
+    # 3) Borte-features
     Xa = df[features_away].copy()
     Xa.columns = [c.replace("_away", "").replace("_home", "") for c in Xa.columns]
     Xa["is_home"] = 0
+    Xa = Xa.fillna(0)
 
-    # 4) Slå sammen og fyll missing
+    # 4) Legg på team-dummies akkurat som i predict_poisson_from_models
+    dum_h, dum_a = _add_team_dummies(df, df)
+    Xh = pd.concat([Xh, dum_h], axis=1)
+    Xa = pd.concat([Xa, dum_a], axis=1)
+
+    # 5) Slå sammen, fyll missing og reindex mot scaler
     X_all = pd.concat([Xh, Xa], ignore_index=True).fillna(0)
-
-    # 5) Ta bare de kolonnene scaler faktisk forventer, i riktig rekkefølge
     X_all = X_all.reindex(columns=scaler.feature_names_in_, fill_value=0)
 
-    # 6) Skaler og prediker
+    # 6) Skaler og prediker lambdas
     X_scaled = scaler.transform(X_all)
     lambdas = model.predict(X_scaled)
 
@@ -57,26 +62,33 @@ def calculate_hub_odds(
 ) -> pd.DataFrame:
     """
     Returnerer DataFrame med sannsynlighet og fair odds for Hjemme/Uavgjort/Borte.
+    Sannsynlighetene beregnes med compute_match_outcome_probabilities.
     """
+    # Hent Poisson-lambdas for hjemme- og bortelag
     lam_h, lam_a = _get_lambdas(df, features_home, features_away, league, models_dir)
-    p_h, p_d, p_a = compute_match_outcome_probabilities(
-        lam_h, lam_a, max_goals
-    )  # :contentReference[oaicite:2]{index=2}
-    odds = {
-        "Hjemmeseier": (p_h, 1 / p_h),
-        "Uavgjort": (p_d, 1 / p_d),
-        "Borteseier": (p_a, 1 / p_a),
-    }
-    return pd.DataFrame(
-        [
-            {
-                "Utfall": k,
-                "Sannsynlighet": f"{v[0]*100:.1f}%",
-                "Fair odds": f"{v[1]:.2f}",
-            }
-            for k, v in odds.items()
-        ]
-    )
+
+    # Beregn win/draw/loss-sannsynligheter på samme måte som i predict_poisson_from_models
+    p_h, p_d, p_a = compute_match_outcome_probabilities(lam_h, lam_a, max_goals)
+
+    # Bygg resultat-DataFrame med samme kolonner som før
+    rows = [
+        {
+            "Utfall": "Hjemmeseier",
+            "Sannsynlighet": f"{p_h * 100:.1f}%",
+            "Fair odds": f"{1 / p_h:.2f}",
+        },
+        {
+            "Utfall": "Uavgjort",
+            "Sannsynlighet": f"{p_d * 100:.1f}%",
+            "Fair odds": f"{1 / p_d:.2f}",
+        },
+        {
+            "Utfall": "Borteseier",
+            "Sannsynlighet": f"{p_a * 100:.1f}%",
+            "Fair odds": f"{1 / p_a:.2f}",
+        },
+    ]
+    return pd.DataFrame(rows)
 
 
 def calculate_btts_odds(

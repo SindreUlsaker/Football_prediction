@@ -1,8 +1,7 @@
 # File: src/ui_pages/predictions.py
 import streamlit as st
 import pandas as pd
-from datetime import timedelta
-from config.leagues import LEAGUES
+from datetime import timedelta, date
 from config.settings import DATA_PATH
 from src.models.predict import load_models_for_league, predict_poisson_from_models
 from src.ui_components.display import show_predictions
@@ -11,7 +10,8 @@ from src.ui_components.display import show_predictions
 STAT_WINDOWS = {"xg": [5, 10], "gf": [5, 10], "ga": [5, 10]}
 
 
-def load_upcoming_matches(league_name: str) -> pd.DataFrame:
+def load_upcoming_matches(
+    league_name: str, filter_date: date | None = None) -> pd.DataFrame:
     """
     Leser ferdig prosessert data og returnerer kamper som spilles i den kommende uken.
     """
@@ -19,21 +19,31 @@ def load_upcoming_matches(league_name: str) -> pd.DataFrame:
     processed_path = f"{DATA_PATH}/processed/{key}_processed.csv"
     df = pd.read_csv(processed_path, parse_dates=["date"])
 
-    now = pd.Timestamp.now()
-    next_week = now + timedelta(days=18)
-    df_upcoming = df[
-        (df["date"] >= now) & (df["date"] < next_week) & (df["result_home"].isna())
-    ].copy()
-    return df_upcoming.sort_values("date")
+    # Filtrer på én dag om dato er valgt
+    if filter_date is not None:
+        mask = (df["date"].dt.date == filter_date) & (df["result_home"].isna())
+        return df.loc[mask].sort_values("date")
+
+    else:
+        now = pd.Timestamp.now()
+        next_week = now + timedelta(days=18)
+        df_upcoming = df[
+            (df["date"] >= now) & (df["date"] < next_week) & (df["result_home"].isna())
+        ].copy()
+        return df_upcoming.sort_values("date")
 
 
 def show_predictions_page(
-    league: str, vis_type: str = "Sannsynlighet"
+    league: str, vis_type: str = "Sannsynlighet", selected_date: date | None = None
 ):
     # --- LAST INN OG SJEKK DATA ---
-    matches = load_upcoming_matches(league)
+    matches = load_upcoming_matches(league, filter_date=selected_date)
     if matches.empty:
-        st.warning("Ingen kommende kamper funnet for den neste uken.")
+        st.warning(
+            "Ingen kamper funnet for "
+            + (f"{selected_date}" if selected_date else "de neste 10 dagene")
+            + "."
+        )
         return
 
     # --- BYGG FEATURES (uendret logikk) ---

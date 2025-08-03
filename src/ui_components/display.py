@@ -85,7 +85,7 @@ def show_predictions(df: pd.DataFrame, prediction_type: int):
         st.subheader("📅 Prediksjoner gruppert per dag – Fair Odds")
 
     # --- VIS HVER DAG I EXPANDER ---
-    for day, group in df.groupby("day"):
+    for day, group in df.groupby("day", sort=False):
         with st.expander(day, expanded=True):
             # Vis kun relevante kolonner med nye navn
             table = display_df[df["day"] == day]
