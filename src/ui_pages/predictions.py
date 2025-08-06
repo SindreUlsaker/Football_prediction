@@ -26,7 +26,7 @@ def load_upcoming_matches(
 
     else:
         now = pd.Timestamp.now()
-        next_week = now + timedelta(days=18)
+        next_week = now + timedelta(days=7)
         df_upcoming = df[
             (df["date"] >= now) & (df["date"] < next_week) & (df["result_home"].isna())
         ].copy()

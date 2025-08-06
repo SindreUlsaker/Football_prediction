@@ -10,6 +10,7 @@ from selenium.common.exceptions import WebDriverException
 import pandas as pd
 from bs4 import BeautifulSoup
 from config.leagues import LEAGUES
+import argparse
 
 # Single global driver instance reused per league
 _driver = None
@@ -178,18 +179,22 @@ def fetch_team_data(team_url, season="2024-2025"):  # fmt: skip
     return df
 
 
-def fetch_league_data(league_name, cfg):
+def fetch_league_data(league_name, cfg, seasons_to_fetch=None):
     comp_id = cfg["comp_id"]
     slug = cfg["slug"]
     base_url = f"https://fbref.com/en/comps/{comp_id}/{slug}"
-    current = get_current_season(base_url)
-    prev = get_prev_season(current) if current else None
+
+    # Hvis ingen sesonger er spesifisert: hent prev + current automatisk
+    if seasons_to_fetch is None:
+        current = get_current_season(base_url)
+        prev = get_prev_season(current) if current else None
+        seasons_to_fetch = list(filter(None, [prev, current]))
 
     print(f"\n--- Henter data for liga: {league_name} ---")
     all_data = []
     standings_urls = [
         (season, f"https://fbref.com/en/comps/{comp_id}/{season}/{season}-{slug}")
-        for season in filter(None, (prev, current))
+        for season in seasons_to_fetch
     ]
 
     for season, standings_url in standings_urls:
@@ -248,32 +253,38 @@ def fetch_league_data(league_name, cfg):
         "fk_against",
         "pk_against",
     ]
-    existing = [c for c in want if c in df_all.columns]
-    df_final = df_all[existing]
 
     raw_file = os.path.join(
         "data",
         "raw",
-        f"{league_name.lower().replace(' ', '_')}_matches_full.csv",
+        f"{league_name.lower().replace(' ', '_')}_{season}_matches.csv",
     )
     os.makedirs(os.path.dirname(raw_file), exist_ok=True)
-
-    if prev:
-        seasons_fetched = df_final["season"].unique().tolist()
-        if prev not in seasons_fetched and os.path.exists(raw_file):
-            print(f"Sesong {prev} feilet, legger til gammel data fra {raw_file}")
-            old = pd.read_csv(raw_file)
-            prev_old = old[old["season"] == prev]
-            if not prev_old.empty:
-                df_final = pd.concat([df_final, prev_old], ignore_index=True)
-
-    df_final.to_csv(raw_file, index=False)
-    print(f"Lagret {raw_file}")
+    
+    existing = [c for c in want if c in df_all.columns]
+    df_final = df_all[existing]
+    
+    df_all.to_csv(raw_file, index=False)
+    print(f"[INFO] Rådata for {league_name} sesong {season}")
 
 
-def main():
+def main(seasons=None):
+    parser = argparse.ArgumentParser(
+        description="Fetch match data for configured leagues"
+    )
+    parser.add_argument(
+        "-s",
+        "--seasons",
+        nargs="+",
+        help="List of seasons to fetch, f.eks. 2024-2025 eller 2023-2024 2024-2025",
+    )
+    args = parser.parse_args()
+
+    # args.seasons har høyeste prioritet, ellers bruk seasons-argumentet
+    seasons_to_fetch = args.seasons or seasons
+
     for league_name, cfg in LEAGUES.items():
-        fetch_league_data(league_name, cfg)
+        fetch_league_data(league_name, cfg, seasons_to_fetch)
 
 
 if __name__ == "__main__":

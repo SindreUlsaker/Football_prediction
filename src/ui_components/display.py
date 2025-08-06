@@ -93,3 +93,7 @@ def show_predictions(df: pd.DataFrame, prediction_type: int):
                 table.style.format(fmt), hide_index=True, use_container_width=True
             )
         st.markdown("")  # litt luft under hver expander
+
+
+def show_odds(df: pd.DataFrame):
+    st.dataframe(df, use_container_width=True, hide_index=True)

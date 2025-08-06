@@ -5,7 +5,7 @@ permissions:
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # Runs at 02:00 UTC every day
+    - cron: '0 1 * * *'  # Runs at 01:00 UTC every day
   workflow_dispatch:  # Allows manual trigger from GitHub UI
 
 jobs:
@@ -27,7 +27,7 @@ jobs:
 
       - name: Run update_all.py
         run: |
-          python -m src.scripts.update_all
+          python -m src.scripts.update_all --only-current
 
       - name: Commit and push changes
         run: |

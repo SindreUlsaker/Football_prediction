@@ -70,7 +70,7 @@ def main():
             matches = load_odds(league, selected_date)
             if matches.empty:
                 st.warning("Ingen kommende kamper funnet for valgt liga.")
-                sel_match = odds_type = threshold = show_weights = None
+                sel_match = odds_type = threshold = None
             else:
                 matches["time_clean"] = matches["time"].str.extract(r"(\d{1,2}:\d{2})")[
                     0
@@ -101,9 +101,6 @@ def main():
                     threshold = st.number_input(
                         "Sett Over/Under-grense", value=2.5, step=1.0
                     )
-                show_weights = st.checkbox(
-                    "Vis modellens feature-vekter", key="odds_weights"
-                )
                 sel_match = (
                     matches[matches["label"] == sel_label]
                     .iloc[[0]]
@@ -115,7 +112,6 @@ def main():
                     matches=sel_match,
                     odds_type=odds_type,
                     threshold=threshold,
-                    show_weights=show_weights,
                     league=league,
                     sel_label=sel_label,
                 )

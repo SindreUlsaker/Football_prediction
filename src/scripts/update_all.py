@@ -5,15 +5,46 @@ Script to fetch raw data, process data, and train models for all leagues.
 import os
 import pandas as pd
 from config.leagues import LEAGUES
-from src.data.fetch import main as fetch_main
+from src.data.fetch import main as fetch_main, get_current_season
 from src.data.process import process_matches
 from src.models.train import train_league
+from src.scripts.daily_merge import main as daily_merge_main
+import argparse
 
 
 def main():
     # 1) Fetch raw data for all leagues
+    parser = argparse.ArgumentParser(description="Fetch, process & train all leagues")
+    parser.add_argument(
+        "-s",
+        "--seasons",
+        nargs="+",
+        help="Sesonger som skal hentes, f.eks. 2024-2025 eller 2023-2024 2024-2025",
+    )
+    parser.add_argument(
+        "-c", "--only-current", action="store_true", help="Hent bare gjeldende sesong"
+    )
+    args = parser.parse_args()
+
+    seasons_to_fetch = None
+    if args.seasons:
+        seasons_to_fetch = args.seasons
+    elif args.only_current:
+        # Finn gjeldende sesong basert på første liga i konfig
+        first = next(iter(LEAGUES))
+        cfg = LEAGUES[first]
+        base_url = f"https://fbref.com/en/comps/{cfg['comp_id']}/{cfg['slug']}"
+        current = get_current_season(base_url)
+        if not current:
+            raise RuntimeError("Kunne ikke finne gjeldende sesong")
+        seasons_to_fetch = [current]
+
     print("=== Fetching raw data for all leagues ===")
-    fetch_main()
+    fetch_main(seasons=seasons_to_fetch)
+    
+    if args.only_current:
+        print("=== Merging historical data with current season ===")
+        daily_merge_main()
 
     # 2) Define directories and stat windows
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

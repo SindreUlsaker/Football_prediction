@@ -1,9 +1,8 @@
-# File: src/ui_pages/oddschecker.py
 import streamlit as st
 import pandas as pd
 from datetime import timedelta, date
-from config.leagues import LEAGUES
 from config.settings import DATA_PATH
+from src.ui_components.display import show_odds
 from src.models.odds import (
     calculate_hub_odds,
     calculate_btts_odds,
@@ -11,7 +10,6 @@ from src.models.odds import (
 )
 
 import pandas as pd
-from src.models.predict import load_models_for_league
 
 def load_upcoming_matches(league_name: str, filter_date: date | None = None) -> pd.DataFrame:
     key = league_name.lower().replace(" ", "_")
@@ -24,7 +22,7 @@ def load_upcoming_matches(league_name: str, filter_date: date | None = None) -> 
         return df.loc[mask].sort_values("date")
     else:
         now = pd.Timestamp.now()
-        next_week = now + timedelta(days=17)
+        next_week = now + timedelta(days=7)
         return df[
             (df["date"] >= now) & (df["date"] < next_week) & (df["result_home"].isna())
         ].sort_values("date")
@@ -34,7 +32,6 @@ def show_odds_checker(
     matches: pd.DataFrame,
     odds_type: str,
     threshold: float | None,
-    show_weights: bool,
     league: str,
     sel_label: str,
 ):
@@ -49,7 +46,7 @@ def show_odds_checker(
     # Finn den valgte kampen
     sel_match = matches[matches["label"] == sel_label].iloc[[0]].reset_index(drop=True)
 
-    # Bygg feature-lister (uendret logikk)
+    # Bygg feature-lister
     stat_windows = {"xg": [5, 10], "gf": [5, 10], "ga": [5, 10]}
     features_home = (
         [f"xg_home_roll{w}" for w in stat_windows["xg"]]
@@ -66,7 +63,7 @@ def show_odds_checker(
         + ["avg_goals_for_away", "avg_goals_against_home"]
     )
 
-    # Beregn og vis de ulike odds-tabellene, uten å endre logikken
+    # Beregn og vis de ulike odds-tabellene
     if odds_type == "HUB":
         df_odds = calculate_hub_odds(
             sel_match,
@@ -97,4 +94,4 @@ def show_odds_checker(
         st.markdown(f"### Fair odds - Over/Under {threshold}")
 
     # Vis resultat
-    st.dataframe(df_odds, use_container_width=True, hide_index=True)
+    show_odds(df_odds)
