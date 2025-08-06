@@ -2,7 +2,7 @@ import pandas as pd
 
 
 def _compute_relegated_averages(
-    df: pd.DataFrame, agg_prev: pd.DataFrame, spots: int = 3
+    df: pd.DataFrame, agg_prev: pd.DataFrame, spots: int = 2
 ) -> dict[str, dict[str, float]]:
     """
     Returnerer for hver sesong strengen 'YYYY-YYYY' et dict med

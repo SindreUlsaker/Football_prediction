@@ -41,7 +41,7 @@ def show_predictions_page(
     if matches.empty:
         st.warning(
             "Ingen kamper funnet for "
-            + (f"{selected_date}" if selected_date else "de neste 10 dagene")
+            + (f"{selected_date}" if selected_date else "de neste 7 dagene")
             + "."
         )
         return

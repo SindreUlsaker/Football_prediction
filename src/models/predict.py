@@ -98,8 +98,12 @@ def predict_poisson_from_models(
     # Build results
     records = []
     for idx, row in df.iterrows():
-        lam_h = lambda_home[idx]
-        lam_a = lambda_away[idx]
+        alpha = 0.3
+        ratio = lambda_home[idx] / lambda_away[idx]
+        X = ratio ** alpha
+        Y = (1 / ratio) ** alpha
+        lam_h = lambda_home[idx] * X
+        lam_a = lambda_away[idx] * Y
         p_h, p_d, p_a = compute_match_outcome_probabilities(lam_h, lam_a, max_goals)
         records.append(
             {
@@ -110,8 +114,8 @@ def predict_poisson_from_models(
                 "prob_home": p_h,
                 "prob_draw": p_d,
                 "prob_away": p_a,
-                "lambda_home": lam_h,
-                "lambda_away": lam_a,
+                "lambda_home": lambda_home[idx],
+                "lambda_away": lambda_away[idx],
             }
         )
     return pd.DataFrame(records)
