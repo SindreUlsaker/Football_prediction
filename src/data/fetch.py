@@ -11,6 +11,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from config.leagues import LEAGUES
 import argparse
+import itertools
 
 # Single global driver instance reused per league
 _driver = None
@@ -145,9 +146,16 @@ def fetch_team_data(team_url, season="2024-2025"):  # fmt: skip
     df_meta["team"] = team.strip()
 
     # 2) Shooting stats
+
+    shoot_cols_for = ["xg_for","gf_for","ga_for","sh_for","sot_for","dist_for","fk_for","pk_for"]
+    shoot_cols_against = ["xg_against","gf_against","ga_against","sh_against","sot_against","dist_against","fk_against","pk_against"]
+
     shooting_a = soup.find("a", string="Shooting")
     if not shooting_a:
+        for col in itertools.chain(shoot_cols_for, shoot_cols_against):
+            df_meta[col] = ""
         return df_meta
+
     shooting_url = f"https://fbref.com{shooting_a['href']}"
     shoot_page = fetch_data(shooting_url)
     if not shoot_page:
@@ -264,7 +272,7 @@ def fetch_league_data(league_name, cfg, seasons_to_fetch=None):
     existing = [c for c in want if c in df_all.columns]
     df_final = df_all[existing]
     
-    df_all.to_csv(raw_file, index=False)
+    df_final.to_csv(raw_file, index=False)
     print(f"[INFO] Rådata for {league_name} sesong {season}")
 
 

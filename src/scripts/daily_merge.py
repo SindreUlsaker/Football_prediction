@@ -34,6 +34,9 @@ def main():
         # Slå sammen og fjern duplikater
         df_full = pd.concat(parts, ignore_index=True)
         df_full = df_full.drop_duplicates(subset=["date", "team", "opponent"])
+        
+        df_full["date"] = pd.to_datetime(df_full["date"], errors="coerce")
+        df_full["date"] = df_full["date"].dt.strftime("%Y-%m-%d")
 
         # Skriv én samlet fil
         df_full.to_csv(combined_file, index=False)
