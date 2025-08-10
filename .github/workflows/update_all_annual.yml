@@ -3,7 +3,7 @@ name: Annual previous-season fetch
 on:
   schedule:
     # Kjør hvert år 9. august kl. 22:00 UTC
-    - cron: '0 22 9 8 *'
+    - cron: '0 22 10 8 *'
 
 jobs:
   fetch_prev:
@@ -11,15 +11,18 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.11'
+          cache: 'pip'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          pip install -r requirements.txt
 
       - name: Hent forrige sesong og kjør pipeline
         run: python src/scripts/fetch_prev_season.py
