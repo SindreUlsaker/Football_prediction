@@ -4,12 +4,9 @@ import re
 import random
 from io import StringIO
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
-from webdriver_manager.chrome import ChromeDriverManager
 from selenium.common.exceptions import WebDriverException
 from selenium.common.exceptions import TimeoutException
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import pandas as pd
 from bs4 import BeautifulSoup
 from config.leagues import LEAGUES
@@ -18,7 +15,7 @@ import itertools
 
 # Single global driver instance reused per league
 _driver = None
-
+_last_challenge_ts = 0
 
 def get_driver():
     global _driver
@@ -105,9 +102,18 @@ def get_prev_season(season):
 
 def fetch_data(url):
     """
-    Fetch page HTML with Selenium. Bounded retries, better CI flags,
-    and basic Cloudflare/challenge handling.
+    Fetch page HTML with Selenium. Oppdager Cloudflare 'challenge' og tar en
+    global cooldown slik at resten av lagene ikke feiler i serie.
     """
+    global _last_challenge_ts
+
+    # Hvis vi nylig traff en challenge, vent litt før vi prøver neste side
+    since = time.time() - _last_challenge_ts
+    if since < 45:  # 45s "cooldown"-vindu
+        wait = int(45 - since) + 1
+        print(f"[fetch] Cooldown {wait}s pga. nylig challenge", flush=True)
+        time.sleep(wait)
+
     max_attempts = 4
     attempt = 0
     start = time.time()
@@ -117,40 +123,37 @@ def fetch_data(url):
         try:
             driver = get_driver()
             print(f"[fetch] GET {url} (attempt {attempt})", flush=True)
-            driver.get(url)  # respekterer page_load_timeout
-
-            # Enkel "menneskelig" pause (varierer litt, under 2s)
+            driver.get(url)
             time.sleep(1.0 + random.random())
-
             html = driver.page_source
 
-            # Cloudflare/challenge heuristikk
+            # Cloudflare / challenge heuristikk
             if (
                 "Attention Required" in html
                 or "cf-browser-verification" in html
                 or "cf-challenge" in html
+                or "Why do I have to complete a CAPTCHA" in html
             ):
-                # Vent litt ekstra og prøv igjen med ren driver (ny session)
+                _last_challenge_ts = time.time()
                 print(
-                    "[fetch] Detected possible Cloudflare challenge, backing off...",
+                    "[fetch] Cloudflare challenge oppdaget. Restart driver + backoff...",
                     flush=True,
                 )
                 close_driver()
-                time.sleep(15 * attempt)
+                time.sleep(20 * attempt)  # økende backoff
                 continue
 
             return SeleniumResponse(html)
 
         except TimeoutException as e:
             print(
-                f"[fetch] Timeout on {url}: {e}. Restarting driver and backing off...",
+                f"[fetch] Timeout on {url}: {e}. Restarting driver og backoff...",
                 flush=True,
             )
             close_driver()
             time.sleep(5 * attempt)
             continue
         except WebDriverException as e:
-            # typisk "Timed out receiving message from renderer" eller driverkommunikasjon
             print(
                 f"[fetch] WebDriver error on {url}: {e}. Restarting driver...",
                 flush=True,
@@ -168,11 +171,12 @@ def fetch_data(url):
             continue
         finally:
             # Ikke la én URL spise hele jobben
-            if time.time() - start > 180:  # 3 minutter per URL
-                print(f"[fetch] Giving up on {url} after ~3 minutes total.", flush=True)
+            if time.time() - start > 180:
+                print(
+                    f"[fetch] Giving up on {url} etter ~3 minutter total.", flush=True
+                )
                 break
 
-    # Siste utvei: returner None slik at kalleren logger/fortsetter
     return None
 
 
@@ -184,11 +188,14 @@ def fetch_team_urls(standings_url):
     table = soup.select_one("table.stats_table")
     if not table:
         return []
-    return [
-        f"https://fbref.com{a['href']}"
-        for a in table.find_all("a", href=True)
-        if "/squads/" in a["href"]
-    ]
+    urls = []
+    for a in table.find_all("a", href=True):
+        href = a["href"]
+        # Kun rene lag-Stats-sider, unngå matchlogs etc.
+        if "/squads/" in href and "matchlogs" not in href and href.endswith("-Stats"):
+            urls.append(f"https://fbref.com{href}")
+    print(f"[fetch] Fant {len(urls)} lag i {standings_url}", flush=True)
+    return urls
 
 
 def fetch_team_data(team_url, season="2024-2025"):  # fmt: skip
