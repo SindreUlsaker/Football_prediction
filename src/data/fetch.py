@@ -10,6 +10,7 @@ from selenium.common.exceptions import TimeoutException
 import pandas as pd
 from bs4 import BeautifulSoup
 from config.leagues import LEAGUES
+from config.settings import DATA_PATH
 import argparse
 import itertools
 
@@ -364,18 +365,18 @@ def fetch_league_data(league_name, cfg, seasons_to_fetch=None):
         "pk_against",
     ]
 
-    raw_file = os.path.join(
-        "data",
-        "raw",
-        f"{league_name.lower().replace(' ', '_')}_{season}_matches.csv",
-    )
-    os.makedirs(os.path.dirname(raw_file), exist_ok=True)
-
     existing = [c for c in want if c in df_all.columns]
     df_final = df_all[existing]
 
+    league_key = league_name.lower().replace(" ", "_")
+
+    raw_dir = os.path.join(DATA_PATH, "raw")
+    os.makedirs(raw_dir, exist_ok=True)
+
+    raw_file = os.path.join(raw_dir, f"{league_key}_{season}_matches.csv")
+
     df_final.to_csv(raw_file, index=False)
-    print(f"[INFO] Rådata for {league_name} sesong {season}")
+    print(f"[INFO] Skrev {len(df_final)} rader til {os.path.abspath(raw_file)}")
 
 
 def main(seasons=None):
