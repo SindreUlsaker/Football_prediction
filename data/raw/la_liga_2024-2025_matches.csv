@@ -1,0 +1,946 @@
+date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_for,dist_for,fk_for,pk_for,xg_against,gf_against,ga_against,sh_against,sot_against,dist_against,fk_against,pk_against
+2024-08-17,21:30 (19:30),La Liga,2024-2025,Barcelona,Valencia,Away,Matchweek 1,3.2,2,1,17,5,18.6,1,1,1.0,1.0,2.0,6.0,1.0,14.8,0.0,0.0
+2024-08-24,19:00 (17:00),La Liga,2024-2025,Barcelona,Athletic Club,Home,Matchweek 2,1.8,2,1,13,5,16.6,0,0,1.0,1.0,2.0,7.0,1.0,20.3,0.0,1.0
+2024-08-27,21:30 (19:30),La Liga,2024-2025,Barcelona,Rayo Vallecano,Away,Matchweek 3,1.4,2,1,22,5,19.3,1,0,0.4,1.0,2.0,8.0,4.0,20.9,0.0,0.0
+2024-08-31,17:00 (15:00),La Liga,2024-2025,Barcelona,Valladolid,Home,Matchweek 4,4.7,7,0,23,11,13.7,1,0,0.5,0.0,7.0,4.0,1.0,19.1,0.0,0.0
+2024-09-15,16:15 (14:15),La Liga,2024-2025,Barcelona,Girona,Away,Matchweek 5,1.9,4,1,20,9,19.1,0,0,1.3,1.0,4.0,9.0,4.0,15.7,0.0,0.0
+2024-09-19,21:00 (19:00),Champions Lg,2024-2025,Barcelona,fr Monaco,Away,League phase,0.4,1,2,4,1,18.5,1,0,1.3,2.0,1.0,18.0,8.0,17.2,1.0,0.0
+2024-09-22,18:30 (16:30),La Liga,2024-2025,Barcelona,Villarreal,Away,Matchweek 6,3.9,5,1,16,9,14.6,0,0,2.2,1.0,5.0,13.0,4.0,13.8,0.0,0.0
+2024-09-25,21:00 (19:00),La Liga,2024-2025,Barcelona,Getafe,Home,Matchweek 7,1.9,1,0,15,4,19.1,2,0,0.7,0.0,1.0,7.0,1.0,21.7,0.0,0.0
+2024-09-28,21:00 (19:00),La Liga,2024-2025,Barcelona,Osasuna,Away,Matchweek 8,0.8,2,4,12,6,19.8,1,0,2.2,4.0,2.0,10.0,4.0,19.2,0.0,1.0
+2024-10-01,21:00 (19:00),Champions Lg,2024-2025,Barcelona,ch Young Boys,Home,League phase,3.4,5,0,21,8,15.0,0,0,0.8,0.0,5.0,5.0,1.0,14.1,0.0,0.0
+2024-10-06,16:15 (14:15),La Liga,2024-2025,Barcelona,Alavés,Away,Matchweek 9,2.7,3,0,15,9,16.8,1,0,0.7,0.0,3.0,11.0,2.0,18.5,0.0,0.0
+2024-10-20,21:00 (19:00),La Liga,2024-2025,Barcelona,Sevilla,Home,Matchweek 10,3.8,5,1,20,8,17.9,1,1,1.0,1.0,5.0,7.0,1.0,15.2,0.0,0.0
+2024-10-23,21:00 (19:00),Champions Lg,2024-2025,Barcelona,de Bayern Munich,Home,League phase,2.2,4,1,12,4,14.2,0,0,1.0,1.0,4.0,11.0,3.0,21.9,0.0,0.0
+2024-10-26,21:00 (19:00),La Liga,2024-2025,Barcelona,Real Madrid,Away,Matchweek 11,2.6,4,0,15,7,21.7,0,0,1.5,0.0,4.0,9.0,4.0,23.7,0.0,0.0
+2024-11-03,16:15 (15:15),La Liga,2024-2025,Barcelona,Espanyol,Home,Matchweek 12,1.8,3,1,14,9,19.2,0,0,0.9,1.0,3.0,10.0,3.0,16.3,1.0,0.0
+2024-11-06,21:00 (20:00),Champions Lg,2024-2025,Barcelona,rs Red Star,Away,League phase,3.6,5,2,21,9,16.0,0,0,0.2,2.0,5.0,4.0,2.0,19.2,0.0,0.0
+2024-11-10,21:00 (20:00),La Liga,2024-2025,Barcelona,Real Sociedad,Away,Matchweek 13,0.7,0,1,11,0,17.6,0,0,2.0,1.0,0.0,14.0,6.0,16.7,1.0,0.0
+2024-11-23,21:00 (20:00),La Liga,2024-2025,Barcelona,Celta Vigo,Away,Matchweek 14,1.8,2,2,9,4,17.3,0,0,2.5,2.0,2.0,15.0,8.0,19.0,2.0,0.0
+2024-11-26,21:00 (20:00),Champions Lg,2024-2025,Barcelona,fr Brest,Home,League phase,2.8,3,0,18,6,16.0,1,1,0.1,0.0,3.0,2.0,0.0,15.0,0.0,0.0
+2024-11-30,14:00 (13:00),La Liga,2024-2025,Barcelona,Las Palmas,Home,Matchweek 15,2.3,1,2,27,8,17.1,2,0,0.5,2.0,1.0,5.0,3.0,15.8,0.0,0.0
+2024-12-03,19:00 (18:00),La Liga,2024-2025,Barcelona,Mallorca,Away,Matchweek 19,5.0,5,1,19,8,17.1,1,1,0.9,1.0,5.0,6.0,1.0,15.1,0.0,0.0
+2024-12-07,16:15 (15:15),La Liga,2024-2025,Barcelona,Betis,Away,Matchweek 16,1.9,2,2,9,3,14.5,0,0,3.1,2.0,2.0,11.0,4.0,19.9,1.0,1.0
+2024-12-11,21:00 (20:00),Champions Lg,2024-2025,Barcelona,de Dortmund,Away,League phase,2.0,3,2,13,8,15.9,0,0,2.7,2.0,3.0,11.0,1.0,17.4,0.0,1.0
+2024-12-15,21:00 (20:00),La Liga,2024-2025,Barcelona,Leganés,Home,Matchweek 17,2.6,0,1,20,3,16.4,1,0,0.4,1.0,0.0,6.0,4.0,19.3,0.0,0.0
+2024-12-21,21:00 (20:00),La Liga,2024-2025,Barcelona,Atlético Madrid,Home,Matchweek 18,2.7,1,2,19,7,15.0,1,0,0.7,2.0,1.0,5.0,4.0,30.2,1.0,0.0
+2025-01-04,19:00 (18:00),Copa del Rey,2024-2025,Barcelona,Barbastro,Away,Round of 32,,4,0,19,9,,,0,,0.0,4.0,2.0,1.0,,,0.0
+2025-01-08,22:00 (19:00),Supercopa de España,2024-2025,Barcelona,Athletic Club,Neutral,Semi-finals,,2,0,14,8,,,0,,0.0,2.0,10.0,5.0,,,0.0
+2025-01-12,22:00 (19:00),Supercopa de España,2024-2025,Barcelona,Real Madrid,Neutral,Final,,5,2,14,8,,,1,,2.0,5.0,19.0,6.0,,,0.0
+2025-01-15,21:00 (20:00),Copa del Rey,2024-2025,Barcelona,Betis,Home,Round of 16,,5,1,18,9,,,0,,1.0,5.0,8.0,3.0,,,1.0
+2025-01-18,21:00 (20:00),La Liga,2024-2025,Barcelona,Getafe,Away,Matchweek 20,2.3,1,1,21,5,17.1,1,0,1.3,1.0,1.0,10.0,4.0,22.5,0.0,0.0
+2025-01-21,20:00,Champions Lg,2024-2025,Barcelona,pt Benfica,Away,League phase,3.6,5,4,20,9,21.6,1,2,3.3,4.0,5.0,9.0,4.0,15.6,0.0,1.0
+2025-01-26,21:00 (20:00),La Liga,2024-2025,Barcelona,Valencia,Home,Matchweek 21,4.4,7,1,22,11,16.2,0,0,1.5,1.0,7.0,7.0,2.0,14.3,1.0,0.0
+2025-01-29,21:00 (20:00),Champions Lg,2024-2025,Barcelona,it Atalanta,Home,League phase,2.4,2,2,16,7,18.2,2,0,1.2,2.0,2.0,8.0,4.0,14.3,0.0,0.0
+2025-02-02,14:00 (13:00),La Liga,2024-2025,Barcelona,Alavés,Home,Matchweek 22,1.0,1,0,11,4,18.2,0,0,0.1,0.0,1.0,3.0,0.0,21.1,0.0,0.0
+2025-02-06,21:30 (20:30),Copa del Rey,2024-2025,Barcelona,Valencia,Away,Quarter-finals,,5,0,17,9,,,0,,0.0,5.0,4.0,1.0,,,0.0
+Date,Time,Comp,2024-2025,Barcelona,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+2025-02-09,21:00 (20:00),La Liga,2024-2025,Barcelona,Sevilla,Away,Matchweek 23,1.9,4,1,10,6,14.4,0,0,0.7,1.0,4.0,8.0,4.0,17.3,0.0,0.0
+2025-02-17,21:00 (20:00),La Liga,2024-2025,Barcelona,Rayo Vallecano,Home,Matchweek 24,2.3,1,0,13,4,12.6,0,1,1.0,0.0,1.0,9.0,4.0,12.4,0.0,0.0
+2025-02-22,20:00,La Liga,2024-2025,Barcelona,Las Palmas,Away,Matchweek 25,1.4,2,0,15,5,16.4,3,0,0.4,0.0,2.0,10.0,2.0,20.1,0.0,0.0
+2025-02-25,21:30 (20:30),Copa del Rey,2024-2025,Barcelona,Atlético Madrid,Home,Semi-finals,,4,4,16,9,,,0,,4.0,4.0,10.0,7.0,,,0.0
+2025-03-02,16:15 (15:15),La Liga,2024-2025,Barcelona,Real Sociedad,Home,Matchweek 26,2.8,4,0,33,10,17.5,2,0,0.0,0.0,4.0,0.0,0.0,,0.0,0.0
+2025-03-05,20:00,Champions Lg,2024-2025,Barcelona,pt Benfica,Away,Round of 16,1.2,1,0,10,5,14.8,0,0,1.7,0.0,1.0,26.0,8.0,15.7,1.0,0.0
+2025-03-11,18:45 (17:45),Champions Lg,2024-2025,Barcelona,pt Benfica,Home,Round of 16,2.4,3,1,20,6,16.0,1,0,0.7,1.0,3.0,8.0,2.0,15.5,0.0,0.0
+2025-03-16,21:00 (20:00),La Liga,2024-2025,Barcelona,Atlético Madrid,Away,Matchweek 28,1.3,4,2,13,6,17.5,0,0,1.4,2.0,4.0,7.0,2.0,18.7,0.0,0.0
+2025-03-27,21:00 (20:00),La Liga,2024-2025,Barcelona,Osasuna,Home,Matchweek 27,3.7,3,0,18,4,16.5,1,1,0.4,0.0,3.0,4.0,0.0,8.9,0.0,0.0
+2025-03-30,16:15 (14:15),La Liga,2024-2025,Barcelona,Girona,Home,Matchweek 29,2.3,4,1,21,9,16.0,0,0,0.5,1.0,4.0,4.0,2.0,14.0,0.0,0.0
+2025-04-02,21:30 (19:30),Copa del Rey,2024-2025,Barcelona,Atlético Madrid,Away,Semi-finals,,1,0,15,5,,,0,,0.0,1.0,6.0,0.0,,,0.0
+2025-04-05,21:00 (19:00),La Liga,2024-2025,Barcelona,Betis,Home,Matchweek 30,1.4,1,1,13,5,16.9,1,0,0.3,1.0,1.0,6.0,2.0,25.6,0.0,0.0
+2025-04-09,21:00 (19:00),Champions Lg,2024-2025,Barcelona,de Dortmund,Home,Quarter-finals,3.5,4,0,18,9,14.7,0,0,1.4,0.0,4.0,13.0,3.0,14.5,0.0,0.0
+2025-04-12,21:00 (19:00),La Liga,2024-2025,Barcelona,Leganés,Away,Matchweek 31,1.4,1,0,12,3,13.8,1,0,0.7,0.0,1.0,6.0,1.0,17.4,0.0,0.0
+2025-04-15,21:00 (19:00),Champions Lg,2024-2025,Barcelona,de Dortmund,Away,Quarter-finals,0.5,1,3,7,2,17.3,0,0,3.6,3.0,1.0,17.0,10.0,13.4,0.0,1.0
+2025-04-19,16:15 (14:15),La Liga,2024-2025,Barcelona,Celta Vigo,Home,Matchweek 32,2.9,4,3,17,5,18.5,1,1,2.1,3.0,4.0,11.0,8.0,13.8,0.0,0.0
+2025-04-22,21:30 (19:30),La Liga,2024-2025,Barcelona,Mallorca,Home,Matchweek 33,3.3,1,0,40,12,17.1,0,0,0.3,0.0,1.0,4.0,0.0,12.4,0.0,0.0
+2025-04-26,22:00 (20:00),Copa del Rey,2024-2025,Barcelona,Real Madrid,Home,Final,,3,2,22,9,,,0,,2.0,3.0,15.0,7.0,,,0.0
+2025-04-30,21:00 (19:00),Champions Lg,2024-2025,Barcelona,it Inter,Home,Semi-finals,1.4,3,3,19,9,19.2,1,0,0.8,3.0,3.0,7.0,3.0,15.6,0.0,0.0
+2025-05-03,21:00 (19:00),La Liga,2024-2025,Barcelona,Valladolid,Away,Matchweek 34,1.9,2,1,24,6,17.4,3,0,0.6,1.0,2.0,5.0,4.0,11.6,0.0,0.0
+2025-05-06,21:00 (19:00),Champions Lg,2024-2025,Barcelona,it Inter,Away,Semi-finals,2.8,3,4,22,10,16.1,0,0,2.2,4.0,3.0,12.0,6.0,18.9,0.0,1.0
+2025-05-11,16:15 (14:15),La Liga,2024-2025,Barcelona,Real Madrid,Home,Matchweek 35,4.2,4,3,23,9,16.3,0,0,2.7,3.0,4.0,8.0,4.0,16.8,0.0,1.0
+2025-05-15,21:30 (19:30),La Liga,2024-2025,Barcelona,Espanyol,Away,Matchweek 36,0.6,2,0,12,4,18.1,0,0,1.4,0.0,2.0,9.0,1.0,16.8,0.0,0.0
+2025-05-18,19:00 (17:00),La Liga,2024-2025,Barcelona,Villarreal,Home,Matchweek 37,1.4,2,3,24,9,20.4,1,0,1.8,3.0,2.0,7.0,3.0,11.3,0.0,0.0
+2025-05-25,21:00 (19:00),La Liga,2024-2025,Barcelona,Athletic Club,Away,Matchweek 38,3.5,3,0,12,3,16.3,0,1,1.2,0.0,3.0,9.0,1.0,16.1,0.0,0.0
+2024-08-14,21:00 (19:00),Super Cup,2024-2025,Real Madrid,it Atalanta,Home,UEFA Super Cup,,2,0,13,6,,,0,,0,2,7.0,2.0,,,0.0
+2024-08-18,21:30 (19:30),La Liga,2024-2025,Real Madrid,Mallorca,Away,Matchweek 1,0.6,1,1,13,5,21.3,0,0,1.0,1,1,12.0,5.0,17.2,0.0,0.0
+2024-08-25,17:00 (15:00),La Liga,2024-2025,Real Madrid,Valladolid,Home,Matchweek 2,2.1,3,0,17,9,17.2,1,0,0.4,0,3,8.0,0.0,18.8,0.0,0.0
+2024-08-29,20:30 (19:30),La Liga,2024-2025,Real Madrid,Las Palmas,Away,Matchweek 3,2.5,1,1,24,7,18.0,1,1,0.8,1,1,7.0,2.0,18.1,0.0,0.0
+2024-09-01,21:30 (19:30),La Liga,2024-2025,Real Madrid,Betis,Home,Matchweek 4,2.4,2,0,21,6,16.3,0,1,0.6,0,2,11.0,2.0,16.3,0.0,0.0
+2024-09-14,21:00 (19:00),La Liga,2024-2025,Real Madrid,Real Sociedad,Away,Matchweek 5,2.3,2,0,14,4,19.4,1,2,1.1,0,2,11.0,2.0,17.2,1.0,0.0
+2024-09-17,21:00 (19:00),Champions Lg,2024-2025,Real Madrid,de Stuttgart,Home,League phase,2.6,3,1,20,8,15.7,0,0,1.9,1,3,17.0,7.0,16.3,0.0,0.0
+2024-09-21,21:00 (19:00),La Liga,2024-2025,Real Madrid,Espanyol,Home,Matchweek 6,4.4,4,1,30,13,17.4,0,1,0.3,1,4,10.0,1.0,23.3,0.0,0.0
+2024-09-24,21:00 (19:00),La Liga,2024-2025,Real Madrid,Alavés,Home,Matchweek 7,1.3,3,2,10,4,14.7,1,0,0.9,2,3,12.0,3.0,19.7,0.0,0.0
+2024-09-29,21:00 (19:00),La Liga,2024-2025,Real Madrid,Atlético Madrid,Away,Matchweek 8,0.8,1,1,12,4,20.4,0,0,1.3,1,1,12.0,4.0,18.3,1.0,0.0
+2024-10-02,21:00 (19:00),Champions Lg,2024-2025,Real Madrid,fr Lille,Away,League phase,2.0,0,1,12,5,13.4,0,0,1.1,1,0,6.0,2.0,20.6,1.0,1.0
+2024-10-05,21:00 (19:00),La Liga,2024-2025,Real Madrid,Villarreal,Home,Matchweek 9,0.5,2,0,11,2,22.0,0,0,1.1,0,2,12.0,1.0,16.4,1.0,0.0
+2024-10-19,21:00 (19:00),La Liga,2024-2025,Real Madrid,Celta Vigo,Away,Matchweek 10,0.7,2,1,10,3,18.6,0,0,1.8,1,2,13.0,5.0,18.7,0.0,0.0
+2024-10-22,21:00 (19:00),Champions Lg,2024-2025,Real Madrid,de Dortmund,Home,League phase,3.5,5,2,26,10,15.9,0,0,1.6,2,5,8.0,7.0,16.7,0.0,0.0
+2024-10-26,21:00 (19:00),La Liga,2024-2025,Real Madrid,Barcelona,Home,Matchweek 11,1.5,0,4,9,4,23.7,0,0,2.6,4,0,15.0,7.0,21.7,0.0,0.0
+2024-11-05,21:00 (20:00),Champions Lg,2024-2025,Real Madrid,it Milan,Home,League phase,2.6,1,3,22,9,19.3,1,1,2.5,3,1,14.0,9.0,13.6,0.0,0.0
+2024-11-09,14:00 (13:00),La Liga,2024-2025,Real Madrid,Osasuna,Home,Matchweek 13,3.1,4,0,18,8,15.2,1,0,0.1,0,4,2.0,0.0,31.7,1.0,0.0
+2024-11-24,18:30 (17:30),La Liga,2024-2025,Real Madrid,Leganés,Away,Matchweek 14,1.8,3,0,16,8,15.6,1,0,0.1,0,3,4.0,0.0,27.6,0.0,0.0
+2024-11-27,20:00,Champions Lg,2024-2025,Real Madrid,eng Liverpool,Away,League phase,1.2,0,2,7,2,27.0,1,0,2.7,2,0,16.0,7.0,16.7,0.0,0.0
+2024-12-01,16:15 (15:15),La Liga,2024-2025,Real Madrid,Getafe,Home,Matchweek 15,3.2,2,0,12,3,17.6,0,1,0.5,0,2,8.0,3.0,18.2,0.0,0.0
+2024-12-04,21:00 (20:00),La Liga,2024-2025,Real Madrid,Athletic Club,Away,Matchweek 19,1.7,1,2,9,4,17.5,0,0,1.8,2,1,9.0,3.0,13.8,0.0,0.0
+2024-12-07,21:00 (20:00),La Liga,2024-2025,Real Madrid,Girona,Away,Matchweek 16,0.9,3,0,10,7,19.3,0,0,0.4,0,3,10.0,4.0,19.4,0.0,0.0
+2024-12-10,21:00 (20:00),Champions Lg,2024-2025,Real Madrid,it Atalanta,Away,League phase,2.1,3,2,10,6,16.6,1,0,3.3,2,3,19.0,8.0,17.4,1.0,1.0
+2024-12-14,21:00 (20:00),La Liga,2024-2025,Real Madrid,Rayo Vallecano,Away,Matchweek 17,0.7,3,3,13,6,21.6,0,0,1.6,3,3,14.0,5.0,20.1,2.0,0.0
+2024-12-22,16:15 (15:15),La Liga,2024-2025,Real Madrid,Sevilla,Home,Matchweek 18,2.0,4,2,16,7,14.6,0,0,1.3,2,4,10.0,4.0,18.6,0.0,0.0
+2025-01-03,21:00 (20:00),La Liga,2024-2025,Real Madrid,Valencia,Away,Matchweek 12,2.7,2,1,16,5,21.5,0,0,1.3,1,2,8.0,5.0,15.6,0.0,0.0
+2025-01-06,19:00 (18:00),Copa del Rey,2024-2025,Real Madrid,CD Minera,Away,Round of 32,,5,0,33,21,,,0,,0,5,4.0,1.0,,,0.0
+2025-01-09,22:00 (19:00),Supercopa de España,2024-2025,Real Madrid,Mallorca,Neutral,Semi-finals,,3,0,28,11,,,0,,0,3,8.0,0.0,,,0.0
+2025-01-12,22:00 (19:00),Supercopa de España,2024-2025,Real Madrid,Barcelona,Neutral,Final,,2,5,19,6,,,0,,5,2,14.0,8.0,,,1.0
+2025-01-16,21:30 (20:30),Copa del Rey,2024-2025,Real Madrid,Celta Vigo,Home,Round of 16,,5,2,23,11,,,0,,2,5,12.0,4.0,,,1.0
+2025-01-19,16:15 (15:15),La Liga,2024-2025,Real Madrid,Las Palmas,Home,Matchweek 20,5.9,4,1,25,12,16.1,0,1,1.1,1,4,6.0,2.0,16.1,0.0,0.0
+2025-01-22,21:00 (20:00),Champions Lg,2024-2025,Real Madrid,at RB Salzburg,Home,League phase,2.8,5,1,14,6,14.8,0,0,0.4,1,5,9.0,3.0,18.4,0.0,0.0
+2025-01-25,21:00 (20:00),La Liga,2024-2025,Real Madrid,Valladolid,Away,Matchweek 21,2.0,3,0,19,3,21.0,1,1,0.2,0,3,6.0,2.0,16.9,0.0,0.0
+2025-01-29,21:00 (20:00),Champions Lg,2024-2025,Real Madrid,fr Brest,Away,League phase,2.6,3,0,14,6,14.3,0,0,1.4,0,3,23.0,5.0,18.5,1.0,0.0
+2025-02-01,21:00 (20:00),La Liga,2024-2025,Real Madrid,Espanyol,Away,Matchweek 22,1.3,0,1,21,7,16.6,2,0,0.3,1,0,5.0,2.0,18.4,0.0,0.0
+Date,Time,Comp,2024-2025,Real Madrid,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+2025-02-05,21:00 (20:00),Copa del Rey,2024-2025,Real Madrid,Leganés,Away,Quarter-finals,,3,2,20,12,,,0,,2,3,16.0,4.0,,,1.0
+2025-02-08,21:00 (20:00),La Liga,2024-2025,Real Madrid,Atlético Madrid,Home,Matchweek 23,1.6,1,1,23,9,18.7,1,0,1.5,1,1,9.0,0.0,18.8,0.0,1.0
+2025-02-11,20:00,Champions Lg,2024-2025,Real Madrid,eng Manchester City,Away,Knockout phase play-offs,3.2,3,2,20,7,15.5,1,0,1.5,2,3,10.0,3.0,15.1,0.0,1.0
+2025-02-15,16:15 (15:15),La Liga,2024-2025,Real Madrid,Osasuna,Away,Matchweek 24,1.4,1,1,17,5,18.8,1,0,1.4,1,1,10.0,3.0,14.7,0.0,1.0
+2025-02-19,21:00 (20:00),Champions Lg,2024-2025,Real Madrid,eng Manchester City,Home,Knockout phase play-offs,1.8,3,1,15,8,16.8,0,0,1.3,1,3,12.0,4.0,21.1,2.0,0.0
+2025-02-23,16:15 (15:15),La Liga,2024-2025,Real Madrid,Girona,Home,Matchweek 25,2.2,2,0,22,5,18.1,0,0,0.4,0,2,6.0,2.0,14.4,0.0,0.0
+2025-02-26,21:30 (20:30),Copa del Rey,2024-2025,Real Madrid,Real Sociedad,Away,Semi-finals,,1,0,14,5,,,0,,0,1,11.0,6.0,,,0.0
+2025-03-01,18:30 (17:30),La Liga,2024-2025,Real Madrid,Betis,Away,Matchweek 26,0.9,1,2,9,2,17.1,0,0,2.4,2,1,17.0,2.0,20.3,2.0,1.0
+2025-03-04,21:00 (20:00),Champions Lg,2024-2025,Real Madrid,es Atlético Madrid,Home,Round of 16,0.7,2,1,13,7,20.2,0,0,0.2,1,2,6.0,2.0,15.8,0.0,0.0
+2025-03-09,16:15 (15:15),La Liga,2024-2025,Real Madrid,Rayo Vallecano,Home,Matchweek 27,1.5,2,1,10,5,14.3,0,0,1.0,1,2,20.0,6.0,19.7,0.0,0.0
+2025-03-12,21:00 (20:00),Champions Lg,2024-2025,Real Madrid,es Atlético Madrid,Away,Round of 16,1.1,0 (4),1 (2),9,3,20.2,0,0,1.4,1 (2),0 (4),17.0,8.0,17.0,0.0,0.0
+2025-03-15,18:30 (17:30),La Liga,2024-2025,Real Madrid,Villarreal,Away,Matchweek 28,1.1,2,1,9,5,18.9,0,0,1.6,1,2,23.0,10.0,17.1,0.0,0.0
+2025-03-29,21:00 (20:00),La Liga,2024-2025,Real Madrid,Leganés,Home,Matchweek 29,2.9,3,2,23,8,18.9,2,1,2.4,2,3,10.0,4.0,16.0,0.0,0.0
+2025-04-01,21:30 (19:30),Copa del Rey,2024-2025,Real Madrid,Real Sociedad,Home,Semi-finals,,4,4,26,10,,,0,,4,4,11.0,5.0,,,0.0
+2025-04-05,16:15 (14:15),La Liga,2024-2025,Real Madrid,Valencia,Home,Matchweek 30,3.4,1,2,20,8,14.8,0,0,0.8,2,1,10.0,2.0,14.6,0.0,0.0
+2025-04-08,20:00 (19:00),Champions Lg,2024-2025,Real Madrid,eng Arsenal,Away,Quarter-finals,0.5,0,3,9,3,18.9,0,0,1.5,3,0,12.0,8.0,14.4,2.0,0.0
+2025-04-13,16:15 (14:15),La Liga,2024-2025,Real Madrid,Alavés,Away,Matchweek 31,0.9,1,0,11,3,18.9,1,0,0.6,0,1,13.0,6.0,18.6,0.0,0.0
+2025-04-16,21:00 (19:00),Champions Lg,2024-2025,Real Madrid,eng Arsenal,Home,Quarter-finals,1.4,1,2,18,3,20.7,1,0,2.0,2,1,11.0,5.0,17.1,0.0,0.0
+2025-04-20,21:00 (19:00),La Liga,2024-2025,Real Madrid,Athletic Club,Home,Matchweek 32,1.5,1,0,22,7,17.0,0,0,0.2,0,1,3.0,1.0,21.9,0.0,0.0
+2025-04-23,21:30 (19:30),La Liga,2024-2025,Real Madrid,Getafe,Away,Matchweek 33,1.5,1,0,14,6,16.4,0,0,2.3,0,1,20.0,6.0,18.1,1.0,0.0
+2025-04-26,22:00 (20:00),Copa del Rey,2024-2025,Real Madrid,Barcelona,Away,Final,,2,3,15,7,,,0,,3,2,22.0,9.0,,,0.0
+2025-05-04,14:00 (12:00),La Liga,2024-2025,Real Madrid,Celta Vigo,Home,Matchweek 34,2.2,3,2,17,6,17.3,1,0,1.8,2,3,14.0,6.0,17.0,0.0,0.0
+2025-05-11,16:15 (14:15),La Liga,2024-2025,Real Madrid,Barcelona,Away,Matchweek 35,2.7,3,4,8,4,16.8,0,1,4.2,4,3,23.0,9.0,16.3,0.0,0.0
+2025-05-14,21:30 (19:30),La Liga,2024-2025,Real Madrid,Mallorca,Home,Matchweek 36,2.6,2,1,39,12,19.8,0,0,0.5,1,2,4.0,2.0,16.8,0.0,0.0
+2025-05-18,19:00 (17:00),La Liga,2024-2025,Real Madrid,Sevilla,Away,Matchweek 37,2.0,2,0,16,6,20.2,0,0,0.5,0,2,6.0,1.0,20.6,0.0,0.0
+2025-05-24,16:15 (14:15),La Liga,2024-2025,Real Madrid,Real Sociedad,Home,Matchweek 38,2.6,2,0,15,7,20.7,0,0,0.8,0,2,9.0,1.0,16.3,0.0,0.0
+2024-08-19,21:30 (19:30),La Liga,2024-2025,Atletico Madrid,Villarreal,Away,Matchweek 1,1.1,2,2,9,4,14.3,0,0,0.8,2,2,9.0,3.0,16.8,2.0,0.0
+2024-08-25,21:30 (19:30),La Liga,2024-2025,Atletico Madrid,Girona,Home,Matchweek 2,1.2,3,0,11,6,19.8,1,0,0.7,0,3,13.0,4.0,19.4,0.0,0.0
+2024-08-28,21:30 (19:30),La Liga,2024-2025,Atletico Madrid,Espanyol,Home,Matchweek 3,2.3,0,0,25,7,16.2,0,0,0.6,0,0,8.0,1.0,18.7,1.0,0.0
+2024-08-31,19:00 (17:00),La Liga,2024-2025,Atletico Madrid,Athletic Club,Away,Matchweek 4,1.7,1,0,9,2,14.2,0,0,0.3,0,1,8.0,1.0,24.4,0.0,0.0
+2024-09-15,21:00 (19:00),La Liga,2024-2025,Atletico Madrid,Valencia,Home,Matchweek 5,3.1,3,0,14,4,10.9,0,0,0.1,0,3,5.0,1.0,21.8,0.0,0.0
+2024-09-19,21:00 (19:00),Champions Lg,2024-2025,Atletico Madrid,de RB Leipzig,Home,League phase,1.7,2,1,21,4,15.6,0,0,0.7,1,2,7.0,3.0,17.1,1.0,0.0
+2024-09-22,21:00 (19:00),La Liga,2024-2025,Atletico Madrid,Rayo Vallecano,Away,Matchweek 6,0.5,1,1,10,5,18.5,0,0,1.7,1,1,16.0,4.0,20.8,1.0,0.0
+2024-09-26,21:00 (19:00),La Liga,2024-2025,Atletico Madrid,Celta Vigo,Away,Matchweek 7,0.6,1,0,8,2,17.4,0,0,1.5,0,1,10.0,4.0,16.1,0.0,0.0
+2024-09-29,21:00 (19:00),La Liga,2024-2025,Atletico Madrid,Real Madrid,Home,Matchweek 8,1.3,1,1,12,4,18.3,1,0,0.8,1,1,12.0,4.0,20.4,0.0,0.0
+2024-10-02,20:00 (19:00),Champions Lg,2024-2025,Atletico Madrid,pt Benfica,Away,League phase,0.2,0,4,4,0,17.5,0,0,4.4,4,0,17.0,8.0,18.2,0.0,2.0
+2024-10-06,21:00 (19:00),La Liga,2024-2025,Atletico Madrid,Real Sociedad,Away,Matchweek 9,0.5,1,1,4,1,19.3,0,0,1.0,1,1,16.0,7.0,19.2,0.0,0.0
+2024-10-20,16:15 (14:15),La Liga,2024-2025,Atletico Madrid,Leganés,Home,Matchweek 10,4.4,3,1,24,8,15.2,0,0,0.3,1,3,5.0,2.0,24.0,1.0,0.0
+2024-10-23,21:00 (19:00),Champions Lg,2024-2025,Atletico Madrid,fr Lille,Home,League phase,2.3,1,3,11,5,13.4,0,0,1.3,3,1,7.0,2.0,16.8,0.0,1.0
+2024-10-27,18:30 (17:30),La Liga,2024-2025,Atletico Madrid,Betis,Away,Matchweek 11,0.5,0,1,10,3,13.8,0,0,1.9,1,0,24.0,3.0,18.3,0.0,0.0
+2024-10-31,19:00 (18:00),Copa del Rey,2024-2025,Atletico Madrid,UE Vic,Away,First round,,2,0,16,7,,,1,,0,2,8.0,3.0,,,0.0
+2024-11-03,14:00 (13:00),La Liga,2024-2025,Atletico Madrid,Las Palmas,Home,Matchweek 12,1.6,2,0,15,3,17.0,0,0,0.0,0,2,1.0,1.0,16.9,0.0,0.0
+2024-11-06,21:00 (20:00),Champions Lg,2024-2025,Atletico Madrid,fr Paris S-G,Away,League phase,0.7,2,1,4,3,16.5,0,0,2.1,1,2,22.0,9.0,17.8,0.0,0.0
+2024-11-10,16:15 (15:15),La Liga,2024-2025,Atletico Madrid,Mallorca,Away,Matchweek 13,0.6,1,0,9,2,19.7,0,0,0.6,0,1,13.0,5.0,15.5,2.0,0.0
+2024-11-23,16:15 (15:15),La Liga,2024-2025,Atletico Madrid,Alavés,Home,Matchweek 14,1.6,2,1,10,7,20.4,0,1,0.9,1,2,3.0,0.0,33.0,0.0,1.0
+2024-11-26,18:45 (17:45),Champions Lg,2024-2025,Atletico Madrid,cz Sparta Prague,Away,League phase,3.1,6,0,24,10,18.5,1,0,0.2,0,6,4.0,2.0,14.6,0.0,0.0
+2024-11-30,21:00 (20:00),La Liga,2024-2025,Atletico Madrid,Valladolid,Away,Matchweek 15,4.0,5,0,13,9,13.9,0,0,0.6,0,5,9.0,1.0,14.3,0.0,0.0
+2024-12-05,19:00 (18:00),Copa del Rey,2024-2025,Atletico Madrid,Cacereño,Away,Second round,,3,1,28,13,,,0,,1,3,5.0,2.0,,,0.0
+2024-12-08,21:00 (20:00),La Liga,2024-2025,Atletico Madrid,Sevilla,Home,Matchweek 16,2.0,4,3,14,9,16.1,0,0,0.4,3,4,4.0,3.0,16.9,0.0,0.0
+2024-12-11,18:45 (17:45),Champions Lg,2024-2025,Atletico Madrid,sk Slovan Bratislava,Home,League phase,2.0,3,1,19,6,18.0,1,0,1.0,1,3,4.0,1.0,17.4,0.0,1.0
+2024-12-15,14:00 (13:00),La Liga,2024-2025,Atletico Madrid,Getafe,Home,Matchweek 17,1.7,1,0,11,3,15.1,0,0,0.2,0,1,7.0,1.0,21.5,1.0,0.0
+2024-12-21,21:00 (20:00),La Liga,2024-2025,Atletico Madrid,Barcelona,Away,Matchweek 18,0.7,2,1,5,4,30.2,1,0,2.7,1,2,19.0,7.0,15.0,1.0,0.0
+2025-01-04,21:30 (20:30),Copa del Rey,2024-2025,Atletico Madrid,Marbella,Away,Round of 32,,1,0,18,5,,,0,,0,1,5.0,2.0,,,0.0
+2025-01-12,16:15 (15:15),La Liga,2024-2025,Atletico Madrid,Osasuna,Home,Matchweek 19,2.5,1,0,9,5,10.6,0,0,0.3,0,1,6.0,1.0,25.2,0.0,0.0
+2025-01-15,21:30 (20:30),Copa del Rey,2024-2025,Atletico Madrid,Elche,Away,Round of 16,,4,0,14,11,,,1,,0,4,10.0,4.0,,,0.0
+2025-01-18,16:15 (15:15),La Liga,2024-2025,Atletico Madrid,Leganés,Away,Matchweek 20,2.4,0,1,18,3,18.1,1,0,0.5,1,0,9.0,3.0,17.8,1.0,0.0
+2025-01-21,21:00 (20:00),Champions Lg,2024-2025,Atletico Madrid,de Leverkusen,Home,League phase,0.8,2,1,5,2,20.5,0,0,0.8,1,2,13.0,4.0,19.1,0.0,0.0
+2025-01-25,16:15 (15:15),La Liga,2024-2025,Atletico Madrid,Villarreal,Home,Matchweek 21,1.7,1,1,20,8,19.7,1,0,2.2,1,1,10.0,0.0,12.2,0.0,1.0
+2025-01-29,21:00 (20:00),Champions Lg,2024-2025,Atletico Madrid,at RB Salzburg,Away,League phase,2.1,4,1,12,8,16.6,0,0,0.6,1,4,10.0,3.0,17.6,0.0,0.0
+2025-02-01,18:30 (17:30),La Liga,2024-2025,Atletico Madrid,Mallorca,Home,Matchweek 22,1.3,2,0,17,5,20.4,1,0,0.5,0,2,10.0,1.0,18.5,0.0,0.0
+2025-02-04,21:30 (20:30),Copa del Rey,2024-2025,Atletico Madrid,Getafe,Home,Quarter-finals,,5,0,14,8,,,0,,0,5,10.0,4.0,,,0.0
+Date,Time,Comp,2024-2025,Atletico Madrid,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+2025-02-08,21:00 (20:00),La Liga,2024-2025,Atletico Madrid,Real Madrid,Away,Matchweek 23,1.5,1,1,9,0,18.8,0,1,1.6,1,1,23.0,9.0,18.7,1.0,0.0
+2025-02-15,18:30 (17:30),La Liga,2024-2025,Atletico Madrid,Celta Vigo,Home,Matchweek 24,0.6,1,1,9,3,16.0,0,0,1.7,1,1,10.0,3.0,19.6,0.0,1.0
+2025-02-22,18:30 (17:30),La Liga,2024-2025,Atletico Madrid,Valencia,Away,Matchweek 25,1.3,3,0,11,3,16.1,1,0,0.8,0,3,18.0,2.0,18.7,1.0,0.0
+2025-02-25,21:30 (20:30),Copa del Rey,2024-2025,Atletico Madrid,Barcelona,Away,Semi-finals,,4,4,10,7,,,0,,4,4,16.0,9.0,,,0.0
+2025-03-01,21:00 (20:00),La Liga,2024-2025,Atletico Madrid,Athletic Club,Home,Matchweek 26,2.2,1,0,12,4,13.6,1,0,1.1,0,1,15.0,3.0,16.9,0.0,0.0
+2025-03-04,21:00 (20:00),Champions Lg,2024-2025,Atletico Madrid,es Real Madrid,Away,Round of 16,0.2,1,2,6,2,15.8,0,0,0.7,2,1,13.0,7.0,20.2,0.0,0.0
+2025-03-09,14:00 (13:00),La Liga,2024-2025,Atletico Madrid,Getafe,Away,Matchweek 27,0.9,1,2,3,1,13.1,0,1,1.2,2,1,11.0,3.0,17.0,0.0,0.0
+2025-03-12,21:00 (20:00),Champions Lg,2024-2025,Atletico Madrid,es Real Madrid,Home,Round of 16,1.4,1 (2),0 (4),17,8,17.0,0,0,1.1,0 (4),1 (2),9.0,3.0,20.2,0.0,0.0
+2025-03-16,21:00 (20:00),La Liga,2024-2025,Atletico Madrid,Barcelona,Home,Matchweek 28,1.4,2,4,7,2,18.7,0,0,1.3,4,2,13.0,6.0,17.5,0.0,0.0
+2025-03-29,16:15 (15:15),La Liga,2024-2025,Atletico Madrid,Espanyol,Away,Matchweek 29,0.8,1,1,13,2,20.5,1,0,1.0,1,1,7.0,0.0,21.6,0.0,1.0
+2025-04-02,21:30 (19:30),Copa del Rey,2024-2025,Atletico Madrid,Barcelona,Home,Semi-finals,,0,1,6,0,,,0,,1,0,15.0,5.0,,,0.0
+2025-04-06,16:15 (14:15),La Liga,2024-2025,Atletico Madrid,Sevilla,Away,Matchweek 30,1.3,2,1,12,4,20.8,1,1,0.9,1,2,11.0,5.0,18.6,1.0,0.0
+2025-04-14,21:00 (19:00),La Liga,2024-2025,Atletico Madrid,Valladolid,Home,Matchweek 31,3.4,4,2,22,7,19.6,0,2,1.2,2,4,5.0,2.0,22.7,1.0,1.0
+2025-04-19,20:00 (19:00),La Liga,2024-2025,Atletico Madrid,Las Palmas,Away,Matchweek 32,0.8,0,1,7,2,11.7,0,0,0.6,1,0,8.0,2.0,19.3,0.0,0.0
+2025-04-24,21:30 (19:30),La Liga,2024-2025,Atletico Madrid,Rayo Vallecano,Home,Matchweek 33,2.3,3,0,11,6,12.9,0,0,0.7,0,3,12.0,5.0,22.6,0.0,0.0
+2025-05-03,14:00 (12:00),La Liga,2024-2025,Atletico Madrid,Alavés,Away,Matchweek 34,0.5,0,0,9,2,18.8,0,0,0.5,0,0,8.0,2.0,11.6,0.0,0.0
+2025-05-10,21:00 (19:00),La Liga,2024-2025,Atletico Madrid,Real Sociedad,Home,Matchweek 35,1.4,4,0,13,7,23.5,1,0,0.6,0,4,6.0,1.0,20.5,0.0,0.0
+2025-05-15,19:00 (17:00),La Liga,2024-2025,Atletico Madrid,Osasuna,Away,Matchweek 36,1.4,0,2,9,5,14.3,0,0,0.6,2,0,9.0,3.0,18.2,0.0,0.0
+2025-05-18,19:00 (17:00),La Liga,2024-2025,Atletico Madrid,Betis,Home,Matchweek 37,4.8,4,1,20,11,12.4,1,0,0.9,1,4,12.0,7.0,17.3,0.0,0.0
+2025-05-25,14:00 (12:00),La Liga,2024-2025,Atletico Madrid,Girona,Away,Matchweek 38,2.7,4,0,19,11,18.0,1,0,0.0,0,4,2.0,1.0,19.2,0.0,0.0
+2024-08-15,19:00 (17:00),La Liga,2024-2025,Athletic Club,Getafe,Home,Matchweek 1,0.3,1,1,7,4,24.0,1,0,0.8,1,1,9.0,2.0,19.7,0.0,0.0
+2024-08-24,19:00 (17:00),La Liga,2024-2025,Athletic Club,Barcelona,Away,Matchweek 2,1.0,1,2,7,1,20.3,0,1,1.8,2,1,13.0,5.0,16.6,0.0,0.0
+2024-08-28,19:00 (17:00),La Liga,2024-2025,Athletic Club,Valencia,Home,Matchweek 3,1.4,1,0,13,4,14.5,0,0,0.1,0,1,2.0,0.0,18.4,0.0,0.0
+2024-08-31,19:00 (17:00),La Liga,2024-2025,Athletic Club,Atlético Madrid,Home,Matchweek 4,0.3,0,1,8,1,24.4,0,0,1.7,1,0,9.0,2.0,14.2,0.0,0.0
+2024-09-15,17:30 (16:30),La Liga,2024-2025,Athletic Club,Las Palmas,Away,Matchweek 5,1.7,3,2,9,4,14.2,0,0,1.4,2,3,15.0,5.0,17.9,2.0,0.0
+2024-09-19,19:00 (17:00),La Liga,2024-2025,Athletic Club,Leganés,Away,Matchweek 7,1.3,2,0,10,4,13.4,0,0,0.9,0,2,14.0,3.0,20.7,0.0,0.0
+2024-09-22,16:15 (14:15),La Liga,2024-2025,Athletic Club,Celta Vigo,Home,Matchweek 6,0.7,3,1,10,5,15.8,0,0,1.3,1,3,10.0,3.0,13.7,0.0,1.0
+2024-09-26,21:00 (19:00),Europa Lg,2024-2025,Athletic Club,it Roma,Away,League phase,1.0,1,1,12,2,15.3,0,0,0.5,1,1,5.0,3.0,14.2,0.0,0.0
+2024-09-29,16:15 (14:15),La Liga,2024-2025,Athletic Club,Sevilla,Home,Matchweek 8,2.0,1,1,13,5,18.7,0,0,1.1,1,1,13.0,3.0,20.5,2.0,0.0
+2024-10-03,21:00 (19:00),Europa Lg,2024-2025,Athletic Club,nl AZ Alkmaar,Home,League phase,1.4,2,0,17,7,18.7,0,0,0.4,0,2,5.0,2.0,23.2,1.0,0.0
+2024-10-06,14:00 (12:00),La Liga,2024-2025,Athletic Club,Girona,Away,Matchweek 9,3.1,1,2,11,2,22.9,1,0,1.9,2,1,13.0,5.0,15.9,0.0,1.0
+2024-10-19,14:00 (12:00),La Liga,2024-2025,Athletic Club,Espanyol,Home,Matchweek 10,1.3,4,1,10,6,16.8,0,0,0.2,1,4,5.0,2.0,19.0,1.0,0.0
+2024-10-24,21:00 (19:00),Europa Lg,2024-2025,Athletic Club,cz Slavia Prague,Home,League phase,0.2,1,0,6,3,19.8,0,0,1.1,0,1,14.0,6.0,14.7,0.0,0.0
+2024-10-28,21:00 (20:00),La Liga,2024-2025,Athletic Club,Mallorca,Away,Matchweek 11,0.6,0,0,20,1,19.4,0,0,0.5,0,0,4.0,1.0,13.6,0.0,0.0
+2024-11-03,21:00 (20:00),La Liga,2024-2025,Athletic Club,Betis,Home,Matchweek 12,4.0,1,1,17,8,13.2,0,0,0.9,1,1,7.0,4.0,20.4,1.0,0.0
+2024-11-07,19:45 (17:45),Europa Lg,2024-2025,Athletic Club,bg Ludogorets,Away,League phase,1.6,2,1,19,7,17.1,2,0,0.8,1,2,9.0,2.0,18.3,1.0,0.0
+2024-11-10,18:30 (17:30),La Liga,2024-2025,Athletic Club,Valladolid,Away,Matchweek 13,1.2,1,1,17,1,19.5,0,0,0.6,1,1,6.0,3.0,14.9,0.0,0.0
+2024-11-24,21:00 (20:00),La Liga,2024-2025,Athletic Club,Real Sociedad,Home,Matchweek 14,1.3,1,0,12,4,14.1,0,0,0.5,0,1,6.0,1.0,16.2,0.0,0.0
+2024-11-28,18:45 (17:45),Europa Lg,2024-2025,Athletic Club,se Elfsborg,Home,League phase,1.4,3,0,19,5,16.6,0,0,0.3,0,3,2.0,0.0,16.9,0.0,0.0
+2024-12-01,18:30 (17:30),La Liga,2024-2025,Athletic Club,Rayo Vallecano,Away,Matchweek 15,0.7,2,1,12,7,19.5,0,0,0.2,1,2,7.0,4.0,21.1,1.0,0.0
+2024-12-04,21:00 (20:00),La Liga,2024-2025,Athletic Club,Real Madrid,Home,Matchweek 19,1.8,2,1,9,3,13.8,0,0,1.7,1,2,9.0,4.0,17.5,0.0,0.0
+2024-12-08,16:15 (15:15),La Liga,2024-2025,Athletic Club,Villarreal,Home,Matchweek 16,1.2,2,0,12,4,18.5,0,0,0.8,0,2,11.0,1.0,18.2,0.0,0.0
+2024-12-11,18:30 (15:30),Europa Lg,2024-2025,Athletic Club,tr Fenerbahçe,Away,League phase,1.5,2,0,9,5,15.8,0,0,0.4,0,2,4.0,1.0,16.1,0.0,0.0
+2024-12-15,16:15 (15:15),La Liga,2024-2025,Athletic Club,Alavés,Away,Matchweek 17,0.7,1,1,9,2,18.2,0,0,0.9,1,1,6.0,3.0,16.5,0.0,0.0
+2024-12-21,18:30 (17:30),La Liga,2024-2025,Athletic Club,Osasuna,Away,Matchweek 18,1.2,2,1,13,8,16.3,0,0,0.6,1,2,6.0,3.0,17.2,0.0,0.0
+2025-01-04,21:30 (20:30),Copa del Rey,2024-2025,Athletic Club,UD Logroñés,Away,Round of 32,,0 (4),0 (3),18,5,,,0,,0 (3),0 (4),4.0,1.0,,,0.0
+2025-01-08,22:00 (19:00),Supercopa de España,2024-2025,Athletic Club,Barcelona,Neutral,Semi-finals,,0,2,10,5,,,0,,2,0,14.0,8.0,,,0.0
+2025-01-16,19:30 (18:30),Copa del Rey,2024-2025,Athletic Club,Osasuna,Home,Round of 16,,2,3,23,8,,,0,,3,2,9.0,5.0,,,1.0
+2025-01-19,14:00 (13:00),La Liga,2024-2025,Athletic Club,Celta Vigo,Away,Matchweek 20,1.8,2,1,14,6,16.5,0,0,0.6,1,2,3.0,1.0,21.9,0.0,0.0
+2025-01-22,18:30 (15:30),Europa Lg,2024-2025,Athletic Club,tr Beşiktaş,Away,League phase,1.0,1,4,10,4,16.1,0,0,2.8,4,1,10.0,7.0,17.4,1.0,1.0
+2025-01-26,18:30 (17:30),La Liga,2024-2025,Athletic Club,Leganés,Home,Matchweek 21,2.1,0,0,29,3,18.6,1,0,1.0,0,0,5.0,2.0,16.4,0.0,0.0
+2025-01-30,21:00 (20:00),Europa Lg,2024-2025,Athletic Club,cz Viktoria Plzeň,Home,League phase,2.2,3,1,19,8,15.6,0,0,0.6,1,3,8.0,2.0,17.8,0.0,0.0
+2025-02-02,21:00 (20:00),La Liga,2024-2025,Athletic Club,Betis,Away,Matchweek 22,1.4,2,2,12,4,15.7,0,0,1.1,2,2,10.0,6.0,17.2,0.0,0.0
+2025-02-08,16:15 (15:15),La Liga,2024-2025,Athletic Club,Girona,Home,Matchweek 23,3.6,3,0,22,7,16.0,1,1,0.1,0,3,3.0,1.0,28.7,0.0,0.0
+2025-02-16,14:00 (13:00),La Liga,2024-2025,Athletic Club,Espanyol,Away,Matchweek 24,1.0,1,1,14,4,17.7,0,0,0.8,1,1,12.0,4.0,20.4,0.0,0.0
+Date,Time,Comp,2024-2025,Athletic Club,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+2025-02-23,14:00 (13:00),La Liga,2024-2025,Athletic Club,Valladolid,Home,Matchweek 25,3.8,7,1,29,16,16.4,0,0,0.5,1,7,5.0,3.0,21.8,0.0,0.0
+2025-03-01,21:00 (20:00),La Liga,2024-2025,Athletic Club,Atlético Madrid,Away,Matchweek 26,1.1,0,1,15,3,16.9,0,0,2.2,1,0,12.0,4.0,13.6,1.0,0.0
+2025-03-06,21:00 (20:00),Europa Lg,2024-2025,Athletic Club,it Roma,Away,Round of 16,1.2,1,2,16,1,15.5,0,0,1.2,2,1,12.0,5.0,17.1,0.0,0.0
+2025-03-09,18:30 (17:30),La Liga,2024-2025,Athletic Club,Mallorca,Home,Matchweek 27,0.7,1,1,8,2,17.4,1,0,0.5,1,1,9.0,2.0,17.9,0.0,0.0
+2025-03-13,18:45 (17:45),Europa Lg,2024-2025,Athletic Club,it Roma,Home,Round of 16,1.8,3,1,22,8,17.1,0,0,1.1,1,3,4.0,1.0,18.6,0.0,1.0
+2025-03-16,16:15 (15:15),La Liga,2024-2025,Athletic Club,Sevilla,Away,Matchweek 28,1.3,1,0,8,3,18.3,1,0,0.5,0,1,11.0,4.0,20.4,0.0,0.0
+2025-03-30,18:30 (16:30),La Liga,2024-2025,Athletic Club,Osasuna,Home,Matchweek 29,0.7,0,0,11,5,18.9,0,0,0.4,0,0,5.0,2.0,14.0,0.0,0.0
+2025-04-06,21:00 (19:00),La Liga,2024-2025,Athletic Club,Villarreal,Away,Matchweek 30,0.8,0,0,11,2,19.1,0,0,2.1,0,0,12.0,4.0,15.1,0.0,0.0
+2025-04-10,20:00 (19:00),Europa Lg,2024-2025,Athletic Club,sct Rangers,Away,Quarter-finals,2.3,0,0,18,2,13.6,1,0,0.2,0,0,4.0,0.0,18.8,0.0,0.0
+2025-04-13,21:00 (19:00),La Liga,2024-2025,Athletic Club,Rayo Vallecano,Home,Matchweek 31,1.6,3,1,12,3,19.3,0,1,1.6,1,3,10.0,2.0,17.9,1.0,0.0
+2025-04-17,21:00 (19:00),Europa Lg,2024-2025,Athletic Club,sct Rangers,Home,Quarter-finals,2.6,2,0,21,2,17.7,1,1,0.5,0,2,7.0,2.0,24.2,2.0,0.0
+2025-04-20,21:00 (19:00),La Liga,2024-2025,Athletic Club,Real Madrid,Away,Matchweek 32,0.2,0,1,3,1,21.9,0,0,1.5,1,0,22.0,7.0,17.0,0.0,0.0
+2025-04-23,19:00 (17:00),La Liga,2024-2025,Athletic Club,Las Palmas,Home,Matchweek 33,2.1,1,0,13,4,15.2,1,0,1.0,0,1,10.0,2.0,18.4,0.0,0.0
+2025-05-01,21:00 (19:00),Europa Lg,2024-2025,Athletic Club,eng Manchester Utd,Home,Semi-finals,1.1,0,3,9,2,18.4,1,0,2.5,3,0,13.0,6.0,16.4,0.0,1.0
+2025-05-04,21:00 (19:00),La Liga,2024-2025,Athletic Club,Real Sociedad,Away,Matchweek 34,0.2,0,0,3,1,16.6,0,0,0.9,0,0,12.0,3.0,15.4,0.0,0.0
+2025-05-08,20:00 (19:00),Europa Lg,2024-2025,Athletic Club,eng Manchester Utd,Away,Semi-finals,0.8,1,4,11,1,21.6,0,0,2.2,4,1,11.0,5.0,17.6,0.0,0.0
+2025-05-11,18:30 (16:30),La Liga,2024-2025,Athletic Club,Alavés,Home,Matchweek 35,1.3,1,0,11,3,18.3,0,0,0.4,0,1,3.0,1.0,12.9,0.0,0.0
+2025-05-15,21:30 (19:30),La Liga,2024-2025,Athletic Club,Getafe,Away,Matchweek 36,1.2,2,0,9,2,15.6,0,0,0.4,0,2,11.0,1.0,23.6,0.0,0.0
+2025-05-18,19:00 (17:00),La Liga,2024-2025,Athletic Club,Valencia,Away,Matchweek 37,1.1,1,0,10,4,19.3,1,0,0.4,0,1,6.0,2.0,10.9,0.0,0.0
+2025-05-25,21:00 (19:00),La Liga,2024-2025,Athletic Club,Barcelona,Home,Matchweek 38,1.2,0,3,9,1,16.1,0,0,3.5,3,0,12.0,3.0,16.3,0.0,1.0
+2024-08-19,21:30 (19:30),La Liga,2024-2025,Villarreal,Atlético Madrid,Home,Matchweek 1,0.8,2.0,2.0,9.0,3.0,16.8,2.0,0,1.1,2.0,2.0,9.0,4.0,14.3,0.0,0.0
+2024-08-23,21:30 (19:30),La Liga,2024-2025,Villarreal,Sevilla,Away,Matchweek 2,0.9,2.0,1.0,8.0,6.0,15.9,0.0,0,1.0,1.0,2.0,16.0,7.0,17.7,1.0,0.0
+2024-08-26,21:30 (19:30),La Liga,2024-2025,Villarreal,Celta Vigo,Home,Matchweek 3,3.6,4.0,3.0,23.0,8.0,15.3,1.0,0,2.7,3.0,4.0,20.0,7.0,14.4,1.0,0.0
+2024-08-31,21:30 (19:30),La Liga,2024-2025,Villarreal,Valencia,Away,Matchweek 4,0.5,1.0,1.0,9.0,2.0,17.2,0.0,0,1.1,1.0,1.0,22.0,5.0,20.2,0.0,0.0
+2024-09-14,14:00 (12:00),La Liga,2024-2025,Villarreal,Mallorca,Away,Matchweek 5,1.8,2.0,1.0,21.0,4.0,16.2,0.0,0,0.3,1.0,2.0,9.0,4.0,16.9,0.0,0.0
+2024-09-22,18:30 (16:30),La Liga,2024-2025,Villarreal,Barcelona,Home,Matchweek 6,2.2,1.0,5.0,13.0,4.0,13.8,0.0,0,3.9,5.0,1.0,16.0,9.0,14.6,0.0,0.0
+2024-09-26,19:00 (17:00),La Liga,2024-2025,Villarreal,Espanyol,Away,Matchweek 7,1.6,2.0,1.0,15.0,4.0,17.8,0.0,0,0.4,1.0,2.0,9.0,2.0,20.9,1.0,0.0
+2024-09-30,21:00 (19:00),La Liga,2024-2025,Villarreal,Las Palmas,Home,Matchweek 8,2.8,3.0,1.0,19.0,6.0,15.2,0.0,0,0.9,1.0,3.0,7.0,3.0,20.2,0.0,0.0
+2024-10-05,21:00 (19:00),La Liga,2024-2025,Villarreal,Real Madrid,Away,Matchweek 9,1.1,0.0,2.0,12.0,1.0,16.4,1.0,0,0.5,2.0,0.0,11.0,2.0,22.0,0.0,0.0
+2024-10-20,18:30 (16:30),La Liga,2024-2025,Villarreal,Getafe,Home,Matchweek 10,0.9,1.0,1.0,10.0,4.0,17.1,0.0,0,1.9,1.0,1.0,20.0,3.0,17.7,0.0,1.0
+2024-10-26,14:00 (12:00),La Liga,2024-2025,Villarreal,Valladolid,Away,Matchweek 11,2.0,2.0,1.0,21.0,9.0,16.1,0.0,0,0.9,1.0,2.0,6.0,2.0,20.9,0.0,1.0
+2024-10-29,21:00 (20:00),Copa del Rey,2024-2025,Villarreal,UD Poblense,Away,First round,,6.0,1.0,,,,,0,,1.0,6.0,,,,,0.0
+2024-11-09,16:15 (15:15),La Liga,2024-2025,Villarreal,Alavés,Home,Matchweek 13,1.5,3.0,0.0,12.0,2.0,18.9,1.0,1,0.5,0.0,3.0,9.0,3.0,18.3,0.0,0.0
+2024-11-24,14:00 (13:00),La Liga,2024-2025,Villarreal,Osasuna,Away,Matchweek 14,2.5,2.0,2.0,15.0,6.0,16.5,0.0,1,1.0,2.0,2.0,3.0,2.0,21.2,0.0,1.0
+2024-12-01,14:00 (13:00),La Liga,2024-2025,Villarreal,Girona,Home,Matchweek 15,2.0,2.0,2.0,13.0,4.0,13.8,0.0,0,0.5,2.0,2.0,13.0,6.0,21.4,0.0,0.0
+2024-12-04,21:00 (20:00),Copa del Rey,2024-2025,Villarreal,Pontevedra,Away,Second round,,0.0,1.0,6.0,2.0,,,0,,1.0,0.0,15.0,3.0,,,0.0
+2024-12-08,16:15 (15:15),La Liga,2024-2025,Villarreal,Athletic Club,Away,Matchweek 16,0.8,0.0,2.0,11.0,1.0,18.2,0.0,0,1.2,2.0,0.0,12.0,4.0,18.5,0.0,0.0
+2024-12-15,18:30 (17:30),La Liga,2024-2025,Villarreal,Betis,Home,Matchweek 17,1.9,1.0,2.0,17.0,3.0,14.6,0.0,0,0.8,2.0,1.0,10.0,4.0,18.1,2.0,0.0
+2024-12-18,21:30 (20:30),La Liga,2024-2025,Villarreal,Rayo Vallecano,Home,Matchweek 12,1.4,1.0,1.0,14.0,5.0,16.3,0.0,0,1.5,1.0,1.0,18.0,2.0,17.6,0.0,0.0
+2024-12-22,18:30 (17:30),La Liga,2024-2025,Villarreal,Leganés,Away,Matchweek 18,3.3,5.0,2.0,16.0,7.0,17.4,1.0,2,1.2,2.0,5.0,4.0,2.0,18.3,0.0,1.0
+2025-01-13,21:00 (20:00),La Liga,2024-2025,Villarreal,Real Sociedad,Away,Matchweek 19,1.2,0.0,1.0,15.0,5.0,16.8,1.0,0,0.8,1.0,0.0,6.0,3.0,20.5,0.0,0.0
+2025-01-20,21:00 (20:00),La Liga,2024-2025,Villarreal,Mallorca,Home,Matchweek 20,2.4,4.0,0.0,14.0,7.0,13.9,0.0,0,0.5,0.0,4.0,9.0,2.0,18.2,1.0,0.0
+2025-01-25,16:15 (15:15),La Liga,2024-2025,Villarreal,Atlético Madrid,Away,Matchweek 21,2.2,1.0,1.0,10.0,0.0,12.2,0.0,1,1.7,1.0,1.0,20.0,8.0,19.7,1.0,0.0
+2025-02-01,16:15 (15:15),La Liga,2024-2025,Villarreal,Valladolid,Home,Matchweek 22,3.5,5.0,1.0,22.0,8.0,16.8,1.0,0,0.5,1.0,5.0,8.0,2.0,18.7,1.0,0.0
+2025-02-08,17:30,La Liga,2024-2025,Villarreal,Las Palmas,Away,Matchweek 23,0.9,2.0,1.0,9.0,4.0,15.9,0.0,0,1.4,1.0,2.0,20.0,4.0,15.8,0.0,0.0
+2025-02-15,21:00 (20:00),La Liga,2024-2025,Villarreal,Valencia,Home,Matchweek 24,1.3,1.0,1.0,13.0,4.0,17.9,0.0,0,1.1,1.0,1.0,12.0,3.0,19.8,0.0,0.0
+2025-02-22,16:15 (15:15),La Liga,2024-2025,Villarreal,Rayo Vallecano,Away,Matchweek 25,0.6,1.0,0.0,10.0,5.0,16.1,0.0,0,0.6,0.0,1.0,10.0,5.0,16.1,0.0,0.0
+2025-03-08,16:15 (15:15),La Liga,2024-2025,Villarreal,Alavés,Away,Matchweek 27,2.8,0.0,1.0,24.0,2.0,17.5,1.0,0,1.0,1.0,0.0,5.0,3.0,17.1,0.0,0.0
+2025-03-15,18:30 (17:30),La Liga,2024-2025,Villarreal,Real Madrid,Home,Matchweek 28,1.6,1.0,2.0,23.0,10.0,17.1,0.0,0,1.1,2.0,1.0,9.0,5.0,18.9,0.0,0.0
+2025-03-30,14:00 (12:00),La Liga,2024-2025,Villarreal,Getafe,Away,Matchweek 29,1.2,2.0,1.0,9.0,3.0,17.0,0.0,0,1.0,1.0,2.0,11.0,4.0,18.2,0.0,0.0
+2025-04-06,21:00 (19:00),La Liga,2024-2025,Villarreal,Athletic Club,Home,Matchweek 30,2.1,0.0,0.0,12.0,4.0,15.1,0.0,0,0.8,0.0,0.0,11.0,2.0,19.1,0.0,0.0
+2025-04-13,18:30 (16:30),La Liga,2024-2025,Villarreal,Betis,Away,Matchweek 31,1.3,2.0,1.0,8.0,2.0,11.9,0.0,0,1.4,1.0,2.0,24.0,5.0,18.4,0.0,0.0
+2025-04-20,16:15 (14:15),La Liga,2024-2025,Villarreal,Real Sociedad,Home,Matchweek 32,1.9,2.0,2.0,20.0,5.0,12.2,0.0,0,1.7,2.0,2.0,3.0,3.0,13.4,0.0,1.0
+2025-04-23,19:00 (17:00),La Liga,2024-2025,Villarreal,Celta Vigo,Away,Matchweek 33,0.4,0.0,3.0,4.0,1.0,13.5,0.0,0,2.7,3.0,0.0,20.0,8.0,19.4,1.0,1.0
+2025-04-27,16:15 (14:15),La Liga,2024-2025,Villarreal,Espanyol,Home,Matchweek 26,1.4,1.0,0.0,14.0,5.0,16.5,0.0,0,1.0,0.0,1.0,12.0,1.0,18.5,2.0,0.0
+2025-05-03,16:15 (14:15),La Liga,2024-2025,Villarreal,Osasuna,Home,Matchweek 34,2.2,4.0,2.0,15.0,5.0,15.7,0.0,0,1.2,2.0,4.0,10.0,3.0,21.1,0.0,1.0
+2025-05-10,18:30 (16:30),La Liga,2024-2025,Villarreal,Girona,Away,Matchweek 35,2.0,1.0,0.0,14.0,5.0,16.8,0.0,0,0.2,0.0,1.0,7.0,0.0,19.5,0.0,0.0
+2025-05-14,19:00 (17:00),La Liga,2024-2025,Villarreal,Leganés,Home,Matchweek 36,1.6,3.0,0.0,17.0,7.0,18.8,0.0,0,1.1,0.0,3.0,23.0,6.0,21.8,1.0,0.0
+2025-05-18,19:00 (17:00),La Liga,2024-2025,Villarreal,Barcelona,Away,Matchweek 37,1.8,3.0,2.0,7.0,3.0,11.3,0.0,0,1.4,2.0,3.0,24.0,9.0,20.4,1.0,0.0
+2025-05-25,16:15 (14:15),La Liga,2024-2025,Villarreal,Sevilla,Home,Matchweek 38,1.1,4.0,2.0,12.0,7.0,15.0,0.0,0,1.5,2.0,4.0,17.0,6.0,15.5,0.0,0.0
+2024-08-15,21:30 (19:30),La Liga,2024-2025,Real Betis,Girona,Home,Matchweek 1,1.4,1,1,19,4,20.3,0,0,1.6,1.0,1.0,13.0,2.0,17.5,0.0,0.0
+2024-08-22,20:00 (18:00),Conf Lg,2024-2025,Real Betis,ua Kryvbas,Away,Play-off round,,2,0,,,,,0,,0.0,2.0,,,,,0.0
+2024-08-25,19:15 (17:15),La Liga,2024-2025,Real Betis,Alavés,Away,Matchweek 2,1.5,0,0,15,3,18.1,0,0,0.2,0.0,0.0,5.0,1.0,18.6,0.0,0.0
+2024-08-29,21:00 (19:00),Conf Lg,2024-2025,Real Betis,ua Kryvbas,Home,Play-off round,,3,0,,,,,0,,0.0,3.0,,,,,0.0
+2024-09-01,21:30 (19:30),La Liga,2024-2025,Real Betis,Real Madrid,Away,Matchweek 4,0.6,0,2,11,2,16.3,0,0,2.4,2.0,0.0,21.0,6.0,16.3,0.0,1.0
+2024-09-13,21:00 (19:00),La Liga,2024-2025,Real Betis,Leganés,Home,Matchweek 5,2.1,2,0,14,5,17.5,1,0,0.1,0.0,2.0,3.0,0.0,27.0,0.0,0.0
+2024-09-18,19:00 (17:00),La Liga,2024-2025,Real Betis,Getafe,Home,Matchweek 3,2.6,2,1,16,6,16.2,0,1,0.6,1.0,2.0,15.0,5.0,21.7,0.0,0.0
+2024-09-23,21:00 (19:00),La Liga,2024-2025,Real Betis,Mallorca,Home,Matchweek 6,1.0,1,2,16,6,19.2,0,0,1.0,2.0,1.0,7.0,6.0,14.1,0.0,0.0
+2024-09-26,18:00 (17:00),La Liga,2024-2025,Real Betis,Las Palmas,Away,Matchweek 7,1.9,1,1,13,5,14.6,0,0,1.0,1.0,1.0,8.0,2.0,19.9,0.0,0.0
+2024-09-29,18:30 (16:30),La Liga,2024-2025,Real Betis,Espanyol,Home,Matchweek 8,2.1,1,0,19,10,16.4,0,0,0.5,0.0,1.0,8.0,1.0,19.8,1.0,0.0
+2024-10-03,18:45 (16:45),Conf Lg,2024-2025,Real Betis,pl Legia Warsaw,Away,League phase,0.8,0,1,16,3,19.6,0,0,1.4,1.0,0.0,10.0,2.0,19.1,0.0,0.0
+2024-10-06,18:30 (16:30),La Liga,2024-2025,Real Betis,Sevilla,Away,Matchweek 9,0.6,0,1,11,3,19.1,0,0,1.4,1.0,0.0,13.0,4.0,24.9,1.0,1.0
+2024-10-19,16:15 (14:15),La Liga,2024-2025,Real Betis,Osasuna,Away,Matchweek 10,2.1,2,1,11,6,11.0,0,0,2.0,1.0,2.0,19.0,6.0,13.2,0.0,0.0
+2024-10-24,21:00 (19:00),Conf Lg,2024-2025,Real Betis,dk FC Copenhagen,Home,League phase,1.2,1,1,16,5,18.0,0,0,1.2,1.0,1.0,5.0,1.0,20.7,1.0,1.0
+2024-10-27,18:30 (17:30),La Liga,2024-2025,Real Betis,Atlético Madrid,Home,Matchweek 11,1.9,1,0,24,3,18.3,0,0,0.5,0.0,1.0,10.0,3.0,13.8,0.0,0.0
+2024-10-31,21:00 (20:00),Copa del Rey,2024-2025,Real Betis,CD Gévora,Away,First round,,6,1,,,,,0,,1.0,6.0,,,,,1.0
+2024-11-03,21:00 (20:00),La Liga,2024-2025,Real Betis,Athletic Club,Away,Matchweek 12,0.9,1,1,7,4,20.4,1,0,4.0,1.0,1.0,17.0,8.0,13.2,0.0,0.0
+2024-11-07,21:00 (20:00),Conf Lg,2024-2025,Real Betis,si NK Celje,Home,League phase,1.3,2,1,20,6,18.4,0,0,1.3,1.0,2.0,8.0,2.0,17.2,0.0,0.0
+2024-11-10,14:00 (13:00),La Liga,2024-2025,Real Betis,Celta Vigo,Home,Matchweek 13,1.6,2,2,19,6,19.4,0,0,1.2,2.0,2.0,3.0,2.0,9.5,0.0,0.0
+2024-11-23,14:00 (13:00),La Liga,2024-2025,Real Betis,Valencia,Away,Matchweek 14,1.3,2,4,7,3,15.4,0,0,1.5,4.0,2.0,11.0,5.0,15.3,0.0,0.0
+2024-11-28,21:00 (20:00),Conf Lg,2024-2025,Real Betis,cz Mladá Boleslav,Away,League phase,1.3,1,2,14,4,17.4,2,0,2.7,2.0,1.0,18.0,9.0,17.2,1.0,0.0
+2024-12-01,21:00 (20:00),La Liga,2024-2025,Real Betis,Real Sociedad,Away,Matchweek 15,0.4,0,2,7,2,17.2,0,0,0.8,2.0,0.0,1.0,0.0,25.7,0.0,1.0
+2024-12-04,19:00 (18:00),Copa del Rey,2024-2025,Real Betis,UE Sant Andreu,Away,Second round,,3,1,14,6,,,0,,1.0,3.0,7.0,3.0,,,0.0
+2024-12-07,16:15 (15:15),La Liga,2024-2025,Real Betis,Barcelona,Home,Matchweek 16,3.1,2,2,11,4,19.9,1,1,1.9,2.0,2.0,9.0,3.0,14.5,0.0,0.0
+2024-12-12,19:45 (17:45),Conf Lg,2024-2025,Real Betis,md Petrocub,Away,League phase,1.1,1,0,15,4,16.9,0,0,0.2,0.0,1.0,3.0,1.0,18.0,0.0,0.0
+2024-12-15,18:30 (17:30),La Liga,2024-2025,Real Betis,Villarreal,Away,Matchweek 17,0.8,2,1,10,4,18.1,2,0,1.9,1.0,2.0,17.0,3.0,14.6,0.0,0.0
+2024-12-19,21:00 (20:00),Conf Lg,2024-2025,Real Betis,fi HJK,Home,League phase,2.5,1,0,18,8,15.1,0,0,0.1,0.0,1.0,2.0,2.0,28.8,0.0,0.0
+2024-12-22,21:00 (20:00),La Liga,2024-2025,Real Betis,Rayo Vallecano,Home,Matchweek 18,2.1,1,1,13,4,17.7,0,1,0.9,1.0,1.0,10.0,4.0,16.9,0.0,0.0
+2025-01-04,15:30 (14:30),Copa del Rey,2024-2025,Real Betis,Huesca,Away,Round of 32,,1,0,16,2,,,0,,0.0,1.0,14.0,1.0,,,0.0
+2025-01-11,16:15 (15:15),La Liga,2024-2025,Real Betis,Valladolid,Away,Matchweek 19,0.7,0,1,14,3,18.9,1,0,1.2,1.0,0.0,12.0,1.0,18.7,0.0,0.0
+2025-01-15,21:00 (20:00),Copa del Rey,2024-2025,Real Betis,Barcelona,Away,Round of 16,,1,5,8,3,,,1,,5.0,1.0,18.0,9.0,,,0.0
+2025-01-18,18:30 (17:30),La Liga,2024-2025,Real Betis,Alavés,Home,Matchweek 20,0.5,1,3,7,2,15.8,0,0,1.5,3.0,1.0,8.0,4.0,19.4,0.0,1.0
+2025-01-25,14:00 (13:00),La Liga,2024-2025,Real Betis,Mallorca,Away,Matchweek 21,0.4,1,0,8,3,21.3,0,0,1.0,0.0,1.0,16.0,3.0,18.4,1.0,0.0
+2025-02-02,21:00 (20:00),La Liga,2024-2025,Real Betis,Athletic Club,Home,Matchweek 22,1.1,2,2,10,6,17.2,0,0,1.4,2.0,2.0,12.0,4.0,15.7,0.0,0.0
+2025-02-08,14:00 (13:00),La Liga,2024-2025,Real Betis,Celta Vigo,Away,Matchweek 23,1.3,2,3,12,5,14.7,0,0,2.2,3.0,2.0,14.0,6.0,17.4,1.0,0.0
+Date,Time,Comp,2024-2025,Real Betis,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+2025-02-13,21:00 (20:00),Conf Lg,2024-2025,Real Betis,be Gent,Away,Knockout phase play-offs,1.5,3,0,18,8,16.8,0,0,0.8,0.0,3.0,8.0,1.0,16.8,1.0,0.0
+2025-02-16,21:00 (20:00),La Liga,2024-2025,Real Betis,Real Sociedad,Home,Matchweek 24,2.3,3,0,23,7,19.7,1,0,0.3,0.0,3.0,5.0,0.0,21.1,0.0,0.0
+2025-02-20,18:45 (17:45),Conf Lg,2024-2025,Real Betis,be Gent,Home,Knockout phase play-offs,1.3,0,1,16,7,17.2,1,0,0.7,1.0,0.0,9.0,1.0,18.3,0.0,0.0
+2025-02-23,18:30 (17:30),La Liga,2024-2025,Real Betis,Getafe,Away,Matchweek 25,2.0,2,1,12,5,15.9,0,1,1.2,1.0,2.0,10.0,4.0,18.2,0.0,0.0
+2025-03-01,18:30 (17:30),La Liga,2024-2025,Real Betis,Real Madrid,Home,Matchweek 26,2.4,2,1,17,2,20.3,2,1,0.9,1.0,2.0,9.0,2.0,17.1,0.0,0.0
+2025-03-06,18:45 (17:45),Conf Lg,2024-2025,Real Betis,pt Vitória,Home,Round of 16,2.3,2,2,14,6,11.6,0,0,1.0,2.0,2.0,8.0,2.0,20.3,0.0,0.0
+2025-03-09,18:30 (17:30),La Liga,2024-2025,Real Betis,Las Palmas,Home,Matchweek 27,2.3,1,0,13,5,19.6,1,0,0.6,0.0,1.0,8.0,1.0,17.9,0.0,0.0
+2025-03-13,20:00,Conf Lg,2024-2025,Real Betis,pt Vitória,Away,Round of 16,1.6,4,0,8,6,11.0,0,0,0.6,0.0,4.0,7.0,2.0,15.9,0.0,0.0
+2025-03-16,14:00 (13:00),La Liga,2024-2025,Real Betis,Leganés,Away,Matchweek 28,2.7,3,2,20,5,18.0,0,1,1.3,2.0,3.0,10.0,4.0,18.4,0.0,0.0
+2025-03-30,21:00 (19:00),La Liga,2024-2025,Real Betis,Sevilla,Home,Matchweek 29,1.1,2,1,11,3,21.5,1,0,0.7,1.0,2.0,6.0,2.0,15.4,1.0,0.0
+2025-04-05,21:00 (19:00),La Liga,2024-2025,Real Betis,Barcelona,Away,Matchweek 30,0.3,1,1,6,2,25.6,0,0,1.4,1.0,1.0,13.0,5.0,16.9,1.0,0.0
+2025-04-10,21:00 (19:00),Conf Lg,2024-2025,Real Betis,pl Jagiellonia,Home,Quarter-finals,3.3,2,0,27,8,15.0,0,0,0.3,0.0,2.0,4.0,1.0,17.1,0.0,0.0
+2025-04-13,18:30 (16:30),La Liga,2024-2025,Real Betis,Villarreal,Home,Matchweek 31,1.4,1,2,24,5,18.4,0,0,1.3,2.0,1.0,8.0,2.0,11.9,0.0,0.0
+2025-04-17,18:45 (16:45),Conf Lg,2024-2025,Real Betis,pl Jagiellonia,Away,Quarter-finals,1.3,1,1,12,5,19.3,0,0,0.5,1.0,1.0,8.0,1.0,15.1,0.0,0.0
+2025-04-21,21:00 (19:00),La Liga,2024-2025,Real Betis,Girona,Away,Matchweek 32,1.7,3,1,17,9,14.3,1,0,1.1,1.0,3.0,11.0,4.0,16.8,0.0,0.0
+2025-04-24,21:30 (19:30),La Liga,2024-2025,Real Betis,Valladolid,Home,Matchweek 33,1.9,5,1,16,6,15.1,0,0,0.9,1.0,5.0,10.0,5.0,22.8,0.0,0.0
+2025-05-01,21:00 (19:00),Conf Lg,2024-2025,Real Betis,it Fiorentina,Home,Semi-finals,1.9,2,1,14,5,18.6,1,0,1.0,1.0,2.0,7.0,2.0,14.6,0.0,0.0
+2025-05-04,18:30 (16:30),La Liga,2024-2025,Real Betis,Espanyol,Away,Matchweek 34,1.1,2,1,20,10,18.7,1,0,1.2,1.0,2.0,11.0,5.0,23.1,0.0,0.0
+2025-05-08,21:00 (19:00),Conf Lg,2024-2025,Real Betis,it Fiorentina,Away,Semi-finals,2.7,2,2,28,10,15.9,1,0,1.9,2.0,2.0,23.0,5.0,16.8,0.0,0.0
+2025-05-11,21:00 (19:00),La Liga,2024-2025,Real Betis,Osasuna,Home,Matchweek 35,0.4,1,1,10,5,21.4,0,0,2.0,1.0,1.0,16.0,5.0,13.9,0.0,0.0
+2025-05-15,19:00 (17:00),La Liga,2024-2025,Real Betis,Rayo Vallecano,Away,Matchweek 36,1.2,2,2,9,2,23.5,1,1,1.2,2.0,2.0,20.0,6.0,23.3,4.0,0.0
+2025-05-18,19:00 (17:00),La Liga,2024-2025,Real Betis,Atlético Madrid,Away,Matchweek 37,0.9,1,4,12,7,17.3,0,0,4.8,4.0,1.0,20.0,11.0,12.4,1.0,0.0
+2025-05-23,21:00 (19:00),La Liga,2024-2025,Real Betis,Valencia,Home,Matchweek 38,0.9,1,1,14,4,17.4,0,0,0.7,1.0,1.0,9.0,2.0,18.6,0.0,0.0
+2025-05-28,21:00 (19:00),Conf Lg,2024-2025,Real Betis,eng Chelsea,Neutral,Final,1.1,1,4,13,3,16.7,0,0,1.3,4.0,1.0,11.0,7.0,16.9,0.0,0.0
+2024-08-16,19:00 (17:00),La Liga,2024-2025,Celta Vigo,Alavés,Home,Matchweek 1,0.8,2,1,6,4,18.2,1,0,1.6,1.0,2.0,10.0,2.0,14.5,0.0,0.0
+2024-08-23,19:00 (17:00),La Liga,2024-2025,Celta Vigo,Valencia,Home,Matchweek 2,1.3,3,1,6,4,17.6,0,0,0.9,1.0,3.0,13.0,4.0,16.6,0.0,0.0
+2024-08-26,21:30 (19:30),La Liga,2024-2025,Celta Vigo,Villarreal,Away,Matchweek 3,2.7,3,4,20,7,14.4,1,0,3.6,4.0,3.0,23.0,8.0,15.3,1.0,0.0
+2024-09-01,17:00 (15:00),La Liga,2024-2025,Celta Vigo,Osasuna,Away,Matchweek 4,1.7,2,3,12,4,19.5,3,0,0.9,3.0,2.0,10.0,3.0,14.6,0.0,0.0
+2024-09-15,14:00 (12:00),La Liga,2024-2025,Celta Vigo,Valladolid,Home,Matchweek 5,1.8,3,1,14,9,13.6,0,0,0.5,1.0,3.0,6.0,2.0,14.9,0.0,0.0
+2024-09-22,16:15 (14:15),La Liga,2024-2025,Celta Vigo,Athletic Club,Away,Matchweek 6,1.3,1,3,10,3,13.7,0,1,0.7,3.0,1.0,10.0,5.0,15.8,0.0,0.0
+2024-09-26,21:00 (19:00),La Liga,2024-2025,Celta Vigo,Atlético Madrid,Home,Matchweek 7,1.5,0,1,10,4,16.1,0,0,0.6,1.0,0.0,8.0,2.0,17.4,0.0,0.0
+2024-09-29,14:00 (12:00),La Liga,2024-2025,Celta Vigo,Girona,Home,Matchweek 8,0.5,1,1,12,2,19.5,1,0,0.8,1.0,1.0,9.0,4.0,12.9,0.0,0.0
+2024-10-05,17:30 (16:30),La Liga,2024-2025,Celta Vigo,Las Palmas,Away,Matchweek 9,0.8,1,0,8,1,24.8,1,0,1.3,0.0,1.0,25.0,5.0,20.1,2.0,0.0
+2024-10-19,21:00 (19:00),La Liga,2024-2025,Celta Vigo,Real Madrid,Home,Matchweek 10,1.8,1,2,13,5,18.7,0,0,0.7,2.0,1.0,10.0,3.0,18.6,0.0,0.0
+2024-10-27,14:00 (13:00),La Liga,2024-2025,Celta Vigo,Leganés,Away,Matchweek 11,0.9,0,3,18,5,19.9,0,0,1.6,3.0,0.0,7.0,4.0,17.1,0.0,0.0
+2024-10-30,21:00 (20:00),Copa del Rey,2024-2025,Celta Vigo,UD San Pedro,Away,First round,,5,1,,,,,0,,1.0,5.0,,,,,0.0
+2024-11-04,21:00 (20:00),La Liga,2024-2025,Celta Vigo,Getafe,Home,Matchweek 12,1.9,1,0,10,3,14.7,0,0,0.5,0.0,1.0,10.0,2.0,19.6,1.0,0.0
+2024-11-10,14:00 (13:00),La Liga,2024-2025,Celta Vigo,Betis,Away,Matchweek 13,1.2,2,2,3,2,9.5,0,0,1.6,2.0,2.0,19.0,6.0,19.4,0.0,0.0
+2024-11-23,21:00 (20:00),La Liga,2024-2025,Celta Vigo,Barcelona,Home,Matchweek 14,2.5,2,2,15,8,19.0,2,0,1.8,2.0,2.0,9.0,4.0,17.3,0.0,0.0
+2024-11-30,18:30 (17:30),La Liga,2024-2025,Celta Vigo,Espanyol,Away,Matchweek 15,1.6,1,3,15,1,19.1,1,1,0.9,3.0,1.0,9.0,5.0,15.3,0.0,0.0
+2024-12-03,21:00 (20:00),Copa del Rey,2024-2025,Celta Vigo,UD Salamanca B,Away,Second round,,7,0,17,11,,,1,,0.0,7.0,16.0,1.0,,,0.0
+2024-12-06,21:00 (20:00),La Liga,2024-2025,Celta Vigo,Mallorca,Home,Matchweek 16,0.9,2,0,12,5,23.9,2,0,0.8,0.0,2.0,9.0,4.0,13.2,0.0,0.0
+2024-12-14,18:30 (17:30),La Liga,2024-2025,Celta Vigo,Sevilla,Away,Matchweek 17,1.2,0,1,10,2,16.3,0,0,0.7,1.0,0.0,8.0,3.0,22.1,0.0,0.0
+2024-12-21,16:15 (15:15),La Liga,2024-2025,Celta Vigo,Real Sociedad,Home,Matchweek 18,1.3,2,0,11,7,21.8,0,0,0.3,0.0,2.0,7.0,1.0,14.7,0.0,0.0
+2025-01-05,15:30 (14:30),Copa del Rey,2024-2025,Celta Vigo,Racing Sant,Away,Round of 32,,3,2,17,8,,,0,,2.0,3.0,7.0,3.0,,,0.0
+2025-01-10,21:00 (20:00),La Liga,2024-2025,Celta Vigo,Rayo Vallecano,Away,Matchweek 19,2.1,1,2,23,7,16.3,1,0,0.7,2.0,1.0,8.0,5.0,20.2,1.0,0.0
+2025-01-16,21:30 (20:30),Copa del Rey,2024-2025,Celta Vigo,Real Madrid,Away,Round of 16,,2,5,12,4,,,1,,5.0,2.0,23.0,11.0,,,0.0
+2025-01-19,14:00 (13:00),La Liga,2024-2025,Celta Vigo,Athletic Club,Home,Matchweek 20,0.6,1,2,3,1,21.9,0,0,1.8,2.0,1.0,14.0,6.0,16.5,0.0,0.0
+2025-01-27,21:00 (20:00),La Liga,2024-2025,Celta Vigo,Alavés,Away,Matchweek 21,0.1,1,1,5,2,24.5,0,0,0.9,1.0,1.0,2.0,0.0,20.4,0.0,1.0
+2025-02-02,16:15 (15:15),La Liga,2024-2025,Celta Vigo,Valencia,Away,Matchweek 22,0.4,1,2,3,2,15.9,0,0,1.6,2.0,1.0,8.0,5.0,11.2,0.0,0.0
+2025-02-08,14:00 (13:00),La Liga,2024-2025,Celta Vigo,Betis,Home,Matchweek 23,2.2,3,2,14,6,17.4,1,0,1.3,2.0,3.0,12.0,5.0,14.7,0.0,0.0
+2025-02-15,18:30 (17:30),La Liga,2024-2025,Celta Vigo,Atlético Madrid,Away,Matchweek 24,1.7,1,1,10,3,19.6,0,1,0.6,1.0,1.0,9.0,3.0,16.0,0.0,0.0
+2025-02-21,21:00 (20:00),La Liga,2024-2025,Celta Vigo,Osasuna,Home,Matchweek 25,1.8,1,0,11,4,15.0,0,1,1.2,0.0,1.0,18.0,1.0,17.4,0.0,0.0
+2025-03-01,14:00 (13:00),La Liga,2024-2025,Celta Vigo,Girona,Away,Matchweek 26,1.8,2,2,9,5,18.9,0,1,0.7,2.0,2.0,9.0,6.0,18.1,1.0,0.0
+2025-03-08,14:00 (13:00),La Liga,2024-2025,Celta Vigo,Leganés,Home,Matchweek 27,0.9,2,1,7,4,15.5,0,0,1.0,1.0,2.0,12.0,6.0,16.1,0.0,0.0
+2025-03-15,14:00 (13:00),La Liga,2024-2025,Celta Vigo,Valladolid,Away,Matchweek 28,1.5,1,0,9,0,19.1,0,1,0.7,0.0,1.0,5.0,2.0,16.1,0.0,0.0
+2025-03-31,21:00 (19:00),La Liga,2024-2025,Celta Vigo,Las Palmas,Home,Matchweek 29,1.0,1,1,20,6,19.5,0,0,0.3,1.0,1.0,4.0,2.0,21.4,0.0,0.0
+2025-04-05,18:30 (16:30),La Liga,2024-2025,Celta Vigo,Mallorca,Away,Matchweek 30,0.8,2,1,10,4,18.8,1,0,0.5,1.0,2.0,7.0,2.0,13.6,0.0,0.0
+2025-04-12,18:30 (16:30),La Liga,2024-2025,Celta Vigo,Espanyol,Home,Matchweek 31,0.9,0,2,16,6,17.7,1,0,1.2,2.0,0.0,5.0,3.0,16.3,0.0,0.0
+2025-04-19,16:15 (14:15),La Liga,2024-2025,Celta Vigo,Barcelona,Away,Matchweek 32,2.1,3,4,11,8,13.8,0,0,2.9,4.0,3.0,17.0,5.0,18.5,1.0,1.0
+2025-04-23,19:00 (17:00),La Liga,2024-2025,Celta Vigo,Villarreal,Home,Matchweek 33,2.7,3,0,20,8,19.4,1,1,0.4,0.0,3.0,4.0,1.0,13.5,0.0,0.0
+2025-05-04,14:00 (12:00),La Liga,2024-2025,Celta Vigo,Real Madrid,Away,Matchweek 34,1.8,2,3,14,6,17.0,0,0,2.2,3.0,2.0,17.0,6.0,17.3,1.0,0.0
+2025-05-10,16:15 (14:15),La Liga,2024-2025,Celta Vigo,Sevilla,Home,Matchweek 35,0.9,3,2,8,4,17.2,0,0,2.3,2.0,3.0,18.0,9.0,17.4,1.0,1.0
+2025-05-13,20:00 (18:00),La Liga,2024-2025,Celta Vigo,Real Sociedad,Away,Matchweek 36,1.1,1,0,6,2,15.2,0,0,1.7,0.0,1.0,15.0,4.0,12.3,0.0,0.0
+2025-05-18,19:00 (17:00),La Liga,2024-2025,Celta Vigo,Rayo Vallecano,Home,Matchweek 37,2.4,1,2,23,5,16.6,1,1,1.2,2.0,1.0,7.0,2.0,18.8,0.0,0.0
+2025-05-24,21:00 (19:00),La Liga,2024-2025,Celta Vigo,Getafe,Away,Matchweek 38,1.5,2,1,15,8,18.6,1,0,0.4,1.0,2.0,6.0,1.0,20.1,0.0,0.0
+2024-08-18,19:00 (17:00),La Liga,2024-2025,Rayo Vallecano,Real Sociedad,Away,Matchweek 1,1.1,2,1,12,4,21.7,1,0,1.1,1.0,2.0,11.0,4.0,15.6,0.0,0.0
+2024-08-24,21:30 (19:30),La Liga,2024-2025,Rayo Vallecano,Getafe,Away,Matchweek 2,0.2,0,0,3,0,29.0,0,0,0.5,0.0,0.0,12.0,0.0,16.4,0.0,0.0
+2024-08-27,21:30 (19:30),La Liga,2024-2025,Rayo Vallecano,Barcelona,Home,Matchweek 3,0.4,1,2,8,4,20.9,0,0,1.4,2.0,1.0,22.0,5.0,19.3,1.0,0.0
+2024-08-31,19:15 (17:15),La Liga,2024-2025,Rayo Vallecano,Espanyol,Away,Matchweek 4,1.3,1,2,17,5,23.0,2,0,1.6,2.0,1.0,10.0,3.0,15.2,0.0,0.0
+2024-09-16,21:00 (19:00),La Liga,2024-2025,Rayo Vallecano,Osasuna,Home,Matchweek 5,1.6,3,1,17,6,18.9,0,0,0.3,1.0,3.0,5.0,2.0,18.4,0.0,0.0
+2024-09-22,21:00 (19:00),La Liga,2024-2025,Rayo Vallecano,Atlético Madrid,Home,Matchweek 6,1.7,1,1,16,4,20.8,1,0,0.5,1.0,1.0,10.0,5.0,18.5,0.0,0.0
+2024-09-25,19:00 (17:00),La Liga,2024-2025,Rayo Vallecano,Girona,Away,Matchweek 7,0.5,0,0,2,0,17.2,0,0,2.0,0.0,0.0,11.0,1.0,17.6,1.0,0.0
+2024-09-28,16:15 (14:15),La Liga,2024-2025,Rayo Vallecano,Leganés,Home,Matchweek 8,0.9,1,1,15,6,19.2,0,0,0.9,1.0,1.0,13.0,3.0,17.8,1.0,0.0
+2024-10-05,18:30 (16:30),La Liga,2024-2025,Rayo Vallecano,Valladolid,Away,Matchweek 9,1.5,2,1,17,3,20.7,2,0,2.0,1.0,2.0,13.0,5.0,14.3,0.0,0.0
+2024-10-20,14:00 (12:00),La Liga,2024-2025,Rayo Vallecano,Mallorca,Away,Matchweek 10,0.6,0,1,10,2,17.1,0,0,2.0,1.0,0.0,19.0,5.0,12.5,0.0,0.0
+2024-10-26,16:15 (14:15),La Liga,2024-2025,Rayo Vallecano,Alavés,Home,Matchweek 11,1.9,1,0,15,4,14.6,2,0,0.9,0.0,1.0,15.0,7.0,19.8,0.0,0.0
+2024-10-29,19:00 (18:00),Copa del Rey,2024-2025,Rayo Vallecano,CD Villamuriel,Away,First round,,5,0,,,,,1,,0.0,5.0,,,,,0.0
+2024-11-08,21:00 (20:00),La Liga,2024-2025,Rayo Vallecano,Las Palmas,Home,Matchweek 13,2.4,1,3,34,6,17.3,1,0,1.1,3.0,1.0,11.0,3.0,18.7,0.0,0.0
+2024-11-24,16:15 (15:15),La Liga,2024-2025,Rayo Vallecano,Sevilla,Away,Matchweek 14,0.8,0,1,9,1,20.7,1,0,1.1,1.0,0.0,11.0,3.0,18.0,0.0,0.0
+2024-12-01,18:30 (17:30),La Liga,2024-2025,Rayo Vallecano,Athletic Club,Home,Matchweek 15,0.2,1,2,7,4,21.1,1,0,0.7,2.0,1.0,12.0,7.0,19.5,0.0,0.0
+2024-12-04,19:00 (18:00),Copa del Rey,2024-2025,Rayo Vallecano,Unionistas Sal,Away,Second round,,3,2,16,10,,,0,,2.0,3.0,18.0,5.0,,,0.0
+2024-12-07,18:30 (17:30),La Liga,2024-2025,Rayo Vallecano,Valencia,Away,Matchweek 16,0.9,1,0,6,1,15.2,0,0,1.3,0.0,1.0,14.0,5.0,15.5,0.0,0.0
+2024-12-14,21:00 (20:00),La Liga,2024-2025,Rayo Vallecano,Real Madrid,Home,Matchweek 17,1.6,3,3,14,5,20.1,2,0,0.7,3.0,3.0,13.0,6.0,21.6,0.0,0.0
+2024-12-18,21:30 (20:30),La Liga,2024-2025,Rayo Vallecano,Villarreal,Away,Matchweek 12,1.5,1,1,18,2,17.6,0,0,1.4,1.0,1.0,14.0,5.0,16.3,0.0,0.0
+2024-12-22,21:00 (20:00),La Liga,2024-2025,Rayo Vallecano,Betis,Away,Matchweek 18,0.9,1,1,10,4,16.9,0,0,2.1,1.0,1.0,13.0,4.0,17.7,0.0,1.0
+2025-01-03,19:00 (18:00),Copa del Rey,2024-2025,Rayo Vallecano,Racing Ferrol,Away,Round of 32,,3,1,10,6,,,0,,1.0,3.0,18.0,2.0,,,0.0
+2025-01-10,21:00 (20:00),La Liga,2024-2025,Rayo Vallecano,Celta Vigo,Home,Matchweek 19,0.7,2,1,8,5,20.2,1,0,2.1,1.0,2.0,23.0,7.0,16.3,1.0,0.0
+2025-01-16,19:30 (18:30),Copa del Rey,2024-2025,Rayo Vallecano,Real Sociedad,Away,Round of 16,,1,3,12,3,,,1,,3.0,1.0,14.0,5.0,,,0.0
+2025-01-19,18:30 (17:30),La Liga,2024-2025,Rayo Vallecano,Osasuna,Away,Matchweek 20,0.8,1,1,8,3,24.1,1,0,0.8,1.0,1.0,12.0,3.0,17.1,0.0,0.0
+2025-01-26,14:00 (13:00),La Liga,2024-2025,Rayo Vallecano,Girona,Home,Matchweek 21,2.4,2,1,17,7,19.0,0,0,1.0,1.0,2.0,12.0,5.0,16.7,1.0,0.0
+2025-01-31,21:00 (20:00),La Liga,2024-2025,Rayo Vallecano,Leganés,Away,Matchweek 22,2.2,1,0,19,3,17.4,1,0,0.9,0.0,1.0,4.0,0.0,34.2,0.0,0.0
+2025-02-07,21:00 (20:00),La Liga,2024-2025,Rayo Vallecano,Valladolid,Home,Matchweek 23,2.3,1,0,20,5,18.5,1,0,0.4,0.0,1.0,8.0,3.0,19.1,1.0,0.0
+2025-02-17,21:00 (20:00),La Liga,2024-2025,Rayo Vallecano,Barcelona,Away,Matchweek 24,1.0,0,1,9,4,12.4,0,0,2.3,1.0,0.0,13.0,4.0,12.6,0.0,1.0
+2025-02-22,16:15 (15:15),La Liga,2024-2025,Rayo Vallecano,Villarreal,Home,Matchweek 25,0.6,0,1,10,5,16.1,0,0,0.6,1.0,0.0,10.0,5.0,16.1,0.0,0.0
+2025-03-01,16:15 (15:15),La Liga,2024-2025,Rayo Vallecano,Sevilla,Home,Matchweek 26,2.8,1,1,20,8,17.0,0,0,0.6,1.0,1.0,10.0,4.0,19.1,0.0,0.0
+2025-03-09,16:15 (15:15),La Liga,2024-2025,Rayo Vallecano,Real Madrid,Away,Matchweek 27,1.0,1,2,20,6,19.7,0,0,1.5,2.0,1.0,10.0,5.0,14.3,0.0,0.0
+2025-03-16,18:30 (17:30),La Liga,2024-2025,Rayo Vallecano,Real Sociedad,Home,Matchweek 28,0.6,2,2,10,5,26.0,1,0,0.6,2.0,2.0,8.0,4.0,21.4,1.0,0.0
+2025-03-29,18:30 (17:30),La Liga,2024-2025,Rayo Vallecano,Alavés,Away,Matchweek 29,0.6,2,0,11,5,19.3,1,0,1.5,0.0,2.0,11.0,2.0,17.8,0.0,0.0
+2025-04-04,21:00 (19:00),La Liga,2024-2025,Rayo Vallecano,Espanyol,Home,Matchweek 30,0.7,0,4,16,5,21.9,0,0,3.4,4.0,0.0,14.0,6.0,17.5,0.0,1.0
+2025-04-13,21:00 (19:00),La Liga,2024-2025,Rayo Vallecano,Athletic Club,Away,Matchweek 31,1.6,1,3,10,2,17.9,1,0,1.6,3.0,1.0,12.0,3.0,19.3,0.0,1.0
+2025-04-19,14:00 (12:00),La Liga,2024-2025,Rayo Vallecano,Valencia,Home,Matchweek 32,0.5,1,1,11,4,22.4,1,0,2.0,1.0,1.0,10.0,3.0,12.7,1.0,0.0
+2025-04-24,21:30 (19:30),La Liga,2024-2025,Rayo Vallecano,Atlético Madrid,Away,Matchweek 33,0.7,0,3,12,5,22.6,0,0,2.3,3.0,0.0,11.0,6.0,12.9,0.0,0.0
+2025-05-02,21:00 (19:00),La Liga,2024-2025,Rayo Vallecano,Getafe,Home,Matchweek 34,1.2,1,0,13,8,19.2,0,0,0.9,0.0,1.0,12.0,1.0,20.6,1.0,0.0
+2025-05-09,20:00 (19:00),La Liga,2024-2025,Rayo Vallecano,Las Palmas,Away,Matchweek 35,1.2,1,0,16,5,17.1,0,0,0.7,0.0,1.0,11.0,2.0,16.2,0.0,0.0
+2025-05-15,19:00 (17:00),La Liga,2024-2025,Rayo Vallecano,Betis,Home,Matchweek 36,1.2,2,2,20,6,23.3,4,0,1.2,2.0,2.0,9.0,2.0,23.5,1.0,1.0
+2025-05-18,19:00 (17:00),La Liga,2024-2025,Rayo Vallecano,Celta Vigo,Away,Matchweek 37,1.2,2,1,7,2,18.8,0,0,2.4,1.0,2.0,23.0,5.0,16.6,1.0,1.0
+2025-05-24,21:00 (19:00),La Liga,2024-2025,Rayo Vallecano,Mallorca,Home,Matchweek 38,2.2,0,0,27,8,17.7,0,0,0.6,0.0,0.0,9.0,2.0,20.2,0.0,0.0
+2024-08-17,19:00 (17:00),La Liga,2024-2025,Osasuna,Leganés,Home,Matchweek 1,1.7,1,1,16,6,13.8,0,0,1.0,1.0,1.0,10.0,4.0,17.0,1.0,0.0
+2024-08-24,17:00 (15:00),La Liga,2024-2025,Osasuna,Mallorca,Home,Matchweek 2,0.6,1,0,15,5,19.2,1,0,0.6,0.0,1.0,10.0,1.0,17.9,0.0,0.0
+2024-08-29,19:00 (17:00),La Liga,2024-2025,Osasuna,Girona,Away,Matchweek 3,0.0,0,4,1,0,30.0,0,0,2.4,4.0,0.0,10.0,5.0,14.3,0.0,0.0
+2024-09-01,17:00 (15:00),La Liga,2024-2025,Osasuna,Celta Vigo,Home,Matchweek 4,0.9,3,2,10,3,14.6,0,0,1.7,2.0,3.0,12.0,4.0,19.5,3.0,0.0
+2024-09-16,21:00 (19:00),La Liga,2024-2025,Osasuna,Rayo Vallecano,Away,Matchweek 5,0.3,1,3,5,2,18.4,0,0,1.6,3.0,1.0,17.0,6.0,18.9,0.0,0.0
+2024-09-21,16:15 (14:15),La Liga,2024-2025,Osasuna,Las Palmas,Home,Matchweek 6,1.9,2,1,12,3,16.7,0,1,0.8,1.0,2.0,11.0,6.0,15.7,0.0,0.0
+2024-09-24,19:00 (17:00),La Liga,2024-2025,Osasuna,Valencia,Away,Matchweek 7,0.5,0,0,9,2,19.8,0,0,0.7,0.0,0.0,10.0,3.0,14.3,0.0,0.0
+2024-09-28,21:00 (19:00),La Liga,2024-2025,Osasuna,Barcelona,Home,Matchweek 8,2.2,4,2,10,4,19.2,0,1,0.8,2.0,4.0,12.0,6.0,19.8,1.0,0.0
+2024-10-05,16:15 (14:15),La Liga,2024-2025,Osasuna,Getafe,Away,Matchweek 9,0.3,1,1,6,2,18.9,0,0,0.8,1.0,1.0,11.0,3.0,18.2,1.0,0.0
+2024-10-19,16:15 (14:15),La Liga,2024-2025,Osasuna,Betis,Home,Matchweek 10,2.0,1,2,19,6,13.2,0,0,2.1,2.0,1.0,11.0,6.0,11.0,0.0,0.0
+2024-10-27,21:00 (20:00),La Liga,2024-2025,Osasuna,Real Sociedad,Away,Matchweek 11,1.0,2,0,10,4,18.2,1,0,1.6,0.0,2.0,19.0,9.0,18.8,1.0,0.0
+2024-11-02,14:00 (13:00),La Liga,2024-2025,Osasuna,Valladolid,Home,Matchweek 12,2.2,1,0,19,3,13.3,0,1,0.2,0.0,1.0,7.0,3.0,24.0,1.0,0.0
+2024-11-05,19:00 (18:00),Copa del Rey,2024-2025,Osasuna,Chiclana,Away,First round,,5,0,23,11,,,1,,0.0,5.0,5.0,2.0,,,0.0
+2024-11-09,14:00 (13:00),La Liga,2024-2025,Osasuna,Real Madrid,Away,Matchweek 13,0.1,0,4,2,0,31.7,1,0,3.1,4.0,0.0,18.0,8.0,15.2,1.0,0.0
+2024-11-24,14:00 (13:00),La Liga,2024-2025,Osasuna,Villarreal,Home,Matchweek 14,1.0,2,2,3,2,21.2,0,1,2.5,2.0,2.0,15.0,6.0,16.5,0.0,1.0
+2024-12-02,21:00 (20:00),La Liga,2024-2025,Osasuna,Sevilla,Away,Matchweek 15,0.7,1,1,7,3,17.2,0,0,1.3,1.0,1.0,12.0,5.0,20.1,0.0,0.0
+2024-12-05,19:00 (18:00),Copa del Rey,2024-2025,Osasuna,AD Ceuta,Away,Second round,,3,2,11,4,,,0,,2.0,3.0,11.0,5.0,,,0.0
+2024-12-08,18:30 (17:30),La Liga,2024-2025,Osasuna,Alavés,Home,Matchweek 16,1.8,2,2,16,8,16.0,1,0,1.3,2.0,2.0,6.0,3.0,15.3,1.0,0.0
+2024-12-14,14:00 (13:00),La Liga,2024-2025,Osasuna,Espanyol,Away,Matchweek 17,0.3,0,0,6,0,28.4,0,0,0.3,0.0,0.0,9.0,3.0,23.6,0.0,0.0
+2024-12-21,18:30 (17:30),La Liga,2024-2025,Osasuna,Athletic Club,Home,Matchweek 18,0.6,1,2,6,3,17.2,0,0,1.2,2.0,1.0,13.0,8.0,16.3,0.0,0.0
+2025-01-04,15:30,Copa del Rey,2024-2025,Osasuna,Tenerife,Away,Round of 32,,2,1,12,7,,,0,,1.0,2.0,8.0,5.0,,,0.0
+2025-01-12,16:15 (15:15),La Liga,2024-2025,Osasuna,Atlético Madrid,Away,Matchweek 19,0.3,0,1,6,1,25.2,0,0,2.5,1.0,0.0,9.0,5.0,10.6,0.0,0.0
+2025-01-16,19:30 (18:30),Copa del Rey,2024-2025,Osasuna,Athletic Club,Away,Round of 16,,3,2,9,5,,,1,,2.0,3.0,23.0,8.0,,,0.0
+2025-01-19,18:30 (17:30),La Liga,2024-2025,Osasuna,Rayo Vallecano,Home,Matchweek 20,0.8,1,1,12,3,17.1,0,0,0.8,1.0,1.0,8.0,3.0,24.1,1.0,0.0
+2025-01-24,20:00,La Liga,2024-2025,Osasuna,Las Palmas,Away,Matchweek 21,2.6,1,1,16,4,14.7,2,0,0.8,1.0,1.0,16.0,7.0,21.8,5.0,0.0
+2025-02-02,18:30 (17:30),La Liga,2024-2025,Osasuna,Real Sociedad,Home,Matchweek 22,0.7,2,1,11,4,16.7,0,0,2.0,1.0,2.0,13.0,3.0,15.2,0.0,0.0
+2025-02-06,19:30 (18:30),Copa del Rey,2024-2025,Osasuna,Real Sociedad,Away,Quarter-finals,,0,2,9,3,,,0,,2.0,0.0,11.0,4.0,,,0.0
+2025-02-10,21:00 (20:00),La Liga,2024-2025,Osasuna,Mallorca,Away,Matchweek 23,1.4,1,1,19,4,17.0,0,0,1.3,1.0,1.0,9.0,1.0,19.1,1.0,1.0
+2025-02-15,16:15 (15:15),La Liga,2024-2025,Osasuna,Real Madrid,Home,Matchweek 24,1.4,1,1,10,3,14.7,0,1,1.4,1.0,1.0,17.0,5.0,18.8,1.0,0.0
+2025-02-21,21:00 (20:00),La Liga,2024-2025,Osasuna,Celta Vigo,Away,Matchweek 25,1.2,0,1,18,1,17.4,0,0,1.8,1.0,0.0,11.0,4.0,15.0,0.0,1.0
+2025-03-02,21:00 (20:00),La Liga,2024-2025,Osasuna,Valencia,Home,Matchweek 26,1.5,3,3,10,4,19.7,0,1,1.8,3.0,3.0,13.0,5.0,19.3,0.0,0.0
+2025-03-16,18:30 (17:30),La Liga,2024-2025,Osasuna,Getafe,Home,Matchweek 28,1.9,1,2,11,3,16.7,0,1,0.5,2.0,1.0,7.0,3.0,17.5,0.0,0.0
+2025-03-27,21:00 (20:00),La Liga,2024-2025,Osasuna,Barcelona,Away,Matchweek 27,0.4,0,3,4,0,8.9,0,0,3.7,3.0,0.0,18.0,4.0,16.5,1.0,1.0
+2025-03-30,18:30 (16:30),La Liga,2024-2025,Osasuna,Athletic Club,Away,Matchweek 29,0.4,0,0,5,2,14.0,0,0,0.7,0.0,0.0,11.0,5.0,18.9,0.0,0.0
+2025-04-07,21:00 (19:00),La Liga,2024-2025,Osasuna,Leganés,Away,Matchweek 30,2.2,1,1,13,6,12.1,0,0,1.7,1.0,1.0,12.0,6.0,21.0,1.0,1.0
+Date,Time,Comp,2024-2025,Osasuna,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+2025-04-13,14:00 (12:00),La Liga,2024-2025,Osasuna,Girona,Home,Matchweek 31,1.7,2,1,13,6,14.7,0,0,0.9,1.0,2.0,18.0,8.0,22.5,1.0,0.0
+2025-04-20,14:00 (12:00),La Liga,2024-2025,Osasuna,Valladolid,Away,Matchweek 32,2.3,3,2,10,5,21.1,1,1,1.9,2.0,3.0,11.0,4.0,18.1,0.0,1.0
+2025-04-24,19:00 (17:00),La Liga,2024-2025,Osasuna,Sevilla,Home,Matchweek 33,0.3,1,0,9,2,20.8,1,0,1.1,0.0,1.0,12.0,3.0,14.9,1.0,0.0
+2025-05-03,16:15 (14:15),La Liga,2024-2025,Osasuna,Villarreal,Away,Matchweek 34,1.2,2,4,10,3,21.1,0,1,2.2,4.0,2.0,15.0,5.0,15.7,0.0,0.0
+2025-05-11,21:00 (19:00),La Liga,2024-2025,Osasuna,Betis,Away,Matchweek 35,2.0,1,1,16,5,13.9,0,0,0.4,1.0,1.0,10.0,5.0,21.4,0.0,0.0
+2025-05-15,19:00 (17:00),La Liga,2024-2025,Osasuna,Atlético Madrid,Home,Matchweek 36,0.6,2,0,9,3,18.2,0,0,1.4,0.0,2.0,9.0,5.0,14.3,0.0,0.0
+2025-05-18,19:00 (17:00),La Liga,2024-2025,Osasuna,Espanyol,Home,Matchweek 37,1.2,2,0,16,3,15.0,0,0,0.7,0.0,2.0,16.0,6.0,19.8,0.0,0.0
+2025-05-24,21:00 (19:00),La Liga,2024-2025,Osasuna,Alavés,Away,Matchweek 38,1.6,1,1,19,5,14.1,1,0,2.0,1.0,1.0,13.0,4.0,25.4,0.0,1.0
+2024-08-18,21:30 (19:30),La Liga,2024-2025,Mallorca,Real Madrid,Home,Matchweek 1,1.0,1.0,1.0,12,5,17.2,0.0,0,0.6,1.0,1.0,13.0,5.0,21.3,0.0,0.0
+2024-08-24,17:00 (15:00),La Liga,2024-2025,Mallorca,Osasuna,Away,Matchweek 2,0.6,0.0,1.0,10,1,17.9,0.0,0,0.6,1.0,0.0,15.0,5.0,19.2,1.0,0.0
+2024-08-27,19:00 (17:00),La Liga,2024-2025,Mallorca,Sevilla,Home,Matchweek 3,0.9,0.0,0.0,12,4,16.5,0.0,0,0.7,0.0,0.0,16.0,7.0,22.3,0.0,0.0
+2024-08-31,21:30 (19:30),La Liga,2024-2025,Mallorca,Leganés,Away,Matchweek 4,1.0,1.0,0.0,12,3,16.1,0.0,0,0.3,0.0,1.0,9.0,2.0,18.8,0.0,0.0
+2024-09-14,14:00 (12:00),La Liga,2024-2025,Mallorca,Villarreal,Home,Matchweek 5,0.3,1.0,2.0,9,4,16.9,0.0,0,1.8,2.0,1.0,21.0,4.0,16.2,0.0,0.0
+2024-09-17,19:00 (17:00),La Liga,2024-2025,Mallorca,Real Sociedad,Home,Matchweek 7,1.2,1.0,0.0,9,3,17.4,0.0,1,0.6,0.0,1.0,13.0,5.0,21.8,0.0,0.0
+2024-09-23,21:00 (19:00),La Liga,2024-2025,Mallorca,Betis,Away,Matchweek 6,1.0,2.0,1.0,7,6,14.1,0.0,0,1.0,1.0,2.0,16.0,6.0,19.2,0.0,0.0
+2024-09-27,21:00 (19:00),La Liga,2024-2025,Mallorca,Valladolid,Away,Matchweek 8,2.2,2.0,1.0,17,6,16.4,0.0,0,1.2,1.0,2.0,13.0,1.0,17.5,0.0,0.0
+2024-10-05,14:00 (12:00),La Liga,2024-2025,Mallorca,Espanyol,Away,Matchweek 9,1.6,1.0,2.0,11,5,13.6,1.0,0,0.9,2.0,1.0,8.0,3.0,18.4,0.0,0.0
+2024-10-20,14:00 (12:00),La Liga,2024-2025,Mallorca,Rayo Vallecano,Home,Matchweek 10,2.0,1.0,0.0,19,5,12.5,0.0,0,0.6,0.0,1.0,10.0,2.0,17.1,0.0,0.0
+2024-10-28,21:00 (20:00),La Liga,2024-2025,Mallorca,Athletic Club,Home,Matchweek 11,0.5,0.0,0.0,4,1,13.6,0.0,0,0.6,0.0,0.0,20.0,1.0,19.4,0.0,0.0
+2024-11-01,21:00 (20:00),La Liga,2024-2025,Mallorca,Alavés,Away,Matchweek 12,0.5,0.0,1.0,7,2,16.6,0.0,0,1.1,1.0,0.0,13.0,3.0,16.3,0.0,0.0
+2024-11-10,16:15 (15:15),La Liga,2024-2025,Mallorca,Atlético Madrid,Home,Matchweek 13,0.6,0.0,1.0,13,5,15.5,2.0,0,0.6,1.0,0.0,9.0,2.0,19.7,0.0,0.0
+2024-11-23,17:30,La Liga,2024-2025,Mallorca,Las Palmas,Away,Matchweek 14,1.7,3.0,2.0,9,3,13.4,0.0,0,1.2,2.0,3.0,13.0,2.0,23.4,1.0,1.0
+2024-11-29,21:00 (20:00),La Liga,2024-2025,Mallorca,Valencia,Home,Matchweek 15,0.8,2.0,1.0,9,3,15.4,0.0,0,1.3,1.0,2.0,6.0,0.0,19.2,0.0,1.0
+2024-12-03,19:00 (18:00),La Liga,2024-2025,Mallorca,Barcelona,Home,Matchweek 19,0.9,1.0,5.0,6,1,15.1,0.0,0,5.0,5.0,1.0,19.0,8.0,17.1,1.0,1.0
+2024-12-06,21:00 (20:00),La Liga,2024-2025,Mallorca,Celta Vigo,Away,Matchweek 16,0.8,0.0,2.0,9,4,13.2,0.0,0,0.9,2.0,0.0,12.0,5.0,23.9,2.0,0.0
+2024-12-14,16:15 (15:15),La Liga,2024-2025,Mallorca,Girona,Home,Matchweek 17,1.2,2.0,1.0,8,2,15.4,0.0,0,0.8,1.0,2.0,13.0,1.0,17.3,0.0,0.0
+2024-12-21,14:00 (13:00),La Liga,2024-2025,Mallorca,Getafe,Away,Matchweek 18,2.3,1.0,0.0,8,1,23.6,0.0,1,0.8,0.0,1.0,18.0,5.0,20.9,0.0,0.0
+2025-01-03,19:00 (18:00),Copa del Rey,2024-2025,Mallorca,Pontevedra,Away,Round of 32,,0.0,3.0,6,2,,,0,,3.0,0.0,14.0,7.0,,,0.0
+2025-01-09,22:00 (19:00),Supercopa de España,2024-2025,Mallorca,Real Madrid,Neutral,Semi-finals,,0.0,3.0,8,0,,,0,,3.0,0.0,28.0,11.0,,,0.0
+2025-01-20,21:00 (20:00),La Liga,2024-2025,Mallorca,Villarreal,Away,Matchweek 20,0.5,0.0,4.0,9,2,18.2,1.0,0,2.4,4.0,0.0,14.0,7.0,13.9,0.0,0.0
+2025-01-25,14:00 (13:00),La Liga,2024-2025,Mallorca,Betis,Home,Matchweek 21,1.0,0.0,1.0,16,3,18.4,1.0,0,0.4,1.0,0.0,8.0,3.0,21.3,0.0,0.0
+2025-02-01,18:30 (17:30),La Liga,2024-2025,Mallorca,Atlético Madrid,Away,Matchweek 22,0.5,0.0,2.0,10,1,18.5,0.0,0,1.3,2.0,0.0,17.0,5.0,20.4,1.0,0.0
+2025-02-10,21:00 (20:00),La Liga,2024-2025,Mallorca,Osasuna,Home,Matchweek 23,1.3,1.0,1.0,9,1,19.1,1.0,1,1.4,1.0,1.0,19.0,4.0,17.0,0.0,0.0
+2025-02-16,18:30 (17:30),La Liga,2024-2025,Mallorca,Las Palmas,Home,Matchweek 24,1.7,3.0,1.0,14,5,15.1,0.0,0,0.8,1.0,3.0,9.0,4.0,17.7,0.0,0.0
+2025-02-24,21:00 (20:00),La Liga,2024-2025,Mallorca,Sevilla,Away,Matchweek 25,2.3,1.0,1.0,13,2,10.5,0.0,0,1.3,1.0,1.0,19.0,3.0,17.2,0.0,0.0
+2025-03-02,18:30 (17:30),La Liga,2024-2025,Mallorca,Alavés,Home,Matchweek 26,1.1,1.0,1.0,15,4,17.2,0.0,0,1.6,1.0,1.0,19.0,7.0,16.7,0.0,0.0
+2025-03-09,18:30 (17:30),La Liga,2024-2025,Mallorca,Athletic Club,Away,Matchweek 27,0.5,1.0,1.0,9,2,17.9,0.0,0,0.7,1.0,1.0,8.0,2.0,17.4,1.0,0.0
+2025-03-15,16:15 (15:15),La Liga,2024-2025,Mallorca,Espanyol,Home,Matchweek 28,2.7,2.0,1.0,18,5,18.4,0.0,1,0.2,1.0,2.0,2.0,0.0,16.1,0.0,0.0
+2025-03-30,18:30 (16:30),La Liga,2024-2025,Mallorca,Valencia,Away,Matchweek 29,0.6,0.0,1.0,8,2,20.3,0.0,0,0.7,1.0,0.0,8.0,2.0,21.3,0.0,0.0
+2025-04-05,18:30 (16:30),La Liga,2024-2025,Mallorca,Celta Vigo,Home,Matchweek 30,0.5,1.0,2.0,7,2,13.6,0.0,0,0.8,2.0,1.0,10.0,4.0,18.8,1.0,0.0
+2025-04-12,14:00 (12:00),La Liga,2024-2025,Mallorca,Real Sociedad,Away,Matchweek 31,0.7,2.0,0.0,7,3,14.7,0.0,0,0.7,0.0,2.0,15.0,4.0,17.7,0.0,0.0
+2025-04-19,18:30 (16:30),La Liga,2024-2025,Mallorca,Leganés,Home,Matchweek 32,0.9,0.0,0.0,11,1,15.6,0.0,0,0.9,0.0,0.0,15.0,1.0,16.9,1.0,0.0
+2025-04-22,21:30 (19:30),La Liga,2024-2025,Mallorca,Barcelona,Away,Matchweek 33,0.3,0.0,1.0,4,0,12.4,0.0,0,3.3,1.0,0.0,40.0,12.0,17.1,0.0,0.0
+2025-05-05,21:00 (19:00),La Liga,2024-2025,Mallorca,Girona,Away,Matchweek 34,0.5,0.0,1.0,9,1,20.2,1.0,0,1.3,1.0,0.0,13.0,6.0,16.4,0.0,0.0
+2025-05-10,18:30 (16:30),La Liga,2024-2025,Mallorca,Valladolid,Home,Matchweek 35,1.0,2.0,1.0,12,4,15.0,0.0,0,1.8,1.0,2.0,16.0,7.0,16.1,0.0,0.0
+2025-05-14,21:30 (19:30),La Liga,2024-2025,Mallorca,Real Madrid,Away,Matchweek 36,0.5,1.0,2.0,4,2,16.8,0.0,0,2.6,2.0,1.0,39.0,12.0,19.8,0.0,0.0
+2025-05-18,19:00 (17:00),La Liga,2024-2025,Mallorca,Getafe,Home,Matchweek 37,0.4,1.0,2.0,7,1,14.9,0.0,0,1.6,2.0,1.0,10.0,4.0,15.7,0.0,0.0
+2025-05-24,21:00 (19:00),La Liga,2024-2025,Mallorca,Rayo Vallecano,Away,Matchweek 38,0.6,0.0,0.0,9,2,20.2,0.0,0,2.2,0.0,0.0,27.0,8.0,17.7,0.0,0.0
+2024-08-18,19:00 (17:00),La Liga,2024-2025,Real Sociedad,Rayo Vallecano,Home,Matchweek 1,1.1,1,2,11,4,15.6,0,0,1.1,2.0,1.0,12.0,4.0,21.7,1.0,0.0
+2024-08-24,21:30 (19:30),La Liga,2024-2025,Real Sociedad,Espanyol,Away,Matchweek 2,0.7,1,0,8,3,19.8,1,0,1.6,0.0,1.0,13.0,3.0,14.7,0.0,0.0
+2024-08-28,21:30 (19:30),La Liga,2024-2025,Real Sociedad,Alavés,Home,Matchweek 3,1.0,1,2,10,1,17.9,1,0,1.6,2.0,1.0,13.0,4.0,18.1,0.0,1.0
+2024-09-01,19:15 (17:15),La Liga,2024-2025,Real Sociedad,Getafe,Away,Matchweek 4,0.0,0,0,1,0,31.8,0,0,0.6,0.0,0.0,16.0,1.0,25.5,0.0,0.0
+2024-09-14,21:00 (19:00),La Liga,2024-2025,Real Sociedad,Real Madrid,Home,Matchweek 5,1.1,0,2,11,2,17.2,1,0,2.3,2.0,0.0,14.0,4.0,19.4,1.0,2.0
+2024-09-17,19:00 (17:00),La Liga,2024-2025,Real Sociedad,Mallorca,Away,Matchweek 7,0.6,0,1,13,5,21.8,0,0,1.2,1.0,0.0,9.0,3.0,17.4,0.0,1.0
+2024-09-21,14:00 (12:00),La Liga,2024-2025,Real Sociedad,Valladolid,Away,Matchweek 6,1.4,0,0,14,3,15.3,0,0,1.0,0.0,0.0,15.0,2.0,21.0,1.0,0.0
+2024-09-25,21:00 (19:00),Europa Lg,2024-2025,Real Sociedad,fr Nice,Away,League phase,0.7,1,1,8,2,21.8,0,0,1.3,1.0,1.0,9.0,4.0,21.7,0.0,0.0
+2024-09-28,18:30 (16:30),La Liga,2024-2025,Real Sociedad,Valencia,Home,Matchweek 8,3.4,3,0,11,6,12.8,0,0,0.8,0.0,3.0,9.0,4.0,23.3,0.0,0.0
+2024-10-03,18:45 (16:45),Europa Lg,2024-2025,Real Sociedad,be Anderlecht,Home,League phase,1.2,1,2,20,4,17.9,0,0,0.9,2.0,1.0,15.0,3.0,19.7,1.0,0.0
+2024-10-06,21:00 (19:00),La Liga,2024-2025,Real Sociedad,Atlético Madrid,Home,Matchweek 9,1.0,1,1,16,7,19.2,0,0,0.5,1.0,1.0,4.0,1.0,19.3,0.0,0.0
+2024-10-19,18:30 (16:30),La Liga,2024-2025,Real Sociedad,Girona,Away,Matchweek 10,1.7,1,0,14,4,18.3,1,0,0.4,0.0,1.0,8.0,3.0,15.2,0.0,0.0
+2024-10-24,19:45 (16:45),Europa Lg,2024-2025,Real Sociedad,il Maccabi Tel Aviv,Away,League phase,1.3,2,1,12,5,14.3,0,0,0.5,1.0,2.0,12.0,3.0,19.5,0.0,0.0
+2024-10-27,21:00 (20:00),La Liga,2024-2025,Real Sociedad,Osasuna,Home,Matchweek 11,1.6,0,2,19,9,18.8,1,0,1.0,2.0,0.0,10.0,4.0,18.2,1.0,0.0
+2024-11-03,18:30 (17:30),La Liga,2024-2025,Real Sociedad,Sevilla,Away,Matchweek 12,1.4,2,0,8,2,21.6,0,1,1.1,0.0,2.0,8.0,0.0,18.2,0.0,0.0
+2024-11-07,21:00 (20:00),Europa Lg,2024-2025,Real Sociedad,cz Viktoria Plzeň,Away,League phase,1.9,1,2,16,6,16.2,1,0,0.5,2.0,1.0,11.0,4.0,21.5,0.0,0.0
+2024-11-10,21:00 (20:00),La Liga,2024-2025,Real Sociedad,Barcelona,Home,Matchweek 13,2.0,1,0,14,6,16.7,1,0,0.7,0.0,1.0,11.0,0.0,17.6,0.0,0.0
+2024-11-21,21:00 (20:00),Copa del Rey,2024-2025,Real Sociedad,FC Jove Español San Vicente,Away,First round,,5,0,17,11,,,0,,0.0,5.0,2.0,1.0,,,0.0
+2024-11-24,21:00 (20:00),La Liga,2024-2025,Real Sociedad,Athletic Club,Away,Matchweek 14,0.5,0,1,6,1,16.2,0,0,1.3,1.0,0.0,12.0,4.0,14.1,0.0,0.0
+2024-11-28,21:00 (20:00),Europa Lg,2024-2025,Real Sociedad,nl Ajax,Home,League phase,1.8,2,0,12,3,13.5,0,0,0.7,0.0,2.0,12.0,3.0,18.0,0.0,0.0
+2024-12-01,21:00 (20:00),La Liga,2024-2025,Real Sociedad,Betis,Home,Matchweek 15,0.8,2,0,1,0,25.7,0,1,0.4,0.0,2.0,7.0,2.0,17.2,0.0,0.0
+2024-12-05,21:00 (20:00),Copa del Rey,2024-2025,Real Sociedad,UB Conquense,Away,Second round,,1,0,22,5,,,0,,0.0,1.0,13.0,4.0,,,0.0
+2024-12-08,14:00 (13:00),La Liga,2024-2025,Real Sociedad,Leganés,Away,Matchweek 16,1.8,3,0,15,5,18.9,0,0,0.7,0.0,3.0,11.0,2.0,22.5,1.0,0.0
+2024-12-12,21:00 (20:00),Europa Lg,2024-2025,Real Sociedad,ua Dynamo Kyiv,Home,League phase,3.1,3,0,26,13,15.9,1,0,0.1,0.0,3.0,5.0,1.0,23.4,0.0,0.0
+2024-12-15,18:30 (17:30),La Liga,2024-2025,Real Sociedad,Las Palmas,Home,Matchweek 17,1.1,0,0,15,4,19.7,0,0,1.0,0.0,0.0,9.0,3.0,22.9,1.0,0.0
+2024-12-21,16:15 (15:15),La Liga,2024-2025,Real Sociedad,Celta Vigo,Away,Matchweek 18,0.3,0,2,7,1,14.7,0,0,1.3,2.0,0.0,11.0,7.0,21.8,0.0,0.0
+2025-01-05,15:30 (14:30),Copa del Rey,2024-2025,Real Sociedad,Ponferradina,Away,Round of 32,,2,0,13,7,,,0,,0.0,2.0,19.0,4.0,,,0.0
+2025-01-13,21:00 (20:00),La Liga,2024-2025,Real Sociedad,Villarreal,Home,Matchweek 19,0.8,1,0,6,3,20.5,0,0,1.2,0.0,1.0,15.0,5.0,16.8,1.0,0.0
+2025-01-16,19:30 (18:30),Copa del Rey,2024-2025,Real Sociedad,Rayo Vallecano,Home,Round of 16,,3,1,14,5,,,0,,1.0,3.0,12.0,3.0,,,1.0
+2025-01-19,21:00 (20:00),La Liga,2024-2025,Real Sociedad,Valencia,Away,Matchweek 20,0.8,0,1,9,3,16.5,0,0,1.6,1.0,0.0,7.0,2.0,12.6,0.0,0.0
+2025-01-23,21:00 (20:00),Europa Lg,2024-2025,Real Sociedad,it Lazio,Away,League phase,1.1,1,3,9,4,17.9,0,0,1.5,3.0,1.0,19.0,5.0,14.3,0.0,0.0
+2025-01-26,16:15 (15:15),La Liga,2024-2025,Real Sociedad,Getafe,Home,Matchweek 21,0.9,0,3,13,4,19.6,0,0,1.4,3.0,0.0,13.0,4.0,20.4,1.0,0.0
+2025-01-30,21:00 (20:00),Europa Lg,2024-2025,Real Sociedad,gr PAOK,Home,League phase,2.0,2,0,16,7,15.7,0,0,1.4,0.0,2.0,12.0,4.0,17.1,0.0,0.0
+2025-02-02,18:30 (17:30),La Liga,2024-2025,Real Sociedad,Osasuna,Away,Matchweek 22,2.0,1,2,13,3,15.2,0,0,0.7,2.0,1.0,11.0,4.0,16.7,0.0,0.0
+2025-02-06,19:30 (18:30),Copa del Rey,2024-2025,Real Sociedad,Osasuna,Home,Quarter-finals,,2,0,11,4,,,0,,0.0,2.0,9.0,3.0,,,0.0
+Date,Time,Comp,2024-2025,Real Sociedad,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+2025-02-09,18:30 (17:30),La Liga,2024-2025,Real Sociedad,Espanyol,Home,Matchweek 23,1.7,2,1,13,3,16.8,2,0,0.9,1.0,2.0,3.0,0.0,22.4,0.0,1.0
+2025-02-13,18:45 (17:45),Europa Lg,2024-2025,Real Sociedad,dk Midtjylland,Away,Knockout phase play-offs,1.2,2,1,8,2,23.8,1,1,1.1,1.0,2.0,13.0,3.0,15.9,1.0,0.0
+2025-02-16,21:00 (20:00),La Liga,2024-2025,Real Sociedad,Betis,Away,Matchweek 24,0.3,0,3,5,0,21.1,0,0,2.3,3.0,0.0,23.0,7.0,19.7,1.0,0.0
+2025-02-20,21:00 (20:00),Europa Lg,2024-2025,Real Sociedad,dk Midtjylland,Home,Knockout phase play-offs,4.5,5,2,21,9,15.2,0,1,1.1,2.0,5.0,7.0,2.0,17.0,0.0,1.0
+2025-02-23,21:00 (20:00),La Liga,2024-2025,Real Sociedad,Leganés,Home,Matchweek 25,0.7,3,0,12,5,18.3,0,0,0.3,0.0,3.0,8.0,2.0,20.7,0.0,0.0
+2025-02-26,21:30 (20:30),Copa del Rey,2024-2025,Real Sociedad,Real Madrid,Home,Semi-finals,,0,1,11,6,,,0,,1.0,0.0,14.0,5.0,,,0.0
+2025-03-02,16:15 (15:15),La Liga,2024-2025,Real Sociedad,Barcelona,Away,Matchweek 26,0.0,0,4,0,0,,0,0,2.8,4.0,0.0,33.0,10.0,17.5,2.0,0.0
+2025-03-06,18:45 (17:45),Europa Lg,2024-2025,Real Sociedad,eng Manchester Utd,Home,Round of 16,1.4,1,1,12,2,21.0,0,1,1.1,1.0,1.0,13.0,4.0,15.8,1.0,0.0
+2025-03-09,21:00 (20:00),La Liga,2024-2025,Real Sociedad,Sevilla,Home,Matchweek 27,0.7,0,1,7,2,17.7,0,0,0.6,1.0,0.0,9.0,4.0,16.3,0.0,0.0
+2025-03-13,20:00,Europa Lg,2024-2025,Real Sociedad,eng Manchester Utd,Away,Round of 16,1.0,1,4,7,2,22.6,0,1,4.2,4.0,1.0,23.0,8.0,19.0,1.0,2.0
+2025-03-16,18:30 (17:30),La Liga,2024-2025,Real Sociedad,Rayo Vallecano,Away,Matchweek 28,0.6,2,2,8,4,21.4,1,0,0.6,2.0,2.0,10.0,5.0,26.0,1.0,0.0
+2025-03-29,14:00 (13:00),La Liga,2024-2025,Real Sociedad,Valladolid,Home,Matchweek 29,0.7,2,1,12,2,17.9,1,0,0.7,1.0,2.0,12.0,5.0,18.1,0.0,0.0
+2025-04-01,21:30 (19:30),Copa del Rey,2024-2025,Real Sociedad,Real Madrid,Away,Semi-finals,,4,4,11,5,,,0,,4.0,4.0,26.0,10.0,,,0.0
+2025-04-06,13:00 (12:00),La Liga,2024-2025,Real Sociedad,Las Palmas,Away,Matchweek 30,2.4,3,1,13,8,15.4,0,0,2.0,1.0,3.0,13.0,5.0,16.2,0.0,0.0
+2025-04-12,14:00 (12:00),La Liga,2024-2025,Real Sociedad,Mallorca,Home,Matchweek 31,0.7,0,2,15,4,17.7,0,0,0.7,2.0,0.0,7.0,3.0,14.7,0.0,0.0
+2025-04-20,16:15 (14:15),La Liga,2024-2025,Real Sociedad,Villarreal,Away,Matchweek 32,1.7,2,2,3,3,13.4,0,1,1.9,2.0,2.0,20.0,5.0,12.2,0.0,0.0
+2025-04-23,21:30 (19:30),La Liga,2024-2025,Real Sociedad,Alavés,Away,Matchweek 33,0.8,0,1,6,0,16.4,0,0,0.6,1.0,0.0,10.0,1.0,17.4,0.0,0.0
+2025-05-04,21:00 (19:00),La Liga,2024-2025,Real Sociedad,Athletic Club,Home,Matchweek 34,0.9,0,0,12,3,15.4,0,0,0.2,0.0,0.0,3.0,1.0,16.6,0.0,0.0
+2025-05-10,21:00 (19:00),La Liga,2024-2025,Real Sociedad,Atlético Madrid,Away,Matchweek 35,0.6,0,4,6,1,20.5,0,0,1.4,4.0,0.0,13.0,7.0,23.5,1.0,0.0
+2025-05-13,20:00 (18:00),La Liga,2024-2025,Real Sociedad,Celta Vigo,Home,Matchweek 36,1.7,0,1,15,4,12.3,0,0,1.1,1.0,0.0,6.0,2.0,15.2,0.0,0.0
+2025-05-18,19:00 (17:00),La Liga,2024-2025,Real Sociedad,Girona,Home,Matchweek 37,2.0,3,2,14,6,16.2,0,1,2.3,2.0,3.0,9.0,5.0,18.8,1.0,0.0
+2025-05-24,16:15 (14:15),La Liga,2024-2025,Real Sociedad,Real Madrid,Away,Matchweek 38,0.8,0,2,9,1,16.3,0,0,2.6,2.0,0.0,15.0,7.0,20.7,0.0,0.0
+2024-08-17,21:30 (19:30),La Liga,2024-2025,Valencia,Barcelona,Home,Matchweek 1,1.0,1,2,6,1,14.8,0,0,3.2,2.0,1.0,17.0,5.0,18.6,1.0,1.0
+2024-08-23,19:00 (17:00),La Liga,2024-2025,Valencia,Celta Vigo,Away,Matchweek 2,0.9,1,3,13,4,16.6,0,0,1.3,3.0,1.0,6.0,4.0,17.6,0.0,0.0
+2024-08-28,19:00 (17:00),La Liga,2024-2025,Valencia,Athletic Club,Away,Matchweek 3,0.1,0,1,2,0,18.4,0,0,1.4,1.0,0.0,13.0,4.0,14.5,0.0,0.0
+2024-08-31,21:30 (19:30),La Liga,2024-2025,Valencia,Villarreal,Home,Matchweek 4,1.1,1,1,22,5,20.2,0,0,0.5,1.0,1.0,9.0,2.0,17.2,0.0,0.0
+2024-09-15,21:00 (19:00),La Liga,2024-2025,Valencia,Atlético Madrid,Away,Matchweek 5,0.1,0,3,5,1,21.8,0,0,3.1,3.0,0.0,14.0,4.0,10.9,0.0,0.0
+2024-09-21,18:30 (16:30),La Liga,2024-2025,Valencia,Girona,Home,Matchweek 6,0.4,2,0,8,2,18.2,0,0,0.4,0.0,2.0,8.0,3.0,17.1,0.0,0.0
+2024-09-24,19:00 (17:00),La Liga,2024-2025,Valencia,Osasuna,Home,Matchweek 7,0.7,0,0,10,3,14.3,0,0,0.5,0.0,0.0,9.0,2.0,19.8,0.0,0.0
+2024-09-28,18:30 (16:30),La Liga,2024-2025,Valencia,Real Sociedad,Away,Matchweek 8,0.8,0,3,9,4,23.3,0,0,3.4,3.0,0.0,11.0,6.0,12.8,0.0,0.0
+2024-10-04,21:00 (19:00),La Liga,2024-2025,Valencia,Leganés,Away,Matchweek 9,0.5,0,0,6,1,17.2,1,0,0.8,0.0,0.0,8.0,0.0,16.8,0.0,0.0
+2024-10-21,21:00 (19:00),La Liga,2024-2025,Valencia,Las Palmas,Home,Matchweek 10,1.6,2,3,13,6,16.3,0,1,1.2,3.0,2.0,11.0,6.0,20.4,1.0,0.0
+2024-10-27,16:15 (15:15),La Liga,2024-2025,Valencia,Getafe,Away,Matchweek 11,0.7,1,1,2,1,10.6,0,0,2.2,1.0,1.0,14.0,3.0,14.2,0.0,1.0
+2024-11-23,14:00 (13:00),La Liga,2024-2025,Valencia,Betis,Home,Matchweek 14,1.5,4,2,11,5,15.3,0,0,1.3,2.0,4.0,7.0,3.0,15.4,0.0,0.0
+2024-11-26,18:00,Copa del Rey,2024-2025,Valencia,CP Parla Escuela,Away,First round,,1,0,,,,,0,,0.0,1.0,,,,,0.0
+2024-11-29,21:00 (20:00),La Liga,2024-2025,Valencia,Mallorca,Away,Matchweek 15,1.3,1,2,6,0,19.2,0,1,0.8,2.0,1.0,9.0,3.0,15.4,0.0,0.0
+2024-12-04,21:00 (20:00),Copa del Rey,2024-2025,Valencia,SD Ejea,Away,Second round,,3,1,7,4,,,0,,1.0,3.0,10.0,1.0,,,0.0
+2024-12-07,18:30 (17:30),La Liga,2024-2025,Valencia,Rayo Vallecano,Home,Matchweek 16,1.3,0,1,14,5,15.5,0,0,0.9,1.0,0.0,6.0,1.0,15.2,0.0,0.0
+2024-12-13,21:00 (20:00),La Liga,2024-2025,Valencia,Valladolid,Away,Matchweek 17,0.8,0,1,14,1,17.2,0,0,0.6,1.0,0.0,2.0,1.0,34.7,0.0,0.0
+2024-12-18,21:30 (20:30),La Liga,2024-2025,Valencia,Espanyol,Away,Matchweek 13,2.0,1,1,14,4,15.8,0,0,2.1,1.0,1.0,10.0,3.0,15.5,0.0,0.0
+2024-12-22,14:00 (13:00),La Liga,2024-2025,Valencia,Alavés,Home,Matchweek 18,1.5,2,2,7,2,18.3,0,1,1.6,2.0,2.0,10.0,2.0,19.1,1.0,1.0
+2025-01-03,21:00 (20:00),La Liga,2024-2025,Valencia,Real Madrid,Home,Matchweek 12,1.3,1,2,8,5,15.6,0,0,2.7,2.0,1.0,16.0,5.0,21.5,0.0,0.0
+2025-01-07,21:00 (20:00),Copa del Rey,2024-2025,Valencia,Eldense,Away,Round of 32,,2,0,16,6,,,0,,0.0,2.0,11.0,2.0,,,0.0
+2025-01-11,21:00 (20:00),La Liga,2024-2025,Valencia,Sevilla,Away,Matchweek 19,0.7,1,1,5,1,15.8,0,0,0.5,1.0,1.0,15.0,5.0,21.2,0.0,0.0
+2025-01-14,21:00 (20:00),Copa del Rey,2024-2025,Valencia,Ourense CF,Away,Round of 16,,2,0,9,3,,,0,,0.0,2.0,9.0,4.0,,,0.0
+2025-01-19,21:00 (20:00),La Liga,2024-2025,Valencia,Real Sociedad,Home,Matchweek 20,1.6,1,0,7,2,12.6,0,0,0.8,0.0,1.0,9.0,3.0,16.5,0.0,0.0
+2025-01-26,21:00 (20:00),La Liga,2024-2025,Valencia,Barcelona,Away,Matchweek 21,1.5,1,7,7,2,14.3,1,0,4.4,7.0,1.0,22.0,11.0,16.2,0.0,0.0
+2025-02-02,16:15 (15:15),La Liga,2024-2025,Valencia,Celta Vigo,Home,Matchweek 22,1.6,2,1,8,5,11.2,0,0,0.4,1.0,2.0,3.0,2.0,15.9,0.0,0.0
+2025-02-06,21:30 (20:30),Copa del Rey,2024-2025,Valencia,Barcelona,Home,Quarter-finals,,0,5,4,1,,,0,,5.0,0.0,17.0,9.0,,,0.0
+2025-02-09,16:15 (15:15),La Liga,2024-2025,Valencia,Leganés,Home,Matchweek 23,1.9,2,0,19,4,18.4,0,0,0.5,0.0,2.0,12.0,4.0,23.7,1.0,0.0
+2025-02-15,21:00 (20:00),La Liga,2024-2025,Valencia,Villarreal,Away,Matchweek 24,1.1,1,1,12,3,19.8,0,0,1.3,1.0,1.0,13.0,4.0,17.9,0.0,0.0
+2025-02-22,18:30 (17:30),La Liga,2024-2025,Valencia,Atlético Madrid,Home,Matchweek 25,0.8,0,3,18,2,18.7,1,0,1.3,3.0,0.0,11.0,3.0,16.1,1.0,0.0
+2025-03-02,21:00 (20:00),La Liga,2024-2025,Valencia,Osasuna,Away,Matchweek 26,1.8,3,3,13,5,19.3,0,0,1.5,3.0,3.0,10.0,4.0,19.7,0.0,1.0
+2025-03-08,18:30 (17:30),La Liga,2024-2025,Valencia,Valladolid,Home,Matchweek 27,1.9,2,1,17,4,16.3,1,0,0.9,1.0,2.0,11.0,4.0,17.4,0.0,0.0
+2025-03-15,21:00 (20:00),La Liga,2024-2025,Valencia,Girona,Away,Matchweek 28,1.0,1,1,12,2,19.7,1,0,0.9,1.0,1.0,14.0,4.0,17.2,0.0,0.0
+2025-03-30,18:30 (16:30),La Liga,2024-2025,Valencia,Mallorca,Home,Matchweek 29,0.7,1,0,8,2,21.3,0,0,0.6,0.0,1.0,8.0,2.0,20.3,0.0,0.0
+2025-04-05,16:15 (14:15),La Liga,2024-2025,Valencia,Real Madrid,Away,Matchweek 30,0.8,2,1,10,2,14.6,0,0,3.4,1.0,2.0,20.0,8.0,14.8,0.0,0.0
+Date,Time,Comp,2024-2025,Valencia,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+2025-04-11,21:00 (19:00),La Liga,2024-2025,Valencia,Sevilla,Home,Matchweek 31,1.3,1,0,8,6,11.1,0,0,0.8,0.0,1.0,12.0,5.0,23.7,1.0,0.0
+2025-04-19,14:00 (12:00),La Liga,2024-2025,Valencia,Rayo Vallecano,Away,Matchweek 32,2.0,1,1,10,3,12.7,1,0,0.5,1.0,1.0,11.0,4.0,22.4,1.0,0.0
+2025-04-22,19:00 (17:00),La Liga,2024-2025,Valencia,Espanyol,Home,Matchweek 33,0.9,1,1,16,7,16.6,0,0,0.3,1.0,1.0,8.0,3.0,15.2,0.0,0.0
+2025-05-03,17:30 (16:30),La Liga,2024-2025,Valencia,Las Palmas,Away,Matchweek 34,1.4,3,2,10,5,22.5,0,0,1.7,2.0,3.0,14.0,2.0,16.9,1.0,1.0
+2025-05-10,14:00 (12:00),La Liga,2024-2025,Valencia,Getafe,Home,Matchweek 35,2.7,3,0,8,4,22.4,0,2,0.5,0.0,3.0,10.0,3.0,19.1,1.0,0.0
+2025-05-14,19:00 (17:00),La Liga,2024-2025,Valencia,Alavés,Away,Matchweek 36,0.8,0,1,10,3,15.2,0,0,1.8,1.0,0.0,10.0,4.0,18.7,1.0,1.0
+2025-05-18,19:00 (17:00),La Liga,2024-2025,Valencia,Athletic Club,Home,Matchweek 37,0.4,0,1,6,2,10.9,0,0,1.1,1.0,0.0,10.0,4.0,19.3,1.0,0.0
+2025-05-23,21:00 (19:00),La Liga,2024-2025,Valencia,Betis,Away,Matchweek 38,0.7,1,1,9,2,18.6,0,0,0.9,1.0,1.0,14.0,4.0,17.4,0.0,0.0
+2024-08-15,19:00 (17:00),La Liga,2024-2025,Getafe,Athletic Club,Away,Matchweek 1,0.8,1,1,9,2,19.7,0,0,0.3,1,1,7.0,4.0,24.0,1.0,0.0
+2024-08-24,21:30 (19:30),La Liga,2024-2025,Getafe,Rayo Vallecano,Home,Matchweek 2,0.5,0,0,12,0,16.4,0,0,0.2,0,0,3.0,0.0,29.0,0.0,0.0
+2024-09-01,19:15 (17:15),La Liga,2024-2025,Getafe,Real Sociedad,Home,Matchweek 4,0.6,0,0,16,1,25.5,0,0,0.0,0,0,1.0,0.0,31.8,0.0,0.0
+2024-09-14,18:30 (16:30),La Liga,2024-2025,Getafe,Sevilla,Away,Matchweek 5,1.0,0,1,15,4,21.9,1,0,1.4,1,0,10.0,4.0,17.3,0.0,0.0
+2024-09-18,19:00 (17:00),La Liga,2024-2025,Getafe,Betis,Away,Matchweek 3,0.6,1,2,15,5,21.7,0,0,2.6,2,1,16.0,6.0,16.2,0.0,1.0
+2024-09-22,14:00 (12:00),La Liga,2024-2025,Getafe,Leganés,Home,Matchweek 6,1.5,1,1,12,3,21.9,1,1,0.6,1,1,6.0,2.0,23.6,0.0,0.0
+2024-09-25,21:00 (19:00),La Liga,2024-2025,Getafe,Barcelona,Away,Matchweek 7,0.7,0,1,7,1,21.7,0,0,1.9,1,0,15.0,4.0,19.1,2.0,0.0
+2024-09-28,14:00 (12:00),La Liga,2024-2025,Getafe,Alavés,Home,Matchweek 8,2.1,2,0,13,7,19.0,2,1,0.5,0,2,9.0,1.0,17.5,0.0,0.0
+2024-10-05,16:15 (14:15),La Liga,2024-2025,Getafe,Osasuna,Home,Matchweek 9,0.8,1,1,11,3,18.2,1,0,0.3,1,1,6.0,2.0,18.9,0.0,0.0
+2024-10-20,18:30 (16:30),La Liga,2024-2025,Getafe,Villarreal,Away,Matchweek 10,1.9,1,1,20,3,17.7,0,1,0.9,1,1,10.0,4.0,17.1,0.0,0.0
+2024-10-27,16:15 (15:15),La Liga,2024-2025,Getafe,Valencia,Home,Matchweek 11,2.2,1,1,14,3,14.2,0,1,0.7,1,1,2.0,1.0,10.6,0.0,0.0
+2024-11-04,21:00 (20:00),La Liga,2024-2025,Getafe,Celta Vigo,Away,Matchweek 12,0.5,0,1,10,2,19.6,1,0,1.9,1,0,10.0,3.0,14.7,0.0,0.0
+2024-11-10,18:30 (17:30),La Liga,2024-2025,Getafe,Girona,Home,Matchweek 13,0.6,0,1,8,0,23.9,1,0,0.2,1,0,3.0,2.0,19.6,0.0,0.0
+2024-11-22,21:00 (20:00),La Liga,2024-2025,Getafe,Valladolid,Home,Matchweek 14,0.6,2,0,12,5,16.5,1,0,1.1,0,2,6.0,3.0,16.6,1.0,0.0
+2024-11-26,19:00 (18:00),Copa del Rey,2024-2025,Getafe,Manises CF,Away,First round,,3,0,,,,,0,,0,3,,,,,0.0
+2024-12-01,16:15 (15:15),La Liga,2024-2025,Getafe,Real Madrid,Away,Matchweek 15,0.5,0,2,8,3,18.2,0,0,3.2,2,0,12.0,3.0,17.6,0.0,1.0
+2024-12-05,19:00 (18:00),Copa del Rey,2024-2025,Getafe,Orihuela,Away,Second round,,0 (3),0 (0),24,8,,,0,,0 (0),0 (3),9.0,4.0,,,0.0
+2024-12-09,21:00 (20:00),La Liga,2024-2025,Getafe,Espanyol,Home,Matchweek 16,0.4,1,0,15,6,21.5,0,0,0.7,0,1,9.0,1.0,15.7,1.0,0.0
+2024-12-15,14:00 (13:00),La Liga,2024-2025,Getafe,Atlético Madrid,Away,Matchweek 17,0.2,0,1,7,1,21.5,1,0,1.7,1,0,11.0,3.0,15.1,0.0,0.0
+2024-12-21,14:00 (13:00),La Liga,2024-2025,Getafe,Mallorca,Home,Matchweek 18,0.8,0,1,18,5,20.9,0,0,2.3,1,0,8.0,1.0,23.6,0.0,1.0
+2025-01-03,19:00 (18:00),Copa del Rey,2024-2025,Getafe,Granada,Away,Round of 32,,1,0,19,4,,,0,,0,1,11.0,3.0,,,0.0
+2025-01-12,13:00,La Liga,2024-2025,Getafe,Las Palmas,Away,Matchweek 19,1.1,2,1,12,3,17.5,1,0,1.3,1,2,14.0,6.0,22.5,1.0,0.0
+2025-01-15,19:30 (18:30),Copa del Rey,2024-2025,Getafe,Pontevedra,Away,Round of 16,,1,0,12,3,,,0,,0,1,14.0,3.0,,,0.0
+2025-01-18,21:00 (20:00),La Liga,2024-2025,Getafe,Barcelona,Home,Matchweek 20,1.3,1,1,10,4,22.5,0,0,2.3,1,1,21.0,5.0,17.1,1.0,0.0
+2025-01-26,16:15 (15:15),La Liga,2024-2025,Getafe,Real Sociedad,Away,Matchweek 21,1.4,3,0,13,4,20.4,1,0,0.9,0,3,13.0,4.0,19.6,0.0,0.0
+2025-02-01,14:00 (13:00),La Liga,2024-2025,Getafe,Sevilla,Home,Matchweek 22,1.0,0,0,7,1,18.0,0,0,0.9,0,0,13.0,0.0,23.5,1.0,0.0
+2025-02-04,21:30 (20:30),Copa del Rey,2024-2025,Getafe,Atlético Madrid,Away,Quarter-finals,,0,5,10,4,,,0,,5,0,14.0,8.0,,,0.0
+2025-02-09,14:00 (13:00),La Liga,2024-2025,Getafe,Alavés,Away,Matchweek 23,0.9,1,0,3,2,28.8,0,1,1.4,0,1,12.0,4.0,11.6,0.0,0.0
+2025-02-14,21:00 (20:00),La Liga,2024-2025,Getafe,Girona,Away,Matchweek 24,0.6,2,1,10,6,20.5,1,0,0.9,1,2,14.0,4.0,18.9,1.0,0.0
+2025-02-23,18:30 (17:30),La Liga,2024-2025,Getafe,Betis,Home,Matchweek 25,1.2,1,2,10,4,18.2,0,0,2.0,2,1,12.0,5.0,15.9,0.0,1.0
+2025-03-02,14:00 (13:00),La Liga,2024-2025,Getafe,Leganés,Away,Matchweek 26,0.3,0,1,9,0,22.4,0,0,1.0,1,0,6.0,1.0,12.3,1.0,0.0
+2025-03-09,14:00 (13:00),La Liga,2024-2025,Getafe,Atlético Madrid,Home,Matchweek 27,1.2,2,1,11,3,17.0,0,0,0.9,1,2,3.0,1.0,13.1,0.0,1.0
+2025-03-16,18:30 (17:30),La Liga,2024-2025,Getafe,Osasuna,Away,Matchweek 28,0.5,2,1,7,3,17.5,0,0,1.9,1,2,11.0,3.0,16.7,0.0,1.0
+2025-03-30,14:00 (12:00),La Liga,2024-2025,Getafe,Villarreal,Home,Matchweek 29,1.0,1,2,11,4,18.2,0,0,1.2,2,1,9.0,3.0,17.0,0.0,0.0
+2025-04-06,18:30 (16:30),La Liga,2024-2025,Getafe,Valladolid,Away,Matchweek 30,1.9,4,0,16,8,16.5,1,0,0.6,0,4,5.0,0.0,15.8,0.0,0.0
+Date,Time,Comp,2024-2025,Getafe,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+2025-04-12,16:15 (14:15),La Liga,2024-2025,Getafe,Las Palmas,Home,Matchweek 31,1.4,1,3,11,6,18.5,1,0,1.3,3,1,10.0,5.0,18.3,0.0,0.0
+2025-04-18,21:00 (19:00),La Liga,2024-2025,Getafe,Espanyol,Away,Matchweek 32,0.4,0,1,9,4,13.2,0,0,0.4,1,0,9.0,3.0,17.0,1.0,0.0
+2025-04-23,21:30 (19:30),La Liga,2024-2025,Getafe,Real Madrid,Home,Matchweek 33,2.3,0,1,20,6,18.1,1,0,1.5,1,0,14.0,6.0,16.4,0.0,0.0
+2025-05-02,21:00 (19:00),La Liga,2024-2025,Getafe,Rayo Vallecano,Away,Matchweek 34,0.9,0,1,12,1,20.6,1,0,1.2,1,0,13.0,8.0,19.2,0.0,0.0
+2025-05-10,14:00 (12:00),La Liga,2024-2025,Getafe,Valencia,Away,Matchweek 35,0.5,0,3,10,3,19.1,1,0,2.7,3,0,8.0,4.0,22.4,0.0,2.0
+2025-05-15,21:30 (19:30),La Liga,2024-2025,Getafe,Athletic Club,Home,Matchweek 36,0.4,0,2,11,1,23.6,0,0,1.2,2,0,9.0,2.0,15.6,0.0,0.0
+2025-05-18,19:00 (17:00),La Liga,2024-2025,Getafe,Mallorca,Away,Matchweek 37,1.6,2,1,10,4,15.7,0,0,0.4,1,2,7.0,1.0,14.9,0.0,0.0
+2025-05-24,21:00 (19:00),La Liga,2024-2025,Getafe,Celta Vigo,Home,Matchweek 38,0.4,1,2,6,1,20.1,0,0,1.5,2,1,15.0,8.0,18.6,1.0,0.0
+2024-08-19,19:00 (17:00),La Liga,2024-2025,Espanyol,Valladolid,Away,Matchweek 1,0.7,0.0,1.0,10,2,19.4,1.0,0,0.8,1.0,0.0,12.0,1.0,20.8,0.0,0.0
+2024-08-24,21:30 (19:30),La Liga,2024-2025,Espanyol,Real Sociedad,Home,Matchweek 2,1.6,0.0,1.0,13,3,14.7,0.0,0,0.7,1.0,0.0,8.0,3.0,19.8,1.0,0.0
+2024-08-28,21:30 (19:30),La Liga,2024-2025,Espanyol,Atlético Madrid,Away,Matchweek 3,0.6,0.0,0.0,8,1,18.7,1.0,0,2.3,0.0,0.0,25.0,7.0,16.2,0.0,0.0
+2024-08-31,19:15 (17:15),La Liga,2024-2025,Espanyol,Rayo Vallecano,Home,Matchweek 4,1.6,2.0,1.0,10,3,15.2,0.0,0,1.3,1.0,2.0,17.0,5.0,23.0,2.0,0.0
+2024-09-14,16:15 (14:15),La Liga,2024-2025,Espanyol,Alavés,Home,Matchweek 5,1.6,3.0,2.0,8,3,17.9,0.0,1,1.9,2.0,3.0,19.0,6.0,14.1,2.0,0.0
+2024-09-21,21:00 (19:00),La Liga,2024-2025,Espanyol,Real Madrid,Away,Matchweek 6,0.3,1.0,4.0,10,1,23.3,0.0,0,4.4,4.0,1.0,30.0,13.0,17.4,0.0,1.0
+2024-09-26,19:00 (17:00),La Liga,2024-2025,Espanyol,Villarreal,Home,Matchweek 7,0.4,1.0,2.0,9,2,20.9,1.0,0,1.6,2.0,1.0,15.0,4.0,17.8,0.0,0.0
+2024-09-29,18:30 (16:30),La Liga,2024-2025,Espanyol,Betis,Away,Matchweek 8,0.5,0.0,1.0,8,1,19.8,1.0,0,2.1,1.0,0.0,19.0,10.0,16.4,0.0,0.0
+2024-10-05,14:00 (12:00),La Liga,2024-2025,Espanyol,Mallorca,Home,Matchweek 9,0.9,2.0,1.0,8,3,18.4,0.0,0,1.6,1.0,2.0,11.0,5.0,13.6,1.0,0.0
+2024-10-19,14:00 (12:00),La Liga,2024-2025,Espanyol,Athletic Club,Away,Matchweek 10,0.2,1.0,4.0,5,2,19.0,1.0,0,1.3,4.0,1.0,10.0,6.0,16.8,0.0,0.0
+2024-10-25,21:00 (19:00),La Liga,2024-2025,Espanyol,Sevilla,Home,Matchweek 11,1.2,0.0,2.0,16,1,14.0,1.0,0,0.8,2.0,0.0,6.0,3.0,15.9,0.0,0.0
+2024-10-31,19:00 (18:00),Copa del Rey,2024-2025,Espanyol,San Tirso SD,Away,First round,,4.0,0.0,26,12,,,0,,0.0,4.0,8.0,1.0,,,0.0
+2024-11-03,16:15 (15:15),La Liga,2024-2025,Espanyol,Barcelona,Away,Matchweek 12,0.9,1.0,3.0,10,3,16.3,1.0,0,1.8,3.0,1.0,14.0,9.0,19.2,0.0,0.0
+2024-11-23,18:30 (17:30),La Liga,2024-2025,Espanyol,Girona,Away,Matchweek 14,0.5,1.0,4.0,9,1,19.3,0.0,0,3.5,4.0,1.0,12.0,5.0,15.0,1.0,0.0
+2024-11-30,18:30 (17:30),La Liga,2024-2025,Espanyol,Celta Vigo,Home,Matchweek 15,0.9,3.0,1.0,9,5,15.3,0.0,0,1.6,1.0,3.0,15.0,1.0,19.1,1.0,1.0
+2024-12-03,21:00 (20:00),Copa del Rey,2024-2025,Espanyol,Barbastro,Away,Second round,,0.0,2.0,25,9,,,0,,2.0,0.0,4.0,3.0,,,1.0
+2024-12-09,21:00 (20:00),La Liga,2024-2025,Espanyol,Getafe,Away,Matchweek 16,0.7,0.0,1.0,9,1,15.7,1.0,0,0.4,1.0,0.0,15.0,6.0,21.5,0.0,0.0
+2024-12-14,14:00 (13:00),La Liga,2024-2025,Espanyol,Osasuna,Home,Matchweek 17,0.3,0.0,0.0,9,3,23.6,0.0,0,0.3,0.0,0.0,6.0,0.0,28.4,0.0,0.0
+2024-12-18,21:30 (20:30),La Liga,2024-2025,Espanyol,Valencia,Home,Matchweek 13,2.1,1.0,1.0,10,3,15.5,0.0,0,2.0,1.0,1.0,14.0,4.0,15.8,0.0,0.0
+2024-12-22,17:30,La Liga,2024-2025,Espanyol,Las Palmas,Away,Matchweek 18,0.7,0.0,1.0,9,2,24.5,0.0,0,0.9,1.0,0.0,10.0,3.0,21.8,1.0,0.0
+2025-01-11,18:30 (17:30),La Liga,2024-2025,Espanyol,Leganés,Home,Matchweek 19,0.7,1.0,1.0,15,5,20.5,0.0,0,2.0,1.0,1.0,14.0,6.0,18.5,0.0,0.0
+2025-01-17,21:00 (20:00),La Liga,2024-2025,Espanyol,Valladolid,Home,Matchweek 20,1.0,2.0,1.0,12,4,20.9,3.0,0,1.2,1.0,2.0,11.0,4.0,20.2,1.0,0.0
+2025-01-25,18:30 (17:30),La Liga,2024-2025,Espanyol,Sevilla,Away,Matchweek 21,0.7,1.0,1.0,6,1,13.4,1.0,0,1.2,1.0,1.0,25.0,4.0,19.3,1.0,0.0
+2025-02-01,21:00 (20:00),La Liga,2024-2025,Espanyol,Real Madrid,Home,Matchweek 22,0.3,1.0,0.0,5,2,18.4,0.0,0,1.3,0.0,1.0,21.0,7.0,16.6,2.0,0.0
+2025-02-09,18:30 (17:30),La Liga,2024-2025,Espanyol,Real Sociedad,Away,Matchweek 23,0.9,1.0,2.0,3,0,22.4,0.0,1,1.7,2.0,1.0,13.0,3.0,16.8,2.0,0.0
+2025-02-16,14:00 (13:00),La Liga,2024-2025,Espanyol,Athletic Club,Home,Matchweek 24,0.8,1.0,1.0,12,4,20.4,0.0,0,1.0,1.0,1.0,14.0,4.0,17.7,0.0,0.0
+2025-02-22,14:00 (13:00),La Liga,2024-2025,Espanyol,Alavés,Away,Matchweek 25,0.4,1.0,0.0,9,2,22.0,0.0,0,1.8,0.0,1.0,15.0,4.0,16.0,2.0,0.0
+2025-03-10,21:00 (20:00),La Liga,2024-2025,Espanyol,Girona,Home,Matchweek 27,0.2,1.0,1.0,7,4,21.2,0.0,0,1.6,1.0,1.0,17.0,3.0,18.1,2.0,1.0
+2025-03-15,16:15 (15:15),La Liga,2024-2025,Espanyol,Mallorca,Away,Matchweek 28,0.2,1.0,2.0,2,0,16.1,0.0,0,2.7,2.0,1.0,18.0,5.0,18.4,0.0,1.0
+2025-03-29,16:15 (15:15),La Liga,2024-2025,Espanyol,Atlético Madrid,Home,Matchweek 29,1.0,1.0,1.0,7,0,21.6,0.0,1,0.8,1.0,1.0,13.0,2.0,20.5,1.0,0.0
+2025-04-04,21:00 (19:00),La Liga,2024-2025,Espanyol,Rayo Vallecano,Away,Matchweek 30,3.4,4.0,0.0,14,6,17.5,0.0,1,0.7,0.0,4.0,16.0,5.0,21.9,0.0,0.0
+2025-04-12,18:30 (16:30),La Liga,2024-2025,Espanyol,Celta Vigo,Away,Matchweek 31,1.2,2.0,0.0,5,3,16.3,0.0,0,0.9,0.0,2.0,16.0,6.0,17.7,1.0,0.0
+2025-04-18,21:00 (19:00),La Liga,2024-2025,Espanyol,Getafe,Home,Matchweek 32,0.4,1.0,0.0,9,3,17.0,1.0,0,0.4,0.0,1.0,9.0,4.0,13.2,0.0,0.0
+2025-04-22,19:00 (17:00),La Liga,2024-2025,Espanyol,Valencia,Away,Matchweek 33,0.3,1.0,1.0,8,3,15.2,0.0,0,0.9,1.0,1.0,16.0,7.0,16.6,0.0,0.0
+2025-04-27,16:15 (14:15),La Liga,2024-2025,Espanyol,Villarreal,Away,Matchweek 26,1.0,0.0,1.0,12,1,18.5,2.0,0,1.4,1.0,0.0,14.0,5.0,16.5,0.0,0.0
+2025-05-04,18:30 (16:30),La Liga,2024-2025,Espanyol,Betis,Home,Matchweek 34,1.2,1.0,2.0,11,5,23.1,0.0,0,1.1,2.0,1.0,20.0,10.0,18.7,1.0,0.0
+2025-05-11,14:00 (12:00),La Liga,2024-2025,Espanyol,Leganés,Away,Matchweek 35,1.2,2.0,3.0,12,6,10.9,0.0,0,1.5,3.0,2.0,13.0,5.0,17.9,0.0,0.0
+2025-05-15,21:30 (19:30),La Liga,2024-2025,Espanyol,Barcelona,Home,Matchweek 36,1.4,0.0,2.0,9,1,16.8,0.0,0,0.6,2.0,0.0,12.0,4.0,18.1,0.0,0.0
+2025-05-18,19:00 (17:00),La Liga,2024-2025,Espanyol,Osasuna,Away,Matchweek 37,0.7,0.0,2.0,16,6,19.8,0.0,0,1.2,2.0,0.0,16.0,3.0,15.0,0.0,0.0
+2025-05-24,18:30 (16:30),La Liga,2024-2025,Espanyol,Las Palmas,Home,Matchweek 38,2.0,2.0,0.0,7,2,18.0,0.0,1,0.5,0.0,2.0,10.0,4.0,20.1,0.0,0.0
+2024-08-16,19:00 (17:00),La Liga,2024-2025,Alaves,Celta Vigo,Away,Matchweek 1,1.6,1,2,10,2,14.5,0.0,0,0.8,2,1,6.0,4.0,18.2,1.0,0.0
+2024-08-25,19:15 (17:15),La Liga,2024-2025,Alaves,Betis,Home,Matchweek 2,0.2,0,0,5,1,18.6,0.0,0,1.5,0,0,15.0,3.0,18.1,0.0,0.0
+2024-08-28,21:30 (19:30),La Liga,2024-2025,Alaves,Real Sociedad,Away,Matchweek 3,1.6,2,1,13,4,18.1,0.0,1,1.0,1,2,10.0,1.0,17.9,1.0,0.0
+2024-09-01,17:00 (15:00),La Liga,2024-2025,Alaves,Las Palmas,Home,Matchweek 4,2.0,2,0,14,5,19.6,1.0,0,0.7,0,2,12.0,6.0,18.4,1.0,0.0
+2024-09-14,16:15 (14:15),La Liga,2024-2025,Alaves,Espanyol,Away,Matchweek 5,1.9,2,3,19,6,14.1,2.0,0,1.6,3,2,8.0,3.0,17.9,0.0,1.0
+2024-09-20,21:00 (19:00),La Liga,2024-2025,Alaves,Sevilla,Home,Matchweek 6,1.1,2,1,10,4,15.9,1.0,0,0.5,1,2,8.0,2.0,21.2,0.0,0.0
+2024-09-24,21:00 (19:00),La Liga,2024-2025,Alaves,Real Madrid,Away,Matchweek 7,0.9,2,3,12,3,19.7,0.0,0,1.3,3,2,10.0,4.0,14.7,1.0,0.0
+2024-09-28,14:00 (12:00),La Liga,2024-2025,Alaves,Getafe,Away,Matchweek 8,0.5,0,2,9,1,17.5,0.0,0,2.1,2,0,13.0,7.0,19.0,2.0,1.0
+2024-10-06,16:15 (14:15),La Liga,2024-2025,Alaves,Barcelona,Home,Matchweek 9,0.7,0,3,11,2,18.5,0.0,0,2.7,3,0,15.0,9.0,16.8,1.0,0.0
+2024-10-18,21:00 (19:00),La Liga,2024-2025,Alaves,Valladolid,Home,Matchweek 10,0.5,2,3,10,4,19.6,1.0,0,2.4,3,2,10.0,2.0,19.9,0.0,2.0
+2024-10-26,16:15 (14:15),La Liga,2024-2025,Alaves,Rayo Vallecano,Away,Matchweek 11,0.9,0,1,15,7,19.8,0.0,0,1.9,1,0,15.0,4.0,14.6,2.0,0.0
+2024-10-29,19:00 (18:00),Copa del Rey,2024-2025,Alaves,Compostela,Away,First round,,1,0,8,1,,,0,,0,1,7.0,0.0,,,0.0
+2024-11-01,21:00 (20:00),La Liga,2024-2025,Alaves,Mallorca,Home,Matchweek 12,1.1,1,0,13,3,16.3,0.0,0,0.5,0,1,7.0,2.0,16.6,0.0,0.0
+2024-11-09,16:15 (15:15),La Liga,2024-2025,Alaves,Villarreal,Away,Matchweek 13,0.5,0,3,9,3,18.3,0.0,0,1.5,3,0,12.0,2.0,18.9,1.0,1.0
+2024-11-23,16:15 (15:15),La Liga,2024-2025,Alaves,Atlético Madrid,Away,Matchweek 14,0.9,1,2,3,0,33.0,0.0,1,1.6,2,1,10.0,7.0,20.4,0.0,1.0
+2024-11-30,16:15 (15:15),La Liga,2024-2025,Alaves,Leganés,Home,Matchweek 15,1.1,1,1,18,7,17.5,0.0,0,0.9,1,1,6.0,3.0,11.7,0.0,0.0
+2024-12-05,21:00 (20:00),Copa del Rey,2024-2025,Alaves,CD Minera,Away,Second round,,2 (2),2 (4),30,9,,,1,,2 (4),2 (2),5.0,3.0,,,0.0
+2024-12-08,18:30 (17:30),La Liga,2024-2025,Alaves,Osasuna,Away,Matchweek 16,1.3,2,2,6,3,15.3,1.0,0,1.8,2,2,16.0,8.0,16.0,1.0,0.0
+2024-12-15,16:15 (15:15),La Liga,2024-2025,Alaves,Athletic Club,Home,Matchweek 17,0.9,1,1,6,3,16.5,0.0,0,0.7,1,1,9.0,2.0,18.2,0.0,0.0
+2024-12-22,14:00 (13:00),La Liga,2024-2025,Alaves,Valencia,Away,Matchweek 18,1.6,2,2,10,2,19.1,1.0,1,1.5,2,2,7.0,2.0,18.3,0.0,1.0
+2025-01-11,14:00 (13:00),La Liga,2024-2025,Alaves,Girona,Home,Matchweek 19,1.3,0,1,11,2,18.7,0.0,0,0.5,1,0,3.0,1.0,18.9,0.0,0.0
+2025-01-18,18:30 (17:30),La Liga,2024-2025,Alaves,Betis,Away,Matchweek 20,1.5,3,1,8,4,19.4,0.0,1,0.5,1,3,7.0,2.0,15.8,0.0,0.0
+2025-01-27,21:00 (20:00),La Liga,2024-2025,Alaves,Celta Vigo,Home,Matchweek 21,0.9,1,1,2,0,20.4,0.0,1,0.1,1,1,5.0,2.0,24.5,0.0,0.0
+2025-02-02,14:00 (13:00),La Liga,2024-2025,Alaves,Barcelona,Away,Matchweek 22,0.1,0,1,3,0,21.1,0.0,0,1.0,1,0,11.0,4.0,18.2,0.0,0.0
+2025-02-09,14:00 (13:00),La Liga,2024-2025,Alaves,Getafe,Home,Matchweek 23,1.4,0,1,12,4,11.6,0.0,0,0.9,1,0,3.0,2.0,28.8,0.0,1.0
+2025-02-15,14:00 (13:00),La Liga,2024-2025,Alaves,Leganés,Away,Matchweek 24,1.7,3,3,15,6,19.5,0.0,1,1.8,3,3,6.0,1.0,25.5,0.0,2.0
+2025-02-22,14:00 (13:00),La Liga,2024-2025,Alaves,Espanyol,Home,Matchweek 25,1.8,0,1,15,4,16.0,2.0,0,0.4,1,0,9.0,2.0,22.0,0.0,0.0
+2025-03-02,18:30 (17:30),La Liga,2024-2025,Alaves,Mallorca,Away,Matchweek 26,1.6,1,1,19,7,16.7,0.0,0,1.1,1,1,15.0,4.0,17.2,0.0,0.0
+2025-03-08,16:15 (15:15),La Liga,2024-2025,Alaves,Villarreal,Home,Matchweek 27,1.0,1,0,5,3,17.1,0.0,0,2.8,0,1,24.0,2.0,17.5,1.0,0.0
+2025-03-14,20:00,La Liga,2024-2025,Alaves,Las Palmas,Away,Matchweek 28,1.7,2,2,9,3,18.4,0.0,0,1.8,2,2,13.0,5.0,20.7,1.0,1.0
+2025-03-29,18:30 (17:30),La Liga,2024-2025,Alaves,Rayo Vallecano,Home,Matchweek 29,1.5,0,2,11,2,17.8,0.0,0,0.6,2,0,11.0,5.0,19.3,1.0,0.0
+2025-04-05,14:00 (12:00),La Liga,2024-2025,Alaves,Girona,Away,Matchweek 30,0.8,1,0,9,4,16.6,0.0,0,1.4,0,1,16.0,1.0,16.0,1.0,0.0
+2025-04-13,16:15 (14:15),La Liga,2024-2025,Alaves,Real Madrid,Home,Matchweek 31,0.6,0,1,13,6,18.6,0.0,0,0.9,1,0,11.0,3.0,18.9,1.0,0.0
+2025-04-20,18:30 (16:30),La Liga,2024-2025,Alaves,Sevilla,Away,Matchweek 32,1.0,1,1,11,3,16.7,0.0,0,1.6,1,1,10.0,2.0,13.0,0.0,0.0
+2025-04-23,21:30 (19:30),La Liga,2024-2025,Alaves,Real Sociedad,Home,Matchweek 33,0.6,1,0,10,1,17.4,0.0,0,0.8,0,1,6.0,0.0,16.4,0.0,0.0
+2025-05-03,14:00 (12:00),La Liga,2024-2025,Alaves,Atlético Madrid,Home,Matchweek 34,0.5,0,0,8,2,11.6,0.0,0,0.5,0,0,9.0,2.0,18.8,0.0,0.0
+2025-05-11,18:30 (16:30),La Liga,2024-2025,Alaves,Athletic Club,Away,Matchweek 35,0.4,0,1,3,1,12.9,0.0,0,1.3,1,0,11.0,3.0,18.3,0.0,0.0
+2025-05-14,19:00 (17:00),La Liga,2024-2025,Alaves,Valencia,Home,Matchweek 36,1.8,1,0,10,4,18.7,1.0,1,0.8,0,1,10.0,3.0,15.2,0.0,0.0
+2025-05-18,19:00 (17:00),La Liga,2024-2025,Alaves,Valladolid,Away,Matchweek 37,1.4,1,0,13,3,20.0,0.0,1,1.6,0,1,7.0,1.0,10.1,0.0,0.0
+2025-05-24,21:00 (19:00),La Liga,2024-2025,Alaves,Osasuna,Home,Matchweek 38,2.0,1,1,13,4,25.4,0.0,1,1.6,1,1,19.0,5.0,14.1,1.0,0.0
+2024-08-15,21:30 (19:30),La Liga,2024-2025,Girona,Betis,Away,Matchweek 1,1.6,1,1,13,2,17.5,0,0,1.4,1,1,19.0,4.0,20.3,0.0,0.0
+2024-08-25,21:30 (19:30),La Liga,2024-2025,Girona,Atlético Madrid,Away,Matchweek 2,0.7,0,3,13,4,19.4,0,0,1.2,3,0,11.0,6.0,19.8,1.0,0.0
+2024-08-29,19:00 (17:00),La Liga,2024-2025,Girona,Osasuna,Home,Matchweek 3,2.4,4,0,10,5,14.3,0,0,0.0,0,4,1.0,0.0,30.0,0.0,0.0
+2024-09-01,19:00 (17:00),La Liga,2024-2025,Girona,Sevilla,Away,Matchweek 4,1.9,2,0,10,3,17.0,0,1,0.9,0,2,16.0,5.0,19.4,2.0,0.0
+2024-09-15,16:15 (14:15),La Liga,2024-2025,Girona,Barcelona,Home,Matchweek 5,1.3,1,4,9,4,15.7,0,0,1.9,4,1,20.0,9.0,19.1,0.0,0.0
+2024-09-18,21:00 (19:00),Champions Lg,2024-2025,Girona,fr Paris S-G,Away,League phase,0.2,0,1,3,1,12.1,0,0,2.1,1,0,26.0,5.0,18.0,1.0,0.0
+2024-09-21,18:30 (16:30),La Liga,2024-2025,Girona,Valencia,Away,Matchweek 6,0.4,0,2,8,3,17.1,0,0,0.4,2,0,8.0,2.0,18.2,0.0,0.0
+2024-09-25,19:00 (17:00),La Liga,2024-2025,Girona,Rayo Vallecano,Home,Matchweek 7,2.0,0,0,11,1,17.6,1,0,0.5,0,0,2.0,0.0,17.2,0.0,0.0
+2024-09-29,14:00 (12:00),La Liga,2024-2025,Girona,Celta Vigo,Away,Matchweek 8,0.8,1,1,9,4,12.9,0,0,0.5,1,1,12.0,2.0,19.5,1.0,0.0
+2024-10-02,18:45 (16:45),Champions Lg,2024-2025,Girona,nl Feyenoord,Home,League phase,2.2,2,3,13,5,15.2,0,0,1.9,3,2,6.0,1.0,19.1,1.0,0.0
+2024-10-06,14:00 (12:00),La Liga,2024-2025,Girona,Athletic Club,Home,Matchweek 9,1.9,2,1,13,5,15.9,0,1,3.1,1,2,11.0,2.0,22.9,1.0,0.0
+2024-10-19,18:30 (16:30),La Liga,2024-2025,Girona,Real Sociedad,Home,Matchweek 10,0.4,0,1,8,3,15.2,0,0,1.7,1,0,14.0,4.0,18.3,1.0,0.0
+2024-10-22,21:00 (19:00),Champions Lg,2024-2025,Girona,sk Slovan Bratislava,Home,League phase,1.7,2,0,14,6,19.8,1,0,0.5,0,2,6.0,2.0,17.9,1.0,0.0
+2024-10-26,17:30 (16:30),La Liga,2024-2025,Girona,Las Palmas,Away,Matchweek 11,0.6,0,1,8,3,18.4,0,0,0.9,1,0,12.0,3.0,17.1,0.0,0.0
+2024-10-30,21:00 (20:00),Copa del Rey,2024-2025,Girona,CD Extremadura,Away,First round,,4,0,,,,,0,,0,4,,,,,0.0
+2024-11-02,16:15 (15:15),La Liga,2024-2025,Girona,Leganés,Home,Matchweek 12,2.0,4,3,14,5,24.3,0,1,0.4,3,4,8.0,5.0,22.7,0.0,0.0
+2024-11-05,18:45 (17:45),Champions Lg,2024-2025,Girona,nl PSV Eindhoven,Away,League phase,0.8,0,4,7,3,19.8,0,0,2.0,4,0,25.0,12.0,18.1,1.0,0.0
+2024-11-10,18:30 (17:30),La Liga,2024-2025,Girona,Getafe,Away,Matchweek 13,0.2,1,0,3,2,19.6,0,0,0.6,0,1,8.0,0.0,23.9,1.0,0.0
+2024-11-23,18:30 (17:30),La Liga,2024-2025,Girona,Espanyol,Home,Matchweek 14,3.5,4,1,12,5,15.0,1,0,0.5,1,4,9.0,1.0,19.3,0.0,0.0
+2024-11-27,18:45 (17:45),Champions Lg,2024-2025,Girona,at Sturm Graz,Away,League phase,1.7,0,1,9,1,9.9,0,0,0.8,1,0,9.0,5.0,16.1,0.0,0.0
+2024-12-01,14:00 (13:00),La Liga,2024-2025,Girona,Villarreal,Away,Matchweek 15,0.5,2,2,13,6,21.4,0,0,2.0,2,2,13.0,4.0,13.8,0.0,0.0
+2024-12-04,21:00 (20:00),Copa del Rey,2024-2025,Girona,UD Logroñés,Away,Second round,,0 (3),0 (4),17,2,,,0,,0 (4),0 (3),9.0,1.0,,,0.0
+2024-12-07,21:00 (20:00),La Liga,2024-2025,Girona,Real Madrid,Home,Matchweek 16,0.4,0,3,10,4,19.4,0,0,0.9,3,0,10.0,7.0,19.3,0.0,0.0
+2024-12-10,18:45 (17:45),Champions Lg,2024-2025,Girona,eng Liverpool,Home,League phase,1.2,0,1,13,5,18.5,0,0,1.8,1,0,14.0,6.0,18.8,1.0,1.0
+2024-12-14,16:15 (15:15),La Liga,2024-2025,Girona,Mallorca,Away,Matchweek 17,0.8,1,2,13,1,17.3,0,0,1.2,2,1,8.0,2.0,15.4,0.0,0.0
+2024-12-20,21:00 (20:00),La Liga,2024-2025,Girona,Valladolid,Home,Matchweek 18,2.5,3,0,23,7,18.5,1,0,0.0,0,3,1.0,1.0,32.5,0.0,0.0
+2025-01-11,14:00 (13:00),La Liga,2024-2025,Girona,Alavés,Away,Matchweek 19,0.5,1,0,3,1,18.9,0,0,1.3,0,1,11.0,2.0,18.7,0.0,0.0
+2025-01-18,14:00 (13:00),La Liga,2024-2025,Girona,Sevilla,Home,Matchweek 20,1.0,1,2,7,4,12.1,0,0,2.6,2,1,13.0,5.0,15.2,0.0,0.0
+2025-01-22,21:00 (20:00),Champions Lg,2024-2025,Girona,it Milan,Away,League phase,1.0,0,1,11,4,18.8,0,0,1.3,1,0,17.0,5.0,22.6,2.0,0.0
+2025-01-26,14:00 (13:00),La Liga,2024-2025,Girona,Rayo Vallecano,Away,Matchweek 21,1.0,1,2,12,5,16.7,1,0,2.4,2,1,17.0,7.0,19.0,0.0,0.0
+2025-01-29,21:00 (20:00),Champions Lg,2024-2025,Girona,eng Arsenal,Home,League phase,0.7,1,2,7,3,19.2,0,0,2.1,2,1,14.0,4.0,19.3,0.0,1.0
+2025-02-03,21:00 (20:00),La Liga,2024-2025,Girona,Las Palmas,Home,Matchweek 22,2.0,2,1,11,3,15.9,0,0,1.5,1,2,10.0,2.0,15.1,0.0,0.0
+2025-02-08,16:15 (15:15),La Liga,2024-2025,Girona,Athletic Club,Away,Matchweek 23,0.1,0,3,3,1,28.7,0,0,3.6,3,0,22.0,7.0,16.0,1.0,1.0
+2025-02-14,21:00 (20:00),La Liga,2024-2025,Girona,Getafe,Home,Matchweek 24,0.9,1,2,14,4,18.9,1,0,0.6,2,1,10.0,6.0,20.5,1.0,0.0
+2025-02-23,16:15 (15:15),La Liga,2024-2025,Girona,Real Madrid,Away,Matchweek 25,0.4,0,2,6,2,14.4,0,0,2.2,2,0,22.0,5.0,18.1,0.0,0.0
+Date,Time,Comp,2024-2025,Girona,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+2025-03-01,14:00 (13:00),La Liga,2024-2025,Girona,Celta Vigo,Home,Matchweek 26,0.7,2,2,9,6,18.1,1,0,1.8,2,2,9.0,5.0,18.9,0.0,1.0
+2025-03-10,21:00 (20:00),La Liga,2024-2025,Girona,Espanyol,Away,Matchweek 27,1.6,1,1,17,3,18.1,2,1,0.2,1,1,7.0,4.0,21.2,0.0,0.0
+2025-03-15,21:00 (20:00),La Liga,2024-2025,Girona,Valencia,Home,Matchweek 28,0.9,1,1,14,4,17.2,0,0,1.0,1,1,12.0,2.0,19.7,1.0,0.0
+2025-03-30,16:15 (14:15),La Liga,2024-2025,Girona,Barcelona,Away,Matchweek 29,0.5,1,4,4,2,14.0,0,0,2.3,4,1,21.0,9.0,16.0,0.0,0.0
+2025-04-05,14:00 (12:00),La Liga,2024-2025,Girona,Alavés,Home,Matchweek 30,1.4,0,1,16,1,16.0,1,0,0.8,1,0,9.0,4.0,16.6,0.0,0.0
+2025-04-13,14:00 (12:00),La Liga,2024-2025,Girona,Osasuna,Away,Matchweek 31,0.9,1,2,18,8,22.5,1,0,1.7,2,1,13.0,6.0,14.7,0.0,0.0
+2025-04-21,21:00 (19:00),La Liga,2024-2025,Girona,Betis,Home,Matchweek 32,1.1,1,3,11,4,16.8,0,0,1.7,3,1,17.0,9.0,14.3,1.0,0.0
+2025-04-24,19:00 (17:00),La Liga,2024-2025,Girona,Leganés,Away,Matchweek 33,0.5,1,1,8,2,15.3,1,0,0.3,1,1,7.0,1.0,21.8,2.0,0.0
+2025-05-05,21:00 (19:00),La Liga,2024-2025,Girona,Mallorca,Home,Matchweek 34,1.3,1,0,13,6,16.4,0,0,0.5,0,1,9.0,1.0,20.2,1.0,0.0
+2025-05-10,18:30 (16:30),La Liga,2024-2025,Girona,Villarreal,Home,Matchweek 35,0.2,0,1,7,0,19.5,0,0,2.0,1,0,14.0,5.0,16.8,0.0,0.0
+2025-05-13,19:00 (17:00),La Liga,2024-2025,Girona,Valladolid,Away,Matchweek 36,1.4,1,0,13,5,17.2,1,0,0.9,0,1,11.0,4.0,17.6,1.0,0.0
+2025-05-18,19:00 (17:00),La Liga,2024-2025,Girona,Real Sociedad,Away,Matchweek 37,2.3,2,3,9,5,18.8,1,0,2.0,3,2,14.0,6.0,16.2,0.0,1.0
+2025-05-25,14:00 (12:00),La Liga,2024-2025,Girona,Atlético Madrid,Home,Matchweek 38,0.0,0,4,2,1,19.2,0,0,2.7,4,0,19.0,11.0,18.0,1.0,0.0
+2024-08-16,20:30 (19:30),La Liga,2024-2025,Sevilla,Las Palmas,Away,Matchweek 1,1.8,2,2,18,5,17.4,0,0,1.4,2.0,2.0,15.0,5.0,18.3,0.0,0.0
+2024-08-23,21:30 (19:30),La Liga,2024-2025,Sevilla,Villarreal,Home,Matchweek 2,1.0,1,2,16,7,17.7,1,0,0.9,2.0,1.0,8.0,6.0,15.9,0.0,0.0
+2024-08-27,19:00 (17:00),La Liga,2024-2025,Sevilla,Mallorca,Away,Matchweek 3,0.7,0,0,16,7,22.3,0,0,0.9,0.0,0.0,12.0,4.0,16.5,0.0,0.0
+2024-09-01,19:00 (17:00),La Liga,2024-2025,Sevilla,Girona,Home,Matchweek 4,0.9,0,2,16,5,19.4,2,0,1.9,2.0,0.0,10.0,3.0,17.0,0.0,1.0
+2024-09-14,18:30 (16:30),La Liga,2024-2025,Sevilla,Getafe,Home,Matchweek 5,1.4,1,0,10,4,17.3,0,0,1.0,0.0,1.0,15.0,4.0,21.9,1.0,0.0
+2024-09-20,21:00 (19:00),La Liga,2024-2025,Sevilla,Alavés,Away,Matchweek 6,0.5,1,2,8,2,21.2,0,0,1.1,2.0,1.0,10.0,4.0,15.9,1.0,0.0
+2024-09-24,19:00 (17:00),La Liga,2024-2025,Sevilla,Valladolid,Home,Matchweek 7,2.1,2,1,22,5,19.0,0,0,0.7,1.0,2.0,8.0,2.0,19.6,1.0,0.0
+2024-09-29,16:15 (14:15),La Liga,2024-2025,Sevilla,Athletic Club,Away,Matchweek 8,1.1,1,1,13,3,20.5,2,0,2.0,1.0,1.0,13.0,5.0,18.7,0.0,0.0
+2024-10-06,18:30 (16:30),La Liga,2024-2025,Sevilla,Betis,Home,Matchweek 9,1.4,1,0,13,4,24.9,1,1,0.6,0.0,1.0,11.0,3.0,19.1,0.0,0.0
+2024-10-20,21:00 (19:00),La Liga,2024-2025,Sevilla,Barcelona,Away,Matchweek 10,1.0,1,5,7,1,15.2,0,0,3.8,5.0,1.0,20.0,8.0,17.9,1.0,1.0
+2024-10-25,21:00 (19:00),La Liga,2024-2025,Sevilla,Espanyol,Away,Matchweek 11,0.8,2,0,6,3,15.9,0,0,1.2,0.0,2.0,16.0,1.0,14.0,1.0,0.0
+2024-10-30,19:00 (18:00),Copa del Rey,2024-2025,Sevilla,Las Rozas CF,Away,First round,,3,0,,,,,0,,0.0,3.0,,,,,0.0
+2024-11-03,18:30 (17:30),La Liga,2024-2025,Sevilla,Real Sociedad,Home,Matchweek 12,1.1,0,2,8,0,18.2,0,0,1.4,2.0,0.0,8.0,2.0,21.6,0.0,1.0
+2024-11-09,21:00 (20:00),La Liga,2024-2025,Sevilla,Leganés,Away,Matchweek 13,0.6,0,1,13,2,19.4,0,0,1.1,1.0,0.0,7.0,3.0,24.9,2.0,1.0
+2024-11-24,16:15 (15:15),La Liga,2024-2025,Sevilla,Rayo Vallecano,Home,Matchweek 14,1.1,1,0,11,3,18.0,0,0,0.8,0.0,1.0,9.0,1.0,20.7,1.0,0.0
+2024-12-02,21:00 (20:00),La Liga,2024-2025,Sevilla,Osasuna,Home,Matchweek 15,1.3,1,1,12,5,20.1,0,0,0.7,1.0,1.0,7.0,3.0,17.2,0.0,0.0
+2024-12-05,21:00 (20:00),Copa del Rey,2024-2025,Sevilla,UE Olot,Away,Second round,,3,1,12,5,,,1,,1.0,3.0,17.0,5.0,,,0.0
+2024-12-08,21:00 (20:00),La Liga,2024-2025,Sevilla,Atlético Madrid,Away,Matchweek 16,0.4,3,4,4,3,16.9,0,0,2.0,4.0,3.0,14.0,9.0,16.1,0.0,0.0
+2024-12-14,18:30 (17:30),La Liga,2024-2025,Sevilla,Celta Vigo,Home,Matchweek 17,0.7,1,0,8,3,22.1,0,0,1.2,0.0,1.0,10.0,2.0,16.3,0.0,0.0
+2024-12-22,16:15 (15:15),La Liga,2024-2025,Sevilla,Real Madrid,Away,Matchweek 18,1.3,2,4,10,4,18.6,0,0,2.0,4.0,2.0,16.0,7.0,14.6,0.0,0.0
+2025-01-04,17:30 (16:30),Copa del Rey,2024-2025,Sevilla,Almería,Away,Round of 32,,1,4,15,4,,,0,,4.0,1.0,14.0,6.0,,,1.0
+2025-01-11,21:00 (20:00),La Liga,2024-2025,Sevilla,Valencia,Home,Matchweek 19,0.5,1,1,15,5,21.2,0,0,0.7,1.0,1.0,5.0,1.0,15.8,0.0,0.0
+2025-01-18,14:00 (13:00),La Liga,2024-2025,Sevilla,Girona,Away,Matchweek 20,2.6,2,1,13,5,15.2,0,0,1.0,1.0,2.0,7.0,4.0,12.1,0.0,0.0
+2025-01-25,18:30 (17:30),La Liga,2024-2025,Sevilla,Espanyol,Home,Matchweek 21,1.2,1,1,25,4,19.3,1,0,0.7,1.0,1.0,6.0,1.0,13.4,1.0,0.0
+2025-02-01,14:00 (13:00),La Liga,2024-2025,Sevilla,Getafe,Away,Matchweek 22,0.9,0,0,13,0,23.5,1,0,1.0,0.0,0.0,7.0,1.0,18.0,0.0,0.0
+2025-02-09,21:00 (20:00),La Liga,2024-2025,Sevilla,Barcelona,Home,Matchweek 23,0.7,1,4,8,4,17.3,0,0,1.9,4.0,1.0,10.0,6.0,14.4,0.0,0.0
+2025-02-16,16:15 (15:15),La Liga,2024-2025,Sevilla,Valladolid,Away,Matchweek 24,1.1,4,0,11,6,18.7,0,0,0.5,0.0,4.0,7.0,1.0,15.0,0.0,0.0
+2025-02-24,21:00 (20:00),La Liga,2024-2025,Sevilla,Mallorca,Home,Matchweek 25,1.3,1,1,19,3,17.2,0,0,2.3,1.0,1.0,13.0,2.0,10.5,0.0,0.0
+2025-03-01,16:15 (15:15),La Liga,2024-2025,Sevilla,Rayo Vallecano,Away,Matchweek 26,0.6,1,1,10,4,19.1,0,0,2.8,1.0,1.0,20.0,8.0,17.0,0.0,0.0
+2025-03-09,21:00 (20:00),La Liga,2024-2025,Sevilla,Real Sociedad,Away,Matchweek 27,0.6,1,0,9,4,16.3,0,0,0.7,0.0,1.0,7.0,2.0,17.7,0.0,0.0
+2025-03-16,16:15 (15:15),La Liga,2024-2025,Sevilla,Athletic Club,Home,Matchweek 28,0.5,0,1,11,4,20.4,0,0,1.3,1.0,0.0,8.0,3.0,18.3,1.0,0.0
+2025-03-30,21:00 (19:00),La Liga,2024-2025,Sevilla,Betis,Away,Matchweek 29,0.7,1,2,6,2,15.4,1,0,1.1,2.0,1.0,11.0,3.0,21.5,1.0,0.0
+2025-04-06,16:15 (14:15),La Liga,2024-2025,Sevilla,Atlético Madrid,Home,Matchweek 30,0.9,1,2,11,5,18.6,1,0,1.3,2.0,1.0,12.0,4.0,20.8,1.0,1.0
+2025-04-11,21:00 (19:00),La Liga,2024-2025,Sevilla,Valencia,Away,Matchweek 31,0.8,0,1,12,5,23.7,1,0,1.3,1.0,0.0,8.0,6.0,11.1,0.0,0.0
+2025-04-20,18:30 (16:30),La Liga,2024-2025,Sevilla,Alavés,Home,Matchweek 32,1.6,1,1,10,2,13.0,0,0,1.0,1.0,1.0,11.0,3.0,16.7,0.0,0.0
+2025-04-24,19:00 (17:00),La Liga,2024-2025,Sevilla,Osasuna,Away,Matchweek 33,1.1,0,1,12,3,14.9,1,0,0.3,1.0,0.0,9.0,2.0,20.8,1.0,0.0
+2025-05-04,16:15 (14:15),La Liga,2024-2025,Sevilla,Leganés,Home,Matchweek 34,2.7,2,2,25,7,19.2,1,0,0.6,2.0,2.0,9.0,3.0,22.7,1.0,0.0
+2025-05-10,16:15 (14:15),La Liga,2024-2025,Sevilla,Celta Vigo,Away,Matchweek 35,2.3,2,3,18,9,17.4,1,1,0.9,3.0,2.0,8.0,4.0,17.2,0.0,0.0
+2025-05-13,21:30 (19:30),La Liga,2024-2025,Sevilla,Las Palmas,Home,Matchweek 36,1.3,1,0,10,3,17.4,0,0,0.5,0.0,1.0,14.0,3.0,27.6,1.0,0.0
+2025-05-18,19:00 (17:00),La Liga,2024-2025,Sevilla,Real Madrid,Home,Matchweek 37,0.5,0,2,6,1,20.6,0,0,2.0,2.0,0.0,16.0,6.0,20.2,0.0,0.0
+2025-05-25,16:15 (14:15),La Liga,2024-2025,Sevilla,Villarreal,Away,Matchweek 38,1.5,2,4,17,6,15.5,0,0,1.1,4.0,2.0,12.0,7.0,15.0,0.0,0.0
+2024-08-17,19:00 (17:00),La Liga,2024-2025,Leganes,Osasuna,Away,Matchweek 1,1.0,1,1,10,4,17.0,1,0,1.7,1,1,16.0,6.0,13.8,0.0,0.0
+2024-08-25,19:00 (17:00),La Liga,2024-2025,Leganes,Las Palmas,Home,Matchweek 2,1.5,2,1,9,4,20.4,1,0,0.9,1,2,10.0,5.0,16.6,0.0,0.0
+2024-08-28,19:00 (17:00),La Liga,2024-2025,Leganes,Valladolid,Away,Matchweek 3,0.2,0,0,7,1,26.9,1,0,1.1,0,0,12.0,2.0,14.2,0.0,0.0
+2024-08-31,21:30 (19:30),La Liga,2024-2025,Leganes,Mallorca,Home,Matchweek 4,0.3,0,1,9,2,18.8,0,0,1.0,1,0,12.0,3.0,16.1,0.0,0.0
+2024-09-13,21:00 (19:00),La Liga,2024-2025,Leganes,Betis,Away,Matchweek 5,0.1,0,2,3,0,27.0,0,0,2.1,2,0,14.0,5.0,17.5,1.0,0.0
+2024-09-19,19:00 (17:00),La Liga,2024-2025,Leganes,Athletic Club,Home,Matchweek 7,0.9,0,2,14,3,20.7,0,0,1.3,2,0,10.0,4.0,13.4,0.0,0.0
+2024-09-22,14:00 (12:00),La Liga,2024-2025,Leganes,Getafe,Away,Matchweek 6,0.6,1,1,6,2,23.6,0,0,1.5,1,1,12.0,3.0,21.9,1.0,1.0
+2024-09-28,16:15 (14:15),La Liga,2024-2025,Leganes,Rayo Vallecano,Away,Matchweek 8,0.9,1,1,13,3,17.8,1,0,0.9,1,1,15.0,6.0,19.2,0.0,0.0
+2024-10-04,21:00 (19:00),La Liga,2024-2025,Leganes,Valencia,Home,Matchweek 9,0.8,0,0,8,0,16.8,0,0,0.5,0,0,6.0,1.0,17.2,1.0,0.0
+2024-10-20,16:15 (14:15),La Liga,2024-2025,Leganes,Atlético Madrid,Away,Matchweek 10,0.3,1,3,5,2,24.0,1,0,4.4,3,1,24.0,8.0,15.2,0.0,0.0
+2024-10-27,14:00 (13:00),La Liga,2024-2025,Leganes,Celta Vigo,Home,Matchweek 11,1.6,3,0,7,4,17.1,0,0,0.9,0,3,18.0,5.0,19.9,0.0,0.0
+2024-10-30,19:00 (18:00),Copa del Rey,2024-2025,Leganes,Ciudad de Lucena,Away,First round,,2,1,,,,,0,,1,2,,,,,0.0
+2024-11-02,16:15 (15:15),La Liga,2024-2025,Leganes,Girona,Away,Matchweek 12,0.4,3,4,8,5,22.7,0,0,2.0,4,3,14.0,5.0,24.3,0.0,1.0
+2024-11-09,21:00 (20:00),La Liga,2024-2025,Leganes,Sevilla,Home,Matchweek 13,1.1,1,0,7,3,24.9,2,1,0.6,0,1,13.0,2.0,19.4,0.0,0.0
+2024-11-24,18:30 (17:30),La Liga,2024-2025,Leganes,Real Madrid,Home,Matchweek 14,0.1,0,3,4,0,27.6,0,0,1.8,3,0,16.0,8.0,15.6,1.0,0.0
+2024-11-30,16:15 (15:15),La Liga,2024-2025,Leganes,Alavés,Away,Matchweek 15,0.9,1,1,6,3,11.7,0,0,1.1,1,1,18.0,7.0,17.5,0.0,0.0
+2024-12-04,21:00 (20:00),Copa del Rey,2024-2025,Leganes,CD Estepona,Away,Second round,,2 (5),2 (4),25,9,,,0,,2 (4),2 (5),9.0,5.0,,,0.0
+2024-12-08,14:00 (13:00),La Liga,2024-2025,Leganes,Real Sociedad,Home,Matchweek 16,0.7,0,3,11,2,22.5,1,0,1.8,3,0,15.0,5.0,18.9,0.0,0.0
+2024-12-15,21:00 (20:00),La Liga,2024-2025,Leganes,Barcelona,Away,Matchweek 17,0.4,1,0,6,4,19.3,0,0,2.6,0,1,20.0,3.0,16.4,1.0,0.0
+2024-12-22,18:30 (17:30),La Liga,2024-2025,Leganes,Villarreal,Home,Matchweek 18,1.2,2,5,4,2,18.3,0,1,3.3,5,2,16.0,7.0,17.4,1.0,2.0
+2025-01-05,15:30 (14:30),Copa del Rey,2024-2025,Leganes,Cartagena,Away,Round of 32,,2,1,16,7,,,0,,1,2,7.0,4.0,,,0.0
+2025-01-11,18:30 (17:30),La Liga,2024-2025,Leganes,Espanyol,Away,Matchweek 19,2.0,1,1,14,6,18.5,0,0,0.7,1,1,15.0,5.0,20.5,0.0,0.0
+2025-01-15,19:30 (18:30),Copa del Rey,2024-2025,Leganes,Almería,Away,Round of 16,,3,2,10,4,,,1,,2,3,13.0,6.0,,,0.0
+2025-01-18,16:15 (15:15),La Liga,2024-2025,Leganes,Atlético Madrid,Home,Matchweek 20,0.5,1,0,9,3,17.8,1,0,2.4,0,1,18.0,3.0,18.1,1.0,0.0
+2025-01-26,18:30 (17:30),La Liga,2024-2025,Leganes,Athletic Club,Away,Matchweek 21,1.0,0,0,5,2,16.4,0,0,2.1,0,0,29.0,3.0,18.6,1.0,0.0
+2025-01-31,21:00 (20:00),La Liga,2024-2025,Leganes,Rayo Vallecano,Home,Matchweek 22,0.9,0,1,4,0,34.2,0,0,2.2,1,0,19.0,3.0,17.4,1.0,0.0
+2025-02-05,21:00 (20:00),Copa del Rey,2024-2025,Leganes,Real Madrid,Home,Quarter-finals,,2,3,16,4,,,1,,3,2,20.0,12.0,,,0.0
+2025-02-09,16:15 (15:15),La Liga,2024-2025,Leganes,Valencia,Away,Matchweek 23,0.5,0,2,12,4,23.7,1,0,1.9,2,0,19.0,4.0,18.4,0.0,0.0
+2025-02-15,14:00 (13:00),La Liga,2024-2025,Leganes,Alavés,Home,Matchweek 24,1.8,3,3,6,1,25.5,0,2,1.7,3,3,15.0,6.0,19.5,0.0,1.0
+2025-02-23,21:00 (20:00),La Liga,2024-2025,Leganes,Real Sociedad,Away,Matchweek 25,0.3,0,3,8,2,20.7,0,0,0.7,3,0,12.0,5.0,18.3,0.0,0.0
+2025-03-02,14:00 (13:00),La Liga,2024-2025,Leganes,Getafe,Home,Matchweek 26,1.0,1,0,6,1,12.3,1,0,0.3,0,1,9.0,0.0,22.4,0.0,0.0
+2025-03-08,14:00 (13:00),La Liga,2024-2025,Leganes,Celta Vigo,Away,Matchweek 27,1.0,1,2,12,6,16.1,0,0,0.9,2,1,7.0,4.0,15.5,0.0,0.0
+2025-03-16,14:00 (13:00),La Liga,2024-2025,Leganes,Betis,Home,Matchweek 28,1.3,2,3,10,4,18.4,0,0,2.7,3,2,20.0,5.0,18.0,0.0,1.0
+2025-03-29,21:00 (20:00),La Liga,2024-2025,Leganes,Real Madrid,Away,Matchweek 29,2.4,2,3,10,4,16.0,0,0,2.9,3,2,23.0,8.0,18.9,2.0,1.0
+2025-04-07,21:00 (19:00),La Liga,2024-2025,Leganes,Osasuna,Home,Matchweek 30,1.7,1,1,12,6,21.0,1,1,2.2,1,1,13.0,6.0,12.1,0.0,0.0
+Date,Time,Comp,2024-2025,Leganes,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+2025-04-12,21:00 (19:00),La Liga,2024-2025,Leganes,Barcelona,Home,Matchweek 31,0.7,0,1,6,1,17.4,0,0,1.4,1,0,12.0,3.0,13.8,1.0,0.0
+2025-04-19,18:30 (16:30),La Liga,2024-2025,Leganes,Mallorca,Away,Matchweek 32,0.9,0,0,15,1,16.9,1,0,0.9,0,0,11.0,1.0,15.6,0.0,0.0
+2025-04-24,19:00 (17:00),La Liga,2024-2025,Leganes,Girona,Home,Matchweek 33,0.3,1,1,7,1,21.8,2,0,0.5,1,1,8.0,2.0,15.3,1.0,0.0
+2025-05-04,16:15 (14:15),La Liga,2024-2025,Leganes,Sevilla,Away,Matchweek 34,0.6,2,2,9,3,22.7,1,0,2.7,2,2,25.0,7.0,19.2,1.0,0.0
+2025-05-11,14:00 (12:00),La Liga,2024-2025,Leganes,Espanyol,Home,Matchweek 35,1.5,3,2,13,5,17.9,0,0,1.2,2,3,12.0,6.0,10.9,0.0,0.0
+2025-05-14,19:00 (17:00),La Liga,2024-2025,Leganes,Villarreal,Away,Matchweek 36,1.1,0,3,23,6,21.8,1,0,1.6,3,0,17.0,7.0,18.8,0.0,0.0
+2025-05-18,18:00 (17:00),La Liga,2024-2025,Leganes,Las Palmas,Away,Matchweek 37,1.5,1,0,11,4,22.0,0,0,0.6,0,1,12.0,3.0,19.3,1.0,0.0
+2025-05-24,18:30 (16:30),La Liga,2024-2025,Leganes,Valladolid,Home,Matchweek 38,2.1,3,0,16,6,20.6,2,0,0.4,0,3,6.0,2.0,20.6,0.0,0.0
+2024-08-16,20:30 (19:30),La Liga,2024-2025,Las Palmas,Sevilla,Home,Matchweek 1,1.4,2,2,15,5,18.3,0,0,1.8,2.0,2.0,18.0,5.0,17.4,0.0,0.0
+2024-08-25,19:00 (17:00),La Liga,2024-2025,Las Palmas,Leganés,Away,Matchweek 2,0.9,1,2,10,5,16.6,0,0,1.5,2.0,1.0,9.0,4.0,20.4,1.0,0.0
+2024-08-29,20:30 (19:30),La Liga,2024-2025,Las Palmas,Real Madrid,Home,Matchweek 3,0.8,1,1,7,2,18.1,0,0,2.5,1.0,1.0,24.0,7.0,18.0,1.0,1.0
+2024-09-01,17:00 (15:00),La Liga,2024-2025,Las Palmas,Alavés,Away,Matchweek 4,0.7,0,2,12,6,18.4,1,0,2.0,2.0,0.0,14.0,5.0,19.6,1.0,0.0
+2024-09-15,17:30 (16:30),La Liga,2024-2025,Las Palmas,Athletic Club,Home,Matchweek 5,1.4,2,3,15,5,17.9,2,0,1.7,3.0,2.0,9.0,4.0,14.2,0.0,0.0
+2024-09-21,16:15 (14:15),La Liga,2024-2025,Las Palmas,Osasuna,Away,Matchweek 6,0.8,1,2,11,6,15.7,0,0,1.9,2.0,1.0,12.0,3.0,16.7,0.0,1.0
+2024-09-26,18:00 (17:00),La Liga,2024-2025,Las Palmas,Betis,Home,Matchweek 7,1.0,1,1,8,2,19.9,0,0,1.9,1.0,1.0,13.0,5.0,14.6,0.0,0.0
+2024-09-30,21:00 (19:00),La Liga,2024-2025,Las Palmas,Villarreal,Away,Matchweek 8,0.9,1,3,7,3,20.2,0,0,2.8,3.0,1.0,19.0,6.0,15.2,0.0,0.0
+2024-10-05,17:30 (16:30),La Liga,2024-2025,Las Palmas,Celta Vigo,Home,Matchweek 9,1.3,0,1,25,5,20.1,2,0,0.8,1.0,0.0,8.0,1.0,24.8,1.0,0.0
+2024-10-21,21:00 (19:00),La Liga,2024-2025,Las Palmas,Valencia,Away,Matchweek 10,1.2,3,2,11,6,20.4,1,0,1.6,2.0,3.0,13.0,6.0,16.3,0.0,1.0
+2024-10-26,17:30 (16:30),La Liga,2024-2025,Las Palmas,Girona,Home,Matchweek 11,0.9,1,0,12,3,17.1,0,0,0.6,0.0,1.0,8.0,3.0,18.4,0.0,0.0
+2024-10-31,21:00 (20:00),Copa del Rey,2024-2025,Las Palmas,Ontiñena CF,Away,First round,,7,0,,,,,0,,0.0,7.0,,,,,0.0
+2024-11-03,14:00 (13:00),La Liga,2024-2025,Las Palmas,Atlético Madrid,Away,Matchweek 12,0.0,0,2,1,1,16.9,0,0,1.6,2.0,0.0,15.0,3.0,17.0,0.0,0.0
+2024-11-08,21:00 (20:00),La Liga,2024-2025,Las Palmas,Rayo Vallecano,Away,Matchweek 13,1.1,3,1,11,3,18.7,0,0,2.4,1.0,3.0,34.0,6.0,17.3,1.0,0.0
+2024-11-23,17:30,La Liga,2024-2025,Las Palmas,Mallorca,Home,Matchweek 14,1.2,2,3,13,2,23.4,1,1,1.7,3.0,2.0,9.0,3.0,13.4,0.0,0.0
+2024-11-30,14:00 (13:00),La Liga,2024-2025,Las Palmas,Barcelona,Away,Matchweek 15,0.5,2,1,5,3,15.8,0,0,2.3,1.0,2.0,27.0,8.0,17.1,2.0,0.0
+2024-12-03,21:15 (20:15),Copa del Rey,2024-2025,Las Palmas,Europa,Away,Second round,,2,1,22,12,,,0,,1.0,2.0,6.0,2.0,,,0.0
+2024-12-07,13:00,La Liga,2024-2025,Las Palmas,Valladolid,Home,Matchweek 16,1.1,2,1,11,5,20.8,2,0,1.3,1.0,2.0,9.0,2.0,18.2,1.0,0.0
+2024-12-15,18:30 (17:30),La Liga,2024-2025,Las Palmas,Real Sociedad,Away,Matchweek 17,1.0,0,0,9,3,22.9,1,0,1.1,0.0,0.0,15.0,4.0,19.7,0.0,0.0
+2024-12-22,17:30,La Liga,2024-2025,Las Palmas,Espanyol,Home,Matchweek 18,0.9,1,0,10,3,21.8,1,0,0.7,0.0,1.0,9.0,2.0,24.5,0.0,0.0
+2025-01-05,12:00 (11:00),Copa del Rey,2024-2025,Las Palmas,Elche,Away,Round of 32,,0,4,6,2,,,0,,4.0,0.0,16.0,8.0,,,0.0
+2025-01-12,13:00,La Liga,2024-2025,Las Palmas,Getafe,Home,Matchweek 19,1.3,1,2,14,6,22.5,1,0,1.1,2.0,1.0,12.0,3.0,17.5,1.0,0.0
+2025-01-19,16:15 (15:15),La Liga,2024-2025,Las Palmas,Real Madrid,Away,Matchweek 20,1.1,1,4,6,2,16.1,0,0,5.9,4.0,1.0,25.0,12.0,16.1,0.0,1.0
+2025-01-24,20:00,La Liga,2024-2025,Las Palmas,Osasuna,Home,Matchweek 21,0.8,1,1,16,7,21.8,5,0,2.6,1.0,1.0,16.0,4.0,14.7,2.0,0.0
+2025-02-03,21:00 (20:00),La Liga,2024-2025,Las Palmas,Girona,Away,Matchweek 22,1.5,1,2,10,2,15.1,0,0,2.0,2.0,1.0,11.0,3.0,15.9,0.0,0.0
+2025-02-08,17:30,La Liga,2024-2025,Las Palmas,Villarreal,Home,Matchweek 23,1.4,1,2,20,4,15.8,0,0,0.9,2.0,1.0,9.0,4.0,15.9,0.0,0.0
+2025-02-16,18:30 (17:30),La Liga,2024-2025,Las Palmas,Mallorca,Away,Matchweek 24,0.8,1,3,9,4,17.7,0,0,1.7,3.0,1.0,14.0,5.0,15.1,0.0,0.0
+2025-02-22,20:00,La Liga,2024-2025,Las Palmas,Barcelona,Home,Matchweek 25,0.4,0,2,10,2,20.1,0,0,1.4,2.0,0.0,15.0,5.0,16.4,3.0,0.0
+2025-02-28,21:00 (20:00),La Liga,2024-2025,Las Palmas,Valladolid,Away,Matchweek 26,0.2,1,1,4,3,22.6,0,0,1.8,1.0,1.0,23.0,7.0,16.3,1.0,0.0
+2025-03-09,18:30 (17:30),La Liga,2024-2025,Las Palmas,Betis,Away,Matchweek 27,0.6,0,1,8,1,17.9,0,0,2.3,1.0,0.0,13.0,5.0,19.6,1.0,0.0
+2025-03-14,20:00,La Liga,2024-2025,Las Palmas,Alavés,Home,Matchweek 28,1.8,2,2,13,5,20.7,1,1,1.7,2.0,2.0,9.0,3.0,18.4,0.0,0.0
+2025-03-31,21:00 (19:00),La Liga,2024-2025,Las Palmas,Celta Vigo,Away,Matchweek 29,0.3,1,1,4,2,21.4,0,0,1.0,1.0,1.0,20.0,6.0,19.5,0.0,0.0
+2025-04-06,13:00 (12:00),La Liga,2024-2025,Las Palmas,Real Sociedad,Home,Matchweek 30,2.0,1,3,13,5,16.2,0,0,2.4,3.0,1.0,13.0,8.0,15.4,0.0,0.0
+2025-04-12,16:15 (14:15),La Liga,2024-2025,Las Palmas,Getafe,Away,Matchweek 31,1.3,3,1,10,5,18.3,0,0,1.4,1.0,3.0,11.0,6.0,18.5,1.0,0.0
+2025-04-19,20:00 (19:00),La Liga,2024-2025,Las Palmas,Atlético Madrid,Home,Matchweek 32,0.6,1,0,8,2,19.3,0,0,0.8,0.0,1.0,7.0,2.0,11.7,0.0,0.0
+2025-04-23,19:00 (17:00),La Liga,2024-2025,Las Palmas,Athletic Club,Away,Matchweek 33,1.0,0,1,10,2,18.4,0,0,2.1,1.0,0.0,13.0,4.0,15.2,1.0,0.0
+2025-05-03,17:30 (16:30),La Liga,2024-2025,Las Palmas,Valencia,Home,Matchweek 34,1.7,2,3,14,2,16.9,1,1,1.4,3.0,2.0,10.0,5.0,22.5,0.0,0.0
+2025-05-09,20:00 (19:00),La Liga,2024-2025,Las Palmas,Rayo Vallecano,Home,Matchweek 35,0.7,0,1,11,2,16.2,0,0,1.2,1.0,0.0,16.0,5.0,17.1,0.0,0.0
+2025-05-13,21:30 (19:30),La Liga,2024-2025,Las Palmas,Sevilla,Away,Matchweek 36,0.5,0,1,14,3,27.6,1,0,1.3,1.0,0.0,10.0,3.0,17.4,0.0,0.0
+2025-05-18,18:00 (17:00),La Liga,2024-2025,Las Palmas,Leganés,Home,Matchweek 37,0.6,0,1,12,3,19.3,1,0,1.5,1.0,0.0,11.0,4.0,22.0,0.0,0.0
+2025-05-24,18:30 (16:30),La Liga,2024-2025,Las Palmas,Espanyol,Away,Matchweek 38,0.5,0,2,10,4,20.1,0,0,2.0,2.0,0.0,7.0,2.0,18.0,0.0,1.0
+2024-08-19,19:00 (17:00),La Liga,2024-2025,Valladolid,Espanyol,Home,Matchweek 1,0.8,1,0,12,1,20.8,0,0,0.7,0.0,1.0,10.0,2.0,19.4,1.0,0.0
+2024-08-25,17:00 (15:00),La Liga,2024-2025,Valladolid,Real Madrid,Away,Matchweek 2,0.4,0,3,8,0,18.8,0,0,2.1,3.0,0.0,17.0,9.0,17.2,1.0,0.0
+2024-08-28,19:00 (17:00),La Liga,2024-2025,Valladolid,Leganés,Home,Matchweek 3,1.1,0,0,12,2,14.2,0,0,0.2,0.0,0.0,7.0,1.0,26.9,1.0,0.0
+2024-08-31,17:00 (15:00),La Liga,2024-2025,Valladolid,Barcelona,Away,Matchweek 4,0.5,0,7,4,1,19.1,0,0,4.7,7.0,0.0,23.0,11.0,13.7,1.0,0.0
+2024-09-15,14:00 (12:00),La Liga,2024-2025,Valladolid,Celta Vigo,Away,Matchweek 5,0.5,1,3,6,2,14.9,0,0,1.8,3.0,1.0,14.0,9.0,13.6,0.0,0.0
+2024-09-21,14:00 (12:00),La Liga,2024-2025,Valladolid,Real Sociedad,Home,Matchweek 6,1.0,0,0,15,2,21.0,1,0,1.4,0.0,0.0,14.0,3.0,15.3,0.0,0.0
+2024-09-24,19:00 (17:00),La Liga,2024-2025,Valladolid,Sevilla,Away,Matchweek 7,0.7,1,2,8,2,19.6,1,0,2.1,2.0,1.0,22.0,5.0,19.0,0.0,0.0
+2024-09-27,21:00 (19:00),La Liga,2024-2025,Valladolid,Mallorca,Home,Matchweek 8,1.2,1,2,13,1,17.5,0,0,2.2,2.0,1.0,17.0,6.0,16.4,0.0,0.0
+2024-10-05,18:30 (16:30),La Liga,2024-2025,Valladolid,Rayo Vallecano,Home,Matchweek 9,2.0,1,2,13,5,14.3,0,0,1.5,2.0,1.0,17.0,3.0,20.7,2.0,0.0
+2024-10-18,21:00 (19:00),La Liga,2024-2025,Valladolid,Alavés,Away,Matchweek 10,2.4,3,2,10,2,19.9,0,2,0.5,2.0,3.0,10.0,4.0,19.6,1.0,0.0
+2024-10-26,14:00 (12:00),La Liga,2024-2025,Valladolid,Villarreal,Home,Matchweek 11,0.9,1,2,6,2,20.9,0,1,2.0,2.0,1.0,21.0,9.0,16.1,0.0,0.0
+2024-10-29,21:00 (20:00),Copa del Rey,2024-2025,Valladolid,Astur CF,Away,First round,,4,1,,,,,0,,1.0,4.0,,,,,0.0
+2024-11-02,14:00 (13:00),La Liga,2024-2025,Valladolid,Osasuna,Away,Matchweek 12,0.2,0,1,7,3,24.0,1,0,2.2,1.0,0.0,19.0,3.0,13.3,0.0,1.0
+2024-11-10,18:30 (17:30),La Liga,2024-2025,Valladolid,Athletic Club,Home,Matchweek 13,0.6,1,1,6,3,14.9,0,0,1.2,1.0,1.0,17.0,1.0,19.5,0.0,0.0
+2024-11-22,21:00 (20:00),La Liga,2024-2025,Valladolid,Getafe,Away,Matchweek 14,1.1,0,2,6,3,16.6,1,0,0.6,2.0,0.0,12.0,5.0,16.5,1.0,0.0
+2024-11-30,21:00 (20:00),La Liga,2024-2025,Valladolid,Atlético Madrid,Home,Matchweek 15,0.6,0,5,9,1,14.3,0,0,4.0,5.0,0.0,13.0,9.0,13.9,0.0,0.0
+2024-12-03,19:00 (18:00),Copa del Rey,2024-2025,Valladolid,Real Ávila CF,Away,Second round,,4,2,16,8,,,0,,2.0,4.0,15.0,7.0,,,0.0
+2024-12-07,13:00,La Liga,2024-2025,Valladolid,Las Palmas,Away,Matchweek 16,1.3,1,2,9,2,18.2,1,0,1.1,2.0,1.0,11.0,5.0,20.8,2.0,0.0
+2024-12-13,21:00 (20:00),La Liga,2024-2025,Valladolid,Valencia,Home,Matchweek 17,0.6,1,0,2,1,34.7,0,0,0.8,0.0,1.0,14.0,1.0,17.2,0.0,0.0
+2024-12-20,21:00 (20:00),La Liga,2024-2025,Valladolid,Girona,Away,Matchweek 18,0.0,0,3,1,1,32.5,0,0,2.5,3.0,0.0,23.0,7.0,18.5,1.0,0.0
+2025-01-05,12:00 (11:00),Copa del Rey,2024-2025,Valladolid,Ourense CF,Away,Round of 32,,2,3,7,3,,,0,,3.0,2.0,10.0,4.0,,,0.0
+2025-01-11,16:15 (15:15),La Liga,2024-2025,Valladolid,Betis,Home,Matchweek 19,1.2,1,0,12,1,18.7,0,0,0.7,0.0,1.0,14.0,3.0,18.9,1.0,0.0
+2025-01-17,21:00 (20:00),La Liga,2024-2025,Valladolid,Espanyol,Away,Matchweek 20,1.2,1,2,11,4,20.2,1,0,1.0,2.0,1.0,12.0,4.0,20.9,3.0,0.0
+2025-01-25,21:00 (20:00),La Liga,2024-2025,Valladolid,Real Madrid,Home,Matchweek 21,0.2,0,3,6,2,16.9,0,0,2.0,3.0,0.0,19.0,3.0,21.0,1.0,1.0
+2025-02-01,16:15 (15:15),La Liga,2024-2025,Valladolid,Villarreal,Away,Matchweek 22,0.5,1,5,8,2,18.7,1,0,3.5,5.0,1.0,22.0,8.0,16.8,1.0,0.0
+2025-02-07,21:00 (20:00),La Liga,2024-2025,Valladolid,Rayo Vallecano,Away,Matchweek 23,0.4,0,1,8,3,19.1,1,0,2.3,1.0,0.0,20.0,5.0,18.5,1.0,0.0
+2025-02-16,16:15 (15:15),La Liga,2024-2025,Valladolid,Sevilla,Home,Matchweek 24,0.5,0,4,7,1,15.0,0,0,1.1,4.0,0.0,11.0,6.0,18.7,0.0,0.0
+2025-02-23,14:00 (13:00),La Liga,2024-2025,Valladolid,Athletic Club,Away,Matchweek 25,0.5,1,7,5,3,21.8,0,0,3.8,7.0,1.0,29.0,16.0,16.4,0.0,0.0
+2025-02-28,21:00 (20:00),La Liga,2024-2025,Valladolid,Las Palmas,Home,Matchweek 26,1.8,1,1,23,7,16.3,1,0,0.2,1.0,1.0,4.0,3.0,22.6,0.0,0.0
+2025-03-08,18:30 (17:30),La Liga,2024-2025,Valladolid,Valencia,Away,Matchweek 27,0.9,1,2,11,4,17.4,0,0,1.9,2.0,1.0,17.0,4.0,16.3,1.0,0.0
+2025-03-15,14:00 (13:00),La Liga,2024-2025,Valladolid,Celta Vigo,Home,Matchweek 28,0.7,0,1,5,2,16.1,0,0,1.5,1.0,0.0,9.0,0.0,19.1,0.0,1.0
+2025-03-29,14:00 (13:00),La Liga,2024-2025,Valladolid,Real Sociedad,Away,Matchweek 29,0.7,1,2,12,5,18.1,0,0,0.7,2.0,1.0,12.0,2.0,17.9,1.0,0.0
+2025-04-06,18:30 (16:30),La Liga,2024-2025,Valladolid,Getafe,Home,Matchweek 30,0.6,0,4,5,0,15.8,0,0,1.9,4.0,0.0,16.0,8.0,16.5,1.0,0.0
+2025-04-14,21:00 (19:00),La Liga,2024-2025,Valladolid,Atlético Madrid,Away,Matchweek 31,1.2,2,4,5,2,22.7,1,1,3.4,4.0,2.0,22.0,7.0,19.6,0.0,2.0
+2025-04-20,14:00 (12:00),La Liga,2024-2025,Valladolid,Osasuna,Home,Matchweek 32,1.9,2,3,11,4,18.1,0,1,2.3,3.0,2.0,10.0,5.0,21.1,1.0,1.0
+2025-04-24,21:30 (19:30),La Liga,2024-2025,Valladolid,Betis,Away,Matchweek 33,0.9,1,5,10,5,22.8,0,0,1.9,5.0,1.0,16.0,6.0,15.1,0.0,0.0
+2025-05-03,21:00 (19:00),La Liga,2024-2025,Valladolid,Barcelona,Home,Matchweek 34,0.6,1,2,5,4,11.6,0,0,1.9,2.0,1.0,24.0,6.0,17.4,3.0,0.0
+2025-05-10,18:30 (16:30),La Liga,2024-2025,Valladolid,Mallorca,Away,Matchweek 35,1.8,1,2,16,7,16.1,0,0,1.0,2.0,1.0,12.0,4.0,15.0,0.0,0.0
+2025-05-13,19:00 (17:00),La Liga,2024-2025,Valladolid,Girona,Home,Matchweek 36,0.9,0,1,11,4,17.6,1,0,1.4,1.0,0.0,13.0,5.0,17.2,1.0,0.0
+2025-05-18,19:00 (17:00),La Liga,2024-2025,Valladolid,Alavés,Home,Matchweek 37,1.6,0,1,7,1,10.1,0,0,1.4,1.0,0.0,13.0,3.0,20.0,0.0,1.0
+2025-05-24,18:30 (16:30),La Liga,2024-2025,Valladolid,Leganés,Away,Matchweek 38,0.4,0,3,6,2,20.6,0,0,2.1,3.0,0.0,16.0,6.0,20.6,2.0,0.0
