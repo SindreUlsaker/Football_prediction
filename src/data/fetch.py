@@ -1,12 +1,15 @@
 import os
 import time
 import re
+import random
 from io import StringIO
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.common.exceptions import WebDriverException
+from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import pandas as pd
 from bs4 import BeautifulSoup
 from config.leagues import LEAGUES
@@ -21,17 +24,40 @@ def get_driver():
     global _driver
     if _driver is None:
         options = Options()
-        options.add_argument("--headless")
-        options.add_argument("--disable-gpu")
+        # Headless-støtte i moderne Chrome
+        options.add_argument("--headless=new")
+        # Kritisk i GitHub Actions (container)
         options.add_argument("--no-sandbox")
-        options.add_argument("window-size=1920,1080")
+        options.add_argument("--disable-dev-shm-usage")
+        # Stabilitet/perf i CI
+        options.add_argument("--window-size=1920,1080")
+        options.add_argument("--disable-gpu")
+        options.add_argument("--disable-background-networking")
+        options.add_argument("--disable-background-timer-throttling")
+        options.add_argument("--disable-renderer-backgrounding")
         options.add_argument(
-            "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+            "--disable-features=Translate,BackForwardCache,AutomationControlled"
         )
-        service = Service(ChromeDriverManager().install())
-        _driver = webdriver.Chrome(service=service, options=options)
-        _driver.set_page_load_timeout(120)
+        options.add_argument("--blink-settings=imagesEnabled=true")
+        # Fjern gammel, mistenkelig UA (Chrome 91). La Chrome bruke sin egen UA.
+        # Hvis du MÅ sette UA: sett en moderne (>= 120) – men start uten.
+
+        # Mindre "bot-støy":
+        options.add_experimental_option(
+            "excludeSwitches", ["enable-automation", "enable-logging"]
+        )
+        options.add_experimental_option("useAutomationExtension", False)
+
+        # Lastestrategi: ikke vent på alt (reduserer heng i CI)
+        options.page_load_strategy = "eager"
+
+        # Bruk Selenium Manager (matcher chromedriver automatisk)
+        _driver = webdriver.Chrome(options=options)
+
+        # Stramme timeouts
+        _driver.set_page_load_timeout(60)  # var 120
+        _driver.set_script_timeout(30)
+
     return _driver
 
 
@@ -79,25 +105,75 @@ def get_prev_season(season):
 
 def fetch_data(url):
     """
-    Fetch page HTML using a shared Selenium WebDriver. Retries on failure with a delay.
+    Fetch page HTML with Selenium. Bounded retries, better CI flags,
+    and basic Cloudflare/challenge handling.
     """
-    try:
-        driver = get_driver()
-        driver.get(url)
-        time.sleep(2)
-        html = driver.page_source
-        return SeleniumResponse(html)
-    except WebDriverException as e:
-        print(f"WebDriver error: {e}. Retrying in 60 seconds...")
-        close_driver()
-        time.sleep(60)
-        return fetch_data(url)
-    except Exception as e:
-        # Fanger opp f.eks. HTTPConnectionPool–feil mot ChromeDriver og andre uventede feil
-        print(f"Fetch data error: {e}. Retrying in 60 seconds...")
-        close_driver()
-        time.sleep(60)
-        return fetch_data(url)
+    max_attempts = 4
+    attempt = 0
+    start = time.time()
+
+    while attempt < max_attempts:
+        attempt += 1
+        try:
+            driver = get_driver()
+            print(f"[fetch] GET {url} (attempt {attempt})", flush=True)
+            driver.get(url)  # respekterer page_load_timeout
+
+            # Enkel "menneskelig" pause (varierer litt, under 2s)
+            time.sleep(1.0 + random.random())
+
+            html = driver.page_source
+
+            # Cloudflare/challenge heuristikk
+            if (
+                "Attention Required" in html
+                or "cf-browser-verification" in html
+                or "cf-challenge" in html
+            ):
+                # Vent litt ekstra og prøv igjen med ren driver (ny session)
+                print(
+                    "[fetch] Detected possible Cloudflare challenge, backing off...",
+                    flush=True,
+                )
+                close_driver()
+                time.sleep(15 * attempt)
+                continue
+
+            return SeleniumResponse(html)
+
+        except TimeoutException as e:
+            print(
+                f"[fetch] Timeout on {url}: {e}. Restarting driver and backing off...",
+                flush=True,
+            )
+            close_driver()
+            time.sleep(5 * attempt)
+            continue
+        except WebDriverException as e:
+            # typisk "Timed out receiving message from renderer" eller driverkommunikasjon
+            print(
+                f"[fetch] WebDriver error on {url}: {e}. Restarting driver...",
+                flush=True,
+            )
+            close_driver()
+            time.sleep(5 * attempt)
+            continue
+        except Exception as e:
+            print(
+                f"[fetch] Unexpected error on {url}: {e}. Restarting driver...",
+                flush=True,
+            )
+            close_driver()
+            time.sleep(5 * attempt)
+            continue
+        finally:
+            # Ikke la én URL spise hele jobben
+            if time.time() - start > 180:  # 3 minutter per URL
+                print(f"[fetch] Giving up on {url} after ~3 minutes total.", flush=True)
+                break
+
+    # Siste utvei: returner None slik at kalleren logger/fortsetter
+    return None
 
 
 def fetch_team_urls(standings_url):
