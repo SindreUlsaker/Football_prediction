@@ -33,27 +33,12 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          echo "---- DIAG ----"
-          pwd
-          git rev-parse --show-toplevel
-          echo "Tree under data/raw:"
-          find data/raw -maxdepth 2 -type f -print || true
-          echo "Git excludes:"
-          test -f .gitignore && cat .gitignore || true
-          test -f .git/info/exclude && cat .git/info/exclude || true
-
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-
-          # Force-add CSV-er (overstyr ev. ignore-regler)
-          git add -f data/raw/**/*.csv data/raw/*.csv || true
-          git add -f data/processed/**/*.csv data/processed/*.csv || true
-
-          echo "---- STATUS ----"
-          git status --porcelain
-
-          git commit -m "Annual previous-season fetch: update CSVs" || echo "No changes to commit"
+          git add data/raw/
+          git commit -m "Annual update: run fetch_prev.py" || echo "No changes to commit"
           git push
+
 
 
       

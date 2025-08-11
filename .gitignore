@@ -24,7 +24,6 @@ venv/
 .mypy_cache/
 
 # Data files
-*.csv
 *.log
 
 # OS-specific
