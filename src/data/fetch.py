@@ -284,26 +284,37 @@ def fetch_league_data(league_name, cfg, seasons_to_fetch=None):
     for season, standings_url in standings_urls:
         print(f"\n--- Henter {league_name}, sesong {season} ---")
         team_urls = fetch_team_urls(standings_url)
+
         for team_url in team_urls:
             attempts = 0
             df_team = None
+
             while attempts < 3 and df_team is None:
                 try:
                     df_team = fetch_team_data(team_url, season=season)
+                    if df_team is None:
+                        attempts += 1
+                        print(
+                            f"[fetch] Missing matchlogs_for. Retrying {attempts}/3 for {team_url}"
+                        )
+                        close_driver()
+                        time.sleep(5 * attempts)
+                        continue
                 except Exception as e:
                     attempts += 1
-                    print(f"Error fetching {team_url} (attempt {attempts}): {e}")
+                    print(
+                        f"[fetch] Error fetching {team_url} (attempt {attempts}/3): {e}"
+                    )
                     close_driver()
                     time.sleep(5 * attempts)
-                if df_team is None and attempts < 3:
-                    time.sleep(5)
+                    continue
+
             if df_team is None:
-                print(f"Skipping {team_url} after 3 failed attempts")
+                print(f"[fetch] Skipping {team_url} after {attempts} failed attempts")
             else:
                 all_data.append(df_team)
 
     close_driver()
-
     if not all_data:
         print(f"Ingen kamper samlet for liga {league_name}, hopper over oppdatering.")
         return
@@ -344,10 +355,10 @@ def fetch_league_data(league_name, cfg, seasons_to_fetch=None):
         f"{league_name.lower().replace(' ', '_')}_{season}_matches.csv",
     )
     os.makedirs(os.path.dirname(raw_file), exist_ok=True)
-    
+
     existing = [c for c in want if c in df_all.columns]
     df_final = df_all[existing]
-    
+
     df_final.to_csv(raw_file, index=False)
     print(f"[INFO] Rådata for {league_name} sesong {season}")
 
