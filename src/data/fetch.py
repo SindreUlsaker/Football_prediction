@@ -258,15 +258,23 @@ def fetch_team_data(team_url, season="2024-2025"):  # fmt: skip
             df.columns = df.columns.droplevel(0)
         df.columns = [c.lower().replace(" ", "_") for c in df.columns]
     shoot_cols = ["xg", "gf", "ga", "sh", "sot", "dist", "fk", "pk"]
-    df_for_shoot = df_for[["date"] + shoot_cols].rename(
-        columns={c: f"{c}_for" for c in shoot_cols}
-    )
-    df_against_shoot = df_against[["date"] + shoot_cols].rename(
-        columns={c: f"{c}_against" for c in shoot_cols}
-    )
+    df_for_safe = pd.DataFrame({"date": df_for["date"]})
+    for col in shoot_cols:
+        if col in df_for.columns:
+            df_for_safe[f"{col}_for"] = df_for[col]
+        else:
+            df_for_safe[f"{col}_for"] = ""
 
-    df = df_meta.merge(df_for_shoot, on="date", how="left").merge(
-        df_against_shoot, on="date", how="left"
+    # Lag safe DataFrame for "against"-statistikk
+    df_against_safe = pd.DataFrame({"date": df_against["date"]})
+    for col in shoot_cols:
+        if col in df_against.columns:
+            df_against_safe[f"{col}_against"] = df_against[col]
+        else:
+            df_against_safe[f"{col}_against"] = ""
+
+    df = df_meta.merge(df_for_safe, on="date", how="left").merge(
+        df_against_safe, on="date", how="left"
     )
     return df
 
