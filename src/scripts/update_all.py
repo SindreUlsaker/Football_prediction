@@ -5,6 +5,7 @@ process matches and train Poisson models for all leagues.
 """
 import os
 import pandas as pd
+import time
 from config.leagues import LEAGUES
 from src.data.fetch import main as fetch_main, get_current_season
 from src.data.process import process_matches
@@ -12,7 +13,12 @@ from src.models.train import train_league
 from src.scripts.daily_merge import main as daily_merge_main
 
 
+def log(msg):
+    print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] {msg}", flush=True)
+
 def main():
+    log("Starter update_all_daily pipeline")
+    
     # 1) Finn og hent inneværende sesong
     first = next(iter(LEAGUES))
     cfg = LEAGUES[first]
@@ -21,7 +27,9 @@ def main():
     if not current:
         raise RuntimeError("Kunne ikke finne gjeldende sesong")
     print(f"=== Fetching raw data for current season: {current} ===")
+    log(f"Henter raw data for sesong {current}")
     fetch_main(seasons=[current])
+    log("Fetch fullført")
 
     # 2) Slå sammen rådata fra forrige sesong med dagens sesong
     print("=== Merging historical data with current season ===")
