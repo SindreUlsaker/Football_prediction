@@ -292,34 +292,42 @@ def fetch_league_data(league_name, cfg, seasons_to_fetch=None):
         print(f"\n--- Henter {league_name}, sesong {season} ---")
         team_urls = fetch_team_urls(standings_url)
 
+        fail_streak = 0  # teller hvor mange lag på rad som mangler data
+
         for team_url in team_urls:
             attempts = 0
             df_team = None
 
+        for team_url in team_urls:
+            attempts = 0
+            df_team = None
             while attempts < 3 and df_team is None:
                 try:
                     df_team = fetch_team_data(team_url, season=season)
-                    if df_team is None:
-                        attempts += 1
-                        print(
-                            f"[fetch] Missing matchlogs_for. Retrying {attempts}/3 for {team_url}"
-                        )
-                        close_driver()
-                        time.sleep(5 * attempts)
-                        continue
                 except Exception as e:
                     attempts += 1
-                    print(
-                        f"[fetch] Error fetching {team_url} (attempt {attempts}/3): {e}"
-                    )
+                    print(f"Error fetching {team_url} (attempt {attempts}): {e}")
                     close_driver()
                     time.sleep(5 * attempts)
-                    continue
+                if df_team is None and attempts < 3:
+                    time.sleep(5)
 
             if df_team is None:
-                print(f"[fetch] Skipping {team_url} after {attempts} failed attempts")
+                print(f"[fetch] Skipping {team_url} after 3 failed attempts")
+                fail_streak += 1
             else:
                 all_data.append(df_team)
+                fail_streak = 0  # nullstill streak ved suksess
+
+            # --- anti-blokk logikk ---
+            time.sleep(random.uniform(3, 5))  # liten pause etter hvert lag
+            if fail_streak >= 3:
+                print(
+                    "[fetch] 3 lag på rad uten matchlogs_for – mistenker blokkering, tar 2 minutters pause og restart av driver..."
+                )
+                close_driver()
+                time.sleep(120)
+                fail_streak = 0
 
     close_driver()
     if not all_data:
