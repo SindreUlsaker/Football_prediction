@@ -1,5 +1,8 @@
 name: Annual previous-season fetch
 
+permissions:
+  contents: write
+
 on:
   schedule:
     # Kjør hvert år 9. august kl. 22:00 UTC
