@@ -1,743 +1,743 @@
 date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_for,dist_for,fk_for,pk_for,xg_against,gf_against,ga_against,sh_against,sot_against,dist_against,fk_against,pk_against
-2024-08-16,20:45 (18:45),Ligue 1,2024-2025,Paris Saint Germain,Le Havre,Away,Matchweek 1,2.9,4,1,14,8,15.2,0,1,0.2,1,4,5.0,2.0,19.1,0.0,0.0
-2024-08-23,20:45 (18:45),Ligue 1,2024-2025,Paris Saint Germain,Montpellier,Home,Matchweek 2,3.8,6,0,27,11,17.0,4,0,0.6,0,6,8.0,3.0,15.9,1.0,0.0
-2024-09-01,20:45 (18:45),Ligue 1,2024-2025,Paris Saint Germain,Lille,Away,Matchweek 3,2.6,3,1,10,6,13.4,0,1,1.4,1,3,8.0,4.0,15.7,0.0,0.0
-2024-09-14,21:00 (19:00),Ligue 1,2024-2025,Paris Saint Germain,Brest,Home,Matchweek 4,2.8,3,1,22,9,16.2,0,0,1.0,1,3,4.0,2.0,26.5,0.0,1.0
-2024-09-18,21:00 (19:00),Champions Lg,2024-2025,Paris Saint Germain,es Girona,Home,League phase,2.1,1,0,26,5,18.0,1,0,0.2,0,1,3.0,1.0,12.1,0.0,0.0
-2024-09-21,21:00 (19:00),Ligue 1,2024-2025,Paris Saint Germain,Reims,Away,Matchweek 5,1.6,1,1,11,4,14.6,0,0,0.3,1,1,8.0,1.0,21.6,0.0,0.0
-2024-09-27,21:00 (19:00),Ligue 1,2024-2025,Paris Saint Germain,Rennes,Home,Matchweek 6,3.0,3,1,23,7,16.0,0,0,1.4,1,3,11.0,4.0,22.5,0.0,1.0
-2024-10-01,20:00 (19:00),Champions Lg,2024-2025,Paris Saint Germain,eng Arsenal,Away,League phase,0.4,0,2,10,2,18.2,0,0,0.7,2,0,6.0,5.0,15.7,1.0,0.0
-2024-10-06,20:45 (18:45),Ligue 1,2024-2025,Paris Saint Germain,Nice,Away,Matchweek 7,1.3,1,1,19,7,18.6,0,0,0.5,1,1,9.0,3.0,17.3,0.0,0.0
-2024-10-19,21:00 (19:00),Ligue 1,2024-2025,Paris Saint Germain,Strasbourg,Home,Matchweek 8,3.5,4,2,18,10,11.3,0,0,1.9,2,4,16.0,7.0,15.3,0.0,0.0
-2024-10-22,21:00 (19:00),Champions Lg,2024-2025,Paris Saint Germain,nl PSV Eindhoven,Home,League phase,2.5,1,1,26,8,16.5,1,0,0.2,1,1,8.0,3.0,21.0,0.0,0.0
-2024-10-27,20:45 (19:45),Ligue 1,2024-2025,Paris Saint Germain,Marseille,Away,Matchweek 9,3.1,3,0,19,8,16.1,1,0,0.2,0,3,5.0,1.0,16.3,0.0,0.0
-2024-11-02,17:00 (16:00),Ligue 1,2024-2025,Paris Saint Germain,Lens,Home,Matchweek 10,2.9,1,0,18,8,16.7,0,0,0.7,0,1,13.0,2.0,15.9,0.0,0.0
-2024-11-06,21:00 (20:00),Champions Lg,2024-2025,Paris Saint Germain,es Atlético Madrid,Home,League phase,2.1,1,2,22,9,17.8,0,0,0.7,2,1,4.0,3.0,16.5,0.0,0.0
-2024-11-09,21:00 (20:00),Ligue 1,2024-2025,Paris Saint Germain,Angers,Away,Matchweek 11,3.4,4,2,26,12,15.9,0,0,1.1,2,4,10.0,3.0,16.3,0.0,0.0
-2024-11-22,21:00 (20:00),Ligue 1,2024-2025,Paris Saint Germain,Toulouse,Home,Matchweek 12,1.1,3,0,17,8,17.7,0,0,1.4,0,3,11.0,2.0,18.2,0.0,0.0
-2024-11-26,21:00 (20:00),Champions Lg,2024-2025,Paris Saint Germain,de Bayern Munich,Away,League phase,0.8,0,1,11,3,19.8,0,0,2.4,1,0,18.0,7.0,16.2,0.0,0.0
-2024-11-30,21:00 (20:00),Ligue 1,2024-2025,Paris Saint Germain,Nantes,Home,Matchweek 13,2.6,1,1,24,10,16.5,0,0,0.8,1,1,5.0,2.0,10.8,0.0,0.0
-2024-12-06,21:00 (20:00),Ligue 1,2024-2025,Paris Saint Germain,Auxerre,Away,Matchweek 14,2.5,0,0,24,11,14.7,0,0,0.3,0,0,6.0,2.0,18.7,0.0,0.0
-2024-12-10,21:00 (20:00),Champions Lg,2024-2025,Paris Saint Germain,at RB Salzburg,Away,League phase,3.2,3,0,15,8,13.5,0,0,0.2,0,3,3.0,1.0,20.8,0.0,0.0
-2024-12-15,20:45 (19:45),Ligue 1,2024-2025,Paris Saint Germain,Lyon,Home,Matchweek 15,2.9,3,1,12,5,13.1,0,1,1.5,1,3,7.0,3.0,12.9,0.0,0.0
-2024-12-18,21:00 (20:00),Ligue 1,2024-2025,Paris Saint Germain,Monaco,Away,Matchweek 16,1.8,4,2,17,11,16.7,0,0,2.4,2,4,14.0,4.0,17.1,1.0,1.0
-2024-12-22,21:00 (20:00),Coupe de France,2024-2025,Paris Saint Germain,Lens,Away,Round of 64,,1 (4),1 (3),18,6,,,0,,1 (3),1 (4),12.0,4.0,,,0.0
-2025-01-05,17:30 (16:30),Trophée des Champions,2024-2025,Paris Saint Germain,Monaco,Neutral,Trophée des Champions,,1,0,28,10,,,0,,0,1,12.0,5.0,,,0.0
-2025-01-12,20:45 (19:45),Ligue 1,2024-2025,Paris Saint Germain,Saint-Étienne,Home,Matchweek 17,4.1,2,1,24,8,15.4,0,1,0.4,1,2,8.0,3.0,20.8,1.0,0.0
-2025-01-15,21:00 (20:00),Coupe de France,2024-2025,Paris Saint Germain,FC Espaly,Away,Round of 32,,4,2,13,8,,,1,,2,4,6.0,4.0,,,0.0
-2025-01-18,17:00 (16:00),Ligue 1,2024-2025,Paris Saint Germain,Lens,Away,Matchweek 18,1.2,2,1,9,7,16.5,0,0,0.7,1,2,10.0,5.0,15.3,0.0,0.0
-2025-01-22,21:00 (20:00),Champions Lg,2024-2025,Paris Saint Germain,eng Manchester City,Home,League phase,2.8,4,2,26,8,15.4,0,0,1.7,2,4,9.0,6.0,10.8,0.0,0.0
-2025-01-25,21:05 (20:05),Ligue 1,2024-2025,Paris Saint Germain,Reims,Home,Matchweek 19,1.2,1,1,18,7,17.0,0,0,0.9,1,1,6.0,3.0,16.4,0.0,0.0
-2025-01-29,21:00 (20:00),Champions Lg,2024-2025,Paris Saint Germain,de Stuttgart,Away,League phase,2.4,4,1,13,6,15.9,0,0,0.8,1,4,10.0,2.0,15.9,0.0,0.0
-2025-02-01,17:00 (16:00),Ligue 1,2024-2025,Paris Saint Germain,Brest,Away,Matchweek 20,3.6,5,2,14,7,12.4,0,0,0.9,2,5,14.0,7.0,20.1,0.0,0.0
-2025-02-04,21:10 (20:10),Coupe de France,2024-2025,Paris Saint Germain,Le Mans,Away,Round of 16,,2,0,12,3,,,0,,0,2,9.0,2.0,,,0.0
-2025-02-07,21:05 (20:05),Ligue 1,2024-2025,Paris Saint Germain,Monaco,Home,Matchweek 21,3.1,4,1,16,7,17.8,1,0,0.9,1,4,9.0,3.0,16.5,0.0,0.0
-2025-02-11,18:45 (17:45),Champions Lg,2024-2025,Paris Saint Germain,fr Brest,Away,Knockout phase play-offs,2.6,3,0,15,6,18.1,0,1,0.9,0,3,16.0,2.0,17.1,1.0,0.0
-2025-02-15,21:05 (20:05),Ligue 1,2024-2025,Paris Saint Germain,Toulouse,Away,Matchweek 22,2.4,1,0,20,6,19.7,2,0,0.9,0,1,14.0,4.0,15.0,0.0,0.0
+2024-08-16,20:45,Ligue 1,2024-2025,Paris Saint Germain,Le Havre,Away,Matchweek 1,2.9,4,1,14,8,15.2,0,1,0.2,1,4,5.0,2.0,19.1,0.0,0.0
+2024-08-23,20:45,Ligue 1,2024-2025,Paris Saint Germain,Montpellier,Home,Matchweek 2,3.8,6,0,27,11,17.0,4,0,0.6,0,6,8.0,3.0,15.9,1.0,0.0
+2024-09-01,20:45,Ligue 1,2024-2025,Paris Saint Germain,Lille,Away,Matchweek 3,2.6,3,1,10,6,13.4,0,1,1.4,1,3,8.0,4.0,15.7,0.0,0.0
+2024-09-14,21:00,Ligue 1,2024-2025,Paris Saint Germain,Brest,Home,Matchweek 4,2.8,3,1,22,9,16.2,0,0,1.0,1,3,4.0,2.0,26.5,0.0,1.0
+2024-09-18,21:00,Champions Lg,2024-2025,Paris Saint Germain,es Girona,Home,League phase,2.1,1,0,26,5,18.0,1,0,0.2,0,1,3.0,1.0,12.1,0.0,0.0
+2024-09-21,21:00,Ligue 1,2024-2025,Paris Saint Germain,Reims,Away,Matchweek 5,1.6,1,1,11,4,14.6,0,0,0.3,1,1,8.0,1.0,21.6,0.0,0.0
+2024-09-27,21:00,Ligue 1,2024-2025,Paris Saint Germain,Rennes,Home,Matchweek 6,3.0,3,1,23,7,16.0,0,0,1.4,1,3,11.0,4.0,22.5,0.0,1.0
+2024-10-01,20:00 (21:00),Champions Lg,2024-2025,Paris Saint Germain,eng Arsenal,Away,League phase,0.4,0,2,10,2,18.2,0,0,0.7,2,0,6.0,5.0,15.7,1.0,0.0
+2024-10-06,20:45,Ligue 1,2024-2025,Paris Saint Germain,Nice,Away,Matchweek 7,1.3,1,1,19,7,18.6,0,0,0.5,1,1,9.0,3.0,17.3,0.0,0.0
+2024-10-19,21:00,Ligue 1,2024-2025,Paris Saint Germain,Strasbourg,Home,Matchweek 8,3.5,4,2,18,10,11.3,0,0,1.9,2,4,16.0,7.0,15.3,0.0,0.0
+2024-10-22,21:00,Champions Lg,2024-2025,Paris Saint Germain,nl PSV Eindhoven,Home,League phase,2.5,1,1,26,8,16.5,1,0,0.2,1,1,8.0,3.0,21.0,0.0,0.0
+2024-10-27,20:45,Ligue 1,2024-2025,Paris Saint Germain,Marseille,Away,Matchweek 9,3.1,3,0,19,8,16.1,1,0,0.2,0,3,5.0,1.0,16.3,0.0,0.0
+2024-11-02,17:00,Ligue 1,2024-2025,Paris Saint Germain,Lens,Home,Matchweek 10,2.9,1,0,18,8,16.7,0,0,0.7,0,1,13.0,2.0,15.9,0.0,0.0
+2024-11-06,21:00,Champions Lg,2024-2025,Paris Saint Germain,es Atlético Madrid,Home,League phase,2.1,1,2,22,9,17.8,0,0,0.7,2,1,4.0,3.0,16.5,0.0,0.0
+2024-11-09,21:00,Ligue 1,2024-2025,Paris Saint Germain,Angers,Away,Matchweek 11,3.4,4,2,26,12,15.9,0,0,1.1,2,4,10.0,3.0,16.3,0.0,0.0
+2024-11-22,21:00,Ligue 1,2024-2025,Paris Saint Germain,Toulouse,Home,Matchweek 12,1.1,3,0,17,8,17.7,0,0,1.4,0,3,11.0,2.0,18.2,0.0,0.0
+2024-11-26,21:00,Champions Lg,2024-2025,Paris Saint Germain,de Bayern Munich,Away,League phase,0.8,0,1,11,3,19.8,0,0,2.4,1,0,18.0,7.0,16.2,0.0,0.0
+2024-11-30,21:00,Ligue 1,2024-2025,Paris Saint Germain,Nantes,Home,Matchweek 13,2.6,1,1,24,10,16.5,0,0,0.8,1,1,5.0,2.0,10.8,0.0,0.0
+2024-12-06,21:00,Ligue 1,2024-2025,Paris Saint Germain,Auxerre,Away,Matchweek 14,2.5,0,0,24,11,14.7,0,0,0.3,0,0,6.0,2.0,18.7,0.0,0.0
+2024-12-10,21:00,Champions Lg,2024-2025,Paris Saint Germain,at RB Salzburg,Away,League phase,3.2,3,0,15,8,13.5,0,0,0.2,0,3,3.0,1.0,20.8,0.0,0.0
+2024-12-15,20:45,Ligue 1,2024-2025,Paris Saint Germain,Lyon,Home,Matchweek 15,2.9,3,1,12,5,13.1,0,1,1.5,1,3,7.0,3.0,12.9,0.0,0.0
+2024-12-18,21:00,Ligue 1,2024-2025,Paris Saint Germain,Monaco,Away,Matchweek 16,1.8,4,2,17,11,16.7,0,0,2.4,2,4,14.0,4.0,17.1,1.0,1.0
+2024-12-22,21:00,Coupe de France,2024-2025,Paris Saint Germain,Lens,Away,Round of 64,,1 (4),1 (3),18,6,,,0,,1 (3),1 (4),12.0,4.0,,,0.0
+2025-01-05,17:30,Trophée des Champions,2024-2025,Paris Saint Germain,Monaco,Neutral,Trophée des Champions,,1,0,28,10,,,0,,0,1,12.0,5.0,,,0.0
+2025-01-12,20:45,Ligue 1,2024-2025,Paris Saint Germain,Saint-Étienne,Home,Matchweek 17,4.1,2,1,24,8,15.4,0,1,0.4,1,2,8.0,3.0,20.8,1.0,0.0
+2025-01-15,21:00,Coupe de France,2024-2025,Paris Saint Germain,FC Espaly,Away,Round of 32,,4,2,13,8,,,1,,2,4,6.0,4.0,,,0.0
+2025-01-18,17:00,Ligue 1,2024-2025,Paris Saint Germain,Lens,Away,Matchweek 18,1.2,2,1,9,7,16.5,0,0,0.7,1,2,10.0,5.0,15.3,0.0,0.0
+2025-01-22,21:00,Champions Lg,2024-2025,Paris Saint Germain,eng Manchester City,Home,League phase,2.8,4,2,26,8,15.4,0,0,1.7,2,4,9.0,6.0,10.8,0.0,0.0
+2025-01-25,21:05,Ligue 1,2024-2025,Paris Saint Germain,Reims,Home,Matchweek 19,1.2,1,1,18,7,17.0,0,0,0.9,1,1,6.0,3.0,16.4,0.0,0.0
+2025-01-29,21:00,Champions Lg,2024-2025,Paris Saint Germain,de Stuttgart,Away,League phase,2.4,4,1,13,6,15.9,0,0,0.8,1,4,10.0,2.0,15.9,0.0,0.0
+2025-02-01,17:00,Ligue 1,2024-2025,Paris Saint Germain,Brest,Away,Matchweek 20,3.6,5,2,14,7,12.4,0,0,0.9,2,5,14.0,7.0,20.1,0.0,0.0
+2025-02-04,21:10,Coupe de France,2024-2025,Paris Saint Germain,Le Mans,Away,Round of 16,,2,0,12,3,,,0,,0,2,9.0,2.0,,,0.0
+2025-02-07,21:05,Ligue 1,2024-2025,Paris Saint Germain,Monaco,Home,Matchweek 21,3.1,4,1,16,7,17.8,1,0,0.9,1,4,9.0,3.0,16.5,0.0,0.0
+2025-02-11,18:45,Champions Lg,2024-2025,Paris Saint Germain,fr Brest,Away,Knockout phase play-offs,2.6,3,0,15,6,18.1,0,1,0.9,0,3,16.0,2.0,17.1,1.0,0.0
+2025-02-15,21:05,Ligue 1,2024-2025,Paris Saint Germain,Toulouse,Away,Matchweek 22,2.4,1,0,20,6,19.7,2,0,0.9,0,1,14.0,4.0,15.0,0.0,0.0
 Date,Time,Comp,2024-2025,Paris Saint Germain,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
-2025-02-19,21:00 (20:00),Champions Lg,2024-2025,Paris Saint Germain,fr Brest,Home,Knockout phase play-offs,3.2,7,0,20,9,13.3,0,0,0.9,0,7,13.0,2.0,16.5,0.0,0.0
-2025-02-23,20:45 (19:45),Ligue 1,2024-2025,Paris Saint Germain,Lyon,Away,Matchweek 23,2.3,3,2,15,7,15.9,0,0,1.8,2,3,14.0,7.0,15.8,0.0,0.0
-2025-02-26,21:10 (20:10),Coupe de France,2024-2025,Paris Saint Germain,Stade Briochin,Away,Quarter-finals,,7,0,20,9,,,1,,0,7,4.0,2.0,,,0.0
-2025-03-01,21:05 (20:05),Ligue 1,2024-2025,Paris Saint Germain,Lille,Home,Matchweek 24,3.4,4,1,26,11,15.3,1,0,1.1,1,4,6.0,2.0,19.4,1.0,0.0
-2025-03-05,21:00 (20:00),Champions Lg,2024-2025,Paris Saint Germain,eng Liverpool,Home,Round of 16,1.6,0,1,27,9,22.2,2,0,0.3,1,0,2.0,1.0,11.2,0.0,0.0
-2025-03-08,17:00 (16:00),Ligue 1,2024-2025,Paris Saint Germain,Rennes,Away,Matchweek 25,3.8,4,1,19,9,17.1,0,0,1.6,1,4,13.0,3.0,13.0,1.0,0.0
-2025-03-11,20:00,Champions Lg,2024-2025,Paris Saint Germain,eng Liverpool,Away,Round of 16,2.6,1 (4),0 (1),21,8,19.3,1,0,1.5,0 (1),1 (4),19.0,2.0,15.4,0.0,0.0
-2025-03-16,20:45 (19:45),Ligue 1,2024-2025,Paris Saint Germain,Marseille,Home,Matchweek 26,2.6,3,1,16,5,16.0,0,0,1.2,1,3,11.0,2.0,23.2,1.0,0.0
-2025-03-29,19:00 (18:00),Ligue 1,2024-2025,Paris Saint Germain,Saint-Étienne,Away,Matchweek 27,3.3,6,1,21,9,20.0,0,1,1.1,1,6,11.0,2.0,22.2,0.0,0.0
-2025-04-01,21:10 (19:10),Coupe de France,2024-2025,Paris Saint Germain,Dunkerque,Away,Semi-finals,,4,2,30,11,,,0,,2,4,11.0,3.0,,,0.0
-2025-04-05,17:00 (15:00),Ligue 1,2024-2025,Paris Saint Germain,Angers,Home,Matchweek 28,1.9,1,0,20,6,17.2,1,0,0.2,0,1,4.0,0.0,23.3,0.0,0.0
-2025-04-09,21:00 (19:00),Champions Lg,2024-2025,Paris Saint Germain,eng Aston Villa,Home,Quarter-finals,1.9,3,1,29,10,19.2,0,0,0.9,1,3,7.0,2.0,17.4,0.0,0.0
-2025-04-15,20:00 (19:00),Champions Lg,2024-2025,Paris Saint Germain,eng Aston Villa,Away,Quarter-finals,1.5,2,3,14,7,18.0,1,0,1.8,3,2,17.0,8.0,14.2,0.0,0.0
-2025-04-19,17:00 (15:00),Ligue 1,2024-2025,Paris Saint Germain,Le Havre,Home,Matchweek 30,3.0,2,1,18,11,14.2,0,0,0.5,1,2,9.0,1.0,18.6,0.0,0.0
-2025-04-22,20:45 (18:45),Ligue 1,2024-2025,Paris Saint Germain,Nantes,Away,Matchweek 29,1.6,1,1,10,5,12.5,0,0,0.5,1,1,8.0,2.0,20.5,0.0,0.0
-2025-04-25,20:45 (18:45),Ligue 1,2024-2025,Paris Saint Germain,Nice,Home,Matchweek 31,3.0,1,3,32,13,16.9,1,0,1.0,3,1,7.0,3.0,12.9,0.0,0.0
-2025-04-29,20:00 (19:00),Champions Lg,2024-2025,Paris Saint Germain,eng Arsenal,Away,Semi-finals,1.2,1,0,11,4,19.5,0,0,1.7,0,1,10.0,5.0,16.6,1.0,0.0
-2025-05-03,17:00 (15:00),Ligue 1,2024-2025,Paris Saint Germain,Strasbourg,Away,Matchweek 32,1.7,1,2,20,4,16.6,0,0,0.8,2,1,9.0,2.0,14.4,0.0,0.0
-2025-05-07,21:00 (19:00),Champions Lg,2024-2025,Paris Saint Germain,eng Arsenal,Home,Semi-finals,1.7,2,1,10,5,20.0,0,0,2.8,1,2,19.0,4.0,12.9,0.0,0.0
-2025-05-10,21:00 (19:00),Ligue 1,2024-2025,Paris Saint Germain,Montpellier,Away,Matchweek 33,1.7,4,1,9,7,19.4,0,1,0.6,1,4,9.0,4.0,20.0,0.0,0.0
-2025-05-17,21:00 (19:00),Ligue 1,2024-2025,Paris Saint Germain,Auxerre,Home,Matchweek 34,3.1,3,1,20,8,20.0,2,0,0.6,1,3,7.0,2.0,17.2,0.0,0.0
-2025-05-24,21:00 (19:00),Coupe de France,2024-2025,Paris Saint Germain,Reims,Neutral,Final,,3,0,20,8,,,0,,0,3,4.0,1.0,,,0.0
-2025-05-31,21:00 (19:00),Champions Lg,2024-2025,Paris Saint Germain,it Inter,Neutral,Final,3.1,5,0,23,8,13.9,0,0,0.5,0,5,8.0,2.0,16.0,0.0,0.0
-2024-08-17,17:00 (15:00),Ligue 1,2024-2025,Marseille,Brest,Away,Matchweek 1,2.4,5,1,5,3,20.2,0.0,2,1.3,1,5,9.0,6.0,21.1,0.0,0.0
-2024-08-25,20:45 (18:45),Ligue 1,2024-2025,Marseille,Reims,Home,Matchweek 2,3.0,2,2,21,10,15.7,0.0,0,0.9,2,2,13.0,3.0,18.0,0.0,0.0
-2024-08-31,21:00 (19:00),Ligue 1,2024-2025,Marseille,Toulouse,Away,Matchweek 3,0.8,3,1,12,4,16.4,2.0,0,1.0,1,3,3.0,1.0,16.2,0.0,0.0
-2024-09-14,17:00 (15:00),Ligue 1,2024-2025,Marseille,Nice,Home,Matchweek 4,0.7,2,0,10,5,19.4,0.0,0,1.9,0,2,12.0,4.0,13.6,1.0,0.0
-2024-09-22,20:45 (18:45),Ligue 1,2024-2025,Marseille,Lyon,Away,Matchweek 5,0.8,3,2,9,4,23.4,0.0,0,3.0,2,3,21.0,7.0,16.6,0.0,0.0
-2024-09-29,20:45 (18:45),Ligue 1,2024-2025,Marseille,Strasbourg,Away,Matchweek 6,0.5,0,1,10,3,19.2,0.0,0,1.3,1,0,14.0,6.0,19.2,1.0,0.0
-2024-10-04,20:45 (18:45),Ligue 1,2024-2025,Marseille,Angers,Home,Matchweek 7,0.9,1,1,16,4,19.2,1.0,0,0.8,1,1,10.0,3.0,22.8,1.0,0.0
-2024-10-20,20:45 (18:45),Ligue 1,2024-2025,Marseille,Montpellier,Away,Matchweek 8,3.2,5,0,21,10,14.3,0.0,0,1.3,0,5,13.0,5.0,18.9,1.0,0.0
-2024-10-27,20:45 (19:45),Ligue 1,2024-2025,Marseille,Paris S-G,Home,Matchweek 9,0.2,0,3,5,1,16.3,0.0,0,3.1,3,0,19.0,8.0,16.1,1.0,0.0
-2024-11-03,20:45 (19:45),Ligue 1,2024-2025,Marseille,Nantes,Away,Matchweek 10,1.2,2,1,9,4,19.5,0.0,0,1.4,1,2,7.0,3.0,13.1,0.0,0.0
-2024-11-08,20:45 (19:45),Ligue 1,2024-2025,Marseille,Auxerre,Home,Matchweek 11,2.5,1,3,18,4,16.5,1.0,1,1.9,3,1,10.0,6.0,18.0,0.0,0.0
-2024-11-23,17:00 (16:00),Ligue 1,2024-2025,Marseille,Lens,Away,Matchweek 12,1.2,3,1,10,4,17.9,1.0,0,2.5,1,3,16.0,7.0,15.1,0.0,0.0
-2024-12-01,20:45 (19:45),Ligue 1,2024-2025,Marseille,Monaco,Home,Matchweek 13,1.9,2,1,8,3,19.3,1.0,1,1.0,1,2,7.0,4.0,15.6,0.0,0.0
-2024-12-08,20:45 (19:45),Ligue 1,2024-2025,Marseille,Saint-Étienne,Away,Matchweek 14,2.5,2,0,20,9,16.9,1.0,0,0.1,0,2,3.0,2.0,26.3,0.0,0.0
-2024-12-14,17:00 (16:00),Ligue 1,2024-2025,Marseille,Lille,Home,Matchweek 15,1.2,1,1,9,3,16.3,0.0,0,1.4,1,1,10.0,5.0,16.4,0.0,0.0
-2024-12-22,14:45 (13:45),Coupe de France,2024-2025,Marseille,Saint-Étienne,Away,Round of 64,,4,0,21,8,,,0,,0,4,4.0,2.0,,,0.0
-2025-01-05,20:45 (19:45),Ligue 1,2024-2025,Marseille,Le Havre,Home,Matchweek 16,3.2,5,1,15,8,17.9,0.0,0,0.4,1,5,4.0,1.0,14.7,0.0,0.0
-2025-01-11,21:05 (20:05),Ligue 1,2024-2025,Marseille,Rennes,Away,Matchweek 17,1.7,2,1,13,7,14.9,1.0,0,1.2,1,2,4.0,3.0,17.4,0.0,0.0
-2025-01-14,21:10 (20:10),Coupe de France,2024-2025,Marseille,Lille,Home,Round of 32,,1 (3),1 (4),13,7,,,0,,1 (4),1 (3),11.0,5.0,,,0.0
-2025-01-19,20:45 (19:45),Ligue 1,2024-2025,Marseille,Strasbourg,Home,Matchweek 18,2.8,1,1,17,2,14.9,0.0,1,0.9,1,1,7.0,3.0,19.2,1.0,0.0
-2025-01-26,20:45 (19:45),Ligue 1,2024-2025,Marseille,Nice,Away,Matchweek 19,0.8,0,2,18,6,18.9,1.0,0,1.2,2,0,14.0,5.0,16.6,0.0,0.0
-2025-02-02,20:45 (19:45),Ligue 1,2024-2025,Marseille,Lyon,Home,Matchweek 20,3.2,3,2,20,11,14.7,0.0,0,1.7,2,3,9.0,3.0,19.1,0.0,1.0
-2025-02-09,20:45 (19:45),Ligue 1,2024-2025,Marseille,Angers,Away,Matchweek 21,2.4,2,0,18,8,12.3,0.0,0,0.5,0,2,5.0,0.0,16.3,0.0,0.0
-2025-02-15,17:00 (16:00),Ligue 1,2024-2025,Marseille,Saint-Étienne,Home,Matchweek 22,6.1,5,1,27,12,11.8,0.0,1,1.0,1,5,7.0,2.0,17.5,0.0,0.0
-2025-02-22,21:05 (20:05),Ligue 1,2024-2025,Marseille,Auxerre,Away,Matchweek 23,0.7,0,3,8,2,15.5,0.0,0,2.0,3,0,8.0,4.0,14.8,0.0,1.0
-2025-03-02,20:45 (19:45),Ligue 1,2024-2025,Marseille,Nantes,Home,Matchweek 24,2.1,2,0,21,5,19.5,1.0,0,0.8,0,2,8.0,2.0,17.7,0.0,0.0
-2025-03-08,21:05 (20:05),Ligue 1,2024-2025,Marseille,Lens,Home,Matchweek 25,1.0,0,1,15,6,17.4,0.0,0,0.9,1,0,3.0,2.0,12.2,0.0,0.0
-2025-03-16,20:45 (19:45),Ligue 1,2024-2025,Marseille,Paris S-G,Away,Matchweek 26,1.2,1,3,11,2,23.2,1.0,0,2.6,3,1,16.0,5.0,16.0,0.0,0.0
-2025-03-29,17:00 (16:00),Ligue 1,2024-2025,Marseille,Reims,Away,Matchweek 27,1.1,1,3,20,6,18.5,0.0,0,1.0,3,1,7.0,5.0,16.6,0.0,0.0
-2025-04-06,20:45 (18:45),Ligue 1,2024-2025,Marseille,Toulouse,Home,Matchweek 28,1.0,3,2,9,4,16.3,0.0,0,1.3,2,3,8.0,3.0,17.3,0.0,0.0
-2025-04-12,17:00 (15:00),Ligue 1,2024-2025,Marseille,Monaco,Away,Matchweek 29,1.1,0,3,8,4,14.1,0.0,0,2.6,3,0,14.0,9.0,17.0,0.0,1.0
-2025-04-19,21:05 (19:05),Ligue 1,2024-2025,Marseille,Montpellier,Home,Matchweek 30,3.7,5,1,17,6,13.6,0.0,1,0.3,1,5,6.0,1.0,19.6,1.0,0.0
-2025-04-27,20:45 (18:45),Ligue 1,2024-2025,Marseille,Brest,Home,Matchweek 31,0.9,4,1,11,6,19.8,1.0,0,1.2,1,4,9.0,4.0,11.7,0.0,0.0
-2025-05-04,20:45 (18:45),Ligue 1,2024-2025,Marseille,Lille,Away,Matchweek 32,1.3,1,1,13,6,16.1,1.0,0,0.5,1,1,5.0,1.0,19.5,2.0,0.0
-2025-05-10,21:00 (19:00),Ligue 1,2024-2025,Marseille,Le Havre,Away,Matchweek 33,2.5,3,1,22,5,16.8,1.0,0,0.9,1,3,10.0,3.0,14.3,2.0,0.0
-2025-05-17,21:00 (19:00),Ligue 1,2024-2025,Marseille,Rennes,Home,Matchweek 34,3.9,4,2,15,8,15.7,1.0,1,1.3,2,4,9.0,3.0,18.5,0.0,0.0
-2024-08-17,21:00 (19:00),Ligue 1,2024-2025,Monaco,Saint-Étienne,Home,Matchweek 1,2.0,1,0,17,6,16.1,0,0,0.4,0,1,11.0,4.0,19.8,0.0,0.0
-2024-08-24,17:00 (15:00),Ligue 1,2024-2025,Monaco,Lyon,Away,Matchweek 2,2.2,2,0,21,6,17.9,0,0,0.0,0,2,1.0,0.0,29.7,0.0,0.0
-2024-09-01,15:00 (13:00),Ligue 1,2024-2025,Monaco,Lens,Home,Matchweek 3,1.0,1,1,14,3,19.5,1,0,2.2,1,1,11.0,3.0,17.5,0.0,1.0
-2024-09-14,19:00 (17:00),Ligue 1,2024-2025,Monaco,Auxerre,Away,Matchweek 4,3.4,3,0,19,9,12.9,0,0,0.6,0,3,13.0,3.0,21.7,0.0,0.0
-2024-09-19,21:00 (19:00),Champions Lg,2024-2025,Monaco,es Barcelona,Home,League phase,1.3,2,1,18,8,17.2,1,0,0.4,1,2,4.0,1.0,18.5,1.0,0.0
-2024-09-22,15:00 (13:00),Ligue 1,2024-2025,Monaco,Le Havre,Home,Matchweek 5,1.9,3,1,12,4,16.8,0,0,0.6,1,3,8.0,1.0,19.3,0.0,0.0
-2024-09-28,21:00 (19:00),Ligue 1,2024-2025,Monaco,Montpellier,Home,Matchweek 6,3.2,2,1,21,6,12.3,0,0,0.9,1,2,9.0,3.0,20.4,1.0,0.0
-2024-10-02,21:00 (19:00),Champions Lg,2024-2025,Monaco,hr Dinamo Zagreb,Away,League phase,1.9,2,2,8,3,14.6,0,1,1.0,2,2,7.0,3.0,16.2,0.0,0.0
-2024-10-05,21:00 (19:00),Ligue 1,2024-2025,Monaco,Rennes,Away,Matchweek 7,0.6,2,1,5,2,12.7,0,0,0.7,1,2,14.0,3.0,22.3,0.0,0.0
-2024-10-18,20:45 (18:45),Ligue 1,2024-2025,Monaco,Lille,Home,Matchweek 8,1.2,0,0,14,4,16.1,1,0,0.2,0,0,3.0,1.0,15.9,0.0,0.0
-2024-10-22,18:45 (16:45),Champions Lg,2024-2025,Monaco,rs Red Star,Home,League phase,3.3,5,1,27,8,16.4,0,0,1.0,1,5,4.0,1.0,18.7,0.0,1.0
-2024-10-27,17:00 (16:00),Ligue 1,2024-2025,Monaco,Nice,Away,Matchweek 9,0.5,1,2,11,5,20.0,0,0,1.6,2,1,17.0,9.0,18.8,0.0,0.0
-2024-11-01,19:00 (18:00),Ligue 1,2024-2025,Monaco,Angers,Home,Matchweek 10,1.4,0,1,11,3,18.3,1,0,0.5,1,0,10.0,3.0,21.9,0.0,0.0
-2024-11-05,21:00 (20:00),Champions Lg,2024-2025,Monaco,it Bologna,Away,League phase,0.9,1,0,10,4,19.8,1,0,0.5,0,1,7.0,2.0,16.7,0.0,0.0
-2024-11-09,17:00 (16:00),Ligue 1,2024-2025,Monaco,Strasbourg,Away,Matchweek 11,3.8,3,1,18,7,17.9,1,1,0.6,1,3,5.0,2.0,17.3,0.0,0.0
-2024-11-22,19:00 (18:00),Ligue 1,2024-2025,Monaco,Brest,Home,Matchweek 12,2.6,3,2,10,4,15.8,0,0,1.0,2,3,12.0,4.0,16.1,0.0,0.0
-2024-11-27,21:00 (20:00),Champions Lg,2024-2025,Monaco,pt Benfica,Home,League phase,1.6,2,3,11,5,19.4,1,0,3.0,3,2,18.0,8.0,15.8,0.0,0.0
-2024-12-01,20:45 (19:45),Ligue 1,2024-2025,Monaco,Marseille,Away,Matchweek 13,1.0,1,2,7,4,15.6,0,0,1.9,2,1,8.0,3.0,19.3,1.0,1.0
-2024-12-07,17:00 (16:00),Ligue 1,2024-2025,Monaco,Toulouse,Home,Matchweek 14,3.2,2,0,19,5,14.6,0,0,0.5,0,2,6.0,3.0,17.1,0.0,0.0
-2024-12-11,20:00,Champions Lg,2024-2025,Monaco,eng Arsenal,Away,League phase,0.5,0,3,7,2,22.0,0,0,2.3,3,0,16.0,8.0,14.2,0.0,0.0
-2024-12-14,21:00 (20:00),Ligue 1,2024-2025,Monaco,Reims,Away,Matchweek 15,1.3,0,0,14,3,17.7,0,0,1.5,0,0,8.0,0.0,13.5,0.0,0.0
-2024-12-18,21:00 (20:00),Ligue 1,2024-2025,Monaco,Paris S-G,Home,Matchweek 16,2.4,2,4,14,4,17.1,1,1,1.8,4,2,17.0,11.0,16.7,0.0,0.0
-2024-12-22,14:45 (13:45),Coupe de France,2024-2025,Monaco,L'Union,Away,Round of 64,,4,1,27,12,,,0,,1,4,6.0,2.0,,,0.0
-2025-01-05,17:30 (16:30),Trophée des Champions,2024-2025,Monaco,Paris S-G,Neutral,Trophée des Champions,,0,1,12,5,,,0,,1,0,28.0,10.0,,,0.0
-2025-01-10,19:00 (18:00),Ligue 1,2024-2025,Monaco,Nantes,Away,Matchweek 17,3.4,2,2,15,6,14.6,1,0,0.8,2,2,10.0,4.0,15.0,0.0,0.0
-2025-01-14,20:45 (19:45),Coupe de France,2024-2025,Monaco,Reims,Away,Round of 32,,1 (1),1 (3),14,4,,,0,,1 (3),1 (1),10.0,3.0,,,0.0
-2025-01-17,19:00 (18:00),Ligue 1,2024-2025,Monaco,Montpellier,Away,Matchweek 18,1.8,1,2,26,11,16.0,0,0,2.4,2,1,12.0,4.0,16.1,2.0,0.0
-2025-01-21,18:45 (17:45),Champions Lg,2024-2025,Monaco,eng Aston Villa,Home,League phase,1.5,1,0,12,4,13.3,1,0,0.9,0,1,10.0,5.0,14.0,1.0,0.0
-2025-01-25,17:00 (16:00),Ligue 1,2024-2025,Monaco,Rennes,Home,Matchweek 19,3.5,3,2,20,9,15.2,0,0,1.8,2,3,14.0,5.0,16.8,0.0,0.0
-2025-01-29,21:00 (20:00),Champions Lg,2024-2025,Monaco,it Inter,Away,League phase,0.2,0,3,4,0,15.4,0,0,3.9,3,0,19.0,6.0,15.7,1.0,1.0
-2025-02-01,19:00 (18:00),Ligue 1,2024-2025,Monaco,Auxerre,Home,Matchweek 20,2.6,4,2,11,6,13.8,1,0,1.2,2,4,11.0,6.0,17.9,0.0,1.0
-2025-02-07,21:05 (20:05),Ligue 1,2024-2025,Monaco,Paris S-G,Away,Matchweek 21,0.9,1,4,9,3,16.5,0,0,3.1,4,1,16.0,7.0,17.8,1.0,0.0
-2025-02-12,21:00 (20:00),Champions Lg,2024-2025,Monaco,pt Benfica,Home,Knockout phase play-offs,0.4,0,1,6,3,15.9,0,0,2.1,1,0,23.0,6.0,15.7,0.0,0.0
-2025-02-15,19:00 (18:00),Ligue 1,2024-2025,Monaco,Nantes,Home,Matchweek 22,4.4,7,1,21,10,15.1,0,1,1.4,1,7,6.0,2.0,14.4,0.0,0.0
-2025-02-18,20:00,Champions Lg,2024-2025,Monaco,pt Benfica,Away,Knockout phase play-offs,1.5,3,3,15,6,16.9,0,0,1.9,3,3,9.0,6.0,20.0,0.0,1.0
+2025-02-19,21:00,Champions Lg,2024-2025,Paris Saint Germain,fr Brest,Home,Knockout phase play-offs,3.2,7,0,20,9,13.3,0,0,0.9,0,7,13.0,2.0,16.5,0.0,0.0
+2025-02-23,20:45,Ligue 1,2024-2025,Paris Saint Germain,Lyon,Away,Matchweek 23,2.3,3,2,15,7,15.9,0,0,1.8,2,3,14.0,7.0,15.8,0.0,0.0
+2025-02-26,21:10,Coupe de France,2024-2025,Paris Saint Germain,Stade Briochin,Away,Quarter-finals,,7,0,20,9,,,1,,0,7,4.0,2.0,,,0.0
+2025-03-01,21:05,Ligue 1,2024-2025,Paris Saint Germain,Lille,Home,Matchweek 24,3.4,4,1,26,11,15.3,1,0,1.1,1,4,6.0,2.0,19.4,1.0,0.0
+2025-03-05,21:00,Champions Lg,2024-2025,Paris Saint Germain,eng Liverpool,Home,Round of 16,1.6,0,1,27,9,22.2,2,0,0.3,1,0,2.0,1.0,11.2,0.0,0.0
+2025-03-08,17:00,Ligue 1,2024-2025,Paris Saint Germain,Rennes,Away,Matchweek 25,3.8,4,1,19,9,17.1,0,0,1.6,1,4,13.0,3.0,13.0,1.0,0.0
+2025-03-11,20:00 (21:00),Champions Lg,2024-2025,Paris Saint Germain,eng Liverpool,Away,Round of 16,2.6,1 (4),0 (1),21,8,19.3,1,0,1.5,0 (1),1 (4),19.0,2.0,15.4,0.0,0.0
+2025-03-16,20:45,Ligue 1,2024-2025,Paris Saint Germain,Marseille,Home,Matchweek 26,2.6,3,1,16,5,16.0,0,0,1.2,1,3,11.0,2.0,23.2,1.0,0.0
+2025-03-29,19:00,Ligue 1,2024-2025,Paris Saint Germain,Saint-Étienne,Away,Matchweek 27,3.3,6,1,21,9,20.0,0,1,1.1,1,6,11.0,2.0,22.2,0.0,0.0
+2025-04-01,21:10,Coupe de France,2024-2025,Paris Saint Germain,Dunkerque,Away,Semi-finals,,4,2,30,11,,,0,,2,4,11.0,3.0,,,0.0
+2025-04-05,17:00,Ligue 1,2024-2025,Paris Saint Germain,Angers,Home,Matchweek 28,1.9,1,0,20,6,17.2,1,0,0.2,0,1,4.0,0.0,23.3,0.0,0.0
+2025-04-09,21:00,Champions Lg,2024-2025,Paris Saint Germain,eng Aston Villa,Home,Quarter-finals,1.9,3,1,29,10,19.2,0,0,0.9,1,3,7.0,2.0,17.4,0.0,0.0
+2025-04-15,20:00 (21:00),Champions Lg,2024-2025,Paris Saint Germain,eng Aston Villa,Away,Quarter-finals,1.5,2,3,14,7,18.0,1,0,1.8,3,2,17.0,8.0,14.2,0.0,0.0
+2025-04-19,17:00,Ligue 1,2024-2025,Paris Saint Germain,Le Havre,Home,Matchweek 30,3.0,2,1,18,11,14.2,0,0,0.5,1,2,9.0,1.0,18.6,0.0,0.0
+2025-04-22,20:45,Ligue 1,2024-2025,Paris Saint Germain,Nantes,Away,Matchweek 29,1.6,1,1,10,5,12.5,0,0,0.5,1,1,8.0,2.0,20.5,0.0,0.0
+2025-04-25,20:45,Ligue 1,2024-2025,Paris Saint Germain,Nice,Home,Matchweek 31,3.0,1,3,32,13,16.9,1,0,1.0,3,1,7.0,3.0,12.9,0.0,0.0
+2025-04-29,20:00 (21:00),Champions Lg,2024-2025,Paris Saint Germain,eng Arsenal,Away,Semi-finals,1.2,1,0,11,4,19.5,0,0,1.7,0,1,10.0,5.0,16.6,1.0,0.0
+2025-05-03,17:00,Ligue 1,2024-2025,Paris Saint Germain,Strasbourg,Away,Matchweek 32,1.7,1,2,20,4,16.6,0,0,0.8,2,1,9.0,2.0,14.4,0.0,0.0
+2025-05-07,21:00,Champions Lg,2024-2025,Paris Saint Germain,eng Arsenal,Home,Semi-finals,1.7,2,1,10,5,20.0,0,0,2.8,1,2,19.0,4.0,12.9,0.0,0.0
+2025-05-10,21:00,Ligue 1,2024-2025,Paris Saint Germain,Montpellier,Away,Matchweek 33,1.7,4,1,9,7,19.4,0,1,0.6,1,4,9.0,4.0,20.0,0.0,0.0
+2025-05-17,21:00,Ligue 1,2024-2025,Paris Saint Germain,Auxerre,Home,Matchweek 34,3.1,3,1,20,8,20.0,2,0,0.6,1,3,7.0,2.0,17.2,0.0,0.0
+2025-05-24,21:00,Coupe de France,2024-2025,Paris Saint Germain,Reims,Neutral,Final,,3,0,20,8,,,0,,0,3,4.0,1.0,,,0.0
+2025-05-31,21:00,Champions Lg,2024-2025,Paris Saint Germain,it Inter,Neutral,Final,3.1,5,0,23,8,13.9,0,0,0.5,0,5,8.0,2.0,16.0,0.0,0.0
+2024-08-17,17:00,Ligue 1,2024-2025,Marseille,Brest,Away,Matchweek 1,2.4,5,1,5,3,20.2,0.0,2,1.3,1,5,9.0,6.0,21.1,0.0,0.0
+2024-08-25,20:45,Ligue 1,2024-2025,Marseille,Reims,Home,Matchweek 2,3.0,2,2,21,10,15.7,0.0,0,0.9,2,2,13.0,3.0,18.0,0.0,0.0
+2024-08-31,21:00,Ligue 1,2024-2025,Marseille,Toulouse,Away,Matchweek 3,0.8,3,1,12,4,16.4,2.0,0,1.0,1,3,3.0,1.0,16.2,0.0,0.0
+2024-09-14,17:00,Ligue 1,2024-2025,Marseille,Nice,Home,Matchweek 4,0.7,2,0,10,5,19.4,0.0,0,1.9,0,2,12.0,4.0,13.6,1.0,0.0
+2024-09-22,20:45,Ligue 1,2024-2025,Marseille,Lyon,Away,Matchweek 5,0.8,3,2,9,4,23.4,0.0,0,3.0,2,3,21.0,7.0,16.6,0.0,0.0
+2024-09-29,20:45,Ligue 1,2024-2025,Marseille,Strasbourg,Away,Matchweek 6,0.5,0,1,10,3,19.2,0.0,0,1.3,1,0,14.0,6.0,19.2,1.0,0.0
+2024-10-04,20:45,Ligue 1,2024-2025,Marseille,Angers,Home,Matchweek 7,0.9,1,1,16,4,19.2,1.0,0,0.8,1,1,10.0,3.0,22.8,1.0,0.0
+2024-10-20,20:45,Ligue 1,2024-2025,Marseille,Montpellier,Away,Matchweek 8,3.2,5,0,21,10,14.3,0.0,0,1.3,0,5,13.0,5.0,18.9,1.0,0.0
+2024-10-27,20:45,Ligue 1,2024-2025,Marseille,Paris S-G,Home,Matchweek 9,0.2,0,3,5,1,16.3,0.0,0,3.1,3,0,19.0,8.0,16.1,1.0,0.0
+2024-11-03,20:45,Ligue 1,2024-2025,Marseille,Nantes,Away,Matchweek 10,1.2,2,1,9,4,19.5,0.0,0,1.4,1,2,7.0,3.0,13.1,0.0,0.0
+2024-11-08,20:45,Ligue 1,2024-2025,Marseille,Auxerre,Home,Matchweek 11,2.5,1,3,18,4,16.5,1.0,1,1.9,3,1,10.0,6.0,18.0,0.0,0.0
+2024-11-23,17:00,Ligue 1,2024-2025,Marseille,Lens,Away,Matchweek 12,1.2,3,1,10,4,17.9,1.0,0,2.5,1,3,16.0,7.0,15.1,0.0,0.0
+2024-12-01,20:45,Ligue 1,2024-2025,Marseille,Monaco,Home,Matchweek 13,1.9,2,1,8,3,19.3,1.0,1,1.0,1,2,7.0,4.0,15.6,0.0,0.0
+2024-12-08,20:45,Ligue 1,2024-2025,Marseille,Saint-Étienne,Away,Matchweek 14,2.5,2,0,20,9,16.9,1.0,0,0.1,0,2,3.0,2.0,26.3,0.0,0.0
+2024-12-14,17:00,Ligue 1,2024-2025,Marseille,Lille,Home,Matchweek 15,1.2,1,1,9,3,16.3,0.0,0,1.4,1,1,10.0,5.0,16.4,0.0,0.0
+2024-12-22,14:45,Coupe de France,2024-2025,Marseille,Saint-Étienne,Away,Round of 64,,4,0,21,8,,,0,,0,4,4.0,2.0,,,0.0
+2025-01-05,20:45,Ligue 1,2024-2025,Marseille,Le Havre,Home,Matchweek 16,3.2,5,1,15,8,17.9,0.0,0,0.4,1,5,4.0,1.0,14.7,0.0,0.0
+2025-01-11,21:05,Ligue 1,2024-2025,Marseille,Rennes,Away,Matchweek 17,1.7,2,1,13,7,14.9,1.0,0,1.2,1,2,4.0,3.0,17.4,0.0,0.0
+2025-01-14,21:10,Coupe de France,2024-2025,Marseille,Lille,Home,Round of 32,,1 (3),1 (4),13,7,,,0,,1 (4),1 (3),11.0,5.0,,,0.0
+2025-01-19,20:45,Ligue 1,2024-2025,Marseille,Strasbourg,Home,Matchweek 18,2.8,1,1,17,2,14.9,0.0,1,0.9,1,1,7.0,3.0,19.2,1.0,0.0
+2025-01-26,20:45,Ligue 1,2024-2025,Marseille,Nice,Away,Matchweek 19,0.8,0,2,18,6,18.9,1.0,0,1.2,2,0,14.0,5.0,16.6,0.0,0.0
+2025-02-02,20:45,Ligue 1,2024-2025,Marseille,Lyon,Home,Matchweek 20,3.2,3,2,20,11,14.7,0.0,0,1.7,2,3,9.0,3.0,19.1,0.0,1.0
+2025-02-09,20:45,Ligue 1,2024-2025,Marseille,Angers,Away,Matchweek 21,2.4,2,0,18,8,12.3,0.0,0,0.5,0,2,5.0,0.0,16.3,0.0,0.0
+2025-02-15,17:00,Ligue 1,2024-2025,Marseille,Saint-Étienne,Home,Matchweek 22,6.1,5,1,27,12,11.8,0.0,1,1.0,1,5,7.0,2.0,17.5,0.0,0.0
+2025-02-22,21:05,Ligue 1,2024-2025,Marseille,Auxerre,Away,Matchweek 23,0.7,0,3,8,2,15.5,0.0,0,2.0,3,0,8.0,4.0,14.8,0.0,1.0
+2025-03-02,20:45,Ligue 1,2024-2025,Marseille,Nantes,Home,Matchweek 24,2.1,2,0,21,5,19.5,1.0,0,0.8,0,2,8.0,2.0,17.7,0.0,0.0
+2025-03-08,21:05,Ligue 1,2024-2025,Marseille,Lens,Home,Matchweek 25,1.0,0,1,15,6,17.4,0.0,0,0.9,1,0,3.0,2.0,12.2,0.0,0.0
+2025-03-16,20:45,Ligue 1,2024-2025,Marseille,Paris S-G,Away,Matchweek 26,1.2,1,3,11,2,23.2,1.0,0,2.6,3,1,16.0,5.0,16.0,0.0,0.0
+2025-03-29,17:00,Ligue 1,2024-2025,Marseille,Reims,Away,Matchweek 27,1.1,1,3,20,6,18.5,0.0,0,1.0,3,1,7.0,5.0,16.6,0.0,0.0
+2025-04-06,20:45,Ligue 1,2024-2025,Marseille,Toulouse,Home,Matchweek 28,1.0,3,2,9,4,16.3,0.0,0,1.3,2,3,8.0,3.0,17.3,0.0,0.0
+2025-04-12,17:00,Ligue 1,2024-2025,Marseille,Monaco,Away,Matchweek 29,1.1,0,3,8,4,14.1,0.0,0,2.6,3,0,14.0,9.0,17.0,0.0,1.0
+2025-04-19,21:05,Ligue 1,2024-2025,Marseille,Montpellier,Home,Matchweek 30,3.7,5,1,17,6,13.6,0.0,1,0.3,1,5,6.0,1.0,19.6,1.0,0.0
+2025-04-27,20:45,Ligue 1,2024-2025,Marseille,Brest,Home,Matchweek 31,0.9,4,1,11,6,19.8,1.0,0,1.2,1,4,9.0,4.0,11.7,0.0,0.0
+2025-05-04,20:45,Ligue 1,2024-2025,Marseille,Lille,Away,Matchweek 32,1.3,1,1,13,6,16.1,1.0,0,0.5,1,1,5.0,1.0,19.5,2.0,0.0
+2025-05-10,21:00,Ligue 1,2024-2025,Marseille,Le Havre,Away,Matchweek 33,2.5,3,1,22,5,16.8,1.0,0,0.9,1,3,10.0,3.0,14.3,2.0,0.0
+2025-05-17,21:00,Ligue 1,2024-2025,Marseille,Rennes,Home,Matchweek 34,3.9,4,2,15,8,15.7,1.0,1,1.3,2,4,9.0,3.0,18.5,0.0,0.0
+2024-08-17,21:00,Ligue 1,2024-2025,Monaco,Saint-Étienne,Home,Matchweek 1,2.0,1,0,17,6,16.1,0,0,0.4,0,1,11.0,4.0,19.8,0.0,0.0
+2024-08-24,17:00,Ligue 1,2024-2025,Monaco,Lyon,Away,Matchweek 2,2.2,2,0,21,6,17.9,0,0,0.0,0,2,1.0,0.0,29.7,0.0,0.0
+2024-09-01,15:00,Ligue 1,2024-2025,Monaco,Lens,Home,Matchweek 3,1.0,1,1,14,3,19.5,1,0,2.2,1,1,11.0,3.0,17.5,0.0,1.0
+2024-09-14,19:00,Ligue 1,2024-2025,Monaco,Auxerre,Away,Matchweek 4,3.4,3,0,19,9,12.9,0,0,0.6,0,3,13.0,3.0,21.7,0.0,0.0
+2024-09-19,21:00,Champions Lg,2024-2025,Monaco,es Barcelona,Home,League phase,1.3,2,1,18,8,17.2,1,0,0.4,1,2,4.0,1.0,18.5,1.0,0.0
+2024-09-22,15:00,Ligue 1,2024-2025,Monaco,Le Havre,Home,Matchweek 5,1.9,3,1,12,4,16.8,0,0,0.6,1,3,8.0,1.0,19.3,0.0,0.0
+2024-09-28,21:00,Ligue 1,2024-2025,Monaco,Montpellier,Home,Matchweek 6,3.2,2,1,21,6,12.3,0,0,0.9,1,2,9.0,3.0,20.4,1.0,0.0
+2024-10-02,21:00,Champions Lg,2024-2025,Monaco,hr Dinamo Zagreb,Away,League phase,1.9,2,2,8,3,14.6,0,1,1.0,2,2,7.0,3.0,16.2,0.0,0.0
+2024-10-05,21:00,Ligue 1,2024-2025,Monaco,Rennes,Away,Matchweek 7,0.6,2,1,5,2,12.7,0,0,0.7,1,2,14.0,3.0,22.3,0.0,0.0
+2024-10-18,20:45,Ligue 1,2024-2025,Monaco,Lille,Home,Matchweek 8,1.2,0,0,14,4,16.1,1,0,0.2,0,0,3.0,1.0,15.9,0.0,0.0
+2024-10-22,18:45,Champions Lg,2024-2025,Monaco,rs Red Star,Home,League phase,3.3,5,1,27,8,16.4,0,0,1.0,1,5,4.0,1.0,18.7,0.0,1.0
+2024-10-27,17:00,Ligue 1,2024-2025,Monaco,Nice,Away,Matchweek 9,0.5,1,2,11,5,20.0,0,0,1.6,2,1,17.0,9.0,18.8,0.0,0.0
+2024-11-01,19:00,Ligue 1,2024-2025,Monaco,Angers,Home,Matchweek 10,1.4,0,1,11,3,18.3,1,0,0.5,1,0,10.0,3.0,21.9,0.0,0.0
+2024-11-05,21:00,Champions Lg,2024-2025,Monaco,it Bologna,Away,League phase,0.9,1,0,10,4,19.8,1,0,0.5,0,1,7.0,2.0,16.7,0.0,0.0
+2024-11-09,17:00,Ligue 1,2024-2025,Monaco,Strasbourg,Away,Matchweek 11,3.8,3,1,18,7,17.9,1,1,0.6,1,3,5.0,2.0,17.3,0.0,0.0
+2024-11-22,19:00,Ligue 1,2024-2025,Monaco,Brest,Home,Matchweek 12,2.6,3,2,10,4,15.8,0,0,1.0,2,3,12.0,4.0,16.1,0.0,0.0
+2024-11-27,21:00,Champions Lg,2024-2025,Monaco,pt Benfica,Home,League phase,1.6,2,3,11,5,19.4,1,0,3.0,3,2,18.0,8.0,15.8,0.0,0.0
+2024-12-01,20:45,Ligue 1,2024-2025,Monaco,Marseille,Away,Matchweek 13,1.0,1,2,7,4,15.6,0,0,1.9,2,1,8.0,3.0,19.3,1.0,1.0
+2024-12-07,17:00,Ligue 1,2024-2025,Monaco,Toulouse,Home,Matchweek 14,3.2,2,0,19,5,14.6,0,0,0.5,0,2,6.0,3.0,17.1,0.0,0.0
+2024-12-11,20:00 (21:00),Champions Lg,2024-2025,Monaco,eng Arsenal,Away,League phase,0.5,0,3,7,2,22.0,0,0,2.3,3,0,16.0,8.0,14.2,0.0,0.0
+2024-12-14,21:00,Ligue 1,2024-2025,Monaco,Reims,Away,Matchweek 15,1.3,0,0,14,3,17.7,0,0,1.5,0,0,8.0,0.0,13.5,0.0,0.0
+2024-12-18,21:00,Ligue 1,2024-2025,Monaco,Paris S-G,Home,Matchweek 16,2.4,2,4,14,4,17.1,1,1,1.8,4,2,17.0,11.0,16.7,0.0,0.0
+2024-12-22,14:45,Coupe de France,2024-2025,Monaco,L'Union,Away,Round of 64,,4,1,27,12,,,0,,1,4,6.0,2.0,,,0.0
+2025-01-05,17:30,Trophée des Champions,2024-2025,Monaco,Paris S-G,Neutral,Trophée des Champions,,0,1,12,5,,,0,,1,0,28.0,10.0,,,0.0
+2025-01-10,19:00,Ligue 1,2024-2025,Monaco,Nantes,Away,Matchweek 17,3.4,2,2,15,6,14.6,1,0,0.8,2,2,10.0,4.0,15.0,0.0,0.0
+2025-01-14,20:45,Coupe de France,2024-2025,Monaco,Reims,Away,Round of 32,,1 (1),1 (3),14,4,,,0,,1 (3),1 (1),10.0,3.0,,,0.0
+2025-01-17,19:00,Ligue 1,2024-2025,Monaco,Montpellier,Away,Matchweek 18,1.8,1,2,26,11,16.0,0,0,2.4,2,1,12.0,4.0,16.1,2.0,0.0
+2025-01-21,18:45,Champions Lg,2024-2025,Monaco,eng Aston Villa,Home,League phase,1.5,1,0,12,4,13.3,1,0,0.9,0,1,10.0,5.0,14.0,1.0,0.0
+2025-01-25,17:00,Ligue 1,2024-2025,Monaco,Rennes,Home,Matchweek 19,3.5,3,2,20,9,15.2,0,0,1.8,2,3,14.0,5.0,16.8,0.0,0.0
+2025-01-29,21:00,Champions Lg,2024-2025,Monaco,it Inter,Away,League phase,0.2,0,3,4,0,15.4,0,0,3.9,3,0,19.0,6.0,15.7,1.0,1.0
+2025-02-01,19:00,Ligue 1,2024-2025,Monaco,Auxerre,Home,Matchweek 20,2.6,4,2,11,6,13.8,1,0,1.2,2,4,11.0,6.0,17.9,0.0,1.0
+2025-02-07,21:05,Ligue 1,2024-2025,Monaco,Paris S-G,Away,Matchweek 21,0.9,1,4,9,3,16.5,0,0,3.1,4,1,16.0,7.0,17.8,1.0,0.0
+2025-02-12,21:00,Champions Lg,2024-2025,Monaco,pt Benfica,Home,Knockout phase play-offs,0.4,0,1,6,3,15.9,0,0,2.1,1,0,23.0,6.0,15.7,0.0,0.0
+2025-02-15,19:00,Ligue 1,2024-2025,Monaco,Nantes,Home,Matchweek 22,4.4,7,1,21,10,15.1,0,1,1.4,1,7,6.0,2.0,14.4,0.0,0.0
+2025-02-18,20:00 (21:00),Champions Lg,2024-2025,Monaco,pt Benfica,Away,Knockout phase play-offs,1.5,3,3,15,6,16.9,0,0,1.9,3,3,9.0,6.0,20.0,0.0,1.0
 Date,Time,Comp,2024-2025,Monaco,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
-2025-02-22,17:00 (16:00),Ligue 1,2024-2025,Monaco,Lille,Away,Matchweek 23,2.3,1,2,13,3,12.8,0,0,1.1,2,1,9.0,6.0,17.7,0.0,0.0
-2025-02-28,20:45 (19:45),Ligue 1,2024-2025,Monaco,Reims,Home,Matchweek 24,3.8,3,0,23,9,13.6,0,0,0.6,0,3,9.0,5.0,18.0,0.0,0.0
-2025-03-07,20:45 (19:45),Ligue 1,2024-2025,Monaco,Toulouse,Away,Matchweek 25,2.4,1,1,13,3,12.8,0,0,0.6,1,1,8.0,3.0,17.4,0.0,0.0
-2025-03-15,19:00 (18:00),Ligue 1,2024-2025,Monaco,Angers,Away,Matchweek 26,2.0,2,0,15,4,17.9,0,1,0.5,0,2,6.0,2.0,19.3,0.0,0.0
-2025-03-29,21:05 (20:05),Ligue 1,2024-2025,Monaco,Nice,Home,Matchweek 27,2.4,2,1,16,5,17.8,0,0,0.5,1,2,9.0,4.0,16.4,0.0,0.0
-2025-04-05,19:00 (17:00),Ligue 1,2024-2025,Monaco,Brest,Away,Matchweek 28,1.5,1,2,9,1,15.8,0,1,1.0,2,1,13.0,5.0,18.5,0.0,0.0
-2025-04-12,17:00 (15:00),Ligue 1,2024-2025,Monaco,Marseille,Home,Matchweek 29,2.6,3,0,14,9,17.0,0,1,1.1,0,3,8.0,4.0,14.1,0.0,0.0
-2025-04-19,19:00 (17:00),Ligue 1,2024-2025,Monaco,Strasbourg,Home,Matchweek 30,0.9,0,0,12,4,15.6,0,0,0.4,0,0,5.0,2.0,19.4,0.0,0.0
-2025-04-26,19:00 (17:00),Ligue 1,2024-2025,Monaco,Le Havre,Away,Matchweek 31,2.9,1,1,20,7,13.7,0,0,0.5,1,1,9.0,3.0,21.5,0.0,0.0
-2025-05-03,21:05 (19:05),Ligue 1,2024-2025,Monaco,Saint-Étienne,Away,Matchweek 32,2.0,3,1,12,6,17.1,1,0,0.6,1,3,11.0,1.0,17.8,0.0,0.0
-2025-05-10,21:00 (19:00),Ligue 1,2024-2025,Monaco,Lyon,Home,Matchweek 33,1.2,2,0,11,5,13.0,1,0,0.4,0,2,9.0,4.0,21.7,0.0,0.0
-2025-05-17,21:00 (19:00),Ligue 1,2024-2025,Monaco,Lens,Away,Matchweek 34,0.5,0,4,6,4,19.9,0,0,1.7,4,0,15.0,5.0,18.0,0.0,0.0
-2024-08-18,15:00 (13:00),Ligue 1,2024-2025,Nice,Auxerre,Away,Matchweek 1,0.7,1,2,9,2,14.4,1,0,1.8,2,1,16.0,7.0,16.0,1.0,0.0
-2024-08-25,17:00 (15:00),Ligue 1,2024-2025,Nice,Toulouse,Home,Matchweek 2,1.3,1,1,11,3,13.6,1,0,1.0,1,1,15.0,3.0,17.8,1.0,0.0
-2024-09-01,17:00 (15:00),Ligue 1,2024-2025,Nice,Angers,Away,Matchweek 3,2.2,4,1,14,8,15.3,0,0,1.4,1,4,13.0,6.0,22.7,1.0,1.0
-2024-09-14,17:00 (15:00),Ligue 1,2024-2025,Nice,Marseille,Away,Matchweek 4,1.9,0,2,12,4,13.6,1,0,0.7,2,0,10.0,5.0,19.4,0.0,0.0
-2024-09-20,20:45 (18:45),Ligue 1,2024-2025,Nice,Saint-Étienne,Home,Matchweek 5,4.7,8,0,17,11,15.3,0,1,0.3,0,8,8.0,2.0,20.4,0.0,0.0
-2024-09-25,21:00 (19:00),Europa Lg,2024-2025,Nice,es Real Sociedad,Home,League phase,1.3,1,1,9,4,21.7,0,0,0.7,1,1,8.0,2.0,21.8,0.0,0.0
-2024-09-28,17:00 (15:00),Ligue 1,2024-2025,Nice,Lens,Away,Matchweek 6,1.1,0,0,15,4,18.6,3,0,1.9,0,0,22.0,6.0,15.9,0.0,0.0
-2024-10-03,18:45 (16:45),Europa Lg,2024-2025,Nice,it Lazio,Away,League phase,1.0,1,4,11,4,18.8,0,0,1.9,4,1,12.0,4.0,19.7,0.0,1.0
-2024-10-06,20:45 (18:45),Ligue 1,2024-2025,Nice,Paris S-G,Home,Matchweek 7,0.5,1,1,9,3,17.3,0,0,1.3,1,1,19.0,7.0,18.6,0.0,0.0
-2024-10-20,17:00 (15:00),Ligue 1,2024-2025,Nice,Nantes,Away,Matchweek 8,0.8,1,1,13,7,17.6,0,0,0.5,1,1,11.0,7.0,19.5,0.0,0.0
-2024-10-24,18:45 (16:45),Europa Lg,2024-2025,Nice,hu Ferencváros,Away,League phase,1.0,0,1,16,4,15.1,0,0,1.5,1,0,15.0,5.0,18.4,1.0,0.0
-2024-10-27,17:00 (16:00),Ligue 1,2024-2025,Nice,Monaco,Home,Matchweek 9,1.6,2,1,17,9,18.8,0,0,0.5,1,2,11.0,5.0,20.0,0.0,0.0
-2024-11-02,19:00 (18:00),Ligue 1,2024-2025,Nice,Brest,Away,Matchweek 10,1.4,1,0,12,3,14.2,0,0,1.0,0,1,16.0,6.0,17.1,0.0,0.0
-2024-11-07,18:45 (17:45),Europa Lg,2024-2025,Nice,nl Twente,Home,League phase,1.3,2,2,13,3,17.4,1,0,1.0,2,2,14.0,6.0,16.6,0.0,0.0
-2024-11-10,15:00 (14:00),Ligue 1,2024-2025,Nice,Lille,Home,Matchweek 11,2.1,2,2,17,5,13.8,0,0,1.7,2,2,13.0,6.0,18.8,1.0,0.0
-2024-11-24,20:45 (19:45),Ligue 1,2024-2025,Nice,Strasbourg,Home,Matchweek 12,2.1,2,1,15,5,16.7,1,0,0.4,1,2,10.0,3.0,21.6,0.0,0.0
-2024-11-28,21:00 (20:00),Europa Lg,2024-2025,Nice,sct Rangers,Home,League phase,1.4,1,4,19,7,19.5,2,0,2.2,4,1,14.0,8.0,15.2,0.0,0.0
-2024-12-01,17:00 (16:00),Ligue 1,2024-2025,Nice,Lyon,Away,Matchweek 13,2.1,1,4,16,6,17.1,0,0,2.7,4,1,15.0,7.0,16.2,2.0,1.0
-2024-12-07,19:00 (18:00),Ligue 1,2024-2025,Nice,Le Havre,Home,Matchweek 14,2.0,2,1,16,4,18.2,1,1,1.1,1,2,12.0,1.0,15.4,1.0,0.0
-2024-12-12,18:45 (17:45),Europa Lg,2024-2025,Nice,be Union SG,Away,League phase,1.8,1,2,13,2,22.0,0,0,3.8,2,1,24.0,10.0,12.7,0.0,0.0
-2024-12-15,15:00 (14:00),Ligue 1,2024-2025,Nice,Montpellier,Away,Matchweek 15,1.4,2,2,18,6,17.7,1,0,2.0,2,2,21.0,8.0,16.3,0.0,0.0
-2024-12-21,18:00 (17:00),Coupe de France,2024-2025,Nice,USC Corte,Away,Round of 64,,1 (5),1 (3),30,17,,,0,,1 (3),1 (5),6.0,2.0,,,0.0
-2025-01-03,21:00 (20:00),Ligue 1,2024-2025,Nice,Rennes,Home,Matchweek 16,1.5,3,2,9,6,14.5,0,0,1.7,2,3,10.0,5.0,19.4,0.0,0.0
-2025-01-11,19:00 (18:00),Ligue 1,2024-2025,Nice,Reims,Away,Matchweek 17,2.5,4,2,14,8,15.1,0,1,0.8,2,4,12.0,3.0,18.9,0.0,0.0
-2025-01-14,20:45 (19:45),Coupe de France,2024-2025,Nice,Bastia,Away,Round of 32,,1,0,12,4,,,0,,0,1,14.0,3.0,,,0.0
-2025-01-17,21:05 (20:05),Ligue 1,2024-2025,Nice,Lille,Away,Matchweek 18,2.8,1,2,11,3,12.0,0,0,1.1,2,1,11.0,4.0,15.5,1.0,0.0
-2025-01-23,21:00 (20:00),Europa Lg,2024-2025,Nice,se Elfsborg,Away,League phase,1.7,0,1,22,5,18.3,0,0,0.7,1,0,9.0,1.0,13.4,0.0,0.0
-2025-01-26,20:45 (19:45),Ligue 1,2024-2025,Nice,Marseille,Home,Matchweek 19,1.2,2,0,14,5,16.6,0,0,0.8,0,2,18.0,6.0,18.9,1.0,0.0
-2025-01-30,21:00 (20:00),Europa Lg,2024-2025,Nice,no Bodø/Glimt,Home,League phase,1.0,1,1,16,3,20.1,0,0,0.9,1,1,18.0,7.0,17.7,0.0,0.0
-2025-02-02,15:00 (14:00),Ligue 1,2024-2025,Nice,Toulouse,Away,Matchweek 20,1.7,1,1,12,2,18.8,0,1,1.4,1,1,15.0,4.0,12.2,0.0,0.0
-2025-02-05,20:45 (19:45),Coupe de France,2024-2025,Nice,Stade Briochin,Away,Round of 16,,1,2,14,3,,,0,,2,1,10.0,3.0,,,0.0
-2025-02-08,17:00 (16:00),Ligue 1,2024-2025,Nice,Lens,Home,Matchweek 21,2.2,2,0,15,6,16.6,1,1,1.2,0,2,12.0,3.0,19.3,0.0,0.0
-2025-02-16,17:15 (16:15),Ligue 1,2024-2025,Nice,Le Havre,Away,Matchweek 22,1.4,3,1,9,3,19.9,0,0,0.7,1,3,14.0,4.0,16.4,0.0,0.0
-2025-02-23,17:15 (16:15),Ligue 1,2024-2025,Nice,Montpellier,Home,Matchweek 23,1.8,2,0,16,6,16.5,0,0,0.6,0,2,13.0,1.0,22.2,1.0,0.0
-2025-03-01,17:00 (16:00),Ligue 1,2024-2025,Nice,Saint-Étienne,Away,Matchweek 24,1.8,3,1,16,9,14.5,0,0,0.9,1,3,12.0,3.0,16.2,0.0,0.0
+2025-02-22,17:00,Ligue 1,2024-2025,Monaco,Lille,Away,Matchweek 23,2.3,1,2,13,3,12.8,0,0,1.1,2,1,9.0,6.0,17.7,0.0,0.0
+2025-02-28,20:45,Ligue 1,2024-2025,Monaco,Reims,Home,Matchweek 24,3.8,3,0,23,9,13.6,0,0,0.6,0,3,9.0,5.0,18.0,0.0,0.0
+2025-03-07,20:45,Ligue 1,2024-2025,Monaco,Toulouse,Away,Matchweek 25,2.4,1,1,13,3,12.8,0,0,0.6,1,1,8.0,3.0,17.4,0.0,0.0
+2025-03-15,19:00,Ligue 1,2024-2025,Monaco,Angers,Away,Matchweek 26,2.0,2,0,15,4,17.9,0,1,0.5,0,2,6.0,2.0,19.3,0.0,0.0
+2025-03-29,21:05,Ligue 1,2024-2025,Monaco,Nice,Home,Matchweek 27,2.4,2,1,16,5,17.8,0,0,0.5,1,2,9.0,4.0,16.4,0.0,0.0
+2025-04-05,19:00,Ligue 1,2024-2025,Monaco,Brest,Away,Matchweek 28,1.5,1,2,9,1,15.8,0,1,1.0,2,1,13.0,5.0,18.5,0.0,0.0
+2025-04-12,17:00,Ligue 1,2024-2025,Monaco,Marseille,Home,Matchweek 29,2.6,3,0,14,9,17.0,0,1,1.1,0,3,8.0,4.0,14.1,0.0,0.0
+2025-04-19,19:00,Ligue 1,2024-2025,Monaco,Strasbourg,Home,Matchweek 30,0.9,0,0,12,4,15.6,0,0,0.4,0,0,5.0,2.0,19.4,0.0,0.0
+2025-04-26,19:00,Ligue 1,2024-2025,Monaco,Le Havre,Away,Matchweek 31,2.9,1,1,20,7,13.7,0,0,0.5,1,1,9.0,3.0,21.5,0.0,0.0
+2025-05-03,21:05,Ligue 1,2024-2025,Monaco,Saint-Étienne,Away,Matchweek 32,2.0,3,1,12,6,17.1,1,0,0.6,1,3,11.0,1.0,17.8,0.0,0.0
+2025-05-10,21:00,Ligue 1,2024-2025,Monaco,Lyon,Home,Matchweek 33,1.2,2,0,11,5,13.0,1,0,0.4,0,2,9.0,4.0,21.7,0.0,0.0
+2025-05-17,21:00,Ligue 1,2024-2025,Monaco,Lens,Away,Matchweek 34,0.5,0,4,6,4,19.9,0,0,1.7,4,0,15.0,5.0,18.0,0.0,0.0
+2024-08-18,15:00,Ligue 1,2024-2025,Nice,Auxerre,Away,Matchweek 1,0.7,1,2,9,2,14.4,1,0,1.8,2,1,16.0,7.0,16.0,1.0,0.0
+2024-08-25,17:00,Ligue 1,2024-2025,Nice,Toulouse,Home,Matchweek 2,1.3,1,1,11,3,13.6,1,0,1.0,1,1,15.0,3.0,17.8,1.0,0.0
+2024-09-01,17:00,Ligue 1,2024-2025,Nice,Angers,Away,Matchweek 3,2.2,4,1,14,8,15.3,0,0,1.4,1,4,13.0,6.0,22.7,1.0,1.0
+2024-09-14,17:00,Ligue 1,2024-2025,Nice,Marseille,Away,Matchweek 4,1.9,0,2,12,4,13.6,1,0,0.7,2,0,10.0,5.0,19.4,0.0,0.0
+2024-09-20,20:45,Ligue 1,2024-2025,Nice,Saint-Étienne,Home,Matchweek 5,4.7,8,0,17,11,15.3,0,1,0.3,0,8,8.0,2.0,20.4,0.0,0.0
+2024-09-25,21:00,Europa Lg,2024-2025,Nice,es Real Sociedad,Home,League phase,1.3,1,1,9,4,21.7,0,0,0.7,1,1,8.0,2.0,21.8,0.0,0.0
+2024-09-28,17:00,Ligue 1,2024-2025,Nice,Lens,Away,Matchweek 6,1.1,0,0,15,4,18.6,3,0,1.9,0,0,22.0,6.0,15.9,0.0,0.0
+2024-10-03,18:45,Europa Lg,2024-2025,Nice,it Lazio,Away,League phase,1.0,1,4,11,4,18.8,0,0,1.9,4,1,12.0,4.0,19.7,0.0,1.0
+2024-10-06,20:45,Ligue 1,2024-2025,Nice,Paris S-G,Home,Matchweek 7,0.5,1,1,9,3,17.3,0,0,1.3,1,1,19.0,7.0,18.6,0.0,0.0
+2024-10-20,17:00,Ligue 1,2024-2025,Nice,Nantes,Away,Matchweek 8,0.8,1,1,13,7,17.6,0,0,0.5,1,1,11.0,7.0,19.5,0.0,0.0
+2024-10-24,18:45,Europa Lg,2024-2025,Nice,hu Ferencváros,Away,League phase,1.0,0,1,16,4,15.1,0,0,1.5,1,0,15.0,5.0,18.4,1.0,0.0
+2024-10-27,17:00,Ligue 1,2024-2025,Nice,Monaco,Home,Matchweek 9,1.6,2,1,17,9,18.8,0,0,0.5,1,2,11.0,5.0,20.0,0.0,0.0
+2024-11-02,19:00,Ligue 1,2024-2025,Nice,Brest,Away,Matchweek 10,1.4,1,0,12,3,14.2,0,0,1.0,0,1,16.0,6.0,17.1,0.0,0.0
+2024-11-07,18:45,Europa Lg,2024-2025,Nice,nl Twente,Home,League phase,1.3,2,2,13,3,17.4,1,0,1.0,2,2,14.0,6.0,16.6,0.0,0.0
+2024-11-10,15:00,Ligue 1,2024-2025,Nice,Lille,Home,Matchweek 11,2.1,2,2,17,5,13.8,0,0,1.7,2,2,13.0,6.0,18.8,1.0,0.0
+2024-11-24,20:45,Ligue 1,2024-2025,Nice,Strasbourg,Home,Matchweek 12,2.1,2,1,15,5,16.7,1,0,0.4,1,2,10.0,3.0,21.6,0.0,0.0
+2024-11-28,21:00,Europa Lg,2024-2025,Nice,sct Rangers,Home,League phase,1.4,1,4,19,7,19.5,2,0,2.2,4,1,14.0,8.0,15.2,0.0,0.0
+2024-12-01,17:00,Ligue 1,2024-2025,Nice,Lyon,Away,Matchweek 13,2.1,1,4,16,6,17.1,0,0,2.7,4,1,15.0,7.0,16.2,2.0,1.0
+2024-12-07,19:00,Ligue 1,2024-2025,Nice,Le Havre,Home,Matchweek 14,2.0,2,1,16,4,18.2,1,1,1.1,1,2,12.0,1.0,15.4,1.0,0.0
+2024-12-12,18:45,Europa Lg,2024-2025,Nice,be Union SG,Away,League phase,1.8,1,2,13,2,22.0,0,0,3.8,2,1,24.0,10.0,12.7,0.0,0.0
+2024-12-15,15:00,Ligue 1,2024-2025,Nice,Montpellier,Away,Matchweek 15,1.4,2,2,18,6,17.7,1,0,2.0,2,2,21.0,8.0,16.3,0.0,0.0
+2024-12-21,18:00,Coupe de France,2024-2025,Nice,USC Corte,Away,Round of 64,,1 (5),1 (3),30,17,,,0,,1 (3),1 (5),6.0,2.0,,,0.0
+2025-01-03,21:00,Ligue 1,2024-2025,Nice,Rennes,Home,Matchweek 16,1.5,3,2,9,6,14.5,0,0,1.7,2,3,10.0,5.0,19.4,0.0,0.0
+2025-01-11,19:00,Ligue 1,2024-2025,Nice,Reims,Away,Matchweek 17,2.5,4,2,14,8,15.1,0,1,0.8,2,4,12.0,3.0,18.9,0.0,0.0
+2025-01-14,20:45,Coupe de France,2024-2025,Nice,Bastia,Away,Round of 32,,1,0,12,4,,,0,,0,1,14.0,3.0,,,0.0
+2025-01-17,21:05,Ligue 1,2024-2025,Nice,Lille,Away,Matchweek 18,2.8,1,2,11,3,12.0,0,0,1.1,2,1,11.0,4.0,15.5,1.0,0.0
+2025-01-23,21:00,Europa Lg,2024-2025,Nice,se Elfsborg,Away,League phase,1.7,0,1,22,5,18.3,0,0,0.7,1,0,9.0,1.0,13.4,0.0,0.0
+2025-01-26,20:45,Ligue 1,2024-2025,Nice,Marseille,Home,Matchweek 19,1.2,2,0,14,5,16.6,0,0,0.8,0,2,18.0,6.0,18.9,1.0,0.0
+2025-01-30,21:00,Europa Lg,2024-2025,Nice,no Bodø/Glimt,Home,League phase,1.0,1,1,16,3,20.1,0,0,0.9,1,1,18.0,7.0,17.7,0.0,0.0
+2025-02-02,15:00,Ligue 1,2024-2025,Nice,Toulouse,Away,Matchweek 20,1.7,1,1,12,2,18.8,0,1,1.4,1,1,15.0,4.0,12.2,0.0,0.0
+2025-02-05,20:45,Coupe de France,2024-2025,Nice,Stade Briochin,Away,Round of 16,,1,2,14,3,,,0,,2,1,10.0,3.0,,,0.0
+2025-02-08,17:00,Ligue 1,2024-2025,Nice,Lens,Home,Matchweek 21,2.2,2,0,15,6,16.6,1,1,1.2,0,2,12.0,3.0,19.3,0.0,0.0
+2025-02-16,17:15,Ligue 1,2024-2025,Nice,Le Havre,Away,Matchweek 22,1.4,3,1,9,3,19.9,0,0,0.7,1,3,14.0,4.0,16.4,0.0,0.0
+2025-02-23,17:15,Ligue 1,2024-2025,Nice,Montpellier,Home,Matchweek 23,1.8,2,0,16,6,16.5,0,0,0.6,0,2,13.0,1.0,22.2,1.0,0.0
+2025-03-01,17:00,Ligue 1,2024-2025,Nice,Saint-Étienne,Away,Matchweek 24,1.8,3,1,16,9,14.5,0,0,0.9,1,3,12.0,3.0,16.2,0.0,0.0
 Date,Time,Comp,2024-2025,Nice,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
-2025-03-09,20:45 (19:45),Ligue 1,2024-2025,Nice,Lyon,Home,Matchweek 25,1.4,0,2,18,3,18.9,1,0,1.1,2,0,8.0,5.0,20.8,0.0,0.0
-2025-03-14,20:45 (19:45),Ligue 1,2024-2025,Nice,Auxerre,Home,Matchweek 26,2.0,1,1,20,6,13.3,1,0,0.7,1,1,10.0,4.0,19.3,0.0,0.0
-2025-03-29,21:05 (20:05),Ligue 1,2024-2025,Nice,Monaco,Away,Matchweek 27,0.5,1,2,9,4,16.4,0,0,2.4,2,1,16.0,5.0,17.8,0.0,0.0
-2025-04-04,20:45 (18:45),Ligue 1,2024-2025,Nice,Nantes,Home,Matchweek 28,1.9,1,2,21,9,18.4,2,0,0.5,2,1,8.0,4.0,20.8,0.0,0.0
-2025-04-12,21:05 (19:05),Ligue 1,2024-2025,Nice,Strasbourg,Away,Matchweek 29,1.7,2,2,23,6,16.7,0,0,0.7,2,2,11.0,4.0,19.2,1.0,0.0
-2025-04-20,17:15 (15:15),Ligue 1,2024-2025,Nice,Angers,Home,Matchweek 30,2.8,2,1,22,8,17.2,0,0,0.4,1,2,6.0,3.0,13.4,0.0,0.0
-2025-04-25,20:45 (18:45),Ligue 1,2024-2025,Nice,Paris S-G,Away,Matchweek 31,1.0,3,1,7,3,12.9,0,0,3.0,1,3,32.0,13.0,16.9,1.0,0.0
-2025-05-02,20:45 (18:45),Ligue 1,2024-2025,Nice,Reims,Home,Matchweek 32,1.5,1,0,8,2,17.9,0,0,1.3,0,1,16.0,3.0,18.8,0.0,0.0
-2025-05-10,21:00 (19:00),Ligue 1,2024-2025,Nice,Rennes,Away,Matchweek 33,1.1,0,2,14,6,16.3,0,0,1.7,2,0,10.0,4.0,17.9,1.0,0.0
-2025-05-17,21:00 (19:00),Ligue 1,2024-2025,Nice,Brest,Home,Matchweek 34,4.9,6,0,17,8,14.1,0,1,0.9,0,6,10.0,1.0,17.8,0.0,0.0
-2024-08-06,20:30 (18:30),Champions Lg,2024-2025,Lille,tr Fenerbahçe,Home,Third qualifying round,,2,1,,,,,0,,1,2,,,,,0.0
-2024-08-13,20:00 (17:00),Champions Lg,2024-2025,Lille,tr Fenerbahçe,Away,Third qualifying round,,1,1,,,,,1,,1,1,,,,,0.0
-2024-08-17,19:00 (17:00),Ligue 1,2024-2025,Lille,Reims,Away,Matchweek 1,2.1,2,0,22,6,15.8,1,0,0.1,0,2,2.0,0.0,26.6,0.0,0.0
-2024-08-20,21:00 (19:00),Champions Lg,2024-2025,Lille,cz Slavia Prague,Home,Play-off round,,2,0,16,7,,,0,,0,2,10.0,2.0,,,0.0
-2024-08-24,19:00 (17:00),Ligue 1,2024-2025,Lille,Angers,Home,Matchweek 2,0.9,2,0,11,6,18.8,1,0,0.6,0,2,6.0,2.0,17.7,0.0,0.0
-2024-08-28,21:00 (19:00),Champions Lg,2024-2025,Lille,cz Slavia Prague,Away,Play-off round,,1,2,8,4,,,0,,2,1,17.0,7.0,,,0.0
-2024-09-01,20:45 (18:45),Ligue 1,2024-2025,Lille,Paris S-G,Home,Matchweek 3,1.4,1,3,8,4,15.7,0,0,2.6,3,1,10.0,6.0,13.4,0.0,1.0
-2024-09-13,20:45 (18:45),Ligue 1,2024-2025,Lille,Saint-Étienne,Away,Matchweek 4,1.2,0,1,17,4,15.8,0,0,1.2,1,0,10.0,5.0,18.9,1.0,0.0
-2024-09-17,20:00 (19:00),Champions Lg,2024-2025,Lille,pt Sporting CP,Away,League phase,0.4,0,2,3,2,18.8,0,0,1.6,2,0,18.0,5.0,18.5,1.0,0.0
-2024-09-21,17:00 (15:00),Ligue 1,2024-2025,Lille,Strasbourg,Home,Matchweek 5,2.6,3,3,14,6,18.1,0,1,3.2,3,3,12.0,9.0,11.5,0.0,0.0
-2024-09-28,19:00 (17:00),Ligue 1,2024-2025,Lille,Le Havre,Away,Matchweek 6,3.1,3,0,17,9,17.7,0,0,0.4,0,3,7.0,4.0,19.1,0.0,0.0
-2024-10-02,21:00 (19:00),Champions Lg,2024-2025,Lille,es Real Madrid,Home,League phase,1.1,1,0,6,2,20.6,1,1,2.0,0,1,12.0,5.0,13.4,0.0,0.0
-2024-10-05,19:00 (17:00),Ligue 1,2024-2025,Lille,Toulouse,Home,Matchweek 7,1.6,2,1,10,3,16.9,1,0,1.1,1,2,9.0,2.0,15.8,0.0,0.0
-2024-10-18,20:45 (18:45),Ligue 1,2024-2025,Lille,Monaco,Away,Matchweek 8,0.2,0,0,3,1,15.9,0,0,1.2,0,0,14.0,4.0,16.1,1.0,0.0
-2024-10-23,21:00 (19:00),Champions Lg,2024-2025,Lille,es Atlético Madrid,Away,League phase,1.3,3,1,7,2,16.8,0,1,2.3,1,3,11.0,5.0,13.4,0.0,0.0
-2024-10-26,21:00 (19:00),Ligue 1,2024-2025,Lille,Lens,Away,Matchweek 9,1.8,2,0,10,2,16.3,0,1,1.0,0,2,11.0,4.0,17.7,0.0,0.0
-2024-11-01,21:00 (20:00),Ligue 1,2024-2025,Lille,Lyon,Home,Matchweek 10,1.7,1,1,14,2,17.4,2,0,1.2,1,1,14.0,3.0,13.3,0.0,0.0
-2024-11-05,21:00 (20:00),Champions Lg,2024-2025,Lille,it Juventus,Home,League phase,0.8,1,1,6,3,15.5,0,0,1.4,1,1,10.0,2.0,20.9,0.0,1.0
-2024-11-10,15:00 (14:00),Ligue 1,2024-2025,Lille,Nice,Away,Matchweek 11,1.7,2,2,13,6,18.8,1,0,2.1,2,2,17.0,5.0,13.8,0.0,0.0
-2024-11-24,15:00 (14:00),Ligue 1,2024-2025,Lille,Rennes,Home,Matchweek 12,0.4,1,0,5,2,18.4,0,0,0.2,0,1,4.0,1.0,21.2,2.0,0.0
-2024-11-27,21:00 (20:00),Champions Lg,2024-2025,Lille,it Bologna,Away,League phase,2.1,2,1,15,7,14.0,1,0,1.7,1,2,12.0,6.0,15.5,1.0,0.0
-2024-12-01,15:00 (14:00),Ligue 1,2024-2025,Lille,Montpellier,Away,Matchweek 13,2.2,2,2,11,2,20.7,0,2,1.4,2,2,11.0,5.0,17.0,0.0,0.0
-2024-12-06,19:00 (18:00),Ligue 1,2024-2025,Lille,Brest,Home,Matchweek 14,2.5,3,1,9,5,15.5,0,1,0.7,1,3,7.0,3.0,20.3,1.0,0.0
-2024-12-11,18:45 (17:45),Champions Lg,2024-2025,Lille,at Sturm Graz,Home,League phase,2.0,3,2,18,9,15.7,0,0,1.3,2,3,10.0,4.0,17.9,0.0,0.0
-2024-12-14,17:00 (16:00),Ligue 1,2024-2025,Lille,Marseille,Away,Matchweek 15,1.4,1,1,10,5,16.4,0,0,1.2,1,1,9.0,3.0,16.3,0.0,0.0
-2024-12-20,21:00 (20:00),Coupe de France,2024-2025,Lille,FC Rouen,Away,Round of 64,,1,0,15,6,,,0,,0,1,10.0,1.0,,,0.0
-2025-01-04,19:00 (18:00),Ligue 1,2024-2025,Lille,Nantes,Home,Matchweek 16,1.2,1,1,13,3,14.0,0,0,1.3,1,1,5.0,1.0,21.2,0.0,1.0
-2025-01-10,21:05 (20:05),Ligue 1,2024-2025,Lille,Auxerre,Away,Matchweek 17,1.5,0,0,12,4,20.0,0,0,0.8,0,0,13.0,3.0,19.8,0.0,0.0
-2025-01-14,21:10 (20:10),Coupe de France,2024-2025,Lille,Marseille,Away,Round of 32,,1 (4),1 (3),11,5,,,0,,1 (3),1 (4),13.0,7.0,,,0.0
-2025-01-17,21:05 (20:05),Ligue 1,2024-2025,Lille,Nice,Home,Matchweek 18,1.1,2,1,11,4,15.5,1,0,2.8,1,2,11.0,3.0,12.0,0.0,0.0
-2025-01-21,20:00,Champions Lg,2024-2025,Lille,eng Liverpool,Away,League phase,0.5,1,2,4,1,16.6,0,0,2.5,2,1,13.0,7.0,15.8,0.0,0.0
-2025-01-25,19:00 (18:00),Ligue 1,2024-2025,Lille,Strasbourg,Away,Matchweek 19,1.8,1,2,15,6,13.6,0,0,1.1,2,1,11.0,7.0,16.5,0.0,0.0
-2025-01-29,21:00 (20:00),Champions Lg,2024-2025,Lille,nl Feyenoord,Home,League phase,1.3,6,1,14,5,15.1,0,0,0.7,1,6,7.0,3.0,12.1,0.0,0.0
-2025-02-01,21:05 (20:05),Ligue 1,2024-2025,Lille,Saint-Étienne,Home,Matchweek 20,3.4,4,1,28,12,17.1,1,1,2.0,1,4,8.0,1.0,17.1,0.0,1.0
-2025-02-04,19:00 (18:00),Coupe de France,2024-2025,Lille,Dunkerque,Home,Round of 16,,1 (4),1 (5),17,8,,,0,,1 (5),1 (4),5.0,1.0,,,0.0
+2025-03-09,20:45,Ligue 1,2024-2025,Nice,Lyon,Home,Matchweek 25,1.4,0,2,18,3,18.9,1,0,1.1,2,0,8.0,5.0,20.8,0.0,0.0
+2025-03-14,20:45,Ligue 1,2024-2025,Nice,Auxerre,Home,Matchweek 26,2.0,1,1,20,6,13.3,1,0,0.7,1,1,10.0,4.0,19.3,0.0,0.0
+2025-03-29,21:05,Ligue 1,2024-2025,Nice,Monaco,Away,Matchweek 27,0.5,1,2,9,4,16.4,0,0,2.4,2,1,16.0,5.0,17.8,0.0,0.0
+2025-04-04,20:45,Ligue 1,2024-2025,Nice,Nantes,Home,Matchweek 28,1.9,1,2,21,9,18.4,2,0,0.5,2,1,8.0,4.0,20.8,0.0,0.0
+2025-04-12,21:05,Ligue 1,2024-2025,Nice,Strasbourg,Away,Matchweek 29,1.7,2,2,23,6,16.7,0,0,0.7,2,2,11.0,4.0,19.2,1.0,0.0
+2025-04-20,17:15,Ligue 1,2024-2025,Nice,Angers,Home,Matchweek 30,2.8,2,1,22,8,17.2,0,0,0.4,1,2,6.0,3.0,13.4,0.0,0.0
+2025-04-25,20:45,Ligue 1,2024-2025,Nice,Paris S-G,Away,Matchweek 31,1.0,3,1,7,3,12.9,0,0,3.0,1,3,32.0,13.0,16.9,1.0,0.0
+2025-05-02,20:45,Ligue 1,2024-2025,Nice,Reims,Home,Matchweek 32,1.5,1,0,8,2,17.9,0,0,1.3,0,1,16.0,3.0,18.8,0.0,0.0
+2025-05-10,21:00,Ligue 1,2024-2025,Nice,Rennes,Away,Matchweek 33,1.1,0,2,14,6,16.3,0,0,1.7,2,0,10.0,4.0,17.9,1.0,0.0
+2025-05-17,21:00,Ligue 1,2024-2025,Nice,Brest,Home,Matchweek 34,4.9,6,0,17,8,14.1,0,1,0.9,0,6,10.0,1.0,17.8,0.0,0.0
+2024-08-06,20:30,Champions Lg,2024-2025,Lille,tr Fenerbahçe,Home,Third qualifying round,,2,1,,,,,0,,1,2,,,,,0.0
+2024-08-13,20:00 (19:00),Champions Lg,2024-2025,Lille,tr Fenerbahçe,Away,Third qualifying round,,1,1,,,,,1,,1,1,,,,,0.0
+2024-08-17,19:00,Ligue 1,2024-2025,Lille,Reims,Away,Matchweek 1,2.1,2,0,22,6,15.8,1,0,0.1,0,2,2.0,0.0,26.6,0.0,0.0
+2024-08-20,21:00,Champions Lg,2024-2025,Lille,cz Slavia Prague,Home,Play-off round,,2,0,16,7,,,0,,0,2,10.0,2.0,,,0.0
+2024-08-24,19:00,Ligue 1,2024-2025,Lille,Angers,Home,Matchweek 2,0.9,2,0,11,6,18.8,1,0,0.6,0,2,6.0,2.0,17.7,0.0,0.0
+2024-08-28,21:00,Champions Lg,2024-2025,Lille,cz Slavia Prague,Away,Play-off round,,1,2,8,4,,,0,,2,1,17.0,7.0,,,0.0
+2024-09-01,20:45,Ligue 1,2024-2025,Lille,Paris S-G,Home,Matchweek 3,1.4,1,3,8,4,15.7,0,0,2.6,3,1,10.0,6.0,13.4,0.0,1.0
+2024-09-13,20:45,Ligue 1,2024-2025,Lille,Saint-Étienne,Away,Matchweek 4,1.2,0,1,17,4,15.8,0,0,1.2,1,0,10.0,5.0,18.9,1.0,0.0
+2024-09-17,20:00 (21:00),Champions Lg,2024-2025,Lille,pt Sporting CP,Away,League phase,0.4,0,2,3,2,18.8,0,0,1.6,2,0,18.0,5.0,18.5,1.0,0.0
+2024-09-21,17:00,Ligue 1,2024-2025,Lille,Strasbourg,Home,Matchweek 5,2.6,3,3,14,6,18.1,0,1,3.2,3,3,12.0,9.0,11.5,0.0,0.0
+2024-09-28,19:00,Ligue 1,2024-2025,Lille,Le Havre,Away,Matchweek 6,3.1,3,0,17,9,17.7,0,0,0.4,0,3,7.0,4.0,19.1,0.0,0.0
+2024-10-02,21:00,Champions Lg,2024-2025,Lille,es Real Madrid,Home,League phase,1.1,1,0,6,2,20.6,1,1,2.0,0,1,12.0,5.0,13.4,0.0,0.0
+2024-10-05,19:00,Ligue 1,2024-2025,Lille,Toulouse,Home,Matchweek 7,1.6,2,1,10,3,16.9,1,0,1.1,1,2,9.0,2.0,15.8,0.0,0.0
+2024-10-18,20:45,Ligue 1,2024-2025,Lille,Monaco,Away,Matchweek 8,0.2,0,0,3,1,15.9,0,0,1.2,0,0,14.0,4.0,16.1,1.0,0.0
+2024-10-23,21:00,Champions Lg,2024-2025,Lille,es Atlético Madrid,Away,League phase,1.3,3,1,7,2,16.8,0,1,2.3,1,3,11.0,5.0,13.4,0.0,0.0
+2024-10-26,21:00,Ligue 1,2024-2025,Lille,Lens,Away,Matchweek 9,1.8,2,0,10,2,16.3,0,1,1.0,0,2,11.0,4.0,17.7,0.0,0.0
+2024-11-01,21:00,Ligue 1,2024-2025,Lille,Lyon,Home,Matchweek 10,1.7,1,1,14,2,17.4,2,0,1.2,1,1,14.0,3.0,13.3,0.0,0.0
+2024-11-05,21:00,Champions Lg,2024-2025,Lille,it Juventus,Home,League phase,0.8,1,1,6,3,15.5,0,0,1.4,1,1,10.0,2.0,20.9,0.0,1.0
+2024-11-10,15:00,Ligue 1,2024-2025,Lille,Nice,Away,Matchweek 11,1.7,2,2,13,6,18.8,1,0,2.1,2,2,17.0,5.0,13.8,0.0,0.0
+2024-11-24,15:00,Ligue 1,2024-2025,Lille,Rennes,Home,Matchweek 12,0.4,1,0,5,2,18.4,0,0,0.2,0,1,4.0,1.0,21.2,2.0,0.0
+2024-11-27,21:00,Champions Lg,2024-2025,Lille,it Bologna,Away,League phase,2.1,2,1,15,7,14.0,1,0,1.7,1,2,12.0,6.0,15.5,1.0,0.0
+2024-12-01,15:00,Ligue 1,2024-2025,Lille,Montpellier,Away,Matchweek 13,2.2,2,2,11,2,20.7,0,2,1.4,2,2,11.0,5.0,17.0,0.0,0.0
+2024-12-06,19:00,Ligue 1,2024-2025,Lille,Brest,Home,Matchweek 14,2.5,3,1,9,5,15.5,0,1,0.7,1,3,7.0,3.0,20.3,1.0,0.0
+2024-12-11,18:45,Champions Lg,2024-2025,Lille,at Sturm Graz,Home,League phase,2.0,3,2,18,9,15.7,0,0,1.3,2,3,10.0,4.0,17.9,0.0,0.0
+2024-12-14,17:00,Ligue 1,2024-2025,Lille,Marseille,Away,Matchweek 15,1.4,1,1,10,5,16.4,0,0,1.2,1,1,9.0,3.0,16.3,0.0,0.0
+2024-12-20,21:00,Coupe de France,2024-2025,Lille,FC Rouen,Away,Round of 64,,1,0,15,6,,,0,,0,1,10.0,1.0,,,0.0
+2025-01-04,19:00,Ligue 1,2024-2025,Lille,Nantes,Home,Matchweek 16,1.2,1,1,13,3,14.0,0,0,1.3,1,1,5.0,1.0,21.2,0.0,1.0
+2025-01-10,21:05,Ligue 1,2024-2025,Lille,Auxerre,Away,Matchweek 17,1.5,0,0,12,4,20.0,0,0,0.8,0,0,13.0,3.0,19.8,0.0,0.0
+2025-01-14,21:10,Coupe de France,2024-2025,Lille,Marseille,Away,Round of 32,,1 (4),1 (3),11,5,,,0,,1 (3),1 (4),13.0,7.0,,,0.0
+2025-01-17,21:05,Ligue 1,2024-2025,Lille,Nice,Home,Matchweek 18,1.1,2,1,11,4,15.5,1,0,2.8,1,2,11.0,3.0,12.0,0.0,0.0
+2025-01-21,20:00 (21:00),Champions Lg,2024-2025,Lille,eng Liverpool,Away,League phase,0.5,1,2,4,1,16.6,0,0,2.5,2,1,13.0,7.0,15.8,0.0,0.0
+2025-01-25,19:00,Ligue 1,2024-2025,Lille,Strasbourg,Away,Matchweek 19,1.8,1,2,15,6,13.6,0,0,1.1,2,1,11.0,7.0,16.5,0.0,0.0
+2025-01-29,21:00,Champions Lg,2024-2025,Lille,nl Feyenoord,Home,League phase,1.3,6,1,14,5,15.1,0,0,0.7,1,6,7.0,3.0,12.1,0.0,0.0
+2025-02-01,21:05,Ligue 1,2024-2025,Lille,Saint-Étienne,Home,Matchweek 20,3.4,4,1,28,12,17.1,1,1,2.0,1,4,8.0,1.0,17.1,0.0,1.0
+2025-02-04,19:00,Coupe de France,2024-2025,Lille,Dunkerque,Home,Round of 16,,1 (4),1 (5),17,8,,,0,,1 (5),1 (4),5.0,1.0,,,0.0
 Date,Time,Comp,2024-2025,Lille,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
-2025-02-08,19:00 (18:00),Ligue 1,2024-2025,Lille,Le Havre,Home,Matchweek 21,1.6,1,2,14,5,16.5,0,0,1.8,2,1,14.0,6.0,12.2,0.0,0.0
-2025-02-16,20:45 (19:45),Ligue 1,2024-2025,Lille,Rennes,Away,Matchweek 22,3.0,2,0,17,6,13.5,1,0,0.4,0,2,4.0,0.0,15.8,0.0,0.0
-2025-02-22,17:00 (16:00),Ligue 1,2024-2025,Lille,Monaco,Home,Matchweek 23,1.1,2,1,9,6,17.7,0,0,2.3,1,2,13.0,3.0,12.8,0.0,0.0
-2025-03-01,21:05 (20:05),Ligue 1,2024-2025,Lille,Paris S-G,Away,Matchweek 24,1.1,1,4,6,2,19.4,1,0,3.4,4,1,26.0,11.0,15.3,1.0,0.0
-2025-03-04,21:00 (20:00),Champions Lg,2024-2025,Lille,de Dortmund,Away,Round of 16,0.9,1,1,9,1,20.3,1,0,0.3,1,1,7.0,1.0,17.4,0.0,0.0
-2025-03-08,19:00 (18:00),Ligue 1,2024-2025,Lille,Montpellier,Home,Matchweek 25,1.5,1,0,18,7,18.3,1,0,0.3,0,1,10.0,3.0,25.3,1.0,0.0
-2025-03-12,18:45 (17:45),Champions Lg,2024-2025,Lille,de Dortmund,Home,Round of 16,1.2,1,2,11,4,16.7,0,0,3.0,2,1,16.0,5.0,14.2,0.0,1.0
-2025-03-15,17:00 (16:00),Ligue 1,2024-2025,Lille,Nantes,Away,Matchweek 26,1.6,0,1,13,3,13.6,0,0,1.2,1,0,10.0,2.0,12.7,0.0,0.0
-2025-03-30,20:45 (18:45),Ligue 1,2024-2025,Lille,Lens,Home,Matchweek 27,1.9,1,0,11,5,13.9,1,0,0.4,0,1,5.0,1.0,13.8,1.0,0.0
-2025-04-05,21:05 (19:05),Ligue 1,2024-2025,Lille,Lyon,Away,Matchweek 28,0.9,1,2,10,4,16.9,0,0,1.8,2,1,9.0,3.0,22.0,0.0,1.0
-2025-04-12,19:00 (17:00),Ligue 1,2024-2025,Lille,Toulouse,Away,Matchweek 29,0.5,2,1,6,3,16.0,1,0,0.9,1,2,9.0,5.0,14.7,1.0,0.0
-2025-04-20,15:00 (13:00),Ligue 1,2024-2025,Lille,Auxerre,Home,Matchweek 30,2.0,3,1,15,9,17.0,0,0,0.3,1,3,6.0,2.0,20.0,0.0,0.0
-2025-04-27,15:00 (13:00),Ligue 1,2024-2025,Lille,Angers,Away,Matchweek 31,1.4,2,0,9,5,12.4,0,0,0.7,0,2,6.0,3.0,17.6,0.0,0.0
-2025-05-04,20:45 (18:45),Ligue 1,2024-2025,Lille,Marseille,Home,Matchweek 32,0.5,1,1,5,1,19.5,2,0,1.3,1,1,13.0,6.0,16.1,1.0,0.0
-2025-05-10,21:00 (19:00),Ligue 1,2024-2025,Lille,Brest,Away,Matchweek 33,1.9,0,2,18,2,16.5,0,0,1.2,2,0,12.0,4.0,15.3,0.0,0.0
-2025-05-17,21:00 (19:00),Ligue 1,2024-2025,Lille,Reims,Home,Matchweek 34,2.0,2,1,20,4,16.8,0,1,0.1,1,2,5.0,2.0,21.0,0.0,0.0
-2024-08-18,20:45 (18:45),Ligue 1,2024-2025,Lyon,Rennes,Away,Matchweek 1,2.1,0,3,15,1,15.8,0,0,2.0,3,0,22.0,8.0,14.9,1.0,0.0
-2024-08-24,17:00 (15:00),Ligue 1,2024-2025,Lyon,Monaco,Home,Matchweek 2,0.0,0,2,1,0,29.7,0,0,2.2,2,0,21.0,6.0,17.9,0.0,0.0
-2024-08-30,20:45 (18:45),Ligue 1,2024-2025,Lyon,Strasbourg,Home,Matchweek 3,2.9,4,3,20,12,14.6,0,0,2.7,3,4,15.0,8.0,16.9,1.0,0.0
-2024-09-15,20:45 (18:45),Ligue 1,2024-2025,Lyon,Lens,Away,Matchweek 4,0.6,0,0,8,3,20.7,0,0,1.0,0,0,12.0,4.0,18.3,0.0,0.0
-2024-09-22,20:45 (18:45),Ligue 1,2024-2025,Lyon,Marseille,Home,Matchweek 5,3.0,2,3,21,7,16.6,0,0,0.8,3,2,9.0,4.0,23.4,0.0,0.0
-2024-09-26,21:00 (19:00),Europa Lg,2024-2025,Lyon,gr Olympiacos,Home,League phase,1.5,2,0,17,7,17.3,1,0,1.4,0,2,7.0,2.0,11.4,0.0,0.0
-2024-09-29,15:00 (13:00),Ligue 1,2024-2025,Lyon,Toulouse,Away,Matchweek 6,0.4,2,1,4,1,8.7,0,0,0.9,1,2,10.0,4.0,18.3,0.0,0.0
-2024-10-03,20:00 (19:00),Europa Lg,2024-2025,Lyon,sct Rangers,Away,League phase,2.2,4,1,15,7,17.3,0,0,2.0,1,4,16.0,5.0,14.9,0.0,0.0
-2024-10-06,15:00 (13:00),Ligue 1,2024-2025,Lyon,Nantes,Home,Matchweek 7,3.2,2,0,17,6,14.5,0,0,0.9,0,2,11.0,6.0,15.0,0.0,0.0
-2024-10-20,15:00 (13:00),Ligue 1,2024-2025,Lyon,Le Havre,Away,Matchweek 8,2.7,4,0,16,8,19.2,0,0,0.4,0,4,7.0,1.0,20.0,1.0,0.0
-2024-10-24,21:00 (19:00),Europa Lg,2024-2025,Lyon,tr Beşiktaş,Home,League phase,2.7,0,1,30,8,17.1,1,0,1.7,1,0,12.0,5.0,19.3,0.0,0.0
-2024-10-27,15:00 (14:00),Ligue 1,2024-2025,Lyon,Auxerre,Home,Matchweek 9,2.0,2,2,11,7,14.4,0,1,1.5,2,2,19.0,5.0,16.0,0.0,0.0
-2024-11-01,21:00 (20:00),Ligue 1,2024-2025,Lyon,Lille,Away,Matchweek 10,1.2,1,1,14,3,13.3,0,0,1.7,1,1,14.0,2.0,17.4,2.0,0.0
-2024-11-07,21:00 (20:00),Europa Lg,2024-2025,Lyon,de Hoffenheim,Away,League phase,0.9,2,2,11,3,14.2,0,0,1.4,2,2,18.0,11.0,17.9,0.0,0.0
-2024-11-10,20:45 (19:45),Ligue 1,2024-2025,Lyon,Saint-Étienne,Home,Matchweek 11,1.1,1,0,17,7,16.7,1,0,0.6,0,1,10.0,6.0,20.1,1.0,0.0
-2024-11-23,21:00 (20:00),Ligue 1,2024-2025,Lyon,Reims,Away,Matchweek 12,1.7,1,1,13,7,14.4,0,0,1.0,1,1,14.0,6.0,17.8,0.0,0.0
-2024-11-28,21:45 (17:45),Europa Lg,2024-2025,Lyon,az Qarabağ,Away,League phase,2.3,4,1,16,10,15.9,0,0,2.5,1,4,16.0,3.0,18.7,2.0,1.0
-2024-12-01,17:00 (16:00),Ligue 1,2024-2025,Lyon,Nice,Home,Matchweek 13,2.7,4,1,15,7,16.2,2,1,2.1,1,4,16.0,6.0,17.1,0.0,0.0
-2024-12-07,21:00 (20:00),Ligue 1,2024-2025,Lyon,Angers,Away,Matchweek 14,2.0,3,0,16,10,14.9,0,0,0.6,0,3,10.0,2.0,22.1,1.0,0.0
-2024-12-12,21:00 (20:00),Europa Lg,2024-2025,Lyon,de Eint Frankfurt,Home,League phase,2.1,3,2,19,6,15.6,0,0,1.1,2,3,7.0,5.0,14.8,0.0,0.0
-2024-12-15,20:45 (19:45),Ligue 1,2024-2025,Lyon,Paris S-G,Away,Matchweek 15,1.5,1,3,7,3,12.9,0,0,2.9,3,1,12.0,5.0,13.1,0.0,1.0
-2024-12-21,18:00 (17:00),Coupe de France,2024-2025,Lyon,SC Feignies,Away,Round of 64,,2,1,12,5,,,0,,1,2,8.0,4.0,,,0.0
-2025-01-04,21:00 (20:00),Ligue 1,2024-2025,Lyon,Montpellier,Home,Matchweek 16,1.4,1,0,12,1,15.4,0,0,1.2,0,1,16.0,6.0,19.7,1.0,0.0
-2025-01-11,17:00 (16:00),Ligue 1,2024-2025,Lyon,Brest,Away,Matchweek 17,1.4,1,2,10,3,12.0,0,0,1.1,2,1,11.0,6.0,16.0,0.0,0.0
-2025-01-15,18:00 (17:00),Coupe de France,2024-2025,Lyon,Bourgoin-Jal.,Away,Round of 32,,2 (2),2 (4),21,6,,,0,,2 (4),2 (2),9.0,4.0,,,0.0
-2025-01-18,21:05 (20:05),Ligue 1,2024-2025,Lyon,Toulouse,Home,Matchweek 18,0.7,0,0,11,3,17.1,1,0,1.1,0,0,13.0,4.0,14.6,0.0,0.0
-2025-01-23,20:45 (17:45),Europa Lg,2024-2025,Lyon,tr Fenerbahçe,Away,League phase,0.8,0,0,13,7,18.8,2,0,1.0,0,0,11.0,2.0,17.5,1.0,0.0
-2025-01-26,17:15 (16:15),Ligue 1,2024-2025,Lyon,Nantes,Away,Matchweek 19,1.1,1,1,15,4,13.1,1,0,1.2,1,1,7.0,5.0,14.2,0.0,0.0
-2025-01-30,21:00 (20:00),Europa Lg,2024-2025,Lyon,bg Ludogorets,Home,League phase,1.3,1,1,13,8,16.1,0,0,2.4,1,1,15.0,6.0,15.9,0.0,0.0
-2025-02-02,20:45 (19:45),Ligue 1,2024-2025,Lyon,Marseille,Away,Matchweek 20,1.7,2,3,9,3,19.1,0,1,3.2,3,2,20.0,11.0,14.7,0.0,0.0
-2025-02-09,15:00 (14:00),Ligue 1,2024-2025,Lyon,Reims,Home,Matchweek 21,3.3,4,0,15,9,15.4,0,0,0.4,0,4,9.0,2.0,20.3,1.0,0.0
-2025-02-16,15:00 (14:00),Ligue 1,2024-2025,Lyon,Montpellier,Away,Matchweek 22,1.0,4,1,9,6,14.9,0,0,1.4,1,4,11.0,4.0,21.6,1.0,0.0
-2025-02-23,20:45 (19:45),Ligue 1,2024-2025,Lyon,Paris S-G,Home,Matchweek 23,1.8,2,3,14,7,15.8,0,0,2.3,3,2,15.0,7.0,15.9,0.0,0.0
-2025-03-02,15:00 (14:00),Ligue 1,2024-2025,Lyon,Brest,Home,Matchweek 24,1.3,2,1,10,4,18.6,0,0,2.0,1,2,14.0,4.0,18.3,0.0,1.0
-2025-03-06,19:45 (17:45),Europa Lg,2024-2025,Lyon,ro FCSB,Away,Round of 16,1.4,3,1,17,4,15.8,0,0,1.3,1,3,11.0,4.0,17.8,0.0,0.0
+2025-02-08,19:00,Ligue 1,2024-2025,Lille,Le Havre,Home,Matchweek 21,1.6,1,2,14,5,16.5,0,0,1.8,2,1,14.0,6.0,12.2,0.0,0.0
+2025-02-16,20:45,Ligue 1,2024-2025,Lille,Rennes,Away,Matchweek 22,3.0,2,0,17,6,13.5,1,0,0.4,0,2,4.0,0.0,15.8,0.0,0.0
+2025-02-22,17:00,Ligue 1,2024-2025,Lille,Monaco,Home,Matchweek 23,1.1,2,1,9,6,17.7,0,0,2.3,1,2,13.0,3.0,12.8,0.0,0.0
+2025-03-01,21:05,Ligue 1,2024-2025,Lille,Paris S-G,Away,Matchweek 24,1.1,1,4,6,2,19.4,1,0,3.4,4,1,26.0,11.0,15.3,1.0,0.0
+2025-03-04,21:00,Champions Lg,2024-2025,Lille,de Dortmund,Away,Round of 16,0.9,1,1,9,1,20.3,1,0,0.3,1,1,7.0,1.0,17.4,0.0,0.0
+2025-03-08,19:00,Ligue 1,2024-2025,Lille,Montpellier,Home,Matchweek 25,1.5,1,0,18,7,18.3,1,0,0.3,0,1,10.0,3.0,25.3,1.0,0.0
+2025-03-12,18:45,Champions Lg,2024-2025,Lille,de Dortmund,Home,Round of 16,1.2,1,2,11,4,16.7,0,0,3.0,2,1,16.0,5.0,14.2,0.0,1.0
+2025-03-15,17:00,Ligue 1,2024-2025,Lille,Nantes,Away,Matchweek 26,1.6,0,1,13,3,13.6,0,0,1.2,1,0,10.0,2.0,12.7,0.0,0.0
+2025-03-30,20:45,Ligue 1,2024-2025,Lille,Lens,Home,Matchweek 27,1.9,1,0,11,5,13.9,1,0,0.4,0,1,5.0,1.0,13.8,1.0,0.0
+2025-04-05,21:05,Ligue 1,2024-2025,Lille,Lyon,Away,Matchweek 28,0.9,1,2,10,4,16.9,0,0,1.8,2,1,9.0,3.0,22.0,0.0,1.0
+2025-04-12,19:00,Ligue 1,2024-2025,Lille,Toulouse,Away,Matchweek 29,0.5,2,1,6,3,16.0,1,0,0.9,1,2,9.0,5.0,14.7,1.0,0.0
+2025-04-20,15:00,Ligue 1,2024-2025,Lille,Auxerre,Home,Matchweek 30,2.0,3,1,15,9,17.0,0,0,0.3,1,3,6.0,2.0,20.0,0.0,0.0
+2025-04-27,15:00,Ligue 1,2024-2025,Lille,Angers,Away,Matchweek 31,1.4,2,0,9,5,12.4,0,0,0.7,0,2,6.0,3.0,17.6,0.0,0.0
+2025-05-04,20:45,Ligue 1,2024-2025,Lille,Marseille,Home,Matchweek 32,0.5,1,1,5,1,19.5,2,0,1.3,1,1,13.0,6.0,16.1,1.0,0.0
+2025-05-10,21:00,Ligue 1,2024-2025,Lille,Brest,Away,Matchweek 33,1.9,0,2,18,2,16.5,0,0,1.2,2,0,12.0,4.0,15.3,0.0,0.0
+2025-05-17,21:00,Ligue 1,2024-2025,Lille,Reims,Home,Matchweek 34,2.0,2,1,20,4,16.8,0,1,0.1,1,2,5.0,2.0,21.0,0.0,0.0
+2024-08-18,20:45,Ligue 1,2024-2025,Lyon,Rennes,Away,Matchweek 1,2.1,0,3,15,1,15.8,0,0,2.0,3,0,22.0,8.0,14.9,1.0,0.0
+2024-08-24,17:00,Ligue 1,2024-2025,Lyon,Monaco,Home,Matchweek 2,0.0,0,2,1,0,29.7,0,0,2.2,2,0,21.0,6.0,17.9,0.0,0.0
+2024-08-30,20:45,Ligue 1,2024-2025,Lyon,Strasbourg,Home,Matchweek 3,2.9,4,3,20,12,14.6,0,0,2.7,3,4,15.0,8.0,16.9,1.0,0.0
+2024-09-15,20:45,Ligue 1,2024-2025,Lyon,Lens,Away,Matchweek 4,0.6,0,0,8,3,20.7,0,0,1.0,0,0,12.0,4.0,18.3,0.0,0.0
+2024-09-22,20:45,Ligue 1,2024-2025,Lyon,Marseille,Home,Matchweek 5,3.0,2,3,21,7,16.6,0,0,0.8,3,2,9.0,4.0,23.4,0.0,0.0
+2024-09-26,21:00,Europa Lg,2024-2025,Lyon,gr Olympiacos,Home,League phase,1.5,2,0,17,7,17.3,1,0,1.4,0,2,7.0,2.0,11.4,0.0,0.0
+2024-09-29,15:00,Ligue 1,2024-2025,Lyon,Toulouse,Away,Matchweek 6,0.4,2,1,4,1,8.7,0,0,0.9,1,2,10.0,4.0,18.3,0.0,0.0
+2024-10-03,20:00 (21:00),Europa Lg,2024-2025,Lyon,sct Rangers,Away,League phase,2.2,4,1,15,7,17.3,0,0,2.0,1,4,16.0,5.0,14.9,0.0,0.0
+2024-10-06,15:00,Ligue 1,2024-2025,Lyon,Nantes,Home,Matchweek 7,3.2,2,0,17,6,14.5,0,0,0.9,0,2,11.0,6.0,15.0,0.0,0.0
+2024-10-20,15:00,Ligue 1,2024-2025,Lyon,Le Havre,Away,Matchweek 8,2.7,4,0,16,8,19.2,0,0,0.4,0,4,7.0,1.0,20.0,1.0,0.0
+2024-10-24,21:00,Europa Lg,2024-2025,Lyon,tr Beşiktaş,Home,League phase,2.7,0,1,30,8,17.1,1,0,1.7,1,0,12.0,5.0,19.3,0.0,0.0
+2024-10-27,15:00,Ligue 1,2024-2025,Lyon,Auxerre,Home,Matchweek 9,2.0,2,2,11,7,14.4,0,1,1.5,2,2,19.0,5.0,16.0,0.0,0.0
+2024-11-01,21:00,Ligue 1,2024-2025,Lyon,Lille,Away,Matchweek 10,1.2,1,1,14,3,13.3,0,0,1.7,1,1,14.0,2.0,17.4,2.0,0.0
+2024-11-07,21:00,Europa Lg,2024-2025,Lyon,de Hoffenheim,Away,League phase,0.9,2,2,11,3,14.2,0,0,1.4,2,2,18.0,11.0,17.9,0.0,0.0
+2024-11-10,20:45,Ligue 1,2024-2025,Lyon,Saint-Étienne,Home,Matchweek 11,1.1,1,0,17,7,16.7,1,0,0.6,0,1,10.0,6.0,20.1,1.0,0.0
+2024-11-23,21:00,Ligue 1,2024-2025,Lyon,Reims,Away,Matchweek 12,1.7,1,1,13,7,14.4,0,0,1.0,1,1,14.0,6.0,17.8,0.0,0.0
+2024-11-28,21:45 (18:45),Europa Lg,2024-2025,Lyon,az Qarabağ,Away,League phase,2.3,4,1,16,10,15.9,0,0,2.5,1,4,16.0,3.0,18.7,2.0,1.0
+2024-12-01,17:00,Ligue 1,2024-2025,Lyon,Nice,Home,Matchweek 13,2.7,4,1,15,7,16.2,2,1,2.1,1,4,16.0,6.0,17.1,0.0,0.0
+2024-12-07,21:00,Ligue 1,2024-2025,Lyon,Angers,Away,Matchweek 14,2.0,3,0,16,10,14.9,0,0,0.6,0,3,10.0,2.0,22.1,1.0,0.0
+2024-12-12,21:00,Europa Lg,2024-2025,Lyon,de Eint Frankfurt,Home,League phase,2.1,3,2,19,6,15.6,0,0,1.1,2,3,7.0,5.0,14.8,0.0,0.0
+2024-12-15,20:45,Ligue 1,2024-2025,Lyon,Paris S-G,Away,Matchweek 15,1.5,1,3,7,3,12.9,0,0,2.9,3,1,12.0,5.0,13.1,0.0,1.0
+2024-12-21,18:00,Coupe de France,2024-2025,Lyon,SC Feignies,Away,Round of 64,,2,1,12,5,,,0,,1,2,8.0,4.0,,,0.0
+2025-01-04,21:00,Ligue 1,2024-2025,Lyon,Montpellier,Home,Matchweek 16,1.4,1,0,12,1,15.4,0,0,1.2,0,1,16.0,6.0,19.7,1.0,0.0
+2025-01-11,17:00,Ligue 1,2024-2025,Lyon,Brest,Away,Matchweek 17,1.4,1,2,10,3,12.0,0,0,1.1,2,1,11.0,6.0,16.0,0.0,0.0
+2025-01-15,18:00,Coupe de France,2024-2025,Lyon,Bourgoin-Jal.,Away,Round of 32,,2 (2),2 (4),21,6,,,0,,2 (4),2 (2),9.0,4.0,,,0.0
+2025-01-18,21:05,Ligue 1,2024-2025,Lyon,Toulouse,Home,Matchweek 18,0.7,0,0,11,3,17.1,1,0,1.1,0,0,13.0,4.0,14.6,0.0,0.0
+2025-01-23,20:45 (18:45),Europa Lg,2024-2025,Lyon,tr Fenerbahçe,Away,League phase,0.8,0,0,13,7,18.8,2,0,1.0,0,0,11.0,2.0,17.5,1.0,0.0
+2025-01-26,17:15,Ligue 1,2024-2025,Lyon,Nantes,Away,Matchweek 19,1.1,1,1,15,4,13.1,1,0,1.2,1,1,7.0,5.0,14.2,0.0,0.0
+2025-01-30,21:00,Europa Lg,2024-2025,Lyon,bg Ludogorets,Home,League phase,1.3,1,1,13,8,16.1,0,0,2.4,1,1,15.0,6.0,15.9,0.0,0.0
+2025-02-02,20:45,Ligue 1,2024-2025,Lyon,Marseille,Away,Matchweek 20,1.7,2,3,9,3,19.1,0,1,3.2,3,2,20.0,11.0,14.7,0.0,0.0
+2025-02-09,15:00,Ligue 1,2024-2025,Lyon,Reims,Home,Matchweek 21,3.3,4,0,15,9,15.4,0,0,0.4,0,4,9.0,2.0,20.3,1.0,0.0
+2025-02-16,15:00,Ligue 1,2024-2025,Lyon,Montpellier,Away,Matchweek 22,1.0,4,1,9,6,14.9,0,0,1.4,1,4,11.0,4.0,21.6,1.0,0.0
+2025-02-23,20:45,Ligue 1,2024-2025,Lyon,Paris S-G,Home,Matchweek 23,1.8,2,3,14,7,15.8,0,0,2.3,3,2,15.0,7.0,15.9,0.0,0.0
+2025-03-02,15:00,Ligue 1,2024-2025,Lyon,Brest,Home,Matchweek 24,1.3,2,1,10,4,18.6,0,0,2.0,1,2,14.0,4.0,18.3,0.0,1.0
+2025-03-06,19:45 (18:45),Europa Lg,2024-2025,Lyon,ro FCSB,Away,Round of 16,1.4,3,1,17,4,15.8,0,0,1.3,1,3,11.0,4.0,17.8,0.0,0.0
 Date,Time,Comp,2024-2025,Lyon,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
-2025-03-09,20:45 (19:45),Ligue 1,2024-2025,Lyon,Nice,Away,Matchweek 25,1.1,2,0,8,5,20.8,0,0,1.4,0,2,18.0,3.0,18.9,1.0,0.0
-2025-03-13,21:00 (20:00),Europa Lg,2024-2025,Lyon,ro FCSB,Home,Round of 16,2.8,4,0,18,6,18.1,0,0,0.5,0,4,9.0,2.0,19.0,0.0,0.0
-2025-03-16,15:00 (14:00),Ligue 1,2024-2025,Lyon,Le Havre,Home,Matchweek 26,3.9,4,2,15,6,15.5,0,1,1.7,2,4,13.0,4.0,20.1,0.0,1.0
-2025-03-28,20:45 (19:45),Ligue 1,2024-2025,Lyon,Strasbourg,Away,Matchweek 27,2.0,2,4,15,10,18.7,0,1,1.1,4,2,14.0,7.0,19.0,2.0,0.0
-2025-04-05,21:05 (19:05),Ligue 1,2024-2025,Lyon,Lille,Home,Matchweek 28,1.8,2,1,9,3,22.0,0,1,0.9,1,2,10.0,4.0,16.9,0.0,0.0
-2025-04-10,21:00 (19:00),Europa Lg,2024-2025,Lyon,eng Manchester Utd,Home,Quarter-finals,1.8,2,2,16,5,17.4,2,0,1.2,2,2,13.0,5.0,14.2,0.0,0.0
-2025-04-13,20:45 (18:45),Ligue 1,2024-2025,Lyon,Auxerre,Away,Matchweek 29,2.9,3,1,12,6,14.4,0,1,0.7,1,3,14.0,2.0,22.1,1.0,0.0
-2025-04-17,20:00 (19:00),Europa Lg,2024-2025,Lyon,eng Manchester Utd,Away,Quarter-finals,2.5,4,5,20,8,16.8,1,1,3.4,5,4,20.0,7.0,17.8,1.0,1.0
-2025-04-20,20:45 (18:45),Ligue 1,2024-2025,Lyon,Saint-Étienne,Away,Matchweek 30,0.8,1,2,14,2,18.4,0,0,1.6,2,1,18.0,6.0,22.7,1.0,0.0
-2025-04-26,21:05 (19:05),Ligue 1,2024-2025,Lyon,Rennes,Home,Matchweek 31,1.8,4,1,14,8,14.1,0,0,0.8,1,4,10.0,4.0,22.5,0.0,0.0
-2025-05-04,17:15 (15:15),Ligue 1,2024-2025,Lyon,Lens,Home,Matchweek 32,1.0,1,2,18,4,16.4,1,0,0.7,2,1,8.0,3.0,20.9,0.0,0.0
-2025-05-10,21:00 (19:00),Ligue 1,2024-2025,Lyon,Monaco,Away,Matchweek 33,0.4,0,2,9,4,21.7,0,0,1.2,2,0,11.0,5.0,13.0,1.0,0.0
-2025-05-17,21:00 (19:00),Ligue 1,2024-2025,Lyon,Angers,Home,Matchweek 34,3.9,2,0,20,3,17.0,0,1,0.5,0,2,13.0,3.0,21.8,1.0,0.0
-2024-08-18,17:00 (15:00),Ligue 1,2024-2025,Strasbourg,Montpellier,Away,Matchweek 1,0.9,1,1,11,4,14.7,0.0,0,1.3,1,1,7.0,4.0,17.9,0.0,1.0
-2024-08-25,17:00 (15:00),Ligue 1,2024-2025,Strasbourg,Rennes,Home,Matchweek 2,0.7,3,1,11,5,13.9,0.0,0,1.1,1,3,14.0,5.0,19.6,1.0,0.0
-2024-08-30,20:45 (18:45),Ligue 1,2024-2025,Strasbourg,Lyon,Away,Matchweek 3,2.7,3,4,15,8,16.9,1.0,0,2.9,4,3,20.0,12.0,14.6,0.0,0.0
-2024-09-15,17:00 (15:00),Ligue 1,2024-2025,Strasbourg,Angers,Home,Matchweek 4,2.3,1,1,10,5,15.1,1.0,0,0.9,1,1,12.0,2.0,18.8,0.0,0.0
-2024-09-21,17:00 (15:00),Ligue 1,2024-2025,Strasbourg,Lille,Away,Matchweek 5,3.2,3,3,12,9,11.5,0.0,0,2.6,3,3,14.0,6.0,18.1,0.0,1.0
-2024-09-29,20:45 (18:45),Ligue 1,2024-2025,Strasbourg,Marseille,Home,Matchweek 6,1.3,1,0,14,6,19.2,1.0,0,0.5,0,1,10.0,3.0,19.2,0.0,0.0
-2024-10-06,17:00 (15:00),Ligue 1,2024-2025,Strasbourg,Lens,Home,Matchweek 7,1.2,2,2,7,4,21.4,0.0,1,1.0,2,2,12.0,5.0,15.6,0.0,0.0
-2024-10-19,21:00 (19:00),Ligue 1,2024-2025,Strasbourg,Paris S-G,Away,Matchweek 8,1.9,2,4,16,7,15.3,0.0,0,3.5,4,2,18.0,10.0,11.3,0.0,0.0
-2024-10-27,17:00 (16:00),Ligue 1,2024-2025,Strasbourg,Nantes,Home,Matchweek 9,1.7,3,1,9,5,10.0,0.0,0,0.7,1,3,8.0,6.0,12.5,0.0,0.0
-2024-11-02,21:00 (20:00),Ligue 1,2024-2025,Strasbourg,Saint-Étienne,Away,Matchweek 10,0.5,0,2,9,3,14.4,0.0,0,2.8,2,0,13.0,3.0,16.3,0.0,0.0
-2024-11-09,17:00 (16:00),Ligue 1,2024-2025,Strasbourg,Monaco,Home,Matchweek 11,0.6,1,3,5,2,17.3,0.0,0,3.8,3,1,18.0,7.0,17.9,1.0,1.0
-2024-11-24,20:45 (19:45),Ligue 1,2024-2025,Strasbourg,Nice,Away,Matchweek 12,0.4,1,2,10,3,21.6,0.0,0,2.1,2,1,15.0,5.0,16.7,1.0,0.0
-2024-11-30,19:00 (18:00),Ligue 1,2024-2025,Strasbourg,Brest,Away,Matchweek 13,1.0,1,3,12,4,17.5,0.0,0,2.5,3,1,9.0,6.0,18.1,0.0,1.0
-2024-12-08,17:00 (16:00),Ligue 1,2024-2025,Strasbourg,Reims,Home,Matchweek 14,0.8,0,0,7,2,19.2,1.0,0,1.1,0,0,10.0,3.0,17.9,0.0,0.0
-2024-12-15,17:00 (16:00),Ligue 1,2024-2025,Strasbourg,Le Havre,Away,Matchweek 15,0.9,3,0,9,5,13.1,0.0,0,0.9,0,3,10.0,1.0,14.1,0.0,0.0
-2024-12-21,21:00 (20:00),Coupe de France,2024-2025,Strasbourg,RC Calais,Away,Round of 64,,3,0,17,6,,,0,,0,3,13.0,4.0,,,0.0
-2025-01-05,15:00 (14:00),Ligue 1,2024-2025,Strasbourg,Auxerre,Home,Matchweek 16,2.9,3,1,10,3,15.1,0.0,1,1.4,1,3,14.0,7.0,17.3,1.0,0.0
-2025-01-12,17:15 (16:15),Ligue 1,2024-2025,Strasbourg,Toulouse,Away,Matchweek 17,2.3,2,1,8,2,16.5,0.0,0,1.2,1,2,19.0,5.0,17.0,2.0,0.0
-2025-01-15,18:30 (17:30),Coupe de France,2024-2025,Strasbourg,Thaon,Away,Round of 32,,2 (5),2 (3),10,6,,,0,,2 (3),2 (5),12.0,3.0,,,0.0
-2025-01-19,20:45 (19:45),Ligue 1,2024-2025,Strasbourg,Marseille,Away,Matchweek 18,0.9,1,1,7,3,19.2,1.0,0,2.8,1,1,17.0,2.0,14.9,0.0,1.0
-2025-01-25,19:00 (18:00),Ligue 1,2024-2025,Strasbourg,Lille,Home,Matchweek 19,1.1,2,1,11,7,16.5,0.0,0,1.8,1,2,15.0,6.0,13.6,0.0,0.0
-2025-02-02,17:15 (16:15),Ligue 1,2024-2025,Strasbourg,Rennes,Away,Matchweek 20,1.2,0,1,7,3,15.4,0.0,0,0.9,1,0,13.0,3.0,17.5,0.0,0.0
-2025-02-05,20:45 (19:45),Coupe de France,2024-2025,Strasbourg,Angers,Home,Round of 16,,1,3,21,4,,,0,,3,1,7.0,5.0,,,0.0
-2025-02-09,17:15 (16:15),Ligue 1,2024-2025,Strasbourg,Montpellier,Home,Matchweek 21,2.7,2,0,22,5,15.6,1.0,0,1.8,0,2,11.0,2.0,18.3,1.0,0.0
-2025-02-16,17:15 (16:15),Ligue 1,2024-2025,Strasbourg,Lens,Away,Matchweek 22,2.4,2,0,13,4,13.9,0.0,0,0.4,0,2,7.0,0.0,19.6,0.0,0.0
-2025-02-23,17:15 (16:15),Ligue 1,2024-2025,Strasbourg,Brest,Home,Matchweek 23,0.6,0,0,3,1,16.1,0.0,0,0.6,0,0,12.0,2.0,17.7,0.0,0.0
-2025-03-02,17:15 (16:15),Ligue 1,2024-2025,Strasbourg,Auxerre,Away,Matchweek 24,1.4,1,0,6,3,14.9,0.0,0,2.2,0,1,14.0,5.0,13.4,0.0,0.0
-2025-03-09,17:15 (16:15),Ligue 1,2024-2025,Strasbourg,Nantes,Away,Matchweek 25,1.0,1,0,9,1,14.4,0.0,0,0.8,0,1,11.0,2.0,16.0,0.0,0.0
-2025-03-16,17:15 (16:15),Ligue 1,2024-2025,Strasbourg,Toulouse,Home,Matchweek 26,1.7,2,1,10,3,13.9,0.0,0,1.7,1,2,11.0,7.0,18.2,1.0,0.0
-2025-03-28,20:45 (19:45),Ligue 1,2024-2025,Strasbourg,Lyon,Home,Matchweek 27,1.1,4,2,14,7,19.0,2.0,0,2.0,2,4,15.0,10.0,18.7,0.0,1.0
-2025-04-06,17:15 (15:15),Ligue 1,2024-2025,Strasbourg,Reims,Away,Matchweek 28,2.5,1,0,13,4,12.0,0.0,0,1.3,0,1,14.0,6.0,16.1,1.0,0.0
-2025-04-12,21:05 (19:05),Ligue 1,2024-2025,Strasbourg,Nice,Home,Matchweek 29,0.7,2,2,11,4,19.2,1.0,0,1.7,2,2,23.0,6.0,16.7,0.0,0.0
-2025-04-19,19:00 (17:00),Ligue 1,2024-2025,Strasbourg,Monaco,Away,Matchweek 30,0.4,0,0,5,2,19.4,0.0,0,0.9,0,0,12.0,4.0,15.6,0.0,0.0
-2025-04-26,17:00 (15:00),Ligue 1,2024-2025,Strasbourg,Saint-Étienne,Home,Matchweek 31,2.7,3,1,18,7,15.9,0.0,0,2.1,1,3,17.0,6.0,18.5,0.0,0.0
-2025-05-03,17:00 (15:00),Ligue 1,2024-2025,Strasbourg,Paris S-G,Home,Matchweek 32,0.8,2,1,9,2,14.4,0.0,0,1.7,1,2,20.0,4.0,16.6,0.0,0.0
-2025-05-10,21:00 (19:00),Ligue 1,2024-2025,Strasbourg,Angers,Away,Matchweek 33,1.0,1,2,15,3,20.2,1.0,0,0.7,2,1,5.0,2.0,13.6,0.0,0.0
-2025-05-17,21:00 (19:00),Ligue 1,2024-2025,Strasbourg,Le Havre,Home,Matchweek 34,1.6,2,3,6,4,14.1,0.0,0,2.5,3,2,8.0,3.0,25.0,0.0,2.0
-2024-08-18,17:00 (15:00),Ligue 1,2024-2025,Lens,Angers,Away,Matchweek 1,1.2,1,0,10.0,4.0,16.2,0.0,0,0.4,0,1,8.0,3.0,19.9,0.0,0.0
-2024-08-22,21:00 (19:00),Conf Lg,2024-2025,Lens,gr Panathinaikos,Home,Play-off round,,2,1,,,,,0,,1,2,,,,,0.0
-2024-08-25,15:00 (13:00),Ligue 1,2024-2025,Lens,Brest,Home,Matchweek 2,2.9,2,0,20.0,9.0,14.0,1.0,0,0.9,0,2,11.0,2.0,15.2,0.0,0.0
-2024-08-29,21:00 (18:00),Conf Lg,2024-2025,Lens,gr Panathinaikos,Away,Play-off round,,0,2,,,,,0,,2,0,,,,,0.0
-2024-09-01,15:00 (13:00),Ligue 1,2024-2025,Lens,Monaco,Away,Matchweek 3,2.2,1,1,11.0,3.0,17.5,0.0,1,1.0,1,1,14.0,3.0,19.5,1.0,0.0
-2024-09-15,20:45 (18:45),Ligue 1,2024-2025,Lens,Lyon,Home,Matchweek 4,1.0,0,0,12.0,4.0,18.3,0.0,0,0.6,0,0,8.0,3.0,20.7,0.0,0.0
-2024-09-21,19:00 (17:00),Ligue 1,2024-2025,Lens,Rennes,Away,Matchweek 5,0.6,1,1,10.0,2.0,18.8,1.0,0,1.4,1,1,10.0,5.0,19.5,0.0,1.0
-2024-09-28,17:00 (15:00),Ligue 1,2024-2025,Lens,Nice,Home,Matchweek 6,1.9,0,0,22.0,6.0,15.9,0.0,0,1.1,0,0,15.0,4.0,18.6,3.0,0.0
-2024-10-06,17:00 (15:00),Ligue 1,2024-2025,Lens,Strasbourg,Away,Matchweek 7,1.0,2,2,12.0,5.0,15.6,0.0,0,1.2,2,2,7.0,4.0,21.4,0.0,1.0
-2024-10-19,19:00 (17:00),Ligue 1,2024-2025,Lens,Saint-Étienne,Away,Matchweek 8,1.2,2,0,13.0,5.0,20.5,1.0,0,0.8,0,2,15.0,1.0,20.3,1.0,0.0
-2024-10-26,21:00 (19:00),Ligue 1,2024-2025,Lens,Lille,Home,Matchweek 9,1.0,0,2,11.0,4.0,17.7,0.0,0,1.8,2,0,10.0,2.0,16.3,0.0,1.0
-2024-11-02,17:00 (16:00),Ligue 1,2024-2025,Lens,Paris S-G,Away,Matchweek 10,0.7,0,1,13.0,2.0,15.9,0.0,0,2.9,1,0,18.0,8.0,16.7,0.0,0.0
-2024-11-09,19:00 (18:00),Ligue 1,2024-2025,Lens,Nantes,Home,Matchweek 11,2.9,3,2,14.0,2.0,12.5,0.0,1,1.4,2,3,8.0,2.0,21.8,0.0,1.0
-2024-11-23,17:00 (16:00),Ligue 1,2024-2025,Lens,Marseille,Home,Matchweek 12,2.5,1,3,16.0,7.0,15.1,0.0,0,1.2,3,1,10.0,4.0,17.9,1.0,0.0
-2024-11-29,20:45 (19:45),Ligue 1,2024-2025,Lens,Reims,Away,Matchweek 13,1.8,2,0,11.0,6.0,20.3,0.0,0,0.8,0,2,16.0,3.0,21.9,1.0,0.0
-2024-12-08,15:00 (14:00),Ligue 1,2024-2025,Lens,Montpellier,Home,Matchweek 14,1.3,2,0,17.0,3.0,18.5,0.0,0,1.0,0,2,7.0,3.0,13.0,0.0,0.0
-2024-12-14,19:00 (18:00),Ligue 1,2024-2025,Lens,Auxerre,Away,Matchweek 15,1.6,2,2,16.0,5.0,18.2,1.0,0,0.6,2,2,10.0,3.0,19.5,1.0,0.0
-2024-12-22,21:00 (20:00),Coupe de France,2024-2025,Lens,Paris S-G,Home,Round of 64,,1 (3),1 (4),12.0,4.0,,,0,,1 (4),1 (3),18.0,6.0,,,0.0
-2025-01-05,15:00 (14:00),Ligue 1,2024-2025,Lens,Toulouse,Home,Matchweek 16,1.4,0,1,14.0,1.0,19.5,0.0,0,2.0,1,0,7.0,3.0,12.8,0.0,1.0
-2025-01-12,15:00 (14:00),Ligue 1,2024-2025,Lens,Le Havre,Away,Matchweek 17,2.7,2,1,25.0,6.0,12.9,0.0,0,1.5,1,2,8.0,4.0,12.0,0.0,0.0
-2025-01-18,17:00 (16:00),Ligue 1,2024-2025,Lens,Paris S-G,Home,Matchweek 18,0.7,1,2,10.0,5.0,15.3,0.0,0,1.2,2,1,9.0,7.0,16.5,0.0,0.0
-2025-01-26,17:15 (16:15),Ligue 1,2024-2025,Lens,Angers,Home,Matchweek 19,1.9,1,0,16.0,4.0,16.7,0.0,0,0.2,0,1,2.0,0.0,17.0,0.0,0.0
-2025-01-31,20:45 (19:45),Ligue 1,2024-2025,Lens,Montpellier,Away,Matchweek 20,2.0,2,0,19.0,5.0,16.5,1.0,0,0.8,0,2,14.0,2.0,17.0,1.0,0.0
-2025-02-08,17:00 (16:00),Ligue 1,2024-2025,Lens,Nice,Away,Matchweek 21,1.2,0,2,12.0,3.0,19.3,0.0,0,2.2,2,0,15.0,6.0,16.6,1.0,1.0
-2025-02-16,17:15 (16:15),Ligue 1,2024-2025,Lens,Strasbourg,Home,Matchweek 22,0.4,0,2,7.0,0.0,19.6,0.0,0,2.4,2,0,13.0,4.0,13.9,0.0,0.0
-2025-02-23,15:00 (14:00),Ligue 1,2024-2025,Lens,Nantes,Away,Matchweek 23,1.6,1,3,13.0,3.0,17.9,0.0,1,3.9,3,1,16.0,7.0,12.2,0.0,1.0
-2025-03-01,19:00 (18:00),Ligue 1,2024-2025,Lens,Le Havre,Home,Matchweek 24,1.9,3,4,19.0,6.0,17.2,0.0,1,1.5,4,3,7.0,3.0,18.7,0.0,1.0
-2025-03-08,21:05 (20:05),Ligue 1,2024-2025,Lens,Marseille,Away,Matchweek 25,0.9,1,0,3.0,2.0,12.2,0.0,0,1.0,0,1,15.0,6.0,17.4,0.0,0.0
-2025-03-15,21:05 (20:05),Ligue 1,2024-2025,Lens,Rennes,Home,Matchweek 26,0.7,1,0,9.0,4.0,15.0,0.0,0,0.6,0,1,12.0,5.0,20.0,0.0,0.0
-2025-03-30,20:45 (18:45),Ligue 1,2024-2025,Lens,Lille,Away,Matchweek 27,0.4,0,1,5.0,1.0,13.8,1.0,0,1.9,1,0,11.0,5.0,13.9,1.0,0.0
-2025-04-06,15:00 (13:00),Ligue 1,2024-2025,Lens,Saint-Étienne,Home,Matchweek 28,2.1,1,0,20.0,5.0,14.5,1.0,0,1.4,0,1,7.0,2.0,16.2,0.0,0.0
-2025-04-11,20:45 (18:45),Ligue 1,2024-2025,Lens,Reims,Home,Matchweek 29,2.9,0,2,37.0,14.0,17.8,0.0,0,1.4,2,0,10.0,2.0,16.9,0.0,0.0
-2025-04-20,17:15 (15:15),Ligue 1,2024-2025,Lens,Brest,Away,Matchweek 30,2.2,3,1,16.0,7.0,16.1,0.0,1,1.0,1,3,11.0,5.0,19.5,0.0,0.0
-2025-04-27,17:15 (15:15),Ligue 1,2024-2025,Lens,Auxerre,Home,Matchweek 31,1.4,0,4,16.0,5.0,15.1,0.0,0,2.6,4,0,12.0,8.0,13.0,0.0,0.0
-2025-05-04,17:15 (15:15),Ligue 1,2024-2025,Lens,Lyon,Away,Matchweek 32,0.7,2,1,8.0,3.0,20.9,0.0,0,1.0,1,2,18.0,4.0,16.4,1.0,0.0
-2025-05-10,21:00 (19:00),Ligue 1,2024-2025,Lens,Toulouse,Away,Matchweek 33,0.7,1,1,12.0,2.0,18.5,0.0,0,1.1,1,1,9.0,6.0,13.7,0.0,0.0
-2025-05-17,21:00 (19:00),Ligue 1,2024-2025,Lens,Monaco,Home,Matchweek 34,1.7,4,0,15.0,5.0,18.0,0.0,0,0.5,0,4,6.0,4.0,19.9,0.0,0.0
-2024-08-17,17:00 (15:00),Ligue 1,2024-2025,Brest,Marseille,Home,Matchweek 1,1.3,1,5,9,6,21.1,0,0,2.4,5.0,1.0,5.0,3.0,20.2,0.0,2.0
-2024-08-25,15:00 (13:00),Ligue 1,2024-2025,Brest,Lens,Away,Matchweek 2,0.9,0,2,11,2,15.2,0,0,2.9,2.0,0.0,20.0,9.0,14.0,1.0,0.0
-2024-08-31,17:00 (15:00),Ligue 1,2024-2025,Brest,Saint-Étienne,Home,Matchweek 3,3.1,4,0,20,6,15.9,1,2,0.2,0.0,4.0,6.0,0.0,23.3,0.0,0.0
-2024-09-14,21:00 (19:00),Ligue 1,2024-2025,Brest,Paris S-G,Away,Matchweek 4,1.0,1,3,4,2,26.5,0,1,2.8,3.0,1.0,22.0,9.0,16.2,0.0,0.0
-2024-09-19,21:00 (19:00),Champions Lg,2024-2025,Brest,at Sturm Graz,Home,League phase,2.1,2,1,14,5,16.9,0,0,0.5,1.0,2.0,8.0,2.0,22.2,0.0,0.0
-2024-09-22,17:00 (15:00),Ligue 1,2024-2025,Brest,Toulouse,Home,Matchweek 5,0.5,2,0,8,5,18.6,0,0,2.7,0.0,2.0,10.0,1.0,14.2,0.0,0.0
-2024-09-27,19:00 (17:00),Ligue 1,2024-2025,Brest,Auxerre,Away,Matchweek 6,0.8,0,3,8,4,14.8,0,0,2.5,3.0,0.0,14.0,3.0,16.7,1.0,1.0
-2024-10-01,18:45 (16:45),Champions Lg,2024-2025,Brest,at RB Salzburg,Away,League phase,2.0,4,0,13,6,16.7,0,0,1.6,0.0,4.0,15.0,7.0,14.8,0.0,0.0
-2024-10-06,17:00 (15:00),Ligue 1,2024-2025,Brest,Le Havre,Home,Matchweek 7,0.7,2,0,8,3,16.9,0,0,1.0,0.0,2.0,14.0,0.0,17.3,1.0,0.0
-2024-10-19,17:00 (15:00),Ligue 1,2024-2025,Brest,Rennes,Home,Matchweek 8,1.5,1,1,11,1,21.1,0,1,1.2,1.0,1.0,6.0,4.0,13.3,0.0,0.0
-2024-10-23,18:45 (16:45),Champions Lg,2024-2025,Brest,de Leverkusen,Home,League phase,0.5,1,1,11,3,22.1,1,0,1.0,1.0,1.0,8.0,3.0,16.4,0.0,0.0
-2024-10-26,19:00 (17:00),Ligue 1,2024-2025,Brest,Reims,Away,Matchweek 9,1.5,2,1,12,3,21.1,1,1,0.7,1.0,2.0,11.0,3.0,15.8,0.0,0.0
-2024-11-02,19:00 (18:00),Ligue 1,2024-2025,Brest,Nice,Home,Matchweek 10,1.0,0,1,16,6,17.1,0,0,1.4,1.0,0.0,12.0,3.0,14.2,0.0,0.0
-2024-11-06,21:00 (20:00),Champions Lg,2024-2025,Brest,cz Sparta Prague,Away,League phase,1.6,2,1,18,7,19.6,1,0,0.5,1.0,2.0,6.0,1.0,11.5,0.0,0.0
-2024-11-10,17:00 (16:00),Ligue 1,2024-2025,Brest,Montpellier,Away,Matchweek 11,0.9,1,3,19,6,17.6,1,0,2.5,3.0,1.0,12.0,6.0,23.0,1.0,1.0
-2024-11-22,19:00 (18:00),Ligue 1,2024-2025,Brest,Monaco,Away,Matchweek 12,1.0,2,3,12,4,16.1,0,0,2.6,3.0,2.0,10.0,4.0,15.8,0.0,0.0
-2024-11-26,21:00 (20:00),Champions Lg,2024-2025,Brest,es Barcelona,Away,League phase,0.1,0,3,2,0,15.0,0,0,2.8,3.0,0.0,18.0,6.0,16.0,1.0,1.0
-2024-11-30,19:00 (18:00),Ligue 1,2024-2025,Brest,Strasbourg,Home,Matchweek 13,2.5,3,1,9,6,18.1,0,1,1.0,1.0,3.0,12.0,4.0,17.5,0.0,0.0
-2024-12-06,19:00 (18:00),Ligue 1,2024-2025,Brest,Lille,Away,Matchweek 14,0.7,1,3,7,3,20.3,1,0,2.5,3.0,1.0,9.0,5.0,15.5,0.0,1.0
-2024-12-10,21:00 (20:00),Champions Lg,2024-2025,Brest,nl PSV Eindhoven,Home,League phase,1.6,1,0,11,4,16.2,0,0,1.6,0.0,1.0,18.0,5.0,16.8,0.0,0.0
-2024-12-15,17:00 (16:00),Ligue 1,2024-2025,Brest,Nantes,Home,Matchweek 15,2.0,4,1,13,8,17.8,0,0,1.1,1.0,4.0,16.0,7.0,15.0,0.0,0.0
-2024-12-21,15:30 (14:30),Coupe de France,2024-2025,Brest,La Roche VF,Away,Round of 64,,1,0,15,9,,,0,,0.0,1.0,11.0,2.0,,,0.0
-2025-01-05,15:00 (14:00),Ligue 1,2024-2025,Brest,Angers,Away,Matchweek 16,1.0,0,2,12,4,14.8,0,0,1.8,2.0,0.0,7.0,2.0,10.1,0.0,0.0
-2025-01-11,17:00 (16:00),Ligue 1,2024-2025,Brest,Lyon,Home,Matchweek 17,1.1,2,1,11,6,16.0,0,0,1.4,1.0,2.0,10.0,3.0,12.0,0.0,0.0
-2025-01-15,18:30 (17:30),Coupe de France,2024-2025,Brest,Nantes,Home,Round of 32,,2,1,8,4,,,0,,1.0,2.0,16.0,1.0,,,0.0
-2025-01-18,19:00 (18:00),Ligue 1,2024-2025,Brest,Rennes,Away,Matchweek 18,1.0,2,1,10,3,15.8,0,0,1.5,1.0,2.0,22.0,9.0,16.9,0.0,0.0
-2025-01-22,19:45 (17:45),Champions Lg,2024-2025,Brest,ua Shakhtar,Away,League phase,0.4,0,2,10,4,23.4,1,0,1.9,2.0,0.0,8.0,4.0,21.0,1.0,1.0
-2025-01-26,15:00 (14:00),Ligue 1,2024-2025,Brest,Le Havre,Away,Matchweek 19,2.0,1,0,17,7,15.3,1,0,1.0,0.0,1.0,11.0,1.0,15.3,0.0,0.0
-2025-01-29,21:00 (20:00),Champions Lg,2024-2025,Brest,es Real Madrid,Home,League phase,1.4,0,3,23,5,18.5,1,0,2.6,3.0,0.0,14.0,6.0,14.3,0.0,0.0
-2025-02-01,17:00 (16:00),Ligue 1,2024-2025,Brest,Paris S-G,Home,Matchweek 20,0.9,2,5,14,7,20.1,0,0,3.6,5.0,2.0,14.0,7.0,12.4,0.0,0.0
-2025-02-04,19:00 (18:00),Coupe de France,2024-2025,Brest,Troyes,Away,Round of 16,,2,1,12,6,,,0,,1.0,2.0,14.0,3.0,,,0.0
-2025-02-07,19:00 (18:00),Ligue 1,2024-2025,Brest,Nantes,Away,Matchweek 21,2.5,2,0,10,6,19.0,0,0,1.1,0.0,2.0,15.0,2.0,13.8,1.0,0.0
-2025-02-11,18:45 (17:45),Champions Lg,2024-2025,Brest,fr Paris S-G,Home,Knockout phase play-offs,0.9,0,3,16,2,17.1,1,0,2.6,3.0,0.0,15.0,6.0,18.1,0.0,1.0
-2025-02-14,20:45 (19:45),Ligue 1,2024-2025,Brest,Auxerre,Home,Matchweek 22,2.2,2,2,18,6,15.4,0,0,1.2,2.0,2.0,11.0,6.0,17.9,1.0,0.0
-2025-02-19,21:00 (20:00),Champions Lg,2024-2025,Brest,fr Paris S-G,Away,Knockout phase play-offs,0.9,0,7,13,2,16.5,0,0,3.2,7.0,0.0,20.0,9.0,13.3,0.0,0.0
+2025-03-09,20:45,Ligue 1,2024-2025,Lyon,Nice,Away,Matchweek 25,1.1,2,0,8,5,20.8,0,0,1.4,0,2,18.0,3.0,18.9,1.0,0.0
+2025-03-13,21:00,Europa Lg,2024-2025,Lyon,ro FCSB,Home,Round of 16,2.8,4,0,18,6,18.1,0,0,0.5,0,4,9.0,2.0,19.0,0.0,0.0
+2025-03-16,15:00,Ligue 1,2024-2025,Lyon,Le Havre,Home,Matchweek 26,3.9,4,2,15,6,15.5,0,1,1.7,2,4,13.0,4.0,20.1,0.0,1.0
+2025-03-28,20:45,Ligue 1,2024-2025,Lyon,Strasbourg,Away,Matchweek 27,2.0,2,4,15,10,18.7,0,1,1.1,4,2,14.0,7.0,19.0,2.0,0.0
+2025-04-05,21:05,Ligue 1,2024-2025,Lyon,Lille,Home,Matchweek 28,1.8,2,1,9,3,22.0,0,1,0.9,1,2,10.0,4.0,16.9,0.0,0.0
+2025-04-10,21:00,Europa Lg,2024-2025,Lyon,eng Manchester Utd,Home,Quarter-finals,1.8,2,2,16,5,17.4,2,0,1.2,2,2,13.0,5.0,14.2,0.0,0.0
+2025-04-13,20:45,Ligue 1,2024-2025,Lyon,Auxerre,Away,Matchweek 29,2.9,3,1,12,6,14.4,0,1,0.7,1,3,14.0,2.0,22.1,1.0,0.0
+2025-04-17,20:00 (21:00),Europa Lg,2024-2025,Lyon,eng Manchester Utd,Away,Quarter-finals,2.5,4,5,20,8,16.8,1,1,3.4,5,4,20.0,7.0,17.8,1.0,1.0
+2025-04-20,20:45,Ligue 1,2024-2025,Lyon,Saint-Étienne,Away,Matchweek 30,0.8,1,2,14,2,18.4,0,0,1.6,2,1,18.0,6.0,22.7,1.0,0.0
+2025-04-26,21:05,Ligue 1,2024-2025,Lyon,Rennes,Home,Matchweek 31,1.8,4,1,14,8,14.1,0,0,0.8,1,4,10.0,4.0,22.5,0.0,0.0
+2025-05-04,17:15,Ligue 1,2024-2025,Lyon,Lens,Home,Matchweek 32,1.0,1,2,18,4,16.4,1,0,0.7,2,1,8.0,3.0,20.9,0.0,0.0
+2025-05-10,21:00,Ligue 1,2024-2025,Lyon,Monaco,Away,Matchweek 33,0.4,0,2,9,4,21.7,0,0,1.2,2,0,11.0,5.0,13.0,1.0,0.0
+2025-05-17,21:00,Ligue 1,2024-2025,Lyon,Angers,Home,Matchweek 34,3.9,2,0,20,3,17.0,0,1,0.5,0,2,13.0,3.0,21.8,1.0,0.0
+2024-08-18,17:00,Ligue 1,2024-2025,Strasbourg,Montpellier,Away,Matchweek 1,0.9,1,1,11,4,14.7,0.0,0,1.3,1,1,7.0,4.0,17.9,0.0,1.0
+2024-08-25,17:00,Ligue 1,2024-2025,Strasbourg,Rennes,Home,Matchweek 2,0.7,3,1,11,5,13.9,0.0,0,1.1,1,3,14.0,5.0,19.6,1.0,0.0
+2024-08-30,20:45,Ligue 1,2024-2025,Strasbourg,Lyon,Away,Matchweek 3,2.7,3,4,15,8,16.9,1.0,0,2.9,4,3,20.0,12.0,14.6,0.0,0.0
+2024-09-15,17:00,Ligue 1,2024-2025,Strasbourg,Angers,Home,Matchweek 4,2.3,1,1,10,5,15.1,1.0,0,0.9,1,1,12.0,2.0,18.8,0.0,0.0
+2024-09-21,17:00,Ligue 1,2024-2025,Strasbourg,Lille,Away,Matchweek 5,3.2,3,3,12,9,11.5,0.0,0,2.6,3,3,14.0,6.0,18.1,0.0,1.0
+2024-09-29,20:45,Ligue 1,2024-2025,Strasbourg,Marseille,Home,Matchweek 6,1.3,1,0,14,6,19.2,1.0,0,0.5,0,1,10.0,3.0,19.2,0.0,0.0
+2024-10-06,17:00,Ligue 1,2024-2025,Strasbourg,Lens,Home,Matchweek 7,1.2,2,2,7,4,21.4,0.0,1,1.0,2,2,12.0,5.0,15.6,0.0,0.0
+2024-10-19,21:00,Ligue 1,2024-2025,Strasbourg,Paris S-G,Away,Matchweek 8,1.9,2,4,16,7,15.3,0.0,0,3.5,4,2,18.0,10.0,11.3,0.0,0.0
+2024-10-27,17:00,Ligue 1,2024-2025,Strasbourg,Nantes,Home,Matchweek 9,1.7,3,1,9,5,10.0,0.0,0,0.7,1,3,8.0,6.0,12.5,0.0,0.0
+2024-11-02,21:00,Ligue 1,2024-2025,Strasbourg,Saint-Étienne,Away,Matchweek 10,0.5,0,2,9,3,14.4,0.0,0,2.8,2,0,13.0,3.0,16.3,0.0,0.0
+2024-11-09,17:00,Ligue 1,2024-2025,Strasbourg,Monaco,Home,Matchweek 11,0.6,1,3,5,2,17.3,0.0,0,3.8,3,1,18.0,7.0,17.9,1.0,1.0
+2024-11-24,20:45,Ligue 1,2024-2025,Strasbourg,Nice,Away,Matchweek 12,0.4,1,2,10,3,21.6,0.0,0,2.1,2,1,15.0,5.0,16.7,1.0,0.0
+2024-11-30,19:00,Ligue 1,2024-2025,Strasbourg,Brest,Away,Matchweek 13,1.0,1,3,12,4,17.5,0.0,0,2.5,3,1,9.0,6.0,18.1,0.0,1.0
+2024-12-08,17:00,Ligue 1,2024-2025,Strasbourg,Reims,Home,Matchweek 14,0.8,0,0,7,2,19.2,1.0,0,1.1,0,0,10.0,3.0,17.9,0.0,0.0
+2024-12-15,17:00,Ligue 1,2024-2025,Strasbourg,Le Havre,Away,Matchweek 15,0.9,3,0,9,5,13.1,0.0,0,0.9,0,3,10.0,1.0,14.1,0.0,0.0
+2024-12-21,21:00,Coupe de France,2024-2025,Strasbourg,RC Calais,Away,Round of 64,,3,0,17,6,,,0,,0,3,13.0,4.0,,,0.0
+2025-01-05,15:00,Ligue 1,2024-2025,Strasbourg,Auxerre,Home,Matchweek 16,2.9,3,1,10,3,15.1,0.0,1,1.4,1,3,14.0,7.0,17.3,1.0,0.0
+2025-01-12,17:15,Ligue 1,2024-2025,Strasbourg,Toulouse,Away,Matchweek 17,2.3,2,1,8,2,16.5,0.0,0,1.2,1,2,19.0,5.0,17.0,2.0,0.0
+2025-01-15,18:30,Coupe de France,2024-2025,Strasbourg,Thaon,Away,Round of 32,,2 (5),2 (3),10,6,,,0,,2 (3),2 (5),12.0,3.0,,,0.0
+2025-01-19,20:45,Ligue 1,2024-2025,Strasbourg,Marseille,Away,Matchweek 18,0.9,1,1,7,3,19.2,1.0,0,2.8,1,1,17.0,2.0,14.9,0.0,1.0
+2025-01-25,19:00,Ligue 1,2024-2025,Strasbourg,Lille,Home,Matchweek 19,1.1,2,1,11,7,16.5,0.0,0,1.8,1,2,15.0,6.0,13.6,0.0,0.0
+2025-02-02,17:15,Ligue 1,2024-2025,Strasbourg,Rennes,Away,Matchweek 20,1.2,0,1,7,3,15.4,0.0,0,0.9,1,0,13.0,3.0,17.5,0.0,0.0
+2025-02-05,20:45,Coupe de France,2024-2025,Strasbourg,Angers,Home,Round of 16,,1,3,21,4,,,0,,3,1,7.0,5.0,,,0.0
+2025-02-09,17:15,Ligue 1,2024-2025,Strasbourg,Montpellier,Home,Matchweek 21,2.7,2,0,22,5,15.6,1.0,0,1.8,0,2,11.0,2.0,18.3,1.0,0.0
+2025-02-16,17:15,Ligue 1,2024-2025,Strasbourg,Lens,Away,Matchweek 22,2.4,2,0,13,4,13.9,0.0,0,0.4,0,2,7.0,0.0,19.6,0.0,0.0
+2025-02-23,17:15,Ligue 1,2024-2025,Strasbourg,Brest,Home,Matchweek 23,0.6,0,0,3,1,16.1,0.0,0,0.6,0,0,12.0,2.0,17.7,0.0,0.0
+2025-03-02,17:15,Ligue 1,2024-2025,Strasbourg,Auxerre,Away,Matchweek 24,1.4,1,0,6,3,14.9,0.0,0,2.2,0,1,14.0,5.0,13.4,0.0,0.0
+2025-03-09,17:15,Ligue 1,2024-2025,Strasbourg,Nantes,Away,Matchweek 25,1.0,1,0,9,1,14.4,0.0,0,0.8,0,1,11.0,2.0,16.0,0.0,0.0
+2025-03-16,17:15,Ligue 1,2024-2025,Strasbourg,Toulouse,Home,Matchweek 26,1.7,2,1,10,3,13.9,0.0,0,1.7,1,2,11.0,7.0,18.2,1.0,0.0
+2025-03-28,20:45,Ligue 1,2024-2025,Strasbourg,Lyon,Home,Matchweek 27,1.1,4,2,14,7,19.0,2.0,0,2.0,2,4,15.0,10.0,18.7,0.0,1.0
+2025-04-06,17:15,Ligue 1,2024-2025,Strasbourg,Reims,Away,Matchweek 28,2.5,1,0,13,4,12.0,0.0,0,1.3,0,1,14.0,6.0,16.1,1.0,0.0
+2025-04-12,21:05,Ligue 1,2024-2025,Strasbourg,Nice,Home,Matchweek 29,0.7,2,2,11,4,19.2,1.0,0,1.7,2,2,23.0,6.0,16.7,0.0,0.0
+2025-04-19,19:00,Ligue 1,2024-2025,Strasbourg,Monaco,Away,Matchweek 30,0.4,0,0,5,2,19.4,0.0,0,0.9,0,0,12.0,4.0,15.6,0.0,0.0
+2025-04-26,17:00,Ligue 1,2024-2025,Strasbourg,Saint-Étienne,Home,Matchweek 31,2.7,3,1,18,7,15.9,0.0,0,2.1,1,3,17.0,6.0,18.5,0.0,0.0
+2025-05-03,17:00,Ligue 1,2024-2025,Strasbourg,Paris S-G,Home,Matchweek 32,0.8,2,1,9,2,14.4,0.0,0,1.7,1,2,20.0,4.0,16.6,0.0,0.0
+2025-05-10,21:00,Ligue 1,2024-2025,Strasbourg,Angers,Away,Matchweek 33,1.0,1,2,15,3,20.2,1.0,0,0.7,2,1,5.0,2.0,13.6,0.0,0.0
+2025-05-17,21:00,Ligue 1,2024-2025,Strasbourg,Le Havre,Home,Matchweek 34,1.6,2,3,6,4,14.1,0.0,0,2.5,3,2,8.0,3.0,25.0,0.0,2.0
+2024-08-18,17:00,Ligue 1,2024-2025,Lens,Angers,Away,Matchweek 1,1.2,1,0,10.0,4.0,16.2,0.0,0,0.4,0,1,8.0,3.0,19.9,0.0,0.0
+2024-08-22,21:00,Conf Lg,2024-2025,Lens,gr Panathinaikos,Home,Play-off round,,2,1,,,,,0,,1,2,,,,,0.0
+2024-08-25,15:00,Ligue 1,2024-2025,Lens,Brest,Home,Matchweek 2,2.9,2,0,20.0,9.0,14.0,1.0,0,0.9,0,2,11.0,2.0,15.2,0.0,0.0
+2024-08-29,21:00 (20:00),Conf Lg,2024-2025,Lens,gr Panathinaikos,Away,Play-off round,,0,2,,,,,0,,2,0,,,,,0.0
+2024-09-01,15:00,Ligue 1,2024-2025,Lens,Monaco,Away,Matchweek 3,2.2,1,1,11.0,3.0,17.5,0.0,1,1.0,1,1,14.0,3.0,19.5,1.0,0.0
+2024-09-15,20:45,Ligue 1,2024-2025,Lens,Lyon,Home,Matchweek 4,1.0,0,0,12.0,4.0,18.3,0.0,0,0.6,0,0,8.0,3.0,20.7,0.0,0.0
+2024-09-21,19:00,Ligue 1,2024-2025,Lens,Rennes,Away,Matchweek 5,0.6,1,1,10.0,2.0,18.8,1.0,0,1.4,1,1,10.0,5.0,19.5,0.0,1.0
+2024-09-28,17:00,Ligue 1,2024-2025,Lens,Nice,Home,Matchweek 6,1.9,0,0,22.0,6.0,15.9,0.0,0,1.1,0,0,15.0,4.0,18.6,3.0,0.0
+2024-10-06,17:00,Ligue 1,2024-2025,Lens,Strasbourg,Away,Matchweek 7,1.0,2,2,12.0,5.0,15.6,0.0,0,1.2,2,2,7.0,4.0,21.4,0.0,1.0
+2024-10-19,19:00,Ligue 1,2024-2025,Lens,Saint-Étienne,Away,Matchweek 8,1.2,2,0,13.0,5.0,20.5,1.0,0,0.8,0,2,15.0,1.0,20.3,1.0,0.0
+2024-10-26,21:00,Ligue 1,2024-2025,Lens,Lille,Home,Matchweek 9,1.0,0,2,11.0,4.0,17.7,0.0,0,1.8,2,0,10.0,2.0,16.3,0.0,1.0
+2024-11-02,17:00,Ligue 1,2024-2025,Lens,Paris S-G,Away,Matchweek 10,0.7,0,1,13.0,2.0,15.9,0.0,0,2.9,1,0,18.0,8.0,16.7,0.0,0.0
+2024-11-09,19:00,Ligue 1,2024-2025,Lens,Nantes,Home,Matchweek 11,2.9,3,2,14.0,2.0,12.5,0.0,1,1.4,2,3,8.0,2.0,21.8,0.0,1.0
+2024-11-23,17:00,Ligue 1,2024-2025,Lens,Marseille,Home,Matchweek 12,2.5,1,3,16.0,7.0,15.1,0.0,0,1.2,3,1,10.0,4.0,17.9,1.0,0.0
+2024-11-29,20:45,Ligue 1,2024-2025,Lens,Reims,Away,Matchweek 13,1.8,2,0,11.0,6.0,20.3,0.0,0,0.8,0,2,16.0,3.0,21.9,1.0,0.0
+2024-12-08,15:00,Ligue 1,2024-2025,Lens,Montpellier,Home,Matchweek 14,1.3,2,0,17.0,3.0,18.5,0.0,0,1.0,0,2,7.0,3.0,13.0,0.0,0.0
+2024-12-14,19:00,Ligue 1,2024-2025,Lens,Auxerre,Away,Matchweek 15,1.6,2,2,16.0,5.0,18.2,1.0,0,0.6,2,2,10.0,3.0,19.5,1.0,0.0
+2024-12-22,21:00,Coupe de France,2024-2025,Lens,Paris S-G,Home,Round of 64,,1 (3),1 (4),12.0,4.0,,,0,,1 (4),1 (3),18.0,6.0,,,0.0
+2025-01-05,15:00,Ligue 1,2024-2025,Lens,Toulouse,Home,Matchweek 16,1.4,0,1,14.0,1.0,19.5,0.0,0,2.0,1,0,7.0,3.0,12.8,0.0,1.0
+2025-01-12,15:00,Ligue 1,2024-2025,Lens,Le Havre,Away,Matchweek 17,2.7,2,1,25.0,6.0,12.9,0.0,0,1.5,1,2,8.0,4.0,12.0,0.0,0.0
+2025-01-18,17:00,Ligue 1,2024-2025,Lens,Paris S-G,Home,Matchweek 18,0.7,1,2,10.0,5.0,15.3,0.0,0,1.2,2,1,9.0,7.0,16.5,0.0,0.0
+2025-01-26,17:15,Ligue 1,2024-2025,Lens,Angers,Home,Matchweek 19,1.9,1,0,16.0,4.0,16.7,0.0,0,0.2,0,1,2.0,0.0,17.0,0.0,0.0
+2025-01-31,20:45,Ligue 1,2024-2025,Lens,Montpellier,Away,Matchweek 20,2.0,2,0,19.0,5.0,16.5,1.0,0,0.8,0,2,14.0,2.0,17.0,1.0,0.0
+2025-02-08,17:00,Ligue 1,2024-2025,Lens,Nice,Away,Matchweek 21,1.2,0,2,12.0,3.0,19.3,0.0,0,2.2,2,0,15.0,6.0,16.6,1.0,1.0
+2025-02-16,17:15,Ligue 1,2024-2025,Lens,Strasbourg,Home,Matchweek 22,0.4,0,2,7.0,0.0,19.6,0.0,0,2.4,2,0,13.0,4.0,13.9,0.0,0.0
+2025-02-23,15:00,Ligue 1,2024-2025,Lens,Nantes,Away,Matchweek 23,1.6,1,3,13.0,3.0,17.9,0.0,1,3.9,3,1,16.0,7.0,12.2,0.0,1.0
+2025-03-01,19:00,Ligue 1,2024-2025,Lens,Le Havre,Home,Matchweek 24,1.9,3,4,19.0,6.0,17.2,0.0,1,1.5,4,3,7.0,3.0,18.7,0.0,1.0
+2025-03-08,21:05,Ligue 1,2024-2025,Lens,Marseille,Away,Matchweek 25,0.9,1,0,3.0,2.0,12.2,0.0,0,1.0,0,1,15.0,6.0,17.4,0.0,0.0
+2025-03-15,21:05,Ligue 1,2024-2025,Lens,Rennes,Home,Matchweek 26,0.7,1,0,9.0,4.0,15.0,0.0,0,0.6,0,1,12.0,5.0,20.0,0.0,0.0
+2025-03-30,20:45,Ligue 1,2024-2025,Lens,Lille,Away,Matchweek 27,0.4,0,1,5.0,1.0,13.8,1.0,0,1.9,1,0,11.0,5.0,13.9,1.0,0.0
+2025-04-06,15:00,Ligue 1,2024-2025,Lens,Saint-Étienne,Home,Matchweek 28,2.1,1,0,20.0,5.0,14.5,1.0,0,1.4,0,1,7.0,2.0,16.2,0.0,0.0
+2025-04-11,20:45,Ligue 1,2024-2025,Lens,Reims,Home,Matchweek 29,2.9,0,2,37.0,14.0,17.8,0.0,0,1.4,2,0,10.0,2.0,16.9,0.0,0.0
+2025-04-20,17:15,Ligue 1,2024-2025,Lens,Brest,Away,Matchweek 30,2.2,3,1,16.0,7.0,16.1,0.0,1,1.0,1,3,11.0,5.0,19.5,0.0,0.0
+2025-04-27,17:15,Ligue 1,2024-2025,Lens,Auxerre,Home,Matchweek 31,1.4,0,4,16.0,5.0,15.1,0.0,0,2.6,4,0,12.0,8.0,13.0,0.0,0.0
+2025-05-04,17:15,Ligue 1,2024-2025,Lens,Lyon,Away,Matchweek 32,0.7,2,1,8.0,3.0,20.9,0.0,0,1.0,1,2,18.0,4.0,16.4,1.0,0.0
+2025-05-10,21:00,Ligue 1,2024-2025,Lens,Toulouse,Away,Matchweek 33,0.7,1,1,12.0,2.0,18.5,0.0,0,1.1,1,1,9.0,6.0,13.7,0.0,0.0
+2025-05-17,21:00,Ligue 1,2024-2025,Lens,Monaco,Home,Matchweek 34,1.7,4,0,15.0,5.0,18.0,0.0,0,0.5,0,4,6.0,4.0,19.9,0.0,0.0
+2024-08-17,17:00,Ligue 1,2024-2025,Brest,Marseille,Home,Matchweek 1,1.3,1,5,9,6,21.1,0,0,2.4,5.0,1.0,5.0,3.0,20.2,0.0,2.0
+2024-08-25,15:00,Ligue 1,2024-2025,Brest,Lens,Away,Matchweek 2,0.9,0,2,11,2,15.2,0,0,2.9,2.0,0.0,20.0,9.0,14.0,1.0,0.0
+2024-08-31,17:00,Ligue 1,2024-2025,Brest,Saint-Étienne,Home,Matchweek 3,3.1,4,0,20,6,15.9,1,2,0.2,0.0,4.0,6.0,0.0,23.3,0.0,0.0
+2024-09-14,21:00,Ligue 1,2024-2025,Brest,Paris S-G,Away,Matchweek 4,1.0,1,3,4,2,26.5,0,1,2.8,3.0,1.0,22.0,9.0,16.2,0.0,0.0
+2024-09-19,21:00,Champions Lg,2024-2025,Brest,at Sturm Graz,Home,League phase,2.1,2,1,14,5,16.9,0,0,0.5,1.0,2.0,8.0,2.0,22.2,0.0,0.0
+2024-09-22,17:00,Ligue 1,2024-2025,Brest,Toulouse,Home,Matchweek 5,0.5,2,0,8,5,18.6,0,0,2.7,0.0,2.0,10.0,1.0,14.2,0.0,0.0
+2024-09-27,19:00,Ligue 1,2024-2025,Brest,Auxerre,Away,Matchweek 6,0.8,0,3,8,4,14.8,0,0,2.5,3.0,0.0,14.0,3.0,16.7,1.0,1.0
+2024-10-01,18:45,Champions Lg,2024-2025,Brest,at RB Salzburg,Away,League phase,2.0,4,0,13,6,16.7,0,0,1.6,0.0,4.0,15.0,7.0,14.8,0.0,0.0
+2024-10-06,17:00,Ligue 1,2024-2025,Brest,Le Havre,Home,Matchweek 7,0.7,2,0,8,3,16.9,0,0,1.0,0.0,2.0,14.0,0.0,17.3,1.0,0.0
+2024-10-19,17:00,Ligue 1,2024-2025,Brest,Rennes,Home,Matchweek 8,1.5,1,1,11,1,21.1,0,1,1.2,1.0,1.0,6.0,4.0,13.3,0.0,0.0
+2024-10-23,18:45,Champions Lg,2024-2025,Brest,de Leverkusen,Home,League phase,0.5,1,1,11,3,22.1,1,0,1.0,1.0,1.0,8.0,3.0,16.4,0.0,0.0
+2024-10-26,19:00,Ligue 1,2024-2025,Brest,Reims,Away,Matchweek 9,1.5,2,1,12,3,21.1,1,1,0.7,1.0,2.0,11.0,3.0,15.8,0.0,0.0
+2024-11-02,19:00,Ligue 1,2024-2025,Brest,Nice,Home,Matchweek 10,1.0,0,1,16,6,17.1,0,0,1.4,1.0,0.0,12.0,3.0,14.2,0.0,0.0
+2024-11-06,21:00,Champions Lg,2024-2025,Brest,cz Sparta Prague,Away,League phase,1.6,2,1,18,7,19.6,1,0,0.5,1.0,2.0,6.0,1.0,11.5,0.0,0.0
+2024-11-10,17:00,Ligue 1,2024-2025,Brest,Montpellier,Away,Matchweek 11,0.9,1,3,19,6,17.6,1,0,2.5,3.0,1.0,12.0,6.0,23.0,1.0,1.0
+2024-11-22,19:00,Ligue 1,2024-2025,Brest,Monaco,Away,Matchweek 12,1.0,2,3,12,4,16.1,0,0,2.6,3.0,2.0,10.0,4.0,15.8,0.0,0.0
+2024-11-26,21:00,Champions Lg,2024-2025,Brest,es Barcelona,Away,League phase,0.1,0,3,2,0,15.0,0,0,2.8,3.0,0.0,18.0,6.0,16.0,1.0,1.0
+2024-11-30,19:00,Ligue 1,2024-2025,Brest,Strasbourg,Home,Matchweek 13,2.5,3,1,9,6,18.1,0,1,1.0,1.0,3.0,12.0,4.0,17.5,0.0,0.0
+2024-12-06,19:00,Ligue 1,2024-2025,Brest,Lille,Away,Matchweek 14,0.7,1,3,7,3,20.3,1,0,2.5,3.0,1.0,9.0,5.0,15.5,0.0,1.0
+2024-12-10,21:00,Champions Lg,2024-2025,Brest,nl PSV Eindhoven,Home,League phase,1.6,1,0,11,4,16.2,0,0,1.6,0.0,1.0,18.0,5.0,16.8,0.0,0.0
+2024-12-15,17:00,Ligue 1,2024-2025,Brest,Nantes,Home,Matchweek 15,2.0,4,1,13,8,17.8,0,0,1.1,1.0,4.0,16.0,7.0,15.0,0.0,0.0
+2024-12-21,15:30,Coupe de France,2024-2025,Brest,La Roche VF,Away,Round of 64,,1,0,15,9,,,0,,0.0,1.0,11.0,2.0,,,0.0
+2025-01-05,15:00,Ligue 1,2024-2025,Brest,Angers,Away,Matchweek 16,1.0,0,2,12,4,14.8,0,0,1.8,2.0,0.0,7.0,2.0,10.1,0.0,0.0
+2025-01-11,17:00,Ligue 1,2024-2025,Brest,Lyon,Home,Matchweek 17,1.1,2,1,11,6,16.0,0,0,1.4,1.0,2.0,10.0,3.0,12.0,0.0,0.0
+2025-01-15,18:30,Coupe de France,2024-2025,Brest,Nantes,Home,Round of 32,,2,1,8,4,,,0,,1.0,2.0,16.0,1.0,,,0.0
+2025-01-18,19:00,Ligue 1,2024-2025,Brest,Rennes,Away,Matchweek 18,1.0,2,1,10,3,15.8,0,0,1.5,1.0,2.0,22.0,9.0,16.9,0.0,0.0
+2025-01-22,19:45 (18:45),Champions Lg,2024-2025,Brest,ua Shakhtar,Away,League phase,0.4,0,2,10,4,23.4,1,0,1.9,2.0,0.0,8.0,4.0,21.0,1.0,1.0
+2025-01-26,15:00,Ligue 1,2024-2025,Brest,Le Havre,Away,Matchweek 19,2.0,1,0,17,7,15.3,1,0,1.0,0.0,1.0,11.0,1.0,15.3,0.0,0.0
+2025-01-29,21:00,Champions Lg,2024-2025,Brest,es Real Madrid,Home,League phase,1.4,0,3,23,5,18.5,1,0,2.6,3.0,0.0,14.0,6.0,14.3,0.0,0.0
+2025-02-01,17:00,Ligue 1,2024-2025,Brest,Paris S-G,Home,Matchweek 20,0.9,2,5,14,7,20.1,0,0,3.6,5.0,2.0,14.0,7.0,12.4,0.0,0.0
+2025-02-04,19:00,Coupe de France,2024-2025,Brest,Troyes,Away,Round of 16,,2,1,12,6,,,0,,1.0,2.0,14.0,3.0,,,0.0
+2025-02-07,19:00,Ligue 1,2024-2025,Brest,Nantes,Away,Matchweek 21,2.5,2,0,10,6,19.0,0,0,1.1,0.0,2.0,15.0,2.0,13.8,1.0,0.0
+2025-02-11,18:45,Champions Lg,2024-2025,Brest,fr Paris S-G,Home,Knockout phase play-offs,0.9,0,3,16,2,17.1,1,0,2.6,3.0,0.0,15.0,6.0,18.1,0.0,1.0
+2025-02-14,20:45,Ligue 1,2024-2025,Brest,Auxerre,Home,Matchweek 22,2.2,2,2,18,6,15.4,0,0,1.2,2.0,2.0,11.0,6.0,17.9,1.0,0.0
+2025-02-19,21:00,Champions Lg,2024-2025,Brest,fr Paris S-G,Away,Knockout phase play-offs,0.9,0,7,13,2,16.5,0,0,3.2,7.0,0.0,20.0,9.0,13.3,0.0,0.0
 Date,Time,Comp,2024-2025,Brest,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
-2025-02-23,17:15 (16:15),Ligue 1,2024-2025,Brest,Strasbourg,Away,Matchweek 23,0.6,0,0,12,2,17.7,0,0,0.6,0.0,0.0,3.0,1.0,16.1,0.0,0.0
-2025-02-26,19:00 (18:00),Coupe de France,2024-2025,Brest,Dunkerque,Home,Quarter-finals,,2,3,13,1,,,0,,3.0,2.0,13.0,3.0,,,0.0
-2025-03-02,15:00 (14:00),Ligue 1,2024-2025,Brest,Lyon,Away,Matchweek 24,2.0,1,2,14,4,18.3,0,1,1.3,2.0,1.0,10.0,4.0,18.6,0.0,0.0
-2025-03-09,15:00 (14:00),Ligue 1,2024-2025,Brest,Angers,Home,Matchweek 25,3.5,2,0,19,7,11.2,0,0,0.4,0.0,2.0,7.0,1.0,15.0,0.0,0.0
-2025-03-16,17:15 (16:15),Ligue 1,2024-2025,Brest,Reims,Home,Matchweek 26,0.3,0,0,11,0,22.6,1,0,1.3,0.0,0.0,12.0,2.0,14.8,0.0,0.0
-2025-03-30,15:00 (13:00),Ligue 1,2024-2025,Brest,Toulouse,Away,Matchweek 27,1.3,4,2,10,5,12.0,0,0,2.0,2.0,4.0,17.0,4.0,13.1,1.0,0.0
-2025-04-05,19:00 (17:00),Ligue 1,2024-2025,Brest,Monaco,Home,Matchweek 28,1.0,2,1,13,5,18.5,0,0,1.5,1.0,2.0,9.0,1.0,15.8,0.0,1.0
-2025-04-13,15:00 (13:00),Ligue 1,2024-2025,Brest,Saint-Étienne,Away,Matchweek 29,1.5,3,3,13,5,15.0,0,0,0.7,3.0,3.0,9.0,4.0,16.0,0.0,0.0
-2025-04-20,17:15 (15:15),Ligue 1,2024-2025,Brest,Lens,Home,Matchweek 30,1.0,1,3,11,5,19.5,0,0,2.2,3.0,1.0,16.0,7.0,16.1,0.0,1.0
-2025-04-27,20:45 (18:45),Ligue 1,2024-2025,Brest,Marseille,Away,Matchweek 31,1.2,1,4,9,4,11.7,0,0,0.9,4.0,1.0,11.0,6.0,19.8,1.0,0.0
-2025-05-04,17:15 (15:15),Ligue 1,2024-2025,Brest,Montpellier,Home,Matchweek 32,1.1,1,0,16,5,15.8,1,0,0.5,0.0,1.0,6.0,1.0,18.9,0.0,0.0
-2025-05-10,21:00 (19:00),Ligue 1,2024-2025,Brest,Lille,Home,Matchweek 33,1.2,2,0,12,4,15.3,0,0,1.9,0.0,2.0,18.0,2.0,16.5,0.0,0.0
-2025-05-17,21:00 (19:00),Ligue 1,2024-2025,Brest,Nice,Away,Matchweek 34,0.9,0,6,10,1,17.8,0,0,4.9,6.0,0.0,17.0,8.0,14.1,0.0,1.0
-2024-08-18,17:00 (15:00),Ligue 1,2024-2025,Toulouse,Nantes,Home,Matchweek 1,1.7,0,0,12,6,12.4,0.0,0,0.5,0,0,10.0,2.0,15.5,0.0,0.0
-2024-08-25,17:00 (15:00),Ligue 1,2024-2025,Toulouse,Nice,Away,Matchweek 2,1.0,1,1,15,3,17.8,1.0,0,1.3,1,1,11.0,3.0,13.6,1.0,0.0
-2024-08-31,21:00 (19:00),Ligue 1,2024-2025,Toulouse,Marseille,Home,Matchweek 3,1.0,1,3,3,1,16.2,0.0,0,0.8,3,1,12.0,4.0,16.4,2.0,0.0
-2024-09-15,17:00 (15:00),Ligue 1,2024-2025,Toulouse,Le Havre,Home,Matchweek 4,1.3,2,0,15,6,14.6,0.0,0,0.2,0,2,5.0,3.0,29.0,0.0,0.0
-2024-09-22,17:00 (15:00),Ligue 1,2024-2025,Toulouse,Brest,Away,Matchweek 5,2.7,0,2,10,1,14.2,0.0,0,0.5,2,0,8.0,5.0,18.6,0.0,0.0
-2024-09-29,15:00 (13:00),Ligue 1,2024-2025,Toulouse,Lyon,Home,Matchweek 6,0.9,1,2,10,4,18.3,0.0,0,0.4,2,1,4.0,1.0,8.7,0.0,0.0
-2024-10-05,19:00 (17:00),Ligue 1,2024-2025,Toulouse,Lille,Away,Matchweek 7,1.1,1,2,9,2,15.8,0.0,0,1.6,2,1,10.0,3.0,16.9,1.0,0.0
-2024-10-20,17:00 (15:00),Ligue 1,2024-2025,Toulouse,Angers,Home,Matchweek 8,2.0,1,1,18,5,14.9,0.0,0,1.4,1,1,7.0,3.0,22.9,0.0,0.0
-2024-10-27,17:00 (16:00),Ligue 1,2024-2025,Toulouse,Montpellier,Away,Matchweek 9,1.9,3,0,15,6,18.1,0.0,0,0.2,0,3,9.0,2.0,27.3,2.0,0.0
-2024-11-03,15:00 (14:00),Ligue 1,2024-2025,Toulouse,Reims,Home,Matchweek 10,0.9,1,0,13,5,15.9,0.0,0,1.1,0,1,13.0,2.0,24.1,0.0,0.0
-2024-11-10,17:00 (16:00),Ligue 1,2024-2025,Toulouse,Rennes,Away,Matchweek 11,1.4,2,0,9,1,15.6,0.0,0,0.6,0,2,7.0,1.0,17.3,0.0,0.0
-2024-11-22,21:00 (20:00),Ligue 1,2024-2025,Toulouse,Paris S-G,Away,Matchweek 12,1.4,0,3,11,2,18.2,0.0,0,1.1,3,0,17.0,8.0,17.7,0.0,0.0
-2024-12-01,17:00 (16:00),Ligue 1,2024-2025,Toulouse,Auxerre,Home,Matchweek 13,2.3,2,0,11,5,19.1,0.0,1,0.2,0,2,4.0,0.0,20.0,0.0,0.0
-2024-12-07,17:00 (16:00),Ligue 1,2024-2025,Toulouse,Monaco,Away,Matchweek 14,0.5,0,2,6,3,17.1,0.0,0,3.2,2,0,19.0,5.0,14.6,0.0,0.0
-2024-12-13,20:45 (19:45),Ligue 1,2024-2025,Toulouse,Saint-Étienne,Home,Matchweek 15,1.4,2,1,11,4,11.4,0.0,0,0.5,1,2,3.0,2.0,24.3,0.0,0.0
-2024-12-21,15:30 (14:30),Coupe de France,2024-2025,Toulouse,Ht Lyonnais,Away,Round of 64,,0 (4),0 (2),14,3,,,0,,0 (2),0 (4),4.0,0.0,,,0.0
-2025-01-05,15:00 (14:00),Ligue 1,2024-2025,Toulouse,Lens,Away,Matchweek 16,2.0,1,0,7,3,12.8,0.0,1,1.4,0,1,14.0,1.0,19.5,0.0,0.0
-2025-01-12,17:15 (16:15),Ligue 1,2024-2025,Toulouse,Strasbourg,Home,Matchweek 17,1.2,1,2,19,5,17.0,2.0,0,2.3,2,1,8.0,2.0,16.5,0.0,0.0
-2025-01-15,18:30 (17:30),Coupe de France,2024-2025,Toulouse,Stade Laval,Home,Round of 32,,2,1,24,8,,,0,,1,2,7.0,2.0,,,0.0
-2025-01-18,21:05 (20:05),Ligue 1,2024-2025,Toulouse,Lyon,Away,Matchweek 18,1.1,0,0,13,4,14.6,0.0,0,0.7,0,0,11.0,3.0,17.1,1.0,0.0
-2025-01-26,17:15 (16:15),Ligue 1,2024-2025,Toulouse,Montpellier,Home,Matchweek 19,1.0,1,2,15,5,17.2,0.0,0,0.5,2,1,6.0,4.0,17.1,0.0,0.0
-2025-02-02,15:00 (14:00),Ligue 1,2024-2025,Toulouse,Nice,Home,Matchweek 20,1.4,1,1,15,4,12.2,0.0,0,1.7,1,1,12.0,2.0,18.8,0.0,1.0
-2025-02-05,20:45 (19:45),Coupe de France,2024-2025,Toulouse,Guingamp,Home,Round of 16,,0,2,8,2,,,0,,2,0,8.0,3.0,,,0.0
-2025-02-09,17:15 (16:15),Ligue 1,2024-2025,Toulouse,Auxerre,Away,Matchweek 21,0.9,2,2,7,3,15.8,0.0,0,0.9,2,2,9.0,3.0,15.5,0.0,0.0
-2025-02-15,21:05 (20:05),Ligue 1,2024-2025,Toulouse,Paris S-G,Home,Matchweek 22,0.9,0,1,14,4,15.0,0.0,0,2.4,1,0,20.0,6.0,19.7,2.0,0.0
-2025-02-23,17:15 (16:15),Ligue 1,2024-2025,Toulouse,Le Havre,Away,Matchweek 23,2.4,4,1,10,4,17.4,0.0,1,0.8,1,4,11.0,3.0,18.5,0.0,0.0
-2025-03-02,17:15 (16:15),Ligue 1,2024-2025,Toulouse,Angers,Away,Matchweek 24,3.5,4,0,19,13,12.3,0.0,0,0.4,0,4,5.0,1.0,22.3,1.0,0.0
-2025-03-07,20:45 (19:45),Ligue 1,2024-2025,Toulouse,Monaco,Home,Matchweek 25,0.6,1,1,8,3,17.4,0.0,0,2.4,1,1,13.0,3.0,12.8,0.0,0.0
-2025-03-16,17:15 (16:15),Ligue 1,2024-2025,Toulouse,Strasbourg,Away,Matchweek 26,1.7,1,2,11,7,18.2,1.0,0,1.7,2,1,10.0,3.0,13.9,0.0,0.0
-2025-03-30,15:00 (13:00),Ligue 1,2024-2025,Toulouse,Brest,Home,Matchweek 27,2.0,2,4,17,4,13.1,1.0,0,1.3,4,2,10.0,5.0,12.0,0.0,0.0
-2025-04-06,20:45 (18:45),Ligue 1,2024-2025,Toulouse,Marseille,Away,Matchweek 28,1.3,2,3,8,3,17.3,0.0,0,1.0,3,2,9.0,4.0,16.3,0.0,0.0
-2025-04-12,19:00 (17:00),Ligue 1,2024-2025,Toulouse,Lille,Home,Matchweek 29,0.9,1,2,9,5,14.7,1.0,0,0.5,2,1,6.0,3.0,16.0,1.0,0.0
-2025-04-20,17:15 (15:15),Ligue 1,2024-2025,Toulouse,Reims,Away,Matchweek 30,1.3,0,1,18,5,15.9,1.0,0,0.7,1,0,8.0,2.0,14.4,0.0,0.0
-2025-04-27,17:15 (15:15),Ligue 1,2024-2025,Toulouse,Nantes,Away,Matchweek 31,0.4,0,0,6,2,18.3,0.0,0,1.1,0,0,11.0,3.0,14.6,0.0,0.0
-2025-05-03,19:00 (17:00),Ligue 1,2024-2025,Toulouse,Rennes,Home,Matchweek 32,0.7,2,1,9,3,14.9,0.0,0,1.4,1,2,15.0,6.0,17.5,0.0,0.0
-2025-05-10,21:00 (19:00),Ligue 1,2024-2025,Toulouse,Lens,Home,Matchweek 33,1.1,1,1,9,6,13.7,0.0,0,0.7,1,1,12.0,2.0,18.5,0.0,0.0
-2025-05-17,21:00 (19:00),Ligue 1,2024-2025,Toulouse,Saint-Étienne,Away,Matchweek 34,3.2,3,2,17,8,13.2,0.0,0,1.3,2,3,18.0,6.0,18.1,0.0,0.0
-2024-08-18,15:00 (13:00),Ligue 1,2024-2025,Auxerre,Nice,Home,Matchweek 1,1.8,2.0,1.0,16,7,16.0,1.0,0,0.7,1.0,2.0,9.0,2.0,14.4,1.0,0.0
-2024-08-25,17:00 (15:00),Ligue 1,2024-2025,Auxerre,Nantes,Away,Matchweek 2,1.1,0.0,2.0,12,3,16.4,0.0,0,1.4,2.0,0.0,9.0,5.0,16.7,1.0,0.0
-2024-09-01,17:00 (15:00),Ligue 1,2024-2025,Auxerre,Le Havre,Away,Matchweek 3,0.6,1.0,3.0,7,3,25.0,1.0,0,2.8,3.0,1.0,21.0,7.0,19.8,1.0,1.0
-2024-09-14,19:00 (17:00),Ligue 1,2024-2025,Auxerre,Monaco,Home,Matchweek 4,0.6,0.0,3.0,13,3,21.7,0.0,0,3.4,3.0,0.0,19.0,9.0,12.9,0.0,0.0
-2024-09-22,17:00 (15:00),Ligue 1,2024-2025,Auxerre,Montpellier,Away,Matchweek 5,1.2,2.0,3.0,11,5,13.5,0.0,0,2.0,3.0,2.0,14.0,4.0,14.4,0.0,0.0
-2024-09-27,19:00 (17:00),Ligue 1,2024-2025,Auxerre,Brest,Home,Matchweek 6,2.5,3.0,0.0,14,3,16.7,1.0,1,0.8,0.0,3.0,8.0,4.0,14.8,0.0,0.0
-2024-10-05,17:00 (15:00),Ligue 1,2024-2025,Auxerre,Saint-Étienne,Away,Matchweek 7,0.8,1.0,3.0,11,1,16.5,0.0,0,2.7,3.0,1.0,13.0,5.0,15.2,0.0,0.0
-2024-10-20,17:00 (15:00),Ligue 1,2024-2025,Auxerre,Reims,Home,Matchweek 8,2.8,2.0,1.0,9,7,15.5,0.0,0,1.1,1.0,2.0,15.0,3.0,16.6,1.0,0.0
-2024-10-27,15:00 (14:00),Ligue 1,2024-2025,Auxerre,Lyon,Away,Matchweek 9,1.5,2.0,2.0,19,5,16.0,0.0,0,2.0,2.0,2.0,11.0,7.0,14.4,0.0,1.0
-2024-11-03,17:00 (16:00),Ligue 1,2024-2025,Auxerre,Rennes,Home,Matchweek 10,2.8,4.0,0.0,15,7,17.6,0.0,1,0.9,0.0,4.0,7.0,4.0,12.7,0.0,0.0
-2024-11-08,20:45 (19:45),Ligue 1,2024-2025,Auxerre,Marseille,Away,Matchweek 11,1.9,3.0,1.0,10,6,18.0,0.0,0,2.5,1.0,3.0,18.0,4.0,16.5,1.0,1.0
-2024-11-24,17:00 (16:00),Ligue 1,2024-2025,Auxerre,Angers,Home,Matchweek 12,0.6,1.0,0.0,10,6,19.4,0.0,0,0.9,0.0,1.0,10.0,5.0,18.1,1.0,0.0
-2024-12-01,17:00 (16:00),Ligue 1,2024-2025,Auxerre,Toulouse,Away,Matchweek 13,0.2,0.0,2.0,4,0,20.0,0.0,0,2.3,2.0,0.0,11.0,5.0,19.1,0.0,1.0
-2024-12-06,21:00 (20:00),Ligue 1,2024-2025,Auxerre,Paris S-G,Home,Matchweek 14,0.3,0.0,0.0,6,2,18.7,0.0,0,2.5,0.0,0.0,24.0,11.0,14.7,0.0,0.0
-2024-12-14,19:00 (18:00),Ligue 1,2024-2025,Auxerre,Lens,Home,Matchweek 15,0.6,2.0,2.0,10,3,19.5,1.0,0,1.6,2.0,2.0,16.0,5.0,18.2,1.0,0.0
-2024-12-22,14:45 (13:45),Coupe de France,2024-2025,Auxerre,Dunkerque,Home,Round of 64,,0.0,1.0,9,2,,,0,,1.0,0.0,13.0,4.0,,,0.0
-2025-01-05,15:00 (14:00),Ligue 1,2024-2025,Auxerre,Strasbourg,Away,Matchweek 16,1.4,1.0,3.0,14,7,17.3,1.0,0,2.9,3.0,1.0,10.0,3.0,15.1,0.0,1.0
-2025-01-10,21:05 (20:05),Ligue 1,2024-2025,Auxerre,Lille,Home,Matchweek 17,0.8,0.0,0.0,13,3,19.8,0.0,0,1.5,0.0,0.0,12.0,4.0,20.0,0.0,0.0
-2025-01-19,17:15 (16:15),Ligue 1,2024-2025,Auxerre,Angers,Away,Matchweek 18,0.7,0.0,2.0,10,4,18.7,1.0,0,0.9,2.0,0.0,12.0,4.0,20.1,2.0,0.0
-2025-01-24,20:45 (19:45),Ligue 1,2024-2025,Auxerre,Saint-Étienne,Home,Matchweek 19,0.8,1.0,1.0,11,5,15.9,0.0,0,1.2,1.0,1.0,8.0,3.0,18.0,1.0,0.0
-2025-02-01,19:00 (18:00),Ligue 1,2024-2025,Auxerre,Monaco,Away,Matchweek 20,1.2,2.0,4.0,11,6,17.9,0.0,1,2.6,4.0,2.0,11.0,6.0,13.8,1.0,0.0
-2025-02-09,17:15 (16:15),Ligue 1,2024-2025,Auxerre,Toulouse,Home,Matchweek 21,0.9,2.0,2.0,9,3,15.5,0.0,0,0.9,2.0,2.0,7.0,3.0,15.8,0.0,0.0
-2025-02-14,20:45 (19:45),Ligue 1,2024-2025,Auxerre,Brest,Away,Matchweek 22,1.2,2.0,2.0,11,6,17.9,1.0,0,2.2,2.0,2.0,18.0,6.0,15.4,0.0,0.0
-2025-02-22,21:05 (20:05),Ligue 1,2024-2025,Auxerre,Marseille,Home,Matchweek 23,2.0,3.0,0.0,8,4,14.8,0.0,1,0.7,0.0,3.0,8.0,2.0,15.5,0.0,0.0
-2025-03-02,17:15 (16:15),Ligue 1,2024-2025,Auxerre,Strasbourg,Home,Matchweek 24,2.2,0.0,1.0,14,5,13.4,0.0,0,1.4,1.0,0.0,6.0,3.0,14.9,0.0,0.0
-2025-03-09,17:15 (16:15),Ligue 1,2024-2025,Auxerre,Reims,Away,Matchweek 25,2.1,2.0,0.0,13,9,14.3,0.0,0,1.4,0.0,2.0,17.0,4.0,16.8,1.0,0.0
-2025-03-14,20:45 (19:45),Ligue 1,2024-2025,Auxerre,Nice,Away,Matchweek 26,0.7,1.0,1.0,10,4,19.3,0.0,0,2.0,1.0,1.0,20.0,6.0,13.3,1.0,0.0
-2025-03-30,17:15 (15:15),Ligue 1,2024-2025,Auxerre,Montpellier,Home,Matchweek 27,2.1,1.0,0.0,21,6,18.4,1.0,0,0.5,0.0,1.0,12.0,1.0,24.1,0.0,0.0
-2025-04-06,17:15 (15:15),Ligue 1,2024-2025,Auxerre,Rennes,Away,Matchweek 28,0.8,1.0,0.0,11,3,19.9,1.0,0,1.2,0.0,1.0,18.0,5.0,18.9,1.0,0.0
-2025-04-13,20:45 (18:45),Ligue 1,2024-2025,Auxerre,Lyon,Home,Matchweek 29,0.7,1.0,3.0,14,2,22.1,1.0,0,2.9,3.0,1.0,12.0,6.0,14.4,0.0,1.0
-2025-04-20,15:00 (13:00),Ligue 1,2024-2025,Auxerre,Lille,Away,Matchweek 30,0.3,1.0,3.0,6,2,20.0,0.0,0,2.0,3.0,1.0,15.0,9.0,17.0,0.0,0.0
-2025-04-27,17:15 (15:15),Ligue 1,2024-2025,Auxerre,Lens,Away,Matchweek 31,2.6,4.0,0.0,12,8,13.0,0.0,0,1.4,0.0,4.0,16.0,5.0,15.1,0.0,0.0
-2025-05-04,17:15 (15:15),Ligue 1,2024-2025,Auxerre,Le Havre,Home,Matchweek 32,0.2,1.0,2.0,4,1,15.2,0.0,0,1.5,2.0,1.0,11.0,5.0,13.7,0.0,0.0
-2025-05-10,21:00 (19:00),Ligue 1,2024-2025,Auxerre,Nantes,Home,Matchweek 33,0.4,1.0,1.0,9,3,17.1,0.0,0,0.7,1.0,1.0,7.0,2.0,20.3,1.0,0.0
-2025-05-17,21:00 (19:00),Ligue 1,2024-2025,Auxerre,Paris S-G,Away,Matchweek 34,0.6,1.0,3.0,7,2,17.2,0.0,0,3.1,3.0,1.0,20.0,8.0,20.0,2.0,0.0
-2024-08-18,20:45 (18:45),Ligue 1,2024-2025,Rennes,Lyon,Home,Matchweek 1,2.0,3.0,0.0,22,8,14.9,1.0,0,2.1,0.0,3.0,15.0,1.0,15.8,0.0,0.0
-2024-08-25,17:00 (15:00),Ligue 1,2024-2025,Rennes,Strasbourg,Away,Matchweek 2,1.1,1.0,3.0,14,5,19.6,1.0,0,0.7,3.0,1.0,11.0,5.0,13.9,0.0,0.0
-2024-09-01,17:00 (15:00),Ligue 1,2024-2025,Rennes,Reims,Away,Matchweek 3,0.8,1.0,2.0,13,5,15.9,0.0,0,1.4,2.0,1.0,11.0,7.0,15.8,0.0,0.0
-2024-09-15,15:00 (13:00),Ligue 1,2024-2025,Rennes,Montpellier,Home,Matchweek 4,1.3,3.0,0.0,11,6,16.6,0.0,0,0.3,0.0,3.0,12.0,4.0,23.5,0.0,0.0
-2024-09-21,19:00 (17:00),Ligue 1,2024-2025,Rennes,Lens,Home,Matchweek 5,1.4,1.0,1.0,10,5,19.5,0.0,1,0.6,1.0,1.0,10.0,2.0,18.8,1.0,0.0
-2024-09-27,21:00 (19:00),Ligue 1,2024-2025,Rennes,Paris S-G,Away,Matchweek 6,1.4,1.0,3.0,11,4,22.5,0.0,1,3.0,3.0,1.0,23.0,7.0,16.0,0.0,0.0
-2024-10-05,21:00 (19:00),Ligue 1,2024-2025,Rennes,Monaco,Home,Matchweek 7,0.7,1.0,2.0,14,3,22.3,0.0,0,0.6,2.0,1.0,5.0,2.0,12.7,0.0,0.0
-2024-10-19,17:00 (15:00),Ligue 1,2024-2025,Rennes,Brest,Away,Matchweek 8,1.2,1.0,1.0,6,4,13.3,0.0,0,1.5,1.0,1.0,11.0,1.0,21.1,0.0,1.0
-2024-10-25,20:45 (18:45),Ligue 1,2024-2025,Rennes,Le Havre,Home,Matchweek 9,1.5,1.0,0.0,20,4,15.4,0.0,0,0.4,0.0,1.0,5.0,1.0,15.9,0.0,0.0
-2024-11-03,17:00 (16:00),Ligue 1,2024-2025,Rennes,Auxerre,Away,Matchweek 10,0.9,0.0,4.0,7,4,12.7,0.0,0,2.8,4.0,0.0,15.0,7.0,17.6,0.0,1.0
-2024-11-10,17:00 (16:00),Ligue 1,2024-2025,Rennes,Toulouse,Home,Matchweek 11,0.6,0.0,2.0,7,1,17.3,0.0,0,1.4,2.0,0.0,9.0,1.0,15.6,0.0,0.0
-2024-11-24,15:00 (14:00),Ligue 1,2024-2025,Rennes,Lille,Away,Matchweek 12,0.2,0.0,1.0,4,1,21.2,2.0,0,0.4,1.0,0.0,5.0,2.0,18.4,0.0,0.0
-2024-11-30,17:00 (16:00),Ligue 1,2024-2025,Rennes,Saint-Étienne,Home,Matchweek 13,3.2,5.0,0.0,16,7,18.1,0.0,2,0.1,0.0,5.0,2.0,0.0,16.2,0.0,0.0
-2024-12-08,17:00 (16:00),Ligue 1,2024-2025,Rennes,Nantes,Away,Matchweek 14,0.4,0.0,1.0,5,3,17.9,1.0,0,1.2,1.0,0.0,14.0,2.0,15.3,0.0,0.0
-2024-12-15,17:00 (16:00),Ligue 1,2024-2025,Rennes,Angers,Home,Matchweek 15,0.6,2.0,0.0,7,4,19.4,0.0,0,0.4,0.0,2.0,3.0,0.0,12.3,0.0,0.0
-2024-12-22,14:45 (13:45),Coupe de France,2024-2025,Rennes,Bordeaux,Away,Round of 64,,4.0,1.0,14,6,,,0,,1.0,4.0,11.0,4.0,,,0.0
-2025-01-03,21:00 (20:00),Ligue 1,2024-2025,Rennes,Nice,Away,Matchweek 16,1.7,2.0,3.0,10,5,19.4,0.0,0,1.5,3.0,2.0,9.0,6.0,14.5,0.0,0.0
-2025-01-11,21:05 (20:05),Ligue 1,2024-2025,Rennes,Marseille,Home,Matchweek 17,1.2,1.0,2.0,4,3,17.4,0.0,0,1.7,2.0,1.0,13.0,7.0,14.9,1.0,0.0
-2025-01-15,18:30 (17:30),Coupe de France,2024-2025,Rennes,Troyes,Away,Round of 32,,0.0,1.0,15,4,,,0,,1.0,0.0,14.0,1.0,,,0.0
-2025-01-18,19:00 (18:00),Ligue 1,2024-2025,Rennes,Brest,Home,Matchweek 18,1.5,1.0,2.0,22,9,16.9,0.0,0,1.0,2.0,1.0,10.0,3.0,15.8,0.0,0.0
-2025-01-25,17:00 (16:00),Ligue 1,2024-2025,Rennes,Monaco,Away,Matchweek 19,1.8,2.0,3.0,14,5,16.8,0.0,0,3.5,3.0,2.0,20.0,9.0,15.2,0.0,0.0
-2025-02-02,17:15 (16:15),Ligue 1,2024-2025,Rennes,Strasbourg,Home,Matchweek 20,0.9,1.0,0.0,13,3,17.5,0.0,0,1.2,0.0,1.0,7.0,3.0,15.4,0.0,0.0
-2025-02-08,21:05 (20:05),Ligue 1,2024-2025,Rennes,Saint-Étienne,Away,Matchweek 21,3.6,2.0,0.0,21,8,15.0,0.0,0,0.5,0.0,2.0,9.0,3.0,17.8,0.0,0.0
-2025-02-16,20:45 (19:45),Ligue 1,2024-2025,Rennes,Lille,Home,Matchweek 22,0.4,0.0,2.0,4,0,15.8,0.0,0,3.0,2.0,0.0,17.0,6.0,13.5,1.0,0.0
-2025-02-21,20:45 (19:45),Ligue 1,2024-2025,Rennes,Reims,Home,Matchweek 23,2.3,1.0,0.0,25,4,18.8,0.0,1,0.1,0.0,1.0,3.0,0.0,14.5,0.0,0.0
-2025-03-02,17:15 (16:15),Ligue 1,2024-2025,Rennes,Montpellier,Away,Matchweek 24,2.4,4.0,0.0,14,7,15.4,0.0,0,1.6,0.0,4.0,16.0,5.0,19.7,0.0,0.0
-2025-03-08,17:00 (16:00),Ligue 1,2024-2025,Rennes,Paris S-G,Home,Matchweek 25,1.6,1.0,4.0,13,3,13.0,1.0,0,3.8,4.0,1.0,19.0,9.0,17.1,0.0,0.0
-2025-03-15,21:05 (20:05),Ligue 1,2024-2025,Rennes,Lens,Away,Matchweek 26,0.6,0.0,1.0,12,5,20.0,0.0,0,0.7,1.0,0.0,9.0,4.0,15.0,0.0,0.0
-2025-03-30,17:15 (15:15),Ligue 1,2024-2025,Rennes,Angers,Away,Matchweek 27,1.5,3.0,0.0,14,6,16.5,0.0,0,1.0,0.0,3.0,9.0,4.0,15.5,0.0,0.0
-2025-04-06,17:15 (15:15),Ligue 1,2024-2025,Rennes,Auxerre,Home,Matchweek 28,1.2,0.0,1.0,18,5,18.9,1.0,0,0.8,1.0,0.0,11.0,3.0,19.9,1.0,0.0
-2025-04-13,17:15 (15:15),Ligue 1,2024-2025,Rennes,Le Havre,Away,Matchweek 29,2.7,5.0,1.0,10,6,10.5,0.0,0,0.6,1.0,5.0,11.0,2.0,24.6,3.0,0.0
-2025-04-18,20:45 (18:45),Ligue 1,2024-2025,Rennes,Nantes,Home,Matchweek 30,2.7,2.0,1.0,18,5,16.5,0.0,0,0.7,1.0,2.0,4.0,1.0,14.1,0.0,0.0
-2025-04-26,21:05 (19:05),Ligue 1,2024-2025,Rennes,Lyon,Away,Matchweek 31,0.8,1.0,4.0,10,4,22.5,0.0,0,1.8,4.0,1.0,14.0,8.0,14.1,0.0,0.0
-2025-05-03,19:00 (17:00),Ligue 1,2024-2025,Rennes,Toulouse,Away,Matchweek 32,1.4,1.0,2.0,15,6,17.5,0.0,0,0.7,2.0,1.0,9.0,3.0,14.9,0.0,0.0
-2025-05-10,21:00 (19:00),Ligue 1,2024-2025,Rennes,Nice,Home,Matchweek 33,1.7,2.0,0.0,10,4,17.9,1.0,0,1.1,0.0,2.0,14.0,6.0,16.3,0.0,0.0
-2025-05-17,21:00 (19:00),Ligue 1,2024-2025,Rennes,Marseille,Away,Matchweek 34,1.3,2.0,4.0,9,3,18.5,0.0,0,3.9,4.0,2.0,15.0,8.0,15.7,1.0,1.0
-2024-08-18,17:00 (15:00),Ligue 1,2024-2025,Nantes,Toulouse,Away,Matchweek 1,0.5,0.0,0.0,10,2,15.5,0.0,0,1.7,0.0,0.0,12.0,6.0,12.4,0.0,0.0
-2024-08-25,17:00 (15:00),Ligue 1,2024-2025,Nantes,Auxerre,Home,Matchweek 2,1.4,2.0,0.0,9,5,16.7,1.0,0,1.1,0.0,2.0,12.0,3.0,16.4,0.0,0.0
-2024-08-31,19:00 (17:00),Ligue 1,2024-2025,Nantes,Montpellier,Away,Matchweek 3,1.5,3.0,1.0,8,3,18.8,0.0,1,0.9,1.0,3.0,10.0,4.0,22.6,2.0,0.0
-2024-09-15,17:00 (15:00),Ligue 1,2024-2025,Nantes,Reims,Home,Matchweek 4,1.5,1.0,2.0,18,6,18.4,0.0,0,0.5,2.0,1.0,11.0,4.0,19.6,0.0,0.0
-2024-09-22,17:00 (15:00),Ligue 1,2024-2025,Nantes,Angers,Away,Matchweek 5,0.6,1.0,1.0,9,3,14.8,0.0,0,0.9,1.0,1.0,3.0,0.0,32.3,0.0,1.0
-2024-09-29,17:00 (15:00),Ligue 1,2024-2025,Nantes,Saint-Étienne,Home,Matchweek 6,1.8,2.0,2.0,16,3,13.4,0.0,0,1.0,2.0,2.0,4.0,2.0,18.9,0.0,1.0
-2024-10-06,15:00 (13:00),Ligue 1,2024-2025,Nantes,Lyon,Away,Matchweek 7,0.9,0.0,2.0,11,6,15.0,0.0,0,3.2,2.0,0.0,17.0,6.0,14.5,0.0,0.0
-2024-10-20,17:00 (15:00),Ligue 1,2024-2025,Nantes,Nice,Home,Matchweek 8,0.5,1.0,1.0,11,7,19.5,0.0,0,0.8,1.0,1.0,13.0,7.0,17.6,0.0,0.0
-2024-10-27,17:00 (16:00),Ligue 1,2024-2025,Nantes,Strasbourg,Away,Matchweek 9,0.7,1.0,3.0,8,6,12.5,0.0,0,1.7,3.0,1.0,9.0,5.0,10.0,0.0,0.0
-2024-11-03,20:45 (19:45),Ligue 1,2024-2025,Nantes,Marseille,Home,Matchweek 10,1.4,1.0,2.0,7,3,13.1,0.0,0,1.2,2.0,1.0,9.0,4.0,19.5,0.0,0.0
-2024-11-09,19:00 (18:00),Ligue 1,2024-2025,Nantes,Lens,Away,Matchweek 11,1.4,2.0,3.0,8,2,21.8,0.0,1,2.9,3.0,2.0,14.0,2.0,12.5,0.0,1.0
-2024-11-24,17:00 (16:00),Ligue 1,2024-2025,Nantes,Le Havre,Home,Matchweek 12,0.9,0.0,2.0,18,4,19.1,0.0,0,0.9,2.0,0.0,7.0,3.0,12.8,0.0,0.0
-2024-11-30,21:00 (20:00),Ligue 1,2024-2025,Nantes,Paris S-G,Away,Matchweek 13,0.8,1.0,1.0,5,2,10.8,0.0,0,2.6,1.0,1.0,24.0,10.0,16.5,0.0,0.0
-2024-12-08,17:00 (16:00),Ligue 1,2024-2025,Nantes,Rennes,Home,Matchweek 14,1.2,1.0,0.0,14,2,15.3,0.0,0,0.4,0.0,1.0,5.0,3.0,17.9,1.0,0.0
-2024-12-15,17:00 (16:00),Ligue 1,2024-2025,Nantes,Brest,Away,Matchweek 15,1.1,1.0,4.0,16,7,15.0,0.0,0,2.0,4.0,1.0,13.0,8.0,17.8,0.0,0.0
-2024-12-21,18:00 (17:00),Coupe de France,2024-2025,Nantes,JA Drancy,Away,Round of 64,,4.0,0.0,19,6,,,0,,0.0,4.0,4.0,1.0,,,0.0
-2025-01-04,19:00 (18:00),Ligue 1,2024-2025,Nantes,Lille,Away,Matchweek 16,1.3,1.0,1.0,5,1,21.2,0.0,1,1.2,1.0,1.0,13.0,3.0,14.0,0.0,0.0
-2025-01-10,19:00 (18:00),Ligue 1,2024-2025,Nantes,Monaco,Home,Matchweek 17,0.8,2.0,2.0,10,4,15.0,0.0,0,3.4,2.0,2.0,15.0,6.0,14.6,1.0,0.0
-2025-01-15,18:30 (17:30),Coupe de France,2024-2025,Nantes,Brest,Away,Round of 32,,1.0,2.0,16,1,,,0,,2.0,1.0,8.0,4.0,,,0.0
-2025-01-19,15:00 (14:00),Ligue 1,2024-2025,Nantes,Saint-Étienne,Away,Matchweek 18,1.3,1.0,1.0,8,4,14.0,0.0,0,0.8,1.0,1.0,12.0,2.0,16.5,0.0,0.0
-2025-01-26,17:15 (16:15),Ligue 1,2024-2025,Nantes,Lyon,Home,Matchweek 19,1.2,1.0,1.0,7,5,14.2,0.0,0,1.1,1.0,1.0,15.0,4.0,13.1,1.0,0.0
-2025-02-02,17:15 (16:15),Ligue 1,2024-2025,Nantes,Reims,Away,Matchweek 20,2.0,2.0,1.0,11,6,12.0,0.0,0,1.0,1.0,2.0,13.0,2.0,13.0,0.0,0.0
-2025-02-07,19:00 (18:00),Ligue 1,2024-2025,Nantes,Brest,Home,Matchweek 21,1.1,0.0,2.0,15,2,13.8,1.0,0,2.5,2.0,0.0,10.0,6.0,19.0,0.0,0.0
-2025-02-15,19:00 (18:00),Ligue 1,2024-2025,Nantes,Monaco,Away,Matchweek 22,1.4,1.0,7.0,6,2,14.4,0.0,0,4.4,7.0,1.0,21.0,10.0,15.1,0.0,1.0
-2025-02-23,15:00 (14:00),Ligue 1,2024-2025,Nantes,Lens,Home,Matchweek 23,3.9,3.0,1.0,16,7,12.2,0.0,1,1.6,1.0,3.0,13.0,3.0,17.9,0.0,1.0
-2025-03-02,20:45 (19:45),Ligue 1,2024-2025,Nantes,Marseille,Away,Matchweek 24,0.8,0.0,2.0,8,2,17.7,0.0,0,2.1,2.0,0.0,21.0,5.0,19.5,1.0,0.0
-2025-03-09,17:15 (16:15),Ligue 1,2024-2025,Nantes,Strasbourg,Home,Matchweek 25,0.8,0.0,1.0,11,2,16.0,0.0,0,1.0,1.0,0.0,9.0,1.0,14.4,0.0,0.0
-2025-03-15,17:00 (16:00),Ligue 1,2024-2025,Nantes,Lille,Home,Matchweek 26,1.2,1.0,0.0,10,2,12.7,0.0,0,1.6,0.0,1.0,13.0,3.0,13.6,0.0,0.0
-2025-03-30,17:15 (15:15),Ligue 1,2024-2025,Nantes,Le Havre,Away,Matchweek 27,0.8,2.0,3.0,7,2,16.1,1.0,0,4.0,3.0,2.0,14.0,3.0,16.0,0.0,2.0
-2025-04-04,20:45 (18:45),Ligue 1,2024-2025,Nantes,Nice,Away,Matchweek 28,0.5,2.0,1.0,8,4,20.8,0.0,0,1.9,1.0,2.0,21.0,9.0,18.4,2.0,0.0
-2025-04-18,20:45 (18:45),Ligue 1,2024-2025,Nantes,Rennes,Away,Matchweek 30,0.7,1.0,2.0,4,1,14.1,0.0,0,2.7,2.0,1.0,18.0,5.0,16.5,0.0,0.0
-2025-04-22,20:45 (18:45),Ligue 1,2024-2025,Nantes,Paris S-G,Home,Matchweek 29,0.5,1.0,1.0,8,2,20.5,0.0,0,1.6,1.0,1.0,10.0,5.0,12.5,0.0,0.0
-2025-04-27,17:15 (15:15),Ligue 1,2024-2025,Nantes,Toulouse,Home,Matchweek 31,1.1,0.0,0.0,11,3,14.6,0.0,0,0.4,0.0,0.0,6.0,2.0,18.3,0.0,0.0
-2025-05-04,15:00 (13:00),Ligue 1,2024-2025,Nantes,Angers,Home,Matchweek 32,0.5,0.0,1.0,8,3,19.3,0.0,0,1.1,1.0,0.0,14.0,2.0,17.2,0.0,0.0
-2025-05-10,21:00 (19:00),Ligue 1,2024-2025,Nantes,Auxerre,Away,Matchweek 33,0.7,1.0,1.0,7,2,20.3,1.0,0,0.4,1.0,1.0,9.0,3.0,17.1,0.0,0.0
-2025-05-17,21:00 (19:00),Ligue 1,2024-2025,Nantes,Montpellier,Home,Matchweek 34,2.5,3.0,0.0,17,4,16.2,0.0,1,0.8,0.0,3.0,9.0,0.0,16.3,0.0,0.0
-2024-08-18,17:00 (15:00),Ligue 1,2024-2025,Angers,Lens,Home,Matchweek 1,0.4,0,1,8,3,19.9,0.0,0,1.2,1,0,10.0,4.0,16.2,0.0,0.0
-2024-08-24,19:00 (17:00),Ligue 1,2024-2025,Angers,Lille,Away,Matchweek 2,0.6,0,2,6,2,17.7,0.0,0,0.9,2,0,11.0,6.0,18.8,1.0,0.0
-2024-09-01,17:00 (15:00),Ligue 1,2024-2025,Angers,Nice,Home,Matchweek 3,1.4,1,4,13,6,22.7,1.0,1,2.2,4,1,14.0,8.0,15.3,0.0,0.0
-2024-09-15,17:00 (15:00),Ligue 1,2024-2025,Angers,Strasbourg,Away,Matchweek 4,0.9,1,1,12,2,18.8,0.0,0,2.3,1,1,10.0,5.0,15.1,1.0,0.0
-2024-09-22,17:00 (15:00),Ligue 1,2024-2025,Angers,Nantes,Home,Matchweek 5,0.9,1,1,3,0,32.3,0.0,1,0.6,1,1,9.0,3.0,14.8,0.0,0.0
-2024-09-29,17:00 (15:00),Ligue 1,2024-2025,Angers,Reims,Home,Matchweek 6,1.1,1,3,14,3,17.8,1.0,0,2.9,3,1,21.0,10.0,17.2,1.0,0.0
-2024-10-04,20:45 (18:45),Ligue 1,2024-2025,Angers,Marseille,Away,Matchweek 7,0.8,1,1,10,3,22.8,1.0,0,0.9,1,1,16.0,4.0,19.2,1.0,0.0
-2024-10-20,17:00 (15:00),Ligue 1,2024-2025,Angers,Toulouse,Away,Matchweek 8,1.4,1,1,7,3,22.9,0.0,0,2.0,1,1,18.0,5.0,14.9,0.0,0.0
-2024-10-26,17:00 (15:00),Ligue 1,2024-2025,Angers,Saint-Étienne,Home,Matchweek 9,2.9,4,2,12,7,15.5,1.0,1,1.5,2,4,18.0,6.0,24.6,1.0,1.0
-2024-11-01,19:00 (18:00),Ligue 1,2024-2025,Angers,Monaco,Away,Matchweek 10,0.5,1,0,10,3,21.9,0.0,0,1.4,0,1,11.0,3.0,18.3,1.0,0.0
-2024-11-09,21:00 (20:00),Ligue 1,2024-2025,Angers,Paris S-G,Home,Matchweek 11,1.1,2,4,10,3,16.3,0.0,0,3.4,4,2,26.0,12.0,15.9,0.0,0.0
-2024-11-24,17:00 (16:00),Ligue 1,2024-2025,Angers,Auxerre,Away,Matchweek 12,0.9,0,1,10,5,18.1,1.0,0,0.6,1,0,10.0,6.0,19.4,0.0,0.0
-2024-12-01,17:00 (16:00),Ligue 1,2024-2025,Angers,Le Havre,Away,Matchweek 13,2.1,1,0,13,3,20.7,1.0,0,0.3,0,1,5.0,1.0,21.7,0.0,0.0
-2024-12-07,21:00 (20:00),Ligue 1,2024-2025,Angers,Lyon,Home,Matchweek 14,0.6,0,3,10,2,22.1,1.0,0,2.0,3,0,16.0,10.0,14.9,0.0,0.0
-2024-12-15,17:00 (16:00),Ligue 1,2024-2025,Angers,Rennes,Away,Matchweek 15,0.4,0,2,3,0,12.3,0.0,0,0.6,2,0,7.0,4.0,19.4,0.0,0.0
-2024-12-22,17:30 (16:30),Coupe de France,2024-2025,Angers,FC 93,Away,Round of 64,,1,0,10,3,,,0,,0,1,8.0,1.0,,,0.0
-2025-01-05,15:00 (14:00),Ligue 1,2024-2025,Angers,Brest,Home,Matchweek 16,1.8,2,0,7,2,10.1,0.0,0,1.0,0,2,12.0,4.0,14.8,0.0,0.0
-2025-01-12,17:15 (16:15),Ligue 1,2024-2025,Angers,Montpellier,Away,Matchweek 17,3.8,3,1,21,8,18.3,0.0,0,1.2,1,3,7.0,2.0,22.1,0.0,1.0
-2025-01-15,18:30 (17:30),Coupe de France,2024-2025,Angers,Quevilly-Rouen,Away,Round of 32,,3,2,13,6,,,1,,2,3,18.0,9.0,,,1.0
-2025-01-19,17:15 (16:15),Ligue 1,2024-2025,Angers,Auxerre,Home,Matchweek 18,0.9,2,0,12,4,20.1,2.0,0,0.7,0,2,10.0,4.0,18.7,1.0,0.0
-2025-01-26,17:15 (16:15),Ligue 1,2024-2025,Angers,Lens,Away,Matchweek 19,0.2,0,1,2,0,17.0,0.0,0,1.9,1,0,16.0,4.0,16.7,0.0,0.0
-2025-02-02,17:15 (16:15),Ligue 1,2024-2025,Angers,Le Havre,Home,Matchweek 20,1.3,1,1,17,3,17.0,1.0,0,2.2,1,1,13.0,5.0,15.9,0.0,0.0
-2025-02-05,20:45 (19:45),Coupe de France,2024-2025,Angers,Strasbourg,Away,Round of 16,,3,1,7,5,,,0,,1,3,21.0,4.0,,,0.0
-2025-02-09,20:45 (19:45),Ligue 1,2024-2025,Angers,Marseille,Home,Matchweek 21,0.5,0,2,5,0,16.3,0.0,0,2.4,2,0,18.0,8.0,12.3,0.0,0.0
-2025-02-16,17:15 (16:15),Ligue 1,2024-2025,Angers,Reims,Away,Matchweek 22,1.5,1,0,10,2,15.0,1.0,0,1.7,0,1,15.0,4.0,21.0,0.0,0.0
-2025-02-22,19:00 (18:00),Ligue 1,2024-2025,Angers,Saint-Étienne,Away,Matchweek 23,2.9,3,3,11,2,17.5,0.0,2,1.5,3,3,19.0,8.0,17.6,0.0,0.0
-2025-02-25,21:00 (20:00),Coupe de France,2024-2025,Angers,Reims,Home,Quarter-finals,,1 (3),1 (5),17,4,,,0,,1 (5),1 (3),10.0,3.0,,,0.0
-2025-03-02,17:15 (16:15),Ligue 1,2024-2025,Angers,Toulouse,Home,Matchweek 24,0.4,0,4,5,1,22.3,1.0,0,3.5,4,0,19.0,13.0,12.3,0.0,0.0
-2025-03-09,15:00 (14:00),Ligue 1,2024-2025,Angers,Brest,Away,Matchweek 25,0.4,0,2,7,1,15.0,0.0,0,3.5,2,0,19.0,7.0,11.2,0.0,0.0
-2025-03-15,19:00 (18:00),Ligue 1,2024-2025,Angers,Monaco,Home,Matchweek 26,0.5,0,2,6,2,19.3,0.0,0,2.0,2,0,15.0,4.0,17.9,0.0,1.0
-2025-03-30,17:15 (15:15),Ligue 1,2024-2025,Angers,Rennes,Home,Matchweek 27,1.0,0,3,9,4,15.5,0.0,0,1.5,3,0,14.0,6.0,16.5,0.0,0.0
-2025-04-05,17:00 (15:00),Ligue 1,2024-2025,Angers,Paris S-G,Away,Matchweek 28,0.2,0,1,4,0,23.3,0.0,0,1.9,1,0,20.0,6.0,17.2,1.0,0.0
-2025-04-13,17:15 (15:15),Ligue 1,2024-2025,Angers,Montpellier,Home,Matchweek 29,1.4,2,0,10,4,11.4,0.0,0,0.5,0,2,5.0,2.0,16.6,0.0,0.0
-2025-04-20,17:15 (15:15),Ligue 1,2024-2025,Angers,Nice,Away,Matchweek 30,0.4,1,2,6,3,13.4,0.0,0,2.8,2,1,22.0,8.0,17.2,0.0,0.0
-2025-04-27,15:00 (13:00),Ligue 1,2024-2025,Angers,Lille,Home,Matchweek 31,0.7,0,2,6,3,17.6,0.0,0,1.4,2,0,9.0,5.0,12.4,0.0,0.0
-2025-05-04,15:00 (13:00),Ligue 1,2024-2025,Angers,Nantes,Away,Matchweek 32,1.1,1,0,14,2,17.2,0.0,0,0.5,0,1,8.0,3.0,19.3,0.0,0.0
-2025-05-10,21:00 (19:00),Ligue 1,2024-2025,Angers,Strasbourg,Home,Matchweek 33,0.7,2,1,5,2,13.6,0.0,0,1.0,1,2,15.0,3.0,20.2,1.0,0.0
-2025-05-17,21:00 (19:00),Ligue 1,2024-2025,Angers,Lyon,Away,Matchweek 34,0.5,0,2,13,3,21.8,1.0,0,3.9,2,0,20.0,3.0,17.0,0.0,1.0
-2024-08-16,20:45 (18:45),Ligue 1,2024-2025,Le Havre,Paris S-G,Home,Matchweek 1,0.2,1.0,4.0,5,2,19.1,0.0,0,2.9,4.0,1.0,14.0,8.0,15.2,0.0,1.0
-2024-08-24,21:00 (19:00),Ligue 1,2024-2025,Le Havre,Saint-Étienne,Away,Matchweek 2,2.4,2.0,0.0,13,4,20.4,0.0,1,1.1,0.0,2.0,19.0,5.0,17.5,1.0,0.0
-2024-09-01,17:00 (15:00),Ligue 1,2024-2025,Le Havre,Auxerre,Home,Matchweek 3,2.8,3.0,1.0,21,7,19.8,1.0,1,0.6,1.0,3.0,7.0,3.0,25.0,1.0,0.0
-2024-09-15,17:00 (15:00),Ligue 1,2024-2025,Le Havre,Toulouse,Away,Matchweek 4,0.2,0.0,2.0,5,3,29.0,0.0,0,1.3,2.0,0.0,15.0,6.0,14.6,0.0,0.0
-2024-09-22,15:00 (13:00),Ligue 1,2024-2025,Le Havre,Monaco,Away,Matchweek 5,0.6,1.0,3.0,8,1,19.3,0.0,0,1.9,3.0,1.0,12.0,4.0,16.8,0.0,0.0
-2024-09-28,19:00 (17:00),Ligue 1,2024-2025,Le Havre,Lille,Home,Matchweek 6,0.4,0.0,3.0,7,4,19.1,0.0,0,3.1,3.0,0.0,17.0,9.0,17.7,0.0,0.0
-2024-10-06,17:00 (15:00),Ligue 1,2024-2025,Le Havre,Brest,Away,Matchweek 7,1.0,0.0,2.0,14,0,17.3,1.0,0,0.7,2.0,0.0,8.0,3.0,16.9,0.0,0.0
-2024-10-20,15:00 (13:00),Ligue 1,2024-2025,Le Havre,Lyon,Home,Matchweek 8,0.4,0.0,4.0,7,1,20.0,1.0,0,2.7,4.0,0.0,16.0,8.0,19.2,0.0,0.0
-2024-10-25,20:45 (18:45),Ligue 1,2024-2025,Le Havre,Rennes,Away,Matchweek 9,0.4,0.0,1.0,5,1,15.9,0.0,0,1.5,1.0,0.0,20.0,4.0,15.4,0.0,0.0
-2024-11-03,17:00 (16:00),Ligue 1,2024-2025,Le Havre,Montpellier,Home,Matchweek 10,2.2,1.0,0.0,11,3,20.9,0.0,1,1.0,0.0,1.0,15.0,1.0,18.0,0.0,0.0
-2024-11-10,17:00 (16:00),Ligue 1,2024-2025,Le Havre,Reims,Home,Matchweek 11,1.4,0.0,3.0,10,3,14.4,1.0,0,2.6,3.0,0.0,18.0,7.0,15.8,0.0,0.0
-2024-11-24,17:00 (16:00),Ligue 1,2024-2025,Le Havre,Nantes,Away,Matchweek 12,0.9,2.0,0.0,7,3,12.8,0.0,0,0.9,0.0,2.0,18.0,4.0,19.1,0.0,0.0
-2024-12-01,17:00 (16:00),Ligue 1,2024-2025,Le Havre,Angers,Home,Matchweek 13,0.3,0.0,1.0,5,1,21.7,0.0,0,2.1,1.0,0.0,13.0,3.0,20.7,1.0,0.0
-2024-12-07,19:00 (18:00),Ligue 1,2024-2025,Le Havre,Nice,Away,Matchweek 14,1.1,1.0,2.0,12,1,15.4,1.0,0,2.0,2.0,1.0,16.0,4.0,18.2,1.0,1.0
-2024-12-15,17:00 (16:00),Ligue 1,2024-2025,Le Havre,Strasbourg,Home,Matchweek 15,0.9,0.0,3.0,10,1,14.1,0.0,0,0.9,3.0,0.0,9.0,5.0,13.1,0.0,0.0
-2024-12-21,15:30 (14:30),Coupe de France,2024-2025,Le Havre,Stade Briochin,Away,Round of 64,,0.0,1.0,11,4,,,0,,1.0,0.0,12.0,5.0,,,0.0
-2025-01-05,20:45 (19:45),Ligue 1,2024-2025,Le Havre,Marseille,Away,Matchweek 16,0.4,1.0,5.0,4,1,14.7,0.0,0,3.2,5.0,1.0,15.0,8.0,17.9,0.0,0.0
-2025-01-12,15:00 (14:00),Ligue 1,2024-2025,Le Havre,Lens,Home,Matchweek 17,1.5,1.0,2.0,8,4,12.0,0.0,0,2.7,2.0,1.0,25.0,6.0,12.9,0.0,0.0
-2025-01-19,17:15 (16:15),Ligue 1,2024-2025,Le Havre,Reims,Away,Matchweek 18,0.8,1.0,1.0,7,2,14.0,0.0,0,0.8,1.0,1.0,11.0,3.0,17.6,0.0,0.0
-2025-01-26,15:00 (14:00),Ligue 1,2024-2025,Le Havre,Brest,Home,Matchweek 19,1.0,0.0,1.0,11,1,15.3,0.0,0,2.0,1.0,0.0,17.0,7.0,15.3,1.0,0.0
-2025-02-02,17:15 (16:15),Ligue 1,2024-2025,Le Havre,Angers,Away,Matchweek 20,2.2,1.0,1.0,13,5,15.9,0.0,0,1.3,1.0,1.0,17.0,3.0,17.0,1.0,0.0
-2025-02-08,19:00 (18:00),Ligue 1,2024-2025,Le Havre,Lille,Away,Matchweek 21,1.8,2.0,1.0,14,6,12.2,0.0,0,1.6,1.0,2.0,14.0,5.0,16.5,0.0,0.0
-2025-02-16,17:15 (16:15),Ligue 1,2024-2025,Le Havre,Nice,Home,Matchweek 22,0.7,1.0,3.0,14,4,16.4,0.0,0,1.4,3.0,1.0,9.0,3.0,19.9,0.0,0.0
-2025-02-23,17:15 (16:15),Ligue 1,2024-2025,Le Havre,Toulouse,Home,Matchweek 23,0.8,1.0,4.0,11,3,18.5,0.0,0,2.4,4.0,1.0,10.0,4.0,17.4,0.0,1.0
-2025-03-01,19:00 (18:00),Ligue 1,2024-2025,Le Havre,Lens,Away,Matchweek 24,1.5,4.0,3.0,7,3,18.7,0.0,1,1.9,3.0,4.0,19.0,6.0,17.2,0.0,1.0
-2025-03-09,17:15 (16:15),Ligue 1,2024-2025,Le Havre,Saint-Étienne,Home,Matchweek 25,2.0,1.0,1.0,12,5,18.1,2.0,0,1.5,1.0,1.0,12.0,2.0,16.4,0.0,0.0
-2025-03-16,15:00 (14:00),Ligue 1,2024-2025,Le Havre,Lyon,Away,Matchweek 26,1.7,2.0,4.0,13,4,20.1,0.0,1,3.9,4.0,2.0,15.0,6.0,15.5,0.0,1.0
-2025-03-30,17:15 (15:15),Ligue 1,2024-2025,Le Havre,Nantes,Home,Matchweek 27,4.0,3.0,2.0,14,3,16.0,0.0,2,0.8,2.0,3.0,7.0,2.0,16.1,1.0,0.0
-2025-04-06,17:15 (15:15),Ligue 1,2024-2025,Le Havre,Montpellier,Away,Matchweek 28,1.4,2.0,0.0,13,4,20.7,2.0,0,1.0,0.0,2.0,14.0,6.0,15.4,0.0,0.0
-2025-04-13,17:15 (15:15),Ligue 1,2024-2025,Le Havre,Rennes,Home,Matchweek 29,0.6,1.0,5.0,11,2,24.6,3.0,0,2.7,5.0,1.0,10.0,6.0,10.5,0.0,0.0
-2025-04-19,17:00 (15:00),Ligue 1,2024-2025,Le Havre,Paris S-G,Away,Matchweek 30,0.5,1.0,2.0,9,1,18.6,0.0,0,3.0,2.0,1.0,18.0,11.0,14.2,0.0,0.0
-2025-04-26,19:00 (17:00),Ligue 1,2024-2025,Le Havre,Monaco,Home,Matchweek 31,0.5,1.0,1.0,9,3,21.5,0.0,0,2.9,1.0,1.0,20.0,7.0,13.7,0.0,0.0
-2025-05-04,17:15 (15:15),Ligue 1,2024-2025,Le Havre,Auxerre,Away,Matchweek 32,1.5,2.0,1.0,11,5,13.7,0.0,0,0.2,1.0,2.0,4.0,1.0,15.2,0.0,0.0
-2025-05-10,21:00 (19:00),Ligue 1,2024-2025,Le Havre,Marseille,Home,Matchweek 33,0.9,1.0,3.0,10,3,14.3,2.0,0,2.5,3.0,1.0,22.0,5.0,16.8,1.0,0.0
-2025-05-17,21:00 (19:00),Ligue 1,2024-2025,Le Havre,Strasbourg,Away,Matchweek 34,2.5,3.0,2.0,8,3,25.0,0.0,2,1.6,2.0,3.0,6.0,4.0,14.1,0.0,0.0
-2024-08-17,19:00 (17:00),Ligue 1,2024-2025,Reims,Lille,Home,Matchweek 1,0.1,0,2,2,0,26.6,0,0,2.1,2,0,22.0,6.0,15.8,1.0,0.0
-2024-08-25,20:45 (18:45),Ligue 1,2024-2025,Reims,Marseille,Away,Matchweek 2,0.9,2,2,13,3,18.0,0,0,3.0,2,2,21.0,10.0,15.7,0.0,0.0
-2024-09-01,17:00 (15:00),Ligue 1,2024-2025,Reims,Rennes,Home,Matchweek 3,1.4,2,1,11,7,15.8,0,0,0.8,1,2,13.0,5.0,15.9,0.0,0.0
-2024-09-15,17:00 (15:00),Ligue 1,2024-2025,Reims,Nantes,Away,Matchweek 4,0.5,2,1,11,4,19.6,0,0,1.5,1,2,18.0,6.0,18.4,0.0,0.0
-2024-09-21,21:00 (19:00),Ligue 1,2024-2025,Reims,Paris S-G,Home,Matchweek 5,0.3,1,1,8,1,21.6,0,0,1.6,1,1,11.0,4.0,14.6,0.0,0.0
-2024-09-29,17:00 (15:00),Ligue 1,2024-2025,Reims,Angers,Away,Matchweek 6,2.9,3,1,21,10,17.2,1,0,1.1,1,3,14.0,3.0,17.8,1.0,0.0
-2024-10-06,17:00 (15:00),Ligue 1,2024-2025,Reims,Montpellier,Home,Matchweek 7,3.0,4,2,17,4,15.8,1,1,0.5,2,4,10.0,3.0,23.2,0.0,0.0
-2024-10-20,17:00 (15:00),Ligue 1,2024-2025,Reims,Auxerre,Away,Matchweek 8,1.1,1,2,15,3,16.6,1,0,2.8,2,1,9.0,7.0,15.5,0.0,0.0
-2024-10-26,19:00 (17:00),Ligue 1,2024-2025,Reims,Brest,Home,Matchweek 9,0.7,1,2,11,3,15.8,0,0,1.5,2,1,12.0,3.0,21.1,1.0,1.0
-2024-11-03,15:00 (14:00),Ligue 1,2024-2025,Reims,Toulouse,Away,Matchweek 10,1.1,0,1,13,2,24.1,0,0,0.9,1,0,13.0,5.0,15.9,0.0,0.0
-2024-11-10,17:00 (16:00),Ligue 1,2024-2025,Reims,Le Havre,Away,Matchweek 11,2.6,3,0,18,7,15.8,0,0,1.4,0,3,10.0,3.0,14.4,1.0,0.0
-2024-11-23,21:00 (20:00),Ligue 1,2024-2025,Reims,Lyon,Home,Matchweek 12,1.0,1,1,14,6,17.8,0,0,1.7,1,1,13.0,7.0,14.4,0.0,0.0
-2024-11-29,20:45 (19:45),Ligue 1,2024-2025,Reims,Lens,Home,Matchweek 13,0.8,0,2,16,3,21.9,1,0,1.8,2,0,11.0,6.0,20.3,0.0,0.0
-2024-12-08,17:00 (16:00),Ligue 1,2024-2025,Reims,Strasbourg,Away,Matchweek 14,1.1,0,0,10,3,17.9,0,0,0.8,0,0,7.0,2.0,19.2,1.0,0.0
-2024-12-14,21:00 (20:00),Ligue 1,2024-2025,Reims,Monaco,Home,Matchweek 15,1.5,0,0,8,0,13.5,0,0,1.3,0,0,14.0,3.0,17.7,0.0,0.0
-2024-12-22,14:45 (13:45),Coupe de France,2024-2025,Reims,AS Mutzig,Away,Round of 64,,3,1,18,11,,,0,,1,3,3.0,3.0,,,0.0
-2025-01-04,17:00 (16:00),Ligue 1,2024-2025,Reims,Saint-Étienne,Away,Matchweek 16,1.1,1,3,11,1,18.1,0,0,2.2,3,1,14.0,4.0,13.3,0.0,0.0
-2025-01-11,19:00 (18:00),Ligue 1,2024-2025,Reims,Nice,Home,Matchweek 17,0.8,2,4,12,3,18.9,0,0,2.5,4,2,14.0,8.0,15.1,0.0,1.0
-2025-01-14,20:45 (19:45),Coupe de France,2024-2025,Reims,Monaco,Home,Round of 32,,1 (3),1 (1),10,3,,,0,,1 (1),1 (3),14.0,4.0,,,0.0
-2025-01-19,17:15 (16:15),Ligue 1,2024-2025,Reims,Le Havre,Home,Matchweek 18,0.8,1,1,11,3,17.6,0,0,0.8,1,1,7.0,2.0,14.0,0.0,0.0
-2025-01-25,21:05 (20:05),Ligue 1,2024-2025,Reims,Paris S-G,Away,Matchweek 19,0.9,1,1,6,3,16.4,0,0,1.2,1,1,18.0,7.0,17.0,0.0,0.0
-2025-02-02,17:15 (16:15),Ligue 1,2024-2025,Reims,Nantes,Home,Matchweek 20,1.0,1,2,13,2,13.0,0,0,2.0,2,1,11.0,6.0,12.0,0.0,0.0
-2025-02-06,21:00 (20:00),Coupe de France,2024-2025,Reims,Bourgoin-Jal.,Away,Round of 16,,0 (3),0 (2),14,4,,,0,,0 (2),0 (3),2.0,1.0,,,0.0
-2025-02-09,15:00 (14:00),Ligue 1,2024-2025,Reims,Lyon,Away,Matchweek 21,0.4,0,4,9,2,20.3,1,0,3.3,4,0,15.0,9.0,15.4,0.0,0.0
-2025-02-16,17:15 (16:15),Ligue 1,2024-2025,Reims,Angers,Home,Matchweek 22,1.7,0,1,15,4,21.0,0,0,1.5,1,0,10.0,2.0,15.0,1.0,0.0
-2025-02-21,20:45 (19:45),Ligue 1,2024-2025,Reims,Rennes,Away,Matchweek 23,0.1,0,1,3,0,14.5,0,0,2.3,1,0,25.0,4.0,18.8,0.0,1.0
-2025-02-25,21:00 (20:00),Coupe de France,2024-2025,Reims,Angers,Away,Quarter-finals,,1 (5),1 (3),10,3,,,0,,1 (3),1 (5),17.0,4.0,,,0.0
-2025-02-28,20:45 (19:45),Ligue 1,2024-2025,Reims,Monaco,Away,Matchweek 24,0.6,0,3,9,5,18.0,0,0,3.8,3,0,23.0,9.0,13.6,0.0,0.0
-2025-03-09,17:15 (16:15),Ligue 1,2024-2025,Reims,Auxerre,Home,Matchweek 25,1.4,0,2,17,4,16.8,1,0,2.1,2,0,13.0,9.0,14.3,0.0,0.0
-2025-03-16,17:15 (16:15),Ligue 1,2024-2025,Reims,Brest,Away,Matchweek 26,1.3,0,0,12,2,14.8,0,0,0.3,0,0,11.0,0.0,22.6,1.0,0.0
-2025-03-29,17:00 (16:00),Ligue 1,2024-2025,Reims,Marseille,Home,Matchweek 27,1.0,3,1,7,5,16.6,0,0,1.1,1,3,20.0,6.0,18.5,0.0,0.0
-2025-04-02,21:00 (19:00),Coupe de France,2024-2025,Reims,Cannes,Away,Semi-finals,,2,1,10,5,,,0,,1,2,17.0,4.0,,,0.0
-2025-04-06,17:15 (15:15),Ligue 1,2024-2025,Reims,Strasbourg,Home,Matchweek 28,1.3,0,1,14,6,16.1,1,0,2.5,1,0,13.0,4.0,12.0,0.0,0.0
-2025-04-11,20:45 (18:45),Ligue 1,2024-2025,Reims,Lens,Away,Matchweek 29,1.4,2,0,10,2,16.9,0,0,2.9,0,2,37.0,14.0,17.8,0.0,0.0
-2025-04-20,17:15 (15:15),Ligue 1,2024-2025,Reims,Toulouse,Home,Matchweek 30,0.7,1,0,8,2,14.4,0,0,1.3,0,1,18.0,5.0,15.9,1.0,0.0
-2025-04-27,17:15 (15:15),Ligue 1,2024-2025,Reims,Montpellier,Away,Matchweek 31,0.7,0,0,8,3,18.2,1,0,0.6,0,0,12.0,2.0,19.9,1.0,0.0
-2025-05-02,20:45 (18:45),Ligue 1,2024-2025,Reims,Nice,Away,Matchweek 32,1.3,0,1,16,3,18.8,0,0,1.5,1,0,8.0,2.0,17.9,0.0,0.0
-2025-05-10,21:00 (19:00),Ligue 1,2024-2025,Reims,Saint-Étienne,Home,Matchweek 33,1.9,0,2,19,3,15.3,0,0,0.7,2,0,9.0,4.0,20.3,0.0,0.0
-2025-05-17,21:00 (19:00),Ligue 1,2024-2025,Reims,Lille,Away,Matchweek 34,0.1,1,2,5,2,21.0,0,0,2.0,2,1,20.0,4.0,16.8,0.0,1.0
-2025-05-21,20:00 (18:00),Rel/Pro play-offs,2024-2025,Reims,Metz,Away,French 1/2 Relegation/Promotion play-offs,,1,1,10,1,,,0,,1,1,12.0,3.0,,,0.0
-2025-05-24,21:00 (19:00),Coupe de France,2024-2025,Reims,Paris S-G,Neutral,Final,,0,3,4,1,,,0,,3,0,20.0,8.0,,,0.0
-2025-05-29,20:30 (18:30),Rel/Pro play-offs,2024-2025,Reims,Metz,Home,French 1/2 Relegation/Promotion play-offs,,1,3,18,3,,,0,,3,1,8.0,4.0,,,0.0
-2024-08-17,21:00 (19:00),Ligue 1,2024-2025,Saint Etienne,Monaco,Away,Matchweek 1,0.4,0.0,1.0,11,4,19.8,0.0,0,2.0,1.0,0.0,17.0,6.0,16.1,0.0,0.0
-2024-08-24,21:00 (19:00),Ligue 1,2024-2025,Saint Etienne,Le Havre,Home,Matchweek 2,1.1,0.0,2.0,19,5,17.5,1.0,0,2.4,2.0,0.0,13.0,4.0,20.4,0.0,1.0
-2024-08-31,17:00 (15:00),Ligue 1,2024-2025,Saint Etienne,Brest,Away,Matchweek 3,0.2,0.0,4.0,6,0,23.3,0.0,0,3.1,4.0,0.0,20.0,6.0,15.9,1.0,2.0
-2024-09-13,20:45 (18:45),Ligue 1,2024-2025,Saint Etienne,Lille,Home,Matchweek 4,1.2,1.0,0.0,10,5,18.9,1.0,0,1.2,0.0,1.0,17.0,4.0,15.8,0.0,0.0
-2024-09-20,20:45 (18:45),Ligue 1,2024-2025,Saint Etienne,Nice,Away,Matchweek 5,0.3,0.0,8.0,8,2,20.4,0.0,0,4.7,8.0,0.0,17.0,11.0,15.3,0.0,1.0
-2024-09-29,17:00 (15:00),Ligue 1,2024-2025,Saint Etienne,Nantes,Away,Matchweek 6,1.0,2.0,2.0,4,2,18.9,0.0,1,1.8,2.0,2.0,16.0,3.0,13.4,0.0,0.0
-2024-10-05,17:00 (15:00),Ligue 1,2024-2025,Saint Etienne,Auxerre,Home,Matchweek 7,2.7,3.0,1.0,13,5,15.2,0.0,0,0.8,1.0,3.0,11.0,1.0,16.5,0.0,0.0
-2024-10-19,19:00 (17:00),Ligue 1,2024-2025,Saint Etienne,Lens,Home,Matchweek 8,0.8,0.0,2.0,15,1,20.3,1.0,0,1.2,2.0,0.0,13.0,5.0,20.5,1.0,0.0
-2024-10-26,17:00 (15:00),Ligue 1,2024-2025,Saint Etienne,Angers,Away,Matchweek 9,1.5,2.0,4.0,18,6,24.6,1.0,1,2.9,4.0,2.0,12.0,7.0,15.5,1.0,1.0
-2024-11-02,21:00 (20:00),Ligue 1,2024-2025,Saint Etienne,Strasbourg,Home,Matchweek 10,2.8,2.0,0.0,13,3,16.3,0.0,0,0.5,0.0,2.0,9.0,3.0,14.4,0.0,0.0
-2024-11-10,20:45 (19:45),Ligue 1,2024-2025,Saint Etienne,Lyon,Away,Matchweek 11,0.6,0.0,1.0,10,6,20.1,1.0,0,1.1,1.0,0.0,17.0,7.0,16.7,1.0,0.0
-2024-11-23,19:00 (18:00),Ligue 1,2024-2025,Saint Etienne,Montpellier,Home,Matchweek 12,1.5,1.0,0.0,11,4,17.0,0.0,0,0.9,0.0,1.0,11.0,3.0,20.4,2.0,0.0
-2024-11-30,17:00 (16:00),Ligue 1,2024-2025,Saint Etienne,Rennes,Away,Matchweek 13,0.1,0.0,5.0,2,0,16.2,0.0,0,3.2,5.0,0.0,16.0,7.0,18.1,0.0,2.0
-2024-12-08,20:45 (19:45),Ligue 1,2024-2025,Saint Etienne,Marseille,Home,Matchweek 14,0.1,0.0,2.0,3,2,26.3,0.0,0,2.5,2.0,0.0,20.0,9.0,16.9,1.0,0.0
-2024-12-13,20:45 (19:45),Ligue 1,2024-2025,Saint Etienne,Toulouse,Away,Matchweek 15,0.5,1.0,2.0,3,2,24.3,0.0,0,1.4,2.0,1.0,11.0,4.0,11.4,0.0,0.0
-2024-12-22,14:45 (13:45),Coupe de France,2024-2025,Saint Etienne,Marseille,Home,Round of 64,,0.0,4.0,4,2,,,0,,4.0,0.0,21.0,8.0,,,0.0
-2025-01-04,17:00 (16:00),Ligue 1,2024-2025,Saint Etienne,Reims,Home,Matchweek 16,2.2,3.0,1.0,14,4,13.3,0.0,0,1.1,1.0,3.0,11.0,1.0,18.1,0.0,0.0
-2025-01-12,20:45 (19:45),Ligue 1,2024-2025,Saint Etienne,Paris S-G,Away,Matchweek 17,0.4,1.0,2.0,8,3,20.8,1.0,0,4.1,2.0,1.0,24.0,8.0,15.4,0.0,1.0
-2025-01-19,15:00 (14:00),Ligue 1,2024-2025,Saint Etienne,Nantes,Home,Matchweek 18,0.8,1.0,1.0,12,2,16.5,0.0,0,1.3,1.0,1.0,8.0,4.0,14.0,0.0,0.0
-2025-01-24,20:45 (19:45),Ligue 1,2024-2025,Saint Etienne,Auxerre,Away,Matchweek 19,1.2,1.0,1.0,8,3,18.0,1.0,0,0.8,1.0,1.0,11.0,5.0,15.9,0.0,0.0
-2025-02-01,21:05 (20:05),Ligue 1,2024-2025,Saint Etienne,Lille,Away,Matchweek 20,2.0,1.0,4.0,8,1,17.1,0.0,1,3.4,4.0,1.0,28.0,12.0,17.1,1.0,1.0
-2025-02-08,21:05 (20:05),Ligue 1,2024-2025,Saint Etienne,Rennes,Home,Matchweek 21,0.5,0.0,2.0,9,3,17.8,0.0,0,3.6,2.0,0.0,21.0,8.0,15.0,0.0,0.0
-2025-02-15,17:00 (16:00),Ligue 1,2024-2025,Saint Etienne,Marseille,Away,Matchweek 22,1.0,1.0,5.0,7,2,17.5,0.0,0,6.1,5.0,1.0,27.0,12.0,11.8,0.0,1.0
-2025-02-22,19:00 (18:00),Ligue 1,2024-2025,Saint Etienne,Angers,Home,Matchweek 23,1.5,3.0,3.0,19,8,17.6,0.0,0,2.9,3.0,3.0,11.0,2.0,17.5,0.0,2.0
-2025-03-01,17:00 (16:00),Ligue 1,2024-2025,Saint Etienne,Nice,Home,Matchweek 24,0.9,1.0,3.0,12,3,16.2,0.0,0,1.8,3.0,1.0,16.0,9.0,14.5,0.0,0.0
-2025-03-09,17:15 (16:15),Ligue 1,2024-2025,Saint Etienne,Le Havre,Away,Matchweek 25,1.5,1.0,1.0,12,2,16.4,0.0,0,2.0,1.0,1.0,12.0,5.0,18.1,2.0,0.0
-2025-03-16,17:15 (16:15),Ligue 1,2024-2025,Saint Etienne,Montpellier,Away,Matchweek 26,,2.0,0.0,11,6,,,0,,0.0,2.0,13.0,3.0,,,0.0
-2025-03-29,19:00 (18:00),Ligue 1,2024-2025,Saint Etienne,Paris S-G,Home,Matchweek 27,1.1,1.0,6.0,11,2,22.2,0.0,0,3.3,6.0,1.0,21.0,9.0,20.0,0.0,1.0
-2025-04-06,15:00 (13:00),Ligue 1,2024-2025,Saint Etienne,Lens,Away,Matchweek 28,1.4,0.0,1.0,7,2,16.2,0.0,0,2.1,1.0,0.0,20.0,5.0,14.5,1.0,0.0
-2025-04-13,15:00 (13:00),Ligue 1,2024-2025,Saint Etienne,Brest,Home,Matchweek 29,0.7,3.0,3.0,9,4,16.0,0.0,0,1.5,3.0,3.0,13.0,5.0,15.0,0.0,0.0
-2025-04-20,20:45 (18:45),Ligue 1,2024-2025,Saint Etienne,Lyon,Home,Matchweek 30,1.6,2.0,1.0,18,6,22.7,1.0,0,0.8,1.0,2.0,14.0,2.0,18.4,0.0,0.0
-2025-04-26,17:00 (15:00),Ligue 1,2024-2025,Saint Etienne,Strasbourg,Away,Matchweek 31,2.1,1.0,3.0,17,6,18.5,0.0,0,2.7,3.0,1.0,18.0,7.0,15.9,0.0,0.0
-2025-05-03,21:05 (19:05),Ligue 1,2024-2025,Saint Etienne,Monaco,Home,Matchweek 32,0.6,1.0,3.0,11,1,17.8,0.0,0,2.0,3.0,1.0,12.0,6.0,17.1,1.0,0.0
-2025-05-10,21:00 (19:00),Ligue 1,2024-2025,Saint Etienne,Reims,Away,Matchweek 33,0.7,2.0,0.0,9,4,20.3,0.0,0,1.9,0.0,2.0,19.0,3.0,15.3,0.0,0.0
-2025-05-17,21:00 (19:00),Ligue 1,2024-2025,Saint Etienne,Toulouse,Home,Matchweek 34,1.3,2.0,3.0,18,6,18.1,0.0,0,3.2,3.0,2.0,17.0,8.0,13.2,0.0,0.0
-2024-08-18,17:00 (15:00),Ligue 1,2024-2025,Montpellier,Strasbourg,Home,Matchweek 1,1.3,1.0,1.0,7,4,17.9,0.0,1,0.9,1.0,1.0,11.0,4.0,14.7,0.0,0.0
-2024-08-23,20:45 (18:45),Ligue 1,2024-2025,Montpellier,Paris S-G,Away,Matchweek 2,0.6,0.0,6.0,8,3,15.9,1.0,0,3.8,6.0,0.0,27.0,11.0,17.0,4.0,0.0
-2024-08-31,19:00 (17:00),Ligue 1,2024-2025,Montpellier,Nantes,Home,Matchweek 3,0.9,1.0,3.0,10,4,22.6,2.0,0,1.5,3.0,1.0,8.0,3.0,18.8,0.0,1.0
-2024-09-15,15:00 (13:00),Ligue 1,2024-2025,Montpellier,Rennes,Away,Matchweek 4,0.3,0.0,3.0,12,4,23.5,0.0,0,1.3,3.0,0.0,11.0,6.0,16.6,0.0,0.0
-2024-09-22,17:00 (15:00),Ligue 1,2024-2025,Montpellier,Auxerre,Home,Matchweek 5,2.0,3.0,2.0,14,4,14.4,0.0,0,1.2,2.0,3.0,11.0,5.0,13.5,0.0,0.0
-2024-09-28,21:00 (19:00),Ligue 1,2024-2025,Montpellier,Monaco,Away,Matchweek 6,0.9,1.0,2.0,9,3,20.4,1.0,0,3.2,2.0,1.0,21.0,6.0,12.3,0.0,0.0
-2024-10-06,17:00 (15:00),Ligue 1,2024-2025,Montpellier,Reims,Away,Matchweek 7,0.5,2.0,4.0,10,3,23.2,0.0,0,3.0,4.0,2.0,17.0,4.0,15.8,1.0,1.0
-2024-10-20,20:45 (18:45),Ligue 1,2024-2025,Montpellier,Marseille,Home,Matchweek 8,1.3,0.0,5.0,13,5,18.9,1.0,0,3.2,5.0,0.0,21.0,10.0,14.3,0.0,0.0
-2024-10-27,17:00 (16:00),Ligue 1,2024-2025,Montpellier,Toulouse,Home,Matchweek 9,0.2,0.0,3.0,9,2,27.3,2.0,0,1.9,3.0,0.0,15.0,6.0,18.1,0.0,0.0
-2024-11-03,17:00 (16:00),Ligue 1,2024-2025,Montpellier,Le Havre,Away,Matchweek 10,1.0,0.0,1.0,15,1,18.0,0.0,0,2.2,1.0,0.0,11.0,3.0,20.9,0.0,1.0
-2024-11-10,17:00 (16:00),Ligue 1,2024-2025,Montpellier,Brest,Home,Matchweek 11,2.5,3.0,1.0,12,6,23.0,1.0,1,0.9,1.0,3.0,19.0,6.0,17.6,1.0,0.0
-2024-11-23,19:00 (18:00),Ligue 1,2024-2025,Montpellier,Saint-Étienne,Away,Matchweek 12,0.9,0.0,1.0,11,3,20.4,2.0,0,1.5,1.0,0.0,11.0,4.0,17.0,0.0,0.0
-2024-12-01,15:00 (14:00),Ligue 1,2024-2025,Montpellier,Lille,Home,Matchweek 13,1.4,2.0,2.0,11,5,17.0,0.0,0,2.2,2.0,2.0,11.0,2.0,20.7,0.0,2.0
-2024-12-08,15:00 (14:00),Ligue 1,2024-2025,Montpellier,Lens,Away,Matchweek 14,1.0,0.0,2.0,7,3,13.0,0.0,0,1.3,2.0,0.0,17.0,3.0,18.5,0.0,0.0
-2024-12-15,15:00 (14:00),Ligue 1,2024-2025,Montpellier,Nice,Home,Matchweek 15,2.0,2.0,2.0,21,8,16.3,0.0,0,1.4,2.0,2.0,18.0,6.0,17.7,1.0,0.0
-2024-12-21,18:00 (17:00),Coupe de France,2024-2025,Montpellier,Le Puy Foot 43,Away,Round of 64,,0.0,4.0,15,3,,,0,,4.0,0.0,22.0,10.0,,,0.0
-2025-01-04,21:00 (20:00),Ligue 1,2024-2025,Montpellier,Lyon,Away,Matchweek 16,1.2,0.0,1.0,16,6,19.7,1.0,0,1.4,1.0,0.0,12.0,1.0,15.4,0.0,0.0
-2025-01-12,17:15 (16:15),Ligue 1,2024-2025,Montpellier,Angers,Home,Matchweek 17,1.2,1.0,3.0,7,2,22.1,0.0,1,3.8,3.0,1.0,21.0,8.0,18.3,0.0,0.0
-2025-01-17,19:00 (18:00),Ligue 1,2024-2025,Montpellier,Monaco,Home,Matchweek 18,2.4,2.0,1.0,12,4,16.1,2.0,0,1.8,1.0,2.0,26.0,11.0,16.0,0.0,0.0
-2025-01-26,17:15 (16:15),Ligue 1,2024-2025,Montpellier,Toulouse,Away,Matchweek 19,0.5,2.0,1.0,6,4,17.1,0.0,0,1.0,1.0,2.0,15.0,5.0,17.2,0.0,0.0
-2025-01-31,20:45 (19:45),Ligue 1,2024-2025,Montpellier,Lens,Home,Matchweek 20,0.8,0.0,2.0,14,2,17.0,1.0,0,2.0,2.0,0.0,19.0,5.0,16.5,1.0,0.0
-2025-02-09,17:15 (16:15),Ligue 1,2024-2025,Montpellier,Strasbourg,Away,Matchweek 21,1.8,0.0,2.0,11,2,18.3,1.0,0,2.7,2.0,0.0,22.0,5.0,15.6,1.0,0.0
-2025-02-16,15:00 (14:00),Ligue 1,2024-2025,Montpellier,Lyon,Home,Matchweek 22,1.4,1.0,4.0,11,4,21.6,1.0,0,1.0,4.0,1.0,9.0,6.0,14.9,0.0,0.0
-2025-02-23,17:15 (16:15),Ligue 1,2024-2025,Montpellier,Nice,Away,Matchweek 23,0.6,0.0,2.0,13,1,22.2,1.0,0,1.8,2.0,0.0,16.0,6.0,16.5,0.0,0.0
-2025-03-02,17:15 (16:15),Ligue 1,2024-2025,Montpellier,Rennes,Home,Matchweek 24,1.6,0.0,4.0,16,5,19.7,0.0,0,2.4,4.0,0.0,14.0,7.0,15.4,0.0,0.0
-2025-03-08,19:00 (18:00),Ligue 1,2024-2025,Montpellier,Lille,Away,Matchweek 25,0.3,0.0,1.0,10,3,25.3,1.0,0,1.5,1.0,0.0,18.0,7.0,18.3,1.0,0.0
-2025-03-16,17:15 (16:15),Ligue 1,2024-2025,Montpellier,Saint-Étienne,Home,Matchweek 26,,0.0,2.0,13,3,,,0,,2.0,0.0,11.0,6.0,,,0.0
-2025-03-30,17:15 (15:15),Ligue 1,2024-2025,Montpellier,Auxerre,Away,Matchweek 27,0.5,0.0,1.0,12,1,24.1,0.0,0,2.1,1.0,0.0,21.0,6.0,18.4,1.0,0.0
-2025-04-06,17:15 (15:15),Ligue 1,2024-2025,Montpellier,Le Havre,Home,Matchweek 28,1.0,0.0,2.0,14,6,15.4,0.0,0,1.4,2.0,0.0,13.0,4.0,20.7,2.0,0.0
-2025-04-13,17:15 (15:15),Ligue 1,2024-2025,Montpellier,Angers,Away,Matchweek 29,0.5,0.0,2.0,5,2,16.6,0.0,0,1.4,2.0,0.0,10.0,4.0,11.4,0.0,0.0
-2025-04-19,21:05 (19:05),Ligue 1,2024-2025,Montpellier,Marseille,Away,Matchweek 30,0.3,1.0,5.0,6,1,19.6,1.0,0,3.7,5.0,1.0,17.0,6.0,13.6,0.0,1.0
-2025-04-27,17:15 (15:15),Ligue 1,2024-2025,Montpellier,Reims,Home,Matchweek 31,0.6,0.0,0.0,12,2,19.9,1.0,0,0.7,0.0,0.0,8.0,3.0,18.2,1.0,0.0
-2025-05-04,17:15 (15:15),Ligue 1,2024-2025,Montpellier,Brest,Away,Matchweek 32,0.5,0.0,1.0,6,1,18.9,0.0,0,1.1,1.0,0.0,16.0,5.0,15.8,1.0,0.0
-2025-05-10,21:00 (19:00),Ligue 1,2024-2025,Montpellier,Paris S-G,Home,Matchweek 33,0.6,1.0,4.0,9,4,20.0,0.0,0,1.7,4.0,1.0,9.0,7.0,19.4,0.0,1.0
-2025-05-17,21:00 (19:00),Ligue 1,2024-2025,Montpellier,Nantes,Away,Matchweek 34,0.8,0.0,3.0,9,0,16.3,0.0,0,2.5,3.0,0.0,17.0,4.0,16.2,0.0,1.0
+2025-02-23,17:15,Ligue 1,2024-2025,Brest,Strasbourg,Away,Matchweek 23,0.6,0,0,12,2,17.7,0,0,0.6,0.0,0.0,3.0,1.0,16.1,0.0,0.0
+2025-02-26,19:00,Coupe de France,2024-2025,Brest,Dunkerque,Home,Quarter-finals,,2,3,13,1,,,0,,3.0,2.0,13.0,3.0,,,0.0
+2025-03-02,15:00,Ligue 1,2024-2025,Brest,Lyon,Away,Matchweek 24,2.0,1,2,14,4,18.3,0,1,1.3,2.0,1.0,10.0,4.0,18.6,0.0,0.0
+2025-03-09,15:00,Ligue 1,2024-2025,Brest,Angers,Home,Matchweek 25,3.5,2,0,19,7,11.2,0,0,0.4,0.0,2.0,7.0,1.0,15.0,0.0,0.0
+2025-03-16,17:15,Ligue 1,2024-2025,Brest,Reims,Home,Matchweek 26,0.3,0,0,11,0,22.6,1,0,1.3,0.0,0.0,12.0,2.0,14.8,0.0,0.0
+2025-03-30,15:00,Ligue 1,2024-2025,Brest,Toulouse,Away,Matchweek 27,1.3,4,2,10,5,12.0,0,0,2.0,2.0,4.0,17.0,4.0,13.1,1.0,0.0
+2025-04-05,19:00,Ligue 1,2024-2025,Brest,Monaco,Home,Matchweek 28,1.0,2,1,13,5,18.5,0,0,1.5,1.0,2.0,9.0,1.0,15.8,0.0,1.0
+2025-04-13,15:00,Ligue 1,2024-2025,Brest,Saint-Étienne,Away,Matchweek 29,1.5,3,3,13,5,15.0,0,0,0.7,3.0,3.0,9.0,4.0,16.0,0.0,0.0
+2025-04-20,17:15,Ligue 1,2024-2025,Brest,Lens,Home,Matchweek 30,1.0,1,3,11,5,19.5,0,0,2.2,3.0,1.0,16.0,7.0,16.1,0.0,1.0
+2025-04-27,20:45,Ligue 1,2024-2025,Brest,Marseille,Away,Matchweek 31,1.2,1,4,9,4,11.7,0,0,0.9,4.0,1.0,11.0,6.0,19.8,1.0,0.0
+2025-05-04,17:15,Ligue 1,2024-2025,Brest,Montpellier,Home,Matchweek 32,1.1,1,0,16,5,15.8,1,0,0.5,0.0,1.0,6.0,1.0,18.9,0.0,0.0
+2025-05-10,21:00,Ligue 1,2024-2025,Brest,Lille,Home,Matchweek 33,1.2,2,0,12,4,15.3,0,0,1.9,0.0,2.0,18.0,2.0,16.5,0.0,0.0
+2025-05-17,21:00,Ligue 1,2024-2025,Brest,Nice,Away,Matchweek 34,0.9,0,6,10,1,17.8,0,0,4.9,6.0,0.0,17.0,8.0,14.1,0.0,1.0
+2024-08-18,17:00,Ligue 1,2024-2025,Toulouse,Nantes,Home,Matchweek 1,1.7,0,0,12,6,12.4,0.0,0,0.5,0,0,10.0,2.0,15.5,0.0,0.0
+2024-08-25,17:00,Ligue 1,2024-2025,Toulouse,Nice,Away,Matchweek 2,1.0,1,1,15,3,17.8,1.0,0,1.3,1,1,11.0,3.0,13.6,1.0,0.0
+2024-08-31,21:00,Ligue 1,2024-2025,Toulouse,Marseille,Home,Matchweek 3,1.0,1,3,3,1,16.2,0.0,0,0.8,3,1,12.0,4.0,16.4,2.0,0.0
+2024-09-15,17:00,Ligue 1,2024-2025,Toulouse,Le Havre,Home,Matchweek 4,1.3,2,0,15,6,14.6,0.0,0,0.2,0,2,5.0,3.0,29.0,0.0,0.0
+2024-09-22,17:00,Ligue 1,2024-2025,Toulouse,Brest,Away,Matchweek 5,2.7,0,2,10,1,14.2,0.0,0,0.5,2,0,8.0,5.0,18.6,0.0,0.0
+2024-09-29,15:00,Ligue 1,2024-2025,Toulouse,Lyon,Home,Matchweek 6,0.9,1,2,10,4,18.3,0.0,0,0.4,2,1,4.0,1.0,8.7,0.0,0.0
+2024-10-05,19:00,Ligue 1,2024-2025,Toulouse,Lille,Away,Matchweek 7,1.1,1,2,9,2,15.8,0.0,0,1.6,2,1,10.0,3.0,16.9,1.0,0.0
+2024-10-20,17:00,Ligue 1,2024-2025,Toulouse,Angers,Home,Matchweek 8,2.0,1,1,18,5,14.9,0.0,0,1.4,1,1,7.0,3.0,22.9,0.0,0.0
+2024-10-27,17:00,Ligue 1,2024-2025,Toulouse,Montpellier,Away,Matchweek 9,1.9,3,0,15,6,18.1,0.0,0,0.2,0,3,9.0,2.0,27.3,2.0,0.0
+2024-11-03,15:00,Ligue 1,2024-2025,Toulouse,Reims,Home,Matchweek 10,0.9,1,0,13,5,15.9,0.0,0,1.1,0,1,13.0,2.0,24.1,0.0,0.0
+2024-11-10,17:00,Ligue 1,2024-2025,Toulouse,Rennes,Away,Matchweek 11,1.4,2,0,9,1,15.6,0.0,0,0.6,0,2,7.0,1.0,17.3,0.0,0.0
+2024-11-22,21:00,Ligue 1,2024-2025,Toulouse,Paris S-G,Away,Matchweek 12,1.4,0,3,11,2,18.2,0.0,0,1.1,3,0,17.0,8.0,17.7,0.0,0.0
+2024-12-01,17:00,Ligue 1,2024-2025,Toulouse,Auxerre,Home,Matchweek 13,2.3,2,0,11,5,19.1,0.0,1,0.2,0,2,4.0,0.0,20.0,0.0,0.0
+2024-12-07,17:00,Ligue 1,2024-2025,Toulouse,Monaco,Away,Matchweek 14,0.5,0,2,6,3,17.1,0.0,0,3.2,2,0,19.0,5.0,14.6,0.0,0.0
+2024-12-13,20:45,Ligue 1,2024-2025,Toulouse,Saint-Étienne,Home,Matchweek 15,1.4,2,1,11,4,11.4,0.0,0,0.5,1,2,3.0,2.0,24.3,0.0,0.0
+2024-12-21,15:30,Coupe de France,2024-2025,Toulouse,Ht Lyonnais,Away,Round of 64,,0 (4),0 (2),14,3,,,0,,0 (2),0 (4),4.0,0.0,,,0.0
+2025-01-05,15:00,Ligue 1,2024-2025,Toulouse,Lens,Away,Matchweek 16,2.0,1,0,7,3,12.8,0.0,1,1.4,0,1,14.0,1.0,19.5,0.0,0.0
+2025-01-12,17:15,Ligue 1,2024-2025,Toulouse,Strasbourg,Home,Matchweek 17,1.2,1,2,19,5,17.0,2.0,0,2.3,2,1,8.0,2.0,16.5,0.0,0.0
+2025-01-15,18:30,Coupe de France,2024-2025,Toulouse,Stade Laval,Home,Round of 32,,2,1,24,8,,,0,,1,2,7.0,2.0,,,0.0
+2025-01-18,21:05,Ligue 1,2024-2025,Toulouse,Lyon,Away,Matchweek 18,1.1,0,0,13,4,14.6,0.0,0,0.7,0,0,11.0,3.0,17.1,1.0,0.0
+2025-01-26,17:15,Ligue 1,2024-2025,Toulouse,Montpellier,Home,Matchweek 19,1.0,1,2,15,5,17.2,0.0,0,0.5,2,1,6.0,4.0,17.1,0.0,0.0
+2025-02-02,15:00,Ligue 1,2024-2025,Toulouse,Nice,Home,Matchweek 20,1.4,1,1,15,4,12.2,0.0,0,1.7,1,1,12.0,2.0,18.8,0.0,1.0
+2025-02-05,20:45,Coupe de France,2024-2025,Toulouse,Guingamp,Home,Round of 16,,0,2,8,2,,,0,,2,0,8.0,3.0,,,0.0
+2025-02-09,17:15,Ligue 1,2024-2025,Toulouse,Auxerre,Away,Matchweek 21,0.9,2,2,7,3,15.8,0.0,0,0.9,2,2,9.0,3.0,15.5,0.0,0.0
+2025-02-15,21:05,Ligue 1,2024-2025,Toulouse,Paris S-G,Home,Matchweek 22,0.9,0,1,14,4,15.0,0.0,0,2.4,1,0,20.0,6.0,19.7,2.0,0.0
+2025-02-23,17:15,Ligue 1,2024-2025,Toulouse,Le Havre,Away,Matchweek 23,2.4,4,1,10,4,17.4,0.0,1,0.8,1,4,11.0,3.0,18.5,0.0,0.0
+2025-03-02,17:15,Ligue 1,2024-2025,Toulouse,Angers,Away,Matchweek 24,3.5,4,0,19,13,12.3,0.0,0,0.4,0,4,5.0,1.0,22.3,1.0,0.0
+2025-03-07,20:45,Ligue 1,2024-2025,Toulouse,Monaco,Home,Matchweek 25,0.6,1,1,8,3,17.4,0.0,0,2.4,1,1,13.0,3.0,12.8,0.0,0.0
+2025-03-16,17:15,Ligue 1,2024-2025,Toulouse,Strasbourg,Away,Matchweek 26,1.7,1,2,11,7,18.2,1.0,0,1.7,2,1,10.0,3.0,13.9,0.0,0.0
+2025-03-30,15:00,Ligue 1,2024-2025,Toulouse,Brest,Home,Matchweek 27,2.0,2,4,17,4,13.1,1.0,0,1.3,4,2,10.0,5.0,12.0,0.0,0.0
+2025-04-06,20:45,Ligue 1,2024-2025,Toulouse,Marseille,Away,Matchweek 28,1.3,2,3,8,3,17.3,0.0,0,1.0,3,2,9.0,4.0,16.3,0.0,0.0
+2025-04-12,19:00,Ligue 1,2024-2025,Toulouse,Lille,Home,Matchweek 29,0.9,1,2,9,5,14.7,1.0,0,0.5,2,1,6.0,3.0,16.0,1.0,0.0
+2025-04-20,17:15,Ligue 1,2024-2025,Toulouse,Reims,Away,Matchweek 30,1.3,0,1,18,5,15.9,1.0,0,0.7,1,0,8.0,2.0,14.4,0.0,0.0
+2025-04-27,17:15,Ligue 1,2024-2025,Toulouse,Nantes,Away,Matchweek 31,0.4,0,0,6,2,18.3,0.0,0,1.1,0,0,11.0,3.0,14.6,0.0,0.0
+2025-05-03,19:00,Ligue 1,2024-2025,Toulouse,Rennes,Home,Matchweek 32,0.7,2,1,9,3,14.9,0.0,0,1.4,1,2,15.0,6.0,17.5,0.0,0.0
+2025-05-10,21:00,Ligue 1,2024-2025,Toulouse,Lens,Home,Matchweek 33,1.1,1,1,9,6,13.7,0.0,0,0.7,1,1,12.0,2.0,18.5,0.0,0.0
+2025-05-17,21:00,Ligue 1,2024-2025,Toulouse,Saint-Étienne,Away,Matchweek 34,3.2,3,2,17,8,13.2,0.0,0,1.3,2,3,18.0,6.0,18.1,0.0,0.0
+2024-08-18,15:00,Ligue 1,2024-2025,Auxerre,Nice,Home,Matchweek 1,1.8,2.0,1.0,16,7,16.0,1.0,0,0.7,1.0,2.0,9.0,2.0,14.4,1.0,0.0
+2024-08-25,17:00,Ligue 1,2024-2025,Auxerre,Nantes,Away,Matchweek 2,1.1,0.0,2.0,12,3,16.4,0.0,0,1.4,2.0,0.0,9.0,5.0,16.7,1.0,0.0
+2024-09-01,17:00,Ligue 1,2024-2025,Auxerre,Le Havre,Away,Matchweek 3,0.6,1.0,3.0,7,3,25.0,1.0,0,2.8,3.0,1.0,21.0,7.0,19.8,1.0,1.0
+2024-09-14,19:00,Ligue 1,2024-2025,Auxerre,Monaco,Home,Matchweek 4,0.6,0.0,3.0,13,3,21.7,0.0,0,3.4,3.0,0.0,19.0,9.0,12.9,0.0,0.0
+2024-09-22,17:00,Ligue 1,2024-2025,Auxerre,Montpellier,Away,Matchweek 5,1.2,2.0,3.0,11,5,13.5,0.0,0,2.0,3.0,2.0,14.0,4.0,14.4,0.0,0.0
+2024-09-27,19:00,Ligue 1,2024-2025,Auxerre,Brest,Home,Matchweek 6,2.5,3.0,0.0,14,3,16.7,1.0,1,0.8,0.0,3.0,8.0,4.0,14.8,0.0,0.0
+2024-10-05,17:00,Ligue 1,2024-2025,Auxerre,Saint-Étienne,Away,Matchweek 7,0.8,1.0,3.0,11,1,16.5,0.0,0,2.7,3.0,1.0,13.0,5.0,15.2,0.0,0.0
+2024-10-20,17:00,Ligue 1,2024-2025,Auxerre,Reims,Home,Matchweek 8,2.8,2.0,1.0,9,7,15.5,0.0,0,1.1,1.0,2.0,15.0,3.0,16.6,1.0,0.0
+2024-10-27,15:00,Ligue 1,2024-2025,Auxerre,Lyon,Away,Matchweek 9,1.5,2.0,2.0,19,5,16.0,0.0,0,2.0,2.0,2.0,11.0,7.0,14.4,0.0,1.0
+2024-11-03,17:00,Ligue 1,2024-2025,Auxerre,Rennes,Home,Matchweek 10,2.8,4.0,0.0,15,7,17.6,0.0,1,0.9,0.0,4.0,7.0,4.0,12.7,0.0,0.0
+2024-11-08,20:45,Ligue 1,2024-2025,Auxerre,Marseille,Away,Matchweek 11,1.9,3.0,1.0,10,6,18.0,0.0,0,2.5,1.0,3.0,18.0,4.0,16.5,1.0,1.0
+2024-11-24,17:00,Ligue 1,2024-2025,Auxerre,Angers,Home,Matchweek 12,0.6,1.0,0.0,10,6,19.4,0.0,0,0.9,0.0,1.0,10.0,5.0,18.1,1.0,0.0
+2024-12-01,17:00,Ligue 1,2024-2025,Auxerre,Toulouse,Away,Matchweek 13,0.2,0.0,2.0,4,0,20.0,0.0,0,2.3,2.0,0.0,11.0,5.0,19.1,0.0,1.0
+2024-12-06,21:00,Ligue 1,2024-2025,Auxerre,Paris S-G,Home,Matchweek 14,0.3,0.0,0.0,6,2,18.7,0.0,0,2.5,0.0,0.0,24.0,11.0,14.7,0.0,0.0
+2024-12-14,19:00,Ligue 1,2024-2025,Auxerre,Lens,Home,Matchweek 15,0.6,2.0,2.0,10,3,19.5,1.0,0,1.6,2.0,2.0,16.0,5.0,18.2,1.0,0.0
+2024-12-22,14:45,Coupe de France,2024-2025,Auxerre,Dunkerque,Home,Round of 64,,0.0,1.0,9,2,,,0,,1.0,0.0,13.0,4.0,,,0.0
+2025-01-05,15:00,Ligue 1,2024-2025,Auxerre,Strasbourg,Away,Matchweek 16,1.4,1.0,3.0,14,7,17.3,1.0,0,2.9,3.0,1.0,10.0,3.0,15.1,0.0,1.0
+2025-01-10,21:05,Ligue 1,2024-2025,Auxerre,Lille,Home,Matchweek 17,0.8,0.0,0.0,13,3,19.8,0.0,0,1.5,0.0,0.0,12.0,4.0,20.0,0.0,0.0
+2025-01-19,17:15,Ligue 1,2024-2025,Auxerre,Angers,Away,Matchweek 18,0.7,0.0,2.0,10,4,18.7,1.0,0,0.9,2.0,0.0,12.0,4.0,20.1,2.0,0.0
+2025-01-24,20:45,Ligue 1,2024-2025,Auxerre,Saint-Étienne,Home,Matchweek 19,0.8,1.0,1.0,11,5,15.9,0.0,0,1.2,1.0,1.0,8.0,3.0,18.0,1.0,0.0
+2025-02-01,19:00,Ligue 1,2024-2025,Auxerre,Monaco,Away,Matchweek 20,1.2,2.0,4.0,11,6,17.9,0.0,1,2.6,4.0,2.0,11.0,6.0,13.8,1.0,0.0
+2025-02-09,17:15,Ligue 1,2024-2025,Auxerre,Toulouse,Home,Matchweek 21,0.9,2.0,2.0,9,3,15.5,0.0,0,0.9,2.0,2.0,7.0,3.0,15.8,0.0,0.0
+2025-02-14,20:45,Ligue 1,2024-2025,Auxerre,Brest,Away,Matchweek 22,1.2,2.0,2.0,11,6,17.9,1.0,0,2.2,2.0,2.0,18.0,6.0,15.4,0.0,0.0
+2025-02-22,21:05,Ligue 1,2024-2025,Auxerre,Marseille,Home,Matchweek 23,2.0,3.0,0.0,8,4,14.8,0.0,1,0.7,0.0,3.0,8.0,2.0,15.5,0.0,0.0
+2025-03-02,17:15,Ligue 1,2024-2025,Auxerre,Strasbourg,Home,Matchweek 24,2.2,0.0,1.0,14,5,13.4,0.0,0,1.4,1.0,0.0,6.0,3.0,14.9,0.0,0.0
+2025-03-09,17:15,Ligue 1,2024-2025,Auxerre,Reims,Away,Matchweek 25,2.1,2.0,0.0,13,9,14.3,0.0,0,1.4,0.0,2.0,17.0,4.0,16.8,1.0,0.0
+2025-03-14,20:45,Ligue 1,2024-2025,Auxerre,Nice,Away,Matchweek 26,0.7,1.0,1.0,10,4,19.3,0.0,0,2.0,1.0,1.0,20.0,6.0,13.3,1.0,0.0
+2025-03-30,17:15,Ligue 1,2024-2025,Auxerre,Montpellier,Home,Matchweek 27,2.1,1.0,0.0,21,6,18.4,1.0,0,0.5,0.0,1.0,12.0,1.0,24.1,0.0,0.0
+2025-04-06,17:15,Ligue 1,2024-2025,Auxerre,Rennes,Away,Matchweek 28,0.8,1.0,0.0,11,3,19.9,1.0,0,1.2,0.0,1.0,18.0,5.0,18.9,1.0,0.0
+2025-04-13,20:45,Ligue 1,2024-2025,Auxerre,Lyon,Home,Matchweek 29,0.7,1.0,3.0,14,2,22.1,1.0,0,2.9,3.0,1.0,12.0,6.0,14.4,0.0,1.0
+2025-04-20,15:00,Ligue 1,2024-2025,Auxerre,Lille,Away,Matchweek 30,0.3,1.0,3.0,6,2,20.0,0.0,0,2.0,3.0,1.0,15.0,9.0,17.0,0.0,0.0
+2025-04-27,17:15,Ligue 1,2024-2025,Auxerre,Lens,Away,Matchweek 31,2.6,4.0,0.0,12,8,13.0,0.0,0,1.4,0.0,4.0,16.0,5.0,15.1,0.0,0.0
+2025-05-04,17:15,Ligue 1,2024-2025,Auxerre,Le Havre,Home,Matchweek 32,0.2,1.0,2.0,4,1,15.2,0.0,0,1.5,2.0,1.0,11.0,5.0,13.7,0.0,0.0
+2025-05-10,21:00,Ligue 1,2024-2025,Auxerre,Nantes,Home,Matchweek 33,0.4,1.0,1.0,9,3,17.1,0.0,0,0.7,1.0,1.0,7.0,2.0,20.3,1.0,0.0
+2025-05-17,21:00,Ligue 1,2024-2025,Auxerre,Paris S-G,Away,Matchweek 34,0.6,1.0,3.0,7,2,17.2,0.0,0,3.1,3.0,1.0,20.0,8.0,20.0,2.0,0.0
+2024-08-18,20:45,Ligue 1,2024-2025,Rennes,Lyon,Home,Matchweek 1,2.0,3.0,0.0,22,8,14.9,1.0,0,2.1,0.0,3.0,15.0,1.0,15.8,0.0,0.0
+2024-08-25,17:00,Ligue 1,2024-2025,Rennes,Strasbourg,Away,Matchweek 2,1.1,1.0,3.0,14,5,19.6,1.0,0,0.7,3.0,1.0,11.0,5.0,13.9,0.0,0.0
+2024-09-01,17:00,Ligue 1,2024-2025,Rennes,Reims,Away,Matchweek 3,0.8,1.0,2.0,13,5,15.9,0.0,0,1.4,2.0,1.0,11.0,7.0,15.8,0.0,0.0
+2024-09-15,15:00,Ligue 1,2024-2025,Rennes,Montpellier,Home,Matchweek 4,1.3,3.0,0.0,11,6,16.6,0.0,0,0.3,0.0,3.0,12.0,4.0,23.5,0.0,0.0
+2024-09-21,19:00,Ligue 1,2024-2025,Rennes,Lens,Home,Matchweek 5,1.4,1.0,1.0,10,5,19.5,0.0,1,0.6,1.0,1.0,10.0,2.0,18.8,1.0,0.0
+2024-09-27,21:00,Ligue 1,2024-2025,Rennes,Paris S-G,Away,Matchweek 6,1.4,1.0,3.0,11,4,22.5,0.0,1,3.0,3.0,1.0,23.0,7.0,16.0,0.0,0.0
+2024-10-05,21:00,Ligue 1,2024-2025,Rennes,Monaco,Home,Matchweek 7,0.7,1.0,2.0,14,3,22.3,0.0,0,0.6,2.0,1.0,5.0,2.0,12.7,0.0,0.0
+2024-10-19,17:00,Ligue 1,2024-2025,Rennes,Brest,Away,Matchweek 8,1.2,1.0,1.0,6,4,13.3,0.0,0,1.5,1.0,1.0,11.0,1.0,21.1,0.0,1.0
+2024-10-25,20:45,Ligue 1,2024-2025,Rennes,Le Havre,Home,Matchweek 9,1.5,1.0,0.0,20,4,15.4,0.0,0,0.4,0.0,1.0,5.0,1.0,15.9,0.0,0.0
+2024-11-03,17:00,Ligue 1,2024-2025,Rennes,Auxerre,Away,Matchweek 10,0.9,0.0,4.0,7,4,12.7,0.0,0,2.8,4.0,0.0,15.0,7.0,17.6,0.0,1.0
+2024-11-10,17:00,Ligue 1,2024-2025,Rennes,Toulouse,Home,Matchweek 11,0.6,0.0,2.0,7,1,17.3,0.0,0,1.4,2.0,0.0,9.0,1.0,15.6,0.0,0.0
+2024-11-24,15:00,Ligue 1,2024-2025,Rennes,Lille,Away,Matchweek 12,0.2,0.0,1.0,4,1,21.2,2.0,0,0.4,1.0,0.0,5.0,2.0,18.4,0.0,0.0
+2024-11-30,17:00,Ligue 1,2024-2025,Rennes,Saint-Étienne,Home,Matchweek 13,3.2,5.0,0.0,16,7,18.1,0.0,2,0.1,0.0,5.0,2.0,0.0,16.2,0.0,0.0
+2024-12-08,17:00,Ligue 1,2024-2025,Rennes,Nantes,Away,Matchweek 14,0.4,0.0,1.0,5,3,17.9,1.0,0,1.2,1.0,0.0,14.0,2.0,15.3,0.0,0.0
+2024-12-15,17:00,Ligue 1,2024-2025,Rennes,Angers,Home,Matchweek 15,0.6,2.0,0.0,7,4,19.4,0.0,0,0.4,0.0,2.0,3.0,0.0,12.3,0.0,0.0
+2024-12-22,14:45,Coupe de France,2024-2025,Rennes,Bordeaux,Away,Round of 64,,4.0,1.0,14,6,,,0,,1.0,4.0,11.0,4.0,,,0.0
+2025-01-03,21:00,Ligue 1,2024-2025,Rennes,Nice,Away,Matchweek 16,1.7,2.0,3.0,10,5,19.4,0.0,0,1.5,3.0,2.0,9.0,6.0,14.5,0.0,0.0
+2025-01-11,21:05,Ligue 1,2024-2025,Rennes,Marseille,Home,Matchweek 17,1.2,1.0,2.0,4,3,17.4,0.0,0,1.7,2.0,1.0,13.0,7.0,14.9,1.0,0.0
+2025-01-15,18:30,Coupe de France,2024-2025,Rennes,Troyes,Away,Round of 32,,0.0,1.0,15,4,,,0,,1.0,0.0,14.0,1.0,,,0.0
+2025-01-18,19:00,Ligue 1,2024-2025,Rennes,Brest,Home,Matchweek 18,1.5,1.0,2.0,22,9,16.9,0.0,0,1.0,2.0,1.0,10.0,3.0,15.8,0.0,0.0
+2025-01-25,17:00,Ligue 1,2024-2025,Rennes,Monaco,Away,Matchweek 19,1.8,2.0,3.0,14,5,16.8,0.0,0,3.5,3.0,2.0,20.0,9.0,15.2,0.0,0.0
+2025-02-02,17:15,Ligue 1,2024-2025,Rennes,Strasbourg,Home,Matchweek 20,0.9,1.0,0.0,13,3,17.5,0.0,0,1.2,0.0,1.0,7.0,3.0,15.4,0.0,0.0
+2025-02-08,21:05,Ligue 1,2024-2025,Rennes,Saint-Étienne,Away,Matchweek 21,3.6,2.0,0.0,21,8,15.0,0.0,0,0.5,0.0,2.0,9.0,3.0,17.8,0.0,0.0
+2025-02-16,20:45,Ligue 1,2024-2025,Rennes,Lille,Home,Matchweek 22,0.4,0.0,2.0,4,0,15.8,0.0,0,3.0,2.0,0.0,17.0,6.0,13.5,1.0,0.0
+2025-02-21,20:45,Ligue 1,2024-2025,Rennes,Reims,Home,Matchweek 23,2.3,1.0,0.0,25,4,18.8,0.0,1,0.1,0.0,1.0,3.0,0.0,14.5,0.0,0.0
+2025-03-02,17:15,Ligue 1,2024-2025,Rennes,Montpellier,Away,Matchweek 24,2.4,4.0,0.0,14,7,15.4,0.0,0,1.6,0.0,4.0,16.0,5.0,19.7,0.0,0.0
+2025-03-08,17:00,Ligue 1,2024-2025,Rennes,Paris S-G,Home,Matchweek 25,1.6,1.0,4.0,13,3,13.0,1.0,0,3.8,4.0,1.0,19.0,9.0,17.1,0.0,0.0
+2025-03-15,21:05,Ligue 1,2024-2025,Rennes,Lens,Away,Matchweek 26,0.6,0.0,1.0,12,5,20.0,0.0,0,0.7,1.0,0.0,9.0,4.0,15.0,0.0,0.0
+2025-03-30,17:15,Ligue 1,2024-2025,Rennes,Angers,Away,Matchweek 27,1.5,3.0,0.0,14,6,16.5,0.0,0,1.0,0.0,3.0,9.0,4.0,15.5,0.0,0.0
+2025-04-06,17:15,Ligue 1,2024-2025,Rennes,Auxerre,Home,Matchweek 28,1.2,0.0,1.0,18,5,18.9,1.0,0,0.8,1.0,0.0,11.0,3.0,19.9,1.0,0.0
+2025-04-13,17:15,Ligue 1,2024-2025,Rennes,Le Havre,Away,Matchweek 29,2.7,5.0,1.0,10,6,10.5,0.0,0,0.6,1.0,5.0,11.0,2.0,24.6,3.0,0.0
+2025-04-18,20:45,Ligue 1,2024-2025,Rennes,Nantes,Home,Matchweek 30,2.7,2.0,1.0,18,5,16.5,0.0,0,0.7,1.0,2.0,4.0,1.0,14.1,0.0,0.0
+2025-04-26,21:05,Ligue 1,2024-2025,Rennes,Lyon,Away,Matchweek 31,0.8,1.0,4.0,10,4,22.5,0.0,0,1.8,4.0,1.0,14.0,8.0,14.1,0.0,0.0
+2025-05-03,19:00,Ligue 1,2024-2025,Rennes,Toulouse,Away,Matchweek 32,1.4,1.0,2.0,15,6,17.5,0.0,0,0.7,2.0,1.0,9.0,3.0,14.9,0.0,0.0
+2025-05-10,21:00,Ligue 1,2024-2025,Rennes,Nice,Home,Matchweek 33,1.7,2.0,0.0,10,4,17.9,1.0,0,1.1,0.0,2.0,14.0,6.0,16.3,0.0,0.0
+2025-05-17,21:00,Ligue 1,2024-2025,Rennes,Marseille,Away,Matchweek 34,1.3,2.0,4.0,9,3,18.5,0.0,0,3.9,4.0,2.0,15.0,8.0,15.7,1.0,1.0
+2024-08-18,17:00,Ligue 1,2024-2025,Nantes,Toulouse,Away,Matchweek 1,0.5,0.0,0.0,10,2,15.5,0.0,0,1.7,0.0,0.0,12.0,6.0,12.4,0.0,0.0
+2024-08-25,17:00,Ligue 1,2024-2025,Nantes,Auxerre,Home,Matchweek 2,1.4,2.0,0.0,9,5,16.7,1.0,0,1.1,0.0,2.0,12.0,3.0,16.4,0.0,0.0
+2024-08-31,19:00,Ligue 1,2024-2025,Nantes,Montpellier,Away,Matchweek 3,1.5,3.0,1.0,8,3,18.8,0.0,1,0.9,1.0,3.0,10.0,4.0,22.6,2.0,0.0
+2024-09-15,17:00,Ligue 1,2024-2025,Nantes,Reims,Home,Matchweek 4,1.5,1.0,2.0,18,6,18.4,0.0,0,0.5,2.0,1.0,11.0,4.0,19.6,0.0,0.0
+2024-09-22,17:00,Ligue 1,2024-2025,Nantes,Angers,Away,Matchweek 5,0.6,1.0,1.0,9,3,14.8,0.0,0,0.9,1.0,1.0,3.0,0.0,32.3,0.0,1.0
+2024-09-29,17:00,Ligue 1,2024-2025,Nantes,Saint-Étienne,Home,Matchweek 6,1.8,2.0,2.0,16,3,13.4,0.0,0,1.0,2.0,2.0,4.0,2.0,18.9,0.0,1.0
+2024-10-06,15:00,Ligue 1,2024-2025,Nantes,Lyon,Away,Matchweek 7,0.9,0.0,2.0,11,6,15.0,0.0,0,3.2,2.0,0.0,17.0,6.0,14.5,0.0,0.0
+2024-10-20,17:00,Ligue 1,2024-2025,Nantes,Nice,Home,Matchweek 8,0.5,1.0,1.0,11,7,19.5,0.0,0,0.8,1.0,1.0,13.0,7.0,17.6,0.0,0.0
+2024-10-27,17:00,Ligue 1,2024-2025,Nantes,Strasbourg,Away,Matchweek 9,0.7,1.0,3.0,8,6,12.5,0.0,0,1.7,3.0,1.0,9.0,5.0,10.0,0.0,0.0
+2024-11-03,20:45,Ligue 1,2024-2025,Nantes,Marseille,Home,Matchweek 10,1.4,1.0,2.0,7,3,13.1,0.0,0,1.2,2.0,1.0,9.0,4.0,19.5,0.0,0.0
+2024-11-09,19:00,Ligue 1,2024-2025,Nantes,Lens,Away,Matchweek 11,1.4,2.0,3.0,8,2,21.8,0.0,1,2.9,3.0,2.0,14.0,2.0,12.5,0.0,1.0
+2024-11-24,17:00,Ligue 1,2024-2025,Nantes,Le Havre,Home,Matchweek 12,0.9,0.0,2.0,18,4,19.1,0.0,0,0.9,2.0,0.0,7.0,3.0,12.8,0.0,0.0
+2024-11-30,21:00,Ligue 1,2024-2025,Nantes,Paris S-G,Away,Matchweek 13,0.8,1.0,1.0,5,2,10.8,0.0,0,2.6,1.0,1.0,24.0,10.0,16.5,0.0,0.0
+2024-12-08,17:00,Ligue 1,2024-2025,Nantes,Rennes,Home,Matchweek 14,1.2,1.0,0.0,14,2,15.3,0.0,0,0.4,0.0,1.0,5.0,3.0,17.9,1.0,0.0
+2024-12-15,17:00,Ligue 1,2024-2025,Nantes,Brest,Away,Matchweek 15,1.1,1.0,4.0,16,7,15.0,0.0,0,2.0,4.0,1.0,13.0,8.0,17.8,0.0,0.0
+2024-12-21,18:00,Coupe de France,2024-2025,Nantes,JA Drancy,Away,Round of 64,,4.0,0.0,19,6,,,0,,0.0,4.0,4.0,1.0,,,0.0
+2025-01-04,19:00,Ligue 1,2024-2025,Nantes,Lille,Away,Matchweek 16,1.3,1.0,1.0,5,1,21.2,0.0,1,1.2,1.0,1.0,13.0,3.0,14.0,0.0,0.0
+2025-01-10,19:00,Ligue 1,2024-2025,Nantes,Monaco,Home,Matchweek 17,0.8,2.0,2.0,10,4,15.0,0.0,0,3.4,2.0,2.0,15.0,6.0,14.6,1.0,0.0
+2025-01-15,18:30,Coupe de France,2024-2025,Nantes,Brest,Away,Round of 32,,1.0,2.0,16,1,,,0,,2.0,1.0,8.0,4.0,,,0.0
+2025-01-19,15:00,Ligue 1,2024-2025,Nantes,Saint-Étienne,Away,Matchweek 18,1.3,1.0,1.0,8,4,14.0,0.0,0,0.8,1.0,1.0,12.0,2.0,16.5,0.0,0.0
+2025-01-26,17:15,Ligue 1,2024-2025,Nantes,Lyon,Home,Matchweek 19,1.2,1.0,1.0,7,5,14.2,0.0,0,1.1,1.0,1.0,15.0,4.0,13.1,1.0,0.0
+2025-02-02,17:15,Ligue 1,2024-2025,Nantes,Reims,Away,Matchweek 20,2.0,2.0,1.0,11,6,12.0,0.0,0,1.0,1.0,2.0,13.0,2.0,13.0,0.0,0.0
+2025-02-07,19:00,Ligue 1,2024-2025,Nantes,Brest,Home,Matchweek 21,1.1,0.0,2.0,15,2,13.8,1.0,0,2.5,2.0,0.0,10.0,6.0,19.0,0.0,0.0
+2025-02-15,19:00,Ligue 1,2024-2025,Nantes,Monaco,Away,Matchweek 22,1.4,1.0,7.0,6,2,14.4,0.0,0,4.4,7.0,1.0,21.0,10.0,15.1,0.0,1.0
+2025-02-23,15:00,Ligue 1,2024-2025,Nantes,Lens,Home,Matchweek 23,3.9,3.0,1.0,16,7,12.2,0.0,1,1.6,1.0,3.0,13.0,3.0,17.9,0.0,1.0
+2025-03-02,20:45,Ligue 1,2024-2025,Nantes,Marseille,Away,Matchweek 24,0.8,0.0,2.0,8,2,17.7,0.0,0,2.1,2.0,0.0,21.0,5.0,19.5,1.0,0.0
+2025-03-09,17:15,Ligue 1,2024-2025,Nantes,Strasbourg,Home,Matchweek 25,0.8,0.0,1.0,11,2,16.0,0.0,0,1.0,1.0,0.0,9.0,1.0,14.4,0.0,0.0
+2025-03-15,17:00,Ligue 1,2024-2025,Nantes,Lille,Home,Matchweek 26,1.2,1.0,0.0,10,2,12.7,0.0,0,1.6,0.0,1.0,13.0,3.0,13.6,0.0,0.0
+2025-03-30,17:15,Ligue 1,2024-2025,Nantes,Le Havre,Away,Matchweek 27,0.8,2.0,3.0,7,2,16.1,1.0,0,4.0,3.0,2.0,14.0,3.0,16.0,0.0,2.0
+2025-04-04,20:45,Ligue 1,2024-2025,Nantes,Nice,Away,Matchweek 28,0.5,2.0,1.0,8,4,20.8,0.0,0,1.9,1.0,2.0,21.0,9.0,18.4,2.0,0.0
+2025-04-18,20:45,Ligue 1,2024-2025,Nantes,Rennes,Away,Matchweek 30,0.7,1.0,2.0,4,1,14.1,0.0,0,2.7,2.0,1.0,18.0,5.0,16.5,0.0,0.0
+2025-04-22,20:45,Ligue 1,2024-2025,Nantes,Paris S-G,Home,Matchweek 29,0.5,1.0,1.0,8,2,20.5,0.0,0,1.6,1.0,1.0,10.0,5.0,12.5,0.0,0.0
+2025-04-27,17:15,Ligue 1,2024-2025,Nantes,Toulouse,Home,Matchweek 31,1.1,0.0,0.0,11,3,14.6,0.0,0,0.4,0.0,0.0,6.0,2.0,18.3,0.0,0.0
+2025-05-04,15:00,Ligue 1,2024-2025,Nantes,Angers,Home,Matchweek 32,0.5,0.0,1.0,8,3,19.3,0.0,0,1.1,1.0,0.0,14.0,2.0,17.2,0.0,0.0
+2025-05-10,21:00,Ligue 1,2024-2025,Nantes,Auxerre,Away,Matchweek 33,0.7,1.0,1.0,7,2,20.3,1.0,0,0.4,1.0,1.0,9.0,3.0,17.1,0.0,0.0
+2025-05-17,21:00,Ligue 1,2024-2025,Nantes,Montpellier,Home,Matchweek 34,2.5,3.0,0.0,17,4,16.2,0.0,1,0.8,0.0,3.0,9.0,0.0,16.3,0.0,0.0
+2024-08-18,17:00,Ligue 1,2024-2025,Angers,Lens,Home,Matchweek 1,0.4,0,1,8,3,19.9,0.0,0,1.2,1,0,10.0,4.0,16.2,0.0,0.0
+2024-08-24,19:00,Ligue 1,2024-2025,Angers,Lille,Away,Matchweek 2,0.6,0,2,6,2,17.7,0.0,0,0.9,2,0,11.0,6.0,18.8,1.0,0.0
+2024-09-01,17:00,Ligue 1,2024-2025,Angers,Nice,Home,Matchweek 3,1.4,1,4,13,6,22.7,1.0,1,2.2,4,1,14.0,8.0,15.3,0.0,0.0
+2024-09-15,17:00,Ligue 1,2024-2025,Angers,Strasbourg,Away,Matchweek 4,0.9,1,1,12,2,18.8,0.0,0,2.3,1,1,10.0,5.0,15.1,1.0,0.0
+2024-09-22,17:00,Ligue 1,2024-2025,Angers,Nantes,Home,Matchweek 5,0.9,1,1,3,0,32.3,0.0,1,0.6,1,1,9.0,3.0,14.8,0.0,0.0
+2024-09-29,17:00,Ligue 1,2024-2025,Angers,Reims,Home,Matchweek 6,1.1,1,3,14,3,17.8,1.0,0,2.9,3,1,21.0,10.0,17.2,1.0,0.0
+2024-10-04,20:45,Ligue 1,2024-2025,Angers,Marseille,Away,Matchweek 7,0.8,1,1,10,3,22.8,1.0,0,0.9,1,1,16.0,4.0,19.2,1.0,0.0
+2024-10-20,17:00,Ligue 1,2024-2025,Angers,Toulouse,Away,Matchweek 8,1.4,1,1,7,3,22.9,0.0,0,2.0,1,1,18.0,5.0,14.9,0.0,0.0
+2024-10-26,17:00,Ligue 1,2024-2025,Angers,Saint-Étienne,Home,Matchweek 9,2.9,4,2,12,7,15.5,1.0,1,1.5,2,4,18.0,6.0,24.6,1.0,1.0
+2024-11-01,19:00,Ligue 1,2024-2025,Angers,Monaco,Away,Matchweek 10,0.5,1,0,10,3,21.9,0.0,0,1.4,0,1,11.0,3.0,18.3,1.0,0.0
+2024-11-09,21:00,Ligue 1,2024-2025,Angers,Paris S-G,Home,Matchweek 11,1.1,2,4,10,3,16.3,0.0,0,3.4,4,2,26.0,12.0,15.9,0.0,0.0
+2024-11-24,17:00,Ligue 1,2024-2025,Angers,Auxerre,Away,Matchweek 12,0.9,0,1,10,5,18.1,1.0,0,0.6,1,0,10.0,6.0,19.4,0.0,0.0
+2024-12-01,17:00,Ligue 1,2024-2025,Angers,Le Havre,Away,Matchweek 13,2.1,1,0,13,3,20.7,1.0,0,0.3,0,1,5.0,1.0,21.7,0.0,0.0
+2024-12-07,21:00,Ligue 1,2024-2025,Angers,Lyon,Home,Matchweek 14,0.6,0,3,10,2,22.1,1.0,0,2.0,3,0,16.0,10.0,14.9,0.0,0.0
+2024-12-15,17:00,Ligue 1,2024-2025,Angers,Rennes,Away,Matchweek 15,0.4,0,2,3,0,12.3,0.0,0,0.6,2,0,7.0,4.0,19.4,0.0,0.0
+2024-12-22,17:30,Coupe de France,2024-2025,Angers,FC 93,Away,Round of 64,,1,0,10,3,,,0,,0,1,8.0,1.0,,,0.0
+2025-01-05,15:00,Ligue 1,2024-2025,Angers,Brest,Home,Matchweek 16,1.8,2,0,7,2,10.1,0.0,0,1.0,0,2,12.0,4.0,14.8,0.0,0.0
+2025-01-12,17:15,Ligue 1,2024-2025,Angers,Montpellier,Away,Matchweek 17,3.8,3,1,21,8,18.3,0.0,0,1.2,1,3,7.0,2.0,22.1,0.0,1.0
+2025-01-15,18:30,Coupe de France,2024-2025,Angers,Quevilly-Rouen,Away,Round of 32,,3,2,13,6,,,1,,2,3,18.0,9.0,,,1.0
+2025-01-19,17:15,Ligue 1,2024-2025,Angers,Auxerre,Home,Matchweek 18,0.9,2,0,12,4,20.1,2.0,0,0.7,0,2,10.0,4.0,18.7,1.0,0.0
+2025-01-26,17:15,Ligue 1,2024-2025,Angers,Lens,Away,Matchweek 19,0.2,0,1,2,0,17.0,0.0,0,1.9,1,0,16.0,4.0,16.7,0.0,0.0
+2025-02-02,17:15,Ligue 1,2024-2025,Angers,Le Havre,Home,Matchweek 20,1.3,1,1,17,3,17.0,1.0,0,2.2,1,1,13.0,5.0,15.9,0.0,0.0
+2025-02-05,20:45,Coupe de France,2024-2025,Angers,Strasbourg,Away,Round of 16,,3,1,7,5,,,0,,1,3,21.0,4.0,,,0.0
+2025-02-09,20:45,Ligue 1,2024-2025,Angers,Marseille,Home,Matchweek 21,0.5,0,2,5,0,16.3,0.0,0,2.4,2,0,18.0,8.0,12.3,0.0,0.0
+2025-02-16,17:15,Ligue 1,2024-2025,Angers,Reims,Away,Matchweek 22,1.5,1,0,10,2,15.0,1.0,0,1.7,0,1,15.0,4.0,21.0,0.0,0.0
+2025-02-22,19:00,Ligue 1,2024-2025,Angers,Saint-Étienne,Away,Matchweek 23,2.9,3,3,11,2,17.5,0.0,2,1.5,3,3,19.0,8.0,17.6,0.0,0.0
+2025-02-25,21:00,Coupe de France,2024-2025,Angers,Reims,Home,Quarter-finals,,1 (3),1 (5),17,4,,,0,,1 (5),1 (3),10.0,3.0,,,0.0
+2025-03-02,17:15,Ligue 1,2024-2025,Angers,Toulouse,Home,Matchweek 24,0.4,0,4,5,1,22.3,1.0,0,3.5,4,0,19.0,13.0,12.3,0.0,0.0
+2025-03-09,15:00,Ligue 1,2024-2025,Angers,Brest,Away,Matchweek 25,0.4,0,2,7,1,15.0,0.0,0,3.5,2,0,19.0,7.0,11.2,0.0,0.0
+2025-03-15,19:00,Ligue 1,2024-2025,Angers,Monaco,Home,Matchweek 26,0.5,0,2,6,2,19.3,0.0,0,2.0,2,0,15.0,4.0,17.9,0.0,1.0
+2025-03-30,17:15,Ligue 1,2024-2025,Angers,Rennes,Home,Matchweek 27,1.0,0,3,9,4,15.5,0.0,0,1.5,3,0,14.0,6.0,16.5,0.0,0.0
+2025-04-05,17:00,Ligue 1,2024-2025,Angers,Paris S-G,Away,Matchweek 28,0.2,0,1,4,0,23.3,0.0,0,1.9,1,0,20.0,6.0,17.2,1.0,0.0
+2025-04-13,17:15,Ligue 1,2024-2025,Angers,Montpellier,Home,Matchweek 29,1.4,2,0,10,4,11.4,0.0,0,0.5,0,2,5.0,2.0,16.6,0.0,0.0
+2025-04-20,17:15,Ligue 1,2024-2025,Angers,Nice,Away,Matchweek 30,0.4,1,2,6,3,13.4,0.0,0,2.8,2,1,22.0,8.0,17.2,0.0,0.0
+2025-04-27,15:00,Ligue 1,2024-2025,Angers,Lille,Home,Matchweek 31,0.7,0,2,6,3,17.6,0.0,0,1.4,2,0,9.0,5.0,12.4,0.0,0.0
+2025-05-04,15:00,Ligue 1,2024-2025,Angers,Nantes,Away,Matchweek 32,1.1,1,0,14,2,17.2,0.0,0,0.5,0,1,8.0,3.0,19.3,0.0,0.0
+2025-05-10,21:00,Ligue 1,2024-2025,Angers,Strasbourg,Home,Matchweek 33,0.7,2,1,5,2,13.6,0.0,0,1.0,1,2,15.0,3.0,20.2,1.0,0.0
+2025-05-17,21:00,Ligue 1,2024-2025,Angers,Lyon,Away,Matchweek 34,0.5,0,2,13,3,21.8,1.0,0,3.9,2,0,20.0,3.0,17.0,0.0,1.0
+2024-08-16,20:45,Ligue 1,2024-2025,Le Havre,Paris S-G,Home,Matchweek 1,0.2,1.0,4.0,5,2,19.1,0.0,0,2.9,4.0,1.0,14.0,8.0,15.2,0.0,1.0
+2024-08-24,21:00,Ligue 1,2024-2025,Le Havre,Saint-Étienne,Away,Matchweek 2,2.4,2.0,0.0,13,4,20.4,0.0,1,1.1,0.0,2.0,19.0,5.0,17.5,1.0,0.0
+2024-09-01,17:00,Ligue 1,2024-2025,Le Havre,Auxerre,Home,Matchweek 3,2.8,3.0,1.0,21,7,19.8,1.0,1,0.6,1.0,3.0,7.0,3.0,25.0,1.0,0.0
+2024-09-15,17:00,Ligue 1,2024-2025,Le Havre,Toulouse,Away,Matchweek 4,0.2,0.0,2.0,5,3,29.0,0.0,0,1.3,2.0,0.0,15.0,6.0,14.6,0.0,0.0
+2024-09-22,15:00,Ligue 1,2024-2025,Le Havre,Monaco,Away,Matchweek 5,0.6,1.0,3.0,8,1,19.3,0.0,0,1.9,3.0,1.0,12.0,4.0,16.8,0.0,0.0
+2024-09-28,19:00,Ligue 1,2024-2025,Le Havre,Lille,Home,Matchweek 6,0.4,0.0,3.0,7,4,19.1,0.0,0,3.1,3.0,0.0,17.0,9.0,17.7,0.0,0.0
+2024-10-06,17:00,Ligue 1,2024-2025,Le Havre,Brest,Away,Matchweek 7,1.0,0.0,2.0,14,0,17.3,1.0,0,0.7,2.0,0.0,8.0,3.0,16.9,0.0,0.0
+2024-10-20,15:00,Ligue 1,2024-2025,Le Havre,Lyon,Home,Matchweek 8,0.4,0.0,4.0,7,1,20.0,1.0,0,2.7,4.0,0.0,16.0,8.0,19.2,0.0,0.0
+2024-10-25,20:45,Ligue 1,2024-2025,Le Havre,Rennes,Away,Matchweek 9,0.4,0.0,1.0,5,1,15.9,0.0,0,1.5,1.0,0.0,20.0,4.0,15.4,0.0,0.0
+2024-11-03,17:00,Ligue 1,2024-2025,Le Havre,Montpellier,Home,Matchweek 10,2.2,1.0,0.0,11,3,20.9,0.0,1,1.0,0.0,1.0,15.0,1.0,18.0,0.0,0.0
+2024-11-10,17:00,Ligue 1,2024-2025,Le Havre,Reims,Home,Matchweek 11,1.4,0.0,3.0,10,3,14.4,1.0,0,2.6,3.0,0.0,18.0,7.0,15.8,0.0,0.0
+2024-11-24,17:00,Ligue 1,2024-2025,Le Havre,Nantes,Away,Matchweek 12,0.9,2.0,0.0,7,3,12.8,0.0,0,0.9,0.0,2.0,18.0,4.0,19.1,0.0,0.0
+2024-12-01,17:00,Ligue 1,2024-2025,Le Havre,Angers,Home,Matchweek 13,0.3,0.0,1.0,5,1,21.7,0.0,0,2.1,1.0,0.0,13.0,3.0,20.7,1.0,0.0
+2024-12-07,19:00,Ligue 1,2024-2025,Le Havre,Nice,Away,Matchweek 14,1.1,1.0,2.0,12,1,15.4,1.0,0,2.0,2.0,1.0,16.0,4.0,18.2,1.0,1.0
+2024-12-15,17:00,Ligue 1,2024-2025,Le Havre,Strasbourg,Home,Matchweek 15,0.9,0.0,3.0,10,1,14.1,0.0,0,0.9,3.0,0.0,9.0,5.0,13.1,0.0,0.0
+2024-12-21,15:30,Coupe de France,2024-2025,Le Havre,Stade Briochin,Away,Round of 64,,0.0,1.0,11,4,,,0,,1.0,0.0,12.0,5.0,,,0.0
+2025-01-05,20:45,Ligue 1,2024-2025,Le Havre,Marseille,Away,Matchweek 16,0.4,1.0,5.0,4,1,14.7,0.0,0,3.2,5.0,1.0,15.0,8.0,17.9,0.0,0.0
+2025-01-12,15:00,Ligue 1,2024-2025,Le Havre,Lens,Home,Matchweek 17,1.5,1.0,2.0,8,4,12.0,0.0,0,2.7,2.0,1.0,25.0,6.0,12.9,0.0,0.0
+2025-01-19,17:15,Ligue 1,2024-2025,Le Havre,Reims,Away,Matchweek 18,0.8,1.0,1.0,7,2,14.0,0.0,0,0.8,1.0,1.0,11.0,3.0,17.6,0.0,0.0
+2025-01-26,15:00,Ligue 1,2024-2025,Le Havre,Brest,Home,Matchweek 19,1.0,0.0,1.0,11,1,15.3,0.0,0,2.0,1.0,0.0,17.0,7.0,15.3,1.0,0.0
+2025-02-02,17:15,Ligue 1,2024-2025,Le Havre,Angers,Away,Matchweek 20,2.2,1.0,1.0,13,5,15.9,0.0,0,1.3,1.0,1.0,17.0,3.0,17.0,1.0,0.0
+2025-02-08,19:00,Ligue 1,2024-2025,Le Havre,Lille,Away,Matchweek 21,1.8,2.0,1.0,14,6,12.2,0.0,0,1.6,1.0,2.0,14.0,5.0,16.5,0.0,0.0
+2025-02-16,17:15,Ligue 1,2024-2025,Le Havre,Nice,Home,Matchweek 22,0.7,1.0,3.0,14,4,16.4,0.0,0,1.4,3.0,1.0,9.0,3.0,19.9,0.0,0.0
+2025-02-23,17:15,Ligue 1,2024-2025,Le Havre,Toulouse,Home,Matchweek 23,0.8,1.0,4.0,11,3,18.5,0.0,0,2.4,4.0,1.0,10.0,4.0,17.4,0.0,1.0
+2025-03-01,19:00,Ligue 1,2024-2025,Le Havre,Lens,Away,Matchweek 24,1.5,4.0,3.0,7,3,18.7,0.0,1,1.9,3.0,4.0,19.0,6.0,17.2,0.0,1.0
+2025-03-09,17:15,Ligue 1,2024-2025,Le Havre,Saint-Étienne,Home,Matchweek 25,2.0,1.0,1.0,12,5,18.1,2.0,0,1.5,1.0,1.0,12.0,2.0,16.4,0.0,0.0
+2025-03-16,15:00,Ligue 1,2024-2025,Le Havre,Lyon,Away,Matchweek 26,1.7,2.0,4.0,13,4,20.1,0.0,1,3.9,4.0,2.0,15.0,6.0,15.5,0.0,1.0
+2025-03-30,17:15,Ligue 1,2024-2025,Le Havre,Nantes,Home,Matchweek 27,4.0,3.0,2.0,14,3,16.0,0.0,2,0.8,2.0,3.0,7.0,2.0,16.1,1.0,0.0
+2025-04-06,17:15,Ligue 1,2024-2025,Le Havre,Montpellier,Away,Matchweek 28,1.4,2.0,0.0,13,4,20.7,2.0,0,1.0,0.0,2.0,14.0,6.0,15.4,0.0,0.0
+2025-04-13,17:15,Ligue 1,2024-2025,Le Havre,Rennes,Home,Matchweek 29,0.6,1.0,5.0,11,2,24.6,3.0,0,2.7,5.0,1.0,10.0,6.0,10.5,0.0,0.0
+2025-04-19,17:00,Ligue 1,2024-2025,Le Havre,Paris S-G,Away,Matchweek 30,0.5,1.0,2.0,9,1,18.6,0.0,0,3.0,2.0,1.0,18.0,11.0,14.2,0.0,0.0
+2025-04-26,19:00,Ligue 1,2024-2025,Le Havre,Monaco,Home,Matchweek 31,0.5,1.0,1.0,9,3,21.5,0.0,0,2.9,1.0,1.0,20.0,7.0,13.7,0.0,0.0
+2025-05-04,17:15,Ligue 1,2024-2025,Le Havre,Auxerre,Away,Matchweek 32,1.5,2.0,1.0,11,5,13.7,0.0,0,0.2,1.0,2.0,4.0,1.0,15.2,0.0,0.0
+2025-05-10,21:00,Ligue 1,2024-2025,Le Havre,Marseille,Home,Matchweek 33,0.9,1.0,3.0,10,3,14.3,2.0,0,2.5,3.0,1.0,22.0,5.0,16.8,1.0,0.0
+2025-05-17,21:00,Ligue 1,2024-2025,Le Havre,Strasbourg,Away,Matchweek 34,2.5,3.0,2.0,8,3,25.0,0.0,2,1.6,2.0,3.0,6.0,4.0,14.1,0.0,0.0
+2024-08-17,19:00,Ligue 1,2024-2025,Reims,Lille,Home,Matchweek 1,0.1,0,2,2,0,26.6,0,0,2.1,2,0,22.0,6.0,15.8,1.0,0.0
+2024-08-25,20:45,Ligue 1,2024-2025,Reims,Marseille,Away,Matchweek 2,0.9,2,2,13,3,18.0,0,0,3.0,2,2,21.0,10.0,15.7,0.0,0.0
+2024-09-01,17:00,Ligue 1,2024-2025,Reims,Rennes,Home,Matchweek 3,1.4,2,1,11,7,15.8,0,0,0.8,1,2,13.0,5.0,15.9,0.0,0.0
+2024-09-15,17:00,Ligue 1,2024-2025,Reims,Nantes,Away,Matchweek 4,0.5,2,1,11,4,19.6,0,0,1.5,1,2,18.0,6.0,18.4,0.0,0.0
+2024-09-21,21:00,Ligue 1,2024-2025,Reims,Paris S-G,Home,Matchweek 5,0.3,1,1,8,1,21.6,0,0,1.6,1,1,11.0,4.0,14.6,0.0,0.0
+2024-09-29,17:00,Ligue 1,2024-2025,Reims,Angers,Away,Matchweek 6,2.9,3,1,21,10,17.2,1,0,1.1,1,3,14.0,3.0,17.8,1.0,0.0
+2024-10-06,17:00,Ligue 1,2024-2025,Reims,Montpellier,Home,Matchweek 7,3.0,4,2,17,4,15.8,1,1,0.5,2,4,10.0,3.0,23.2,0.0,0.0
+2024-10-20,17:00,Ligue 1,2024-2025,Reims,Auxerre,Away,Matchweek 8,1.1,1,2,15,3,16.6,1,0,2.8,2,1,9.0,7.0,15.5,0.0,0.0
+2024-10-26,19:00,Ligue 1,2024-2025,Reims,Brest,Home,Matchweek 9,0.7,1,2,11,3,15.8,0,0,1.5,2,1,12.0,3.0,21.1,1.0,1.0
+2024-11-03,15:00,Ligue 1,2024-2025,Reims,Toulouse,Away,Matchweek 10,1.1,0,1,13,2,24.1,0,0,0.9,1,0,13.0,5.0,15.9,0.0,0.0
+2024-11-10,17:00,Ligue 1,2024-2025,Reims,Le Havre,Away,Matchweek 11,2.6,3,0,18,7,15.8,0,0,1.4,0,3,10.0,3.0,14.4,1.0,0.0
+2024-11-23,21:00,Ligue 1,2024-2025,Reims,Lyon,Home,Matchweek 12,1.0,1,1,14,6,17.8,0,0,1.7,1,1,13.0,7.0,14.4,0.0,0.0
+2024-11-29,20:45,Ligue 1,2024-2025,Reims,Lens,Home,Matchweek 13,0.8,0,2,16,3,21.9,1,0,1.8,2,0,11.0,6.0,20.3,0.0,0.0
+2024-12-08,17:00,Ligue 1,2024-2025,Reims,Strasbourg,Away,Matchweek 14,1.1,0,0,10,3,17.9,0,0,0.8,0,0,7.0,2.0,19.2,1.0,0.0
+2024-12-14,21:00,Ligue 1,2024-2025,Reims,Monaco,Home,Matchweek 15,1.5,0,0,8,0,13.5,0,0,1.3,0,0,14.0,3.0,17.7,0.0,0.0
+2024-12-22,14:45,Coupe de France,2024-2025,Reims,AS Mutzig,Away,Round of 64,,3,1,18,11,,,0,,1,3,3.0,3.0,,,0.0
+2025-01-04,17:00,Ligue 1,2024-2025,Reims,Saint-Étienne,Away,Matchweek 16,1.1,1,3,11,1,18.1,0,0,2.2,3,1,14.0,4.0,13.3,0.0,0.0
+2025-01-11,19:00,Ligue 1,2024-2025,Reims,Nice,Home,Matchweek 17,0.8,2,4,12,3,18.9,0,0,2.5,4,2,14.0,8.0,15.1,0.0,1.0
+2025-01-14,20:45,Coupe de France,2024-2025,Reims,Monaco,Home,Round of 32,,1 (3),1 (1),10,3,,,0,,1 (1),1 (3),14.0,4.0,,,0.0
+2025-01-19,17:15,Ligue 1,2024-2025,Reims,Le Havre,Home,Matchweek 18,0.8,1,1,11,3,17.6,0,0,0.8,1,1,7.0,2.0,14.0,0.0,0.0
+2025-01-25,21:05,Ligue 1,2024-2025,Reims,Paris S-G,Away,Matchweek 19,0.9,1,1,6,3,16.4,0,0,1.2,1,1,18.0,7.0,17.0,0.0,0.0
+2025-02-02,17:15,Ligue 1,2024-2025,Reims,Nantes,Home,Matchweek 20,1.0,1,2,13,2,13.0,0,0,2.0,2,1,11.0,6.0,12.0,0.0,0.0
+2025-02-06,21:00,Coupe de France,2024-2025,Reims,Bourgoin-Jal.,Away,Round of 16,,0 (3),0 (2),14,4,,,0,,0 (2),0 (3),2.0,1.0,,,0.0
+2025-02-09,15:00,Ligue 1,2024-2025,Reims,Lyon,Away,Matchweek 21,0.4,0,4,9,2,20.3,1,0,3.3,4,0,15.0,9.0,15.4,0.0,0.0
+2025-02-16,17:15,Ligue 1,2024-2025,Reims,Angers,Home,Matchweek 22,1.7,0,1,15,4,21.0,0,0,1.5,1,0,10.0,2.0,15.0,1.0,0.0
+2025-02-21,20:45,Ligue 1,2024-2025,Reims,Rennes,Away,Matchweek 23,0.1,0,1,3,0,14.5,0,0,2.3,1,0,25.0,4.0,18.8,0.0,1.0
+2025-02-25,21:00,Coupe de France,2024-2025,Reims,Angers,Away,Quarter-finals,,1 (5),1 (3),10,3,,,0,,1 (3),1 (5),17.0,4.0,,,0.0
+2025-02-28,20:45,Ligue 1,2024-2025,Reims,Monaco,Away,Matchweek 24,0.6,0,3,9,5,18.0,0,0,3.8,3,0,23.0,9.0,13.6,0.0,0.0
+2025-03-09,17:15,Ligue 1,2024-2025,Reims,Auxerre,Home,Matchweek 25,1.4,0,2,17,4,16.8,1,0,2.1,2,0,13.0,9.0,14.3,0.0,0.0
+2025-03-16,17:15,Ligue 1,2024-2025,Reims,Brest,Away,Matchweek 26,1.3,0,0,12,2,14.8,0,0,0.3,0,0,11.0,0.0,22.6,1.0,0.0
+2025-03-29,17:00,Ligue 1,2024-2025,Reims,Marseille,Home,Matchweek 27,1.0,3,1,7,5,16.6,0,0,1.1,1,3,20.0,6.0,18.5,0.0,0.0
+2025-04-02,21:00,Coupe de France,2024-2025,Reims,Cannes,Away,Semi-finals,,2,1,10,5,,,0,,1,2,17.0,4.0,,,0.0
+2025-04-06,17:15,Ligue 1,2024-2025,Reims,Strasbourg,Home,Matchweek 28,1.3,0,1,14,6,16.1,1,0,2.5,1,0,13.0,4.0,12.0,0.0,0.0
+2025-04-11,20:45,Ligue 1,2024-2025,Reims,Lens,Away,Matchweek 29,1.4,2,0,10,2,16.9,0,0,2.9,0,2,37.0,14.0,17.8,0.0,0.0
+2025-04-20,17:15,Ligue 1,2024-2025,Reims,Toulouse,Home,Matchweek 30,0.7,1,0,8,2,14.4,0,0,1.3,0,1,18.0,5.0,15.9,1.0,0.0
+2025-04-27,17:15,Ligue 1,2024-2025,Reims,Montpellier,Away,Matchweek 31,0.7,0,0,8,3,18.2,1,0,0.6,0,0,12.0,2.0,19.9,1.0,0.0
+2025-05-02,20:45,Ligue 1,2024-2025,Reims,Nice,Away,Matchweek 32,1.3,0,1,16,3,18.8,0,0,1.5,1,0,8.0,2.0,17.9,0.0,0.0
+2025-05-10,21:00,Ligue 1,2024-2025,Reims,Saint-Étienne,Home,Matchweek 33,1.9,0,2,19,3,15.3,0,0,0.7,2,0,9.0,4.0,20.3,0.0,0.0
+2025-05-17,21:00,Ligue 1,2024-2025,Reims,Lille,Away,Matchweek 34,0.1,1,2,5,2,21.0,0,0,2.0,2,1,20.0,4.0,16.8,0.0,1.0
+2025-05-21,20:00,Rel/Pro play-offs,2024-2025,Reims,Metz,Away,French 1/2 Relegation/Promotion play-offs,,1,1,10,1,,,0,,1,1,12.0,3.0,,,0.0
+2025-05-24,21:00,Coupe de France,2024-2025,Reims,Paris S-G,Neutral,Final,,0,3,4,1,,,0,,3,0,20.0,8.0,,,0.0
+2025-05-29,20:30,Rel/Pro play-offs,2024-2025,Reims,Metz,Home,French 1/2 Relegation/Promotion play-offs,,1,3,18,3,,,0,,3,1,8.0,4.0,,,0.0
+2024-08-17,21:00,Ligue 1,2024-2025,Saint Etienne,Monaco,Away,Matchweek 1,0.4,0.0,1.0,11,4,19.8,0.0,0,2.0,1.0,0.0,17.0,6.0,16.1,0.0,0.0
+2024-08-24,21:00,Ligue 1,2024-2025,Saint Etienne,Le Havre,Home,Matchweek 2,1.1,0.0,2.0,19,5,17.5,1.0,0,2.4,2.0,0.0,13.0,4.0,20.4,0.0,1.0
+2024-08-31,17:00,Ligue 1,2024-2025,Saint Etienne,Brest,Away,Matchweek 3,0.2,0.0,4.0,6,0,23.3,0.0,0,3.1,4.0,0.0,20.0,6.0,15.9,1.0,2.0
+2024-09-13,20:45,Ligue 1,2024-2025,Saint Etienne,Lille,Home,Matchweek 4,1.2,1.0,0.0,10,5,18.9,1.0,0,1.2,0.0,1.0,17.0,4.0,15.8,0.0,0.0
+2024-09-20,20:45,Ligue 1,2024-2025,Saint Etienne,Nice,Away,Matchweek 5,0.3,0.0,8.0,8,2,20.4,0.0,0,4.7,8.0,0.0,17.0,11.0,15.3,0.0,1.0
+2024-09-29,17:00,Ligue 1,2024-2025,Saint Etienne,Nantes,Away,Matchweek 6,1.0,2.0,2.0,4,2,18.9,0.0,1,1.8,2.0,2.0,16.0,3.0,13.4,0.0,0.0
+2024-10-05,17:00,Ligue 1,2024-2025,Saint Etienne,Auxerre,Home,Matchweek 7,2.7,3.0,1.0,13,5,15.2,0.0,0,0.8,1.0,3.0,11.0,1.0,16.5,0.0,0.0
+2024-10-19,19:00,Ligue 1,2024-2025,Saint Etienne,Lens,Home,Matchweek 8,0.8,0.0,2.0,15,1,20.3,1.0,0,1.2,2.0,0.0,13.0,5.0,20.5,1.0,0.0
+2024-10-26,17:00,Ligue 1,2024-2025,Saint Etienne,Angers,Away,Matchweek 9,1.5,2.0,4.0,18,6,24.6,1.0,1,2.9,4.0,2.0,12.0,7.0,15.5,1.0,1.0
+2024-11-02,21:00,Ligue 1,2024-2025,Saint Etienne,Strasbourg,Home,Matchweek 10,2.8,2.0,0.0,13,3,16.3,0.0,0,0.5,0.0,2.0,9.0,3.0,14.4,0.0,0.0
+2024-11-10,20:45,Ligue 1,2024-2025,Saint Etienne,Lyon,Away,Matchweek 11,0.6,0.0,1.0,10,6,20.1,1.0,0,1.1,1.0,0.0,17.0,7.0,16.7,1.0,0.0
+2024-11-23,19:00,Ligue 1,2024-2025,Saint Etienne,Montpellier,Home,Matchweek 12,1.5,1.0,0.0,11,4,17.0,0.0,0,0.9,0.0,1.0,11.0,3.0,20.4,2.0,0.0
+2024-11-30,17:00,Ligue 1,2024-2025,Saint Etienne,Rennes,Away,Matchweek 13,0.1,0.0,5.0,2,0,16.2,0.0,0,3.2,5.0,0.0,16.0,7.0,18.1,0.0,2.0
+2024-12-08,20:45,Ligue 1,2024-2025,Saint Etienne,Marseille,Home,Matchweek 14,0.1,0.0,2.0,3,2,26.3,0.0,0,2.5,2.0,0.0,20.0,9.0,16.9,1.0,0.0
+2024-12-13,20:45,Ligue 1,2024-2025,Saint Etienne,Toulouse,Away,Matchweek 15,0.5,1.0,2.0,3,2,24.3,0.0,0,1.4,2.0,1.0,11.0,4.0,11.4,0.0,0.0
+2024-12-22,14:45,Coupe de France,2024-2025,Saint Etienne,Marseille,Home,Round of 64,,0.0,4.0,4,2,,,0,,4.0,0.0,21.0,8.0,,,0.0
+2025-01-04,17:00,Ligue 1,2024-2025,Saint Etienne,Reims,Home,Matchweek 16,2.2,3.0,1.0,14,4,13.3,0.0,0,1.1,1.0,3.0,11.0,1.0,18.1,0.0,0.0
+2025-01-12,20:45,Ligue 1,2024-2025,Saint Etienne,Paris S-G,Away,Matchweek 17,0.4,1.0,2.0,8,3,20.8,1.0,0,4.1,2.0,1.0,24.0,8.0,15.4,0.0,1.0
+2025-01-19,15:00,Ligue 1,2024-2025,Saint Etienne,Nantes,Home,Matchweek 18,0.8,1.0,1.0,12,2,16.5,0.0,0,1.3,1.0,1.0,8.0,4.0,14.0,0.0,0.0
+2025-01-24,20:45,Ligue 1,2024-2025,Saint Etienne,Auxerre,Away,Matchweek 19,1.2,1.0,1.0,8,3,18.0,1.0,0,0.8,1.0,1.0,11.0,5.0,15.9,0.0,0.0
+2025-02-01,21:05,Ligue 1,2024-2025,Saint Etienne,Lille,Away,Matchweek 20,2.0,1.0,4.0,8,1,17.1,0.0,1,3.4,4.0,1.0,28.0,12.0,17.1,1.0,1.0
+2025-02-08,21:05,Ligue 1,2024-2025,Saint Etienne,Rennes,Home,Matchweek 21,0.5,0.0,2.0,9,3,17.8,0.0,0,3.6,2.0,0.0,21.0,8.0,15.0,0.0,0.0
+2025-02-15,17:00,Ligue 1,2024-2025,Saint Etienne,Marseille,Away,Matchweek 22,1.0,1.0,5.0,7,2,17.5,0.0,0,6.1,5.0,1.0,27.0,12.0,11.8,0.0,1.0
+2025-02-22,19:00,Ligue 1,2024-2025,Saint Etienne,Angers,Home,Matchweek 23,1.5,3.0,3.0,19,8,17.6,0.0,0,2.9,3.0,3.0,11.0,2.0,17.5,0.0,2.0
+2025-03-01,17:00,Ligue 1,2024-2025,Saint Etienne,Nice,Home,Matchweek 24,0.9,1.0,3.0,12,3,16.2,0.0,0,1.8,3.0,1.0,16.0,9.0,14.5,0.0,0.0
+2025-03-09,17:15,Ligue 1,2024-2025,Saint Etienne,Le Havre,Away,Matchweek 25,1.5,1.0,1.0,12,2,16.4,0.0,0,2.0,1.0,1.0,12.0,5.0,18.1,2.0,0.0
+2025-03-16,17:15,Ligue 1,2024-2025,Saint Etienne,Montpellier,Away,Matchweek 26,,2.0,0.0,11,6,,,0,,0.0,2.0,13.0,3.0,,,0.0
+2025-03-29,19:00,Ligue 1,2024-2025,Saint Etienne,Paris S-G,Home,Matchweek 27,1.1,1.0,6.0,11,2,22.2,0.0,0,3.3,6.0,1.0,21.0,9.0,20.0,0.0,1.0
+2025-04-06,15:00,Ligue 1,2024-2025,Saint Etienne,Lens,Away,Matchweek 28,1.4,0.0,1.0,7,2,16.2,0.0,0,2.1,1.0,0.0,20.0,5.0,14.5,1.0,0.0
+2025-04-13,15:00,Ligue 1,2024-2025,Saint Etienne,Brest,Home,Matchweek 29,0.7,3.0,3.0,9,4,16.0,0.0,0,1.5,3.0,3.0,13.0,5.0,15.0,0.0,0.0
+2025-04-20,20:45,Ligue 1,2024-2025,Saint Etienne,Lyon,Home,Matchweek 30,1.6,2.0,1.0,18,6,22.7,1.0,0,0.8,1.0,2.0,14.0,2.0,18.4,0.0,0.0
+2025-04-26,17:00,Ligue 1,2024-2025,Saint Etienne,Strasbourg,Away,Matchweek 31,2.1,1.0,3.0,17,6,18.5,0.0,0,2.7,3.0,1.0,18.0,7.0,15.9,0.0,0.0
+2025-05-03,21:05,Ligue 1,2024-2025,Saint Etienne,Monaco,Home,Matchweek 32,0.6,1.0,3.0,11,1,17.8,0.0,0,2.0,3.0,1.0,12.0,6.0,17.1,1.0,0.0
+2025-05-10,21:00,Ligue 1,2024-2025,Saint Etienne,Reims,Away,Matchweek 33,0.7,2.0,0.0,9,4,20.3,0.0,0,1.9,0.0,2.0,19.0,3.0,15.3,0.0,0.0
+2025-05-17,21:00,Ligue 1,2024-2025,Saint Etienne,Toulouse,Home,Matchweek 34,1.3,2.0,3.0,18,6,18.1,0.0,0,3.2,3.0,2.0,17.0,8.0,13.2,0.0,0.0
+2024-08-18,17:00,Ligue 1,2024-2025,Montpellier,Strasbourg,Home,Matchweek 1,1.3,1.0,1.0,7,4,17.9,0.0,1,0.9,1.0,1.0,11.0,4.0,14.7,0.0,0.0
+2024-08-23,20:45,Ligue 1,2024-2025,Montpellier,Paris S-G,Away,Matchweek 2,0.6,0.0,6.0,8,3,15.9,1.0,0,3.8,6.0,0.0,27.0,11.0,17.0,4.0,0.0
+2024-08-31,19:00,Ligue 1,2024-2025,Montpellier,Nantes,Home,Matchweek 3,0.9,1.0,3.0,10,4,22.6,2.0,0,1.5,3.0,1.0,8.0,3.0,18.8,0.0,1.0
+2024-09-15,15:00,Ligue 1,2024-2025,Montpellier,Rennes,Away,Matchweek 4,0.3,0.0,3.0,12,4,23.5,0.0,0,1.3,3.0,0.0,11.0,6.0,16.6,0.0,0.0
+2024-09-22,17:00,Ligue 1,2024-2025,Montpellier,Auxerre,Home,Matchweek 5,2.0,3.0,2.0,14,4,14.4,0.0,0,1.2,2.0,3.0,11.0,5.0,13.5,0.0,0.0
+2024-09-28,21:00,Ligue 1,2024-2025,Montpellier,Monaco,Away,Matchweek 6,0.9,1.0,2.0,9,3,20.4,1.0,0,3.2,2.0,1.0,21.0,6.0,12.3,0.0,0.0
+2024-10-06,17:00,Ligue 1,2024-2025,Montpellier,Reims,Away,Matchweek 7,0.5,2.0,4.0,10,3,23.2,0.0,0,3.0,4.0,2.0,17.0,4.0,15.8,1.0,1.0
+2024-10-20,20:45,Ligue 1,2024-2025,Montpellier,Marseille,Home,Matchweek 8,1.3,0.0,5.0,13,5,18.9,1.0,0,3.2,5.0,0.0,21.0,10.0,14.3,0.0,0.0
+2024-10-27,17:00,Ligue 1,2024-2025,Montpellier,Toulouse,Home,Matchweek 9,0.2,0.0,3.0,9,2,27.3,2.0,0,1.9,3.0,0.0,15.0,6.0,18.1,0.0,0.0
+2024-11-03,17:00,Ligue 1,2024-2025,Montpellier,Le Havre,Away,Matchweek 10,1.0,0.0,1.0,15,1,18.0,0.0,0,2.2,1.0,0.0,11.0,3.0,20.9,0.0,1.0
+2024-11-10,17:00,Ligue 1,2024-2025,Montpellier,Brest,Home,Matchweek 11,2.5,3.0,1.0,12,6,23.0,1.0,1,0.9,1.0,3.0,19.0,6.0,17.6,1.0,0.0
+2024-11-23,19:00,Ligue 1,2024-2025,Montpellier,Saint-Étienne,Away,Matchweek 12,0.9,0.0,1.0,11,3,20.4,2.0,0,1.5,1.0,0.0,11.0,4.0,17.0,0.0,0.0
+2024-12-01,15:00,Ligue 1,2024-2025,Montpellier,Lille,Home,Matchweek 13,1.4,2.0,2.0,11,5,17.0,0.0,0,2.2,2.0,2.0,11.0,2.0,20.7,0.0,2.0
+2024-12-08,15:00,Ligue 1,2024-2025,Montpellier,Lens,Away,Matchweek 14,1.0,0.0,2.0,7,3,13.0,0.0,0,1.3,2.0,0.0,17.0,3.0,18.5,0.0,0.0
+2024-12-15,15:00,Ligue 1,2024-2025,Montpellier,Nice,Home,Matchweek 15,2.0,2.0,2.0,21,8,16.3,0.0,0,1.4,2.0,2.0,18.0,6.0,17.7,1.0,0.0
+2024-12-21,18:00,Coupe de France,2024-2025,Montpellier,Le Puy Foot 43,Away,Round of 64,,0.0,4.0,15,3,,,0,,4.0,0.0,22.0,10.0,,,0.0
+2025-01-04,21:00,Ligue 1,2024-2025,Montpellier,Lyon,Away,Matchweek 16,1.2,0.0,1.0,16,6,19.7,1.0,0,1.4,1.0,0.0,12.0,1.0,15.4,0.0,0.0
+2025-01-12,17:15,Ligue 1,2024-2025,Montpellier,Angers,Home,Matchweek 17,1.2,1.0,3.0,7,2,22.1,0.0,1,3.8,3.0,1.0,21.0,8.0,18.3,0.0,0.0
+2025-01-17,19:00,Ligue 1,2024-2025,Montpellier,Monaco,Home,Matchweek 18,2.4,2.0,1.0,12,4,16.1,2.0,0,1.8,1.0,2.0,26.0,11.0,16.0,0.0,0.0
+2025-01-26,17:15,Ligue 1,2024-2025,Montpellier,Toulouse,Away,Matchweek 19,0.5,2.0,1.0,6,4,17.1,0.0,0,1.0,1.0,2.0,15.0,5.0,17.2,0.0,0.0
+2025-01-31,20:45,Ligue 1,2024-2025,Montpellier,Lens,Home,Matchweek 20,0.8,0.0,2.0,14,2,17.0,1.0,0,2.0,2.0,0.0,19.0,5.0,16.5,1.0,0.0
+2025-02-09,17:15,Ligue 1,2024-2025,Montpellier,Strasbourg,Away,Matchweek 21,1.8,0.0,2.0,11,2,18.3,1.0,0,2.7,2.0,0.0,22.0,5.0,15.6,1.0,0.0
+2025-02-16,15:00,Ligue 1,2024-2025,Montpellier,Lyon,Home,Matchweek 22,1.4,1.0,4.0,11,4,21.6,1.0,0,1.0,4.0,1.0,9.0,6.0,14.9,0.0,0.0
+2025-02-23,17:15,Ligue 1,2024-2025,Montpellier,Nice,Away,Matchweek 23,0.6,0.0,2.0,13,1,22.2,1.0,0,1.8,2.0,0.0,16.0,6.0,16.5,0.0,0.0
+2025-03-02,17:15,Ligue 1,2024-2025,Montpellier,Rennes,Home,Matchweek 24,1.6,0.0,4.0,16,5,19.7,0.0,0,2.4,4.0,0.0,14.0,7.0,15.4,0.0,0.0
+2025-03-08,19:00,Ligue 1,2024-2025,Montpellier,Lille,Away,Matchweek 25,0.3,0.0,1.0,10,3,25.3,1.0,0,1.5,1.0,0.0,18.0,7.0,18.3,1.0,0.0
+2025-03-16,17:15,Ligue 1,2024-2025,Montpellier,Saint-Étienne,Home,Matchweek 26,,0.0,2.0,13,3,,,0,,2.0,0.0,11.0,6.0,,,0.0
+2025-03-30,17:15,Ligue 1,2024-2025,Montpellier,Auxerre,Away,Matchweek 27,0.5,0.0,1.0,12,1,24.1,0.0,0,2.1,1.0,0.0,21.0,6.0,18.4,1.0,0.0
+2025-04-06,17:15,Ligue 1,2024-2025,Montpellier,Le Havre,Home,Matchweek 28,1.0,0.0,2.0,14,6,15.4,0.0,0,1.4,2.0,0.0,13.0,4.0,20.7,2.0,0.0
+2025-04-13,17:15,Ligue 1,2024-2025,Montpellier,Angers,Away,Matchweek 29,0.5,0.0,2.0,5,2,16.6,0.0,0,1.4,2.0,0.0,10.0,4.0,11.4,0.0,0.0
+2025-04-19,21:05,Ligue 1,2024-2025,Montpellier,Marseille,Away,Matchweek 30,0.3,1.0,5.0,6,1,19.6,1.0,0,3.7,5.0,1.0,17.0,6.0,13.6,0.0,1.0
+2025-04-27,17:15,Ligue 1,2024-2025,Montpellier,Reims,Home,Matchweek 31,0.6,0.0,0.0,12,2,19.9,1.0,0,0.7,0.0,0.0,8.0,3.0,18.2,1.0,0.0
+2025-05-04,17:15,Ligue 1,2024-2025,Montpellier,Brest,Away,Matchweek 32,0.5,0.0,1.0,6,1,18.9,0.0,0,1.1,1.0,0.0,16.0,5.0,15.8,1.0,0.0
+2025-05-10,21:00,Ligue 1,2024-2025,Montpellier,Paris S-G,Home,Matchweek 33,0.6,1.0,4.0,9,4,20.0,0.0,0,1.7,4.0,1.0,9.0,7.0,19.4,0.0,1.0
+2025-05-17,21:00,Ligue 1,2024-2025,Montpellier,Nantes,Away,Matchweek 34,0.8,0.0,3.0,9,0,16.3,0.0,0,2.5,3.0,0.0,17.0,4.0,16.2,0.0,1.0
