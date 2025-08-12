@@ -1,18 +1,19 @@
 # ⚽ Football Match Outcome Prediction
 
-This project provides a machine learning-powered prediction system for football matches, including:
+This project provides a machine learning-powered prediction and simulation system for football matches, including:
 
-- Match outcome probabilities (home win, draw, away win)
-- Fair odds estimation
-- Match grouping and interactive display
-- Support for multiple leagues (e.g., Premier League)
+- Match outcome probabilities (home win, draw, away win) using Poisson regression
+- Season simulation for league tables and long-term forecasts
+- Fair odds estimation for multiple bet types (1X2, BTTS, Over/Under)
+- Match grouping, filtering, and interactive display
+- Support for multiple leagues (e.g., Premier League, La Liga, Serie A, Bundesliga, Ligue 1)
 
 It uses data collected from the web, feature engineering, and Poisson regression models trained on historical data.
 
 ## 🔗 Live App
 
 Try the deployed app here:  
-👉 [https://sindreulsaker-football-prediction-app.streamlit.app](https://sindreulsaker-football-prediction-app.streamlit.app)
+👉 [https://football-predictions.streamlit.app](https://football-predictions.streamlit.app)
 
 ---
 
@@ -30,6 +31,7 @@ football_prediction/
 ├── data/
 │   ├── raw/                    # Raw scraped data
 │   ├── processed/              # Processed and feature-engineered datasets
+|   |    └──simulations/        # Saved simulation for each league
 │   └── models/                 # Saved model and scaler files (.joblib)
 │
 ├── src/
@@ -41,16 +43,24 @@ football_prediction/
 │   ├── models/
 │   │   ├── train.py            # Model training
 │   │   ├── predict.py          # Model loading and prediction
-│   │   └── odds.py             # Calculate different odds using poisson models
+│   │   ├── odds.py             # Calculate different odds using poisson models
+│   │   └── simulate.py         # Simulate the rest of the games for a given league
 │   ├── scripts/
-│   │   └── update_all.py       # Pipeline runner: fetch → process → train
+│   │   ├── update_all.py       # Pipeline runner: fetch → process → train
+│   │   ├── fetch_prev_season   # Used in update_all_annual to fetch previous season
+│   │   ├── daily_merge.py      # Merge previous season data with current season data
+│   │   └── simulate_all.py     # Simulate the rest of the games for all leagues
 │   ├── ui_components/
 │   │   └── display.py          # Display logic for prediction results
 │   └── ui_pages/
 │       ├── main.py             # Streamlit main page and navigation
 │       ├── predictions.py      # Predictions view
 │       ├── oddschecker.py      # Odds comparison tool
+│       ├── simulator.py        # Show simulated outcomes for all leagues
 │       └── model_info.py       # Info and disclaimers about the model
+│
+├── test/                       # Test files for all core files
+
 ```
 
 ---
@@ -58,11 +68,10 @@ football_prediction/
 ## 🚀 Features
 
 - 📊 **Poisson-based match prediction** (expected goals → outcome probabilities)
-- 🔁 **Supports multiple leagues**
-- 🧠 **Custom feature engineering**
-- 🧼 **Automated fetch-process-train pipeline**
-- 🖥 **Streamlit-based UI** with expandable daily match view
-- 🔀 **Toggle between probabilities and fair odds**
+- 🎯 **Match simulation** for season-long projections
+- 🔁 **Automated daily fetch–process–train pipeline**
+- 🖥 **Streamlit-based UI** with league filters and date-based match view
+- 🎲 **Odds tools** for 1X2, BTTS, and Over/Under fair odds calculation
 
 ---
 

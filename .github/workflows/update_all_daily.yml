@@ -30,10 +30,14 @@ jobs:
         run: |
           python -m src.scripts.update_all
 
+      - name: Run league simulations (precompute)
+        run: |
+          python -m src.scripts.simulate_all --n-sims 5000
+
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add data/raw data/processed/ data/models/
+          git add data/raw data/processed/ data/models/ data/processed/simulations/
           git commit -m "Daily update: run update_all.py" || echo "No changes to commit"
           git push

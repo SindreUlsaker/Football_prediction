@@ -279,6 +279,88 @@ def fetch_team_data(team_url, season="2024-2025"):  # fmt: skip
     return df
 
 
+# --- NY: Hent promoted-lag og Pts/MP fra nivå 2-tabellen for en gitt (prev) sesong ---
+def fetch_second_division_promoted(
+    league_cfg: dict, season: str
+) -> dict[tuple[str, str], float]:
+    """
+    Returnerer {(season, team_mapped): pts_per_match} for lag merket 'Promoted' i nivå 2-tabellen.
+    - league_cfg må inneholde 'comp_id_second_division' og 'slug_second_division' og ev. 'team_name_map'.
+    - season er forrige sesong-strengen, f.eks. '2023-2024'.
+    """
+    comp2 = league_cfg.get("comp_id_second_division")
+    slug2 = league_cfg.get("slug_second_division")
+    if not comp2 or not slug2:
+        return {}
+
+    url = f"https://fbref.com/en/comps/{comp2}/{season}/{season}-{slug2}"
+    resp = fetch_data(url)
+    if not resp:
+        return {}
+
+    soup = BeautifulSoup(resp.text, "lxml")
+
+    # Finn tabell med id som inneholder "results"
+    target_table = None
+    for tbl in soup.find_all("table"):
+        tbl_id = tbl.get("id", "")
+        if "results" in tbl_id.lower():
+            target_table = tbl
+            break
+    if target_table is None:
+        return {}
+
+    df = pd.read_html(StringIO(str(target_table)))[0]
+
+    # Normaliser kolonnenavn
+    df.columns = [str(c).strip() for c in df.columns]
+    cols = df.columns
+
+    # Finn promoted-rader
+    notes_col = None
+    for c in cols:
+        if str(c).lower().startswith("notes"):
+            notes_col = c
+            break
+    if notes_col is None:
+        return {}
+
+    promoted = df[
+        df[notes_col].astype(str).str.contains("Promoted", case=False, na=False)
+    ].copy()
+    if promoted.empty:
+        return {}
+
+    # Finn lagnavn- og pts/mp-kolonner (fall back til Pts og MP)
+    squad_col = None
+    for c in cols:
+        if str(c).lower() in ("squad", "team"):
+            squad_col = c
+            break
+    if squad_col is None:
+        return {}
+
+    if "Pts/MP" in cols:
+        promoted["pts_mp"] = pd.to_numeric(promoted["Pts/MP"], errors="coerce")
+    else:
+        try:
+            promoted["pts_mp"] = pd.to_numeric(
+                promoted["Pts"], errors="coerce"
+            ) / pd.to_numeric(promoted["MP"], errors="coerce")
+        except Exception:
+            return {}
+
+    team_map = league_cfg.get("team_name_map") or {}
+    out = {}
+    for _, r in promoted.iterrows():
+        raw_name = str(r[squad_col]).strip()
+        mapped = team_map.get(raw_name, raw_name)
+        val = float(r["pts_mp"]) if pd.notna(r["pts_mp"]) else None
+        if val is not None and val > 0:
+            out[(season, mapped)] = val
+    return out
+
+
 def fetch_league_data(league_name, cfg, seasons_to_fetch=None):
     comp_id = cfg["comp_id"]
     slug = cfg["slug"]

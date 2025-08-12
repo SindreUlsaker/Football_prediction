@@ -1,42 +1,5 @@
 import pandas as pd
 
-
-def _compute_relegated_averages(
-    df: pd.DataFrame, agg_prev: pd.DataFrame, spots: int = 2
-) -> dict[str, dict[str, float]]:
-    """
-    Returnerer for hver sesong strengen 'YYYY-YYYY' et dict med
-    gj.snitt mål-for og mål-imot for de nederste `spots` lagene.
-    """
-    # a) Poeng per kamp
-    home = df[["season", "home_team", "result_home"]].rename(
-        columns={"home_team": "team", "result_home": "res"}
-    )
-    home["points"] = home["res"].map({1: 3, 0: 1, -1: 0})
-
-    away = df[["season", "away_team", "result_home"]].rename(
-        columns={"away_team": "team", "result_home": "res"}
-    )
-    # For bortelag, invert resultat
-    away["points"] = away["res"].map({1: 0, 0: 1, -1: 3})
-
-    pts = pd.concat(
-        [home[["season", "team", "points"]], away[["season", "team", "points"]]]
-    )
-    standings = pts.groupby(["season", "team"]).sum().reset_index()
-
-    # b) Beregn gj.snitt GOALS fra agg_prev
-    relegated_stats = {}
-    for season, grp in standings.groupby("season"):
-        bottom = grp.nsmallest(spots, "points")["team"].tolist()
-        sub = agg_prev[(agg_prev["season"] == season) & (agg_prev["team"].isin(bottom))]
-        relegated_stats[season] = {
-            "for": sub["avg_goals_for_prev"].mean().round(2),
-            "against": sub["avg_goals_against_prev"].mean().round(2),
-        }
-    return relegated_stats
-
-
 def calculate_team_form_features(
     df: pd.DataFrame, stats: list[str], windows: list[int]
 ) -> pd.DataFrame:
@@ -140,7 +103,7 @@ import pandas as pd
 
 
 def _compute_relegated_averages(
-    df: pd.DataFrame, agg_prev: pd.DataFrame, spots: int = 3
+    df: pd.DataFrame, agg_prev: pd.DataFrame, spots: int = 5
 ) -> Dict[str, Dict[str, float]]:
     """
     Returnerer for hver sesong strengen 'YYYY-YYYY' et dict med
@@ -178,7 +141,12 @@ def _compute_relegated_averages(
     return relegated_stats
 
 
-def calculate_static_features(df: pd.DataFrame, agg_window: int) -> pd.DataFrame:
+def calculate_static_features(
+    df: pd.DataFrame,
+    agg_window: int,
+    promoted_strengths: dict[tuple[str, str], float] | None = None,
+    team_name_map: dict[str, str] | None = None,
+) -> pd.DataFrame:
     """
     Beregner statiske features per kamp:
       - Fjorårsmål (hjemme/borte), med fyll for promoberte lag
@@ -191,6 +159,8 @@ def calculate_static_features(df: pd.DataFrame, agg_window: int) -> pd.DataFrame
     som rykket ned i forrige sesong, _dersom_ statistikk for den sesongen finnes.
     """
     df = df.copy()
+    promoted_strengths = promoted_strengths or {}
+    team_name_map = team_name_map or {}
 
     # 1) Standard fjorårsgjennomsnitt per lag
     prev = df.copy()
@@ -224,7 +194,7 @@ def calculate_static_features(df: pd.DataFrame, agg_window: int) -> pd.DataFrame
     )
 
     # 2) Beregn gj.snitt for nedrykkslag per sesong
-    relegated_stats = _compute_relegated_averages(df, agg_prev, spots=3)
+    relegated_stats = _compute_relegated_averages(df, agg_prev, spots=5)
 
     # 3) Hjelpekolonne: prev_season (forrige sesong-streng)
     df["prev_season"] = (
@@ -266,24 +236,69 @@ def calculate_static_features(df: pd.DataFrame, agg_window: int) -> pd.DataFrame
         .drop(columns=["season_y"])
     )
 
-    # 5) Fyll på for nyopprykkede _kun_ om prev_season finnes i relegated_stats
-    valid_prev = df["prev_season"].isin(relegated_stats)
+    def _normalize_ptsmp_centered(
+        pts_mp: float,
+        center: float = 2.05,  # nøytralpunkt flyttet opp
+        dead: float = 0.02,  # død-sone rundt nøytralpunkt: ingen effekt
+        k_up: float = 0.05,  # svak boost over nøytral
+        k_down: float = 0.09,  # sterkere straff under nøytral
+        lo: float = 0.73,  # stram klyp
+        hi: float = 1.27,
+    ) -> float:
+        """
+        Sentrert, mild normalisering rundt 2.0 pts/mp (nøytral = 1.0).
+        - lineær: ratio = 1 + k * (pts_mp - center)
+        - klypes til [lo, hi] for å unngå store utslag
+        """
+        try:
+            x = float(pts_mp)
+        except (TypeError, ValueError):
+            return 1.0
 
-    mask_home = df["avg_goals_for_prev_home"].isna() & valid_prev
-    df.loc[mask_home, "avg_goals_for_prev_home"] = df.loc[mask_home, "prev_season"].map(
-        lambda s: relegated_stats[s]["for"]
-    )
-    df.loc[mask_home, "avg_goals_against_prev_home"] = df.loc[
-        mask_home, "prev_season"
-    ].map(lambda s: relegated_stats[s]["against"])
+        delta = x - center
+        if abs(delta) <= dead:
+            ratio = 1.0
+        elif delta > 0:
+            ratio = 1.0 + k_up * (delta - dead)
+        else:
+            ratio = 1.0 - k_down * (abs(delta) - dead)
 
-    mask_away = df["avg_goals_for_prev_away"].isna() & valid_prev
-    df.loc[mask_away, "avg_goals_for_prev_away"] = df.loc[mask_away, "prev_season"].map(
-        lambda s: relegated_stats[s]["for"]
+        return max(lo, min(hi, ratio))
+
+    # 5) Fyll for nyopprykkede med skalering etter Pts/MP
+    def _scaled_baseline(prev_season: str, team: str, kind: str) -> float | None:
+        """kind: 'for' eller 'against'."""
+        base = relegated_stats.get(prev_season)
+        if not base:
+            return None
+        pts_mp = promoted_strengths.get((prev_season, team))
+        if pts_mp is None:
+            # fallback: ujustert bottom-3 baseline
+            return base[kind]
+
+        ratio = _normalize_ptsmp_centered(pts_mp, center=2.0, k=0.08, lo=0.90, hi=1.10)
+        if kind == "for":
+            return round(base["for"] * ratio, 2)
+        else:
+            return round(base["against"] / ratio, 2)
+
+    # Home
+    mask_h = df["avg_goals_for_prev_home"].isna()
+    df.loc[mask_h, "avg_goals_for_prev_home"] = df.loc[mask_h].apply(
+        lambda r: _scaled_baseline(r["prev_season"], r["home_team"], "for"), axis=1
     )
-    df.loc[mask_away, "avg_goals_against_prev_away"] = df.loc[
-        mask_away, "prev_season"
-    ].map(lambda s: relegated_stats[s]["against"])
+    df.loc[mask_h, "avg_goals_against_prev_home"] = df.loc[mask_h].apply(
+        lambda r: _scaled_baseline(r["prev_season"], r["home_team"], "against"), axis=1
+    )
+
+    # Away
+    mask_a = df["avg_goals_for_prev_away"].isna()
+    df.loc[mask_a, "avg_goals_for_prev_away"] = df.loc[mask_a].apply(
+        lambda r: _scaled_baseline(r["prev_season"], r["away_team"], "for"), axis=1
+    )
+    df.loc[mask_a, "avg_goals_against_prev_away"] = df.loc[mask_a].apply(
+        lambda r: _scaled_baseline(r["prev_season"], r["away_team"], "against"), axis=1
+    )
 
     # 6) Fjern hjelpekolonnen
     df = df.drop(columns=["prev_season"])
@@ -401,7 +416,11 @@ def calculate_static_features(df: pd.DataFrame, agg_window: int) -> pd.DataFrame
 
 
 def add_all_features(
-    df: pd.DataFrame, stat_windows: dict[str, list[int]], agg_window: int
+    df: pd.DataFrame,
+    stat_windows: dict[str, list[int]],
+    agg_window: int,
+    promoted_strengths: dict[tuple[str, str], float] | None = None,
+    team_name_map: dict[str, str] | None = None,
 ) -> pd.DataFrame:
     """
     Wrapper that runs all feature calculations:
@@ -425,6 +444,11 @@ def add_all_features(
     df = calculate_conceded_form_features(df, windows)
 
     # 3) Static season aggregates (inkl. goals‐for / goals‐against, vektet mot fjorår)
-    df = calculate_static_features(df, agg_window=agg_window)
+    df = calculate_static_features(
+        df,
+        agg_window=agg_window,
+        promoted_strengths=promoted_strengths,
+        team_name_map=team_name_map,
+    )
 
     return df

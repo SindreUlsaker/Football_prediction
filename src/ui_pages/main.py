@@ -8,6 +8,7 @@ from src.ui_pages.oddschecker import (
     load_upcoming_matches as load_odds,
 )
 from src.ui_pages.model_info import show_model_info_page
+from src.ui_pages.simulator import show_simulator_page_cached
 import base64
 
 
@@ -35,13 +36,12 @@ def main():
     )
 
     # --- VIS FANENE (disse må stå utenfor kolonner) ---
-    tab_preds, tab_odds, tab_info = st.tabs(
-        ["Prediksjoner (kommende uke)", "Odds Checker", "Modellinfo"]
+    tab_preds, tab_odds, tab_sim, tab_info = st.tabs(
+        ["Prediksjoner (kommende uke)", "Odds Checker", "Liga-simulator", "Modellinfo"]
     )
 
     # --- LINJE UNDER FANENE OVER HELE BREDDE ---
     st.markdown("<hr style='margin-top: -1px;'>", unsafe_allow_html=True)
-
 
     # --- PREDIKSJONER TAB ---
     with tab_preds:
@@ -117,6 +117,10 @@ def main():
                 )
             else:
                 st.info("Velg liga og kamp i venstre panel for å se odds.")
+
+    # --- LIGA-SIMULATOR TAB ---
+    with tab_sim:
+        show_simulator_page_cached()
 
     with tab_info:
         show_model_info_page()

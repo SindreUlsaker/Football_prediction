@@ -2,6 +2,7 @@ import os
 import pandas as pd
 from src.features.features import add_all_features
 from config.leagues import LEAGUES
+from src.data.fetch import fetch_second_division_promoted
 
 
 def preprocess_data(df_all: pd.DataFrame, league_name: str) -> pd.DataFrame:
@@ -100,6 +101,27 @@ def ensure_numeric(df: pd.DataFrame, cols: list[str]) -> pd.DataFrame:
     return df
 
 
+def _build_promoted_strengths(
+    league_name: str, seasons: list[str]
+) -> dict[tuple[str, str], float]:
+    """
+    Henter Pts/MP for promoted-lag fra nivå 2 for hver prev_season i 'seasons'.
+    Returnerer {(prev_season, team_mapped): pts_mp}.
+    """
+    strengths = {}
+    cfg = LEAGUES.get(league_name, {})
+    for s in seasons:
+        # s er en sesong i data; vi trenger prev_s for s
+        try:
+            y1, y2 = map(int, s.split("-"))
+            prev_s = f"{y1-1}-{y2-1}"
+        except Exception:
+            continue
+        d = fetch_second_division_promoted(cfg, prev_s)
+        strengths.update(d)
+    return strengths
+
+
 def process_matches(
     df_all: pd.DataFrame, stat_windows: dict[str, list[int]], league_name: str
 ) -> pd.DataFrame:
@@ -116,14 +138,26 @@ def process_matches(
     numeric_cols = ["gf_home", "ga_home", "gf_away", "ga_away", "result_home"]
     df = ensure_numeric(df, numeric_cols)
 
-    # 3) Feature-engineering
-    AGG_WINDOW = 10 # Number of matches to aggregate for static features
-    df = add_all_features(df, stat_windows, agg_window=AGG_WINDOW)
+    # 3) Hent promoted-strengths fra nivå 2 for relevante sesonger
+    seasons = sorted(df["season"].dropna().astype(str).unique().tolist())
+    promoted_strengths = _build_promoted_strengths(league_name, seasons)
 
-    # 4) Lagre ferdig prosessert DataFrame til CSV
+    # 4) Feature-engineering
+    AGG_WINDOW = 10 # Number of matches to aggregate for static features
+    cfg = LEAGUES.get(league_name, {})
+    team_name_map = cfg.get("team_name_map") or {}
+    df = add_all_features(
+        df,
+        stat_windows,
+        agg_window=AGG_WINDOW,
+        promoted_strengths=promoted_strengths,
+        team_name_map=team_name_map,
+    )
+
+    # 5) Lagre ferdig prosessert DataFrame til CSV
     filename = os.path.join("data", "processed", league_name.lower().replace(" ", "_") + "_processed.csv")
     os.makedirs(os.path.dirname(filename), exist_ok=True)
     df.to_csv(filename, index=False)
     print(f"Lagret prosessert data til {filename}")
-    
+
     return df
