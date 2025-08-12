@@ -276,7 +276,7 @@ def calculate_static_features(
             # fallback: ujustert bottom-3 baseline
             return base[kind]
 
-        ratio = _normalize_ptsmp_centered(pts_mp, center=2.0, k=0.08, lo=0.90, hi=1.10)
+        ratio = _normalize_ptsmp_centered(pts_mp, center=2.05, dead=0.02, k_up=0.05, k_down=0.09, lo=0.73, hi=1.27)
         if kind == "for":
             return round(base["for"] * ratio, 2)
         else:
