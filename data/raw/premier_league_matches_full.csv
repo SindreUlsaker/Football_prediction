@@ -34,7 +34,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2025-01-21,20:00,Champions Lg,2024-2025,Liverpool,fr Lille,Home,League phase,2.5,2,1,13,7,15.8,0,0,0.5,1,2,4.0,1.0,16.6,0.0,0.0
 2025-01-25,15:00,Premier League,2024-2025,Liverpool,Ipswich Town,Home,Matchweek 23,2.0,4,1,16,6,17.8,0,0,0.5,1,4,3.0,3.0,13.8,0.0,0.0
 2025-01-29,21:00 (20:00),Champions Lg,2024-2025,Liverpool,nl PSV Eindhoven,Away,League phase,1.6,2,3,8,4,19.0,0,1,1.3,3,2,12.0,4.0,17.6,1.0,0.0
-Date,Time,Comp,2024-2025,Liverpool,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+,Time,Comp,2024-2025,Liverpool,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
 2025-02-01,15:00,Premier League,2024-2025,Liverpool,Bournemouth,Away,Matchweek 24,2.5,2,0,18,6,18.5,0,1,1.6,0,2,14.0,3.0,17.4,0.0,0.0
 2025-02-06,20:00,EFL Cup,2024-2025,Liverpool,Tottenham,Home,Semi-finals,,4,0,26,10,,,1,,0,4,5.0,0.0,,,0.0
 2025-02-09,15:00,FA Cup,2024-2025,Liverpool,Plymouth Argyle,Away,Fourth round proper,,0,1,14,4,,,0,,1,0,10.0,2.0,,,1.0
@@ -91,7 +91,7 @@ Date,Time,Comp,2024-2025,Liverpool,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,
 2025-01-18,17:30,Premier League,2024-2025,Arsenal,Aston Villa,Home,Matchweek 22,1.3,2,2,18,6,15.5,0,0,1.0,2,2,8.0,4.0,16.9,0.0,0.0
 2025-01-22,20:00,Champions Lg,2024-2025,Arsenal,hr Dinamo Zagreb,Home,League phase,2.4,3,0,17,4,11.4,0,0,0.1,0,3,5.0,0.0,22.4,0.0,0.0
 2025-01-25,15:00,Premier League,2024-2025,Arsenal,Wolves,Away,Matchweek 23,1.0,1,0,9,3,14.8,1,0,0.7,0,1,9.0,4.0,22.0,0.0,0.0
-Date,Time,Comp,2024-2025,Arsenal,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+,Time,Comp,2024-2025,Arsenal,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
 2025-01-29,21:00 (20:00),Champions Lg,2024-2025,Arsenal,es Girona,Away,League phase,2.1,2,1,14,4,19.3,0,1,0.7,1,2,7.0,3.0,19.2,0.0,0.0
 2025-02-02,16:30,Premier League,2024-2025,Arsenal,Manchester City,Home,Matchweek 24,1.0,5,1,12,7,15.8,0,0,0.8,1,5,7.0,4.0,12.6,0.0,0.0
 2025-02-05,20:00,EFL Cup,2024-2025,Arsenal,Newcastle Utd,Away,Semi-finals,,0,2,11,3,,,0,,2,0,10.0,3.0,,,0.0
@@ -150,7 +150,7 @@ Date,Time,Comp,2024-2025,Arsenal,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK
 2025-01-22,21:00 (20:00),Champions Lg,2024-2025,Manchester City,fr Paris S-G,Away,League phase,1.7,2,4,9,6,10.8,0,0,2.8,4,2,26.0,8.0,15.4,0.0,0.0
 2025-01-25,17:30,Premier League,2024-2025,Manchester City,Chelsea,Home,Matchweek 23,2.2,3,1,15,6,17.1,1,0,1.8,1,3,10.0,4.0,16.5,0.0,0.0
 2025-01-29,20:00,Champions Lg,2024-2025,Manchester City,be Club Brugge,Home,League phase,2.0,3,1,17,5,19.4,0,0,1.1,1,3,12.0,5.0,22.7,0.0,0.0
-Date,Time,Comp,2024-2025,Manchester City,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+,Time,Comp,2024-2025,Manchester City,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
 2025-02-02,16:30,Premier League,2024-2025,Manchester City,Arsenal,Away,Matchweek 24,0.8,1,5,7,4,12.6,0,0,1.0,5,1,12.0,7.0,15.8,0.0,0.0
 2025-02-08,12:15,FA Cup,2024-2025,Manchester City,Leyton Orient,Away,Fourth round proper,,2,1,24,10,,,0,,1,2,13.0,3.0,,,0.0
 2025-02-11,20:00,Champions Lg,2024-2025,Manchester City,es Real Madrid,Home,Knockout phase play-offs,1.5,2,3,10,3,15.1,0,1,3.2,3,2,20.0,7.0,15.5,1.0,0.0
@@ -208,7 +208,7 @@ Date,Time,Comp,2024-2025,Manchester City,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Di
 2025-01-20,20:00,Premier League,2024-2025,Chelsea,Wolves,Home,Matchweek 22,3.1,3,1,19,6,14.0,0,0,0.8,1.0,3.0,9.0,4.0,16.7,0.0,0.0
 2025-01-25,17:30,Premier League,2024-2025,Chelsea,Manchester City,Away,Matchweek 23,1.8,1,3,10,4,16.5,0,0,2.2,3.0,1.0,15.0,6.0,17.1,1.0,0.0
 2025-02-03,20:00,Premier League,2024-2025,Chelsea,West Ham,Home,Matchweek 24,1.6,2,1,22,3,17.0,1,0,1.2,1.0,2.0,14.0,5.0,20.4,1.0,0.0
-Date,Time,Comp,2024-2025,Chelsea,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+,Time,Comp,2024-2025,Chelsea,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
 2025-02-08,20:00,FA Cup,2024-2025,Chelsea,Brighton,Away,Fourth round proper,,1,2,7,1,,,0,,2.0,1.0,6.0,3.0,,,0.0
 2025-02-14,20:00,Premier League,2024-2025,Chelsea,Brighton,Away,Matchweek 25,0.5,0,3,8,0,16.9,0,0,1.4,3.0,0.0,13.0,5.0,16.2,0.0,0.0
 2025-02-22,17:30,Premier League,2024-2025,Chelsea,Aston Villa,Away,Matchweek 26,2.3,1,2,15,6,16.3,0,0,2.3,2.0,1.0,12.0,6.0,13.2,0.0,0.0
@@ -266,7 +266,7 @@ Date,Time,Comp,2024-2025,Chelsea,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK
 2025-02-15,15:00,Premier League,2024-2025,Newcastle United,Manchester City,Away,Matchweek 25,0.5,0,4,3,1,10.7,0,0,1.9,4,0,11.0,7.0,15.2,0.0,0.0
 2025-02-23,14:00,Premier League,2024-2025,Newcastle United,Nott'ham Forest,Home,Matchweek 26,2.9,4,3,12,4,11.6,0,1,1.7,3,4,17.0,5.0,17.0,0.0,0.0
 2025-02-26,20:15,Premier League,2024-2025,Newcastle United,Liverpool,Away,Matchweek 27,0.2,0,2,3,0,19.3,1,0,1.7,2,0,12.0,3.0,16.2,0.0,0.0
-Date,Time,Comp,2024-2025,Newcastle United,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+,Time,Comp,2024-2025,Newcastle United,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
 2025-03-02,13:45,FA Cup,2024-2025,Newcastle United,Brighton,Home,Fifth round proper,,1,2,15,5,,,1,,2,1,21.0,5.0,,,0.0
 2025-03-10,20:00,Premier League,2024-2025,Newcastle United,West Ham,Away,Matchweek 28,1.4,1,0,9,3,13.3,0,0,0.7,0,1,9.0,2.0,20.9,0.0,0.0
 2025-03-16,16:30,EFL Cup,2024-2025,Newcastle United,Liverpool,Neutral,Final,,2,1,17,6,,,0,,1,2,7.0,2.0,,,0.0
@@ -315,7 +315,7 @@ Date,Time,Comp,2024-2025,Newcastle United,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,D
 2025-01-26,16:30,Premier League,2024-2025,Aston Villa,West Ham,Home,Matchweek 23,0.9,1,1,14,4,18.0,1,0,1.3,1.0,1.0,14.0,3.0,14.6,0.0,0.0
 2025-01-29,20:00,Champions Lg,2024-2025,Aston Villa,sct Celtic,Home,League phase,3.9,4,2,19,7,14.4,0,0,0.8,2.0,4.0,6.0,4.0,14.6,0.0,0.0
 2025-02-01,17:30,Premier League,2024-2025,Aston Villa,Wolves,Away,Matchweek 24,0.4,0,2,10,3,20.9,0,0,1.6,2.0,0.0,8.0,5.0,17.2,1.0,0.0
-Date,Time,Comp,2024-2025,Aston Villa,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+,Time,Comp,2024-2025,Aston Villa,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
 2025-02-09,17:35,FA Cup,2024-2025,Aston Villa,Tottenham,Home,Fourth round proper,,2,1,16,7,,,0,,1.0,2.0,11.0,5.0,,,0.0
 2025-02-15,15:00,Premier League,2024-2025,Aston Villa,Ipswich Town,Home,Matchweek 25,2.4,1,1,25,6,18.6,2,0,0.4,1.0,1.0,4.0,3.0,19.6,1.0,0.0
 2025-02-19,19:30,Premier League,2024-2025,Aston Villa,Liverpool,Home,Matchweek 29,0.6,2,2,9,3,18.0,0,0,2.5,2.0,2.0,17.0,3.0,14.2,0.0,0.0
@@ -373,7 +373,7 @@ Date,Time,Comp,2024-2025,Aston Villa,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,F
 2025-03-15,15:00,Premier League,2024-2025,Nottingham Forest,Ipswich Town,Away,Matchweek 29,1.5,4,2,11,6,18.2,0,0,0.4,2,4,11.0,3.0,21.6,1.0,0.0
 2025-03-29,17:15,FA Cup,2024-2025,Nottingham Forest,Brighton,Away,Quarter-finals,,0 (4),0 (3),13,5,,,0,,0 (3),0 (4),13.0,2.0,,,0.0
 2025-04-01,20:00 (19:00),Premier League,2024-2025,Nottingham Forest,Manchester Utd,Home,Matchweek 30,0.5,1,0,8,2,17.9,0,0,1.6,0,1,23.0,5.0,15.2,0.0,0.0
-Date,Time,Comp,2024-2025,Nottingham Forest,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+,Time,Comp,2024-2025,Nottingham Forest,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
 2025-04-05,17:30 (16:30),Premier League,2024-2025,Nottingham Forest,Aston Villa,Away,Matchweek 31,1.5,1,2,19,3,19.0,0,0,3.0,2,1,17.0,8.0,16.4,1.0,0.0
 2025-04-12,15:00 (14:00),Premier League,2024-2025,Nottingham Forest,Everton,Home,Matchweek 32,0.5,0,1,10,5,21.4,0,0,1.4,1,0,13.0,5.0,18.4,0.0,0.0
 2025-04-21,20:00 (19:00),Premier League,2024-2025,Nottingham Forest,Tottenham,Away,Matchweek 33,0.5,2,1,4,3,21.4,0,0,2.1,1,2,22.0,5.0,15.6,0.0,0.0
@@ -418,7 +418,7 @@ Date,Time,Comp,2024-2025,Nottingham Forest,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,
 2025-03-02,13:45,FA Cup,2024-2025,Brighton and Hove Albion,Newcastle Utd,Away,Fifth round proper,,2,1,21,5,,,0,,1,2,15.0,5.0,,,1.0
 2025-03-08,15:00,Premier League,2024-2025,Brighton and Hove Albion,Fulham,Home,Matchweek 28,1.5,2,1,8,3,16.2,0,1,0.9,1,2,6.0,1.0,12.5,0.0,0.0
 2025-03-15,15:00,Premier League,2024-2025,Brighton and Hove Albion,Manchester City,Away,Matchweek 29,2.0,2,2,15,3,14.4,1,0,1.7,2,2,10.0,2.0,16.1,0.0,1.0
-Date,Time,Comp,2024-2025,Brighton and Hove Albion,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+,Time,Comp,2024-2025,Brighton and Hove Albion,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
 2025-03-29,17:15,FA Cup,2024-2025,Brighton and Hove Albion,Nott'ham Forest,Home,Quarter-finals,,0 (3),0 (4),13,2,,,0,,0 (4),0 (3),13.0,5.0,,,0.0
 2025-04-02,19:45 (18:45),Premier League,2024-2025,Brighton and Hove Albion,Aston Villa,Home,Matchweek 30,0.9,0,3,11,4,17.0,1,0,1.2,3,0,8.0,5.0,14.1,0.0,0.0
 2025-04-05,15:00 (14:00),Premier League,2024-2025,Brighton and Hove Albion,Crystal Palace,Away,Matchweek 31,1.0,1,2,11,5,16.7,0,0,0.6,2,1,8.0,3.0,18.5,1.0,0.0
@@ -464,7 +464,7 @@ Date,Time,Comp,2024-2025,Brighton and Hove Albion,Opponent,Venue,Round,xG,GF,GA,
 2025-03-15,17:30,Premier League,2024-2025,Bournemouth,Brentford,Home,Matchweek 29,1.6,1,2,17,5,16.6,0,0,0.8,2,1,10.0,4.0,14.3,1.0,0.0
 2025-03-30,16:30 (15:30),FA Cup,2024-2025,Bournemouth,Manchester City,Home,Quarter-finals,,1,2,5,2,,,0,,2,1,17.0,7.0,,,0.0
 2025-04-02,19:45 (18:45),Premier League,2024-2025,Bournemouth,Ipswich Town,Home,Matchweek 30,1.8,1,2,24,6,19.3,0,0,1.2,2,1,10.0,2.0,16.8,0.0,0.0
-Date,Time,Comp,2024-2025,Bournemouth,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+,Time,Comp,2024-2025,Bournemouth,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
 2025-04-05,15:00 (14:00),Premier League,2024-2025,Bournemouth,West Ham,Away,Matchweek 31,2.1,2,2,11,4,14.1,0,0,0.7,2,2,9.0,3.0,16.4,1.0,0.0
 2025-04-14,20:00 (19:00),Premier League,2024-2025,Bournemouth,Fulham,Home,Matchweek 32,1.4,1,0,12,3,15.6,0,0,1.0,0,1,12.0,7.0,17.8,0.0,0.0
 2025-04-19,15:00 (14:00),Premier League,2024-2025,Bournemouth,Crystal Palace,Away,Matchweek 33,0.7,0,0,15,4,18.6,0,0,0.4,0,0,5.0,0.0,17.7,1.0,0.0
@@ -508,7 +508,7 @@ Date,Time,Comp,2024-2025,Bournemouth,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,F
 2025-03-08,17:30,Premier League,2024-2025,Brentford,Aston Villa,Home,Matchweek 28,0.8,0,1,13,3,17.0,0,0,1.3,1,0,12.0,4.0,16.9,1.0,0.0
 2025-03-15,17:30,Premier League,2024-2025,Brentford,Bournemouth,Away,Matchweek 29,0.8,2,1,10,4,14.3,1,0,1.6,1,2,17.0,5.0,16.6,0.0,0.0
 2025-04-02,19:45 (18:45),Premier League,2024-2025,Brentford,Newcastle Utd,Away,Matchweek 30,1.5,1,2,11,2,17.7,0,1,1.3,2,1,21.0,4.0,17.5,0.0,0.0
-Date,Time,Comp,2024-2025,Brentford,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+,Time,Comp,2024-2025,Brentford,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
 2025-04-06,14:00 (13:00),Premier League,2024-2025,Brentford,Chelsea,Home,Matchweek 31,1.1,0,0,9,2,14.2,1,0,1.2,0,0,21.0,5.0,19.0,0.0,0.0
 2025-04-12,17:30 (16:30),Premier League,2024-2025,Brentford,Arsenal,Away,Matchweek 32,0.2,1,1,3,2,11.5,0,0,1.0,1,1,14.0,3.0,18.3,0.0,0.0
 2025-04-19,15:00 (14:00),Premier League,2024-2025,Brentford,Brighton,Home,Matchweek 33,2.1,4,2,16,8,12.3,0,0,1.4,2,4,12.0,3.0,15.5,2.0,0.0
@@ -552,7 +552,7 @@ Date,Time,Comp,2024-2025,Brentford,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,
 2025-03-08,15:00,Premier League,2024-2025,Fulham,Brighton,Away,Matchweek 28,0.9,1,2,6,1,12.5,0,0,1.5,2,1,8.0,3.0,16.2,0.0,1.0
 2025-03-16,13:30,Premier League,2024-2025,Fulham,Tottenham,Home,Matchweek 29,1.0,2,0,13,4,17.7,0,0,0.9,0,2,12.0,4.0,14.5,0.0,0.0
 2025-03-29,12:15,FA Cup,2024-2025,Fulham,Crystal Palace,Home,Quarter-finals,,0,3,16,3,,,0,,3,0,8.0,6.0,,,0.0
-Date,Time,Comp,2024-2025,Fulham,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+,Time,Comp,2024-2025,Fulham,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
 2025-04-01,19:45 (18:45),Premier League,2024-2025,Fulham,Arsenal,Away,Matchweek 30,1.0,1,2,9,3,14.9,0,0,2.2,2,1,17.0,4.0,12.0,0.0,0.0
 2025-04-06,14:00 (13:00),Premier League,2024-2025,Fulham,Liverpool,Home,Matchweek 31,0.7,3,2,12,6,17.0,0,0,1.5,2,3,14.0,6.0,16.4,0.0,0.0
 2025-04-14,20:00 (19:00),Premier League,2024-2025,Fulham,Bournemouth,Away,Matchweek 32,1.0,0,1,12,7,17.8,0,0,1.4,1,0,12.0,3.0,15.6,0.0,0.0
@@ -597,7 +597,7 @@ Date,Time,Comp,2024-2025,Fulham,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,
 2025-02-25,19:30,Premier League,2024-2025,Crystal Palace,Aston Villa,Home,Matchweek 27,4.3,4,1,19,6,14.6,1,0,0.4,1.0,4.0,6.0,2.0,10.0,0.0,0.0
 2025-03-01,12:15,FA Cup,2024-2025,Crystal Palace,Millwall,Home,Fifth round proper,,3,1,17,6,,,0,,1.0,3.0,6.0,2.0,,,0.0
 2025-03-08,15:00,Premier League,2024-2025,Crystal Palace,Ipswich Town,Home,Matchweek 28,3.2,1,0,19,4,14.6,1,0,1.5,0.0,1.0,15.0,7.0,15.8,0.0,0.0
-Date,Time,Comp,2024-2025,Crystal Palace,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+,Time,Comp,2024-2025,Crystal Palace,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
 2025-03-29,12:15,FA Cup,2024-2025,Crystal Palace,Fulham,Away,Quarter-finals,,3,0,8,6,,,0,,0.0,3.0,16.0,3.0,,,0.0
 2025-04-02,19:45 (18:45),Premier League,2024-2025,Crystal Palace,Southampton,Away,Matchweek 30,0.7,1,1,9,3,17.8,1,0,0.7,1.0,1.0,8.0,2.0,13.6,0.0,0.0
 2025-04-05,15:00 (14:00),Premier League,2024-2025,Crystal Palace,Brighton,Home,Matchweek 31,0.6,2,1,8,3,18.5,1,0,1.0,1.0,2.0,11.0,5.0,16.7,0.0,0.0
@@ -646,7 +646,6 @@ Date,Time,Comp,2024-2025,Crystal Palace,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dis
 2025-03-15,15:00,Premier League,2024-2025,Everton,West Ham,Home,Matchweek 29,1.0,1,1,13,5,12.3,0,0,0.8,1,1,10.0,5.0,13.6,0.0,0.0
 2025-04-02,20:00 (19:00),Premier League,2024-2025,Everton,Liverpool,Away,Matchweek 30,0.9,0,1,5,0,19.1,0,0,1.5,1,0,17.0,3.0,17.2,1.0,0.0
 2025-04-05,12:30 (11:30),Premier League,2024-2025,Everton,Arsenal,Home,Matchweek 31,1.1,1,1,4,1,21.7,0,1,1.8,1,1,14.0,4.0,13.3,2.0,0.0
-Date,Time,Comp,2024-2025,Everton,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
 2025-04-12,15:00 (14:00),Premier League,2024-2025,Everton,Nott'ham Forest,Away,Matchweek 32,1.4,1,0,13,5,18.4,0,0,0.5,0,1,10.0,5.0,21.4,0.0,0.0
 2025-04-19,15:00 (14:00),Premier League,2024-2025,Everton,Manchester City,Home,Matchweek 33,0.9,0,2,8,2,13.7,0,0,2.0,2,0,12.0,6.0,15.6,0.0,0.0
 2025-04-26,12:30 (11:30),Premier League,2024-2025,Everton,Chelsea,Away,Matchweek 34,0.4,0,1,6,3,16.9,0,0,0.8,1,0,10.0,7.0,18.3,0.0,0.0
@@ -689,7 +688,6 @@ Date,Time,Comp,2024-2025,Everton,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK
 2025-04-01,19:45 (18:45),Premier League,2024-2025,West Ham United,Wolves,Away,Matchweek 30,1.3,0,1,10,1,15.4,2,0,1.2,1.0,0.0,9.0,2.0,21.5,1.0,0.0
 2025-04-05,15:00 (14:00),Premier League,2024-2025,West Ham United,Bournemouth,Home,Matchweek 31,0.7,2,2,9,3,16.4,1,0,2.1,2.0,2.0,11.0,4.0,14.1,0.0,0.0
 2025-04-13,14:00 (13:00),Premier League,2024-2025,West Ham United,Liverpool,Away,Matchweek 32,1.4,1,2,11,4,13.5,0,0,1.8,2.0,1.0,15.0,6.0,15.5,1.0,0.0
-Date,Time,Comp,2024-2025,West Ham United,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
 2025-04-19,15:00 (14:00),Premier League,2024-2025,West Ham United,Southampton,Home,Matchweek 33,0.9,1,1,12,4,17.6,0,0,0.6,1.0,1.0,15.0,4.0,20.1,1.0,0.0
 2025-04-26,15:00 (14:00),Premier League,2024-2025,West Ham United,Brighton,Away,Matchweek 34,1.3,2,3,12,4,15.2,0,0,1.3,3.0,2.0,16.0,9.0,19.8,0.0,0.0
 2025-05-04,14:00 (13:00),Premier League,2024-2025,West Ham United,Tottenham,Home,Matchweek 35,0.8,1,1,11,2,18.3,1,0,0.8,1.0,1.0,7.0,2.0,18.8,1.0,0.0
@@ -731,7 +729,7 @@ Date,Time,Comp,2024-2025,West Ham United,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Di
 2025-01-19,14:00,Premier League,2024-2025,Manchester United,Brighton,Home,Matchweek 22,1.5,1,3,9,0,16.4,0,1,1.9,3,1,6.0,3.0,15.3,0.0,0.0
 2025-01-23,20:00,Europa Lg,2024-2025,Manchester United,sct Rangers,Home,League phase,2.7,2,1,16,6,14.7,0,0,1.2,1,2,11.0,7.0,20.1,0.0,0.0
 2025-01-26,19:00,Premier League,2024-2025,Manchester United,Fulham,Away,Matchweek 23,0.3,1,0,4,1,19.9,1,0,0.7,0,1,9.0,2.0,14.5,0.0,0.0
-Date,Time,Comp,2024-2025,Manchester United,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+,Time,Comp,2024-2025,Manchester United,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
 2025-01-30,22:00 (20:00),Europa Lg,2024-2025,Manchester United,ro FCSB,Away,League phase,2.9,2,0,21,7,14.4,2,0,0.6,0,2,8.0,3.0,21.2,0.0,0.0
 2025-02-02,14:00,Premier League,2024-2025,Manchester United,Crystal Palace,Home,Matchweek 24,1.1,0,2,17,2,15.3,0,0,2.6,2,0,11.0,3.0,14.4,0.0,0.0
 2025-02-07,20:00,FA Cup,2024-2025,Manchester United,Leicester City,Home,Fourth round proper,,2,1,13,4,,,0,,1,2,6.0,3.0,,,0.0
@@ -792,7 +790,7 @@ Date,Time,Comp,2024-2025,Manchester United,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,
 2025-03-08,20:00,Premier League,2024-2025,Wolverhampton Wanderers,Everton,Home,Matchweek 28,0.8,1,1,11,3,18.3,1,0,1.2,1,1,12.0,4.0,16.2,0.0,0.0
 2025-03-15,15:00,Premier League,2024-2025,Wolverhampton Wanderers,Southampton,Away,Matchweek 29,0.4,2,1,5,3,18.5,0,0,1.3,1,2,10.0,3.0,13.2,0.0,0.0
 2025-04-01,19:45 (18:45),Premier League,2024-2025,Wolverhampton Wanderers,West Ham,Home,Matchweek 30,1.2,1,0,9,2,21.5,1,0,1.3,0,1,10.0,1.0,15.4,2.0,0.0
-Date,Time,Comp,2024-2025,Wolverhampton Wanderers,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+,Time,Comp,2024-2025,Wolverhampton Wanderers,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
 2025-04-05,15:00 (14:00),Premier League,2024-2025,Wolverhampton Wanderers,Ipswich Town,Away,Matchweek 31,2.6,2,1,22,6,13.2,0,0,0.8,1,2,6.0,2.0,15.2,0.0,0.0
 2025-04-13,14:00 (13:00),Premier League,2024-2025,Wolverhampton Wanderers,Tottenham,Home,Matchweek 32,2.4,4,2,13,5,15.5,1,0,2.0,2,4,11.0,4.0,14.7,1.0,0.0
 2025-04-20,14:00 (13:00),Premier League,2024-2025,Wolverhampton Wanderers,Manchester Utd,Away,Matchweek 33,0.2,1,0,4,2,20.6,1,0,1.3,0,1,12.0,2.0,19.6,3.0,0.0
@@ -836,7 +834,7 @@ Date,Time,Comp,2024-2025,Wolverhampton Wanderers,Opponent,Venue,Round,xG,GF,GA,S
 2025-01-19,14:00,Premier League,2024-2025,Tottenham Hotspur,Everton,Away,Matchweek 22,1.1,2,3,11,5,16.4,0,0,1.8,3.0,2.0,12.0,6.0,14.2,0.0,0.0
 2025-01-23,18:45 (17:45),Europa Lg,2024-2025,Tottenham Hotspur,de Hoffenheim,Away,League phase,1.8,3,2,8,5,12.9,0,0,2.5,2.0,3.0,22.0,5.0,19.1,1.0,0.0
 2025-01-26,14:00,Premier League,2024-2025,Tottenham Hotspur,Leicester City,Home,Matchweek 23,1.0,1,2,15,6,18.3,1,0,1.6,2.0,1.0,12.0,3.0,19.4,0.0,0.0
-Date,Time,Comp,2024-2025,Tottenham Hotspur,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+,Time,Comp,2024-2025,Tottenham Hotspur,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
 2025-01-30,20:00,Europa Lg,2024-2025,Tottenham Hotspur,se Elfsborg,Home,League phase,1.5,3,0,21,10,17.1,1,0,0.4,0.0,3.0,4.0,0.0,19.9,0.0,0.0
 2025-02-02,14:00,Premier League,2024-2025,Tottenham Hotspur,Brentford,Away,Matchweek 24,0.8,2,0,13,2,18.8,0,0,2.1,0.0,2.0,20.0,3.0,15.6,1.0,0.0
 2025-02-06,20:00,EFL Cup,2024-2025,Tottenham Hotspur,Liverpool,Away,Semi-finals,,0,4,5,0,,,0,,4.0,0.0,26.0,10.0,,,1.0
@@ -897,7 +895,7 @@ Date,Time,Comp,2024-2025,Tottenham Hotspur,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,
 2025-03-09,14:00,Premier League,2024-2025,Leicester City,Chelsea,Away,Matchweek 28,0.1,0,1,3,3,21.3,0,0,1.7,1,0,19.0,6.0,20.0,0.0,0.0
 2025-03-16,19:00,Premier League,2024-2025,Leicester City,Manchester Utd,Home,Matchweek 29,1.0,0,3,11,3,18.3,0,0,0.9,3,0,18.0,5.0,21.3,0.0,0.0
 2025-04-02,19:45 (18:45),Premier League,2024-2025,Leicester City,Manchester City,Away,Matchweek 30,0.1,0,2,2,0,16.8,0,0,2.2,2,0,18.0,5.0,16.6,2.0,0.0
-Date,Time,Comp,2024-2025,Leicester City,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+,Time,Comp,2024-2025,Leicester City,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
 2025-04-07,20:00 (19:00),Premier League,2024-2025,Leicester City,Newcastle Utd,Home,Matchweek 31,0.5,0,3,7,2,14.1,0,0,3.2,3,0,16.0,5.0,18.7,1.0,0.0
 2025-04-12,15:00 (14:00),Premier League,2024-2025,Leicester City,Brighton,Away,Matchweek 32,1.5,2,2,15,6,13.7,0,0,3.8,2,2,19.0,5.0,15.8,1.0,2.0
 2025-04-20,16:30 (15:30),Premier League,2024-2025,Leicester City,Liverpool,Home,Matchweek 33,0.3,0,1,5,0,18.7,0,0,2.5,1,0,28.0,8.0,12.6,1.0,0.0
@@ -941,7 +939,6 @@ Date,Time,Comp,2024-2025,Leicester City,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dis
 2025-03-15,15:00,Premier League,2024-2025,Ipswich Town,Nott'ham Forest,Home,Matchweek 29,0.4,2,4,11,3,21.6,1,0,1.5,4,2,11.0,6.0,18.2,0.0,0.0
 2025-04-02,19:45 (18:45),Premier League,2024-2025,Ipswich Town,Bournemouth,Away,Matchweek 30,1.2,2,1,10,2,16.8,0,0,1.8,1,2,24.0,6.0,19.3,0.0,0.0
 2025-04-05,15:00 (14:00),Premier League,2024-2025,Ipswich Town,Wolves,Home,Matchweek 31,0.8,1,2,6,2,15.2,0,0,2.6,2,1,22.0,6.0,13.2,0.0,0.0
-Date,Time,Comp,2024-2025,Ipswich Town,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
 2025-04-13,14:00 (13:00),Premier League,2024-2025,Ipswich Town,Chelsea,Away,Matchweek 32,1.1,2,2,13,4,21.0,0,0,2.2,2,2,34.0,9.0,18.0,0.0,0.0
 2025-04-20,14:00 (13:00),Premier League,2024-2025,Ipswich Town,Arsenal,Home,Matchweek 33,0.2,0,4,4,0,19.7,0,0,2.4,4,0,24.0,7.0,15.2,1.0,0.0
 2025-04-26,15:00 (14:00),Premier League,2024-2025,Ipswich Town,Newcastle Utd,Away,Matchweek 34,0.1,0,3,4,0,19.3,0,0,2.4,3,0,24.0,3.0,17.3,0.0,1.0
@@ -984,7 +981,7 @@ Date,Time,Comp,2024-2025,Ipswich Town,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,
 2025-02-25,20:15,Premier League,2024-2025,Southampton,Chelsea,Away,Matchweek 27,0.7,0,4,7,2,17.0,0,0,2.4,4,0,19.0,10.0,15.6,1.0,0.0
 2025-03-08,15:00,Premier League,2024-2025,Southampton,Liverpool,Away,Matchweek 28,0.4,1,3,6,4,17.5,0,0,3.9,3,1,26.0,5.0,16.3,0.0,2.0
 2025-03-15,15:00,Premier League,2024-2025,Southampton,Wolves,Home,Matchweek 29,1.3,1,2,10,3,13.2,0,0,0.4,2,1,5.0,3.0,18.5,0.0,0.0
-Date,Time,Comp,2024-2025,Southampton,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
+,Time,Comp,2024-2025,Southampton,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,FK,PK,,,,,,,,
 2025-04-02,19:45 (18:45),Premier League,2024-2025,Southampton,Crystal Palace,Home,Matchweek 30,0.7,1,1,8,2,13.6,0,0,0.7,1,1,9.0,3.0,17.8,1.0,0.0
 2025-04-06,14:00 (13:00),Premier League,2024-2025,Southampton,Tottenham,Away,Matchweek 31,1.0,1,3,12,4,17.5,0,0,2.1,3,1,12.0,7.0,14.0,0.0,1.0
 2025-04-12,15:00 (14:00),Premier League,2024-2025,Southampton,Aston Villa,Home,Matchweek 32,0.3,0,3,7,2,17.7,0,0,3.0,3,0,23.0,8.0,21.1,1.0,0.0
@@ -1260,7 +1257,7 @@ Date,Time,Comp,2024-2025,Southampton,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,F
 2026-05-09,15:00 (14:00),Premier League,2025-2026,Chelsea,Liverpool,Away,Matchweek 36,,,,,,,,,,,,,,,,
 2026-05-17,15:00 (14:00),Premier League,2025-2026,Chelsea,Tottenham,Home,Matchweek 37,,,,,,,,,,,,,,,,
 2026-05-24,16:00 (15:00),Premier League,2025-2026,Chelsea,Sunderland,Away,Matchweek 38,,,,,,,,,,,,,,,,
-2025-08-10,15:00 (14:00),FA Community Shield,2025-2026,Crystal Palace,Liverpool,Home,FA Community Shield,,,,,,,,,,,,,,,,
+2025-08-10,15:00 (14:00),FA Community Shield,2025-2026,Crystal Palace,Liverpool,Home,FA Community Shield,,2 (3),2 (2),14.0,4.0,,,1.0,,2 (2),2 (3),12.0,5.0,,,0.0
 2025-08-17,14:00 (13:00),Premier League,2025-2026,Crystal Palace,Chelsea,Away,Matchweek 1,,,,,,,,,,,,,,,,
 2025-08-24,14:00 (13:00),Premier League,2025-2026,Crystal Palace,Nott'ham Forest,Home,Matchweek 2,,,,,,,,,,,,,,,,
 2025-08-29,20:00 (19:00),Premier League,2025-2026,Crystal Palace,Aston Villa,Away,Matchweek 3,,,,,,,,,,,,,,,,
@@ -1413,7 +1410,7 @@ Date,Time,Comp,2024-2025,Southampton,Opponent,Venue,Round,xG,GF,GA,Sh,SoT,Dist,F
 2026-05-09,15:00 (14:00),Premier League,2025-2026,Leeds United,Tottenham,Away,Matchweek 36,,,,,,,,,,,,,,,,
 2026-05-17,15:00 (14:00),Premier League,2025-2026,Leeds United,Brighton,Home,Matchweek 37,,,,,,,,,,,,,,,,
 2026-05-24,16:00 (15:00),Premier League,2025-2026,Leeds United,West Ham,Away,Matchweek 38,,,,,,,,,,,,,,,,
-2025-08-10,15:00 (14:00),FA Community Shield,2025-2026,Liverpool,Crystal Palace,Away,FA Community Shield,,,,,,,,,,,,,,,,
+2025-08-10,15:00 (14:00),FA Community Shield,2025-2026,Liverpool,Crystal Palace,Away,FA Community Shield,,2 (2),2 (3),12.0,5.0,,,0.0,,2 (3),2 (2),14.0,4.0,,,1.0
 2025-08-15,20:00 (19:00),Premier League,2025-2026,Liverpool,Bournemouth,Home,Matchweek 1,,,,,,,,,,,,,,,,
 2025-08-25,20:00 (19:00),Premier League,2025-2026,Liverpool,Newcastle Utd,Away,Matchweek 2,,,,,,,,,,,,,,,,
 2025-08-31,16:30 (15:30),Premier League,2025-2026,Liverpool,Arsenal,Home,Matchweek 3,,,,,,,,,,,,,,,,
