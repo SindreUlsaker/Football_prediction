@@ -1,5 +1,5 @@
 date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_for,dist_for,fk_for,pk_for,xg_against,gf_against,ga_against,sh_against,sot_against,dist_against,fk_against,pk_against
-2025-08-13,21:00 (19:00),Super Cup,2025-2026,Paris Saint Germain,eng Tottenham,Neutral,UEFA Super Cup,,,,,,,,,,,,,,,,
+2025-08-13,21:00 (19:00),Super Cup,2025-2026,Paris Saint Germain,eng Tottenham,Neutral,UEFA Super Cup,,2 (4),2 (3),12.0,3.0,,,0.0,,2 (3),2 (4),13.0,5.0,,,0.0
 2025-08-17,20:45 (18:45),Ligue 1,2025-2026,Paris Saint Germain,Nantes,Away,Matchweek 1,,,,,,,,,,,,,,,,
 2025-08-22,20:45 (18:45),Ligue 1,2025-2026,Paris Saint Germain,Angers,Home,Matchweek 2,,,,,,,,,,,,,,,,
 2025-08-30,21:05 (19:05),Ligue 1,2025-2026,Paris Saint Germain,Toulouse,Away,Matchweek 3,,,,,,,,,,,,,,,,
@@ -205,7 +205,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2026-05-09,,Ligue 1,2025-2026,Marseille,Le Havre,Away,Matchweek 33,,,,,,,,,,,,,,,,
 2026-05-16,,Ligue 1,2025-2026,Marseille,Rennes,Home,Matchweek 34,,,,,,,,,,,,,,,,
 2025-08-06,21:00 (19:00),Champions Lg,2025-2026,Nice,pt Benfica,Home,Third qualifying round,,0.0,2.0,,,,,0.0,,2.0,0.0,,,,,0.0
-2025-08-12,20:00 (19:00),Champions Lg,2025-2026,Nice,pt Benfica,Away,Third qualifying round,,,,,,,,,,,,,,,,
+2025-08-12,20:00 (19:00),Champions Lg,2025-2026,Nice,pt Benfica,Away,Third qualifying round,,0.0,2.0,,,,,0.0,,2.0,0.0,,,,,0.0
 2025-08-16,21:05 (19:05),Ligue 1,2025-2026,Nice,Toulouse,Home,Matchweek 1,,,,,,,,,,,,,,,,
 2025-08-23,19:00 (17:00),Ligue 1,2025-2026,Nice,Auxerre,Home,Matchweek 2,,,,,,,,,,,,,,,,
 2025-08-31,17:15 (15:15),Ligue 1,2025-2026,Nice,Le Havre,Away,Matchweek 3,,,,,,,,,,,,,,,,

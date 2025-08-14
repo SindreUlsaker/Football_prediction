@@ -741,7 +741,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2025-05-04,17:15,Ligue 1,2024-2025,Montpellier,Brest,Away,Matchweek 32,0.5,0.0,1.0,6,1,18.9,0.0,0,1.1,1.0,0.0,16.0,5.0,15.8,1.0,0.0
 2025-05-10,21:00,Ligue 1,2024-2025,Montpellier,Paris S-G,Home,Matchweek 33,0.6,1.0,4.0,9,4,20.0,0.0,0,1.7,4.0,1.0,9.0,7.0,19.4,0.0,1.0
 2025-05-17,21:00,Ligue 1,2024-2025,Montpellier,Nantes,Away,Matchweek 34,0.8,0.0,3.0,9,0,16.3,0.0,0,2.5,3.0,0.0,17.0,4.0,16.2,0.0,1.0
-2025-08-13,21:00 (19:00),Super Cup,2025-2026,Paris Saint Germain,eng Tottenham,Neutral,UEFA Super Cup,,,,,,,,,,,,,,,,
+2025-08-13,21:00 (19:00),Super Cup,2025-2026,Paris Saint Germain,eng Tottenham,Neutral,UEFA Super Cup,,2 (4),2 (3),12.0,3.0,,,0.0,,2 (3),2 (4),13.0,5.0,,,0.0
 2025-08-17,20:45 (18:45),Ligue 1,2025-2026,Paris Saint Germain,Nantes,Away,Matchweek 1,,,,,,,,,,,,,,,,
 2025-08-22,20:45 (18:45),Ligue 1,2025-2026,Paris Saint Germain,Angers,Home,Matchweek 2,,,,,,,,,,,,,,,,
 2025-08-30,21:05 (19:05),Ligue 1,2025-2026,Paris Saint Germain,Toulouse,Away,Matchweek 3,,,,,,,,,,,,,,,,
@@ -947,7 +947,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2026-05-09,,Ligue 1,2025-2026,Marseille,Le Havre,Away,Matchweek 33,,,,,,,,,,,,,,,,
 2026-05-16,,Ligue 1,2025-2026,Marseille,Rennes,Home,Matchweek 34,,,,,,,,,,,,,,,,
 2025-08-06,21:00 (19:00),Champions Lg,2025-2026,Nice,pt Benfica,Home,Third qualifying round,,0.0,2.0,,,,,0.0,,2.0,0.0,,,,,0.0
-2025-08-12,20:00 (19:00),Champions Lg,2025-2026,Nice,pt Benfica,Away,Third qualifying round,,,,,,,,,,,,,,,,
+2025-08-12,20:00 (19:00),Champions Lg,2025-2026,Nice,pt Benfica,Away,Third qualifying round,,0.0,2.0,,,,,0.0,,2.0,0.0,,,,,0.0
 2025-08-16,21:05 (19:05),Ligue 1,2025-2026,Nice,Toulouse,Home,Matchweek 1,,,,,,,,,,,,,,,,
 2025-08-23,19:00 (17:00),Ligue 1,2025-2026,Nice,Auxerre,Home,Matchweek 2,,,,,,,,,,,,,,,,
 2025-08-31,17:15 (15:15),Ligue 1,2025-2026,Nice,Le Havre,Away,Matchweek 3,,,,,,,,,,,,,,,,
