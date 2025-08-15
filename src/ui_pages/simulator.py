@@ -38,4 +38,13 @@ def show_simulator_page_cached():
     # Fjern meta-kolonner fra hovedtabellen
     drop_cols = ["League", "Season", "N_sims", "GeneratedAtUTC"]
     cols = [c for c in df.columns if c not in drop_cols]
+
+    # Sorter etter P(vinne) desc, P(topp 5) desc, P(nedrykk) asc
+    if all(c in df.columns for c in ["P(vinne)", "P(topp 5)", "P(nedrykk)"]):
+        df = df.sort_values(
+            by=["P(vinne)", "P(topp 5)", "P(nedrykk)"],
+            ascending=[False, False, True],
+            kind="mergesort",  # stabil sortering
+        )
+
     st.dataframe(df[cols], hide_index=True, use_container_width=True)

@@ -103,7 +103,7 @@ import pandas as pd
 
 
 def _compute_relegated_averages(
-    df: pd.DataFrame, agg_prev: pd.DataFrame, spots: int = 5
+    df: pd.DataFrame, agg_prev: pd.DataFrame, spots: int = 3
 ) -> Dict[str, Dict[str, float]]:
     """
     Returnerer for hver sesong strengen 'YYYY-YYYY' et dict med
@@ -194,7 +194,7 @@ def calculate_static_features(
     )
 
     # 2) Beregn gj.snitt for nedrykkslag per sesong
-    relegated_stats = _compute_relegated_averages(df, agg_prev, spots=5)
+    relegated_stats = _compute_relegated_averages(df, agg_prev, spots=3)
 
     # 3) Hjelpekolonne: prev_season (forrige sesong-streng)
     df["prev_season"] = (
@@ -238,7 +238,7 @@ def calculate_static_features(
 
     def _normalize_ptsmp_centered(
         pts_mp: float,
-        center: float = 2.05,  # nøytralpunkt flyttet opp
+        center: float = 2.25,  # nøytralpunkt flyttet opp
         dead: float = 0.02,  # død-sone rundt nøytralpunkt: ingen effekt
         k_up: float = 0.05,  # svak boost over nøytral
         k_down: float = 0.09,  # sterkere straff under nøytral
@@ -271,12 +271,21 @@ def calculate_static_features(
         base = relegated_stats.get(prev_season)
         if not base:
             return None
+
         pts_mp = promoted_strengths.get((prev_season, team))
         if pts_mp is None:
             # fallback: ujustert bottom-3 baseline
             return base[kind]
 
-        ratio = _normalize_ptsmp_centered(pts_mp, center=2.05, dead=0.02, k_up=0.05, k_down=0.09, lo=0.73, hi=1.27)
+        ratio = _normalize_ptsmp_centered(
+            pts_mp,
+            center=2.25,
+            dead=0.02,
+            k_up=0.05,
+            k_down=0.1,
+            lo=0.65,
+            hi=1.2,
+        )
         if kind == "for":
             return round(base["for"] * ratio, 2)
         else:
@@ -354,26 +363,34 @@ def calculate_static_features(
     )
 
     # 8) matches_played
-    home_hist = df[["date", "season", "home_team"]].rename(
-        columns={"home_team": "team"}
+    home_hist = df[["date", "season", "home_team", "gf_home"]].rename(
+        columns={"home_team": "team", "gf_home": "gf"}
     )
-    away_hist = df[["date", "season", "away_team"]].rename(
-        columns={"away_team": "team"}
+    away_hist = df[["date", "season", "away_team", "gf_away"]].rename(
+        columns={"away_team": "team", "gf_away": "gf"}
     )
+
     hist = pd.concat([home_hist, away_hist], ignore_index=True).sort_values(
         ["team", "season", "date"]
     )
-    hist["matches_played"] = hist.groupby(["team", "season"]).cumcount()
+
+    hist["played"] = hist["gf"].notna().astype(int)
+
+    hist["matches_played"] = (
+        hist.groupby(["team", "season"])["played"]
+        .transform(lambda s: s.cumsum().shift(1, fill_value=0))
+        .astype(int)
+    )
 
     df = df.merge(
-        hist.rename(
+        hist[["date", "season", "team", "matches_played"]].rename(
             columns={"team": "home_team", "matches_played": "matches_played_home"}
         ),
         on=["season", "home_team", "date"],
         how="left",
     )
     df = df.merge(
-        hist.rename(
+        hist[["date", "season", "team", "matches_played"]].rename(
             columns={"team": "away_team", "matches_played": "matches_played_away"}
         ),
         on=["season", "away_team", "date"],
