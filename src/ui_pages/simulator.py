@@ -12,6 +12,23 @@ def _sim_path(league: str) -> str:
 
 
 def show_simulator_page_cached():
+    import numpy as np
+
+    def _coerce_prob(series: pd.Series) -> pd.Series:
+        """
+        Konverterer '12.3', '12,3', '12.3%', '0.123' → float i [0,1].
+        Rører ikke andre kolonner.
+        """
+        s = series.astype(str).str.strip()
+        has_pct = s.str.contains("%").any()
+        s = s.str.replace("%", "", regex=False).str.replace(",", ".", regex=False)
+        vals = pd.to_numeric(s, errors="coerce")
+        if has_pct or (
+            vals.max(skipna=True) is not np.nan and vals.max(skipna=True) > 1.001
+        ):
+            vals = vals / 100.0
+        return vals
+
     st.subheader("Liga-simulator (forhåndsberegnet)")
 
     league = st.selectbox("Liga", list(LEAGUES.keys()), key="sim_league_cached")
@@ -39,12 +56,18 @@ def show_simulator_page_cached():
     drop_cols = ["League", "Season", "N_sims", "GeneratedAtUTC"]
     cols = [c for c in df.columns if c not in drop_cols]
 
-    # Sorter etter P(vinne) desc, P(topp 5) desc, P(nedrykk) asc
-    if all(c in df.columns for c in ["P(vinne)", "P(topp 5)", "P(nedrykk)"]):
+    # Tving sannsynlighetskolonnene til floats slik at sekundær/tertiærsortering fungerer
+    prob_cols = ["P(vinne)", "P(topp 5)", "P(nedrykk)"]
+    for c in prob_cols:
+        if c in df.columns:
+            df[c] = _coerce_prob(df[c])
+
+    # Sorter: primært P(vinne) (desc), deretter P(topp 5) (desc), så P(nedrykk) (asc)
+    if all(c in df.columns for c in prob_cols):
         df = df.sort_values(
             by=["P(vinne)", "P(topp 5)", "P(nedrykk)"],
             ascending=[False, False, True],
-            kind="mergesort",  # stabil sortering
+            kind="mergesort",  # stabil; ved fullt likhet beholdes input-rekkefølgen
         )
 
     st.dataframe(df[cols], hide_index=True, use_container_width=True)
