@@ -77,7 +77,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2026-05-13,,La Liga,2025-2026,Rayo Vallecano,Valencia,Away,Matchweek 36,,,,,,,,,,,,,,,,
 2026-05-17,,La Liga,2025-2026,Rayo Vallecano,Villarreal,Home,Matchweek 37,,,,,,,,,,,,,,,,
 2026-05-24,,La Liga,2025-2026,Rayo Vallecano,Alavés,Away,Matchweek 38,,,,,,,,,,,,,,,,
-2025-08-15,21:30 (19:30),La Liga,2025-2026,Villarreal,Oviedo,Home,Matchweek 1,2.5,2.0,0.0,25.0,10.0,16.1,0.0,0.0,0.9,0.0,2.0,4.0,3.0,21.8,0.0,0.0
+2025-08-15,21:30 (19:30),La Liga,2025-2026,Villarreal,Oviedo,Home,Matchweek 1,2.4,2.0,0.0,25.0,10.0,16.3,0.0,0.0,0.9,0.0,2.0,4.0,3.0,21.8,0.0,0.0
 2025-08-24,19:30 (17:30),La Liga,2025-2026,Villarreal,Girona,Home,Matchweek 2,,,,,,,,,,,,,,,,
 2025-08-31,17:00 (15:00),La Liga,2025-2026,Villarreal,Celta Vigo,Away,Matchweek 3,,,,,,,,,,,,,,,,
 2025-09-14,,La Liga,2025-2026,Villarreal,Atlético Madrid,Away,Matchweek 4,,,,,,,,,,,,,,,,
@@ -115,7 +115,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2026-05-13,,La Liga,2025-2026,Villarreal,Sevilla,Home,Matchweek 36,,,,,,,,,,,,,,,,
 2026-05-17,,La Liga,2025-2026,Villarreal,Rayo Vallecano,Away,Matchweek 37,,,,,,,,,,,,,,,,
 2026-05-24,,La Liga,2025-2026,Villarreal,Atlético Madrid,Home,Matchweek 38,,,,,,,,,,,,,,,,
-2025-08-16,21:30 (19:30),La Liga,2025-2026,Alaves,Levante,Home,Matchweek 1,1.2,2.0,1.0,15.0,4.0,15.2,0.0,0.0,0.9,1.0,2.0,7.0,3.0,20.1,0.0,0.0
+2025-08-16,21:30 (19:30),La Liga,2025-2026,Alaves,Levante,Home,Matchweek 1,1.2,2.0,1.0,15.0,4.0,15.2,0.0,0.0,0.9,1.0,2.0,7.0,3.0,19.9,0.0,0.0
 2025-08-22,21:30 (19:30),La Liga,2025-2026,Alaves,Betis,Away,Matchweek 2,,,,,,,,,,,,,,,,
 2025-08-30,17:00 (15:00),La Liga,2025-2026,Alaves,Atlético Madrid,Home,Matchweek 3,,,,,,,,,,,,,,,,
 2025-09-14,,La Liga,2025-2026,Alaves,Athletic Club,Away,Matchweek 4,,,,,,,,,,,,,,,,
@@ -153,7 +153,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2026-05-13,,La Liga,2025-2026,Alaves,Barcelona,Home,Matchweek 36,,,,,,,,,,,,,,,,
 2026-05-17,,La Liga,2025-2026,Alaves,Oviedo,Away,Matchweek 37,,,,,,,,,,,,,,,,
 2026-05-24,,La Liga,2025-2026,Alaves,Rayo Vallecano,Home,Matchweek 38,,,,,,,,,,,,,,,,
-2025-08-16,21:30 (19:30),La Liga,2025-2026,Valencia,Real Sociedad,Home,Matchweek 1,1.9,1.0,1.0,18.0,2.0,18.1,0.0,0.0,0.7,1.0,1.0,13.0,3.0,21.3,1.0,0.0
+2025-08-16,21:30 (19:30),La Liga,2025-2026,Valencia,Real Sociedad,Home,Matchweek 1,2.0,1.0,1.0,18.0,2.0,17.8,0.0,0.0,0.8,1.0,1.0,13.0,3.0,20.7,1.0,0.0
 2025-08-24,17:00 (15:00),La Liga,2025-2026,Valencia,Osasuna,Away,Matchweek 2,,,,,,,,,,,,,,,,
 2025-08-29,21:30 (19:30),La Liga,2025-2026,Valencia,Getafe,Home,Matchweek 3,,,,,,,,,,,,,,,,
 2025-09-14,,La Liga,2025-2026,Valencia,Barcelona,Away,Matchweek 4,,,,,,,,,,,,,,,,
@@ -191,7 +191,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2026-05-13,,La Liga,2025-2026,Valencia,Rayo Vallecano,Home,Matchweek 36,,,,,,,,,,,,,,,,
 2026-05-17,,La Liga,2025-2026,Valencia,Real Sociedad,Away,Matchweek 37,,,,,,,,,,,,,,,,
 2026-05-24,,La Liga,2025-2026,Valencia,Barcelona,Home,Matchweek 38,,,,,,,,,,,,,,,,
-2025-08-16,21:30 (19:30),La Liga,2025-2026,Real Sociedad,Valencia,Away,Matchweek 1,0.7,1.0,1.0,13.0,3.0,21.3,1.0,0.0,1.9,1.0,1.0,18.0,2.0,18.1,0.0,0.0
+2025-08-16,21:30 (19:30),La Liga,2025-2026,Real Sociedad,Valencia,Away,Matchweek 1,0.8,1.0,1.0,13.0,3.0,20.7,1.0,0.0,2.0,1.0,1.0,18.0,2.0,17.8,0.0,0.0
 2025-08-24,19:30 (17:30),La Liga,2025-2026,Real Sociedad,Espanyol,Home,Matchweek 2,,,,,,,,,,,,,,,,
 2025-08-30,19:00 (17:00),La Liga,2025-2026,Real Sociedad,Oviedo,Away,Matchweek 3,,,,,,,,,,,,,,,,
 2025-09-14,,La Liga,2025-2026,Real Sociedad,Real Madrid,Home,Matchweek 4,,,,,,,,,,,,,,,,
@@ -609,7 +609,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2026-05-13,,La Liga,2025-2026,Elche,Betis,Away,Matchweek 36,,,,,,,,,,,,,,,,
 2026-05-17,,La Liga,2025-2026,Elche,Getafe,Home,Matchweek 37,,,,,,,,,,,,,,,,
 2026-05-24,,La Liga,2025-2026,Elche,Girona,Away,Matchweek 38,,,,,,,,,,,,,,,,
-2025-08-16,21:30 (19:30),La Liga,2025-2026,Levante,Alavés,Away,Matchweek 1,0.9,1.0,2.0,7.0,3.0,20.1,0.0,0.0,1.2,2.0,1.0,15.0,4.0,15.2,0.0,0.0
+2025-08-16,21:30 (19:30),La Liga,2025-2026,Levante,Alavés,Away,Matchweek 1,0.9,1.0,2.0,7.0,3.0,19.9,0.0,0.0,1.2,2.0,1.0,15.0,4.0,15.2,0.0,0.0
 2025-08-23,21:30 (19:30),La Liga,2025-2026,Levante,Barcelona,Home,Matchweek 2,,,,,,,,,,,,,,,,
 2025-08-29,19:30 (17:30),La Liga,2025-2026,Levante,Elche,Away,Matchweek 3,,,,,,,,,,,,,,,,
 2025-09-13,16:15 (14:15),La Liga,2025-2026,Levante,Betis,Home,Matchweek 4,,,,,,,,,,,,,,,,
@@ -685,7 +685,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2026-05-13,,La Liga,2025-2026,Girona,Real Sociedad,Home,Matchweek 36,,,,,,,,,,,,,,,,
 2026-05-17,,La Liga,2025-2026,Girona,Atlético Madrid,Away,Matchweek 37,,,,,,,,,,,,,,,,
 2026-05-24,,La Liga,2025-2026,Girona,Elche,Home,Matchweek 38,,,,,,,,,,,,,,,,
-2025-08-15,21:30 (19:30),La Liga,2025-2026,Oviedo,Villarreal,Away,Matchweek 1,0.9,0.0,2.0,4.0,3.0,21.8,0.0,0.0,2.5,2.0,0.0,25.0,10.0,16.1,0.0,0.0
+2025-08-15,21:30 (19:30),La Liga,2025-2026,Oviedo,Villarreal,Away,Matchweek 1,0.9,0.0,2.0,4.0,3.0,21.8,0.0,0.0,2.4,2.0,0.0,25.0,10.0,16.3,0.0,0.0
 2025-08-24,21:30 (19:30),La Liga,2025-2026,Oviedo,Real Madrid,Home,Matchweek 2,,,,,,,,,,,,,,,,
 2025-08-30,19:00 (17:00),La Liga,2025-2026,Oviedo,Real Sociedad,Home,Matchweek 3,,,,,,,,,,,,,,,,
 2025-09-13,14:00 (12:00),La Liga,2025-2026,Oviedo,Getafe,Away,Matchweek 4,,,,,,,,,,,,,,,,
