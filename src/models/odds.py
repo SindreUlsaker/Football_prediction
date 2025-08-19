@@ -35,7 +35,7 @@ def _get_lambdas(
     Xa.columns = [c.replace("_away", "").replace("_home", "") for c in Xa.columns]
     Xa["is_home"] = 0
     Xa = Xa.fillna(0)
-
+    
     # 4) Legg på team-dummies akkurat som i predict_poisson_from_models
     dum_h, dum_a = _add_team_dummies(df, df)
     Xh = pd.concat([Xh, dum_h], axis=1)
@@ -64,8 +64,16 @@ def calculate_hub_odds(
     Returnerer DataFrame med sannsynlighet og fair odds for Hjemme/Uavgjort/Borte.
     Sannsynlighetene beregnes med compute_match_outcome_probabilities.
     """
+
     # Hent Poisson-lambdas for hjemme- og bortelag
-    lam_h, lam_a = _get_lambdas(df, features_home, features_away, league, models_dir)
+    lambda_home, lambda_away = _get_lambdas(df, features_home, features_away, league, models_dir)
+
+    alpha = 0.3
+    ratio = lambda_home / lambda_away
+    X = ratio ** alpha
+    Y = (1 / ratio) ** alpha
+    lam_h = lambda_home * X
+    lam_a = lambda_away * Y
 
     # Beregn win/draw/loss-sannsynligheter på samme måte som i predict_poisson_from_models
     p_h, p_d, p_a = compute_match_outcome_probabilities(lam_h, lam_a, max_goals)

@@ -241,8 +241,8 @@ def calculate_static_features(
         center: float = 2.25,  # nøytralpunkt flyttet opp
         dead: float = 0.02,  # død-sone rundt nøytralpunkt: ingen effekt
         k_up: float = 0.05,  # svak boost over nøytral
-        k_down: float = 0.09,  # sterkere straff under nøytral
-        lo: float = 0.73,  # stram klyp
+        k_down: float = 0.15,  # sterkere straff under nøytral
+        lo: float = 0.6,  # stram klyp
         hi: float = 1.27,
     ) -> float:
         """
@@ -281,10 +281,10 @@ def calculate_static_features(
             pts_mp,
             center=2.25,
             dead=0.02,
-            k_up=0.05,
-            k_down=0.1,
-            lo=0.65,
-            hi=1.2,
+            k_up=0.2,
+            k_down=0.2,
+            lo=0.6,
+            hi=1.4,
         )
         if kind == "for":
             return round(base["for"] * ratio, 2)

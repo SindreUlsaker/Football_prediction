@@ -39,7 +39,6 @@ def train_poisson_model(
     Xa = Xa.fillna(0)
     ya = df_away["gf_away"]
 
-    # Legg på team-fixed-effects
     dum_h, dum_a = _add_team_dummies(df_home, df_away)
     Xh = pd.concat([Xh, dum_h], axis=1)
     Xa = pd.concat([Xa, dum_a], axis=1)
@@ -47,6 +46,16 @@ def train_poisson_model(
     # Combine both perspectives
     X_all = pd.concat([Xh, Xa], ignore_index=True).fillna(0)
     y_all = pd.concat([yh, ya], ignore_index=True)
+
+    # 5) Drop rare team dummies
+    dummy_cols = [
+        c for c in X_all.columns if c.startswith("att_") or c.startswith("def_")
+    ]
+    counts = X_all[dummy_cols].sum(axis=0) if dummy_cols else pd.Series(dtype=float)
+    MIN_COUNT = 10
+    to_drop = counts[counts < MIN_COUNT].index.tolist()
+    if to_drop:
+        X_all = X_all.drop(columns=to_drop)
 
     # Scale features
     scaler = StandardScaler().fit(X_all)
