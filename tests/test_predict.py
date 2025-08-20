@@ -211,6 +211,7 @@ def test_predict_poisson_from_models_single_row(
         league_name=league_name,
         models_dir=models_dir,
         max_goals=20,  # høyere for å redusere truncation-tap
+        boost=True,
     )
 
     # Forvent ett resultat med korrekte kolonner
@@ -256,6 +257,7 @@ def test_predict_poisson_from_models_two_rows(
         league_name=league_name,
         models_dir=models_dir,
         max_goals=20,  # øk for konsistente summer
+        boost=True,
     )
 
     assert len(out) == 2

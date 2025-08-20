@@ -70,6 +70,7 @@ def show_predictions_page(
         league_name=league,
         models_dir=f"{DATA_PATH}/models",
         max_goals=10,
+        boost=True,
     )
 
     # --- HURTIGMETRIKKER ---

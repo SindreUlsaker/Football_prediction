@@ -206,6 +206,7 @@ def run_simulations(
         league_name=league_name,
         models_dir=models_dir,
         max_goals=10,
+        boost=False,
     )[["home_team", "away_team", "prob_home", "prob_draw", "prob_away"]]
 
     # --- Init aggregering ---

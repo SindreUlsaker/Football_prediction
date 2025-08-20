@@ -12,23 +12,6 @@ def _sim_path(league: str) -> str:
 
 
 def show_simulator_page_cached():
-    import numpy as np
-
-    def _coerce_prob(series: pd.Series) -> pd.Series:
-        """
-        Konverterer '12.3', '12,3', '12.3%', '0.123' → float i [0,1].
-        Rører ikke andre kolonner.
-        """
-        s = series.astype(str).str.strip()
-        has_pct = s.str.contains("%").any()
-        s = s.str.replace("%", "", regex=False).str.replace(",", ".", regex=False)
-        vals = pd.to_numeric(s, errors="coerce")
-        if has_pct or (
-            vals.max(skipna=True) is not np.nan and vals.max(skipna=True) > 1.001
-        ):
-            vals = vals / 100.0
-        return vals
-
     st.subheader("Liga-simulator (forhåndsberegnet)")
 
     league = st.selectbox("Liga", list(LEAGUES.keys()), key="sim_league_cached")
@@ -47,27 +30,39 @@ def show_simulator_page_cached():
     if all(c in df.columns for c in meta_cols):
         season = df["Season"].iloc[0]
         n_sims = int(df["N_sims"].iloc[0])
-        ts = df["GeneratedAtUTC"].iloc[0]
+        ts_raw = df["GeneratedAtUTC"].iloc[0]
+
+        ts = pd.to_datetime(ts_raw, utc=True, errors="coerce")
+        if ts.tz is None:
+            ts = ts.tz_localize("UTC")
+        try:
+            ts_local = ts.tz_convert("Europe/Oslo")
+        except Exception:
+            ts_local = ts  # fallback
+        ts_disp = ts_local.strftime("%d.%m.%Y %H:%M")
+
         st.caption(
-            f"Sesong: **{season}** • Simuleringer: **{n_sims}** • Generert: **{ts}**"
+            f"Sesong: **{season}** • Simuleringer: **{n_sims}** • Generert: **{ts_disp}**"
         )
 
     # Fjern meta-kolonner fra hovedtabellen
     drop_cols = ["League", "Season", "N_sims", "GeneratedAtUTC"]
     cols = [c for c in df.columns if c not in drop_cols]
+    display_df = df[cols].copy()
 
-    # Tving sannsynlighetskolonnene til floats slik at sekundær/tertiærsortering fungerer
-    prob_cols = ["P(vinne)", "P(topp 5)", "P(nedrykk)"]
+    # Konverter sannsynlighetskolonner (float i [0,1]) til prosent
+    num_cols = display_df.select_dtypes(include="number").columns.tolist()
+    prob_cols = []
+    for c in num_cols:
+        col = display_df[c]
+        try:
+            if col.notna().any():
+                mn, mx = col.min(), col.max()
+                if pd.notna(mn) and pd.notna(mx) and 0.0 <= mn and mx <= 1.0:
+                    prob_cols.append(c)
+        except Exception:
+            pass
     for c in prob_cols:
-        if c in df.columns:
-            df[c] = _coerce_prob(df[c])
+        display_df[c] = (display_df[c] * 100).round(1).astype(str) + "%"
 
-    # Sorter: primært P(vinne) (desc), deretter P(topp 5) (desc), så P(nedrykk) (asc)
-    if all(c in df.columns for c in prob_cols):
-        df = df.sort_values(
-            by=["P(vinne)", "P(topp 5)", "P(nedrykk)"],
-            ascending=[False, False, True],
-            kind="mergesort",  # stabil; ved fullt likhet beholdes input-rekkefølgen
-        )
-
-    st.dataframe(df[cols], hide_index=True, use_container_width=True)
+    st.dataframe(display_df, hide_index=True, use_container_width=True)

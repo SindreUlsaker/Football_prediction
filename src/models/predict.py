@@ -50,6 +50,7 @@ def predict_poisson_from_models(
     league_name: str,
     models_dir: str = "models",
     max_goals: int = 10,
+    boost: bool = True,
 ) -> pd.DataFrame:
     """
     Predict match outcome probabilities using a single Poisson model.
@@ -98,12 +99,17 @@ def predict_poisson_from_models(
     # Build results
     records = []
     for idx, row in df.iterrows():
-        alpha = 0.3
-        ratio = lambda_home[idx] / lambda_away[idx]
-        X = ratio ** alpha
-        Y = (1 / ratio) ** alpha
-        lam_h = lambda_home[idx] * X
-        lam_a = lambda_away[idx] * Y
+        if boost:
+            # Boosting factor to adjust probabilities
+            alpha = 0.3
+            ratio = lambda_home[idx] / lambda_away[idx]
+            X = ratio ** alpha
+            Y = (1 / ratio) ** alpha
+            lam_h = lambda_home[idx] * X
+            lam_a = lambda_away[idx] * Y
+        else:
+            lam_h = lambda_home[idx]
+            lam_a = lambda_away[idx]
         p_h, p_d, p_a = compute_match_outcome_probabilities(lam_h, lam_a, max_goals)
         records.append(
             {

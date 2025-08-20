@@ -40,10 +40,10 @@ def show_predictions(df: pd.DataFrame, prediction_type: int):
             }
         )
         fmt = {
-            "Home win probability": "{:.3f}",
-            "Draw probability": "{:.3f}",
-            "Away win probability": "{:.3f}",
-        }
+            "Home win probability": "{:.1%}",
+            "Draw probability": "{:.1%}",
+            "Away win probability": "{:.1%}",
+        }   
         st.subheader("📅 Prediksjoner gruppert per dag – Sannsynlighet")
     else:
         # Fair Odds = 1 / sannsynlighet
