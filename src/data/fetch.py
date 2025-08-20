@@ -4,6 +4,8 @@ import re
 import random
 from io import StringIO
 from selenium import webdriver
+import undetected_chromedriver as uc
+from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import WebDriverException
 from selenium.common.exceptions import TimeoutException
@@ -18,42 +20,101 @@ import itertools
 _driver = None
 _last_challenge_ts = 0
 
+
 def get_driver():
+    """
+    Returnerer en Chrome-driver. Prøver først undetected-chromedriver (UC) med stealth.
+    Hvis UC ikke er installert/feiler, faller vi tilbake til standard Selenium Chrome.
+    """
     global _driver
-    if _driver is None:
-        options = Options()
-        # Headless-støtte i moderne Chrome
+    if _driver is not None:
+        return _driver
+
+    # Prøv å importere UC inni funksjonen (ikke på toppnivå)
+    uc = None
+    try:
+        import undetected_chromedriver as _uc
+
+        uc = _uc
+    except Exception as e:
+        print(
+            f"[fetch] undetected-chromedriver ikke tilgjengelig ({e}). Faller tilbake til standard Selenium.",
+            flush=True,
+        )
+
+    if uc:
+        # --- UC driver med stealth ---
+        ua = os.getenv(
+            "FBREF_UA",
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+            "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        )
+        lang = os.getenv("FBREF_LANG", "en-US,en;q=0.9")
+        proxy = os.getenv("FBREF_PROXY")  # f.eks. http://user:pass@host:port
+
+        options = uc.ChromeOptions()
         options.add_argument("--headless=new")
-        # Kritisk i GitHub Actions (container)
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
-        # Stabilitet/perf i CI
         options.add_argument("--window-size=1920,1080")
-        options.add_argument("--disable-gpu")
         options.add_argument("--disable-background-networking")
         options.add_argument("--disable-background-timer-throttling")
         options.add_argument("--disable-renderer-backgrounding")
-        options.add_argument(
-            "--disable-features=Translate,BackForwardCache,AutomationControlled"
-        )
         options.add_argument("--blink-settings=imagesEnabled=true")
-        # Fjern gammel, mistenkelig UA (Chrome 91). La Chrome bruke sin egen UA.
-        # Hvis du MÅ sette UA: sett en moderne (>= 120) – men start uten.
+        options.add_argument("--disable-blink-features=AutomationControlled")
+        options.add_argument("--lang=" + lang)
+        if proxy:
+            options.add_argument(f"--proxy-server={proxy}")
 
-        # Mindre "bot-støy":
+        _driver = uc.Chrome(options=options)
+        _driver.set_page_load_timeout(60)
+        _driver.set_script_timeout(30)
+
+        # Stealth: skjul webdriver + sett UA via CDP (best effort)
+        try:
+            _driver.execute_cdp_cmd(
+                "Page.addScriptToEvaluateOnNewDocument",
+                {
+                    "source": """
+                        Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
+                        Object.defineProperty(navigator, 'plugins', {get: () => [1,2,3]});
+                        Object.defineProperty(navigator, 'languages', {get: () => ['en-US','en']});
+                    """
+                },
+            )
+            _driver.execute_cdp_cmd(
+                "Network.setUserAgentOverride",
+                {"userAgent": ua, "acceptLanguage": lang, "platform": "Windows"},
+            )
+        except Exception:
+            pass
+
+        # Warm-up: seed cookies
+        try:
+            _driver.get("https://fbref.com/")
+            time.sleep(1.2 + random.random())
+        except Exception:
+            pass
+
+    else:
+        # --- Standard Selenium Chrome ---
+        options = Options()
+        options.add_argument("--headless=new")
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-dev-shm-usage")
+        options.add_argument("--window-size=1920,1080")
+        options.add_argument("--disable-background-networking")
+        options.add_argument("--disable-background-timer-throttling")
+        options.add_argument("--disable-renderer-backgrounding")
+        options.add_argument("--blink-settings=imagesEnabled=true")
         options.add_experimental_option(
             "excludeSwitches", ["enable-automation", "enable-logging"]
         )
         options.add_experimental_option("useAutomationExtension", False)
-
-        # Lastestrategi: ikke vent på alt (reduserer heng i CI)
         options.page_load_strategy = "eager"
 
-        # Bruk Selenium Manager (matcher chromedriver automatisk)
         _driver = webdriver.Chrome(options=options)
-
-        # Stramme timeouts
-        _driver.set_page_load_timeout(60)  # var 120
+        _driver.set_page_load_timeout(60)
         _driver.set_script_timeout(30)
 
     return _driver
@@ -74,23 +135,38 @@ class SeleniumResponse:
         self.text = text
 
 
-def get_current_season(base_url):
+def compute_local_current_season(tz: str = "Europe/Oslo") -> str:
     """
-    Henter gjeldende sesong ved å lese <div id="meta"><h1>2024-2025 Premier League Stats</h1></div>.
-    Returnerer sesong som '2024-2025', eller None hvis ikke funnet.
+    Lokal fallback for sesongstreng når scraping feiler:
+      - Aug (8)–Des (12): YYYY-(YYYY+1)
+      - Jan (1)–Jul (7): (YYYY-1)-YYYY
+    """
+    now = pd.Timestamp.now(tz=tz)
+    y = now.year
+    if 8 <= now.month <= 12:
+        return f"{y}-{y+1}"
+    else:
+        return f"{y-1}-{y}"
+
+
+def get_current_season(base_url: str) -> str:
+    """
+    Hent gjeldende sesong fra <div id="meta"><h1>…</h1></div>.
+    Fallback til lokal beregning (compute_local_current_season) hvis parsing feiler
+    eller h1 mangler.
     """
     resp = fetch_data(base_url)
-    if not resp:
-        return None
+    if resp:
+        soup = BeautifulSoup(resp.text, "lxml")
+        h1 = soup.select_one("div#meta h1")
+        if h1:
+            txt = h1.get_text(strip=True)
+            m = re.match(r"^(\d{4}-\d{4})", txt)
+            if m:
+                return m.group(1)
 
-    soup = BeautifulSoup(resp.text, "lxml")
-    h1 = soup.select_one("div#meta h1")
-    if not h1:
-        return None
-
-    text = h1.get_text(strip=True)
-    m = re.match(r"^(\d{4}-\d{4})", text)
-    return m.group(1) if m else None
+    # Fallback når scraping ikke gir treff:
+    return compute_local_current_season()
 
 
 def get_prev_season(season):
@@ -103,21 +179,44 @@ def get_prev_season(season):
 
 def fetch_data(url):
     """
-    Fetch page HTML with Selenium. Oppdager Cloudflare 'challenge' og tar en
-    global cooldown slik at resten av lagene ikke feiler i serie.
+    Hent HTML med retries/backoff. Detekter Cloudflare/interstitial både via
+    kjente markører og mistenkelig lav HTML-lengde, og restart driver når det skjer.
+    Støtter proxy/UA/stealth via get_driver().
     """
     global _last_challenge_ts
 
-    # Hvis vi nylig traff en challenge, vent litt før vi prøver neste side
+    # Cooldown hvis vi nettopp traff challenge
     since = time.time() - _last_challenge_ts
-    if since < 45:  # 45s "cooldown"-vindu
+    if since < 45:
         wait = int(45 - since) + 1
         print(f"[fetch] Cooldown {wait}s pga. nylig challenge", flush=True)
         time.sleep(wait)
 
-    max_attempts = 4
+    max_attempts = 8  # litt høyere når vi bruker UC
     attempt = 0
     start = time.time()
+
+    CHALLENGE_MARKERS = [
+        "Attention Required",
+        "cf-browser-verification",
+        "cf-challenge",
+        "Why do I have to complete a CAPTCHA",
+        "Just a moment",
+        "Checking your browser",
+        "/cdn-cgi/challenge-platform/",
+    ]
+    # Stats-/lag-sider hos fbref er normalt store. Sett konservativ terskel.
+    MIN_OK_HTML_LEN = int(os.getenv("FBREF_MIN_HTML", "80000"))
+
+    def looks_like_challenge(html: str) -> bool:
+        if not html:
+            return True
+        lower = html.lower()
+        if any(m.lower() in lower for m in CHALLENGE_MARKERS):
+            return True
+        if len(html) < MIN_OK_HTML_LEN:
+            return True
+        return False
 
     while attempt < max_attempts:
         attempt += 1
@@ -127,54 +226,41 @@ def fetch_data(url):
             driver.get(url)
             time.sleep(1.0 + random.random())
             html = driver.page_source
+            print(f"[fetch] Hentet HTML-lengde: {len(html)}", flush=True)
 
-            # Cloudflare / challenge heuristikk
-            if (
-                "Attention Required" in html
-                or "cf-browser-verification" in html
-                or "cf-challenge" in html
-                or "Why do I have to complete a CAPTCHA" in html
-            ):
+            if looks_like_challenge(html):
                 _last_challenge_ts = time.time()
                 print(
-                    "[fetch] Cloudflare challenge oppdaget. Restart driver + backoff...",
+                    "[fetch] Mistenkt challenge/interstitial. Restart driver + backoff...",
                     flush=True,
                 )
                 close_driver()
-                time.sleep(20 * attempt)  # økende backoff
+                # Økende backoff med litt jitter
+                sleep_s = 10 + 6 * attempt + random.uniform(0, 3)
+                time.sleep(sleep_s)
                 continue
 
             return SeleniumResponse(html)
 
         except TimeoutException as e:
-            print(
-                f"[fetch] Timeout on {url}: {e}. Restarting driver og backoff...",
-                flush=True,
-            )
+            print(f"[fetch] Timeout on {url}: {e}. Restart + backoff...", flush=True)
             close_driver()
             time.sleep(5 * attempt)
             continue
         except WebDriverException as e:
-            print(
-                f"[fetch] WebDriver error on {url}: {e}. Restarting driver...",
-                flush=True,
-            )
+            print(f"[fetch] WebDriver error on {url}: {e}. Restart...", flush=True)
             close_driver()
             time.sleep(5 * attempt)
             continue
         except Exception as e:
-            print(
-                f"[fetch] Unexpected error on {url}: {e}. Restarting driver...",
-                flush=True,
-            )
+            print(f"[fetch] Unexpected error on {url}: {e}. Restart...", flush=True)
             close_driver()
             time.sleep(5 * attempt)
             continue
         finally:
-            # Ikke la én URL spise hele jobben
-            if time.time() - start > 180:
+            if time.time() - start > 300:  # maks ~5 min per URL
                 print(
-                    f"[fetch] Giving up on {url} etter ~3 minutter total.", flush=True
+                    f"[fetch] Giving up on {url} etter ~5 minutter total.", flush=True
                 )
                 break
 
