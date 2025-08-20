@@ -23,14 +23,13 @@ _last_challenge_ts = 0
 
 def get_driver():
     """
-    Returnerer en Chrome-driver. Prøver først undetected-chromedriver (UC) med stealth.
-    Hvis UC ikke er installert/feiler, faller vi tilbake til standard Selenium Chrome.
+    Prøv undetected-chromedriver (UC) først; fall tilbake til vanlig Selenium.
+    Bruk 'eager' load-strategi og CI-vennlige flagg.
     """
     global _driver
     if _driver is not None:
         return _driver
 
-    # Prøv å importere UC inni funksjonen (ikke på toppnivå)
     uc = None
     try:
         import undetected_chromedriver as _uc
@@ -42,20 +41,20 @@ def get_driver():
             flush=True,
         )
 
-    if uc:
-        # --- UC driver med stealth ---
-        ua = os.getenv(
-            "FBREF_UA",
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-            "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-        )
-        lang = os.getenv("FBREF_LANG", "en-US,en;q=0.9")
-        proxy = os.getenv("FBREF_PROXY")  # f.eks. http://user:pass@host:port
+    ua = os.getenv(
+        "FBREF_UA",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    )
+    lang = os.getenv("FBREF_LANG", "en-US,en;q=0.9")
+    proxy = os.getenv("FBREF_PROXY")  # eks. http://user:pass@host:port
 
+    if uc:
         options = uc.ChromeOptions()
         options.add_argument("--headless=new")
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
+        options.add_argument("--disable-gpu")
         options.add_argument("--window-size=1920,1080")
         options.add_argument("--disable-background-networking")
         options.add_argument("--disable-background-timer-throttling")
@@ -65,21 +64,19 @@ def get_driver():
         options.add_argument("--lang=" + lang)
         if proxy:
             options.add_argument(f"--proxy-server={proxy}")
+        # Viktig i CI: ikke vent på alt
+        options.page_load_strategy = "eager"
 
         _driver = uc.Chrome(options=options)
-        _driver.set_page_load_timeout(60)
-        _driver.set_script_timeout(30)
+        _driver.set_page_load_timeout(120)
+        _driver.set_script_timeout(60)
 
-        # Stealth: skjul webdriver + sett UA via CDP (best effort)
+        # Stealth + UA
         try:
             _driver.execute_cdp_cmd(
                 "Page.addScriptToEvaluateOnNewDocument",
                 {
-                    "source": """
-                        Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
-                        Object.defineProperty(navigator, 'plugins', {get: () => [1,2,3]});
-                        Object.defineProperty(navigator, 'languages', {get: () => ['en-US','en']});
-                    """
+                    "source": "Object.defineProperty(navigator,'webdriver',{get:()=>undefined});"
                 },
             )
             _driver.execute_cdp_cmd(
@@ -89,7 +86,7 @@ def get_driver():
         except Exception:
             pass
 
-        # Warm-up: seed cookies
+        # Warm-up cookies
         try:
             _driver.get("https://fbref.com/")
             time.sleep(1.2 + random.random())
@@ -97,11 +94,11 @@ def get_driver():
             pass
 
     else:
-        # --- Standard Selenium Chrome ---
         options = Options()
         options.add_argument("--headless=new")
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
+        options.add_argument("--disable-gpu")
         options.add_argument("--window-size=1920,1080")
         options.add_argument("--disable-background-networking")
         options.add_argument("--disable-background-timer-throttling")
@@ -114,8 +111,8 @@ def get_driver():
         options.page_load_strategy = "eager"
 
         _driver = webdriver.Chrome(options=options)
-        _driver.set_page_load_timeout(60)
-        _driver.set_script_timeout(30)
+        _driver.set_page_load_timeout(120)
+        _driver.set_script_timeout(60)
 
     return _driver
 
@@ -179,20 +176,18 @@ def get_prev_season(season):
 
 def fetch_data(url):
     """
-    Hent HTML med retries/backoff. Detekter Cloudflare/interstitial både via
-    kjente markører og mistenkelig lav HTML-lengde, og restart driver når det skjer.
-    Støtter proxy/UA/stealth via get_driver().
+    Hent HTML med retries/backoff. Detekter challenge via markører + kort HTML.
+    Ved TimeoutException forsøker vi å hente page_source likevel (ofte nok i CF-loop).
     """
     global _last_challenge_ts
 
-    # Cooldown hvis vi nettopp traff challenge
     since = time.time() - _last_challenge_ts
     if since < 45:
         wait = int(45 - since) + 1
         print(f"[fetch] Cooldown {wait}s pga. nylig challenge", flush=True)
         time.sleep(wait)
 
-    max_attempts = 8  # litt høyere når vi bruker UC
+    max_attempts = 8
     attempt = 0
     start = time.time()
 
@@ -205,7 +200,6 @@ def fetch_data(url):
         "Checking your browser",
         "/cdn-cgi/challenge-platform/",
     ]
-    # Stats-/lag-sider hos fbref er normalt store. Sett konservativ terskel.
     MIN_OK_HTML_LEN = int(os.getenv("FBREF_MIN_HTML", "80000"))
 
     def looks_like_challenge(html: str) -> bool:
@@ -220,6 +214,7 @@ def fetch_data(url):
 
     while attempt < max_attempts:
         attempt += 1
+        html = ""
         try:
             driver = get_driver()
             print(f"[fetch] GET {url} (attempt {attempt})", flush=True)
@@ -228,25 +223,17 @@ def fetch_data(url):
             html = driver.page_source
             print(f"[fetch] Hentet HTML-lengde: {len(html)}", flush=True)
 
-            if looks_like_challenge(html):
-                _last_challenge_ts = time.time()
-                print(
-                    "[fetch] Mistenkt challenge/interstitial. Restart driver + backoff...",
-                    flush=True,
-                )
-                close_driver()
-                # Økende backoff med litt jitter
-                sleep_s = 10 + 6 * attempt + random.uniform(0, 3)
-                time.sleep(sleep_s)
-                continue
-
-            return SeleniumResponse(html)
-
         except TimeoutException as e:
-            print(f"[fetch] Timeout on {url}: {e}. Restart + backoff...", flush=True)
-            close_driver()
-            time.sleep(5 * attempt)
-            continue
+            # Ikke gi opp – prøv å hente det som finnes
+            try:
+                html = driver.page_source
+            except Exception:
+                html = ""
+            print(
+                f"[fetch] Timeout, forsøker å bruke HTML som er lastet: {len(html)} tegn",
+                flush=True,
+            )
+
         except WebDriverException as e:
             print(f"[fetch] WebDriver error on {url}: {e}. Restart...", flush=True)
             close_driver()
@@ -257,12 +244,25 @@ def fetch_data(url):
             close_driver()
             time.sleep(5 * attempt)
             continue
-        finally:
-            if time.time() - start > 300:  # maks ~5 min per URL
-                print(
-                    f"[fetch] Giving up on {url} etter ~5 minutter total.", flush=True
-                )
-                break
+
+        # Vurder HTML vi faktisk har
+        if looks_like_challenge(html):
+            _last_challenge_ts = time.time()
+            print(
+                "[fetch] Mistenkt challenge/interstitial. Restart + backoff...",
+                flush=True,
+            )
+            close_driver()
+            time.sleep(10 + 6 * attempt + random.uniform(0, 3))
+            continue
+
+        # OK!
+        return SeleniumResponse(html)
+
+        # Siste sikkerhetsventil
+        if time.time() - start > 300:
+            print(f"[fetch] Giving up on {url} etter ~5 minutter total.", flush=True)
+            break
 
     return None
 

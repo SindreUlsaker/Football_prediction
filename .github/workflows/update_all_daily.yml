@@ -11,9 +11,28 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    env:
+      FBREF_MIN_HTML: "80000"
+      FBREF_LANG: "en-US,en;q=0.9"
+      # Sett denne hvis du har en residential proxy (legg i Secrets):
+      # FBREF_PROXY: ${{ secrets.FBREF_PROXY }}
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+
+      - name: Random jitter to avoid CF windows
+        run: sleep $(( (RANDOM % 240) + 60 ))
+
+      - name: Set up Google Chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
+
+      - name: Show Chrome version
+        run: |
+          which google-chrome || true
+          google-chrome --version || true
 
       - name: Set up Python
         uses: actions/setup-python@v5
