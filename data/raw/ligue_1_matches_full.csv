@@ -915,7 +915,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2025-08-17,17:15 (15:15),Ligue 1,2025-2026,Angers,Paris FC,Home,Matchweek 1,1.0,1.0,0.0,8.0,2.0,17.6,1.0,0.0,0.9,0.0,1.0,17.0,7.0,23.4,1.0,0.0
 2025-08-22,20:45 (18:45),Ligue 1,2025-2026,Angers,Paris S-G,Away,Matchweek 2,,,,,,,,,,,,,,,,
 2025-08-31,15:00 (13:00),Ligue 1,2025-2026,Angers,Rennes,Home,Matchweek 3,,,,,,,,,,,,,,,,
-2025-09-14,,Ligue 1,2025-2026,Angers,Metz,Away,Matchweek 4,,,,,,,,,,,,,,,,
+2025-09-14,17:15 (15:15),Ligue 1,2025-2026,Angers,Metz,Away,Matchweek 4,,,,,,,,,,,,,,,,
 2025-09-21,,Ligue 1,2025-2026,Angers,Lyon,Away,Matchweek 5,,,,,,,,,,,,,,,,
 2025-09-28,,Ligue 1,2025-2026,Angers,Brest,Home,Matchweek 6,,,,,,,,,,,,,,,,
 2025-10-05,,Ligue 1,2025-2026,Angers,Strasbourg,Away,Matchweek 7,,,,,,,,,,,,,,,,
@@ -1053,7 +1053,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2025-08-17,15:00 (13:00),Ligue 1,2025-2026,Brest,Lille,Home,Matchweek 1,1.9,3.0,3.0,18.0,5.0,18.0,0.0,0.0,1.6,3.0,3.0,10.0,6.0,15.4,1.0,0.0
 2025-08-24,17:15 (15:15),Ligue 1,2025-2026,Brest,Toulouse,Away,Matchweek 2,,,,,,,,,,,,,,,,
 2025-08-29,20:45 (18:45),Ligue 1,2025-2026,Brest,Lens,Away,Matchweek 3,,,,,,,,,,,,,,,,
-2025-09-14,,Ligue 1,2025-2026,Brest,Paris FC,Home,Matchweek 4,,,,,,,,,,,,,,,,
+2025-09-14,17:15 (15:15),Ligue 1,2025-2026,Brest,Paris FC,Home,Matchweek 4,,,,,,,,,,,,,,,,
 2025-09-21,,Ligue 1,2025-2026,Brest,Nice,Home,Matchweek 5,,,,,,,,,,,,,,,,
 2025-09-28,,Ligue 1,2025-2026,Brest,Angers,Away,Matchweek 6,,,,,,,,,,,,,,,,
 2025-10-05,,Ligue 1,2025-2026,Brest,Nantes,Home,Matchweek 7,,,,,,,,,,,,,,,,
@@ -1259,7 +1259,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2025-08-17,17:15 (15:15),Ligue 1,2025-2026,Metz,Strasbourg,Home,Matchweek 1,0.3,0.0,1.0,2.0,0.0,13.6,0.0,0.0,0.6,1.0,0.0,9.0,3.0,20.1,2.0,0.0
 2025-08-23,21:05 (19:05),Ligue 1,2025-2026,Metz,Lyon,Away,Matchweek 2,,,,,,,,,,,,,,,,
 2025-08-31,17:15 (15:15),Ligue 1,2025-2026,Metz,Paris FC,Away,Matchweek 3,,,,,,,,,,,,,,,,
-2025-09-14,,Ligue 1,2025-2026,Metz,Angers,Home,Matchweek 4,,,,,,,,,,,,,,,,
+2025-09-14,17:15 (15:15),Ligue 1,2025-2026,Metz,Angers,Home,Matchweek 4,,,,,,,,,,,,,,,,
 2025-09-21,,Ligue 1,2025-2026,Metz,Monaco,Away,Matchweek 5,,,,,,,,,,,,,,,,
 2025-09-28,,Ligue 1,2025-2026,Metz,Le Havre,Home,Matchweek 6,,,,,,,,,,,,,,,,
 2025-10-05,,Ligue 1,2025-2026,Metz,Marseille,Home,Matchweek 7,,,,,,,,,,,,,,,,
@@ -1293,7 +1293,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2025-08-17,17:15 (15:15),Ligue 1,2025-2026,Paris FC,Angers,Away,Matchweek 1,0.9,0.0,1.0,17.0,7.0,23.4,1.0,0.0,1.0,1.0,0.0,8.0,2.0,17.6,1.0,0.0
 2025-08-23,17:00 (15:00),Ligue 1,2025-2026,Paris FC,Marseille,Away,Matchweek 2,,,,,,,,,,,,,,,,
 2025-08-31,17:15 (15:15),Ligue 1,2025-2026,Paris FC,Metz,Home,Matchweek 3,,,,,,,,,,,,,,,,
-2025-09-14,,Ligue 1,2025-2026,Paris FC,Brest,Away,Matchweek 4,,,,,,,,,,,,,,,,
+2025-09-14,17:15 (15:15),Ligue 1,2025-2026,Paris FC,Brest,Away,Matchweek 4,,,,,,,,,,,,,,,,
 2025-09-21,,Ligue 1,2025-2026,Paris FC,Strasbourg,Home,Matchweek 5,,,,,,,,,,,,,,,,
 2025-09-28,,Ligue 1,2025-2026,Paris FC,Nice,Away,Matchweek 6,,,,,,,,,,,,,,,,
 2025-10-05,,Ligue 1,2025-2026,Paris FC,Lorient,Home,Matchweek 7,,,,,,,,,,,,,,,,
