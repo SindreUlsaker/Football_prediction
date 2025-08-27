@@ -948,7 +948,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2026-05-03,,Ligue 1,2025-2026,Lorient,Paris S-G,Away,Matchweek 32,,,,,,,,,,,,,,,,
 2026-05-09,,Ligue 1,2025-2026,Lorient,Metz,Away,Matchweek 33,,,,,,,,,,,,,,,,
 2026-05-16,,Ligue 1,2025-2026,Lorient,Le Havre,Home,Matchweek 34,,,,,,,,,,,,,,,,
-2025-08-15,20:45 (18:45),Ligue 1,2025-2026,Marseille,Rennes,Away,Matchweek 1,1.8,0.0,1.0,24.0,2.0,16.8,0.0,0.0,1.4,1.0,0.0,12.0,5.0,20.1,0.0,0.0
+2025-08-15,20:45 (18:45),Ligue 1,2025-2026,Marseille,Rennes,Away,Matchweek 1,1.7,0.0,1.0,24.0,2.0,16.8,0.0,0.0,1.5,1.0,0.0,12.0,5.0,20.1,0.0,0.0
 2025-08-23,17:00 (15:00),Ligue 1,2025-2026,Marseille,Paris FC,Home,Matchweek 2,2.3,5.0,2.0,9.0,6.0,18.3,0.0,1.0,1.1,2.0,5.0,8.0,4.0,18.7,0.0,0.0
 2025-08-31,20:45 (18:45),Ligue 1,2025-2026,Marseille,Lyon,Away,Matchweek 3,,,,,,,,,,,,,,,,
 2025-09-14,,Ligue 1,2025-2026,Marseille,Lorient,Home,Matchweek 4,,,,,,,,,,,,,,,,
@@ -1154,7 +1154,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2026-05-03,,Ligue 1,2025-2026,Auxerre,Angers,Home,Matchweek 32,,,,,,,,,,,,,,,,
 2026-05-09,,Ligue 1,2025-2026,Auxerre,Nice,Home,Matchweek 33,,,,,,,,,,,,,,,,
 2026-05-16,,Ligue 1,2025-2026,Auxerre,Lille,Away,Matchweek 34,,,,,,,,,,,,,,,,
-2025-08-15,20:45 (18:45),Ligue 1,2025-2026,Rennes,Marseille,Home,Matchweek 1,1.4,1.0,0.0,12.0,5.0,20.1,0.0,0.0,1.8,0.0,1.0,24.0,2.0,16.8,0.0,0.0
+2025-08-15,20:45 (18:45),Ligue 1,2025-2026,Rennes,Marseille,Home,Matchweek 1,1.5,1.0,0.0,12.0,5.0,20.1,0.0,0.0,1.7,0.0,1.0,24.0,2.0,16.8,0.0,0.0
 2025-08-24,15:00 (13:00),Ligue 1,2025-2026,Rennes,Lorient,Away,Matchweek 2,0.1,0.0,4.0,4.0,1.0,28.3,0.0,0.0,2.9,4.0,0.0,22.0,7.0,17.2,1.0,0.0
 2025-08-31,15:00 (13:00),Ligue 1,2025-2026,Rennes,Angers,Away,Matchweek 3,,,,,,,,,,,,,,,,
 2025-09-14,,Ligue 1,2025-2026,Rennes,Lyon,Home,Matchweek 4,,,,,,,,,,,,,,,,
