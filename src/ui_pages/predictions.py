@@ -24,13 +24,15 @@ def load_upcoming_matches(
         mask = (df["date"].dt.date == filter_date) & (df["result_home"].isna())
         return df.loc[mask].sort_values("date")
 
-    else:
-        now = pd.Timestamp.now()
-        next_week = now + timedelta(days=7)
-        df_upcoming = df[
-            (df["date"] >= now) & (df["date"] < next_week) & (df["result_home"].isna())
-        ].copy()
-        return df_upcoming.sort_values("date")
+    # Ellers: bruk dato-basert vindu [i dag, i dag+7)
+    today = pd.Timestamp.now().date()
+    end = today + timedelta(days=7)
+    mask = (
+        (df["date"].dt.date >= today)
+        & (df["date"].dt.date < end)
+        & (df["result_home"].isna())
+    )
+    return df.loc[mask].sort_values(["date", "time"])
 
 
 def show_predictions_page(

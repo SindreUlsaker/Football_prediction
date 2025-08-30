@@ -49,6 +49,12 @@ def show_simulator_page_cached():
     drop_cols = ["League", "Season", "N_sims", "GeneratedAtUTC"]
     cols = [c for c in df.columns if c not in drop_cols]
     display_df = df[cols].copy()
+    # Sorter med tie-breakers: P(vinne) -> P(topp 5) -> P(nedrykk)
+    display_df = display_df.sort_values(
+        by=["P(vinne)", "P(topp 5)", "P(nedrykk)"],
+        ascending=[False, False, True],
+        kind="mergesort",
+    )
 
     # Konverter sannsynlighetskolonner (float i [0,1]) til prosent
     num_cols = display_df.select_dtypes(include="number").columns.tolist()
