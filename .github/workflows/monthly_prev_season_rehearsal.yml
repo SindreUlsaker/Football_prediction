@@ -1,22 +1,42 @@
-name: Monthly rehearsal — previous-season fetch (no commit)
+name: Run update_all.py daily
+
+permissions:
+  contents: write
 
 on:
   schedule:
-    # Kjør månedlig den 1. kl. 22:00 UTC
-    - cron: '0 22 1 * *'
-
-permissions:
-  contents: read  # hindrer push/commit
+    - cron: '0 1 * * *'  # Runs at 01:00 UTC every day
+  workflow_dispatch:  # Allows manual trigger from GitHub UI
 
 jobs:
-  rehearsal_fetch_prev:
+  update:
     runs-on: ubuntu-latest
+    env:
+      FBREF_MIN_HTML: "80000"
+      FBREF_LANG: "en-US,en;q=0.9"
+      # Sett denne hvis du har en residential proxy (legg i Secrets):
+      # FBREF_PROXY: ${{ secrets.FBREF_PROXY }}
 
     steps:
-      - name: Checkout repository (no credentials)
+      - name: Check out repository
         uses: actions/checkout@v4
+
+      - name: Random jitter to avoid CF windows
+        run: sleep $(( (RANDOM % 240) + 60 ))
+
+      # Pin Chrome til v140 for å matche ChromeDriver 140 som Selenium Manager henter
+      - name: Set up Google Chrome
+        id: setup-chrome
+        uses: browser-actions/setup-chrome@v1
         with:
-          persist-credentials: false  # gjør push umulig
+          chrome-version: "140"
+
+      - name: Show Chrome version
+        run: |
+          which google-chrome || true
+          google-chrome --version || true
+          which chrome || true
+          chrome --version || true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -28,17 +48,42 @@ jobs:
         run: |
           python -m pip install --upgrade pip setuptools wheel
           pip install -r requirements.txt
+          # Sørg for kompatibel Selenium Manager
+          pip install "selenium>=4.24.0"
 
-      - name: Run previous-season fetch (dry run)
-        env:
-          DRY_RUN: "1"   # bruk i skriptet for å hoppe over skriving/push
-        run: python src/scripts/fetch_prev_season.py
-
-      - name: Fail if repo changed (no writes allowed)
+      # Valgfritt, men nyttig: logg hvilken driver/versjon som faktisk brukes
+      - name: Print Selenium / Driver info
         run: |
-          if ! git diff --quiet; then
-            echo "Workspace changed — rehearsal must not write files."
-            git status --porcelain
-            git diff --stat
-            exit 1
-          fi
+          python - << 'PY'
+          import shutil, subprocess
+          import selenium
+          print("selenium version:", selenium.__version__)
+          for cand in ("chromedriver", "/usr/bin/chromedriver", "/usr/local/bin/chromedriver"):
+            p = shutil.which(cand) if cand == "chromedriver" else (cand if shutil.which(cand) else None)
+            if p:
+              try:
+                out = subprocess.check_output([p, "--version"]).decode().strip()
+                print("chromedriver:", out)
+              except Exception as e:
+                print("chromedriver check error:", e)
+          PY
+
+      - name: Run update_all.py
+        env:
+          # Hvis koden din leser CHROME_BIN, eksponer den eksplisitt
+          CHROME_BIN: ${{ steps.setup-chrome.outputs.chrome-path }}
+        run: |
+          echo "[`date -u +'%Y-%m-%d %H:%M:%S'`] Starter update_all_daily pipeline"
+          python -m src.scripts.update_all
+
+      - name: Run league simulations (precompute)
+        run: |
+          python -m src.scripts.simulate_all --n-sims 5000
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add data/raw data/processed/ data/models/ data/processed/simulations/
+          git commit -m "CI: pin Chrome to v140 and ensure Selenium Manager match; daily update_all.py" || echo "No changes to commit"
+          git push
