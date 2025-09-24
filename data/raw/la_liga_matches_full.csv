@@ -994,7 +994,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2025-08-23,21:30 (19:30),La Liga,2025-2026,Barcelona,Levante,Away,Matchweek 2,1.9,3.0,2.0,26.0,10.0,17.0,1.0,0.0,1.8,2.0,3.0,7.0,4.0,13.5,0.0,1.0
 2025-08-31,21:30 (19:30),La Liga,2025-2026,Barcelona,Rayo Vallecano,Away,Matchweek 3,1.8,1.0,1.0,11.0,2.0,20.3,0.0,1.0,1.8,1.0,1.0,12.0,6.0,14.9,1.0,0.0
 2025-09-14,21:00 (19:00),La Liga,2025-2026,Barcelona,Valencia,Home,Matchweek 4,3.9,6.0,0.0,24.0,10.0,18.4,0.0,0.0,0.1,0.0,6.0,2.0,1.0,14.1,0.0,0.0
-2025-09-18,20:00 (19:00),Champions Lg,2025-2026,Barcelona,eng Newcastle Utd,Away,League phase,1.3,2.0,1.0,19.0,5.0,17.4,1.0,0.0,1.4,1.0,2.0,10.0,6.0,15.3,0.0,0.0
+2025-09-18,20:00 (19:00),Champions Lg,2025-2026,Barcelona,eng Newcastle Utd,Away,League phase,1.1,2.0,1.0,19.0,5.0,17.4,1.0,0.0,1.2,1.0,2.0,10.0,6.0,15.3,0.0,0.0
 2025-09-21,21:00 (19:00),La Liga,2025-2026,Barcelona,Getafe,Home,Matchweek 5,2.0,3.0,0.0,16.0,7.0,18.2,2.0,0.0,0.2,0.0,3.0,3.0,2.0,14.5,0.0,0.0
 2025-09-25,21:30 (19:30),La Liga,2025-2026,Barcelona,Oviedo,Away,Matchweek 6,,,,,,,,,,,,,,,,
 2025-09-28,18:30 (16:30),La Liga,2025-2026,Barcelona,Real Sociedad,Home,Matchweek 7,,,,,,,,,,,,,,,,
@@ -1294,7 +1294,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2025-08-30,19:30 (17:30),La Liga,2025-2026,Sevilla,Girona,Away,Matchweek 3,1.3,2.0,0.0,13.0,4.0,17.8,0.0,0.0,2.0,0.0,2.0,20.0,5.0,17.1,0.0,0.0
 2025-09-12,21:00 (19:00),La Liga,2025-2026,Sevilla,Elche,Home,Matchweek 4,0.4,2.0,2.0,7.0,3.0,17.3,0.0,0.0,1.0,2.0,2.0,5.0,2.0,19.8,1.0,0.0
 2025-09-20,18:30 (16:30),La Liga,2025-2026,Sevilla,Alavés,Away,Matchweek 5,0.5,2.0,1.0,9.0,3.0,18.5,0.0,0.0,1.0,1.0,2.0,7.0,4.0,24.4,0.0,1.0
-2025-09-23,21:30 (19:30),La Liga,2025-2026,Sevilla,Villarreal,Home,Matchweek 6,,,,,,,,,,,,,,,,
+2025-09-23,21:30 (19:30),La Liga,2025-2026,Sevilla,Villarreal,Home,Matchweek 6,,1.0,2.0,16.0,2.0,18.4,1.0,0.0,,2.0,1.0,12.0,5.0,14.4,0.0,0.0
 2025-09-28,14:00 (12:00),La Liga,2025-2026,Sevilla,Rayo Vallecano,Away,Matchweek 7,,,,,,,,,,,,,,,,
 2025-10-05,16:15 (14:15),La Liga,2025-2026,Sevilla,Barcelona,Home,Matchweek 8,,,,,,,,,,,,,,,,
 2025-10-18,14:00 (12:00),La Liga,2025-2026,Sevilla,Mallorca,Home,Matchweek 9,,,,,,,,,,,,,,,,
@@ -1493,7 +1493,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2025-08-28,20:00 (18:00),Conf Lg,2025-2026,Rayo Vallecano,by FC Neman Grodno,Home,Play-off round,,4.0,0.0,,,,,0.0,,0.0,4.0,,,,,0.0
 2025-08-31,21:30 (19:30),La Liga,2025-2026,Rayo Vallecano,Barcelona,Home,Matchweek 3,1.8,1.0,1.0,12.0,6.0,14.9,1.0,0.0,1.8,1.0,1.0,11.0,2.0,20.3,0.0,1.0
 2025-09-14,18:30 (16:30),La Liga,2025-2026,Rayo Vallecano,Osasuna,Away,Matchweek 4,1.1,0.0,2.0,19.0,6.0,21.3,1.0,0.0,1.6,2.0,0.0,9.0,6.0,16.7,0.0,0.0
-2025-09-21,14:00 (12:00),La Liga,2025-2026,Rayo Vallecano,Celta Vigo,Home,Matchweek 5,1.0,1.0,1.0,15.0,5.0,21.1,1.0,0.0,0.8,1.0,1.0,9.0,5.0,16.9,0.0,0.0
+2025-09-21,14:00 (12:00),La Liga,2025-2026,Rayo Vallecano,Celta Vigo,Home,Matchweek 5,1.1,1.0,1.0,15.0,5.0,21.1,1.0,0.0,0.9,1.0,1.0,9.0,5.0,16.9,0.0,0.0
 2025-09-24,21:30 (19:30),La Liga,2025-2026,Rayo Vallecano,Atlético Madrid,Away,Matchweek 6,,,,,,,,,,,,,,,,
 2025-09-28,14:00 (12:00),La Liga,2025-2026,Rayo Vallecano,Sevilla,Home,Matchweek 7,,,,,,,,,,,,,,,,
 2025-10-02,18:45 (16:45),Conf Lg,2025-2026,Rayo Vallecano,mk Shkëndija 79,Home,League phase,,,,,,,,,,,,,,,,
@@ -1539,7 +1539,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2025-08-27,21:00 (19:00),La Liga,2025-2026,Celta Vigo,Betis,Home,Matchweek 6,0.8,1.0,1.0,14.0,5.0,17.2,0.0,0.0,0.3,1.0,1.0,7.0,1.0,22.5,0.0,0.0
 2025-08-31,17:00 (15:00),La Liga,2025-2026,Celta Vigo,Villarreal,Home,Matchweek 3,1.0,1.0,1.0,10.0,2.0,18.2,0.0,0.0,1.0,1.0,1.0,8.0,3.0,16.3,0.0,0.0
 2025-09-14,14:00 (12:00),La Liga,2025-2026,Celta Vigo,Girona,Home,Matchweek 4,2.5,1.0,1.0,20.0,6.0,18.5,0.0,1.0,0.6,1.0,1.0,13.0,8.0,16.1,0.0,0.0
-2025-09-21,14:00 (12:00),La Liga,2025-2026,Celta Vigo,Rayo Vallecano,Away,Matchweek 5,0.8,1.0,1.0,9.0,5.0,16.9,0.0,0.0,1.0,1.0,1.0,15.0,5.0,21.1,1.0,0.0
+2025-09-21,14:00 (12:00),La Liga,2025-2026,Celta Vigo,Rayo Vallecano,Away,Matchweek 5,0.9,1.0,1.0,9.0,5.0,16.9,0.0,0.0,1.1,1.0,1.0,15.0,5.0,21.1,1.0,0.0
 2025-09-25,21:00 (19:00),Europa Lg,2025-2026,Celta Vigo,de Stuttgart,Away,League phase,,,,,,,,,,,,,,,,
 2025-09-28,16:15 (14:15),La Liga,2025-2026,Celta Vigo,Elche,Away,Matchweek 7,,,,,,,,,,,,,,,,
 2025-10-02,21:00 (19:00),Europa Lg,2025-2026,Celta Vigo,gr PAOK,Home,League phase,,,,,,,,,,,,,,,,
