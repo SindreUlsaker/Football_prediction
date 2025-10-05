@@ -48,6 +48,7 @@ def get_driver():
     )
     lang = os.getenv("FBREF_LANG", "en-US,en;q=0.9")
     proxy = os.getenv("FBREF_PROXY")  # eks. http://user:pass@host:port
+    chrome_bin = os.getenv("CHROME_BIN")  # <-- NYTT: path fra workflow
 
     if uc:
         options = uc.ChromeOptions()
@@ -64,14 +65,16 @@ def get_driver():
         options.add_argument("--lang=" + lang)
         if proxy:
             options.add_argument(f"--proxy-server={proxy}")
-        # Viktig i CI: ikke vent på alt
         options.page_load_strategy = "eager"
+
+        # NYTT: bruk eksakt Chrome-binær fra Actions
+        if chrome_bin:
+            options.binary_location = chrome_bin
 
         _driver = uc.Chrome(options=options)
         _driver.set_page_load_timeout(120)
         _driver.set_script_timeout(60)
 
-        # Stealth + UA
         try:
             _driver.execute_cdp_cmd(
                 "Page.addScriptToEvaluateOnNewDocument",
@@ -86,7 +89,6 @@ def get_driver():
         except Exception:
             pass
 
-        # Warm-up cookies
         try:
             _driver.get("https://fbref.com/")
             time.sleep(1.2 + random.random())
@@ -109,6 +111,9 @@ def get_driver():
         )
         options.add_experimental_option("useAutomationExtension", False)
         options.page_load_strategy = "eager"
+
+        if chrome_bin:
+            options.binary_location = chrome_bin
 
         _driver = webdriver.Chrome(options=options)
         _driver.set_page_load_timeout(120)
