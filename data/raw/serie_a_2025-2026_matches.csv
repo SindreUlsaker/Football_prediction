@@ -1,4 +1,142 @@
 date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_for,dist_for,fk_for,pk_for,xg_against,gf_against,ga_against,sh_against,sot_against,dist_against,fk_against,pk_against
+2025-08-23,18:30 (16:30),Serie A,2025-2026,Napoli,Sassuolo,Away,Matchweek 1,1.2,2.0,0.0,13.0,4.0,20.2,2.0,0.0,0.4,0.0,2.0,7.0,2.0,22.1,0.0,0.0
+2025-08-30,20:45 (18:45),Serie A,2025-2026,Napoli,Cagliari,Home,Matchweek 2,1.5,1.0,0.0,20.0,6.0,15.4,0.0,0.0,0.5,0.0,1.0,10.0,1.0,26.8,1.0,0.0
+2025-09-13,20:45 (18:45),Serie A,2025-2026,Napoli,Fiorentina,Away,Matchweek 3,2.7,3.0,1.0,13.0,7.0,14.3,0.0,1.0,1.4,1.0,3.0,19.0,3.0,16.0,1.0,0.0
+2025-09-18,20:00 (19:00),Champions Lg,2025-2026,Napoli,eng Manchester City,Away,League phase,0.2,0.0,2.0,1.0,1.0,5.9,0.0,0.0,2.1,2.0,0.0,23.0,8.0,15.9,1.0,0.0
+2025-09-22,20:45 (18:45),Serie A,2025-2026,Napoli,Pisa,Home,Matchweek 4,1.1,3.0,2.0,18.0,6.0,16.5,0.0,0.0,2.4,2.0,3.0,14.0,5.0,16.2,0.0,1.0
+2025-09-28,20:45 (18:45),Serie A,2025-2026,Napoli,Milan,Away,Matchweek 5,2.5,1.0,2.0,18.0,6.0,18.0,0.0,1.0,0.7,2.0,1.0,6.0,3.0,14.1,0.0,0.0
+2025-10-01,21:00 (19:00),Champions Lg,2025-2026,Napoli,pt Sporting CP,Home,League phase,0.9,2.0,1.0,12.0,3.0,22.0,0.0,0.0,1.3,1.0,2.0,7.0,3.0,23.8,0.0,1.0
+2025-10-05,18:00 (16:00),Serie A,2025-2026,Napoli,Genoa,Home,Matchweek 6,1.1,2.0,1.0,12.0,5.0,12.4,0.0,0.0,0.4,1.0,2.0,6.0,1.0,27.0,0.0,0.0
+2025-10-18,18:00 (16:00),Serie A,2025-2026,Napoli,Torino,Away,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-21,21:00 (19:00),Champions Lg,2025-2026,Napoli,nl PSV Eindhoven,Away,League phase,,,,,,,,,,,,,,,,
+2025-10-25,18:00 (16:00),Serie A,2025-2026,Napoli,Inter,Home,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-28,18:30 (17:30),Serie A,2025-2026,Napoli,Lecce,Away,Matchweek 9,,,,,,,,,,,,,,,,
+2025-11-01,18:00 (17:00),Serie A,2025-2026,Napoli,Como,Home,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-04,18:45 (17:45),Champions Lg,2025-2026,Napoli,de Eint Frankfurt,Home,League phase,,,,,,,,,,,,,,,,
+2025-11-09,15:00 (14:00),Serie A,2025-2026,Napoli,Bologna,Away,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-22,20:45 (19:45),Serie A,2025-2026,Napoli,Atalanta,Home,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-25,21:00 (20:00),Champions Lg,2025-2026,Napoli,az Qarabağ,Home,League phase,,,,,,,,,,,,,,,,
+2025-11-30,,Serie A,2025-2026,Napoli,Roma,Away,Matchweek 13,,,,,,,,,,,,,,,,
+2025-12-03,18:00 (17:00),Coppa Italia,2025-2026,Napoli,Cagliari,Home,Round of 16,,,,,,,,,,,,,,,,
+2025-12-07,,Serie A,2025-2026,Napoli,Juventus,Home,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-10,20:00,Champions Lg,2025-2026,Napoli,pt Benfica,Away,League phase,,,,,,,,,,,,,,,,
+2025-12-14,,Serie A,2025-2026,Napoli,Udinese,Away,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-21,,Serie A,2025-2026,Napoli,Parma,Home,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-28,,Serie A,2025-2026,Napoli,Cremonese,Away,Matchweek 17,,,,,,,,,,,,,,,,
+2026-01-03,,Serie A,2025-2026,Napoli,Lazio,Away,Matchweek 18,,,,,,,,,,,,,,,,
+2026-01-06,,Serie A,2025-2026,Napoli,Hellas Verona,Home,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-11,,Serie A,2025-2026,Napoli,Inter,Away,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-18,,Serie A,2025-2026,Napoli,Sassuolo,Home,Matchweek 21,,,,,,,,,,,,,,,,
+2026-01-20,21:00 (20:00),Champions Lg,2025-2026,Napoli,dk FC Copenhagen,Away,League phase,,,,,,,,,,,,,,,,
+2026-01-25,,Serie A,2025-2026,Napoli,Juventus,Away,Matchweek 22,,,,,,,,,,,,,,,,
+2026-01-28,21:00 (20:00),Champions Lg,2025-2026,Napoli,eng Chelsea,Home,League phase,,,,,,,,,,,,,,,,
+2026-02-01,,Serie A,2025-2026,Napoli,Fiorentina,Home,Matchweek 23,,,,,,,,,,,,,,,,
+2026-02-08,,Serie A,2025-2026,Napoli,Genoa,Away,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-15,,Serie A,2025-2026,Napoli,Roma,Home,Matchweek 25,,,,,,,,,,,,,,,,
+2026-02-22,,Serie A,2025-2026,Napoli,Atalanta,Away,Matchweek 26,,,,,,,,,,,,,,,,
+Date,Time,Comp,2025-2026,Napoli,Opponent,Venue,Round,,,,,,,,,,,,,,,,
+2026-03-01,,Serie A,2025-2026,Napoli,Hellas Verona,Away,Matchweek 27,,,,,,,,,,,,,,,,
+2026-03-08,,Serie A,2025-2026,Napoli,Torino,Home,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-15,,Serie A,2025-2026,Napoli,Lecce,Home,Matchweek 29,,,,,,,,,,,,,,,,
+2026-03-22,,Serie A,2025-2026,Napoli,Cagliari,Away,Matchweek 30,,,,,,,,,,,,,,,,
+2026-04-04,,Serie A,2025-2026,Napoli,Milan,Home,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-12,,Serie A,2025-2026,Napoli,Parma,Away,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-19,,Serie A,2025-2026,Napoli,Lazio,Home,Matchweek 33,,,,,,,,,,,,,,,,
+2026-04-26,,Serie A,2025-2026,Napoli,Cremonese,Home,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-03,,Serie A,2025-2026,Napoli,Como,Away,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-10,,Serie A,2025-2026,Napoli,Bologna,Home,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,,Serie A,2025-2026,Napoli,Pisa,Away,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,,Serie A,2025-2026,Napoli,Udinese,Home,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-23,20:45 (18:45),Serie A,2025-2026,Roma,Bologna,Home,Matchweek 1,1.6,1.0,0.0,14.0,4.0,18.7,0.0,0.0,0.6,0.0,1.0,10.0,2.0,18.5,0.0,0.0
+2025-08-30,20:45 (18:45),Serie A,2025-2026,Roma,Pisa,Away,Matchweek 2,0.8,1.0,0.0,10.0,5.0,19.3,1.0,0.0,0.6,0.0,1.0,7.0,3.0,21.7,0.0,0.0
+2025-09-14,12:30 (10:30),Serie A,2025-2026,Roma,Torino,Home,Matchweek 3,1.1,0.0,1.0,22.0,5.0,16.9,2.0,0.0,0.6,1.0,0.0,8.0,4.0,19.5,0.0,0.0
+2025-09-21,12:30 (10:30),Serie A,2025-2026,Roma,Lazio,Away,Matchweek 4,1.1,1.0,0.0,13.0,6.0,13.1,1.0,0.0,1.0,0.0,1.0,10.0,2.0,19.9,0.0,0.0
+2025-09-24,21:00 (19:00),Europa Lg,2025-2026,Roma,fr Nice,Away,League phase,0.8,2.0,1.0,12.0,4.0,16.3,0.0,0.0,0.9,1.0,2.0,6.0,1.0,22.4,0.0,1.0
+2025-09-28,15:00 (13:00),Serie A,2025-2026,Roma,Hellas Verona,Home,Matchweek 5,0.9,2.0,0.0,10.0,5.0,18.0,0.0,0.0,1.4,0.0,2.0,12.0,3.0,20.3,1.0,0.0
+2025-10-02,18:45 (16:45),Europa Lg,2025-2026,Roma,fr Lille,Home,League phase,2.3,0.0,1.0,19.0,4.0,17.7,0.0,0.0,1.3,1.0,0.0,9.0,5.0,14.7,0.0,0.0
+2025-10-05,15:00 (13:00),Serie A,2025-2026,Roma,Fiorentina,Away,Matchweek 6,1.3,2.0,1.0,8.0,3.0,14.4,0.0,0.0,0.8,1.0,2.0,11.0,3.0,22.0,1.0,0.0
+2025-10-18,20:45 (18:45),Serie A,2025-2026,Roma,Inter,Home,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-23,21:00 (19:00),Europa Lg,2025-2026,Roma,cz Viktoria Plzeň,Home,League phase,,,,,,,,,,,,,,,,
+2025-10-26,15:00 (14:00),Serie A,2025-2026,Roma,Sassuolo,Away,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-29,18:30 (17:30),Serie A,2025-2026,Roma,Parma,Home,Matchweek 9,,,,,,,,,,,,,,,,
+2025-11-02,20:45 (19:45),Serie A,2025-2026,Roma,Milan,Away,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-06,20:00,Europa Lg,2025-2026,Roma,sct Rangers,Away,League phase,,,,,,,,,,,,,,,,
+2025-11-09,18:00 (17:00),Serie A,2025-2026,Roma,Udinese,Home,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-23,15:00 (14:00),Serie A,2025-2026,Roma,Cremonese,Away,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-27,18:45 (17:45),Europa Lg,2025-2026,Roma,dk Midtjylland,Home,League phase,,,,,,,,,,,,,,,,
+2025-11-30,,Serie A,2025-2026,Roma,Napoli,Home,Matchweek 13,,,,,,,,,,,,,,,,
+2025-12-03,18:00 (17:00),Coppa Italia,2025-2026,Roma,Torino,Home,Round of 16,,,,,,,,,,,,,,,,
+2025-12-07,,Serie A,2025-2026,Roma,Cagliari,Away,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-11,20:00,Europa Lg,2025-2026,Roma,sct Celtic,Away,League phase,,,,,,,,,,,,,,,,
+2025-12-14,,Serie A,2025-2026,Roma,Como,Home,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-21,,Serie A,2025-2026,Roma,Juventus,Away,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-28,,Serie A,2025-2026,Roma,Genoa,Home,Matchweek 17,,,,,,,,,,,,,,,,
+2026-01-03,,Serie A,2025-2026,Roma,Atalanta,Away,Matchweek 18,,,,,,,,,,,,,,,,
+2026-01-06,,Serie A,2025-2026,Roma,Lecce,Away,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-11,,Serie A,2025-2026,Roma,Sassuolo,Home,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-18,,Serie A,2025-2026,Roma,Torino,Away,Matchweek 21,,,,,,,,,,,,,,,,
+2026-01-22,21:00 (20:00),Europa Lg,2025-2026,Roma,de Stuttgart,Home,League phase,,,,,,,,,,,,,,,,
+2026-01-25,,Serie A,2025-2026,Roma,Milan,Home,Matchweek 22,,,,,,,,,,,,,,,,
+2026-01-29,22:00 (20:00),Europa Lg,2025-2026,Roma,gr Panathinaikos,Away,League phase,,,,,,,,,,,,,,,,
+2026-02-01,,Serie A,2025-2026,Roma,Udinese,Away,Matchweek 23,,,,,,,,,,,,,,,,
+2026-02-08,,Serie A,2025-2026,Roma,Cagliari,Home,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-15,,Serie A,2025-2026,Roma,Napoli,Away,Matchweek 25,,,,,,,,,,,,,,,,
+2026-02-22,,Serie A,2025-2026,Roma,Cremonese,Home,Matchweek 26,,,,,,,,,,,,,,,,
+Date,Time,Comp,2025-2026,Roma,Opponent,Venue,Round,,,,,,,,,,,,,,,,
+2026-03-01,,Serie A,2025-2026,Roma,Juventus,Home,Matchweek 27,,,,,,,,,,,,,,,,
+2026-03-08,,Serie A,2025-2026,Roma,Genoa,Away,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-15,,Serie A,2025-2026,Roma,Como,Away,Matchweek 29,,,,,,,,,,,,,,,,
+2026-03-22,,Serie A,2025-2026,Roma,Lecce,Home,Matchweek 30,,,,,,,,,,,,,,,,
+2026-04-04,,Serie A,2025-2026,Roma,Inter,Away,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-12,,Serie A,2025-2026,Roma,Pisa,Home,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-19,,Serie A,2025-2026,Roma,Atalanta,Home,Matchweek 33,,,,,,,,,,,,,,,,
+2026-04-26,,Serie A,2025-2026,Roma,Bologna,Away,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-03,,Serie A,2025-2026,Roma,Fiorentina,Home,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-10,,Serie A,2025-2026,Roma,Parma,Away,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,,Serie A,2025-2026,Roma,Lazio,Home,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,,Serie A,2025-2026,Roma,Hellas Verona,Away,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-17,21:15 (19:15),Coppa Italia,2025-2026,Milan,Bari,Home,First round,,2.0,0.0,24.0,5.0,,,0.0,,0.0,2.0,6.0,1.0,,,0.0
+2025-08-23,20:45 (18:45),Serie A,2025-2026,Milan,Cremonese,Home,Matchweek 1,1.8,1.0,2.0,24.0,5.0,15.5,0.0,0.0,0.2,2.0,1.0,4.0,3.0,13.6,0.0,0.0
+2025-08-29,20:45 (18:45),Serie A,2025-2026,Milan,Lecce,Away,Matchweek 2,1.8,2.0,0.0,14.0,6.0,14.4,0.0,0.0,0.3,0.0,2.0,7.0,2.0,15.8,0.0,0.0
+2025-09-14,20:45 (18:45),Serie A,2025-2026,Milan,Bologna,Home,Matchweek 3,1.0,1.0,0.0,14.0,3.0,16.0,0.0,0.0,0.2,0.0,1.0,5.0,0.0,20.4,0.0,0.0
+2025-09-20,20:45 (18:45),Serie A,2025-2026,Milan,Udinese,Away,Matchweek 4,1.4,3.0,0.0,13.0,6.0,14.2,0.0,0.0,0.3,0.0,3.0,10.0,4.0,27.2,0.0,0.0
+2025-09-23,21:00 (19:00),Coppa Italia,2025-2026,Milan,Lecce,Home,Second round,,3.0,0.0,24.0,10.0,,,0.0,,0.0,3.0,2.0,1.0,,,0.0
+2025-09-28,20:45 (18:45),Serie A,2025-2026,Milan,Napoli,Home,Matchweek 5,0.7,2.0,1.0,6.0,3.0,14.1,0.0,0.0,2.5,1.0,2.0,18.0,6.0,18.0,0.0,1.0
+2025-10-05,20:45 (18:45),Serie A,2025-2026,Milan,Juventus,Away,Matchweek 6,1.7,0.0,0.0,12.0,4.0,23.0,1.0,0.0,0.7,0.0,0.0,12.0,3.0,17.0,0.0,0.0
+2025-10-19,20:45 (18:45),Serie A,2025-2026,Milan,Fiorentina,Home,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-24,20:45 (18:45),Serie A,2025-2026,Milan,Pisa,Home,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-28,20:45 (19:45),Serie A,2025-2026,Milan,Atalanta,Away,Matchweek 9,,,,,,,,,,,,,,,,
+2025-11-02,20:45 (19:45),Serie A,2025-2026,Milan,Roma,Home,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-08,20:45 (19:45),Serie A,2025-2026,Milan,Parma,Away,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-23,20:45 (19:45),Serie A,2025-2026,Milan,Inter,Away,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-30,,Serie A,2025-2026,Milan,Lazio,Home,Matchweek 13,,,,,,,,,,,,,,,,
+2025-12-03,18:00 (17:00),Coppa Italia,2025-2026,Milan,Lazio,Away,Round of 16,,,,,,,,,,,,,,,,
+2025-12-07,,Serie A,2025-2026,Milan,Torino,Away,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-14,,Serie A,2025-2026,Milan,Sassuolo,Home,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-21,,Serie A,2025-2026,Milan,Como,Away,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-28,,Serie A,2025-2026,Milan,Hellas Verona,Home,Matchweek 17,,,,,,,,,,,,,,,,
+2026-01-03,,Serie A,2025-2026,Milan,Cagliari,Away,Matchweek 18,,,,,,,,,,,,,,,,
+2026-01-06,,Serie A,2025-2026,Milan,Genoa,Home,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-11,,Serie A,2025-2026,Milan,Fiorentina,Away,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-18,,Serie A,2025-2026,Milan,Lecce,Home,Matchweek 21,,,,,,,,,,,,,,,,
+2026-01-25,,Serie A,2025-2026,Milan,Roma,Away,Matchweek 22,,,,,,,,,,,,,,,,
+2026-02-01,,Serie A,2025-2026,Milan,Bologna,Away,Matchweek 23,,,,,,,,,,,,,,,,
+2026-02-08,,Serie A,2025-2026,Milan,Como,Home,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-15,,Serie A,2025-2026,Milan,Pisa,Away,Matchweek 25,,,,,,,,,,,,,,,,
+2026-02-22,,Serie A,2025-2026,Milan,Parma,Home,Matchweek 26,,,,,,,,,,,,,,,,
+2026-03-01,,Serie A,2025-2026,Milan,Cremonese,Away,Matchweek 27,,,,,,,,,,,,,,,,
+2026-03-08,,Serie A,2025-2026,Milan,Inter,Home,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-15,,Serie A,2025-2026,Milan,Lazio,Away,Matchweek 29,,,,,,,,,,,,,,,,
+2026-03-22,,Serie A,2025-2026,Milan,Torino,Home,Matchweek 30,,,,,,,,,,,,,,,,
+2026-04-04,,Serie A,2025-2026,Milan,Napoli,Away,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-12,,Serie A,2025-2026,Milan,Udinese,Home,Matchweek 32,,,,,,,,,,,,,,,,
+Date,Time,Comp,2025-2026,Milan,Opponent,Venue,Round,,,,,,,,,,,,,,,,
+2026-04-19,,Serie A,2025-2026,Milan,Hellas Verona,Away,Matchweek 33,,,,,,,,,,,,,,,,
+2026-04-26,,Serie A,2025-2026,Milan,Juventus,Home,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-03,,Serie A,2025-2026,Milan,Sassuolo,Away,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-10,,Serie A,2025-2026,Milan,Atalanta,Home,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,,Serie A,2025-2026,Milan,Genoa,Away,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,,Serie A,2025-2026,Milan,Cagliari,Home,Matchweek 38,,,,,,,,,,,,,,,,
 2025-08-25,20:45 (18:45),Serie A,2025-2026,Internazionale,Torino,Home,Matchweek 1,1.6,5.0,0.0,20.0,9.0,15.4,1.0,0.0,0.9,0.0,5.0,12.0,4.0,17.1,0.0,0.0
 2025-08-31,20:45 (18:45),Serie A,2025-2026,Internazionale,Udinese,Home,Matchweek 2,1.8,1.0,2.0,16.0,3.0,12.6,0.0,0.0,1.1,2.0,1.0,9.0,4.0,24.9,1.0,1.0
 2025-09-13,18:00 (16:00),Serie A,2025-2026,Internazionale,Juventus,Away,Matchweek 3,0.9,3.0,4.0,18.0,4.0,19.8,1.0,0.0,0.7,4.0,3.0,12.0,4.0,21.3,0.0,0.0
@@ -47,144 +185,6 @@ Date,Time,Comp,2025-2026,Internazionale,Opponent,Venue,Round,,,,,,,,,,,,,,,,
 2026-05-10,,Serie A,2025-2026,Internazionale,Lazio,Away,Matchweek 36,,,,,,,,,,,,,,,,
 2026-05-17,,Serie A,2025-2026,Internazionale,Hellas Verona,Home,Matchweek 37,,,,,,,,,,,,,,,,
 2026-05-24,,Serie A,2025-2026,Internazionale,Bologna,Away,Matchweek 38,,,,,,,,,,,,,,,,
-2025-08-17,21:15 (19:15),Coppa Italia,2025-2026,Milan,Bari,Home,First round,,2.0,0.0,24.0,5.0,,,0.0,,0.0,2.0,6.0,1.0,,,0.0
-2025-08-23,20:45 (18:45),Serie A,2025-2026,Milan,Cremonese,Home,Matchweek 1,1.8,1.0,2.0,24.0,5.0,15.5,0.0,0.0,0.2,2.0,1.0,4.0,3.0,13.6,0.0,0.0
-2025-08-29,20:45 (18:45),Serie A,2025-2026,Milan,Lecce,Away,Matchweek 2,1.8,2.0,0.0,14.0,6.0,14.4,0.0,0.0,0.3,0.0,2.0,7.0,2.0,15.8,0.0,0.0
-2025-09-14,20:45 (18:45),Serie A,2025-2026,Milan,Bologna,Home,Matchweek 3,1.0,1.0,0.0,14.0,3.0,16.0,0.0,0.0,0.2,0.0,1.0,5.0,0.0,20.4,0.0,0.0
-2025-09-20,20:45 (18:45),Serie A,2025-2026,Milan,Udinese,Away,Matchweek 4,1.4,3.0,0.0,13.0,6.0,14.2,0.0,0.0,0.3,0.0,3.0,10.0,4.0,27.2,0.0,0.0
-2025-09-23,21:00 (19:00),Coppa Italia,2025-2026,Milan,Lecce,Home,Second round,,3.0,0.0,24.0,10.0,,,0.0,,0.0,3.0,2.0,1.0,,,0.0
-2025-09-28,20:45 (18:45),Serie A,2025-2026,Milan,Napoli,Home,Matchweek 5,0.7,2.0,1.0,6.0,3.0,14.1,0.0,0.0,2.5,1.0,2.0,18.0,6.0,18.0,0.0,1.0
-2025-10-05,20:45 (18:45),Serie A,2025-2026,Milan,Juventus,Away,Matchweek 6,,,,,,,,,,,,,,,,
-2025-10-19,20:45 (18:45),Serie A,2025-2026,Milan,Fiorentina,Home,Matchweek 7,,,,,,,,,,,,,,,,
-2025-10-24,20:45 (18:45),Serie A,2025-2026,Milan,Pisa,Home,Matchweek 8,,,,,,,,,,,,,,,,
-2025-10-28,20:45 (19:45),Serie A,2025-2026,Milan,Atalanta,Away,Matchweek 9,,,,,,,,,,,,,,,,
-2025-11-02,20:45 (19:45),Serie A,2025-2026,Milan,Roma,Home,Matchweek 10,,,,,,,,,,,,,,,,
-2025-11-08,20:45 (19:45),Serie A,2025-2026,Milan,Parma,Away,Matchweek 11,,,,,,,,,,,,,,,,
-2025-11-23,20:45 (19:45),Serie A,2025-2026,Milan,Inter,Away,Matchweek 12,,,,,,,,,,,,,,,,
-2025-11-30,,Serie A,2025-2026,Milan,Lazio,Home,Matchweek 13,,,,,,,,,,,,,,,,
-2025-12-03,18:00 (17:00),Coppa Italia,2025-2026,Milan,Lazio,Away,Round of 16,,,,,,,,,,,,,,,,
-2025-12-07,,Serie A,2025-2026,Milan,Torino,Away,Matchweek 14,,,,,,,,,,,,,,,,
-2025-12-14,,Serie A,2025-2026,Milan,Sassuolo,Home,Matchweek 15,,,,,,,,,,,,,,,,
-2025-12-21,,Serie A,2025-2026,Milan,Como,Away,Matchweek 16,,,,,,,,,,,,,,,,
-2025-12-28,,Serie A,2025-2026,Milan,Hellas Verona,Home,Matchweek 17,,,,,,,,,,,,,,,,
-2026-01-03,,Serie A,2025-2026,Milan,Cagliari,Away,Matchweek 18,,,,,,,,,,,,,,,,
-2026-01-06,,Serie A,2025-2026,Milan,Genoa,Home,Matchweek 19,,,,,,,,,,,,,,,,
-2026-01-11,,Serie A,2025-2026,Milan,Fiorentina,Away,Matchweek 20,,,,,,,,,,,,,,,,
-2026-01-18,,Serie A,2025-2026,Milan,Lecce,Home,Matchweek 21,,,,,,,,,,,,,,,,
-2026-01-25,,Serie A,2025-2026,Milan,Roma,Away,Matchweek 22,,,,,,,,,,,,,,,,
-2026-02-01,,Serie A,2025-2026,Milan,Bologna,Away,Matchweek 23,,,,,,,,,,,,,,,,
-2026-02-08,,Serie A,2025-2026,Milan,Como,Home,Matchweek 24,,,,,,,,,,,,,,,,
-2026-02-15,,Serie A,2025-2026,Milan,Pisa,Away,Matchweek 25,,,,,,,,,,,,,,,,
-2026-02-22,,Serie A,2025-2026,Milan,Parma,Home,Matchweek 26,,,,,,,,,,,,,,,,
-2026-03-01,,Serie A,2025-2026,Milan,Cremonese,Away,Matchweek 27,,,,,,,,,,,,,,,,
-2026-03-08,,Serie A,2025-2026,Milan,Inter,Home,Matchweek 28,,,,,,,,,,,,,,,,
-2026-03-15,,Serie A,2025-2026,Milan,Lazio,Away,Matchweek 29,,,,,,,,,,,,,,,,
-2026-03-22,,Serie A,2025-2026,Milan,Torino,Home,Matchweek 30,,,,,,,,,,,,,,,,
-2026-04-04,,Serie A,2025-2026,Milan,Napoli,Away,Matchweek 31,,,,,,,,,,,,,,,,
-2026-04-12,,Serie A,2025-2026,Milan,Udinese,Home,Matchweek 32,,,,,,,,,,,,,,,,
-Date,Time,Comp,2025-2026,Milan,Opponent,Venue,Round,,,,,,,,,,,,,,,,
-2026-04-19,,Serie A,2025-2026,Milan,Hellas Verona,Away,Matchweek 33,,,,,,,,,,,,,,,,
-2026-04-26,,Serie A,2025-2026,Milan,Juventus,Home,Matchweek 34,,,,,,,,,,,,,,,,
-2026-05-03,,Serie A,2025-2026,Milan,Sassuolo,Away,Matchweek 35,,,,,,,,,,,,,,,,
-2026-05-10,,Serie A,2025-2026,Milan,Atalanta,Home,Matchweek 36,,,,,,,,,,,,,,,,
-2026-05-17,,Serie A,2025-2026,Milan,Genoa,Away,Matchweek 37,,,,,,,,,,,,,,,,
-2026-05-24,,Serie A,2025-2026,Milan,Cagliari,Home,Matchweek 38,,,,,,,,,,,,,,,,
-2025-08-23,18:30 (16:30),Serie A,2025-2026,Napoli,Sassuolo,Away,Matchweek 1,1.2,2.0,0.0,13.0,4.0,20.2,2.0,0.0,0.4,0.0,2.0,7.0,2.0,22.1,0.0,0.0
-2025-08-30,20:45 (18:45),Serie A,2025-2026,Napoli,Cagliari,Home,Matchweek 2,1.5,1.0,0.0,20.0,6.0,15.4,0.0,0.0,0.5,0.0,1.0,10.0,1.0,26.8,1.0,0.0
-2025-09-13,20:45 (18:45),Serie A,2025-2026,Napoli,Fiorentina,Away,Matchweek 3,2.7,3.0,1.0,13.0,7.0,14.3,0.0,1.0,1.4,1.0,3.0,19.0,3.0,16.0,1.0,0.0
-2025-09-18,20:00 (19:00),Champions Lg,2025-2026,Napoli,eng Manchester City,Away,League phase,0.2,0.0,2.0,1.0,1.0,5.9,0.0,0.0,2.1,2.0,0.0,23.0,8.0,15.9,1.0,0.0
-2025-09-22,20:45 (18:45),Serie A,2025-2026,Napoli,Pisa,Home,Matchweek 4,1.1,3.0,2.0,18.0,6.0,16.5,0.0,0.0,2.4,2.0,3.0,14.0,5.0,16.2,0.0,1.0
-2025-09-28,20:45 (18:45),Serie A,2025-2026,Napoli,Milan,Away,Matchweek 5,2.5,1.0,2.0,18.0,6.0,18.0,0.0,1.0,0.7,2.0,1.0,6.0,3.0,14.1,0.0,0.0
-2025-10-01,21:00 (19:00),Champions Lg,2025-2026,Napoli,pt Sporting CP,Home,League phase,0.9,2.0,1.0,12.0,3.0,22.0,0.0,0.0,1.3,1.0,2.0,7.0,3.0,23.8,0.0,1.0
-2025-10-05,18:00 (16:00),Serie A,2025-2026,Napoli,Genoa,Home,Matchweek 6,,,,,,,,,,,,,,,,
-2025-10-18,18:00 (16:00),Serie A,2025-2026,Napoli,Torino,Away,Matchweek 7,,,,,,,,,,,,,,,,
-2025-10-21,21:00 (19:00),Champions Lg,2025-2026,Napoli,nl PSV Eindhoven,Away,League phase,,,,,,,,,,,,,,,,
-2025-10-25,18:00 (16:00),Serie A,2025-2026,Napoli,Inter,Home,Matchweek 8,,,,,,,,,,,,,,,,
-2025-10-28,18:30 (17:30),Serie A,2025-2026,Napoli,Lecce,Away,Matchweek 9,,,,,,,,,,,,,,,,
-2025-11-01,18:00 (17:00),Serie A,2025-2026,Napoli,Como,Home,Matchweek 10,,,,,,,,,,,,,,,,
-2025-11-04,18:45 (17:45),Champions Lg,2025-2026,Napoli,de Eint Frankfurt,Home,League phase,,,,,,,,,,,,,,,,
-2025-11-09,15:00 (14:00),Serie A,2025-2026,Napoli,Bologna,Away,Matchweek 11,,,,,,,,,,,,,,,,
-2025-11-22,20:45 (19:45),Serie A,2025-2026,Napoli,Atalanta,Home,Matchweek 12,,,,,,,,,,,,,,,,
-2025-11-25,21:00 (20:00),Champions Lg,2025-2026,Napoli,az Qarabağ,Home,League phase,,,,,,,,,,,,,,,,
-2025-11-30,,Serie A,2025-2026,Napoli,Roma,Away,Matchweek 13,,,,,,,,,,,,,,,,
-2025-12-03,18:00 (17:00),Coppa Italia,2025-2026,Napoli,Cagliari,Home,Round of 16,,,,,,,,,,,,,,,,
-2025-12-07,,Serie A,2025-2026,Napoli,Juventus,Home,Matchweek 14,,,,,,,,,,,,,,,,
-2025-12-10,20:00,Champions Lg,2025-2026,Napoli,pt Benfica,Away,League phase,,,,,,,,,,,,,,,,
-2025-12-14,,Serie A,2025-2026,Napoli,Udinese,Away,Matchweek 15,,,,,,,,,,,,,,,,
-2025-12-21,,Serie A,2025-2026,Napoli,Parma,Home,Matchweek 16,,,,,,,,,,,,,,,,
-2025-12-28,,Serie A,2025-2026,Napoli,Cremonese,Away,Matchweek 17,,,,,,,,,,,,,,,,
-2026-01-03,,Serie A,2025-2026,Napoli,Lazio,Away,Matchweek 18,,,,,,,,,,,,,,,,
-2026-01-06,,Serie A,2025-2026,Napoli,Hellas Verona,Home,Matchweek 19,,,,,,,,,,,,,,,,
-2026-01-11,,Serie A,2025-2026,Napoli,Inter,Away,Matchweek 20,,,,,,,,,,,,,,,,
-2026-01-18,,Serie A,2025-2026,Napoli,Sassuolo,Home,Matchweek 21,,,,,,,,,,,,,,,,
-2026-01-20,21:00 (20:00),Champions Lg,2025-2026,Napoli,dk FC Copenhagen,Away,League phase,,,,,,,,,,,,,,,,
-2026-01-25,,Serie A,2025-2026,Napoli,Juventus,Away,Matchweek 22,,,,,,,,,,,,,,,,
-2026-01-28,21:00 (20:00),Champions Lg,2025-2026,Napoli,eng Chelsea,Home,League phase,,,,,,,,,,,,,,,,
-2026-02-01,,Serie A,2025-2026,Napoli,Fiorentina,Home,Matchweek 23,,,,,,,,,,,,,,,,
-2026-02-08,,Serie A,2025-2026,Napoli,Genoa,Away,Matchweek 24,,,,,,,,,,,,,,,,
-2026-02-15,,Serie A,2025-2026,Napoli,Roma,Home,Matchweek 25,,,,,,,,,,,,,,,,
-2026-02-22,,Serie A,2025-2026,Napoli,Atalanta,Away,Matchweek 26,,,,,,,,,,,,,,,,
-Date,Time,Comp,2025-2026,Napoli,Opponent,Venue,Round,,,,,,,,,,,,,,,,
-2026-03-01,,Serie A,2025-2026,Napoli,Hellas Verona,Away,Matchweek 27,,,,,,,,,,,,,,,,
-2026-03-08,,Serie A,2025-2026,Napoli,Torino,Home,Matchweek 28,,,,,,,,,,,,,,,,
-2026-03-15,,Serie A,2025-2026,Napoli,Lecce,Home,Matchweek 29,,,,,,,,,,,,,,,,
-2026-03-22,,Serie A,2025-2026,Napoli,Cagliari,Away,Matchweek 30,,,,,,,,,,,,,,,,
-2026-04-04,,Serie A,2025-2026,Napoli,Milan,Home,Matchweek 31,,,,,,,,,,,,,,,,
-2026-04-12,,Serie A,2025-2026,Napoli,Parma,Away,Matchweek 32,,,,,,,,,,,,,,,,
-2026-04-19,,Serie A,2025-2026,Napoli,Lazio,Home,Matchweek 33,,,,,,,,,,,,,,,,
-2026-04-26,,Serie A,2025-2026,Napoli,Cremonese,Home,Matchweek 34,,,,,,,,,,,,,,,,
-2026-05-03,,Serie A,2025-2026,Napoli,Como,Away,Matchweek 35,,,,,,,,,,,,,,,,
-2026-05-10,,Serie A,2025-2026,Napoli,Bologna,Home,Matchweek 36,,,,,,,,,,,,,,,,
-2026-05-17,,Serie A,2025-2026,Napoli,Pisa,Away,Matchweek 37,,,,,,,,,,,,,,,,
-2026-05-24,,Serie A,2025-2026,Napoli,Udinese,Home,Matchweek 38,,,,,,,,,,,,,,,,
-2025-08-23,20:45 (18:45),Serie A,2025-2026,Roma,Bologna,Home,Matchweek 1,1.6,1.0,0.0,14.0,4.0,18.7,0.0,0.0,0.6,0.0,1.0,10.0,2.0,18.5,0.0,0.0
-2025-08-30,20:45 (18:45),Serie A,2025-2026,Roma,Pisa,Away,Matchweek 2,0.8,1.0,0.0,10.0,5.0,19.3,1.0,0.0,0.6,0.0,1.0,7.0,3.0,21.7,0.0,0.0
-2025-09-14,12:30 (10:30),Serie A,2025-2026,Roma,Torino,Home,Matchweek 3,1.1,0.0,1.0,22.0,5.0,16.9,2.0,0.0,0.6,1.0,0.0,8.0,4.0,19.5,0.0,0.0
-2025-09-21,12:30 (10:30),Serie A,2025-2026,Roma,Lazio,Away,Matchweek 4,1.1,1.0,0.0,13.0,6.0,13.1,1.0,0.0,1.0,0.0,1.0,10.0,2.0,19.9,0.0,0.0
-2025-09-24,21:00 (19:00),Europa Lg,2025-2026,Roma,fr Nice,Away,League phase,0.8,2.0,1.0,12.0,4.0,16.3,0.0,0.0,0.9,1.0,2.0,6.0,1.0,22.4,0.0,1.0
-2025-09-28,15:00 (13:00),Serie A,2025-2026,Roma,Hellas Verona,Home,Matchweek 5,0.9,2.0,0.0,10.0,5.0,18.0,0.0,0.0,1.4,0.0,2.0,12.0,3.0,20.3,1.0,0.0
-2025-10-02,18:45 (16:45),Europa Lg,2025-2026,Roma,fr Lille,Home,League phase,2.3,0.0,1.0,19.0,4.0,17.7,0.0,0.0,1.3,1.0,0.0,9.0,5.0,14.7,0.0,0.0
-2025-10-05,15:00 (13:00),Serie A,2025-2026,Roma,Fiorentina,Away,Matchweek 6,,,,,,,,,,,,,,,,
-2025-10-18,20:45 (18:45),Serie A,2025-2026,Roma,Inter,Home,Matchweek 7,,,,,,,,,,,,,,,,
-2025-10-23,21:00 (19:00),Europa Lg,2025-2026,Roma,cz Viktoria Plzeň,Home,League phase,,,,,,,,,,,,,,,,
-2025-10-26,15:00 (14:00),Serie A,2025-2026,Roma,Sassuolo,Away,Matchweek 8,,,,,,,,,,,,,,,,
-2025-10-29,18:30 (17:30),Serie A,2025-2026,Roma,Parma,Home,Matchweek 9,,,,,,,,,,,,,,,,
-2025-11-02,20:45 (19:45),Serie A,2025-2026,Roma,Milan,Away,Matchweek 10,,,,,,,,,,,,,,,,
-2025-11-06,20:00,Europa Lg,2025-2026,Roma,sct Rangers,Away,League phase,,,,,,,,,,,,,,,,
-2025-11-09,18:00 (17:00),Serie A,2025-2026,Roma,Udinese,Home,Matchweek 11,,,,,,,,,,,,,,,,
-2025-11-23,15:00 (14:00),Serie A,2025-2026,Roma,Cremonese,Away,Matchweek 12,,,,,,,,,,,,,,,,
-2025-11-27,18:45 (17:45),Europa Lg,2025-2026,Roma,dk Midtjylland,Home,League phase,,,,,,,,,,,,,,,,
-2025-11-30,,Serie A,2025-2026,Roma,Napoli,Home,Matchweek 13,,,,,,,,,,,,,,,,
-2025-12-03,18:00 (17:00),Coppa Italia,2025-2026,Roma,Torino,Home,Round of 16,,,,,,,,,,,,,,,,
-2025-12-07,,Serie A,2025-2026,Roma,Cagliari,Away,Matchweek 14,,,,,,,,,,,,,,,,
-2025-12-11,20:00,Europa Lg,2025-2026,Roma,sct Celtic,Away,League phase,,,,,,,,,,,,,,,,
-2025-12-14,,Serie A,2025-2026,Roma,Como,Home,Matchweek 15,,,,,,,,,,,,,,,,
-2025-12-21,,Serie A,2025-2026,Roma,Juventus,Away,Matchweek 16,,,,,,,,,,,,,,,,
-2025-12-28,,Serie A,2025-2026,Roma,Genoa,Home,Matchweek 17,,,,,,,,,,,,,,,,
-2026-01-03,,Serie A,2025-2026,Roma,Atalanta,Away,Matchweek 18,,,,,,,,,,,,,,,,
-2026-01-06,,Serie A,2025-2026,Roma,Lecce,Away,Matchweek 19,,,,,,,,,,,,,,,,
-2026-01-11,,Serie A,2025-2026,Roma,Sassuolo,Home,Matchweek 20,,,,,,,,,,,,,,,,
-2026-01-18,,Serie A,2025-2026,Roma,Torino,Away,Matchweek 21,,,,,,,,,,,,,,,,
-2026-01-22,21:00 (20:00),Europa Lg,2025-2026,Roma,de Stuttgart,Home,League phase,,,,,,,,,,,,,,,,
-2026-01-25,,Serie A,2025-2026,Roma,Milan,Home,Matchweek 22,,,,,,,,,,,,,,,,
-2026-01-29,22:00 (20:00),Europa Lg,2025-2026,Roma,gr Panathinaikos,Away,League phase,,,,,,,,,,,,,,,,
-2026-02-01,,Serie A,2025-2026,Roma,Udinese,Away,Matchweek 23,,,,,,,,,,,,,,,,
-2026-02-08,,Serie A,2025-2026,Roma,Cagliari,Home,Matchweek 24,,,,,,,,,,,,,,,,
-2026-02-15,,Serie A,2025-2026,Roma,Napoli,Away,Matchweek 25,,,,,,,,,,,,,,,,
-2026-02-22,,Serie A,2025-2026,Roma,Cremonese,Home,Matchweek 26,,,,,,,,,,,,,,,,
-Date,Time,Comp,2025-2026,Roma,Opponent,Venue,Round,,,,,,,,,,,,,,,,
-2026-03-01,,Serie A,2025-2026,Roma,Juventus,Home,Matchweek 27,,,,,,,,,,,,,,,,
-2026-03-08,,Serie A,2025-2026,Roma,Genoa,Away,Matchweek 28,,,,,,,,,,,,,,,,
-2026-03-15,,Serie A,2025-2026,Roma,Como,Away,Matchweek 29,,,,,,,,,,,,,,,,
-2026-03-22,,Serie A,2025-2026,Roma,Lecce,Home,Matchweek 30,,,,,,,,,,,,,,,,
-2026-04-04,,Serie A,2025-2026,Roma,Inter,Away,Matchweek 31,,,,,,,,,,,,,,,,
-2026-04-12,,Serie A,2025-2026,Roma,Pisa,Home,Matchweek 32,,,,,,,,,,,,,,,,
-2026-04-19,,Serie A,2025-2026,Roma,Atalanta,Home,Matchweek 33,,,,,,,,,,,,,,,,
-2026-04-26,,Serie A,2025-2026,Roma,Bologna,Away,Matchweek 34,,,,,,,,,,,,,,,,
-2026-05-03,,Serie A,2025-2026,Roma,Fiorentina,Home,Matchweek 35,,,,,,,,,,,,,,,,
-2026-05-10,,Serie A,2025-2026,Roma,Parma,Away,Matchweek 36,,,,,,,,,,,,,,,,
-2026-05-17,,Serie A,2025-2026,Roma,Lazio,Home,Matchweek 37,,,,,,,,,,,,,,,,
-2026-05-24,,Serie A,2025-2026,Roma,Hellas Verona,Away,Matchweek 38,,,,,,,,,,,,,,,,
 2025-08-24,20:45 (18:45),Serie A,2025-2026,Juventus,Parma,Home,Matchweek 1,2.3,2.0,0.0,25.0,8.0,17.1,0.0,0.0,0.6,0.0,2.0,8.0,1.0,19.2,0.0,0.0
 2025-08-31,18:30 (16:30),Serie A,2025-2026,Juventus,Genoa,Away,Matchweek 2,0.9,1.0,0.0,13.0,3.0,16.9,0.0,0.0,0.5,0.0,1.0,10.0,1.0,16.9,0.0,0.0
 2025-09-13,18:00 (16:00),Serie A,2025-2026,Juventus,Inter,Home,Matchweek 3,0.7,4.0,3.0,12.0,4.0,21.3,0.0,0.0,0.9,3.0,4.0,18.0,4.0,19.8,1.0,0.0
@@ -192,7 +192,7 @@ Date,Time,Comp,2025-2026,Roma,Opponent,Venue,Round,,,,,,,,,,,,,,,,
 2025-09-20,18:00 (16:00),Serie A,2025-2026,Juventus,Hellas Verona,Away,Matchweek 4,0.5,1.0,1.0,10.0,4.0,17.2,0.0,0.0,1.5,1.0,1.0,13.0,3.0,25.4,0.0,1.0
 2025-09-27,18:00 (16:00),Serie A,2025-2026,Juventus,Atalanta,Home,Matchweek 5,1.5,1.0,1.0,24.0,10.0,18.4,2.0,0.0,0.7,1.0,1.0,12.0,2.0,17.2,0.0,0.0
 2025-10-01,21:00 (19:00),Champions Lg,2025-2026,Juventus,es Villarreal,Away,League phase,1.4,2.0,2.0,13.0,4.0,15.9,0.0,0.0,1.7,2.0,2.0,17.0,6.0,16.1,0.0,0.0
-2025-10-05,20:45 (18:45),Serie A,2025-2026,Juventus,Milan,Home,Matchweek 6,,,,,,,,,,,,,,,,
+2025-10-05,20:45 (18:45),Serie A,2025-2026,Juventus,Milan,Home,Matchweek 6,0.7,0.0,0.0,12.0,3.0,17.0,0.0,0.0,1.7,0.0,0.0,12.0,4.0,23.0,1.0,0.0
 2025-10-19,12:30 (10:30),Serie A,2025-2026,Juventus,Como,Away,Matchweek 7,,,,,,,,,,,,,,,,
 2025-10-22,21:00 (19:00),Champions Lg,2025-2026,Juventus,es Real Madrid,Away,League phase,,,,,,,,,,,,,,,,
 2025-10-26,20:45 (19:45),Serie A,2025-2026,Juventus,Lazio,Away,Matchweek 8,,,,,,,,,,,,,,,,
@@ -240,7 +240,7 @@ Date,Time,Comp,2025-2026,Juventus,Opponent,Venue,Round,,,,,,,,,,,,,,,,
 2025-09-21,15:00 (13:00),Serie A,2025-2026,Atalanta,Torino,Away,Matchweek 4,1.6,3.0,0.0,9.0,5.0,14.2,0.0,0.0,1.2,0.0,3.0,10.0,4.0,23.0,0.0,0.0
 2025-09-27,18:00 (16:00),Serie A,2025-2026,Atalanta,Juventus,Away,Matchweek 5,0.7,1.0,1.0,12.0,2.0,17.2,0.0,0.0,1.5,1.0,1.0,24.0,10.0,18.4,2.0,0.0
 2025-09-30,18:45 (16:45),Champions Lg,2025-2026,Atalanta,be Club Brugge,Home,League phase,2.5,2.0,1.0,19.0,1.0,14.6,0.0,1.0,0.9,1.0,2.0,7.0,2.0,20.8,0.0,0.0
-2025-10-04,20:45 (18:45),Serie A,2025-2026,Atalanta,Como,Home,Matchweek 6,1.4,1.0,1.0,16.0,3.0,20.4,1.0,0.0,1.3,1.0,1.0,12.0,4.0,18.4,0.0,0.0
+2025-10-04,20:45 (18:45),Serie A,2025-2026,Atalanta,Como,Home,Matchweek 6,1.4,1.0,1.0,16.0,3.0,20.2,1.0,0.0,1.3,1.0,1.0,12.0,4.0,18.4,0.0,0.0
 2025-10-19,18:00 (16:00),Serie A,2025-2026,Atalanta,Lazio,Home,Matchweek 7,,,,,,,,,,,,,,,,
 2025-10-22,21:00 (19:00),Champions Lg,2025-2026,Atalanta,cz Slavia Prague,Home,League phase,,,,,,,,,,,,,,,,
 2025-10-25,20:45 (18:45),Serie A,2025-2026,Atalanta,Cremonese,Away,Matchweek 8,,,,,,,,,,,,,,,,
@@ -281,6 +281,54 @@ Date,Time,Comp,2025-2026,Atalanta,Opponent,Venue,Round,,,,,,,,,,,,,,,,
 2026-05-10,,Serie A,2025-2026,Atalanta,Milan,Away,Matchweek 36,,,,,,,,,,,,,,,,
 2026-05-17,,Serie A,2025-2026,Atalanta,Bologna,Home,Matchweek 37,,,,,,,,,,,,,,,,
 2026-05-24,,Serie A,2025-2026,Atalanta,Fiorentina,Away,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-23,20:45 (18:45),Serie A,2025-2026,Bologna,Roma,Away,Matchweek 1,0.6,0.0,1.0,10.0,2.0,18.5,0.0,0.0,1.6,1.0,0.0,14.0,4.0,18.7,0.0,0.0
+2025-08-30,18:30 (16:30),Serie A,2025-2026,Bologna,Como,Home,Matchweek 2,1.1,1.0,0.0,15.0,2.0,17.2,0.0,0.0,0.7,0.0,1.0,13.0,2.0,20.5,0.0,0.0
+2025-09-14,20:45 (18:45),Serie A,2025-2026,Bologna,Milan,Away,Matchweek 3,0.2,0.0,1.0,5.0,0.0,20.4,0.0,0.0,1.0,1.0,0.0,14.0,3.0,16.0,0.0,0.0
+2025-09-20,15:00 (13:00),Serie A,2025-2026,Bologna,Genoa,Home,Matchweek 4,1.6,2.0,1.0,13.0,5.0,16.5,0.0,1.0,0.5,1.0,2.0,7.0,4.0,16.6,0.0,0.0
+2025-09-25,20:00 (19:00),Europa Lg,2025-2026,Bologna,eng Aston Villa,Away,League phase,1.2,0.0,1.0,17.0,7.0,17.0,0.0,0.0,1.6,1.0,0.0,11.0,3.0,18.0,0.0,0.0
+2025-09-28,18:00 (16:00),Serie A,2025-2026,Bologna,Lecce,Away,Matchweek 5,1.3,2.0,2.0,13.0,4.0,20.5,1.0,1.0,1.8,2.0,2.0,12.0,4.0,14.8,1.0,0.0
+2025-10-02,18:45 (16:45),Europa Lg,2025-2026,Bologna,de Freiburg,Home,League phase,0.8,1.0,1.0,8.0,3.0,19.9,0.0,0.0,2.0,1.0,1.0,11.0,4.0,14.9,0.0,1.0
+2025-10-05,15:00 (13:00),Serie A,2025-2026,Bologna,Pisa,Home,Matchweek 6,3.4,4.0,0.0,24.0,7.0,17.6,2.0,0.0,0.0,0.0,4.0,2.0,0.0,14.0,0.0,0.0
+2025-10-19,15:00 (13:00),Serie A,2025-2026,Bologna,Cagliari,Away,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-23,19:45 (16:45),Europa Lg,2025-2026,Bologna,ro FCSB,Away,League phase,,,,,,,,,,,,,,,,
+2025-10-26,18:00 (17:00),Serie A,2025-2026,Bologna,Fiorentina,Away,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-29,20:45 (19:45),Serie A,2025-2026,Bologna,Torino,Home,Matchweek 9,,,,,,,,,,,,,,,,
+2025-11-02,18:00 (17:00),Serie A,2025-2026,Bologna,Parma,Away,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-06,21:00 (20:00),Europa Lg,2025-2026,Bologna,no Brann,Home,League phase,,,,,,,,,,,,,,,,
+2025-11-09,15:00 (14:00),Serie A,2025-2026,Bologna,Napoli,Home,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-22,15:00 (14:00),Serie A,2025-2026,Bologna,Udinese,Away,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-27,21:00 (20:00),Europa Lg,2025-2026,Bologna,at RB Salzburg,Home,League phase,,,,,,,,,,,,,,,,
+2025-11-30,,Serie A,2025-2026,Bologna,Cremonese,Home,Matchweek 13,,,,,,,,,,,,,,,,
+2025-12-03,18:00 (17:00),Coppa Italia,2025-2026,Bologna,Parma,Home,Round of 16,,,,,,,,,,,,,,,,
+2025-12-07,,Serie A,2025-2026,Bologna,Lazio,Away,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-11,21:00 (20:00),Europa Lg,2025-2026,Bologna,es Celta Vigo,Away,League phase,,,,,,,,,,,,,,,,
+2025-12-14,,Serie A,2025-2026,Bologna,Juventus,Home,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-21,,Serie A,2025-2026,Bologna,Hellas Verona,Away,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-28,,Serie A,2025-2026,Bologna,Sassuolo,Home,Matchweek 17,,,,,,,,,,,,,,,,
+2026-01-03,,Serie A,2025-2026,Bologna,Inter,Away,Matchweek 18,,,,,,,,,,,,,,,,
+2026-01-06,,Serie A,2025-2026,Bologna,Atalanta,Home,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-11,,Serie A,2025-2026,Bologna,Como,Away,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-18,,Serie A,2025-2026,Bologna,Fiorentina,Home,Matchweek 21,,,,,,,,,,,,,,,,
+2026-01-22,18:45 (17:45),Europa Lg,2025-2026,Bologna,sct Celtic,Home,League phase,,,,,,,,,,,,,,,,
+2026-01-25,,Serie A,2025-2026,Bologna,Genoa,Away,Matchweek 22,,,,,,,,,,,,,,,,
+2026-01-29,21:00 (20:00),Europa Lg,2025-2026,Bologna,il Maccabi Tel Aviv,Away,League phase,,,,,,,,,,,,,,,,
+2026-02-01,,Serie A,2025-2026,Bologna,Milan,Home,Matchweek 23,,,,,,,,,,,,,,,,
+2026-02-08,,Serie A,2025-2026,Bologna,Parma,Home,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-15,,Serie A,2025-2026,Bologna,Torino,Away,Matchweek 25,,,,,,,,,,,,,,,,
+2026-02-22,,Serie A,2025-2026,Bologna,Udinese,Home,Matchweek 26,,,,,,,,,,,,,,,,
+Date,Time,Comp,2025-2026,Bologna,Opponent,Venue,Round,,,,,,,,,,,,,,,,
+2026-03-01,,Serie A,2025-2026,Bologna,Pisa,Away,Matchweek 27,,,,,,,,,,,,,,,,
+2026-03-08,,Serie A,2025-2026,Bologna,Hellas Verona,Home,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-15,,Serie A,2025-2026,Bologna,Sassuolo,Away,Matchweek 29,,,,,,,,,,,,,,,,
+2026-03-22,,Serie A,2025-2026,Bologna,Lazio,Home,Matchweek 30,,,,,,,,,,,,,,,,
+2026-04-04,,Serie A,2025-2026,Bologna,Cremonese,Away,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-12,,Serie A,2025-2026,Bologna,Lecce,Home,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-19,,Serie A,2025-2026,Bologna,Juventus,Away,Matchweek 33,,,,,,,,,,,,,,,,
+2026-04-26,,Serie A,2025-2026,Bologna,Roma,Home,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-03,,Serie A,2025-2026,Bologna,Cagliari,Home,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-10,,Serie A,2025-2026,Bologna,Napoli,Away,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,,Serie A,2025-2026,Bologna,Atalanta,Away,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,,Serie A,2025-2026,Bologna,Inter,Home,Matchweek 38,,,,,,,,,,,,,,,,
 2025-08-16,18:30 (16:30),Coppa Italia,2025-2026,Como,Südtirol,Home,First round,,3.0,1.0,16.0,9.0,,,0.0,,1.0,3.0,5.0,3.0,,,1.0
 2025-08-24,18:30 (16:30),Serie A,2025-2026,Como,Lazio,Home,Matchweek 1,1.3,2.0,0.0,19.0,6.0,18.3,1.0,0.0,0.3,0.0,2.0,5.0,1.0,23.0,0.0,0.0
 2025-08-30,18:30 (16:30),Serie A,2025-2026,Como,Bologna,Away,Matchweek 2,0.7,0.0,1.0,13.0,2.0,20.5,0.0,0.0,1.1,1.0,0.0,15.0,2.0,17.2,0.0,0.0
@@ -288,7 +336,7 @@ Date,Time,Comp,2025-2026,Atalanta,Opponent,Venue,Round,,,,,,,,,,,,,,,,
 2025-09-21,18:00 (16:00),Serie A,2025-2026,Como,Fiorentina,Away,Matchweek 4,1.2,2.0,1.0,19.0,7.0,18.8,1.0,0.0,0.5,1.0,2.0,8.0,1.0,19.9,1.0,0.0
 2025-09-24,21:00 (19:00),Coppa Italia,2025-2026,Como,Sassuolo,Home,Second round,,3.0,0.0,14.0,7.0,,,0.0,,0.0,3.0,8.0,2.0,,,0.0
 2025-09-27,15:00 (13:00),Serie A,2025-2026,Como,Cremonese,Home,Matchweek 5,1.3,1.0,1.0,14.0,6.0,19.2,0.0,0.0,0.4,1.0,1.0,9.0,2.0,20.0,0.0,0.0
-2025-10-04,20:45 (18:45),Serie A,2025-2026,Como,Atalanta,Away,Matchweek 6,1.3,1.0,1.0,12.0,4.0,18.4,0.0,0.0,1.4,1.0,1.0,16.0,3.0,20.4,1.0,0.0
+2025-10-04,20:45 (18:45),Serie A,2025-2026,Como,Atalanta,Away,Matchweek 6,1.3,1.0,1.0,12.0,4.0,18.4,0.0,0.0,1.4,1.0,1.0,16.0,3.0,20.2,1.0,0.0
 2025-10-19,12:30 (10:30),Serie A,2025-2026,Como,Juventus,Home,Matchweek 7,,,,,,,,,,,,,,,,
 2025-10-25,15:00 (13:00),Serie A,2025-2026,Como,Parma,Away,Matchweek 8,,,,,,,,,,,,,,,,
 2025-10-29,18:30 (17:30),Serie A,2025-2026,Como,Hellas Verona,Home,Matchweek 9,,,,,,,,,,,,,,,,
@@ -402,45 +450,6 @@ Date,Time,Comp,2025-2026,Como,Opponent,Venue,Round,,,,,,,,,,,,,,,,
 2026-05-10,,Serie A,2025-2026,Cremonese,Pisa,Home,Matchweek 36,,,,,,,,,,,,,,,,
 2026-05-17,,Serie A,2025-2026,Cremonese,Udinese,Away,Matchweek 37,,,,,,,,,,,,,,,,
 2026-05-24,,Serie A,2025-2026,Cremonese,Como,Home,Matchweek 38,,,,,,,,,,,,,,,,
-2025-08-24,18:30 (16:30),Serie A,2025-2026,Lazio,Como,Away,Matchweek 1,0.3,0.0,2.0,5.0,1.0,23.0,0.0,0.0,1.3,2.0,0.0,19.0,6.0,18.3,1.0,0.0
-2025-08-31,20:45 (18:45),Serie A,2025-2026,Lazio,Hellas Verona,Home,Matchweek 2,4.1,4.0,0.0,22.0,6.0,17.1,1.0,0.0,0.9,0.0,4.0,12.0,4.0,18.3,0.0,0.0
-2025-09-14,18:00 (16:00),Serie A,2025-2026,Lazio,Sassuolo,Away,Matchweek 3,0.8,0.0,1.0,13.0,3.0,15.2,0.0,0.0,1.1,1.0,0.0,10.0,3.0,15.2,0.0,0.0
-2025-09-21,12:30 (10:30),Serie A,2025-2026,Lazio,Roma,Home,Matchweek 4,1.0,0.0,1.0,10.0,2.0,19.9,0.0,0.0,1.1,1.0,0.0,13.0,6.0,13.1,1.0,0.0
-2025-09-29,20:45 (18:45),Serie A,2025-2026,Lazio,Genoa,Away,Matchweek 5,1.2,3.0,0.0,9.0,5.0,12.0,0.0,0.0,1.6,0.0,3.0,17.0,5.0,18.7,1.0,0.0
-2025-10-04,15:00 (13:00),Serie A,2025-2026,Lazio,Torino,Home,Matchweek 6,1.4,3.0,3.0,8.0,3.0,23.8,0.0,1.0,1.9,3.0,3.0,16.0,8.0,18.3,0.0,0.0
-2025-10-19,18:00 (16:00),Serie A,2025-2026,Lazio,Atalanta,Away,Matchweek 7,,,,,,,,,,,,,,,,
-2025-10-26,20:45 (19:45),Serie A,2025-2026,Lazio,Juventus,Home,Matchweek 8,,,,,,,,,,,,,,,,
-2025-10-30,20:45 (19:45),Serie A,2025-2026,Lazio,Pisa,Away,Matchweek 9,,,,,,,,,,,,,,,,
-2025-11-03,20:45 (19:45),Serie A,2025-2026,Lazio,Cagliari,Home,Matchweek 10,,,,,,,,,,,,,,,,
-2025-11-09,20:45 (19:45),Serie A,2025-2026,Lazio,Inter,Away,Matchweek 11,,,,,,,,,,,,,,,,
-2025-11-23,18:00 (17:00),Serie A,2025-2026,Lazio,Lecce,Home,Matchweek 12,,,,,,,,,,,,,,,,
-2025-11-30,,Serie A,2025-2026,Lazio,Milan,Away,Matchweek 13,,,,,,,,,,,,,,,,
-2025-12-03,18:00 (17:00),Coppa Italia,2025-2026,Lazio,Milan,Home,Round of 16,,,,,,,,,,,,,,,,
-2025-12-07,,Serie A,2025-2026,Lazio,Bologna,Home,Matchweek 14,,,,,,,,,,,,,,,,
-2025-12-14,,Serie A,2025-2026,Lazio,Parma,Away,Matchweek 15,,,,,,,,,,,,,,,,
-2025-12-21,,Serie A,2025-2026,Lazio,Cremonese,Home,Matchweek 16,,,,,,,,,,,,,,,,
-2025-12-28,,Serie A,2025-2026,Lazio,Udinese,Away,Matchweek 17,,,,,,,,,,,,,,,,
-2026-01-03,,Serie A,2025-2026,Lazio,Napoli,Home,Matchweek 18,,,,,,,,,,,,,,,,
-2026-01-06,,Serie A,2025-2026,Lazio,Fiorentina,Home,Matchweek 19,,,,,,,,,,,,,,,,
-2026-01-11,,Serie A,2025-2026,Lazio,Hellas Verona,Away,Matchweek 20,,,,,,,,,,,,,,,,
-2026-01-18,,Serie A,2025-2026,Lazio,Como,Home,Matchweek 21,,,,,,,,,,,,,,,,
-2026-01-25,,Serie A,2025-2026,Lazio,Lecce,Away,Matchweek 22,,,,,,,,,,,,,,,,
-2026-02-01,,Serie A,2025-2026,Lazio,Genoa,Home,Matchweek 23,,,,,,,,,,,,,,,,
-2026-02-08,,Serie A,2025-2026,Lazio,Juventus,Away,Matchweek 24,,,,,,,,,,,,,,,,
-2026-02-15,,Serie A,2025-2026,Lazio,Atalanta,Home,Matchweek 25,,,,,,,,,,,,,,,,
-2026-02-22,,Serie A,2025-2026,Lazio,Cagliari,Away,Matchweek 26,,,,,,,,,,,,,,,,
-2026-03-01,,Serie A,2025-2026,Lazio,Torino,Away,Matchweek 27,,,,,,,,,,,,,,,,
-2026-03-08,,Serie A,2025-2026,Lazio,Sassuolo,Home,Matchweek 28,,,,,,,,,,,,,,,,
-2026-03-15,,Serie A,2025-2026,Lazio,Milan,Home,Matchweek 29,,,,,,,,,,,,,,,,
-2026-03-22,,Serie A,2025-2026,Lazio,Bologna,Away,Matchweek 30,,,,,,,,,,,,,,,,
-2026-04-04,,Serie A,2025-2026,Lazio,Parma,Home,Matchweek 31,,,,,,,,,,,,,,,,
-2026-04-12,,Serie A,2025-2026,Lazio,Fiorentina,Away,Matchweek 32,,,,,,,,,,,,,,,,
-2026-04-19,,Serie A,2025-2026,Lazio,Napoli,Away,Matchweek 33,,,,,,,,,,,,,,,,
-2026-04-26,,Serie A,2025-2026,Lazio,Udinese,Home,Matchweek 34,,,,,,,,,,,,,,,,
-2026-05-03,,Serie A,2025-2026,Lazio,Cremonese,Away,Matchweek 35,,,,,,,,,,,,,,,,
-2026-05-10,,Serie A,2025-2026,Lazio,Inter,Home,Matchweek 36,,,,,,,,,,,,,,,,
-2026-05-17,,Serie A,2025-2026,Lazio,Roma,Away,Matchweek 37,,,,,,,,,,,,,,,,
-2026-05-24,,Serie A,2025-2026,Lazio,Pisa,Home,Matchweek 38,,,,,,,,,,,,,,,,
 2025-08-16,20:45 (18:45),Coppa Italia,2025-2026,Cagliari,Virtus Entella,Home,First round,,1 (5),1 (4),11.0,3.0,,,0.0,,1 (4),1 (5),5.0,2.0,,,0.0
 2025-08-24,18:30 (16:30),Serie A,2025-2026,Cagliari,Fiorentina,Home,Matchweek 1,1.1,1,1,14.0,5.0,16.9,1.0,0.0,1.0,1,1,4.0,1.0,16.3,0.0,0.0
 2025-08-30,20:45 (18:45),Serie A,2025-2026,Cagliari,Napoli,Away,Matchweek 2,0.5,0,1,10.0,1.0,26.8,1.0,0.0,1.5,1,0,20.0,6.0,15.4,0.0,0.0
@@ -448,7 +457,7 @@ Date,Time,Comp,2025-2026,Como,Opponent,Venue,Round,,,,,,,,,,,,,,,,
 2025-09-19,20:45 (18:45),Serie A,2025-2026,Cagliari,Lecce,Away,Matchweek 4,2.2,2,1,14.0,5.0,15.1,0.0,1.0,1.0,1,2,11.0,5.0,15.6,0.0,0.0
 2025-09-23,17:00 (15:00),Coppa Italia,2025-2026,Cagliari,Frosinone,Home,Second round,,4,1,16.0,8.0,,,1.0,,1,4,13.0,3.0,,,0.0
 2025-09-27,20:45 (18:45),Serie A,2025-2026,Cagliari,Inter,Home,Matchweek 5,0.2,0,2,6.0,0.0,16.1,0.0,0.0,2.8,2,0,20.0,5.0,14.5,1.0,0.0
-2025-10-05,12:30 (10:30),Serie A,2025-2026,Cagliari,Udinese,Away,Matchweek 6,,,,,,,,,,,,,,,,
+2025-10-05,12:30 (10:30),Serie A,2025-2026,Cagliari,Udinese,Away,Matchweek 6,0.9,1,1,8.0,2.0,15.2,0.0,0.0,2.7,1,1,23.0,4.0,16.4,0.0,0.0
 2025-10-19,15:00 (13:00),Serie A,2025-2026,Cagliari,Bologna,Home,Matchweek 7,,,,,,,,,,,,,,,,
 2025-10-26,15:00 (14:00),Serie A,2025-2026,Cagliari,Hellas Verona,Away,Matchweek 8,,,,,,,,,,,,,,,,
 2025-10-30,18:30 (17:30),Serie A,2025-2026,Cagliari,Sassuolo,Home,Matchweek 9,,,,,,,,,,,,,,,,
@@ -483,54 +492,6 @@ Date,Time,Comp,2025-2026,Cagliari,Opponent,Venue,Round,,,,,,,,,,,,,,,,
 2026-05-10,,Serie A,2025-2026,Cagliari,Udinese,Home,Matchweek 36,,,,,,,,,,,,,,,,
 2026-05-17,,Serie A,2025-2026,Cagliari,Torino,Home,Matchweek 37,,,,,,,,,,,,,,,,
 2026-05-24,,Serie A,2025-2026,Cagliari,Milan,Away,Matchweek 38,,,,,,,,,,,,,,,,
-2025-08-23,20:45 (18:45),Serie A,2025-2026,Bologna,Roma,Away,Matchweek 1,0.6,0.0,1.0,10.0,2.0,18.5,0.0,0.0,1.6,1.0,0.0,14.0,4.0,18.7,0.0,0.0
-2025-08-30,18:30 (16:30),Serie A,2025-2026,Bologna,Como,Home,Matchweek 2,1.1,1.0,0.0,15.0,2.0,17.2,0.0,0.0,0.7,0.0,1.0,13.0,2.0,20.5,0.0,0.0
-2025-09-14,20:45 (18:45),Serie A,2025-2026,Bologna,Milan,Away,Matchweek 3,0.2,0.0,1.0,5.0,0.0,20.4,0.0,0.0,1.0,1.0,0.0,14.0,3.0,16.0,0.0,0.0
-2025-09-20,15:00 (13:00),Serie A,2025-2026,Bologna,Genoa,Home,Matchweek 4,1.6,2.0,1.0,13.0,5.0,16.5,0.0,1.0,0.5,1.0,2.0,7.0,4.0,16.6,0.0,0.0
-2025-09-25,20:00 (19:00),Europa Lg,2025-2026,Bologna,eng Aston Villa,Away,League phase,1.2,0.0,1.0,17.0,7.0,17.0,0.0,0.0,1.6,1.0,0.0,11.0,3.0,18.0,0.0,0.0
-2025-09-28,18:00 (16:00),Serie A,2025-2026,Bologna,Lecce,Away,Matchweek 5,1.3,2.0,2.0,13.0,4.0,20.5,1.0,1.0,1.8,2.0,2.0,12.0,4.0,14.8,1.0,0.0
-2025-10-02,18:45 (16:45),Europa Lg,2025-2026,Bologna,de Freiburg,Home,League phase,0.8,1.0,1.0,8.0,3.0,19.9,0.0,0.0,2.0,1.0,1.0,11.0,4.0,14.9,0.0,1.0
-2025-10-05,15:00 (13:00),Serie A,2025-2026,Bologna,Pisa,Home,Matchweek 6,,,,,,,,,,,,,,,,
-2025-10-19,15:00 (13:00),Serie A,2025-2026,Bologna,Cagliari,Away,Matchweek 7,,,,,,,,,,,,,,,,
-2025-10-23,19:45 (16:45),Europa Lg,2025-2026,Bologna,ro FCSB,Away,League phase,,,,,,,,,,,,,,,,
-2025-10-26,18:00 (17:00),Serie A,2025-2026,Bologna,Fiorentina,Away,Matchweek 8,,,,,,,,,,,,,,,,
-2025-10-29,20:45 (19:45),Serie A,2025-2026,Bologna,Torino,Home,Matchweek 9,,,,,,,,,,,,,,,,
-2025-11-02,18:00 (17:00),Serie A,2025-2026,Bologna,Parma,Away,Matchweek 10,,,,,,,,,,,,,,,,
-2025-11-06,21:00 (20:00),Europa Lg,2025-2026,Bologna,no Brann,Home,League phase,,,,,,,,,,,,,,,,
-2025-11-09,15:00 (14:00),Serie A,2025-2026,Bologna,Napoli,Home,Matchweek 11,,,,,,,,,,,,,,,,
-2025-11-22,15:00 (14:00),Serie A,2025-2026,Bologna,Udinese,Away,Matchweek 12,,,,,,,,,,,,,,,,
-2025-11-27,21:00 (20:00),Europa Lg,2025-2026,Bologna,at RB Salzburg,Home,League phase,,,,,,,,,,,,,,,,
-2025-11-30,,Serie A,2025-2026,Bologna,Cremonese,Home,Matchweek 13,,,,,,,,,,,,,,,,
-2025-12-03,18:00 (17:00),Coppa Italia,2025-2026,Bologna,Parma,Home,Round of 16,,,,,,,,,,,,,,,,
-2025-12-07,,Serie A,2025-2026,Bologna,Lazio,Away,Matchweek 14,,,,,,,,,,,,,,,,
-2025-12-11,21:00 (20:00),Europa Lg,2025-2026,Bologna,es Celta Vigo,Away,League phase,,,,,,,,,,,,,,,,
-2025-12-14,,Serie A,2025-2026,Bologna,Juventus,Home,Matchweek 15,,,,,,,,,,,,,,,,
-2025-12-21,,Serie A,2025-2026,Bologna,Hellas Verona,Away,Matchweek 16,,,,,,,,,,,,,,,,
-2025-12-28,,Serie A,2025-2026,Bologna,Sassuolo,Home,Matchweek 17,,,,,,,,,,,,,,,,
-2026-01-03,,Serie A,2025-2026,Bologna,Inter,Away,Matchweek 18,,,,,,,,,,,,,,,,
-2026-01-06,,Serie A,2025-2026,Bologna,Atalanta,Home,Matchweek 19,,,,,,,,,,,,,,,,
-2026-01-11,,Serie A,2025-2026,Bologna,Como,Away,Matchweek 20,,,,,,,,,,,,,,,,
-2026-01-18,,Serie A,2025-2026,Bologna,Fiorentina,Home,Matchweek 21,,,,,,,,,,,,,,,,
-2026-01-22,18:45 (17:45),Europa Lg,2025-2026,Bologna,sct Celtic,Home,League phase,,,,,,,,,,,,,,,,
-2026-01-25,,Serie A,2025-2026,Bologna,Genoa,Away,Matchweek 22,,,,,,,,,,,,,,,,
-2026-01-29,21:00 (20:00),Europa Lg,2025-2026,Bologna,il Maccabi Tel Aviv,Away,League phase,,,,,,,,,,,,,,,,
-2026-02-01,,Serie A,2025-2026,Bologna,Milan,Home,Matchweek 23,,,,,,,,,,,,,,,,
-2026-02-08,,Serie A,2025-2026,Bologna,Parma,Home,Matchweek 24,,,,,,,,,,,,,,,,
-2026-02-15,,Serie A,2025-2026,Bologna,Torino,Away,Matchweek 25,,,,,,,,,,,,,,,,
-2026-02-22,,Serie A,2025-2026,Bologna,Udinese,Home,Matchweek 26,,,,,,,,,,,,,,,,
-Date,Time,Comp,2025-2026,Bologna,Opponent,Venue,Round,,,,,,,,,,,,,,,,
-2026-03-01,,Serie A,2025-2026,Bologna,Pisa,Away,Matchweek 27,,,,,,,,,,,,,,,,
-2026-03-08,,Serie A,2025-2026,Bologna,Hellas Verona,Home,Matchweek 28,,,,,,,,,,,,,,,,
-2026-03-15,,Serie A,2025-2026,Bologna,Sassuolo,Away,Matchweek 29,,,,,,,,,,,,,,,,
-2026-03-22,,Serie A,2025-2026,Bologna,Lazio,Home,Matchweek 30,,,,,,,,,,,,,,,,
-2026-04-04,,Serie A,2025-2026,Bologna,Cremonese,Away,Matchweek 31,,,,,,,,,,,,,,,,
-2026-04-12,,Serie A,2025-2026,Bologna,Lecce,Home,Matchweek 32,,,,,,,,,,,,,,,,
-2026-04-19,,Serie A,2025-2026,Bologna,Juventus,Away,Matchweek 33,,,,,,,,,,,,,,,,
-2026-04-26,,Serie A,2025-2026,Bologna,Roma,Home,Matchweek 34,,,,,,,,,,,,,,,,
-2026-05-03,,Serie A,2025-2026,Bologna,Cagliari,Home,Matchweek 35,,,,,,,,,,,,,,,,
-2026-05-10,,Serie A,2025-2026,Bologna,Napoli,Away,Matchweek 36,,,,,,,,,,,,,,,,
-2026-05-17,,Serie A,2025-2026,Bologna,Atalanta,Away,Matchweek 37,,,,,,,,,,,,,,,,
-2026-05-24,,Serie A,2025-2026,Bologna,Inter,Home,Matchweek 38,,,,,,,,,,,,,,,,
 2025-08-18,20:45 (18:45),Coppa Italia,2025-2026,Udinese,Carrarese,Home,First round,,2.0,0.0,21.0,10.0,,,0.0,,0.0,2.0,9.0,2.0,,,0.0
 2025-08-25,18:30 (16:30),Serie A,2025-2026,Udinese,Hellas Verona,Home,Matchweek 1,0.7,1.0,1.0,14.0,4.0,19.4,0.0,0.0,0.5,1.0,1.0,9.0,3.0,22.5,1.0,0.0
 2025-08-31,20:45 (18:45),Serie A,2025-2026,Udinese,Inter,Away,Matchweek 2,1.1,2.0,1.0,9.0,4.0,24.9,1.0,1.0,1.8,1.0,2.0,16.0,3.0,12.6,0.0,0.0
@@ -538,7 +499,7 @@ Date,Time,Comp,2025-2026,Bologna,Opponent,Venue,Round,,,,,,,,,,,,,,,,
 2025-09-20,20:45 (18:45),Serie A,2025-2026,Udinese,Milan,Home,Matchweek 4,0.3,0.0,3.0,10.0,4.0,27.2,0.0,0.0,1.4,3.0,0.0,13.0,6.0,14.2,0.0,0.0
 2025-09-23,18:30 (16:30),Coppa Italia,2025-2026,Udinese,Palermo,Home,Second round,,2.0,1.0,13.0,10.0,,,0.0,,1.0,2.0,13.0,4.0,,,0.0
 2025-09-28,12:30 (10:30),Serie A,2025-2026,Udinese,Sassuolo,Away,Matchweek 5,1.4,1.0,3.0,12.0,5.0,20.3,0.0,0.0,1.2,3.0,1.0,11.0,5.0,14.1,0.0,0.0
-2025-10-05,12:30 (10:30),Serie A,2025-2026,Udinese,Cagliari,Home,Matchweek 6,,,,,,,,,,,,,,,,
+2025-10-05,12:30 (10:30),Serie A,2025-2026,Udinese,Cagliari,Home,Matchweek 6,2.7,1.0,1.0,23.0,4.0,16.4,0.0,0.0,0.9,1.0,1.0,8.0,2.0,15.2,0.0,0.0
 2025-10-20,20:45 (18:45),Serie A,2025-2026,Udinese,Cremonese,Away,Matchweek 7,,,,,,,,,,,,,,,,
 2025-10-25,15:00 (13:00),Serie A,2025-2026,Udinese,Lecce,Home,Matchweek 8,,,,,,,,,,,,,,,,
 2025-10-29,18:30 (17:30),Serie A,2025-2026,Udinese,Juventus,Away,Matchweek 9,,,,,,,,,,,,,,,,
@@ -573,6 +534,45 @@ Date,Time,Comp,2025-2026,Udinese,Opponent,Venue,Round,,,,,,,,,,,,,,,,
 2026-05-10,,Serie A,2025-2026,Udinese,Cagliari,Away,Matchweek 36,,,,,,,,,,,,,,,,
 2026-05-17,,Serie A,2025-2026,Udinese,Cremonese,Home,Matchweek 37,,,,,,,,,,,,,,,,
 2026-05-24,,Serie A,2025-2026,Udinese,Napoli,Away,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-24,18:30 (16:30),Serie A,2025-2026,Lazio,Como,Away,Matchweek 1,0.3,0.0,2.0,5.0,1.0,23.0,0.0,0.0,1.3,2.0,0.0,19.0,6.0,18.3,1.0,0.0
+2025-08-31,20:45 (18:45),Serie A,2025-2026,Lazio,Hellas Verona,Home,Matchweek 2,4.1,4.0,0.0,22.0,6.0,17.1,1.0,0.0,0.9,0.0,4.0,12.0,4.0,18.3,0.0,0.0
+2025-09-14,18:00 (16:00),Serie A,2025-2026,Lazio,Sassuolo,Away,Matchweek 3,0.8,0.0,1.0,13.0,3.0,15.2,0.0,0.0,1.1,1.0,0.0,10.0,3.0,15.2,0.0,0.0
+2025-09-21,12:30 (10:30),Serie A,2025-2026,Lazio,Roma,Home,Matchweek 4,1.0,0.0,1.0,10.0,2.0,19.9,0.0,0.0,1.1,1.0,0.0,13.0,6.0,13.1,1.0,0.0
+2025-09-29,20:45 (18:45),Serie A,2025-2026,Lazio,Genoa,Away,Matchweek 5,1.2,3.0,0.0,9.0,5.0,12.0,0.0,0.0,1.6,0.0,3.0,17.0,5.0,18.7,1.0,0.0
+2025-10-04,15:00 (13:00),Serie A,2025-2026,Lazio,Torino,Home,Matchweek 6,1.3,3.0,3.0,8.0,3.0,23.7,0.0,1.0,1.8,3.0,3.0,16.0,8.0,18.0,0.0,0.0
+2025-10-19,18:00 (16:00),Serie A,2025-2026,Lazio,Atalanta,Away,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-26,20:45 (19:45),Serie A,2025-2026,Lazio,Juventus,Home,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-30,20:45 (19:45),Serie A,2025-2026,Lazio,Pisa,Away,Matchweek 9,,,,,,,,,,,,,,,,
+2025-11-03,20:45 (19:45),Serie A,2025-2026,Lazio,Cagliari,Home,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-09,20:45 (19:45),Serie A,2025-2026,Lazio,Inter,Away,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-23,18:00 (17:00),Serie A,2025-2026,Lazio,Lecce,Home,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-30,,Serie A,2025-2026,Lazio,Milan,Away,Matchweek 13,,,,,,,,,,,,,,,,
+2025-12-03,18:00 (17:00),Coppa Italia,2025-2026,Lazio,Milan,Home,Round of 16,,,,,,,,,,,,,,,,
+2025-12-07,,Serie A,2025-2026,Lazio,Bologna,Home,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-14,,Serie A,2025-2026,Lazio,Parma,Away,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-21,,Serie A,2025-2026,Lazio,Cremonese,Home,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-28,,Serie A,2025-2026,Lazio,Udinese,Away,Matchweek 17,,,,,,,,,,,,,,,,
+2026-01-03,,Serie A,2025-2026,Lazio,Napoli,Home,Matchweek 18,,,,,,,,,,,,,,,,
+2026-01-06,,Serie A,2025-2026,Lazio,Fiorentina,Home,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-11,,Serie A,2025-2026,Lazio,Hellas Verona,Away,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-18,,Serie A,2025-2026,Lazio,Como,Home,Matchweek 21,,,,,,,,,,,,,,,,
+2026-01-25,,Serie A,2025-2026,Lazio,Lecce,Away,Matchweek 22,,,,,,,,,,,,,,,,
+2026-02-01,,Serie A,2025-2026,Lazio,Genoa,Home,Matchweek 23,,,,,,,,,,,,,,,,
+2026-02-08,,Serie A,2025-2026,Lazio,Juventus,Away,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-15,,Serie A,2025-2026,Lazio,Atalanta,Home,Matchweek 25,,,,,,,,,,,,,,,,
+2026-02-22,,Serie A,2025-2026,Lazio,Cagliari,Away,Matchweek 26,,,,,,,,,,,,,,,,
+2026-03-01,,Serie A,2025-2026,Lazio,Torino,Away,Matchweek 27,,,,,,,,,,,,,,,,
+2026-03-08,,Serie A,2025-2026,Lazio,Sassuolo,Home,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-15,,Serie A,2025-2026,Lazio,Milan,Home,Matchweek 29,,,,,,,,,,,,,,,,
+2026-03-22,,Serie A,2025-2026,Lazio,Bologna,Away,Matchweek 30,,,,,,,,,,,,,,,,
+2026-04-04,,Serie A,2025-2026,Lazio,Parma,Home,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-12,,Serie A,2025-2026,Lazio,Fiorentina,Away,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-19,,Serie A,2025-2026,Lazio,Napoli,Away,Matchweek 33,,,,,,,,,,,,,,,,
+2026-04-26,,Serie A,2025-2026,Lazio,Udinese,Home,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-03,,Serie A,2025-2026,Lazio,Cremonese,Away,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-10,,Serie A,2025-2026,Lazio,Inter,Home,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,,Serie A,2025-2026,Lazio,Roma,Away,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,,Serie A,2025-2026,Lazio,Pisa,Home,Matchweek 38,,,,,,,,,,,,,,,,
 2025-08-17,18:30 (16:30),Coppa Italia,2025-2026,Parma,Pescara,Home,First round,,2,0,19.0,7.0,,,0.0,,0,2,6.0,0.0,,,0.0
 2025-08-24,20:45 (18:45),Serie A,2025-2026,Parma,Juventus,Away,Matchweek 1,0.6,0,2,8.0,1.0,19.2,0.0,0.0,2.3,2,0,25.0,8.0,17.1,0.0,0.0
 2025-08-30,18:30 (16:30),Serie A,2025-2026,Parma,Atalanta,Home,Matchweek 2,0.7,1,1,7.0,3.0,20.1,0.0,0.0,0.8,1,1,11.0,3.0,17.4,0.0,0.0
@@ -580,7 +580,7 @@ Date,Time,Comp,2025-2026,Udinese,Opponent,Venue,Round,,,,,,,,,,,,,,,,
 2025-09-21,15:00 (13:00),Serie A,2025-2026,Parma,Cremonese,Away,Matchweek 4,0.8,0,0,15.0,3.0,16.9,1.0,0.0,0.1,0,0,3.0,1.0,18.8,0.0,0.0
 2025-09-24,17:00 (15:00),Coppa Italia,2025-2026,Parma,Spezia,Home,Second round,,2 (4),2 (3),14.0,8.0,,,0.0,,2 (3),2 (4),10.0,5.0,,,0.0
 2025-09-29,18:30 (16:30),Serie A,2025-2026,Parma,Torino,Home,Matchweek 5,1.3,2,1,12.0,1.0,20.4,1.0,1.0,0.8,1,2,15.0,4.0,20.0,1.0,0.0
-2025-10-04,15:00 (13:00),Serie A,2025-2026,Parma,Lecce,Home,Matchweek 6,0.9,0,1,10.0,2.0,14.6,0.0,0.0,0.5,1,0,7.0,3.0,20.9,0.0,0.0
+2025-10-04,15:00 (13:00),Serie A,2025-2026,Parma,Lecce,Home,Matchweek 6,0.6,0,1,10.0,2.0,15.1,0.0,0.0,0.5,1,0,7.0,3.0,19.9,0.0,0.0
 2025-10-19,15:00 (13:00),Serie A,2025-2026,Parma,Genoa,Away,Matchweek 7,,,,,,,,,,,,,,,,
 2025-10-25,15:00 (13:00),Serie A,2025-2026,Parma,Como,Home,Matchweek 8,,,,,,,,,,,,,,,,
 2025-10-29,18:30 (17:30),Serie A,2025-2026,Parma,Roma,Away,Matchweek 9,,,,,,,,,,,,,,,,
@@ -622,7 +622,7 @@ Date,Time,Comp,2025-2026,Parma,Opponent,Venue,Round,,,,,,,,,,,,,,,,
 2025-09-19,20:45 (18:45),Serie A,2025-2026,Lecce,Cagliari,Home,Matchweek 4,1.0,1.0,2.0,11.0,5.0,15.6,0.0,0.0,2.2,2.0,1.0,14.0,5.0,15.1,0.0,1.0
 2025-09-23,21:00 (19:00),Coppa Italia,2025-2026,Lecce,Milan,Away,Second round,,0.0,3.0,2.0,1.0,,,0.0,,3.0,0.0,24.0,10.0,,,0.0
 2025-09-28,18:00 (16:00),Serie A,2025-2026,Lecce,Bologna,Home,Matchweek 5,1.8,2.0,2.0,12.0,4.0,14.8,1.0,0.0,1.3,2.0,2.0,13.0,4.0,20.5,1.0,1.0
-2025-10-04,15:00 (13:00),Serie A,2025-2026,Lecce,Parma,Away,Matchweek 6,0.5,1.0,0.0,7.0,3.0,20.9,0.0,0.0,0.9,0.0,1.0,10.0,2.0,14.6,0.0,0.0
+2025-10-04,15:00 (13:00),Serie A,2025-2026,Lecce,Parma,Away,Matchweek 6,0.5,1.0,0.0,7.0,3.0,19.9,0.0,0.0,0.6,0.0,1.0,10.0,2.0,15.1,0.0,0.0
 2025-10-18,15:00 (13:00),Serie A,2025-2026,Lecce,Sassuolo,Home,Matchweek 7,,,,,,,,,,,,,,,,
 2025-10-25,15:00 (13:00),Serie A,2025-2026,Lecce,Udinese,Away,Matchweek 8,,,,,,,,,,,,,,,,
 2025-10-28,18:30 (17:30),Serie A,2025-2026,Lecce,Napoli,Home,Matchweek 9,,,,,,,,,,,,,,,,
@@ -662,7 +662,7 @@ Date,Time,Comp,2025-2026,Parma,Opponent,Venue,Round,,,,,,,,,,,,,,,,
 2025-09-21,15:00 (13:00),Serie A,2025-2026,Torino,Atalanta,Home,Matchweek 4,1.2,0.0,3.0,10.0,4.0,23.0,0.0,0.0,1.6,3.0,0.0,9.0,5.0,14.2,0.0,0.0
 2025-09-25,21:00 (19:00),Coppa Italia,2025-2026,Torino,Pisa,Home,Second round,,1.0,0.0,22.0,4.0,,,0.0,,0.0,1.0,4.0,1.0,,,0.0
 2025-09-29,18:30 (16:30),Serie A,2025-2026,Torino,Parma,Away,Matchweek 5,0.8,1.0,2.0,15.0,4.0,20.0,1.0,0.0,1.3,2.0,1.0,12.0,1.0,20.4,1.0,1.0
-2025-10-04,15:00 (13:00),Serie A,2025-2026,Torino,Lazio,Away,Matchweek 6,1.9,3.0,3.0,16.0,8.0,18.3,0.0,0.0,1.4,3.0,3.0,8.0,3.0,23.8,0.0,1.0
+2025-10-04,15:00 (13:00),Serie A,2025-2026,Torino,Lazio,Away,Matchweek 6,1.8,3.0,3.0,16.0,8.0,18.0,0.0,0.0,1.3,3.0,3.0,8.0,3.0,23.7,0.0,1.0
 2025-10-18,18:00 (16:00),Serie A,2025-2026,Torino,Napoli,Home,Matchweek 7,,,,,,,,,,,,,,,,
 2025-10-26,12:30 (11:30),Serie A,2025-2026,Torino,Genoa,Home,Matchweek 8,,,,,,,,,,,,,,,,
 2025-10-29,20:45 (19:45),Serie A,2025-2026,Torino,Bologna,Away,Matchweek 9,,,,,,,,,,,,,,,,
@@ -705,7 +705,7 @@ Date,Time,Comp,2025-2026,Torino,Opponent,Venue,Round,,,,,,,,,,,,,,,,
 2025-09-21,18:00 (16:00),Serie A,2025-2026,Fiorentina,Como,Home,Matchweek 4,0.5,1.0,2.0,8.0,1.0,19.9,1.0,0.0,1.2,2.0,1.0,19.0,7.0,18.8,1.0,0.0
 2025-09-28,15:00 (13:00),Serie A,2025-2026,Fiorentina,Pisa,Away,Matchweek 5,0.9,0.0,0.0,14.0,2.0,18.1,1.0,0.0,0.7,0.0,0.0,11.0,1.0,13.9,0.0,0.0
 2025-10-02,21:00 (19:00),Conf Lg,2025-2026,Fiorentina,cz Sigma Olomouc,Home,League phase,1.8,2.0,0.0,14.0,4.0,16.6,0.0,0.0,0.4,0.0,2.0,7.0,4.0,20.9,0.0,0.0
-2025-10-05,15:00 (13:00),Serie A,2025-2026,Fiorentina,Roma,Home,Matchweek 6,,,,,,,,,,,,,,,,
+2025-10-05,15:00 (13:00),Serie A,2025-2026,Fiorentina,Roma,Home,Matchweek 6,0.8,1.0,2.0,11.0,3.0,22.0,1.0,0.0,1.3,2.0,1.0,8.0,3.0,14.4,0.0,0.0
 2025-10-19,20:45 (18:45),Serie A,2025-2026,Fiorentina,Milan,Away,Matchweek 7,,,,,,,,,,,,,,,,
 2025-10-23,18:45 (16:45),Conf Lg,2025-2026,Fiorentina,at Rapid Wien,Away,League phase,,,,,,,,,,,,,,,,
 2025-10-26,18:00 (17:00),Serie A,2025-2026,Fiorentina,Bologna,Home,Matchweek 8,,,,,,,,,,,,,,,,
@@ -785,46 +785,6 @@ Date,Time,Comp,2025-2026,Fiorentina,Opponent,Venue,Round,,,,,,,,,,,,,,,,
 2026-05-10,,Serie A,2025-2026,Hellas Verona,Como,Home,Matchweek 36,,,,,,,,,,,,,,,,
 2026-05-17,,Serie A,2025-2026,Hellas Verona,Inter,Away,Matchweek 37,,,,,,,,,,,,,,,,
 2026-05-24,,Serie A,2025-2026,Hellas Verona,Roma,Home,Matchweek 38,,,,,,,,,,,,,,,,
-2025-08-17,20:45 (18:45),Coppa Italia,2025-2026,Pisa,Cesena,Away,First round,,0 (2),0 (1),5.0,1.0,,,0.0,,0 (1),0 (2),16.0,2.0,,,0.0
-2025-08-24,20:45 (18:45),Serie A,2025-2026,Pisa,Atalanta,Away,Matchweek 1,0.6,1,1,11.0,2.0,17.7,0.0,0.0,1.9,1,1,21.0,6.0,16.4,0.0,0.0
-2025-08-30,20:45 (18:45),Serie A,2025-2026,Pisa,Roma,Home,Matchweek 2,0.6,0,1,7.0,3.0,21.7,0.0,0.0,0.8,1,0,10.0,5.0,19.3,1.0,0.0
-2025-09-14,15:00 (13:00),Serie A,2025-2026,Pisa,Udinese,Home,Matchweek 3,0.5,0,1,12.0,2.0,18.4,0.0,0.0,1.0,1,0,13.0,3.0,18.0,0.0,0.0
-2025-09-22,20:45 (18:45),Serie A,2025-2026,Pisa,Napoli,Away,Matchweek 4,2.4,2,3,14.0,5.0,16.2,0.0,1.0,1.1,3,2,18.0,6.0,16.5,0.0,0.0
-2025-09-25,21:00 (19:00),Coppa Italia,2025-2026,Pisa,Torino,Away,Second round,,0,1,4.0,1.0,,,0.0,,1,0,22.0,4.0,,,0.0
-2025-09-28,15:00 (13:00),Serie A,2025-2026,Pisa,Fiorentina,Home,Matchweek 5,0.7,0,0,11.0,1.0,13.9,0.0,0.0,0.9,0,0,14.0,2.0,18.1,1.0,0.0
-2025-10-05,15:00 (13:00),Serie A,2025-2026,Pisa,Bologna,Away,Matchweek 6,,,,,,,,,,,,,,,,
-2025-10-18,15:00 (13:00),Serie A,2025-2026,Pisa,Hellas Verona,Home,Matchweek 7,,,,,,,,,,,,,,,,
-2025-10-24,20:45 (18:45),Serie A,2025-2026,Pisa,Milan,Away,Matchweek 8,,,,,,,,,,,,,,,,
-2025-10-30,20:45 (19:45),Serie A,2025-2026,Pisa,Lazio,Home,Matchweek 9,,,,,,,,,,,,,,,,
-2025-11-02,15:00 (14:00),Serie A,2025-2026,Pisa,Torino,Away,Matchweek 10,,,,,,,,,,,,,,,,
-2025-11-07,20:45 (19:45),Serie A,2025-2026,Pisa,Cremonese,Home,Matchweek 11,,,,,,,,,,,,,,,,
-2025-11-24,20:45 (19:45),Serie A,2025-2026,Pisa,Sassuolo,Away,Matchweek 12,,,,,,,,,,,,,,,,
-2025-11-30,,Serie A,2025-2026,Pisa,Inter,Home,Matchweek 13,,,,,,,,,,,,,,,,
-2025-12-07,,Serie A,2025-2026,Pisa,Parma,Home,Matchweek 14,,,,,,,,,,,,,,,,
-2025-12-14,,Serie A,2025-2026,Pisa,Lecce,Away,Matchweek 15,,,,,,,,,,,,,,,,
-2025-12-21,,Serie A,2025-2026,Pisa,Cagliari,Away,Matchweek 16,,,,,,,,,,,,,,,,
-2025-12-28,,Serie A,2025-2026,Pisa,Juventus,Home,Matchweek 17,,,,,,,,,,,,,,,,
-2026-01-03,,Serie A,2025-2026,Pisa,Genoa,Away,Matchweek 18,,,,,,,,,,,,,,,,
-2026-01-06,,Serie A,2025-2026,Pisa,Como,Home,Matchweek 19,,,,,,,,,,,,,,,,
-2026-01-11,,Serie A,2025-2026,Pisa,Udinese,Away,Matchweek 20,,,,,,,,,,,,,,,,
-2026-01-18,,Serie A,2025-2026,Pisa,Atalanta,Home,Matchweek 21,,,,,,,,,,,,,,,,
-2026-01-25,,Serie A,2025-2026,Pisa,Inter,Away,Matchweek 22,,,,,,,,,,,,,,,,
-2026-02-01,,Serie A,2025-2026,Pisa,Sassuolo,Home,Matchweek 23,,,,,,,,,,,,,,,,
-2026-02-08,,Serie A,2025-2026,Pisa,Hellas Verona,Away,Matchweek 24,,,,,,,,,,,,,,,,
-2026-02-15,,Serie A,2025-2026,Pisa,Milan,Home,Matchweek 25,,,,,,,,,,,,,,,,
-2026-02-22,,Serie A,2025-2026,Pisa,Fiorentina,Away,Matchweek 26,,,,,,,,,,,,,,,,
-2026-03-01,,Serie A,2025-2026,Pisa,Bologna,Home,Matchweek 27,,,,,,,,,,,,,,,,
-2026-03-08,,Serie A,2025-2026,Pisa,Juventus,Away,Matchweek 28,,,,,,,,,,,,,,,,
-2026-03-15,,Serie A,2025-2026,Pisa,Cagliari,Home,Matchweek 29,,,,,,,,,,,,,,,,
-2026-03-22,,Serie A,2025-2026,Pisa,Como,Away,Matchweek 30,,,,,,,,,,,,,,,,
-2026-04-04,,Serie A,2025-2026,Pisa,Torino,Home,Matchweek 31,,,,,,,,,,,,,,,,
-2026-04-12,,Serie A,2025-2026,Pisa,Roma,Away,Matchweek 32,,,,,,,,,,,,,,,,
-2026-04-19,,Serie A,2025-2026,Pisa,Genoa,Home,Matchweek 33,,,,,,,,,,,,,,,,
-2026-04-26,,Serie A,2025-2026,Pisa,Parma,Away,Matchweek 34,,,,,,,,,,,,,,,,
-2026-05-03,,Serie A,2025-2026,Pisa,Lecce,Home,Matchweek 35,,,,,,,,,,,,,,,,
-2026-05-10,,Serie A,2025-2026,Pisa,Cremonese,Away,Matchweek 36,,,,,,,,,,,,,,,,
-2026-05-17,,Serie A,2025-2026,Pisa,Napoli,Home,Matchweek 37,,,,,,,,,,,,,,,,
-2026-05-24,,Serie A,2025-2026,Pisa,Lazio,Away,Matchweek 38,,,,,,,,,,,,,,,,
 2025-08-15,21:15 (19:15),Coppa Italia,2025-2026,Genoa,Vicenza Virtus,Home,First round,,3.0,0.0,14.0,6.0,,,0.0,,0.0,3.0,5.0,2.0,,,0.0
 2025-08-23,18:30 (16:30),Serie A,2025-2026,Genoa,Lecce,Home,Matchweek 1,0.5,0.0,0.0,5.0,2.0,20.8,1.0,0.0,0.4,0.0,0.0,7.0,0.0,15.2,0.0,0.0
 2025-08-31,18:30 (16:30),Serie A,2025-2026,Genoa,Juventus,Home,Matchweek 2,0.5,0.0,1.0,10.0,1.0,16.9,0.0,0.0,0.9,1.0,0.0,13.0,3.0,16.9,0.0,0.0
@@ -832,7 +792,7 @@ Date,Time,Comp,2025-2026,Fiorentina,Opponent,Venue,Round,,,,,,,,,,,,,,,,
 2025-09-20,15:00 (13:00),Serie A,2025-2026,Genoa,Bologna,Away,Matchweek 4,0.5,1.0,2.0,7.0,4.0,16.6,0.0,0.0,1.6,2.0,1.0,13.0,5.0,16.5,0.0,1.0
 2025-09-25,18:30 (16:30),Coppa Italia,2025-2026,Genoa,Empoli,Home,Second round,,3.0,1.0,18.0,5.0,,,0.0,,1.0,3.0,10.0,3.0,,,0.0
 2025-09-29,20:45 (18:45),Serie A,2025-2026,Genoa,Lazio,Home,Matchweek 5,1.6,0.0,3.0,17.0,5.0,18.7,1.0,0.0,1.2,3.0,0.0,9.0,5.0,12.0,0.0,0.0
-2025-10-05,18:00 (16:00),Serie A,2025-2026,Genoa,Napoli,Away,Matchweek 6,,,,,,,,,,,,,,,,
+2025-10-05,18:00 (16:00),Serie A,2025-2026,Genoa,Napoli,Away,Matchweek 6,0.4,1.0,2.0,6.0,1.0,27.0,0.0,0.0,1.1,2.0,1.0,12.0,5.0,12.4,0.0,0.0
 2025-10-19,15:00 (13:00),Serie A,2025-2026,Genoa,Parma,Home,Matchweek 7,,,,,,,,,,,,,,,,
 2025-10-26,12:30 (11:30),Serie A,2025-2026,Genoa,Torino,Away,Matchweek 8,,,,,,,,,,,,,,,,
 2025-10-29,20:45 (19:45),Serie A,2025-2026,Genoa,Cremonese,Home,Matchweek 9,,,,,,,,,,,,,,,,
@@ -867,3 +827,43 @@ Date,Time,Comp,2025-2026,Genoa,Opponent,Venue,Round,,,,,,,,,,,,,,,,
 2026-05-10,,Serie A,2025-2026,Genoa,Fiorentina,Away,Matchweek 36,,,,,,,,,,,,,,,,
 2026-05-17,,Serie A,2025-2026,Genoa,Milan,Home,Matchweek 37,,,,,,,,,,,,,,,,
 2026-05-24,,Serie A,2025-2026,Genoa,Lecce,Away,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-17,20:45 (18:45),Coppa Italia,2025-2026,Pisa,Cesena,Away,First round,,0 (2),0 (1),5.0,1.0,,,0.0,,0 (1),0 (2),16.0,2.0,,,0.0
+2025-08-24,20:45 (18:45),Serie A,2025-2026,Pisa,Atalanta,Away,Matchweek 1,0.6,1,1,11.0,2.0,17.7,0.0,0.0,1.9,1,1,21.0,6.0,16.4,0.0,0.0
+2025-08-30,20:45 (18:45),Serie A,2025-2026,Pisa,Roma,Home,Matchweek 2,0.6,0,1,7.0,3.0,21.7,0.0,0.0,0.8,1,0,10.0,5.0,19.3,1.0,0.0
+2025-09-14,15:00 (13:00),Serie A,2025-2026,Pisa,Udinese,Home,Matchweek 3,0.5,0,1,12.0,2.0,18.4,0.0,0.0,1.0,1,0,13.0,3.0,18.0,0.0,0.0
+2025-09-22,20:45 (18:45),Serie A,2025-2026,Pisa,Napoli,Away,Matchweek 4,2.4,2,3,14.0,5.0,16.2,0.0,1.0,1.1,3,2,18.0,6.0,16.5,0.0,0.0
+2025-09-25,21:00 (19:00),Coppa Italia,2025-2026,Pisa,Torino,Away,Second round,,0,1,4.0,1.0,,,0.0,,1,0,22.0,4.0,,,0.0
+2025-09-28,15:00 (13:00),Serie A,2025-2026,Pisa,Fiorentina,Home,Matchweek 5,0.7,0,0,11.0,1.0,13.9,0.0,0.0,0.9,0,0,14.0,2.0,18.1,1.0,0.0
+2025-10-05,15:00 (13:00),Serie A,2025-2026,Pisa,Bologna,Away,Matchweek 6,0.0,0,4,2.0,0.0,14.0,0.0,0.0,3.4,4,0,24.0,7.0,17.6,2.0,0.0
+2025-10-18,15:00 (13:00),Serie A,2025-2026,Pisa,Hellas Verona,Home,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-24,20:45 (18:45),Serie A,2025-2026,Pisa,Milan,Away,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-30,20:45 (19:45),Serie A,2025-2026,Pisa,Lazio,Home,Matchweek 9,,,,,,,,,,,,,,,,
+2025-11-02,15:00 (14:00),Serie A,2025-2026,Pisa,Torino,Away,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-07,20:45 (19:45),Serie A,2025-2026,Pisa,Cremonese,Home,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-24,20:45 (19:45),Serie A,2025-2026,Pisa,Sassuolo,Away,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-30,,Serie A,2025-2026,Pisa,Inter,Home,Matchweek 13,,,,,,,,,,,,,,,,
+2025-12-07,,Serie A,2025-2026,Pisa,Parma,Home,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-14,,Serie A,2025-2026,Pisa,Lecce,Away,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-21,,Serie A,2025-2026,Pisa,Cagliari,Away,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-28,,Serie A,2025-2026,Pisa,Juventus,Home,Matchweek 17,,,,,,,,,,,,,,,,
+2026-01-03,,Serie A,2025-2026,Pisa,Genoa,Away,Matchweek 18,,,,,,,,,,,,,,,,
+2026-01-06,,Serie A,2025-2026,Pisa,Como,Home,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-11,,Serie A,2025-2026,Pisa,Udinese,Away,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-18,,Serie A,2025-2026,Pisa,Atalanta,Home,Matchweek 21,,,,,,,,,,,,,,,,
+2026-01-25,,Serie A,2025-2026,Pisa,Inter,Away,Matchweek 22,,,,,,,,,,,,,,,,
+2026-02-01,,Serie A,2025-2026,Pisa,Sassuolo,Home,Matchweek 23,,,,,,,,,,,,,,,,
+2026-02-08,,Serie A,2025-2026,Pisa,Hellas Verona,Away,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-15,,Serie A,2025-2026,Pisa,Milan,Home,Matchweek 25,,,,,,,,,,,,,,,,
+2026-02-22,,Serie A,2025-2026,Pisa,Fiorentina,Away,Matchweek 26,,,,,,,,,,,,,,,,
+2026-03-01,,Serie A,2025-2026,Pisa,Bologna,Home,Matchweek 27,,,,,,,,,,,,,,,,
+2026-03-08,,Serie A,2025-2026,Pisa,Juventus,Away,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-15,,Serie A,2025-2026,Pisa,Cagliari,Home,Matchweek 29,,,,,,,,,,,,,,,,
+2026-03-22,,Serie A,2025-2026,Pisa,Como,Away,Matchweek 30,,,,,,,,,,,,,,,,
+2026-04-04,,Serie A,2025-2026,Pisa,Torino,Home,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-12,,Serie A,2025-2026,Pisa,Roma,Away,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-19,,Serie A,2025-2026,Pisa,Genoa,Home,Matchweek 33,,,,,,,,,,,,,,,,
+2026-04-26,,Serie A,2025-2026,Pisa,Parma,Away,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-03,,Serie A,2025-2026,Pisa,Lecce,Home,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-10,,Serie A,2025-2026,Pisa,Cremonese,Away,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,,Serie A,2025-2026,Pisa,Napoli,Home,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,,Serie A,2025-2026,Pisa,Lazio,Away,Matchweek 38,,,,,,,,,,,,,,,,

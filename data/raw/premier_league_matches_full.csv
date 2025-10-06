@@ -1098,7 +1098,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2025-09-24,19:45 (18:45),EFL Cup,2025-2026,Tottenham Hotspur,Doncaster,Home,Third round,,3,0,18.0,5.0,,,0.0,,0,3,10.0,2.0,,,0.0
 2025-09-27,20:00 (19:00),Premier League,2025-2026,Tottenham Hotspur,Wolves,Home,Matchweek 6,0.8,1,1,10.0,3.0,17.2,0.0,0.0,1.1,1,1,9.0,3.0,15.1,0.0,0.0
 2025-09-30,21:00 (19:00),Champions Lg,2025-2026,Tottenham Hotspur,no Bodø/Glimt,Away,League phase,1.4,2,2,8.0,3.0,14.4,0.0,0.0,2.5,2,2,17.0,4.0,17.4,0.0,0.0
-2025-10-04,12:30 (11:30),Premier League,2025-2026,Tottenham Hotspur,Leeds United,Away,Matchweek 7,0.5,2,1,9.0,3.0,20.6,1.0,0.0,1.6,1,2,16.0,4.0,15.8,0.0,0.0
+2025-10-04,12:30 (11:30),Premier League,2025-2026,Tottenham Hotspur,Leeds United,Away,Matchweek 7,0.6,2,1,9.0,3.0,20.2,1.0,0.0,1.7,1,2,16.0,4.0,15.6,0.0,0.0
 2025-10-19,14:00 (13:00),Premier League,2025-2026,Tottenham Hotspur,Aston Villa,Home,Matchweek 8,,,,,,,,,,,,,,,,
 2025-10-22,21:00 (19:00),Champions Lg,2025-2026,Tottenham Hotspur,fr Monaco,Away,League phase,,,,,,,,,,,,,,,,
 2025-10-26,16:30,Premier League,2025-2026,Tottenham Hotspur,Everton,Away,Matchweek 9,,,,,,,,,,,,,,,,
@@ -1528,7 +1528,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2025-09-13,15:00 (14:00),Premier League,2025-2026,Leeds United,Fulham,Away,Matchweek 4,0.8,0,1,10.0,3.0,15.8,0.0,0.0,0.9,1,0,5.0,3.0,14.9,1.0,0.0
 2025-09-20,15:00 (14:00),Premier League,2025-2026,Leeds United,Wolves,Away,Matchweek 5,0.5,3,1,6.0,4.0,22.2,1.0,0.0,1.8,1,3,16.0,6.0,15.7,0.0,0.0
 2025-09-27,15:00 (14:00),Premier League,2025-2026,Leeds United,Bournemouth,Home,Matchweek 6,1.8,2,2,19.0,8.0,13.9,0.0,0.0,0.7,2,2,12.0,5.0,19.4,1.0,0.0
-2025-10-04,12:30 (11:30),Premier League,2025-2026,Leeds United,Tottenham,Home,Matchweek 7,1.6,1,2,16.0,4.0,15.8,0.0,0.0,0.5,2,1,9.0,3.0,20.6,1.0,0.0
+2025-10-04,12:30 (11:30),Premier League,2025-2026,Leeds United,Tottenham,Home,Matchweek 7,1.7,1,2,16.0,4.0,15.6,0.0,0.0,0.6,2,1,9.0,3.0,20.2,1.0,0.0
 2025-10-18,15:00 (14:00),Premier League,2025-2026,Leeds United,Burnley,Away,Matchweek 8,,,,,,,,,,,,,,,,
 2025-10-24,20:00 (19:00),Premier League,2025-2026,Leeds United,West Ham,Home,Matchweek 9,,,,,,,,,,,,,,,,
 2025-11-01,15:00,Premier League,2025-2026,Leeds United,Brighton,Away,Matchweek 10,,,,,,,,,,,,,,,,
@@ -1751,7 +1751,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2025-09-20,15:00 (14:00),Premier League,2025-2026,Burnley,Nott'ham Forest,Home,Matchweek 5,0.9,1.0,1.0,12.0,5.0,14.4,1.0,0.0,1.1,1.0,1.0,17.0,8.0,19.6,0.0,0.0
 2025-09-23,19:45 (18:45),EFL Cup,2025-2026,Burnley,Cardiff City,Home,Third round,,1.0,2.0,15.0,8.0,,,0.0,,2.0,1.0,9.0,3.0,,,0.0
 2025-09-27,15:00 (14:00),Premier League,2025-2026,Burnley,Manchester City,Away,Matchweek 6,0.4,1.0,5.0,9.0,2.0,17.9,0.0,0.0,2.0,5.0,1.0,21.0,8.0,16.8,0.0,0.0
-2025-10-05,14:00 (13:00),Premier League,2025-2026,Burnley,Aston Villa,Away,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-05,14:00 (13:00),Premier League,2025-2026,Burnley,Aston Villa,Away,Matchweek 7,0.4,1.0,2.0,5.0,2.0,16.4,0.0,0.0,1.3,2.0,1.0,15.0,7.0,14.7,0.0,0.0
 2025-10-18,15:00 (14:00),Premier League,2025-2026,Burnley,Leeds United,Home,Matchweek 8,,,,,,,,,,,,,,,,
 2025-10-26,14:00,Premier League,2025-2026,Burnley,Wolves,Away,Matchweek 9,,,,,,,,,,,,,,,,
 2025-11-01,15:00,Premier League,2025-2026,Burnley,Arsenal,Home,Matchweek 10,,,,,,,,,,,,,,,,
