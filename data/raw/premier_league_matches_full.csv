@@ -1176,6 +1176,54 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2026-05-09,15:00 (14:00),Premier League,2025-2026,Bournemouth,Fulham,Away,Matchweek 36,,,,,,,,,,,,,,,,
 2026-05-17,15:00 (14:00),Premier League,2025-2026,Bournemouth,Manchester City,Home,Matchweek 37,,,,,,,,,,,,,,,,
 2026-05-24,16:00 (15:00),Premier League,2025-2026,Bournemouth,Nott'ham Forest,Away,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-16,17:30 (16:30),Premier League,2025-2026,Manchester City,Wolves,Away,Matchweek 1,2.4,4.0,0.0,15.0,4.0,17.2,1.0,0.0,0.6,0.0,4.0,9.0,3.0,17.7,0.0,0.0
+2025-08-23,12:30 (11:30),Premier League,2025-2026,Manchester City,Tottenham,Home,Matchweek 2,1.6,0.0,2.0,10.0,4.0,16.3,0.0,0.0,1.1,2.0,0.0,12.0,5.0,14.5,1.0,0.0
+2025-08-31,14:00 (13:00),Premier League,2025-2026,Manchester City,Brighton,Away,Matchweek 3,1.8,1.0,2.0,12.0,3.0,15.1,0.0,0.0,2.2,2.0,1.0,11.0,6.0,16.9,0.0,1.0
+2025-09-14,16:30 (15:30),Premier League,2025-2026,Manchester City,Manchester Utd,Home,Matchweek 4,2.7,3.0,0.0,13.0,6.0,11.8,0.0,0.0,1.2,0.0,3.0,12.0,2.0,16.5,0.0,0.0
+2025-09-18,20:00 (19:00),Champions Lg,2025-2026,Manchester City,it Napoli,Home,League phase,2.1,2.0,0.0,23.0,8.0,15.9,1.0,0.0,0.2,0.0,2.0,1.0,1.0,5.9,0.0,0.0
+2025-09-21,16:30 (15:30),Premier League,2025-2026,Manchester City,Arsenal,Away,Matchweek 5,0.9,1.0,1.0,5.0,3.0,15.6,0.0,0.0,0.9,1.0,1.0,12.0,3.0,14.1,0.0,0.0
+2025-09-24,19:45 (18:45),EFL Cup,2025-2026,Manchester City,Huddersfield,Away,Third round,,2.0,0.0,17.0,7.0,,,0.0,,0.0,2.0,5.0,0.0,,,0.0
+2025-09-27,15:00 (14:00),Premier League,2025-2026,Manchester City,Burnley,Home,Matchweek 6,2.0,5.0,1.0,21.0,8.0,16.8,0.0,0.0,0.4,1.0,5.0,9.0,2.0,17.9,0.0,0.0
+2025-10-01,21:00 (19:00),Champions Lg,2025-2026,Manchester City,fr Monaco,Away,League phase,1.5,2.0,2.0,18.0,6.0,16.4,0.0,0.0,1.4,2.0,2.0,7.0,2.0,18.0,0.0,1.0
+2025-10-05,16:30 (15:30),Premier League,2025-2026,Manchester City,Brentford,Away,Matchweek 7,0.8,1.0,0.0,10.0,4.0,17.9,0.0,0.0,0.7,0.0,1.0,6.0,1.0,20.2,0.0,0.0
+2025-10-18,15:00 (14:00),Premier League,2025-2026,Manchester City,Everton,Home,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-21,21:00 (19:00),Champions Lg,2025-2026,Manchester City,es Villarreal,Away,League phase,,,,,,,,,,,,,,,,
+2025-10-26,14:00,Premier League,2025-2026,Manchester City,Aston Villa,Away,Matchweek 9,,,,,,,,,,,,,,,,
+2025-10-29,19:45,EFL Cup,2025-2026,Manchester City,Swansea City,Away,Fourth round,,,,,,,,,,,,,,,,
+2025-11-02,16:30,Premier League,2025-2026,Manchester City,Bournemouth,Home,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-05,20:00,Champions Lg,2025-2026,Manchester City,de Dortmund,Home,League phase,,,,,,,,,,,,,,,,
+2025-11-09,16:30,Premier League,2025-2026,Manchester City,Liverpool,Home,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-22,17:30,Premier League,2025-2026,Manchester City,Newcastle Utd,Away,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-25,20:00,Champions Lg,2025-2026,Manchester City,de Leverkusen,Home,League phase,,,,,,,,,,,,,,,,
+2025-11-29,15:00,Premier League,2025-2026,Manchester City,Leeds United,Home,Matchweek 13,,,,,,,,,,,,,,,,
+2025-12-03,20:00,Premier League,2025-2026,Manchester City,Fulham,Away,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-06,15:00,Premier League,2025-2026,Manchester City,Sunderland,Home,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-10,21:00 (20:00),Champions Lg,2025-2026,Manchester City,es Real Madrid,Away,League phase,,,,,,,,,,,,,,,,
+2025-12-13,15:00,Premier League,2025-2026,Manchester City,Crystal Palace,Away,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-20,15:00,Premier League,2025-2026,Manchester City,West Ham,Home,Matchweek 17,,,,,,,,,,,,,,,,
+2025-12-27,15:00,Premier League,2025-2026,Manchester City,Nott'ham Forest,Away,Matchweek 18,,,,,,,,,,,,,,,,
+2025-12-30,20:00,Premier League,2025-2026,Manchester City,Sunderland,Away,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-03,15:00,Premier League,2025-2026,Manchester City,Chelsea,Home,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-07,20:00,Premier League,2025-2026,Manchester City,Brighton,Home,Matchweek 21,,,,,,,,,,,,,,,,
+2026-01-17,15:00,Premier League,2025-2026,Manchester City,Manchester Utd,Away,Matchweek 22,,,,,,,,,,,,,,,,
+2026-01-20,18:45 (17:45),Champions Lg,2025-2026,Manchester City,no Bodø/Glimt,Away,League phase,,,,,,,,,,,,,,,,
+2026-01-24,15:00,Premier League,2025-2026,Manchester City,Wolves,Home,Matchweek 23,,,,,,,,,,,,,,,,
+2026-01-28,20:00,Champions Lg,2025-2026,Manchester City,tr Galatasaray,Home,League phase,,,,,,,,,,,,,,,,
+2026-01-31,15:00,Premier League,2025-2026,Manchester City,Tottenham,Away,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-07,15:00,Premier League,2025-2026,Manchester City,Liverpool,Away,Matchweek 25,,,,,,,,,,,,,,,,
+2026-02-11,20:00,Premier League,2025-2026,Manchester City,Fulham,Home,Matchweek 26,,,,,,,,,,,,,,,,
+2026-02-21,15:00,Premier League,2025-2026,Manchester City,Newcastle Utd,Home,Matchweek 27,,,,,,,,,,,,,,,,
+2026-02-28,15:00,Premier League,2025-2026,Manchester City,Leeds United,Away,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-04,20:00,Premier League,2025-2026,Manchester City,Nott'ham Forest,Home,Matchweek 29,,,,,,,,,,,,,,,,
+2026-03-14,15:00,Premier League,2025-2026,Manchester City,West Ham,Away,Matchweek 30,,,,,,,,,,,,,,,,
+2026-03-21,15:00,Premier League,2025-2026,Manchester City,Crystal Palace,Home,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-11,15:00 (14:00),Premier League,2025-2026,Manchester City,Chelsea,Away,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-18,15:00 (14:00),Premier League,2025-2026,Manchester City,Arsenal,Home,Matchweek 33,,,,,,,,,,,,,,,,
+2026-04-25,15:00 (14:00),Premier League,2025-2026,Manchester City,Burnley,Away,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-02,15:00 (14:00),Premier League,2025-2026,Manchester City,Everton,Away,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-09,15:00 (14:00),Premier League,2025-2026,Manchester City,Brentford,Home,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,15:00 (14:00),Premier League,2025-2026,Manchester City,Bournemouth,Away,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,16:00 (15:00),Premier League,2025-2026,Manchester City,Aston Villa,Home,Matchweek 38,,,,,,,,,,,,,,,,
 2025-08-10,15:00 (14:00),FA Community Shield,2025-2026,Crystal Palace,Liverpool,Neutral,FA Community Shield,,2 (3),2 (2),14.0,4.0,,,1.0,,2 (2),2 (3),12.0,5.0,,,0.0
 2025-08-17,14:00 (13:00),Premier League,2025-2026,Crystal Palace,Chelsea,Away,Matchweek 1,0.6,0,0,11.0,4.0,27.0,0.0,0.0,1.6,0,0,19.0,2.0,16.8,1.0,0.0
 2025-08-21,20:00 (19:00),Conf Lg,2025-2026,Crystal Palace,no Fredrikstad,Home,Play-off round,,1,0,,,,,0.0,,0,1,,,,,0.0
@@ -1187,7 +1235,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2025-09-20,15:00 (14:00),Premier League,2025-2026,Crystal Palace,West Ham,Away,Matchweek 5,2.1,2,1,18.0,3.0,13.9,0.0,0.0,0.6,1,2,8.0,3.0,12.9,0.0,0.0
 2025-09-27,15:00 (14:00),Premier League,2025-2026,Crystal Palace,Liverpool,Home,Matchweek 6,2.9,2,1,16.0,7.0,14.9,0.0,0.0,2.1,1,2,20.0,4.0,15.5,1.0,0.0
 2025-10-02,19:45 (16:45),Conf Lg,2025-2026,Crystal Palace,ua Dynamo Kyiv,Away,League phase,1.5,2,0,13.0,7.0,15.5,0.0,0.0,0.4,0,2,9.0,1.0,21.8,1.0,0.0
-2025-10-05,14:00 (13:00),Premier League,2025-2026,Crystal Palace,Everton,Away,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-05,14:00 (13:00),Premier League,2025-2026,Crystal Palace,Everton,Away,Matchweek 7,1.5,1,2,15.0,6.0,15.7,0.0,0.0,2.0,2,1,13.0,6.0,17.0,0.0,1.0
 2025-10-18,15:00 (14:00),Premier League,2025-2026,Crystal Palace,Bournemouth,Home,Matchweek 8,,,,,,,,,,,,,,,,
 2025-10-23,20:00 (19:00),Conf Lg,2025-2026,Crystal Palace,cy AÉK Lárnaka,Home,League phase,,,,,,,,,,,,,,,,
 2025-10-26,14:00,Premier League,2025-2026,Crystal Palace,Arsenal,Away,Matchweek 9,,,,,,,,,,,,,,,,
@@ -1273,132 +1321,6 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2026-05-09,15:00 (14:00),Premier League,2025-2026,Chelsea,Liverpool,Away,Matchweek 36,,,,,,,,,,,,,,,,
 2026-05-17,15:00 (14:00),Premier League,2025-2026,Chelsea,Tottenham,Home,Matchweek 37,,,,,,,,,,,,,,,,
 2026-05-24,16:00 (15:00),Premier League,2025-2026,Chelsea,Sunderland,Away,Matchweek 38,,,,,,,,,,,,,,,,
-2025-08-16,15:00 (14:00),Premier League,2025-2026,Sunderland,West Ham,Home,Matchweek 1,0.7,3,0,10.0,5.0,12.0,0.0,0.0,0.6,0,3,12.0,3.0,18.4,0.0,0.0
-2025-08-23,15:00 (14:00),Premier League,2025-2026,Sunderland,Burnley,Away,Matchweek 2,0.8,0,2,9.0,1.0,16.7,0.0,0.0,1.0,2,0,7.0,2.0,17.3,0.0,0.0
-2025-08-26,19:45 (18:45),EFL Cup,2025-2026,Sunderland,Huddersfield,Home,Second round,,1 (5),1 (6),17.0,4.0,,,0.0,,1 (6),1 (5),11.0,4.0,,,0.0
-2025-08-30,15:00 (14:00),Premier League,2025-2026,Sunderland,Brentford,Home,Matchweek 3,1.5,2,1,11.0,2.0,18.4,0.0,1.0,1.2,1,2,6.0,3.0,16.0,0.0,0.0
-2025-09-13,15:00 (14:00),Premier League,2025-2026,Sunderland,Crystal Palace,Away,Matchweek 4,0.4,0,0,6.0,0.0,15.3,0.0,0.0,1.8,0,0,14.0,6.0,16.2,0.0,0.0
-2025-09-21,14:00 (13:00),Premier League,2025-2026,Sunderland,Aston Villa,Home,Matchweek 5,1.0,1,1,14.0,4.0,14.9,0.0,0.0,0.8,1,1,12.0,2.0,20.9,0.0,0.0
-2025-09-27,17:30 (16:30),Premier League,2025-2026,Sunderland,Nott'ham Forest,Away,Matchweek 6,1.6,1,0,11.0,3.0,15.1,0.0,0.0,1.6,0,1,22.0,6.0,16.4,0.0,0.0
-2025-10-04,15:00 (14:00),Premier League,2025-2026,Sunderland,Manchester Utd,Away,Matchweek 7,0.7,0,2,8.0,3.0,16.8,0.0,0.0,1.9,2,0,15.0,6.0,15.7,0.0,0.0
-2025-10-18,15:00 (14:00),Premier League,2025-2026,Sunderland,Wolves,Home,Matchweek 8,,,,,,,,,,,,,,,,
-2025-10-25,15:00 (14:00),Premier League,2025-2026,Sunderland,Chelsea,Away,Matchweek 9,,,,,,,,,,,,,,,,
-2025-11-03,20:00,Premier League,2025-2026,Sunderland,Everton,Home,Matchweek 10,,,,,,,,,,,,,,,,
-2025-11-08,17:30,Premier League,2025-2026,Sunderland,Arsenal,Home,Matchweek 11,,,,,,,,,,,,,,,,
-2025-11-22,15:00,Premier League,2025-2026,Sunderland,Fulham,Away,Matchweek 12,,,,,,,,,,,,,,,,
-2025-11-29,15:00,Premier League,2025-2026,Sunderland,Bournemouth,Home,Matchweek 13,,,,,,,,,,,,,,,,
-2025-12-03,20:00,Premier League,2025-2026,Sunderland,Liverpool,Away,Matchweek 14,,,,,,,,,,,,,,,,
-2025-12-06,15:00,Premier League,2025-2026,Sunderland,Manchester City,Away,Matchweek 15,,,,,,,,,,,,,,,,
-2025-12-13,15:00,Premier League,2025-2026,Sunderland,Newcastle Utd,Home,Matchweek 16,,,,,,,,,,,,,,,,
-2025-12-20,15:00,Premier League,2025-2026,Sunderland,Brighton,Away,Matchweek 17,,,,,,,,,,,,,,,,
-2025-12-27,15:00,Premier League,2025-2026,Sunderland,Leeds United,Home,Matchweek 18,,,,,,,,,,,,,,,,
-2025-12-30,20:00,Premier League,2025-2026,Sunderland,Manchester City,Home,Matchweek 19,,,,,,,,,,,,,,,,
-2026-01-03,15:00,Premier League,2025-2026,Sunderland,Tottenham,Away,Matchweek 20,,,,,,,,,,,,,,,,
-2026-01-07,20:00,Premier League,2025-2026,Sunderland,Brentford,Away,Matchweek 21,,,,,,,,,,,,,,,,
-2026-01-17,15:00,Premier League,2025-2026,Sunderland,Crystal Palace,Home,Matchweek 22,,,,,,,,,,,,,,,,
-2026-01-24,15:00,Premier League,2025-2026,Sunderland,West Ham,Away,Matchweek 23,,,,,,,,,,,,,,,,
-2026-01-31,15:00,Premier League,2025-2026,Sunderland,Burnley,Home,Matchweek 24,,,,,,,,,,,,,,,,
-2026-02-07,15:00,Premier League,2025-2026,Sunderland,Arsenal,Away,Matchweek 25,,,,,,,,,,,,,,,,
-2026-02-11,20:00,Premier League,2025-2026,Sunderland,Liverpool,Home,Matchweek 26,,,,,,,,,,,,,,,,
-2026-02-21,15:00,Premier League,2025-2026,Sunderland,Fulham,Home,Matchweek 27,,,,,,,,,,,,,,,,
-2026-02-28,15:00,Premier League,2025-2026,Sunderland,Bournemouth,Away,Matchweek 28,,,,,,,,,,,,,,,,
-2026-03-04,20:00,Premier League,2025-2026,Sunderland,Leeds United,Away,Matchweek 29,,,,,,,,,,,,,,,,
-2026-03-14,15:00,Premier League,2025-2026,Sunderland,Brighton,Home,Matchweek 30,,,,,,,,,,,,,,,,
-2026-03-21,15:00,Premier League,2025-2026,Sunderland,Newcastle Utd,Away,Matchweek 31,,,,,,,,,,,,,,,,
-2026-04-11,15:00 (14:00),Premier League,2025-2026,Sunderland,Tottenham,Home,Matchweek 32,,,,,,,,,,,,,,,,
-2026-04-18,15:00 (14:00),Premier League,2025-2026,Sunderland,Aston Villa,Away,Matchweek 33,,,,,,,,,,,,,,,,
-2026-04-25,15:00 (14:00),Premier League,2025-2026,Sunderland,Nott'ham Forest,Home,Matchweek 34,,,,,,,,,,,,,,,,
-2026-05-02,15:00 (14:00),Premier League,2025-2026,Sunderland,Wolves,Away,Matchweek 35,,,,,,,,,,,,,,,,
-2026-05-09,15:00 (14:00),Premier League,2025-2026,Sunderland,Manchester Utd,Home,Matchweek 36,,,,,,,,,,,,,,,,
-2026-05-17,15:00 (14:00),Premier League,2025-2026,Sunderland,Everton,Away,Matchweek 37,,,,,,,,,,,,,,,,
-2026-05-24,16:00 (15:00),Premier League,2025-2026,Sunderland,Chelsea,Home,Matchweek 38,,,,,,,,,,,,,,,,
-2025-08-16,17:30 (16:30),Premier League,2025-2026,Manchester City,Wolves,Away,Matchweek 1,2.4,4.0,0.0,15.0,4.0,17.2,1.0,0.0,0.6,0.0,4.0,9.0,3.0,17.7,0.0,0.0
-2025-08-23,12:30 (11:30),Premier League,2025-2026,Manchester City,Tottenham,Home,Matchweek 2,1.6,0.0,2.0,10.0,4.0,16.3,0.0,0.0,1.1,2.0,0.0,12.0,5.0,14.5,1.0,0.0
-2025-08-31,14:00 (13:00),Premier League,2025-2026,Manchester City,Brighton,Away,Matchweek 3,1.8,1.0,2.0,12.0,3.0,15.1,0.0,0.0,2.2,2.0,1.0,11.0,6.0,16.9,0.0,1.0
-2025-09-14,16:30 (15:30),Premier League,2025-2026,Manchester City,Manchester Utd,Home,Matchweek 4,2.7,3.0,0.0,13.0,6.0,11.8,0.0,0.0,1.2,0.0,3.0,12.0,2.0,16.5,0.0,0.0
-2025-09-18,20:00 (19:00),Champions Lg,2025-2026,Manchester City,it Napoli,Home,League phase,2.1,2.0,0.0,23.0,8.0,15.9,1.0,0.0,0.2,0.0,2.0,1.0,1.0,5.9,0.0,0.0
-2025-09-21,16:30 (15:30),Premier League,2025-2026,Manchester City,Arsenal,Away,Matchweek 5,0.9,1.0,1.0,5.0,3.0,15.6,0.0,0.0,0.9,1.0,1.0,12.0,3.0,14.1,0.0,0.0
-2025-09-24,19:45 (18:45),EFL Cup,2025-2026,Manchester City,Huddersfield,Away,Third round,,2.0,0.0,17.0,7.0,,,0.0,,0.0,2.0,5.0,0.0,,,0.0
-2025-09-27,15:00 (14:00),Premier League,2025-2026,Manchester City,Burnley,Home,Matchweek 6,2.0,5.0,1.0,21.0,8.0,16.8,0.0,0.0,0.4,1.0,5.0,9.0,2.0,17.9,0.0,0.0
-2025-10-01,21:00 (19:00),Champions Lg,2025-2026,Manchester City,fr Monaco,Away,League phase,1.5,2.0,2.0,18.0,6.0,16.4,0.0,0.0,1.4,2.0,2.0,7.0,2.0,18.0,0.0,1.0
-2025-10-05,16:30 (15:30),Premier League,2025-2026,Manchester City,Brentford,Away,Matchweek 7,,,,,,,,,,,,,,,,
-2025-10-18,15:00 (14:00),Premier League,2025-2026,Manchester City,Everton,Home,Matchweek 8,,,,,,,,,,,,,,,,
-2025-10-21,21:00 (19:00),Champions Lg,2025-2026,Manchester City,es Villarreal,Away,League phase,,,,,,,,,,,,,,,,
-2025-10-26,14:00,Premier League,2025-2026,Manchester City,Aston Villa,Away,Matchweek 9,,,,,,,,,,,,,,,,
-2025-10-29,19:45,EFL Cup,2025-2026,Manchester City,Swansea City,Away,Fourth round,,,,,,,,,,,,,,,,
-2025-11-02,16:30,Premier League,2025-2026,Manchester City,Bournemouth,Home,Matchweek 10,,,,,,,,,,,,,,,,
-2025-11-05,20:00,Champions Lg,2025-2026,Manchester City,de Dortmund,Home,League phase,,,,,,,,,,,,,,,,
-2025-11-09,16:30,Premier League,2025-2026,Manchester City,Liverpool,Home,Matchweek 11,,,,,,,,,,,,,,,,
-2025-11-22,17:30,Premier League,2025-2026,Manchester City,Newcastle Utd,Away,Matchweek 12,,,,,,,,,,,,,,,,
-2025-11-25,20:00,Champions Lg,2025-2026,Manchester City,de Leverkusen,Home,League phase,,,,,,,,,,,,,,,,
-2025-11-29,15:00,Premier League,2025-2026,Manchester City,Leeds United,Home,Matchweek 13,,,,,,,,,,,,,,,,
-2025-12-03,20:00,Premier League,2025-2026,Manchester City,Fulham,Away,Matchweek 14,,,,,,,,,,,,,,,,
-2025-12-06,15:00,Premier League,2025-2026,Manchester City,Sunderland,Home,Matchweek 15,,,,,,,,,,,,,,,,
-2025-12-10,21:00 (20:00),Champions Lg,2025-2026,Manchester City,es Real Madrid,Away,League phase,,,,,,,,,,,,,,,,
-2025-12-13,15:00,Premier League,2025-2026,Manchester City,Crystal Palace,Away,Matchweek 16,,,,,,,,,,,,,,,,
-2025-12-20,15:00,Premier League,2025-2026,Manchester City,West Ham,Home,Matchweek 17,,,,,,,,,,,,,,,,
-2025-12-27,15:00,Premier League,2025-2026,Manchester City,Nott'ham Forest,Away,Matchweek 18,,,,,,,,,,,,,,,,
-2025-12-30,20:00,Premier League,2025-2026,Manchester City,Sunderland,Away,Matchweek 19,,,,,,,,,,,,,,,,
-2026-01-03,15:00,Premier League,2025-2026,Manchester City,Chelsea,Home,Matchweek 20,,,,,,,,,,,,,,,,
-2026-01-07,20:00,Premier League,2025-2026,Manchester City,Brighton,Home,Matchweek 21,,,,,,,,,,,,,,,,
-2026-01-17,15:00,Premier League,2025-2026,Manchester City,Manchester Utd,Away,Matchweek 22,,,,,,,,,,,,,,,,
-2026-01-20,18:45 (17:45),Champions Lg,2025-2026,Manchester City,no Bodø/Glimt,Away,League phase,,,,,,,,,,,,,,,,
-2026-01-24,15:00,Premier League,2025-2026,Manchester City,Wolves,Home,Matchweek 23,,,,,,,,,,,,,,,,
-2026-01-28,20:00,Champions Lg,2025-2026,Manchester City,tr Galatasaray,Home,League phase,,,,,,,,,,,,,,,,
-2026-01-31,15:00,Premier League,2025-2026,Manchester City,Tottenham,Away,Matchweek 24,,,,,,,,,,,,,,,,
-2026-02-07,15:00,Premier League,2025-2026,Manchester City,Liverpool,Away,Matchweek 25,,,,,,,,,,,,,,,,
-2026-02-11,20:00,Premier League,2025-2026,Manchester City,Fulham,Home,Matchweek 26,,,,,,,,,,,,,,,,
-2026-02-21,15:00,Premier League,2025-2026,Manchester City,Newcastle Utd,Home,Matchweek 27,,,,,,,,,,,,,,,,
-2026-02-28,15:00,Premier League,2025-2026,Manchester City,Leeds United,Away,Matchweek 28,,,,,,,,,,,,,,,,
-2026-03-04,20:00,Premier League,2025-2026,Manchester City,Nott'ham Forest,Home,Matchweek 29,,,,,,,,,,,,,,,,
-2026-03-14,15:00,Premier League,2025-2026,Manchester City,West Ham,Away,Matchweek 30,,,,,,,,,,,,,,,,
-2026-03-21,15:00,Premier League,2025-2026,Manchester City,Crystal Palace,Home,Matchweek 31,,,,,,,,,,,,,,,,
-2026-04-11,15:00 (14:00),Premier League,2025-2026,Manchester City,Chelsea,Away,Matchweek 32,,,,,,,,,,,,,,,,
-2026-04-18,15:00 (14:00),Premier League,2025-2026,Manchester City,Arsenal,Home,Matchweek 33,,,,,,,,,,,,,,,,
-2026-04-25,15:00 (14:00),Premier League,2025-2026,Manchester City,Burnley,Away,Matchweek 34,,,,,,,,,,,,,,,,
-2026-05-02,15:00 (14:00),Premier League,2025-2026,Manchester City,Everton,Away,Matchweek 35,,,,,,,,,,,,,,,,
-2026-05-09,15:00 (14:00),Premier League,2025-2026,Manchester City,Brentford,Home,Matchweek 36,,,,,,,,,,,,,,,,
-2026-05-17,15:00 (14:00),Premier League,2025-2026,Manchester City,Bournemouth,Away,Matchweek 37,,,,,,,,,,,,,,,,
-2026-05-24,16:00 (15:00),Premier League,2025-2026,Manchester City,Aston Villa,Home,Matchweek 38,,,,,,,,,,,,,,,,
-2025-08-17,16:30 (15:30),Premier League,2025-2026,Manchester United,Arsenal,Home,Matchweek 1,1.5,0,1,22.0,7.0,17.4,1.0,0.0,1.3,1,0,9.0,3.0,18.6,1.0,0.0
-2025-08-24,16:30 (15:30),Premier League,2025-2026,Manchester United,Fulham,Away,Matchweek 2,1.6,1,1,9.0,3.0,17.8,0.0,0.0,1.7,1,1,13.0,3.0,12.9,0.0,0.0
-2025-08-27,20:00 (19:00),EFL Cup,2025-2026,Manchester United,Grimsby Town,Away,Second round,,2 (11),2 (12),28.0,9.0,,,0.0,,2 (12),2 (11),10.0,4.0,,,0.0
-2025-08-30,15:00 (14:00),Premier League,2025-2026,Manchester United,Burnley,Home,Matchweek 3,3.6,3,2,25.0,5.0,14.7,0.0,1.0,1.2,2,3,6.0,3.0,13.7,1.0,0.0
-2025-09-14,16:30 (15:30),Premier League,2025-2026,Manchester United,Manchester City,Away,Matchweek 4,1.2,0,3,12.0,2.0,16.5,0.0,0.0,2.7,3,0,13.0,6.0,11.8,0.0,0.0
-2025-09-20,17:30 (16:30),Premier League,2025-2026,Manchester United,Chelsea,Home,Matchweek 5,1.8,2,1,11.0,4.0,14.9,1.0,0.0,0.4,1,2,5.0,1.0,12.8,0.0,0.0
-2025-09-27,12:30 (11:30),Premier League,2025-2026,Manchester United,Brentford,Away,Matchweek 6,2.1,1,3,13.0,5.0,15.6,0.0,0.0,1.9,3,1,10.0,8.0,14.4,0.0,0.0
-2025-10-04,15:00 (14:00),Premier League,2025-2026,Manchester United,Sunderland,Home,Matchweek 7,1.9,2,0,15.0,6.0,15.7,0.0,0.0,0.7,0,2,8.0,3.0,16.8,0.0,0.0
-2025-10-19,16:30 (15:30),Premier League,2025-2026,Manchester United,Liverpool,Away,Matchweek 8,,,,,,,,,,,,,,,,
-2025-10-25,17:30 (16:30),Premier League,2025-2026,Manchester United,Brighton,Home,Matchweek 9,,,,,,,,,,,,,,,,
-2025-11-01,15:00,Premier League,2025-2026,Manchester United,Nott'ham Forest,Away,Matchweek 10,,,,,,,,,,,,,,,,
-2025-11-08,12:30,Premier League,2025-2026,Manchester United,Tottenham,Away,Matchweek 11,,,,,,,,,,,,,,,,
-2025-11-24,20:00,Premier League,2025-2026,Manchester United,Everton,Home,Matchweek 12,,,,,,,,,,,,,,,,
-2025-11-30,12:00,Premier League,2025-2026,Manchester United,Crystal Palace,Away,Matchweek 13,,,,,,,,,,,,,,,,
-2025-12-03,20:00,Premier League,2025-2026,Manchester United,West Ham,Home,Matchweek 14,,,,,,,,,,,,,,,,
-2025-12-06,15:00,Premier League,2025-2026,Manchester United,Wolves,Away,Matchweek 15,,,,,,,,,,,,,,,,
-2025-12-13,15:00,Premier League,2025-2026,Manchester United,Bournemouth,Home,Matchweek 16,,,,,,,,,,,,,,,,
-2025-12-20,15:00,Premier League,2025-2026,Manchester United,Aston Villa,Away,Matchweek 17,,,,,,,,,,,,,,,,
-2025-12-27,15:00,Premier League,2025-2026,Manchester United,Newcastle Utd,Home,Matchweek 18,,,,,,,,,,,,,,,,
-2025-12-30,20:00,Premier League,2025-2026,Manchester United,Wolves,Home,Matchweek 19,,,,,,,,,,,,,,,,
-2026-01-03,15:00,Premier League,2025-2026,Manchester United,Leeds United,Away,Matchweek 20,,,,,,,,,,,,,,,,
-2026-01-07,20:00,Premier League,2025-2026,Manchester United,Burnley,Away,Matchweek 21,,,,,,,,,,,,,,,,
-2026-01-17,15:00,Premier League,2025-2026,Manchester United,Manchester City,Home,Matchweek 22,,,,,,,,,,,,,,,,
-2026-01-24,15:00,Premier League,2025-2026,Manchester United,Arsenal,Away,Matchweek 23,,,,,,,,,,,,,,,,
-2026-01-31,15:00,Premier League,2025-2026,Manchester United,Fulham,Home,Matchweek 24,,,,,,,,,,,,,,,,
-2026-02-07,15:00,Premier League,2025-2026,Manchester United,Tottenham,Home,Matchweek 25,,,,,,,,,,,,,,,,
-2026-02-11,20:00,Premier League,2025-2026,Manchester United,West Ham,Away,Matchweek 26,,,,,,,,,,,,,,,,
-2026-02-21,15:00,Premier League,2025-2026,Manchester United,Everton,Away,Matchweek 27,,,,,,,,,,,,,,,,
-2026-02-28,15:00,Premier League,2025-2026,Manchester United,Crystal Palace,Home,Matchweek 28,,,,,,,,,,,,,,,,
-2026-03-04,20:00,Premier League,2025-2026,Manchester United,Newcastle Utd,Away,Matchweek 29,,,,,,,,,,,,,,,,
-2026-03-14,15:00,Premier League,2025-2026,Manchester United,Aston Villa,Home,Matchweek 30,,,,,,,,,,,,,,,,
-2026-03-21,15:00,Premier League,2025-2026,Manchester United,Bournemouth,Away,Matchweek 31,,,,,,,,,,,,,,,,
-2026-04-11,15:00 (14:00),Premier League,2025-2026,Manchester United,Leeds United,Home,Matchweek 32,,,,,,,,,,,,,,,,
-2026-04-18,15:00 (14:00),Premier League,2025-2026,Manchester United,Chelsea,Away,Matchweek 33,,,,,,,,,,,,,,,,
-2026-04-25,15:00 (14:00),Premier League,2025-2026,Manchester United,Brentford,Home,Matchweek 34,,,,,,,,,,,,,,,,
-2026-05-02,15:00 (14:00),Premier League,2025-2026,Manchester United,Liverpool,Home,Matchweek 35,,,,,,,,,,,,,,,,
-2026-05-09,15:00 (14:00),Premier League,2025-2026,Manchester United,Sunderland,Away,Matchweek 36,,,,,,,,,,,,,,,,
-2026-05-17,15:00 (14:00),Premier League,2025-2026,Manchester United,Nott'ham Forest,Home,Matchweek 37,,,,,,,,,,,,,,,,
-2026-05-24,16:00 (15:00),Premier League,2025-2026,Manchester United,Brighton,Away,Matchweek 38,,,,,,,,,,,,,,,,
 2025-08-18,20:00 (19:00),Premier League,2025-2026,Everton,Leeds United,Away,Matchweek 1,0.8,0.0,1.0,7.0,1.0,14.5,1.0,0.0,2.0,1.0,0.0,20.0,2.0,18.1,0.0,1.0
 2025-08-24,14:00 (13:00),Premier League,2025-2026,Everton,Brighton,Home,Matchweek 2,1.6,2.0,0.0,11.0,3.0,16.0,0.0,0.0,2.4,0.0,2.0,12.0,3.0,19.8,0.0,0.0
 2025-08-27,20:00 (19:00),EFL Cup,2025-2026,Everton,Mansfield Town,Home,Second round,,2.0,0.0,14.0,6.0,,,0.0,,0.0,2.0,3.0,0.0,,,0.0
@@ -1407,7 +1329,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2025-09-20,12:30 (11:30),Premier League,2025-2026,Everton,Liverpool,Away,Matchweek 5,0.7,1.0,2.0,9.0,2.0,17.8,1.0,0.0,0.9,2.0,1.0,11.0,3.0,17.2,1.0,0.0
 2025-09-23,19:45 (18:45),EFL Cup,2025-2026,Everton,Wolves,Away,Third round,,0.0,2.0,18.0,4.0,,,0.0,,2.0,0.0,13.0,4.0,,,0.0
 2025-09-29,20:00 (19:00),Premier League,2025-2026,Everton,West Ham,Home,Matchweek 6,0.7,1.0,1.0,12.0,6.0,16.4,1.0,0.0,1.2,1.0,1.0,14.0,3.0,15.8,0.0,0.0
-2025-10-05,14:00 (13:00),Premier League,2025-2026,Everton,Crystal Palace,Home,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-05,14:00 (13:00),Premier League,2025-2026,Everton,Crystal Palace,Home,Matchweek 7,2.0,2.0,1.0,13.0,6.0,17.0,0.0,1.0,1.5,1.0,2.0,15.0,6.0,15.7,0.0,0.0
 2025-10-18,15:00 (14:00),Premier League,2025-2026,Everton,Manchester City,Away,Matchweek 8,,,,,,,,,,,,,,,,
 2025-10-26,16:30,Premier League,2025-2026,Everton,Tottenham,Home,Matchweek 9,,,,,,,,,,,,,,,,
 2025-11-03,20:00,Premier League,2025-2026,Everton,Sunderland,Away,Matchweek 10,,,,,,,,,,,,,,,,
@@ -1439,6 +1361,132 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2026-05-09,15:00 (14:00),Premier League,2025-2026,Everton,Crystal Palace,Away,Matchweek 36,,,,,,,,,,,,,,,,
 2026-05-17,15:00 (14:00),Premier League,2025-2026,Everton,Sunderland,Home,Matchweek 37,,,,,,,,,,,,,,,,
 2026-05-24,16:00 (15:00),Premier League,2025-2026,Everton,Tottenham,Away,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-16,15:00 (14:00),Premier League,2025-2026,Sunderland,West Ham,Home,Matchweek 1,0.7,3,0,10.0,5.0,12.0,0.0,0.0,0.6,0,3,12.0,3.0,18.4,0.0,0.0
+2025-08-23,15:00 (14:00),Premier League,2025-2026,Sunderland,Burnley,Away,Matchweek 2,0.8,0,2,9.0,1.0,16.7,0.0,0.0,1.0,2,0,7.0,2.0,17.3,0.0,0.0
+2025-08-26,19:45 (18:45),EFL Cup,2025-2026,Sunderland,Huddersfield,Home,Second round,,1 (5),1 (6),17.0,4.0,,,0.0,,1 (6),1 (5),11.0,4.0,,,0.0
+2025-08-30,15:00 (14:00),Premier League,2025-2026,Sunderland,Brentford,Home,Matchweek 3,1.5,2,1,11.0,2.0,18.4,0.0,1.0,1.2,1,2,6.0,3.0,16.0,0.0,0.0
+2025-09-13,15:00 (14:00),Premier League,2025-2026,Sunderland,Crystal Palace,Away,Matchweek 4,0.4,0,0,6.0,0.0,15.3,0.0,0.0,1.8,0,0,14.0,6.0,16.2,0.0,0.0
+2025-09-21,14:00 (13:00),Premier League,2025-2026,Sunderland,Aston Villa,Home,Matchweek 5,1.0,1,1,14.0,4.0,14.9,0.0,0.0,0.8,1,1,12.0,2.0,20.9,0.0,0.0
+2025-09-27,17:30 (16:30),Premier League,2025-2026,Sunderland,Nott'ham Forest,Away,Matchweek 6,1.6,1,0,11.0,3.0,15.1,0.0,0.0,1.6,0,1,22.0,6.0,16.4,0.0,0.0
+2025-10-04,15:00 (14:00),Premier League,2025-2026,Sunderland,Manchester Utd,Away,Matchweek 7,0.7,0,2,8.0,3.0,16.8,0.0,0.0,1.8,2,0,15.0,6.0,15.7,0.0,0.0
+2025-10-18,15:00 (14:00),Premier League,2025-2026,Sunderland,Wolves,Home,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-25,15:00 (14:00),Premier League,2025-2026,Sunderland,Chelsea,Away,Matchweek 9,,,,,,,,,,,,,,,,
+2025-11-03,20:00,Premier League,2025-2026,Sunderland,Everton,Home,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-08,17:30,Premier League,2025-2026,Sunderland,Arsenal,Home,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-22,15:00,Premier League,2025-2026,Sunderland,Fulham,Away,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-29,15:00,Premier League,2025-2026,Sunderland,Bournemouth,Home,Matchweek 13,,,,,,,,,,,,,,,,
+2025-12-03,20:00,Premier League,2025-2026,Sunderland,Liverpool,Away,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-06,15:00,Premier League,2025-2026,Sunderland,Manchester City,Away,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-13,15:00,Premier League,2025-2026,Sunderland,Newcastle Utd,Home,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-20,15:00,Premier League,2025-2026,Sunderland,Brighton,Away,Matchweek 17,,,,,,,,,,,,,,,,
+2025-12-27,15:00,Premier League,2025-2026,Sunderland,Leeds United,Home,Matchweek 18,,,,,,,,,,,,,,,,
+2025-12-30,20:00,Premier League,2025-2026,Sunderland,Manchester City,Home,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-03,15:00,Premier League,2025-2026,Sunderland,Tottenham,Away,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-07,20:00,Premier League,2025-2026,Sunderland,Brentford,Away,Matchweek 21,,,,,,,,,,,,,,,,
+2026-01-17,15:00,Premier League,2025-2026,Sunderland,Crystal Palace,Home,Matchweek 22,,,,,,,,,,,,,,,,
+2026-01-24,15:00,Premier League,2025-2026,Sunderland,West Ham,Away,Matchweek 23,,,,,,,,,,,,,,,,
+2026-01-31,15:00,Premier League,2025-2026,Sunderland,Burnley,Home,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-07,15:00,Premier League,2025-2026,Sunderland,Arsenal,Away,Matchweek 25,,,,,,,,,,,,,,,,
+2026-02-11,20:00,Premier League,2025-2026,Sunderland,Liverpool,Home,Matchweek 26,,,,,,,,,,,,,,,,
+2026-02-21,15:00,Premier League,2025-2026,Sunderland,Fulham,Home,Matchweek 27,,,,,,,,,,,,,,,,
+2026-02-28,15:00,Premier League,2025-2026,Sunderland,Bournemouth,Away,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-04,20:00,Premier League,2025-2026,Sunderland,Leeds United,Away,Matchweek 29,,,,,,,,,,,,,,,,
+2026-03-14,15:00,Premier League,2025-2026,Sunderland,Brighton,Home,Matchweek 30,,,,,,,,,,,,,,,,
+2026-03-21,15:00,Premier League,2025-2026,Sunderland,Newcastle Utd,Away,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-11,15:00 (14:00),Premier League,2025-2026,Sunderland,Tottenham,Home,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-18,15:00 (14:00),Premier League,2025-2026,Sunderland,Aston Villa,Away,Matchweek 33,,,,,,,,,,,,,,,,
+2026-04-25,15:00 (14:00),Premier League,2025-2026,Sunderland,Nott'ham Forest,Home,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-02,15:00 (14:00),Premier League,2025-2026,Sunderland,Wolves,Away,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-09,15:00 (14:00),Premier League,2025-2026,Sunderland,Manchester Utd,Home,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,15:00 (14:00),Premier League,2025-2026,Sunderland,Everton,Away,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,16:00 (15:00),Premier League,2025-2026,Sunderland,Chelsea,Home,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-17,16:30 (15:30),Premier League,2025-2026,Manchester United,Arsenal,Home,Matchweek 1,1.5,0,1,22.0,7.0,17.4,1.0,0.0,1.3,1,0,9.0,3.0,18.6,1.0,0.0
+2025-08-24,16:30 (15:30),Premier League,2025-2026,Manchester United,Fulham,Away,Matchweek 2,1.6,1,1,9.0,3.0,17.8,0.0,0.0,1.7,1,1,13.0,3.0,12.9,0.0,0.0
+2025-08-27,20:00 (19:00),EFL Cup,2025-2026,Manchester United,Grimsby Town,Away,Second round,,2 (11),2 (12),28.0,9.0,,,0.0,,2 (12),2 (11),10.0,4.0,,,0.0
+2025-08-30,15:00 (14:00),Premier League,2025-2026,Manchester United,Burnley,Home,Matchweek 3,3.6,3,2,25.0,5.0,14.7,0.0,1.0,1.2,2,3,6.0,3.0,13.7,1.0,0.0
+2025-09-14,16:30 (15:30),Premier League,2025-2026,Manchester United,Manchester City,Away,Matchweek 4,1.2,0,3,12.0,2.0,16.5,0.0,0.0,2.7,3,0,13.0,6.0,11.8,0.0,0.0
+2025-09-20,17:30 (16:30),Premier League,2025-2026,Manchester United,Chelsea,Home,Matchweek 5,1.8,2,1,11.0,4.0,14.9,1.0,0.0,0.4,1,2,5.0,1.0,12.8,0.0,0.0
+2025-09-27,12:30 (11:30),Premier League,2025-2026,Manchester United,Brentford,Away,Matchweek 6,2.1,1,3,13.0,5.0,15.6,0.0,0.0,1.9,3,1,10.0,8.0,14.4,0.0,0.0
+2025-10-04,15:00 (14:00),Premier League,2025-2026,Manchester United,Sunderland,Home,Matchweek 7,1.8,2,0,15.0,6.0,15.7,0.0,0.0,0.7,0,2,8.0,3.0,16.8,0.0,0.0
+2025-10-19,16:30 (15:30),Premier League,2025-2026,Manchester United,Liverpool,Away,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-25,17:30 (16:30),Premier League,2025-2026,Manchester United,Brighton,Home,Matchweek 9,,,,,,,,,,,,,,,,
+2025-11-01,15:00,Premier League,2025-2026,Manchester United,Nott'ham Forest,Away,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-08,12:30,Premier League,2025-2026,Manchester United,Tottenham,Away,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-24,20:00,Premier League,2025-2026,Manchester United,Everton,Home,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-30,12:00,Premier League,2025-2026,Manchester United,Crystal Palace,Away,Matchweek 13,,,,,,,,,,,,,,,,
+2025-12-03,20:00,Premier League,2025-2026,Manchester United,West Ham,Home,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-06,15:00,Premier League,2025-2026,Manchester United,Wolves,Away,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-13,15:00,Premier League,2025-2026,Manchester United,Bournemouth,Home,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-20,15:00,Premier League,2025-2026,Manchester United,Aston Villa,Away,Matchweek 17,,,,,,,,,,,,,,,,
+2025-12-27,15:00,Premier League,2025-2026,Manchester United,Newcastle Utd,Home,Matchweek 18,,,,,,,,,,,,,,,,
+2025-12-30,20:00,Premier League,2025-2026,Manchester United,Wolves,Home,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-03,15:00,Premier League,2025-2026,Manchester United,Leeds United,Away,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-07,20:00,Premier League,2025-2026,Manchester United,Burnley,Away,Matchweek 21,,,,,,,,,,,,,,,,
+2026-01-17,15:00,Premier League,2025-2026,Manchester United,Manchester City,Home,Matchweek 22,,,,,,,,,,,,,,,,
+2026-01-24,15:00,Premier League,2025-2026,Manchester United,Arsenal,Away,Matchweek 23,,,,,,,,,,,,,,,,
+2026-01-31,15:00,Premier League,2025-2026,Manchester United,Fulham,Home,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-07,15:00,Premier League,2025-2026,Manchester United,Tottenham,Home,Matchweek 25,,,,,,,,,,,,,,,,
+2026-02-11,20:00,Premier League,2025-2026,Manchester United,West Ham,Away,Matchweek 26,,,,,,,,,,,,,,,,
+2026-02-21,15:00,Premier League,2025-2026,Manchester United,Everton,Away,Matchweek 27,,,,,,,,,,,,,,,,
+2026-02-28,15:00,Premier League,2025-2026,Manchester United,Crystal Palace,Home,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-04,20:00,Premier League,2025-2026,Manchester United,Newcastle Utd,Away,Matchweek 29,,,,,,,,,,,,,,,,
+2026-03-14,15:00,Premier League,2025-2026,Manchester United,Aston Villa,Home,Matchweek 30,,,,,,,,,,,,,,,,
+2026-03-21,15:00,Premier League,2025-2026,Manchester United,Bournemouth,Away,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-11,15:00 (14:00),Premier League,2025-2026,Manchester United,Leeds United,Home,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-18,15:00 (14:00),Premier League,2025-2026,Manchester United,Chelsea,Away,Matchweek 33,,,,,,,,,,,,,,,,
+2026-04-25,15:00 (14:00),Premier League,2025-2026,Manchester United,Brentford,Home,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-02,15:00 (14:00),Premier League,2025-2026,Manchester United,Liverpool,Home,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-09,15:00 (14:00),Premier League,2025-2026,Manchester United,Sunderland,Away,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,15:00 (14:00),Premier League,2025-2026,Manchester United,Nott'ham Forest,Home,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,16:00 (15:00),Premier League,2025-2026,Manchester United,Brighton,Away,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-16,12:30 (11:30),Premier League,2025-2026,Newcastle United,Aston Villa,Away,Matchweek 1,1.4,0.0,0.0,16.0,3.0,23.8,0.0,0.0,0.2,0.0,0.0,3.0,3.0,14.6,0.0,0.0
+2025-08-25,20:00 (19:00),Premier League,2025-2026,Newcastle United,Liverpool,Home,Matchweek 2,1.0,2.0,3.0,10.0,3.0,13.5,1.0,0.0,0.7,3.0,2.0,5.0,4.0,19.3,0.0,0.0
+2025-08-30,17:30 (16:30),Premier League,2025-2026,Newcastle United,Leeds United,Away,Matchweek 3,0.5,0.0,0.0,8.0,2.0,20.4,0.0,0.0,0.7,0.0,0.0,10.0,1.0,20.8,1.0,0.0
+2025-09-13,15:00 (14:00),Premier League,2025-2026,Newcastle United,Wolves,Home,Matchweek 4,1.5,1.0,0.0,16.0,4.0,18.5,0.0,0.0,0.5,0.0,1.0,8.0,3.0,14.0,1.0,0.0
+2025-09-18,20:00 (19:00),Champions Lg,2025-2026,Newcastle United,es Barcelona,Home,League phase,1.2,1.0,2.0,10.0,6.0,15.3,0.0,0.0,1.1,2.0,1.0,19.0,5.0,17.4,1.0,0.0
+2025-09-21,14:00 (13:00),Premier League,2025-2026,Newcastle United,Bournemouth,Away,Matchweek 5,0.2,0.0,0.0,4.0,1.0,23.3,0.0,0.0,0.5,0.0,0.0,11.0,2.0,22.7,1.0,0.0
+2025-09-24,19:45 (18:45),EFL Cup,2025-2026,Newcastle United,Bradford City,Home,Third round,,4.0,1.0,27.0,11.0,,,0.0,,1.0,4.0,6.0,3.0,,,0.0
+2025-09-28,16:30 (15:30),Premier League,2025-2026,Newcastle United,Arsenal,Home,Matchweek 6,0.6,1.0,2.0,8.0,3.0,13.7,0.0,0.0,2.0,2.0,1.0,20.0,7.0,14.2,0.0,0.0
+2025-10-01,18:45 (16:45),Champions Lg,2025-2026,Newcastle United,be Union SG,Away,League phase,2.7,4.0,0.0,11.0,4.0,17.0,0.0,2.0,0.9,0.0,4.0,17.0,6.0,19.3,0.0,0.0
+2025-10-05,14:00 (13:00),Premier League,2025-2026,Newcastle United,Nott'ham Forest,Home,Matchweek 7,3.2,2.0,0.0,17.0,8.0,18.0,0.0,1.0,0.2,0.0,2.0,5.0,4.0,17.9,1.0,0.0
+2025-10-18,15:00 (14:00),Premier League,2025-2026,Newcastle United,Brighton,Away,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-21,20:00 (19:00),Champions Lg,2025-2026,Newcastle United,pt Benfica,Home,League phase,,,,,,,,,,,,,,,,
+2025-10-25,15:00 (14:00),Premier League,2025-2026,Newcastle United,Fulham,Home,Matchweek 9,,,,,,,,,,,,,,,,
+2025-10-29,20:00,EFL Cup,2025-2026,Newcastle United,Tottenham,Home,Fourth round,,,,,,,,,,,,,,,,
+2025-11-02,14:00,Premier League,2025-2026,Newcastle United,West Ham,Away,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-05,20:00,Champions Lg,2025-2026,Newcastle United,es Athletic Club,Home,League phase,,,,,,,,,,,,,,,,
+2025-11-09,14:00,Premier League,2025-2026,Newcastle United,Brentford,Away,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-22,17:30,Premier League,2025-2026,Newcastle United,Manchester City,Home,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-25,21:00 (20:00),Champions Lg,2025-2026,Newcastle United,fr Marseille,Away,League phase,,,,,,,,,,,,,,,,
+2025-11-29,17:30,Premier League,2025-2026,Newcastle United,Everton,Away,Matchweek 13,,,,,,,,,,,,,,,,
+2025-12-03,20:00,Premier League,2025-2026,Newcastle United,Tottenham,Home,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-06,15:00,Premier League,2025-2026,Newcastle United,Burnley,Home,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-10,21:00 (20:00),Champions Lg,2025-2026,Newcastle United,de Leverkusen,Away,League phase,,,,,,,,,,,,,,,,
+2025-12-13,15:00,Premier League,2025-2026,Newcastle United,Sunderland,Away,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-20,15:00,Premier League,2025-2026,Newcastle United,Chelsea,Home,Matchweek 17,,,,,,,,,,,,,,,,
+2025-12-27,15:00,Premier League,2025-2026,Newcastle United,Manchester Utd,Away,Matchweek 18,,,,,,,,,,,,,,,,
+2025-12-30,20:00,Premier League,2025-2026,Newcastle United,Burnley,Away,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-03,15:00,Premier League,2025-2026,Newcastle United,Crystal Palace,Home,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-07,20:00,Premier League,2025-2026,Newcastle United,Leeds United,Home,Matchweek 21,,,,,,,,,,,,,,,,
+2026-01-17,15:00,Premier League,2025-2026,Newcastle United,Wolves,Away,Matchweek 22,,,,,,,,,,,,,,,,
+2026-01-21,20:00,Champions Lg,2025-2026,Newcastle United,nl PSV Eindhoven,Home,League phase,,,,,,,,,,,,,,,,
+2026-01-24,15:00,Premier League,2025-2026,Newcastle United,Aston Villa,Home,Matchweek 23,,,,,,,,,,,,,,,,
+2026-01-28,21:00 (20:00),Champions Lg,2025-2026,Newcastle United,fr Paris S-G,Away,League phase,,,,,,,,,,,,,,,,
+2026-01-31,15:00,Premier League,2025-2026,Newcastle United,Liverpool,Away,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-07,15:00,Premier League,2025-2026,Newcastle United,Brentford,Home,Matchweek 25,,,,,,,,,,,,,,,,
+2026-02-11,20:00,Premier League,2025-2026,Newcastle United,Tottenham,Away,Matchweek 26,,,,,,,,,,,,,,,,
+2026-02-21,15:00,Premier League,2025-2026,Newcastle United,Manchester City,Away,Matchweek 27,,,,,,,,,,,,,,,,
+2026-02-28,15:00,Premier League,2025-2026,Newcastle United,Everton,Home,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-04,20:00,Premier League,2025-2026,Newcastle United,Manchester Utd,Home,Matchweek 29,,,,,,,,,,,,,,,,
+2026-03-14,15:00,Premier League,2025-2026,Newcastle United,Chelsea,Away,Matchweek 30,,,,,,,,,,,,,,,,
+2026-03-21,15:00,Premier League,2025-2026,Newcastle United,Sunderland,Home,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-11,15:00 (14:00),Premier League,2025-2026,Newcastle United,Crystal Palace,Away,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-18,15:00 (14:00),Premier League,2025-2026,Newcastle United,Bournemouth,Home,Matchweek 33,,,,,,,,,,,,,,,,
+2026-04-25,15:00 (14:00),Premier League,2025-2026,Newcastle United,Arsenal,Away,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-02,15:00 (14:00),Premier League,2025-2026,Newcastle United,Brighton,Home,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-09,15:00 (14:00),Premier League,2025-2026,Newcastle United,Nott'ham Forest,Away,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,15:00 (14:00),Premier League,2025-2026,Newcastle United,West Ham,Home,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,16:00 (15:00),Premier League,2025-2026,Newcastle United,Fulham,Away,Matchweek 38,,,,,,,,,,,,,,,,
 2025-08-16,15:00 (14:00),Premier League,2025-2026,Brighton and Hove Albion,Fulham,Home,Matchweek 1,1.5,1.0,1.0,9.0,3.0,19.0,0.0,1.0,0.7,1.0,1.0,7.0,2.0,12.5,0.0,0.0
 2025-08-24,14:00 (13:00),Premier League,2025-2026,Brighton and Hove Albion,Everton,Away,Matchweek 2,2.4,0.0,2.0,12.0,3.0,19.8,0.0,0.0,1.6,2.0,0.0,11.0,3.0,16.0,0.0,0.0
 2025-08-27,19:45 (18:45),EFL Cup,2025-2026,Brighton and Hove Albion,Oxford United,Away,Second round,,6.0,0.0,19.0,9.0,,,0.0,,0.0,6.0,19.0,11.0,,,0.0
@@ -1447,7 +1495,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2025-09-20,15:00 (14:00),Premier League,2025-2026,Brighton and Hove Albion,Tottenham,Home,Matchweek 5,1.3,2.0,2.0,12.0,4.0,24.1,1.0,0.0,1.2,2.0,2.0,11.0,3.0,14.1,0.0,0.0
 2025-09-23,19:45 (18:45),EFL Cup,2025-2026,Brighton and Hove Albion,Barnsley,Away,Third round,,6.0,0.0,16.0,12.0,,,0.0,,0.0,6.0,6.0,0.0,,,0.0
 2025-09-27,15:00 (14:00),Premier League,2025-2026,Brighton and Hove Albion,Chelsea,Away,Matchweek 6,2.3,3.0,1.0,12.0,3.0,15.0,2.0,0.0,1.8,1.0,3.0,13.0,3.0,18.1,2.0,0.0
-2025-10-05,14:00 (13:00),Premier League,2025-2026,Brighton and Hove Albion,Wolves,Away,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-05,14:00 (13:00),Premier League,2025-2026,Brighton and Hove Albion,Wolves,Away,Matchweek 7,0.9,1.0,1.0,17.0,6.0,19.9,2.0,0.0,0.6,1.0,1.0,6.0,3.0,17.0,1.0,0.0
 2025-10-18,15:00 (14:00),Premier League,2025-2026,Brighton and Hove Albion,Newcastle Utd,Home,Matchweek 8,,,,,,,,,,,,,,,,
 2025-10-25,17:30 (16:30),Premier League,2025-2026,Brighton and Hove Albion,Manchester Utd,Away,Matchweek 9,,,,,,,,,,,,,,,,
 2025-10-29,19:45,EFL Cup,2025-2026,Brighton and Hove Albion,Arsenal,Away,Fourth round,,,,,,,,,,,,,,,,
@@ -1480,6 +1528,53 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2026-05-09,15:00 (14:00),Premier League,2025-2026,Brighton and Hove Albion,Wolves,Home,Matchweek 36,,,,,,,,,,,,,,,,
 2026-05-17,15:00 (14:00),Premier League,2025-2026,Brighton and Hove Albion,Leeds United,Away,Matchweek 37,,,,,,,,,,,,,,,,
 2026-05-24,16:00 (15:00),Premier League,2025-2026,Brighton and Hove Albion,Manchester Utd,Home,Matchweek 38,,,,,,,,,,,,,,,,
+2025-08-16,12:30 (11:30),Premier League,2025-2026,Aston Villa,Newcastle Utd,Home,Matchweek 1,0.2,0,0,3.0,3.0,14.6,0.0,0.0,1.4,0,0,16.0,3.0,23.8,0.0,0.0
+2025-08-23,15:00 (14:00),Premier League,2025-2026,Aston Villa,Brentford,Away,Matchweek 2,1.2,0,1,17.0,2.0,16.9,0.0,0.0,1.2,1,0,9.0,2.0,12.6,0.0,0.0
+2025-08-31,19:00 (18:00),Premier League,2025-2026,Aston Villa,Crystal Palace,Home,Matchweek 3,1.1,0,3,13.0,4.0,16.6,0.0,0.0,2.6,3,0,5.0,3.0,14.9,0.0,1.0
+2025-09-13,15:00 (14:00),Premier League,2025-2026,Aston Villa,Everton,Away,Matchweek 4,0.4,0,0,7.0,1.0,22.6,1.0,0.0,2.0,0,0,20.0,2.0,15.6,0.0,0.0
+2025-09-16,20:00 (19:00),EFL Cup,2025-2026,Aston Villa,Brentford,Away,Third round,,1 (2),1 (4),12.0,6.0,,,0.0,,1 (4),1 (2),10.0,3.0,,,0.0
+2025-09-21,14:00 (13:00),Premier League,2025-2026,Aston Villa,Sunderland,Away,Matchweek 5,0.8,1,1,12.0,2.0,20.9,0.0,0.0,1.0,1,1,14.0,4.0,14.9,0.0,0.0
+2025-09-25,20:00 (19:00),Europa Lg,2025-2026,Aston Villa,it Bologna,Home,League phase,1.6,1,0,11.0,3.0,18.0,0.0,0.0,1.2,0,1,17.0,7.0,17.0,0.0,0.0
+2025-09-28,14:00 (13:00),Premier League,2025-2026,Aston Villa,Fulham,Home,Matchweek 6,1.1,3,1,9.0,4.0,19.8,1.0,0.0,1.1,1,3,11.0,3.0,16.4,0.0,0.0
+2025-10-02,21:00 (19:00),Europa Lg,2025-2026,Aston Villa,nl Feyenoord,Away,League phase,0.6,2,0,6.0,3.0,19.9,0.0,0.0,1.5,0,2,19.0,8.0,18.2,0.0,0.0
+2025-10-05,14:00 (13:00),Premier League,2025-2026,Aston Villa,Burnley,Home,Matchweek 7,1.1,2,1,15.0,7.0,14.2,0.0,0.0,0.4,1,2,5.0,2.0,16.2,0.0,0.0
+2025-10-19,14:00 (13:00),Premier League,2025-2026,Aston Villa,Tottenham,Away,Matchweek 8,,,,,,,,,,,,,,,,
+2025-10-23,18:45 (16:45),Europa Lg,2025-2026,Aston Villa,nl Go Ahead Eag,Away,League phase,,,,,,,,,,,,,,,,
+2025-10-26,14:00,Premier League,2025-2026,Aston Villa,Manchester City,Home,Matchweek 9,,,,,,,,,,,,,,,,
+2025-11-01,20:00,Premier League,2025-2026,Aston Villa,Liverpool,Away,Matchweek 10,,,,,,,,,,,,,,,,
+2025-11-06,20:00,Europa Lg,2025-2026,Aston Villa,il Maccabi Tel Aviv,Home,League phase,,,,,,,,,,,,,,,,
+2025-11-09,14:00,Premier League,2025-2026,Aston Villa,Bournemouth,Home,Matchweek 11,,,,,,,,,,,,,,,,
+2025-11-23,14:00,Premier League,2025-2026,Aston Villa,Leeds United,Away,Matchweek 12,,,,,,,,,,,,,,,,
+2025-11-27,17:45,Europa Lg,2025-2026,Aston Villa,ch Young Boys,Home,League phase,,,,,,,,,,,,,,,,
+2025-11-30,14:05,Premier League,2025-2026,Aston Villa,Wolves,Home,Matchweek 13,,,,,,,,,,,,,,,,
+2025-12-03,20:00,Premier League,2025-2026,Aston Villa,Brighton,Away,Matchweek 14,,,,,,,,,,,,,,,,
+2025-12-06,15:00,Premier League,2025-2026,Aston Villa,Arsenal,Home,Matchweek 15,,,,,,,,,,,,,,,,
+2025-12-11,21:00 (20:00),Europa Lg,2025-2026,Aston Villa,ch Basel,Away,League phase,,,,,,,,,,,,,,,,
+2025-12-13,15:00,Premier League,2025-2026,Aston Villa,West Ham,Away,Matchweek 16,,,,,,,,,,,,,,,,
+2025-12-20,15:00,Premier League,2025-2026,Aston Villa,Manchester Utd,Home,Matchweek 17,,,,,,,,,,,,,,,,
+2025-12-27,15:00,Premier League,2025-2026,Aston Villa,Chelsea,Away,Matchweek 18,,,,,,,,,,,,,,,,
+2025-12-30,20:00,Premier League,2025-2026,Aston Villa,Arsenal,Away,Matchweek 19,,,,,,,,,,,,,,,,
+2026-01-03,15:00,Premier League,2025-2026,Aston Villa,Nott'ham Forest,Home,Matchweek 20,,,,,,,,,,,,,,,,
+2026-01-07,20:00,Premier League,2025-2026,Aston Villa,Crystal Palace,Away,Matchweek 21,,,,,,,,,,,,,,,,
+2026-01-17,15:00,Premier League,2025-2026,Aston Villa,Everton,Home,Matchweek 22,,,,,,,,,,,,,,,,
+2026-01-22,20:45 (17:45),Europa Lg,2025-2026,Aston Villa,tr Fenerbahçe,Away,League phase,,,,,,,,,,,,,,,,
+2026-01-24,15:00,Premier League,2025-2026,Aston Villa,Newcastle Utd,Away,Matchweek 23,,,,,,,,,,,,,,,,
+2026-01-29,20:00,Europa Lg,2025-2026,Aston Villa,at RB Salzburg,Home,League phase,,,,,,,,,,,,,,,,
+2026-01-31,15:00,Premier League,2025-2026,Aston Villa,Brentford,Home,Matchweek 24,,,,,,,,,,,,,,,,
+2026-02-07,15:00,Premier League,2025-2026,Aston Villa,Bournemouth,Away,Matchweek 25,,,,,,,,,,,,,,,,
+2026-02-11,20:00,Premier League,2025-2026,Aston Villa,Brighton,Home,Matchweek 26,,,,,,,,,,,,,,,,
+2026-02-21,15:00,Premier League,2025-2026,Aston Villa,Leeds United,Home,Matchweek 27,,,,,,,,,,,,,,,,
+2026-02-28,15:00,Premier League,2025-2026,Aston Villa,Wolves,Away,Matchweek 28,,,,,,,,,,,,,,,,
+2026-03-04,20:00,Premier League,2025-2026,Aston Villa,Chelsea,Home,Matchweek 29,,,,,,,,,,,,,,,,
+2026-03-14,15:00,Premier League,2025-2026,Aston Villa,Manchester Utd,Away,Matchweek 30,,,,,,,,,,,,,,,,
+2026-03-21,15:00,Premier League,2025-2026,Aston Villa,West Ham,Home,Matchweek 31,,,,,,,,,,,,,,,,
+2026-04-11,15:00 (14:00),Premier League,2025-2026,Aston Villa,Nott'ham Forest,Away,Matchweek 32,,,,,,,,,,,,,,,,
+2026-04-18,15:00 (14:00),Premier League,2025-2026,Aston Villa,Sunderland,Home,Matchweek 33,,,,,,,,,,,,,,,,
+2026-04-25,15:00 (14:00),Premier League,2025-2026,Aston Villa,Fulham,Away,Matchweek 34,,,,,,,,,,,,,,,,
+2026-05-02,15:00 (14:00),Premier League,2025-2026,Aston Villa,Tottenham,Home,Matchweek 35,,,,,,,,,,,,,,,,
+2026-05-09,15:00 (14:00),Premier League,2025-2026,Aston Villa,Burnley,Away,Matchweek 36,,,,,,,,,,,,,,,,
+2026-05-17,15:00 (14:00),Premier League,2025-2026,Aston Villa,Liverpool,Home,Matchweek 37,,,,,,,,,,,,,,,,
+2026-05-24,16:00 (15:00),Premier League,2025-2026,Aston Villa,Manchester City,Away,Matchweek 38,,,,,,,,,,,,,,,,
 2025-08-16,15:00 (14:00),Premier League,2025-2026,Fulham,Brighton,Away,Matchweek 1,0.7,1.0,1.0,7.0,2.0,12.5,0.0,0.0,1.5,1.0,1.0,9.0,3.0,19.0,0.0,1.0
 2025-08-24,16:30 (15:30),Premier League,2025-2026,Fulham,Manchester Utd,Home,Matchweek 2,1.7,1.0,1.0,13.0,3.0,12.9,0.0,0.0,1.6,1.0,1.0,9.0,3.0,17.8,0.0,0.0
 2025-08-27,19:45 (18:45),EFL Cup,2025-2026,Fulham,Bristol City,Home,Second round,,2.0,0.0,11.0,4.0,,,0.0,,0.0,2.0,7.0,0.0,,,0.0
@@ -1568,7 +1663,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2025-09-16,20:00 (19:00),EFL Cup,2025-2026,Brentford,Aston Villa,Home,Third round,,1 (4),1 (2),10.0,3.0,,,0.0,,1 (2),1 (4),12.0,6.0,,,0.0
 2025-09-20,20:00 (19:00),Premier League,2025-2026,Brentford,Fulham,Away,Matchweek 5,0.6,1,3,8.0,3.0,12.4,0.0,0.0,1.0,3,1,14.0,3.0,17.8,0.0,0.0
 2025-09-27,12:30 (11:30),Premier League,2025-2026,Brentford,Manchester Utd,Home,Matchweek 6,1.9,3,1,10.0,8.0,14.4,0.0,0.0,2.1,1,3,13.0,5.0,15.6,0.0,0.0
-2025-10-05,16:30 (15:30),Premier League,2025-2026,Brentford,Manchester City,Home,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-05,16:30 (15:30),Premier League,2025-2026,Brentford,Manchester City,Home,Matchweek 7,0.7,0,1,6.0,1.0,20.2,0.0,0.0,0.8,1,0,10.0,4.0,17.9,0.0,0.0
 2025-10-20,20:00 (19:00),Premier League,2025-2026,Brentford,West Ham,Away,Matchweek 8,,,,,,,,,,,,,,,,
 2025-10-25,20:00 (19:00),Premier League,2025-2026,Brentford,Liverpool,Home,Matchweek 9,,,,,,,,,,,,,,,,
 2025-10-28,19:45,EFL Cup,2025-2026,Brentford,Grimsby Town,Away,Fourth round,,,,,,,,,,,,,,,,
@@ -1601,101 +1696,6 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2026-05-09,15:00 (14:00),Premier League,2025-2026,Brentford,Manchester City,Away,Matchweek 36,,,,,,,,,,,,,,,,
 2026-05-17,15:00 (14:00),Premier League,2025-2026,Brentford,Crystal Palace,Home,Matchweek 37,,,,,,,,,,,,,,,,
 2026-05-24,16:00 (15:00),Premier League,2025-2026,Brentford,Liverpool,Away,Matchweek 38,,,,,,,,,,,,,,,,
-2025-08-16,12:30 (11:30),Premier League,2025-2026,Newcastle United,Aston Villa,Away,Matchweek 1,1.4,0.0,0.0,16.0,3.0,23.8,0.0,0.0,0.2,0.0,0.0,3.0,3.0,14.6,0.0,0.0
-2025-08-25,20:00 (19:00),Premier League,2025-2026,Newcastle United,Liverpool,Home,Matchweek 2,1.0,2.0,3.0,10.0,3.0,13.5,1.0,0.0,0.7,3.0,2.0,5.0,4.0,19.3,0.0,0.0
-2025-08-30,17:30 (16:30),Premier League,2025-2026,Newcastle United,Leeds United,Away,Matchweek 3,0.5,0.0,0.0,8.0,2.0,20.4,0.0,0.0,0.7,0.0,0.0,10.0,1.0,20.8,1.0,0.0
-2025-09-13,15:00 (14:00),Premier League,2025-2026,Newcastle United,Wolves,Home,Matchweek 4,1.5,1.0,0.0,16.0,4.0,18.5,0.0,0.0,0.5,0.0,1.0,8.0,3.0,14.0,1.0,0.0
-2025-09-18,20:00 (19:00),Champions Lg,2025-2026,Newcastle United,es Barcelona,Home,League phase,1.2,1.0,2.0,10.0,6.0,15.3,0.0,0.0,1.1,2.0,1.0,19.0,5.0,17.4,1.0,0.0
-2025-09-21,14:00 (13:00),Premier League,2025-2026,Newcastle United,Bournemouth,Away,Matchweek 5,0.2,0.0,0.0,4.0,1.0,23.3,0.0,0.0,0.5,0.0,0.0,11.0,2.0,22.7,1.0,0.0
-2025-09-24,19:45 (18:45),EFL Cup,2025-2026,Newcastle United,Bradford City,Home,Third round,,4.0,1.0,27.0,11.0,,,0.0,,1.0,4.0,6.0,3.0,,,0.0
-2025-09-28,16:30 (15:30),Premier League,2025-2026,Newcastle United,Arsenal,Home,Matchweek 6,0.6,1.0,2.0,8.0,3.0,13.7,0.0,0.0,2.0,2.0,1.0,20.0,7.0,14.2,0.0,0.0
-2025-10-01,18:45 (16:45),Champions Lg,2025-2026,Newcastle United,be Union SG,Away,League phase,2.7,4.0,0.0,11.0,4.0,17.0,0.0,2.0,0.9,0.0,4.0,17.0,6.0,19.3,0.0,0.0
-2025-10-05,14:00 (13:00),Premier League,2025-2026,Newcastle United,Nott'ham Forest,Home,Matchweek 7,,,,,,,,,,,,,,,,
-2025-10-18,15:00 (14:00),Premier League,2025-2026,Newcastle United,Brighton,Away,Matchweek 8,,,,,,,,,,,,,,,,
-2025-10-21,20:00 (19:00),Champions Lg,2025-2026,Newcastle United,pt Benfica,Home,League phase,,,,,,,,,,,,,,,,
-2025-10-25,15:00 (14:00),Premier League,2025-2026,Newcastle United,Fulham,Home,Matchweek 9,,,,,,,,,,,,,,,,
-2025-10-29,20:00,EFL Cup,2025-2026,Newcastle United,Tottenham,Home,Fourth round,,,,,,,,,,,,,,,,
-2025-11-02,14:00,Premier League,2025-2026,Newcastle United,West Ham,Away,Matchweek 10,,,,,,,,,,,,,,,,
-2025-11-05,20:00,Champions Lg,2025-2026,Newcastle United,es Athletic Club,Home,League phase,,,,,,,,,,,,,,,,
-2025-11-09,14:00,Premier League,2025-2026,Newcastle United,Brentford,Away,Matchweek 11,,,,,,,,,,,,,,,,
-2025-11-22,17:30,Premier League,2025-2026,Newcastle United,Manchester City,Home,Matchweek 12,,,,,,,,,,,,,,,,
-2025-11-25,21:00 (20:00),Champions Lg,2025-2026,Newcastle United,fr Marseille,Away,League phase,,,,,,,,,,,,,,,,
-2025-11-29,17:30,Premier League,2025-2026,Newcastle United,Everton,Away,Matchweek 13,,,,,,,,,,,,,,,,
-2025-12-03,20:00,Premier League,2025-2026,Newcastle United,Tottenham,Home,Matchweek 14,,,,,,,,,,,,,,,,
-2025-12-06,15:00,Premier League,2025-2026,Newcastle United,Burnley,Home,Matchweek 15,,,,,,,,,,,,,,,,
-2025-12-10,21:00 (20:00),Champions Lg,2025-2026,Newcastle United,de Leverkusen,Away,League phase,,,,,,,,,,,,,,,,
-2025-12-13,15:00,Premier League,2025-2026,Newcastle United,Sunderland,Away,Matchweek 16,,,,,,,,,,,,,,,,
-2025-12-20,15:00,Premier League,2025-2026,Newcastle United,Chelsea,Home,Matchweek 17,,,,,,,,,,,,,,,,
-2025-12-27,15:00,Premier League,2025-2026,Newcastle United,Manchester Utd,Away,Matchweek 18,,,,,,,,,,,,,,,,
-2025-12-30,20:00,Premier League,2025-2026,Newcastle United,Burnley,Away,Matchweek 19,,,,,,,,,,,,,,,,
-2026-01-03,15:00,Premier League,2025-2026,Newcastle United,Crystal Palace,Home,Matchweek 20,,,,,,,,,,,,,,,,
-2026-01-07,20:00,Premier League,2025-2026,Newcastle United,Leeds United,Home,Matchweek 21,,,,,,,,,,,,,,,,
-2026-01-17,15:00,Premier League,2025-2026,Newcastle United,Wolves,Away,Matchweek 22,,,,,,,,,,,,,,,,
-2026-01-21,20:00,Champions Lg,2025-2026,Newcastle United,nl PSV Eindhoven,Home,League phase,,,,,,,,,,,,,,,,
-2026-01-24,15:00,Premier League,2025-2026,Newcastle United,Aston Villa,Home,Matchweek 23,,,,,,,,,,,,,,,,
-2026-01-28,21:00 (20:00),Champions Lg,2025-2026,Newcastle United,fr Paris S-G,Away,League phase,,,,,,,,,,,,,,,,
-2026-01-31,15:00,Premier League,2025-2026,Newcastle United,Liverpool,Away,Matchweek 24,,,,,,,,,,,,,,,,
-2026-02-07,15:00,Premier League,2025-2026,Newcastle United,Brentford,Home,Matchweek 25,,,,,,,,,,,,,,,,
-2026-02-11,20:00,Premier League,2025-2026,Newcastle United,Tottenham,Away,Matchweek 26,,,,,,,,,,,,,,,,
-2026-02-21,15:00,Premier League,2025-2026,Newcastle United,Manchester City,Away,Matchweek 27,,,,,,,,,,,,,,,,
-2026-02-28,15:00,Premier League,2025-2026,Newcastle United,Everton,Home,Matchweek 28,,,,,,,,,,,,,,,,
-2026-03-04,20:00,Premier League,2025-2026,Newcastle United,Manchester Utd,Home,Matchweek 29,,,,,,,,,,,,,,,,
-2026-03-14,15:00,Premier League,2025-2026,Newcastle United,Chelsea,Away,Matchweek 30,,,,,,,,,,,,,,,,
-2026-03-21,15:00,Premier League,2025-2026,Newcastle United,Sunderland,Home,Matchweek 31,,,,,,,,,,,,,,,,
-2026-04-11,15:00 (14:00),Premier League,2025-2026,Newcastle United,Crystal Palace,Away,Matchweek 32,,,,,,,,,,,,,,,,
-2026-04-18,15:00 (14:00),Premier League,2025-2026,Newcastle United,Bournemouth,Home,Matchweek 33,,,,,,,,,,,,,,,,
-2026-04-25,15:00 (14:00),Premier League,2025-2026,Newcastle United,Arsenal,Away,Matchweek 34,,,,,,,,,,,,,,,,
-2026-05-02,15:00 (14:00),Premier League,2025-2026,Newcastle United,Brighton,Home,Matchweek 35,,,,,,,,,,,,,,,,
-2026-05-09,15:00 (14:00),Premier League,2025-2026,Newcastle United,Nott'ham Forest,Away,Matchweek 36,,,,,,,,,,,,,,,,
-2026-05-17,15:00 (14:00),Premier League,2025-2026,Newcastle United,West Ham,Home,Matchweek 37,,,,,,,,,,,,,,,,
-2026-05-24,16:00 (15:00),Premier League,2025-2026,Newcastle United,Fulham,Away,Matchweek 38,,,,,,,,,,,,,,,,
-2025-08-16,12:30 (11:30),Premier League,2025-2026,Aston Villa,Newcastle Utd,Home,Matchweek 1,0.2,0,0,3.0,3.0,14.6,0.0,0.0,1.4,0,0,16.0,3.0,23.8,0.0,0.0
-2025-08-23,15:00 (14:00),Premier League,2025-2026,Aston Villa,Brentford,Away,Matchweek 2,1.2,0,1,17.0,2.0,16.9,0.0,0.0,1.2,1,0,9.0,2.0,12.6,0.0,0.0
-2025-08-31,19:00 (18:00),Premier League,2025-2026,Aston Villa,Crystal Palace,Home,Matchweek 3,1.1,0,3,13.0,4.0,16.6,0.0,0.0,2.6,3,0,5.0,3.0,14.9,0.0,1.0
-2025-09-13,15:00 (14:00),Premier League,2025-2026,Aston Villa,Everton,Away,Matchweek 4,0.4,0,0,7.0,1.0,22.6,1.0,0.0,2.0,0,0,20.0,2.0,15.6,0.0,0.0
-2025-09-16,20:00 (19:00),EFL Cup,2025-2026,Aston Villa,Brentford,Away,Third round,,1 (2),1 (4),12.0,6.0,,,0.0,,1 (4),1 (2),10.0,3.0,,,0.0
-2025-09-21,14:00 (13:00),Premier League,2025-2026,Aston Villa,Sunderland,Away,Matchweek 5,0.8,1,1,12.0,2.0,20.9,0.0,0.0,1.0,1,1,14.0,4.0,14.9,0.0,0.0
-2025-09-25,20:00 (19:00),Europa Lg,2025-2026,Aston Villa,it Bologna,Home,League phase,1.6,1,0,11.0,3.0,18.0,0.0,0.0,1.2,0,1,17.0,7.0,17.0,0.0,0.0
-2025-09-28,14:00 (13:00),Premier League,2025-2026,Aston Villa,Fulham,Home,Matchweek 6,1.1,3,1,9.0,4.0,19.8,1.0,0.0,1.1,1,3,11.0,3.0,16.4,0.0,0.0
-2025-10-02,21:00 (19:00),Europa Lg,2025-2026,Aston Villa,nl Feyenoord,Away,League phase,0.6,2,0,6.0,3.0,19.9,0.0,0.0,1.5,0,2,19.0,8.0,18.2,0.0,0.0
-2025-10-05,14:00 (13:00),Premier League,2025-2026,Aston Villa,Burnley,Home,Matchweek 7,,,,,,,,,,,,,,,,
-2025-10-19,14:00 (13:00),Premier League,2025-2026,Aston Villa,Tottenham,Away,Matchweek 8,,,,,,,,,,,,,,,,
-2025-10-23,18:45 (16:45),Europa Lg,2025-2026,Aston Villa,nl Go Ahead Eag,Away,League phase,,,,,,,,,,,,,,,,
-2025-10-26,14:00,Premier League,2025-2026,Aston Villa,Manchester City,Home,Matchweek 9,,,,,,,,,,,,,,,,
-2025-11-01,20:00,Premier League,2025-2026,Aston Villa,Liverpool,Away,Matchweek 10,,,,,,,,,,,,,,,,
-2025-11-06,20:00,Europa Lg,2025-2026,Aston Villa,il Maccabi Tel Aviv,Home,League phase,,,,,,,,,,,,,,,,
-2025-11-09,14:00,Premier League,2025-2026,Aston Villa,Bournemouth,Home,Matchweek 11,,,,,,,,,,,,,,,,
-2025-11-23,14:00,Premier League,2025-2026,Aston Villa,Leeds United,Away,Matchweek 12,,,,,,,,,,,,,,,,
-2025-11-27,17:45,Europa Lg,2025-2026,Aston Villa,ch Young Boys,Home,League phase,,,,,,,,,,,,,,,,
-2025-11-30,14:05,Premier League,2025-2026,Aston Villa,Wolves,Home,Matchweek 13,,,,,,,,,,,,,,,,
-2025-12-03,20:00,Premier League,2025-2026,Aston Villa,Brighton,Away,Matchweek 14,,,,,,,,,,,,,,,,
-2025-12-06,15:00,Premier League,2025-2026,Aston Villa,Arsenal,Home,Matchweek 15,,,,,,,,,,,,,,,,
-2025-12-11,21:00 (20:00),Europa Lg,2025-2026,Aston Villa,ch Basel,Away,League phase,,,,,,,,,,,,,,,,
-2025-12-13,15:00,Premier League,2025-2026,Aston Villa,West Ham,Away,Matchweek 16,,,,,,,,,,,,,,,,
-2025-12-20,15:00,Premier League,2025-2026,Aston Villa,Manchester Utd,Home,Matchweek 17,,,,,,,,,,,,,,,,
-2025-12-27,15:00,Premier League,2025-2026,Aston Villa,Chelsea,Away,Matchweek 18,,,,,,,,,,,,,,,,
-2025-12-30,20:00,Premier League,2025-2026,Aston Villa,Arsenal,Away,Matchweek 19,,,,,,,,,,,,,,,,
-2026-01-03,15:00,Premier League,2025-2026,Aston Villa,Nott'ham Forest,Home,Matchweek 20,,,,,,,,,,,,,,,,
-2026-01-07,20:00,Premier League,2025-2026,Aston Villa,Crystal Palace,Away,Matchweek 21,,,,,,,,,,,,,,,,
-2026-01-17,15:00,Premier League,2025-2026,Aston Villa,Everton,Home,Matchweek 22,,,,,,,,,,,,,,,,
-2026-01-22,20:45 (17:45),Europa Lg,2025-2026,Aston Villa,tr Fenerbahçe,Away,League phase,,,,,,,,,,,,,,,,
-2026-01-24,15:00,Premier League,2025-2026,Aston Villa,Newcastle Utd,Away,Matchweek 23,,,,,,,,,,,,,,,,
-2026-01-29,20:00,Europa Lg,2025-2026,Aston Villa,at RB Salzburg,Home,League phase,,,,,,,,,,,,,,,,
-2026-01-31,15:00,Premier League,2025-2026,Aston Villa,Brentford,Home,Matchweek 24,,,,,,,,,,,,,,,,
-2026-02-07,15:00,Premier League,2025-2026,Aston Villa,Bournemouth,Away,Matchweek 25,,,,,,,,,,,,,,,,
-2026-02-11,20:00,Premier League,2025-2026,Aston Villa,Brighton,Home,Matchweek 26,,,,,,,,,,,,,,,,
-2026-02-21,15:00,Premier League,2025-2026,Aston Villa,Leeds United,Home,Matchweek 27,,,,,,,,,,,,,,,,
-2026-02-28,15:00,Premier League,2025-2026,Aston Villa,Wolves,Away,Matchweek 28,,,,,,,,,,,,,,,,
-2026-03-04,20:00,Premier League,2025-2026,Aston Villa,Chelsea,Home,Matchweek 29,,,,,,,,,,,,,,,,
-2026-03-14,15:00,Premier League,2025-2026,Aston Villa,Manchester Utd,Away,Matchweek 30,,,,,,,,,,,,,,,,
-2026-03-21,15:00,Premier League,2025-2026,Aston Villa,West Ham,Home,Matchweek 31,,,,,,,,,,,,,,,,
-2026-04-11,15:00 (14:00),Premier League,2025-2026,Aston Villa,Nott'ham Forest,Away,Matchweek 32,,,,,,,,,,,,,,,,
-2026-04-18,15:00 (14:00),Premier League,2025-2026,Aston Villa,Sunderland,Home,Matchweek 33,,,,,,,,,,,,,,,,
-2026-04-25,15:00 (14:00),Premier League,2025-2026,Aston Villa,Fulham,Away,Matchweek 34,,,,,,,,,,,,,,,,
-2026-05-02,15:00 (14:00),Premier League,2025-2026,Aston Villa,Tottenham,Home,Matchweek 35,,,,,,,,,,,,,,,,
-2026-05-09,15:00 (14:00),Premier League,2025-2026,Aston Villa,Burnley,Away,Matchweek 36,,,,,,,,,,,,,,,,
-2026-05-17,15:00 (14:00),Premier League,2025-2026,Aston Villa,Liverpool,Home,Matchweek 37,,,,,,,,,,,,,,,,
-2026-05-24,16:00 (15:00),Premier League,2025-2026,Aston Villa,Manchester City,Away,Matchweek 38,,,,,,,,,,,,,,,,
 2025-08-17,14:00 (13:00),Premier League,2025-2026,Nottingham Forest,Brentford,Home,Matchweek 1,1.8,3.0,1.0,11.0,5.0,18.6,0.0,0.0,1.4,1.0,3.0,9.0,2.0,16.2,0.0,1.0
 2025-08-24,14:00 (13:00),Premier League,2025-2026,Nottingham Forest,Crystal Palace,Away,Matchweek 2,0.9,1.0,1.0,9.0,1.0,13.2,0.0,0.0,1.1,1.0,1.0,8.0,4.0,13.4,0.0,0.0
 2025-08-31,14:00 (13:00),Premier League,2025-2026,Nottingham Forest,West Ham,Home,Matchweek 3,0.7,0.0,3.0,11.0,3.0,15.9,0.0,0.0,2.4,3.0,0.0,11.0,7.0,13.3,0.0,1.0
@@ -1705,7 +1705,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2025-09-24,21:00 (19:00),Europa Lg,2025-2026,Nottingham Forest,es Betis,Away,League phase,2.7,2.0,2.0,16.0,6.0,13.7,0.0,0.0,0.4,2.0,2.0,9.0,4.0,19.5,0.0,0.0
 2025-09-27,17:30 (16:30),Premier League,2025-2026,Nottingham Forest,Sunderland,Home,Matchweek 6,1.6,0.0,1.0,22.0,6.0,16.4,0.0,0.0,1.6,1.0,0.0,11.0,3.0,15.1,0.0,0.0
 2025-10-02,20:00 (19:00),Europa Lg,2025-2026,Nottingham Forest,dk Midtjylland,Home,League phase,1.9,2.0,3.0,21.0,8.0,19.5,0.0,1.0,2.2,3.0,2.0,8.0,4.0,10.5,1.0,0.0
-2025-10-05,14:00 (13:00),Premier League,2025-2026,Nottingham Forest,Newcastle Utd,Away,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-05,14:00 (13:00),Premier League,2025-2026,Nottingham Forest,Newcastle Utd,Away,Matchweek 7,0.2,0.0,2.0,5.0,4.0,17.9,1.0,0.0,3.2,2.0,0.0,17.0,8.0,18.0,0.0,1.0
 2025-10-18,12:30 (11:30),Premier League,2025-2026,Nottingham Forest,Chelsea,Home,Matchweek 8,,,,,,,,,,,,,,,,
 2025-10-23,20:00 (19:00),Europa Lg,2025-2026,Nottingham Forest,pt Porto,Home,League phase,,,,,,,,,,,,,,,,
 2025-10-26,14:00,Premier League,2025-2026,Nottingham Forest,Bournemouth,Away,Matchweek 9,,,,,,,,,,,,,,,,
@@ -1751,7 +1751,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2025-09-20,15:00 (14:00),Premier League,2025-2026,Burnley,Nott'ham Forest,Home,Matchweek 5,0.9,1.0,1.0,12.0,5.0,14.4,1.0,0.0,1.1,1.0,1.0,17.0,8.0,19.6,0.0,0.0
 2025-09-23,19:45 (18:45),EFL Cup,2025-2026,Burnley,Cardiff City,Home,Third round,,1.0,2.0,15.0,8.0,,,0.0,,2.0,1.0,9.0,3.0,,,0.0
 2025-09-27,15:00 (14:00),Premier League,2025-2026,Burnley,Manchester City,Away,Matchweek 6,0.4,1.0,5.0,9.0,2.0,17.9,0.0,0.0,2.0,5.0,1.0,21.0,8.0,16.8,0.0,0.0
-2025-10-05,14:00 (13:00),Premier League,2025-2026,Burnley,Aston Villa,Away,Matchweek 7,0.4,1.0,2.0,5.0,2.0,16.4,0.0,0.0,1.3,2.0,1.0,15.0,7.0,14.7,0.0,0.0
+2025-10-05,14:00 (13:00),Premier League,2025-2026,Burnley,Aston Villa,Away,Matchweek 7,0.4,1.0,2.0,5.0,2.0,16.2,0.0,0.0,1.1,2.0,1.0,15.0,7.0,14.2,0.0,0.0
 2025-10-18,15:00 (14:00),Premier League,2025-2026,Burnley,Leeds United,Home,Matchweek 8,,,,,,,,,,,,,,,,
 2025-10-26,14:00,Premier League,2025-2026,Burnley,Wolves,Away,Matchweek 9,,,,,,,,,,,,,,,,
 2025-11-01,15:00,Premier League,2025-2026,Burnley,Arsenal,Home,Matchweek 10,,,,,,,,,,,,,,,,
@@ -1830,7 +1830,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2025-09-20,15:00 (14:00),Premier League,2025-2026,Wolverhampton Wanderers,Leeds United,Home,Matchweek 5,1.8,1.0,3.0,16.0,6.0,15.7,0.0,0.0,0.5,3.0,1.0,6.0,4.0,22.2,1.0,0.0
 2025-09-23,19:45 (18:45),EFL Cup,2025-2026,Wolverhampton Wanderers,Everton,Home,Third round,,2.0,0.0,13.0,4.0,,,0.0,,0.0,2.0,18.0,4.0,,,0.0
 2025-09-27,20:00 (19:00),Premier League,2025-2026,Wolverhampton Wanderers,Tottenham,Away,Matchweek 6,1.1,1.0,1.0,9.0,3.0,15.1,0.0,0.0,0.8,1.0,1.0,10.0,3.0,17.2,0.0,0.0
-2025-10-05,14:00 (13:00),Premier League,2025-2026,Wolverhampton Wanderers,Brighton,Home,Matchweek 7,,,,,,,,,,,,,,,,
+2025-10-05,14:00 (13:00),Premier League,2025-2026,Wolverhampton Wanderers,Brighton,Home,Matchweek 7,0.6,1.0,1.0,6.0,3.0,17.0,1.0,0.0,0.9,1.0,1.0,17.0,6.0,19.9,2.0,0.0
 2025-10-18,15:00 (14:00),Premier League,2025-2026,Wolverhampton Wanderers,Sunderland,Away,Matchweek 8,,,,,,,,,,,,,,,,
 2025-10-26,14:00,Premier League,2025-2026,Wolverhampton Wanderers,Burnley,Home,Matchweek 9,,,,,,,,,,,,,,,,
 2025-10-29,19:45,EFL Cup,2025-2026,Wolverhampton Wanderers,Chelsea,Home,Fourth round,,,,,,,,,,,,,,,,
