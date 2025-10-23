@@ -10,7 +10,7 @@ date,time,comp,season,team,opponent,venue,round,xg_for,gf_for,ga_for,sh_for,sot_
 2025-09-30,22:00 (19:00),Champions Lg,2025-2026,Bayern Munich,cy Pafos FC,Away,League phase,4.5,5.0,1.0,26.0,15.0,14.2,0.0,0.0,0.4,1.0,5.0,6.0,2.0,18.6,0.0,0.0
 2025-10-04,18:30 (16:30),Bundesliga,2025-2026,Bayern Munich,Eint Frankfurt,Away,Matchweek 6,1.7,3.0,0.0,12.0,3.0,14.8,0.0,0.0,0.3,0.0,3.0,6.0,1.0,20.5,0.0,0.0
 2025-10-18,18:30 (16:30),Bundesliga,2025-2026,Bayern Munich,Dortmund,Home,Matchweek 7,2.4,2.0,1.0,15.0,7.0,15.0,0.0,0.0,1.6,1.0,2.0,8.0,1.0,16.4,0.0,0.0
-2025-10-22,21:00 (19:00),Champions Lg,2025-2026,Bayern Munich,be Club Brugge,Home,League phase,,,,,,,,,,,,,,,,
+2025-10-22,21:00 (19:00),Champions Lg,2025-2026,Bayern Munich,be Club Brugge,Home,League phase,4.0,4.0,0.0,26.0,11.0,15.6,0.0,0.0,0.2,0.0,4.0,5.0,2.0,16.9,0.0,0.0
 2025-10-25,15:30 (13:30),Bundesliga,2025-2026,Bayern Munich,Gladbach,Away,Matchweek 8,,,,,,,,,,,,,,,,
 2025-10-29,20:45 (19:45),DFB-Pokal,2025-2026,Bayern Munich,Köln,Away,Round of 32,,,,,,,,,,,,,,,,
 2025-11-01,18:30 (17:30),Bundesliga,2025-2026,Bayern Munich,Leverkusen,Home,Matchweek 9,,,,,,,,,,,,,,,,
@@ -137,7 +137,7 @@ Date,Time,Comp,2025-2026,Stuttgart,Opponent,Venue,Round,,,,,,,,,,,,,,,,
 2025-10-01,21:00 (19:00),Champions Lg,2025-2026,Dortmund,es Athletic Club,Home,League phase,1.1,4.0,1.0,13.0,8.0,18.5,0.0,0.0,0.9,1.0,4.0,6.0,3.0,14.3,0.0,0.0
 2025-10-04,15:30 (13:30),Bundesliga,2025-2026,Dortmund,RB Leipzig,Home,Matchweek 6,0.9,1.0,1.0,15.0,3.0,20.5,0.0,0.0,1.1,1.0,1.0,13.0,3.0,17.1,0.0,0.0
 2025-10-18,18:30 (16:30),Bundesliga,2025-2026,Dortmund,Bayern Munich,Away,Matchweek 7,1.6,1.0,2.0,8.0,1.0,16.4,0.0,0.0,2.4,2.0,1.0,15.0,7.0,15.0,0.0,0.0
-2025-10-21,21:00 (19:00),Champions Lg,2025-2026,Dortmund,dk FC Copenhagen,Away,League phase,1.7,4.0,2.0,8.0,4.0,18.1,0.0,1.0,0.7,2.0,4.0,11.0,4.0,20.4,1.0,0.0
+2025-10-21,21:00 (19:00),Champions Lg,2025-2026,Dortmund,dk FC Copenhagen,Away,League phase,1.6,4.0,2.0,8.0,4.0,17.8,0.0,1.0,0.8,2.0,4.0,11.0,4.0,19.7,1.0,0.0
 2025-10-25,18:30 (16:30),Bundesliga,2025-2026,Dortmund,Köln,Home,Matchweek 8,,,,,,,,,,,,,,,,
 2025-10-28,18:30 (17:30),DFB-Pokal,2025-2026,Dortmund,Eint Frankfurt,Away,Round of 32,,,,,,,,,,,,,,,,
 2025-10-31,20:30 (19:30),Bundesliga,2025-2026,Dortmund,Augsburg,Away,Matchweek 9,,,,,,,,,,,,,,,,
@@ -182,7 +182,7 @@ Date,Time,Comp,2025-2026,Dortmund,Opponent,Venue,Round,,,,,,,,,,,,,,,,
 2025-10-01,21:00 (19:00),Champions Lg,2025-2026,Bayer Leverkusen,nl PSV Eindhoven,Home,League phase,1.7,1.0,1.0,14.0,4.0,14.6,0.0,0.0,0.5,1.0,1.0,6.0,1.0,17.0,0.0,0.0
 2025-10-04,15:30 (13:30),Bundesliga,2025-2026,Bayer Leverkusen,Union Berlin,Home,Matchweek 6,2.9,2.0,0.0,20.0,3.0,21.8,1.0,0.0,0.9,0.0,2.0,10.0,3.0,16.5,0.0,0.0
 2025-10-18,15:30 (13:30),Bundesliga,2025-2026,Bayer Leverkusen,Mainz 05,Away,Matchweek 7,3.4,4.0,3.0,19.0,6.0,16.6,1.0,1.0,1.6,3.0,4.0,11.0,3.0,20.2,2.0,1.0
-2025-10-21,21:00 (19:00),Champions Lg,2025-2026,Bayer Leverkusen,fr Paris S-G,Home,League phase,2.5,2.0,7.0,4.0,2.0,25.8,0.0,1.0,2.8,7.0,2.0,24.0,8.0,18.8,0.0,0.0
+2025-10-21,21:00 (19:00),Champions Lg,2025-2026,Bayer Leverkusen,fr Paris S-G,Home,League phase,2.3,2.0,7.0,4.0,2.0,25.8,0.0,1.0,2.8,7.0,2.0,24.0,8.0,18.8,0.0,0.0
 2025-10-26,15:30 (14:30),Bundesliga,2025-2026,Bayer Leverkusen,Freiburg,Home,Matchweek 8,,,,,,,,,,,,,,,,
 2025-10-29,18:00 (17:00),DFB-Pokal,2025-2026,Bayer Leverkusen,Paderborn 07,Away,Round of 32,,,,,,,,,,,,,,,,
 2025-11-01,18:30 (17:30),Bundesliga,2025-2026,Bayer Leverkusen,Bayern Munich,Away,Matchweek 9,,,,,,,,,,,,,,,,
@@ -263,7 +263,7 @@ Date,Time,Comp,2025-2026,Bayer Leverkusen,Opponent,Venue,Round,,,,,,,,,,,,,,,,
 2025-09-30,21:00 (19:00),Champions Lg,2025-2026,Eintracht Frankfurt,es Atlético Madrid,Away,League phase,0.5,1.0,5.0,6.0,2.0,20.9,0.0,0.0,4.3,5.0,1.0,17.0,11.0,13.4,0.0,1.0
 2025-10-04,18:30 (16:30),Bundesliga,2025-2026,Eintracht Frankfurt,Bayern Munich,Home,Matchweek 6,0.3,0.0,3.0,6.0,1.0,20.5,0.0,0.0,1.7,3.0,0.0,12.0,3.0,14.8,0.0,0.0
 2025-10-19,15:30 (13:30),Bundesliga,2025-2026,Eintracht Frankfurt,Freiburg,Away,Matchweek 7,0.8,2.0,2.0,8.0,3.0,14.6,0.0,0.0,1.1,2.0,2.0,12.0,5.0,13.8,1.0,0.0
-2025-10-22,21:00 (19:00),Champions Lg,2025-2026,Eintracht Frankfurt,eng Liverpool,Home,League phase,,,,,,,,,,,,,,,,
+2025-10-22,21:00 (19:00),Champions Lg,2025-2026,Eintracht Frankfurt,eng Liverpool,Home,League phase,0.2,1.0,5.0,4.0,1.0,19.0,0.0,0.0,3.2,5.0,1.0,18.0,14.0,13.6,1.0,0.0
 2025-10-25,15:30 (13:30),Bundesliga,2025-2026,Eintracht Frankfurt,St. Pauli,Home,Matchweek 8,,,,,,,,,,,,,,,,
 2025-10-28,18:30 (17:30),DFB-Pokal,2025-2026,Eintracht Frankfurt,Dortmund,Home,Round of 32,,,,,,,,,,,,,,,,
 2025-11-01,15:30 (14:30),Bundesliga,2025-2026,Eintracht Frankfurt,Heidenheim,Away,Matchweek 9,,,,,,,,,,,,,,,,
