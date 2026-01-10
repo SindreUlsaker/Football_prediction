@@ -48,7 +48,6 @@ def get_driver():
     )
     lang = os.getenv("FBREF_LANG", "en-US,en;q=0.9")
     proxy = os.getenv("FBREF_PROXY")  # eks. http://user:pass@host:port
-    chrome_bin = os.getenv("CHROME_BIN")  # <-- NYTT: path fra workflow
 
     if uc:
         options = uc.ChromeOptions()
@@ -66,10 +65,6 @@ def get_driver():
         if proxy:
             options.add_argument(f"--proxy-server={proxy}")
         options.page_load_strategy = "eager"
-
-        # NYTT: bruk eksakt Chrome-binær fra Actions
-        if chrome_bin:
-            options.binary_location = chrome_bin
 
         _driver = uc.Chrome(options=options)
         _driver.set_page_load_timeout(120)
@@ -111,9 +106,6 @@ def get_driver():
         )
         options.add_experimental_option("useAutomationExtension", False)
         options.page_load_strategy = "eager"
-
-        if chrome_bin:
-            options.binary_location = chrome_bin
 
         _driver = webdriver.Chrome(options=options)
         _driver.set_page_load_timeout(120)

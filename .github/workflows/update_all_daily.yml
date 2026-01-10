@@ -24,20 +24,6 @@ jobs:
       - name: Random jitter to avoid CF windows
         run: sleep $(( (RANDOM % 240) + 60 ))
 
-      # Pin Chrome til v140 for å matche ChromeDriver 140 som Selenium Manager henter
-      - name: Set up Google Chrome
-        id: setup-chrome
-        uses: browser-actions/setup-chrome@v1
-        with:
-          chrome-version: "141"
-
-      - name: Show Chrome version
-        run: |
-          which google-chrome || true
-          google-chrome --version || true
-          which chrome || true
-          chrome --version || true
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -69,9 +55,6 @@ jobs:
           PY
 
       - name: Run update_all.py
-        env:
-          # Hvis koden din leser CHROME_BIN, eksponer den eksplisitt
-          CHROME_BIN: ${{ steps.setup-chrome.outputs.chrome-path }}
         run: |
           echo "[`date -u +'%Y-%m-%d %H:%M:%S'`] Starter update_all_daily pipeline"
           python -m src.scripts.update_all
